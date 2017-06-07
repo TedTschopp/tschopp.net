@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/tedtschopp
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.tedt.org
+  * I am tedtschopp (https://keybase.io/tedtschopp) on keybase.
+  * I have a public key with fingerprint 268E A665 06E4 A72B 8C3D  6346 399A 48C5 EC04 1AB2
+
+  
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120ec415380f0332b992fb43dacba05606dcb0f1365376967c1b2d66170daf2d23d0a",
+            "fingerprint": "268ea66506e4a72b8c3d6346399a48c5ec041ab2",
+            "host": "keybase.io",
+            "key_id": "399a48c5ec041ab2",
+            "kid": "010172583578d10ce0939a29af588fe679a620db3cb29f868f02771bcba4d6e393f60a",
+            "uid": "22c08f5ad57e72c0e3db9cd5a2cd6c19",
+            "username": "tedtschopp"
+        },
+        "service": {
+            "hostname": "www.tedt.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1496872537,
+    "expire_in": 157680000,
+    "prev": "da83f521fe51c24f842e8a41b406e597ec590b65a5c6c82d1132731c86fae0cb",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.71
+Comment: https://keybase.io/crypto
+
+yMNxAnicbVJ/UBRVHD84DuHEEaYUoUZkKSRAZn++3T07AUcZyxGySNC0a/ft27uV
+4/a8PQ4RaSqMGZQchIFS/ulqIhQHNTDIsgmDYcQrQpgyKJAxfk0NhYgzDtPQHqP/
+9f55733f5/N5n8/3vZ41RoM5hD+3q/evsPgvQm51ny0x7Od8+8sxUZXKMEs5VoRW
+JuSUkOa1FSkSZsFwgsQRpAmG4nAZpyhS5HlSFmlKEqAo4AzAgQRFXCYowFAs4AEL
+CZGUACBYXBJkUiIpCRewdExWXHbkcXsUl1eXJQGHBAAYHCBaYEmRg5QEKBpQPC/Q
+HGQQxGlCEEmd6FC1IEM3JwoaylBUvaZvbCv2/gf/xDdOsCTDUQzLSQQOEc5TvEDy
+gsxwnIwAywuAxCWRgiLJyxzgZJxkWULUQ9ESQBRPyWDFd8mKHElCnJMZQWJYxOpr
+REkiDyVGIKEEIMEHgRryuIRipKO9SPJq0KG63VhFOqbXfQpEwdYGszzGlJaWZgRx
+GarHrrPdHtWrQtWpnzi8XrclSPSWuVeQSLQ91rCJikvSG6kTfMijKaoLsxA6EnqV
+oChB84DTU1NsOoaOuhUPsilBBMMCDtdH8Brk0yUlgaNkhiRkxBCQpGWOJhEn0IRI
+6w/C8CyCDI+LgBEYCCBHSgRBkSxFQA7IAsKhiAVTHXGpujav+xTsuqam2F2Ct8SD
+sIob3QfDDCFmQ7gpNPjDDObI6Cf/Lo+INjR1yPlrPrzdWrQnogmF1SwdV/HmpO6B
+ghMwuWX0I+5Yb45N3HwnhXe4hrXFrukFd91v50tc1Smvt76p+Y298Xvf15j8ziQf
+X9biz138Jcp/dSzrWdN72snvFq22ux3OpLjNmdmmrQmNAbx4fqQrVpYXVrX6FteO
+xU4kj9PP334h6bnr197SXL2rS1ON29sGvxqa6fv8wsDN3FCn4XxrQeNOe0tsIv/B
+lPm6+crumeY5Yr7hy7qNxst/xzw1UtX1aEtbv7vwyIBzvsd/dt3gt8K/gRnT6lO5
+Y99P3WvKia5PKyk+fK0xJPLPiuavDyfEBfpJx8HaHUO1PRGFft+l039E1D1iPq28
+cSh75/y5m5N5P94vfrE2CjIPSiuXpvscfO1U1e+BvlWzVcsvL+fUWEyVL52pz784
+cEdLS2jofEfr7DfOdl4qUt27H37mP7ZxX/Ur4GrbdmXa+9NQYuGDhYwDOXVRgbRb
+lpmPL1dnz4xuSTndsBzfbV3ete21n4frwMirk8c/+YbY93ZczHJKal/ronx/Kx0x
+2pS89qj512dmrZnI0d7uy9/hu5K7qTz1TFcnmWUYHJikTr5LWIdrnh6eOLQp8kK1
+6wfrCc/cRIwxLaf+AGsfnwtd2pDXw5ku7vknNPNhYO/4vY71udToOsERv03JUsPX
+F7zRbq11bli4mxjuFBL+A5Jbuo0=
+=xJAM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tedtschopp
+
+==================================================================
