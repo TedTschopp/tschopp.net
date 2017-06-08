@@ -6,11 +6,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
+    <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
+
+    <!-- Base URL to use for all relative URLs contained within the document -->
+    <base href="https://www.tedt.org/">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <meta http-equiv="cleartype" content="on">
-
 
 
     <!-- Favicon Meta Tags.  -->
@@ -23,92 +27,89 @@
     <link rel="icon" href="/graphics/favicon-192.png" sizes="192x192" type="image/png">
 
     <!-- Apple iOS Settings. -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="App Title">
-    <meta name="apple-itunes-app" content="app-id=APP_ID, affiliate-data=AFFILIATE_ID, app-argument=http/url-sample.com"> <!-- App Banner. -->
-    <meta name="format-detection" content="telephone=no">
-    <link rel="apple-touch-icon" href="/graphics/apple-touch-icon.png">
-    <link rel="apple-touch-icon-precomposed" href="/graphics/apple-touch-icon-precomposed.png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/graphics/apple-icon-57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/graphics/apple-icon-72.png">
+    <meta name="apple-mobile-web-app-capable"          content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> <!-- Color of the status bar -->
+    <meta name="apple-mobile-web-app-title"            content="Ted Tschopp"><!-- Web App Name for the Shortcut -->
+    <meta name="format-detection"                      content="telephone=no"> <!-- Do Not Detect Phone Numbers -->
+    <link rel="apple-touch-icon"                 href="/graphics/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed"     href="/graphics/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" sizes="57x57"   href="/graphics/apple-icon-57.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="/graphics/apple-icon-72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/graphics/apple-icon-114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="/graphics/apple-icon-144.png">
-    <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com"> <!-- Apple iOS app deep linking. -->
-    <meta property="al:ios:url" content="applinks://docs">
-    <meta property="al:ios:app_store_id" content="12345">
-    <meta property="al:ios:app_name" content="App Links">
+
     <!-- Apple Safari Pinned Site. -->
     <link rel="mask-icon" href="path/to/icon.svg" color="red">
 
+    <!-- App Banner and link to app store. -->
+    <!--
+    <meta name="apple-itunes-app"                      content="app-id=APP_ID, affiliate-data=AFFILIATE_ID, app-argument=http/url-sample.com">
+    -->
+    <!-- Apple iOS app deep linking. -->
+    <!--
+    <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
+    <meta property="al:ios:url" content="applinks://docs">
+    <meta property="al:ios:app_store_id" content="12345">
+    <meta property="al:ios:app_name" content="App Links">
+    -->
 
     <!-- Google Android. -->
+    <!--
     <meta name="theme-color" content="#E64545">
     <meta name="google-play-app" content="app-id=package-name">
-    <link rel="alternate" href="android-app://package-name/http/url-sample.com"> <!-- Android app deep linking. -->
+    -->
+    <!-- Android app deep linking. -->
+    <!--
+    <link rel="alternate" href="android-app://package-name/http/url-sample.com">
     <meta property="al:android:url" content="applinks://docs">
     <meta property="al:android:app_name" content="App Links">
     <meta property="al:android:package" content="org.applinks">
+  -->
+
     <!-- Google Chrome. -->
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
     <meta name="google" value="notranslate">
     <!-- Add to homescreen for Chrome on Android -->
-    <!--
     <meta name="mobile-web-app-capable" content="yes">
-    -->
-
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#222222">
     <!-- Windows Internet Explorer. -->
-    <meta http-equiv="cleartype" content="on">
-    <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="application-name" content="Contoso Pinned Site Caption">
-    <meta name="msapplication-tooltip" content="Example Tooltip Text">
-    <meta name="msapplication-starturl" content="/">
+    <meta http-equiv="cleartype"                   content="on">
+    <meta name="skype_toolbar"                     content="skype_toolbar_parser_compatible">
+    <meta name="msapplication-tap-highlight"       content="no">
+    <meta name="application-name"                  content="Contoso Pinned Site Caption">
+    <meta name="msapplication-tooltip"             content="Example Tooltip Text">
+    <meta name="msapplication-starturl"            content="/">
     <meta name="msapplication-allowDomainApiCalls" content="true">
     <meta name="msapplication-allowDomainMetaTags" content="true">
-    <meta name="msapplication-badge" content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
-    <meta name="msapplication-navbutton-color" content="#FF3300">
-    <meta name="msapplication-notification" content="frequency=60;polling-uri=http://example.com/livetile">
-    <meta name="msapplication-square150x150logo" content="/graphics/ie-logo.png">
-    <meta name="msapplication-square310x310logo" content="/graphics/ie-logo-large.png">
-    <meta name="msapplication-square70x70logo" content="/graphics/ie-logo-small.png">
-    <meta name="msapplication-wide310x150logo" content="/graphics/ie-logo-wide.png">
-    <meta name="msapplication-task" content="name=Check Order Status;action-uri=./orderStatus.aspx?src=IE9;icon-uri=./favicon.ico">
-    <meta name="msapplication-task-separator" content="1">
-    <meta name="msapplication-TileColor" content="#FF3300">
-    <meta name="msapplication-TileImage" content="path/to/tileimage.jpg">
-    <meta name="msapplication-window" content="width=1024;height=768">
+    <meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
+    <meta name="msapplication-navbutton-color"     content="#FF3300">
+    <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
+    <meta name="msapplication-square150x150logo"   content="/graphics/ie-logo.png">
+    <meta name="msapplication-square310x310logo"   content="/graphics/ie-logo-large.png">
+    <meta name="msapplication-square70x70logo"     content="/graphics/ie-logo-small.png">
+    <meta name="msapplication-wide310x150logo"     content="/graphics/ie-logo-wide.png">
+    <meta name="msapplication-task"                content="name=Check Order Status;action-uri=./orderStatus.aspx?src=IE9;icon-uri=./favicon.ico">
+    <meta name="msapplication-task-separator"      content="1">
+    <meta name="msapplication-TileColor"           content="#FF3300">
+    <meta name="msapplication-TileImage"           content="path/to/tileimage.jpg">
+    <meta name="msapplication-window"              content="width=1024;height=768">
 
 
-
-
-    <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
-    <!--
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="">
-    -->
 
     <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
     <!--
     <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
     -->
 
+    <title>Ted Tschopp</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="author" href="/humans.txt">
+    <link rel="copyright" href="/copyright.html">
 
-
-
-
-
-
-    <title>Page Title</title>
-    <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
-    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
-    <!-- Base URL to use for all relative URLs contained within the document -->
-    <base href="https://www.tedt.org/">
     <!-- Geo Positioning Meta Tags. -->
     <meta name="geo.position"  content="50.97590;0.01722">
     <meta name="geo.region"    content="GB">
@@ -120,16 +121,19 @@
     <meta name="abstract"    content=""> <!-- Keep uder 100 characters -->
     <meta name="rating"      content=""> <!-- General, 14 Years, Mature or Restricted -->
     <!-- Search engine robots Meta Tags. -->
-    <meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive"> <!-- Disable from all search engines.-->
+    <!-- Disable from all search engines.-->
+    <!--
+    <meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">
+    -->
     <!-- Open Graph Meta Tags (ogp.me) -->
     <meta property="og:image"            content="http://example.com/image.jpg">  <!-- Web page thumbnail -->
     <meta property="og:image"            content="http://example.com/image2.jpg"> <!-- Web page thumbnail (can be multiple) -->
-    <meta property="og:site_name"        content="Site Name">                     <!-- Web site title -->
-    <meta property="og:title"            content="Page Title">                    <!-- Web page title -->
+    <meta property="og:site_name"        content="Ted Tschopp">                     <!-- Web site title -->
+    <meta property="og:title"            content="Ted Tschopp">                    <!-- Web page title -->
     <meta property="og:description"      content="Description of this web page">  <!-- Web page description -->
     <meta property="og:type"             content="article">                       <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
     <meta property="og:url"              content="http://example.com/index.html"> <!-- Url to this web page -->
-    <meta property="og:locale"           content="en_GB">                         <!-- Main Language -->
+    <meta property="og:locale"           content="en_US">                         <!-- Main Language -->
     <meta property="og:locale:alternate" content="fr_FR">                         <!-- Alternate Language -->
     <meta property="og:locale:alternate" content="es_ES">                         <!-- Alternate Language -->
     <meta property="og:latitude"         content="50.97590">                      <!-- Geographical coordenate -->
@@ -159,7 +163,7 @@
     <meta name="twitter:site" content="@site_account">
     <meta name="twitter:creator" content="@individual_account">
     <meta name="twitter:url" content="https://example.com/page.html">
-    <meta name="twitter:title" content="Content Title">
+    <meta name="twitter:title" content="Ted Tschopp">
     <meta name="twitter:description" content="Content description less than 200 characters">
     <meta name="twitter:image" content="https://example.com/image.jpg">
     <!-- Pinterest. -->
@@ -169,15 +173,6 @@
     <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
     <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
 
-
-    <title>Ted Tschopp's Landing Page</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-
-    <link rel="author" href="/humans.txt">
-    <link rel="copyright" href="/copyright.html">
 
 
 
