@@ -53,6 +53,11 @@
     <meta property="al:ios:app_name" content="App Links">
     -->
 
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <!--
+    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    -->
+
     <!-- Google Android. -->
     <!--
     <meta name="theme-color" content="#E64545">
@@ -96,13 +101,6 @@
     <meta name="msapplication-TileColor"           content="#FF3300">
     <meta name="msapplication-TileImage"           content="path/to/tileimage.jpg">
     <meta name="msapplication-window"              content="width=1024;height=768">
-
-
-
-    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
-    <!--
-    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
-    -->
 
     <title>Ted Tschopp</title>
     <meta name="description" content="">
@@ -157,17 +155,18 @@
     <meta property="og:upc"              content="885909367481">                  <!-- UPC EAN barcodes-->
     <meta property="og:isbn"             content="1873520786">                    <!-- Book ISBN number-->
     <!-- Facebook Meta Tags. -->
-    <meta property="fb:app_id" content="123456789">
+    <meta property="fb:app_id"           content="123456789">
     <!-- Twitter Meta Tags. -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@site_account">
-    <meta name="twitter:creator" content="@individual_account">
-    <meta name="twitter:url" content="https://example.com/page.html">
-    <meta name="twitter:title" content="Ted Tschopp">
-    <meta name="twitter:description" content="Content description less than 200 characters">
-    <meta name="twitter:image" content="https://example.com/image.jpg">
+    <meta name="twitter:card"            content="summary">
+    <meta name="twitter:site"            content="@site_account">
+    <meta name="twitter:creator"         content="@TedTschopp">
+    <meta name="twitter:url"             content="https://example.com/page.html">
+    <meta name="twitter:title"           content="Ted Tschopp">
+    <meta name="twitter:description"     content="Content description less than 200 characters">
+    <meta name="twitter:image"           content="https://example.com/image.jpg">
     <!-- Pinterest. -->
-    <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">  <!-- Prevents sharing of content by Pinterest users. -->
+    <!-- Prevents sharing of content by Pinterest users. -->
+    <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
     <!-- News Feed Meta Tags. -->
     <link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
     <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
