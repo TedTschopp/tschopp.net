@@ -34,7 +34,7 @@
 	<!-- Web App Name for the Shortcut -->
 	<meta name="apple-mobile-web-app-title"            content="Ted Tschopp">
 	<!-- Do Not Detect Phone Numbers -->
-    <meta name="format-detection"                      content="telephone=no"> 
+    <meta name="format-detection" content="telephone=no"> 
     
 	<!-- iPhone icons -->
 	<link rel="apple-touch-icon"                 href="/img/apple-touch-icon.png">
@@ -54,7 +54,7 @@
 
     <!-- App Banner and link to app store. -->
     <!--
-    <meta name="apple-itunes-app"                      content="app-id=APP_ID, affiliate-data=AFFILIATE_ID, app-argument=http/url-sample.com">
+    <meta name="apple-itunes-app" content="app-id=APP_ID, affiliate-data=AFFILIATE_ID, app-argument=http/url-sample.com">
     -->
     <!-- Apple iOS app deep linking. -->
     <!--
@@ -103,80 +103,127 @@
     <meta name="msapplication-TileColor" content="#222222">
     <!-- Windows Internet Explorer. -->
     <meta http-equiv="cleartype"                   content="on">
-    <meta name="skype_toolbar"                     content="skype_toolbar_parser_compatible">
+    <meta name="skype_toolbar"content="skype_toolbar_parser_compatible">
     <meta name="msapplication-tap-highlight"       content="no">
-    <meta name="application-name"                  content="Contoso Pinned Site Caption">
-    <meta name="msapplication-tooltip"             content="Example Tooltip Text">
+    <meta name="application-name"                  content="Ted Tschopp">
+    <meta name="msapplication-tooltip"             content="Ted Tschopp's homepage">
     <meta name="msapplication-starturl"            content="/">
-    <meta name="msapplication-allowDomainApiCalls" content="true">
-    <meta name="msapplication-allowDomainMetaTags" content="true">
-    <meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
-    <meta name="msapplication-navbutton-color"     content="#FF3300">
-    <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
     <meta name="msapplication-square150x150logo"   content="/img/mstile-150x150.png">
     <meta name="msapplication-square310x310logo"   content="/img/mstile-310x310.png">
     <meta name="msapplication-square70x70logo"     content="/img/mstile-70x70.png">
     <meta name="msapplication-wide310x150logo"     content="/img/mstile-310x150.png">
-    <meta name="msapplication-task"                content="name=Check Order Status;action-uri=./orderStatus.aspx?src=IE9;icon-uri=./favicon.ico">
-    <meta name="msapplication-task-separator"      content="1">
+    <meta name="msapplication-navbutton-color"     content="#FF3300">
     <meta name="msapplication-TileColor"           content="#FF3300">
     <meta name="msapplication-TileImage"           content="/img/mstile-144x144.png">
+    <meta name="msapplication-task-separator"      content="1">
+    <meta name="msapplication-task"                content="name=Contact Ted;
+															action-uri=./#contact;
+															icon-uri=./img/favicon.ico">
+    <meta name="msapplication-task"                content="name=Ted's Projects;
+															action-uri=./#projects;
+															icon-uri=./img/favicon.ico">
+    <meta name="msapplication-allowDomainApiCalls" content="false">
+    <meta name="msapplication-allowDomainMetaTags" content="false">
     <meta name="msapplication-window"              content="width=1024;height=768">
+	<!--
+	<meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
+    <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
+    -->
 
     <title>Ted Tschopp</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Ted Tschopp">
     <link rel="author" href="/humans.txt">
     <link rel="copyright" href="/copyright.html">
 
     <!-- Geo Positioning Meta Tags. -->
-    <meta name="geo.position"  content="50.97590;0.01722">
+    <!--
+	<meta name="geo.position"  content="50.97590;0.01722">
     <meta name="geo.region"    content="GB">
     <meta name="geo.placename" content="London, United Kingdom">
     <meta name="ICBM"          content="50.9759, 0.0172">
     <meta name="DC.title"      content="Location Name">
+	-->
     <!-- Search Eengine and Browser Meta Tags. -->
-    <meta name="description" content=""> <!-- Keep under 500 characters -->
-    <meta name="abstract"    content=""> <!-- Keep uder 100 characters -->
-    <meta name="rating"      content=""> <!-- General, 14 Years, Mature or Restricted -->
+	<!-- The description of the website. Keep under 500 characters -->
+	<meta name="description" content=""> 
+	<!-- The short description of the website.  Keep uder 100 characters -->
+    <meta name="abstract"    content=""> 
+ 
     <!-- Search engine robots Meta Tags. -->
     <!-- Disable from all search engines.-->
-    <!--
-    <meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">
-    -->
-    <!-- Open Graph Meta Tags (ogp.me) -->
+    <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
+ 
+	<!-- Open Graph Meta Tags (ogp.me) -->
     <meta property="og:image"            content="http://example.com/image.jpg">  <!-- Web page thumbnail -->
     <meta property="og:image"            content="http://example.com/image2.jpg"> <!-- Web page thumbnail (can be multiple) -->
-    <meta property="og:site_name"        content="Ted Tschopp">                     <!-- Web site title -->
-    <meta property="og:title"            content="Ted Tschopp">                    <!-- Web page title -->
-    <meta property="og:description"      content="Description of this web page">  <!-- Web page description -->
-    <meta property="og:type"             content="article">                       <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
-    <meta property="og:url"              content="http://example.com/index.html"> <!-- Url to this web page -->
-    <meta property="og:locale"           content="en_US">                         <!-- Main Language -->
-    <meta property="og:locale:alternate" content="fr_FR">                         <!-- Alternate Language -->
-    <meta property="og:locale:alternate" content="es_ES">                         <!-- Alternate Language -->
-    <meta property="og:latitude"         content="50.97590">                      <!-- Geographical coordenate -->
-    <meta property="og:longitude"        content="0.017221">                      <!-- Geographical coordenate -->
-    <meta property="og:street-address"   content="Flat 1, 26 Street Name">        <!-- Postal Address -->
-    <meta property="og:locality"         content="London">                        <!-- Locality -->
-    <meta property="og:region"           content="London">                        <!-- Region -->
-    <meta property="og:postal-code"      content="N1 PLE">                        <!-- Post code -->
-    <meta property="og:country-name"     content="UK">                            <!-- Country -->
-    <meta property="og:email"            content="email@example.com">             <!-- Contact email -->
-    <meta property="og:phone_number"     content="+44 123 456 7622">              <!-- Contact phone number -->
-    <meta property="og:video"            content="http://example.com/video.flv">  <!-- Video file url-->
-    <meta property="og:video:height"     content="640">                           <!-- Video height -->
-    <meta property="og:video:width"      content="385">                           <!-- Video width -->
-    <meta property="og:video:type"       content="application/x-shockwave-flash"> <!-- Video file format type -->
-    <meta property="og:audio"            content="http://example.com/audio.mp3">  <!-- Audio file url -->
-    <meta property="og:audio:title"      content="Song Title">                    <!-- Audio title -->
-    <meta property="og:audio:artist"     content="Name of Band">                  <!-- Audio artist -->
-    <meta property="og:audio:album"      content="Album Title">                   <!-- Audio album title-->
-    <meta property="og:audio:type"       content="application/mp3">               <!-- Audio file format type -->
-    <meta property="og:upc"              content="885909367481">                  <!-- UPC EAN barcodes-->
-    <meta property="og:isbn"             content="1873520786">                    <!-- Book ISBN number-->
+	<!-- Web site title -->
+    <meta property="og:site_name"        content="Ted Tschopp">
+	<!-- Web page title -->
+    <meta property="og:title"            content="Ted Tschopp">
+	<!-- Web page description -->
+    <meta property="og:description"      content="Description of this web page">  
+	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
+	<meta property="og:type"             content="website">  
+	<!-- Url to this web page -->
+    <meta property="og:url"              content="http://www.tedt.org/"> 
+	<!-- Main Language -->
+	<meta property="og:locale"           content="en_US">    
+	<!-- Alternate Language -->
+	<!--
+	<meta property="og:locale:alternate" content="fr_FR">    
+    <meta property="og:locale:alternate" content="es_ES">    
+	-->
+
+	<!-- Geographical coordenates -->
+	<!--
+	<meta property="og:latitude"         content="50.97590"> 
+    <meta property="og:longitude"        content="0.017221">
+	-->
+	<!-- Postal Address -->
+    <!-- <meta property="og:street-address"   content="Flat 1, 26 Street Name"> -->
+	<!-- Locality -->
+    <!-- <meta property="og:locality"         content="London"> -->
+	<!-- Region -->
+	<!-- <meta property="og:region"           content="London"> -->
+	<!-- Post code -->
+	<!-- <meta property="og:postal-code"      content="N1 PLE"> -->
+	<!-- Country -->
+	<!-- <meta property="og:country-name"     content="UK"> -->
+
+	<!-- Contact email -->
+    <meta property="og:email"            content="email@example.com"> 
+	<!-- Contact phone number -->
+	<meta property="og:phone_number"     content="+44 123 456 7622">              
+
+    <!-- Video file url-->
+	<!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
+	<!-- Video height -->
+    <!-- <meta property="og:video:height"     content="640"> -->
+	<!-- Video width -->
+    <!-- <meta property="og:video:width"      content="385"> -->  
+	<!-- Video file format mime type -->
+    <!-- <meta property="og:video:type"       content="application/x-shockwave-flash"> -->
+
+	<!-- Audio file url -->
+	<!-- <meta property="og:audio"            content="http://example.com/audio.mp3"> -->
+	<!-- Audio title -->
+	<!-- <meta property="og:audio:title"      content="Song Title"> -->
+	<!-- Audio artist -->
+    <!-- <meta property="og:audio:artist"     content="Name of Band"> -->                
+	<!-- Audio album title-->
+    <!-- <meta property="og:audio:album"      content="Album Title"> -->              
+	<!-- Audio file format mime type -->
+    <!-- <meta property="og:audio:type"       content="application/mp3"> -->               
+
+	<!-- UPC EAN barcodes-->
+    <!-- <meta property="og:upc"              content="885909367481"> -->
+	<!-- Book ISBN number-->
+    <!-- <meta property="og:isbn"             content="1873520786"> -->
+
     <!-- Facebook Meta Tags. -->
-    <meta property="fb:app_id"           content="123456789">
+    <!-- <meta property="fb:app_id"           content="123456789"> -->
+
+
     <!-- Twitter Meta Tags. -->
     <meta name="twitter:card"            content="summary">
     <meta name="twitter:site"            content="@site_account">
@@ -185,15 +232,18 @@
     <meta name="twitter:title"           content="Ted Tschopp">
     <meta name="twitter:description"     content="Content description less than 200 characters">
     <meta name="twitter:image"           content="https://example.com/image.jpg">
+    <meta name="twitter:image:alt"       content="Text Description of the Image 420 characters">
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
-    <!-- News Feed Meta Tags. -->
-    <link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
+    
+	<!-- News Feed Meta Tags. -->
+    <!--
+	<link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
     <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
     <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
-
-
+	<link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
+	-->
 
 
     <!-- Bootstrap Core CSS -->
@@ -226,25 +276,25 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand topnav" href="#">Start</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
+					<li>
+					   <a href="#about">About</a>
+					</li>
+					<li>
+					   <a href="#projects">Projects</a>
+					</li>
+					<li>
+					   <a href="#contact">Contact</a>
+					</li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -260,25 +310,25 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Ted Tschopp</h1>
-                        <h3>Elsewhere Online</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/TedTschopp" rel="me" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/TedTschopp/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/tedtschopp/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                                <a href="https://keybase.io/tedtschopp" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
-                            </li>
-						</ul>
-                    </div>
+					<div class="intro-message">
+					   <h1>Ted Tschopp</h1>
+					   <h3>Elsewhere Online</h3>
+					   <hr class="intro-divider">
+					   <ul class="list-inline intro-social-buttons">
+						   <li>
+							   <a href="https://twitter.com/TedTschopp" rel="me" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+						   </li>
+						   <li>
+							   <a href="https://github.com/TedTschopp/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+						   </li>
+						   <li>
+							   <a href="https://www.linkedin.com/in/tedtschopp/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+						   </li>
+						   <li>
+							   <a href="https://keybase.io/tedtschopp" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
+						   </li>
+											</ul>
+					</div>
                 </div>
             </div>
 
@@ -296,13 +346,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Random Table Generator</h2>
-                    <p class="lead">A Role Playing Game Tool for rolling on random tables. </p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/table.png" alt="">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+					<h2 class="section-heading">Random Table Generator</h2>
+					<p class="lead">A Role Playing Game Tool for rolling on random tables. </p>
+									</div>
+									<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+					<img class="img-responsive" src="img/table.png" alt="">
                 </div>
             </div>
 
@@ -318,13 +368,13 @@
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+					<h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+					<p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+									</div>
+									<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<img class="img-responsive" src="img/dog.png" alt="">
                 </div>
             </div>
 
@@ -340,13 +390,13 @@
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+					<h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
+					<p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+									</div>
+									<div class="col-lg-5 col-lg-offset-2 col-sm-6">
+					<img class="img-responsive" src="img/phones.png" alt="">
                 </div>
             </div>
 
@@ -363,7 +413,7 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Contact Ted</h2>
+					<h2>Contact Ted</h2>
                 </div>
 					<div class="col-lg-6">
 						<div id="hcard-Ted-Tschopp" class="vcard">
@@ -392,24 +442,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Ted Tschopp <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
+					<ul class="list-inline">
+					   <li>
+						   <a href="#">Home</a>
+					   </li>
+					   <li class="footer-menu-divider">&sdot;</li>
+					   <li>
+						   <a href="#about">About</a>
+					   </li>
+					   <li class="footer-menu-divider">&sdot;</li>
+					   <li>
+						   <a href="#projects">Projects</a>
+					   </li>
+					   <li class="footer-menu-divider">&sdot;</li>
+					   <li>
+						   <a href="#contact">Contact</a>
+					   </li>
+					</ul>
+					<p class="copyright text-muted small">Copyright &copy; Ted Tschopp <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -429,8 +479,5 @@
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-1278981-13');ga('send','pageview');
     </script>
-
-
 </body>
-
 </html>
