@@ -1,0 +1,35 @@
+---
+id: 1035
+title: 'Android is Knott&#8217;s Berry Farm as iOS is to Disneyland'
+date: 2011-12-24T09:12:25+00:00
+author: Ted Tschopp
+layout: post
+guid: https://tedtschopp.wordpress.com/?p=1035
+permalink: /2011/12/24/android-is-knotts-berry-farm-as-ios-is-to-disneyland/
+tagazine-media:
+  - 'a:7:{s:7:"primary";s:65:"http://tedtschopp.files.wordpress.com/2011/12/20111224-091119.jpg";s:6:"images";a:1:{s:65:"http://tedtschopp.files.wordpress.com/2011/12/20111224-091119.jpg";a:6:{s:8:"file_url";s:65:"http://tedtschopp.files.wordpress.com/2011/12/20111224-091119.jpg";s:5:"width";s:3:"240";s:6:"height";s:3:"363";s:4:"type";s:5:"image";s:4:"area";s:5:"87120";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"1";s:6:"author";s:8:"13062753";s:7:"blog_id";s:8:"13665242";s:9:"mod_stamp";s:19:"2011-12-24 17:12:25";}'
+twitter_cards_summary_img_size:
+  - 'a:7:{i:0;i:1414;i:1;i:2100;i:2;i:2;i:3;s:26:"width="1414" height="2100"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}'
+image: /wp-content/uploads/2013/06/main-street-disney-mickey-statue-e1371582793846.jpg
+categories:
+  - Computers
+  - Family
+  - iPad
+  - Travel
+  - Web
+---
+I recently had an opportunity to return to Knott&#8217;s Berry Farm after many years. I had a wonderful time with the family and due to my AAA membership I was able to get in for around $40. I felt it was money well spent. However on my trip around the part I noticed a couple things that caused me to pause and think.
+
+[<img class="alignright size-thumbnail wp-image-1124" alt="Walt Disney" src="http://localhost:8888/Wordpress/wp-content/uploads/2013/06/main-street-disney-mickey-statue-e1371582793846.jpg?w=101" width="101" height="150" />](http://localhost:8888/Wordpress/wp-content/uploads/2013/06/main-street-disney-mickey-statue-e1371582793846.jpg)
+
+Now lets talk about Knott&#8217;s Berry Farm. I am at the train station, I get on the train and take a trip around the park. As I make my trip around the park do I see into any of the other rides? Are the parts of the park I am seeing clean? Does the music transport me to another place? I get off the train and I arrive at the Stage Coach ride. I take that around the park as well. Same questions. Finally I get off the stage coach and I can walk over to the Log Ride, Silver Bullet, or I can walk over into the Americana / 1950&#8217;s Jonny Rockets dinner area where they have bumper cars. I am also go into the Western Town and buy trinkets. Did the trip transport me anywhere? Can I see into any of the other rides. Yes, I can build a narrative from one ride to another, but its not as smooth as the Disney narrative. Its also easy to see the trash on the ground, the paint chipped walls. There is little attention paid to jarring anachronistic items out of place.
+
+Now I can hear the arguments. But Knott&#8217;s has a lot of cool rides. Yes it does. Many of them are a whole lot more thrilling then the rides at Disneyland. In addition, Ghost Rider can be ridden for free. Also at Knott&#8217;s, the park admission is cheaper. But this all is moot in my opinion. Walt Disney made Disneyland to change the paradigm of the theme park. It was no longer just a collection of rides, it was a mediated experience that took you on a trip around the world, into the past, and finally into a idealized future.
+
+In my opinion, Apple&#8217;s iOS is a whole lot like Disneyland. Its a mediated experience of what collaboration, communication, and entertainment should be. All the sight lines and transitions have been thought out and everything is carefully controlled and architected. While Android may have more things you can do with the device because it&#8217;s less controlled, it ends up with the details being overlooked. Also Android offers some things for free, just like Ghost Rider, however for the full Google experience, you have to pay to get those apps.
+
+Now I know that some people have taken the Android OS and done things like the Nook or the Fire and made an integrated experience. Yes, this is true, but this is how many years after the first iOS devices was launched? There are theme parks that have gone and themed up learning from the lessons that Walt taught them; Florida has some of them.
+
+So what is the point in all this. Well, there are some people who will never like Disneyland and will love Knott&#8217;s or Six Flags because of various reasons, and there are some who will love Android more than iOS. This is good and as it should be. For example, if I was tasked with coming up with a new cockpit for the next Mercedes-Benz, I would be looking squarely at Android to provide that functionality. However if I was looking at a device to enable my parents to take a road trip across the United States, I&#8217;m looking at an iPhone and a iPad for them.
+
+I am looking forward to the theme park that does to Disneyland what Walt Disney did to previous theme parks. But Knott&#8217;s Berry Farm, Six Flags, and the many attempts in Florida are not it even though some of them have had a sparkle of promise. I am also looking forward to someone coming along and doing to Apple what Steve Jobs did to the phone handset makers. But Android is not it. Neither is Windows Phone. Neither is Blackberry. Neither is WebOS, though it has a sparkle of promise. I want to see something that changes the category instead of following the leader.

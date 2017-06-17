@@ -1,0 +1,18 @@
+---
+id: 198
+title: 'What&#8217;s Playing on KROQ'
+date: 2005-04-15T09:42:50+00:00
+author: Ted Tschopp
+layout: post
+guid: http://tedtschopp.wordpress.com/2005/04/15/whats_playing_o/
+permalink: /2005/04/15/whats_playing_o/
+categories:
+  - Web
+---
+Ever wonder what&#8217;s playing on KROQ?&nbsp; Well, here is your chance to get an XML feed that has it all.
+
+<http://tmex.spun.com/tmexhistory.jsp?CampaignID=1253273&Events=10&EndTime=20050415-0930>
+
+Now to write an XSLT to parse it and link to the iTunes and Amazon.com stores (oh and why not the SPUN store as well).
+
+You will need to modify the EndTime= variable in the URL to match the following: YYYYMMDD-HHMM So April 1, 2008 at 9:30am would be EndTime=20080401-0930
