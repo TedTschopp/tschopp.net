@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\blog",
+    "\\css"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\css\\landing-page.css",
   "PreviewInSolutionExplorer": false
 }
