@@ -1,0 +1,26 @@
+<p><a href="http://meyerweb.com/eric/thoughts/2005/08/26/when-printing-kills/">Here</a> is an interesting article about the fact that the word “tag” is a reserved world in Internet Explorer for classes. Interesting.</p>
+
+<blockquote>
+  <p>Here’s a fascinating little tidbit: on some users’ machines, attempts to print out <a href="http://joeclark.org/" rel="acquaintance met">Joe Clark</a>’s <a href="http://alistapart.com/">ALA</a> article “<a href="http://alistapart.com/articles/pdf_accessibility">Facts and Opinions About PDF Accessibility</a>” would crash Internet Explorer. The error message mentioned a script error in line 1401: “Object doesn’t support this property or method”. Funny thing: we weren’t doing any scripting. The error was actually occurring <code class="highlighter-rouge">shdoclc.dll/preview.dlg</code>, which is of course a piece of the operating system.</p>
+
+  <p><a href="http://jasonsantamaria.com/" rel="co-worker acquaintance colleague met">Jason</a> did some sleuthing and traced the crash to this line of markup:</p>
+
+  <pre>&lt;h2 id="tags"&gt;Tags and structure&lt;/h2&gt;</pre>
+
+  <p>Honestly, that was it. So <a href="http://zeldman.com/" rel="frind colleague met">Jeffrey</a> renamed the ID to read:</p>
+
+  <pre>&lt;h2 id="structure"&gt;Tags and structure&lt;/h2&gt;</pre>
+
+  <p>So far as we know, no more crashing in Explorer.</p>
+
+  <p>Ain’t browsers a <em>slice</em>?</p>
+
+  <p>(And yes, we’re aware of the clamor for a print style sheet. More on this later.)</p>
+
+  <p><strong>Update:</strong> Marten Veldthuis from <a href="http://strongspace.com/">Strongpsace</a> points out that <a href="http://37signals.com/">37signals</a> ran into a very similar problem in <a href="http://www.backpackit.com/">Backpack</a>. Details can be found in <a href="http://jamis.jamisbuck.org/">Jamis Buck</a>’s June 3rd post <a href="http://jamis.jamisbuck.org/articles/2005/06/03/ie-is-teh-3v1l">ie-is-teh-3v1l</a>. <strong>Spread the word:</strong> “tags” is effectively a reserved keyword, even though no such concept exists in (X)HTML. Use it at your (users’) peril.</p>
+
+  <blockquote>
+
+    <p>stin</p>
+  </blockquote>
+</blockquote>

@@ -61,7 +61,7 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-.intro-header > .avatar {
+.intro-image-avatar {
 	border: 0px none rgb(13, 164, 211);
 	border-radius: 50% 50% 50% 50%;
 	border-image-outset: 0px;

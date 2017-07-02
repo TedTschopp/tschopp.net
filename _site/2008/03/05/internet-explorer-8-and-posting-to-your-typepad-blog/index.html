@@ -1,0 +1,106 @@
+<p>I downloaded IE8 today and noticed it had a new way to post to Microsoft’s blog by highlighting some text and sending it off to their blogging service.</p>
+
+<p>Here is the code that will make it work in Typepad:</p>
+
+<?xml version=&#8221;1.0&#8243; encoding=&#8221;utf-8&#8243; ?>
+
+<p>&lt;openServiceDescription xmlns=”<a href="http://www.microsoft.com/schemas/openservicedescription/1.0">http://www.microsoft.com/schemas/openservicedescription/1.0</a>“&gt;</p>
+
+<homepageUrl>http://www.typepad.com/t/app</homepageUrl>
+
+<display>
+  
+<name>Blog in Typepad</name>
+  
+<icon>http://www.tschopp.net/favicon.ico</icon>
+  
+<description>Post this in my Blog</description>
+  
+</display>
+
+<p>&lt;activity category=”Blog”&gt;</p>
+
+<p>&lt;activityAction context=”selection”&gt;</p>
+
+<p>&lt;execute method=”get” action=”<a href="http://www.typepad.com/t/app/weblog/post">http://www.typepad.com/t/app/weblog/post</a>“&gt;</p>
+
+<p>&lt;parameter name=”title” value=”{documentTitle}” /&gt;</p>
+
+<p>&lt;parameter name=”SourceURL” value=”{documentUrl}” /&gt;</p>
+
+<p>&lt;parameter name=”blog_id” value=”16627″ /&gt;</p>
+
+<p>&lt;parameter name=”text” value=”{selection}” /&gt;</p>
+
+<p>&lt;parameter name=”keywords” value=”{keywords}” /&gt;</p>
+
+<p>&lt;/execute&gt;</p>
+
+<p>&lt;/activityAction&gt;</p>
+
+<p>&lt;activityAction context=”document”&gt;</p>
+
+<p>&lt;execute method=”get” action=”<a href="http://www.typepad.com/t/app/weblog/post">http://www.typepad.com/t/app/weblog/post</a>“&gt;</p>
+
+<p>&lt;parameter name=”title” value=”{documentTitle}” /&gt;</p>
+
+<p>&lt;parameter name=”blog_id” value=”16627″ /&gt;</p>
+
+<p>&lt;parameter name=”SourceURL” value=”{documentUrl}” /&gt;</p>
+
+<p>&lt;/execute&gt;</p>
+
+<p>&lt;/activityAction&gt;</p>
+
+<p>&lt;activityAction context=”link”&gt;</p>
+
+<p>&lt;execute method=”get” action=”<a href="http://www.typepad.com/t/app/weblog/post">http://www.typepad.com/t/app/weblog/post</a>“&gt;</p>
+
+<p>&lt;parameter name=”title” value=”{linkTitle}” /&gt;</p>
+
+<p>&lt;parameter name=”blog_id” value=”16627″ /&gt;</p>
+
+<p>&lt;parameter name=”SourceURL” value=”{link}” /&gt;</p>
+
+<p>&lt;/execute&gt;</p>
+
+<p>&lt;/activityAction&gt;</p>
+
+<p>&lt;/activity&gt;</p>
+
+<p>&lt;/openServiceDescription&gt;</p>
+
+<p> </p>
+
+<ol>
+  <li>Copy and paste this into a Text file.</li>
+  <li>Name it typepad.xml</li>
+  <li>
+    <p>Replace blog_Id with your blog ID</p>
+  </li>
+  <li>Browse to <a href="http://www.typepad.com/t/app">http://www.typepad.com/t/app</a></li>
+  <li>Click on the blog you want to post to</li>
+  <li>Observe the URL <a href="http://www.typepad.com/t/app/weblog/manage?blog_id=16627">http://www.typepad.com/t/app/weblog/manage?blog_id=16627</a></li>
+</ol>
+
+<p> </p>
+
+<ul>
+  <li>Replace the <icon> with your favicon</icon></li>
+  <li>Save the document</li>
+  <li>Upload file to your Typepad account</li>
+  <li>Create a new HTML file</li>
+  <li>Name it typepad.html</li>
+  <li>Put the following code in the html file:<span style="font-family:monospace;">&lt;A href=”javascript:window.external.addService(‘http://www.tschopp.net/typepad.xml’);”&gt;Click Here&lt;/a&gt;</span></li>
+  <li>Replace my URL with the URL to the XML file you created above</li>
+  <li>Save file</li>
+  <li>Upload File to Typepad</li>
+  <li>Browse to HTML file</li>
+  <li>Click on link</li>
+</ul>
+
+<p> </p>
+
+<p>My files are located at <a href="http://www.tschopp.net/Typepad.html">http://www.tschopp.net/Typepad.html</a></p>
+
+<p>Let me know how it goes. I will post updates later this week to get more than just selections working. I also want to expand this to other services. Let me know how this is working for you.</p>
