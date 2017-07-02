@@ -62,26 +62,27 @@ h6 {
 }
 
 .intro-image-avatar {
-	border: 0px none rgb(13, 164, 211);
-	border-radius: 50% 50% 50% 50%;
-	border-image-outset: 0px;
-	border-image-repeat: Strech;
-	border-image-source: none;
-	border-image-width: 1;
+    border: 0px none rgb(13, 164, 211);
+    border-radius: 50% 50% 50% 50%;
+    border-image-outset: 0px;
+    border-image-repeat: Strech;
+    border-image-source: none;
+    border-image-width: 1;
+    cursor: auto;
+    color: rgb(13, 164, 211);
+    perspective-origin: 100px 100px;
+    width: 100px;
+    height: 100px;
+    display: block;
+    transition: box-shadow 0.15s ease-in-out 0s;
+    text-decoration: none solid rgb(13, 164, 211);
+    text-size-adjust: 100%;
+    transform-origin: 100px 100px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
 
-	cursor: auto;
-	color: rgb(13, 164, 211);
-
-	perspective-origin: 100px 100px;
-	width: 100px;
-	height: 100px;
-	display: block;
-
-	transition: box-shadow 0.15s ease-in-out 0s;
-
-	text-decoration: none solid rgb(13, 164, 211);
-	text-size-adjust: 100%;
-	transform-origin: 100px 100px;
 }
 
 @media(max-width:767px) {
