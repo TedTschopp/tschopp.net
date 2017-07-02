@@ -79,11 +79,6 @@ h6 {
 
 	transition: box-shadow 0.15s ease-in-out 0s;
 
-	position: absolute;
-
-	top: 0px;
-	left: 0px;
-	right: 0px;
 	text-decoration: none solid rgb(13, 164, 211);
 	text-size-adjust: 100%;
 	transform-origin: 100px 100px;
