@@ -247,13 +247,13 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -286,15 +286,24 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-					<li>
-					   <a href="#about">About</a>
-					</li>
-					<li>
-					   <a href="#projects">Projects</a>
-					</li>
-					<li>
-					   <a href="#contact">Contact</a>
-					</li>
+					<li><a href="#about">About Ted</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            Projects
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Technology Architect for Automation</a></li>
+                            <li><a href="#">Technology Architect for Digital</a></li>
+                            <li><a href="#">Program Architect for SCE.com</a></li>
+                            <li><a href="#">Founder of The One Ring: Tolkien Online</a></li>
+                            <li><a href="#">Procedural Text Generation</a></li>
+                            <li><a href="#">The Password Challange</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -316,9 +325,9 @@
 						<hr class="intro-divider">
 						<span class="p-note">
 							<p class="lead">I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
-							<p>Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
-							<p>I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
-							<p>I’m always interested in hearing from former colleagues, managers, or just interesting people, so feel free to contact me if you’d like to connect.</p>
+							<p class="lead">Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
+							<p class="lead">I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
+							<p class="lead">I’m always interested in hearing from former colleagues, managers, or just interesting people, so feel free to contact me if you’d like to connect.</p>
 						</span>
 					</div>
                 </div>
@@ -333,43 +342,6 @@
     <!-- Page Content -->
 
 	<a  name="projects"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-					<div class="clearfix"></div>
-					<h2 class="section-heading"><a href="https://tedtschopp.github.io/randomtables/" target="_blank">Procedural Text Generation</a></h2>
-					<p class="lead">An application that generates text using procedural methods.</p>
-				</div>
-				<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-					<img class="img-responsive" src="img/table.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-					<div class="clearfix"></div>
-					<h2 class="section-heading"><a target="_blank" href="https://tedtschopp.github.io/The-Password-Challange/Password%20Challange.html">The Password Challange</a></h2>
-					<p class="lead">Check the strength of your password based on mathmatical models that take into account the latest hacking techniques!</p>
-				</div>
-				<div class="col-lg-5 col-sm-pull-6  col-sm-6">
-					<img class="img-responsive" src="img/password.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
 
     <div class="content-section-a">
         <div class="container">
@@ -482,6 +454,40 @@
         <!-- /.container -->
 
     </div>
+
+    <!-- /.content-section-b -->
+ 
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><a href="https://tedtschopp.github.io/randomtables/" target="_blank">Procedural Text Generation</a></h2>
+                    <p class="lead">An application that generates text using procedural methods.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/table.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading"><a target="_blank" href="https://tedtschopp.github.io/The-Password-Challange/Password%20Challange.html">The Password Challange</a></h2>
+                    <p class="lead">Check the strength of your password based on mathmatical models that take into account the latest hacking techniques!</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/password.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
     <!-- /.content-section-b -->
 
 
@@ -567,7 +573,7 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

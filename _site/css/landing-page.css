@@ -61,33 +61,10 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
-.intro-header > .avatar {
-	border: 0px none rgb(13, 164, 211);
-	border-radius: 50% 50% 50% 50%;
-	border-image-outset: 0px;
-	border-image-repeat: Strech;
-	border-image-source: none;
-	border-image-width: 1;
-
-	cursor: auto;
-
-	color: rgb(13, 164, 211);
-
-	perspective-origin: 100px 100px;
-	width: 100px;
-	height: 100px;
-	display: block;
-
-	transition: box-shadow 0.15s ease-in-out 0s;
-
-	position: absolute;
-
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	text-decoration: none solid rgb(13, 164, 211);
-	text-size-adjust: 100%;
-	transform-origin: 100px 100px;
+.intro-image-avatar {
+    border-radius: 50% 50% 50% 50%;
+    width: 100px;
+    height: 100px;
 }
 
 @media(max-width:767px) {
