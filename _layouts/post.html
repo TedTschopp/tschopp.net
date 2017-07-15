@@ -424,32 +424,7 @@
 	                            </div>
                             </div>
                         {% endfor %}
-                    </div>
-
-
-
-
-                    <h4>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul lass="list-unstyled">
-                                {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-                                {{ category_name }}
-                                 for post in site.categories.[category_name] limit:3 %}
-                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-                                 endfor %}
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul lass="list-unstyled">
-                                {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-                                 for post in site.categories.[category_name] limit:3 %}
-                                <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-                                 endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                
+                    </div>                
                 </div>
 
                 <!-- Side Widget Well -->
