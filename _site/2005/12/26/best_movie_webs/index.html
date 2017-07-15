@@ -383,21 +383,60 @@
 
                 <!-- Blog Categories Well -->
                 <div class="well">
+
+
+                    <div class="post-categories">
+                        
+                        Movies
+                        
+                            <h4>Latest <a href="/categories/#Movies">Movies</a></h4>
+	                            <div class="row">
+	                            <div class="col-lg-6">
+	                                <ul lass="list-unstyled">
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2007/04/12/film_snob/">Film Snob</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2007/01/17/hbo_to_do_fire_/">HBO to do Fire and Ice series&#8230; and George Cloony to do Diamond Age</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2007/01/15/books_movies_an/">Books, Movies, and The Children of Men</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2005/12/26/best_movie_webs/">Best Movie Website Ever.</a></li>
+	                                    
+	                                </ul>
+	                            </div>
+	                            <div class="col-lg-6">
+                                    <ul lass="list-unstyled">
+                                        
+                                    </ul>
+	                            </div>
+                            </div>
+                        
+                    </div>
+
+
+
+
                     <h4>Latest Movies</h4>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                Movies
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                     </div>
+                
                 </div>
 
                 <!-- Side Widget Well -->

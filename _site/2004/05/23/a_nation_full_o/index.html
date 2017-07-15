@@ -474,21 +474,56 @@
 
                 <!-- Blog Categories Well -->
                 <div class="well">
+
+
+                    <div class="post-categories">
+                        
+                        Current Affairs
+                        
+                            <h4>Latest <a href="/categories/#Current Affairs">Current Affairs</a></h4>
+	                            <div class="row">
+	                            <div class="col-lg-6">
+	                                <ul lass="list-unstyled">
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2008/03/16/communion-of-th/">Communion of the Saints in the Age of the Internet</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2004/05/23/a_nation_full_o/">A Nation Full of Directors</a></li>
+	                                    
+	                                </ul>
+	                            </div>
+	                            <div class="col-lg-6">
+                                    <ul lass="list-unstyled">
+                                        
+                                    </ul>
+	                            </div>
+                            </div>
+                        
+                    </div>
+
+
+
+
                     <h4>Latest Current affairs</h4>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                Current Affairs
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                     </div>
+                
                 </div>
 
                 <!-- Side Widget Well -->

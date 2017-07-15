@@ -388,21 +388,58 @@
 
                 <!-- Blog Categories Well -->
                 <div class="well">
+
+
+                    <div class="post-categories">
+                        
+                        Food and Drink
+                        
+                            <h4>Latest <a href="/categories/#Food and Drink">Food and Drink</a></h4>
+	                            <div class="row">
+	                            <div class="col-lg-6">
+	                                <ul lass="list-unstyled">
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2008/02/13/fasting-for-len/">Fasting for Lent</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2007/02/16/martin_luther_on_beer/">Martin Luther on Beer</a></li>
+	                                    
+	                                    <li><a href="httpd://www.tedt.org//2006/07/28/how_to_make_you/">How to make your own Soda</a></li>
+	                                    
+	                                </ul>
+	                            </div>
+	                            <div class="col-lg-6">
+                                    <ul lass="list-unstyled">
+                                        
+                                    </ul>
+	                            </div>
+                            </div>
+                        
+                    </div>
+
+
+
+
                     <h4>Latest Food and drink</h4>
                     <div class="row">
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                Food and Drink
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul lass="list-unstyled">
                                 
-                                
+                                 for post in site.categories.[category_name] limit:3 %}
+                                <li><a href="httpd://www.tedt.org/"></a></li>
+                                 endfor %}
                             </ul>
                         </div>
                     </div>
+                
                 </div>
 
                 <!-- Side Widget Well -->

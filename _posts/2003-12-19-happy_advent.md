@@ -8,6 +8,7 @@ guid: http://tedtschopp.wordpress.com/2003/12/19/happy_advent/
 permalink: /2003/12/19/happy_advent/
 categories:
   - Religion
+  - Computers
 tags:
   - Main Menu
 ---
