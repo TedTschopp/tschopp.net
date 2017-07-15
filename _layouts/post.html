@@ -337,9 +337,7 @@
                 {%endcase%}
                 on {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</p>
 
-                <span class="disqus-comment-count" data-disqus-identifier=" {{ page.id }}">First article</span>
-
-                <a href="{{ page.url }}#disqus_thread">Second article</a>
+                <a href="#disqus_thread">Comments</a>
 
 
 
