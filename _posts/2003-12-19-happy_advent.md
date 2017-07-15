@@ -11,7 +11,7 @@ categories:
 tags:
   - Main Menu
 ---
-OK, so a couple weeks ago I went to the Big D-land with my sister, her husband James and her friend Eric from College. (My sister has more male friends than female. I have more female friends than male. Is that so wrong.)
+OK, so a couple weeks ago I went to Disneyland with my sister, her husband James and her friend Eric from College.
 
 So we get there and it&#8217;s raining and I said I should get a hat to wear becuase I was getting a bit wet. We went off to find hats while James and Eric went off to get fast passes to save our place line in at It&#8217;s a Small World. My sister ended purchasing a Grumpy Jester hat for me.
 
