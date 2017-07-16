@@ -337,6 +337,8 @@
                 {%endcase%}
                 on {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</p>
 
+
+                <!-- TODO: Do a good design on this.  Perhaps remove Category -->
                 <i class="fa fa-commenting" aria-hidden="true"></i><a href="{{ page.url }}#disqus_thread">Comments</a></br>
                 <i class="fa fa-th-large" aria-hidden="true"></i>Catagories
                 {% if post %}
@@ -356,7 +358,12 @@
 
 	            <p class="lead">{{ page.excerpt }}</p>
 
-	            <!-- Preview Image -->
+                <!-- Preview Image -->
+                <!--
+                    TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
+                    and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
+
+                    -->
 	            <img class="img-responsive" src="{{ page.image }}" alt="">
 	            <hr>
 	            <!-- Post Content -->
@@ -391,6 +398,7 @@
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
+                <!-- TODO: Google Custom Search -->
                 <!-- Blog Search Well -->
                 <div class="well">
                     <h4>Blog Search</h4>
@@ -421,7 +429,7 @@
 	                            <div class="col-lg-12">
 	                                <ul lass="list-unstyled">
 	                                    {% for post in site.categories.[category] limit:4 %}
-	                                    <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+	                                    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 	                                    {% endfor %}
 	                                </ul>
 	                            </div>
