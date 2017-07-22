@@ -20,14 +20,6 @@ categories:
   - Computers
   - Mobile
 ---
-<div id="attachment_1344" style="width: 310px" class="wp-caption alignright">
-  <a href="http://www.dscout.com/ara#"><img class="size-medium wp-image-1344" src="http://localhost:8888/Wordpress/wp-content/uploads/2013/11/device-049458bbcff603e9316248aa02eaeedd.jpg?w=300" alt="Project Ara Phone" width="300" height="150" srcset="http://localhost:8888/Wordpress/wp-content/uploads/2013/11/device-049458bbcff603e9316248aa02eaeedd.jpg 1140w, http://localhost:8888/Wordpress/wp-content/uploads/2013/11/device-049458bbcff603e9316248aa02eaeedd-300x150.jpg 300w, http://localhost:8888/Wordpress/wp-content/uploads/2013/11/device-049458bbcff603e9316248aa02eaeedd-768x384.jpg 768w, http://localhost:8888/Wordpress/wp-content/uploads/2013/11/device-049458bbcff603e9316248aa02eaeedd-1024x512.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
-  <p class="wp-caption-text">
-    Motorola&#8217;s Project Ara Phone
-  </p>
-</div>
-
 Today <a href="http://techcrunch.com/2013/11/22/motorola-taps-3d-systems-to-produce-parts-for-its-crazy-modular-smartphones/" target="_blank" rel="noopener noreferrer">TechCruch covered a direction Motorola is taking</a> with a project called <a href="http://www.dscout.com/ara#" target="_blank" rel="noopener noreferrer">Ara</a>.  The idea here is that a smart phone can be broken up into individual components and you can buy each of them individually.  This looks really intriguing from a business perspective as well as the perspective of a technologist such as myself.  However cool this idea is, I think it is doomed to failure.
 
 The problem I see with this sort of direction for Motorola is that the commodification of a devices components generally takes place in a very different manner. This commodification happened in the PC industry. However, in the PC it was very different.  The main people who were putting together computers from parts were enthusiasts who loved it as a hobby or they were company professionals working to support normal users.  In other words, the customers were generally the device users. Even in the case of corporate computers, the IT guy is generally the person who uses the computer the most.  Users generally spend their time in the software, and do not worry about the hardware.
