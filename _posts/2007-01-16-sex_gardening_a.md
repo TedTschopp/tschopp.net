@@ -8,8 +8,6 @@ guid: http://tedtschopp.wordpress.com/2007/01/16/sex_gardening_a/
 permalink: /2007/01/16/sex_gardening_a/
 categories:
   - Religion
-tags:
-  - Main Menu
 ---
 I just finished [Children of Men](http://www.amazon.com/exec/obidos/ASIN/0307279901/wwwtschoppnet-20)&nbsp;the book this weekend and it got me thinking about humanity, family, sexuality, science, and relationships, and the nature of evil.&nbsp; Here is where my thoughts led me.
 

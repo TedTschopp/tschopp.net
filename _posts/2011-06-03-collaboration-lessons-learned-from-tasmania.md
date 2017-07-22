@@ -15,14 +15,6 @@ categories:
 tags:
   - linkedin
 ---
-<div id="attachment_1006" style="width: 160px" class="wp-caption alignright">
-  <a href="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape.jpg"><img class="size-thumbnail wp-image-1006" title="The Tessellated Pavement from Tasmania" alt="The Tessellated Pavement from Tasmania" src="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape.jpg?w=150" width="150" height="98" srcset="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape.jpg 800w, http://localhost:8888/Wordpress/wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape-300x197.jpg 300w, http://localhost:8888/Wordpress/wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape-768x504.jpg 768w" sizes="(max-width: 150px) 100vw, 150px" /></a>
-  
-  <p class="wp-caption-text">
-    The Tessellated Pavement from Tasmania
-  </p>
-</div>
-
 Tasmania is an island off the coast of Australia which was attached to Australia until about 10,000 years ago with the end of the last glacial period.  The island is home to many interesting animals and was home to the Tasmanian Aborigines.  These people became isolated from the mainland about 10,000 years ago.  It is this isolation and these people I want to focus on.
 
 So what do Aborigines have to do with Collaboration?  What does an ice age glacier have to do with people getting together and working together?  Why are we looking at these specific people at this specific time?  The reason this is all interesting is that 10,000 years ago a divide was created between two people groups.  This divide was big enough that people were not able to travel between the island and the mainland.  Essentially 10,000 years ago, the people of Tasmania became a lab for asking questions about the value of collaboration.

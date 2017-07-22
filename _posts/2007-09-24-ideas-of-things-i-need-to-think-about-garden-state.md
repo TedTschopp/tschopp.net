@@ -8,7 +8,6 @@ guid: http://tedtschopp.wordpress.com/2007/09/24/ideas-of-things-i-need-to-think
 permalink: /2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 categories:
   - Motivational
-tags:
   - Science
 ---
 This has nothing to do with New Jersey or emo Jewish twenty somehtings trying to deal with life.&#160; This is a blog post that I am making to capture a couple ideas I have bouncing around in my head that need further refinement:

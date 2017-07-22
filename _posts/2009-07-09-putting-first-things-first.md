@@ -10,10 +10,8 @@ image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png
 categories:
   - Collaboration
   - Computers
-  - Enterprise 2.0
+  - Enterprise
 ---
-[<img class="alignright size-thumbnail wp-image-1140" alt="Screen Shot 2013-06-12 at 4.12.47 PM" src="http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png?w=150" width="150" height="89" srcset="http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png 1182w, http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm-300x179.png 300w, http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm-768x457.png 768w, http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm-1024x610.png 1024w" sizes="(max-width: 150px) 100vw, 150px" />](http://localhost:8888/Wordpress/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png)So you have something to say, and you want others to join in the conversation; perhaps its a blog, or a message board, or a website.  How do you get people to participate in this new medium?  There are some very simple laws that you must observe to start this process.
-
 The first is that there are three basic types of people.  There are people who start conversations.  There are people who participate in conversations.  Finally there are people who listen to conversations.
 
 Think about the last time you were at a party or with a large group.  How many people participated in the organization of the event?  Those are your conversation starters.  Think about all the websites you have been to.  The articles are created by someone.  Those are the conversation starters.

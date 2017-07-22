@@ -8,6 +8,7 @@ guid: http://tedtschopp.wordpress.com/2007/01/23/a_beginning/
 permalink: /2007/01/23/a_beginning/
 categories:
   - Fiction
+  - Writing
 ---
 One of my resolutions this year was to start writing fiction again.&nbsp; I have done it several times in my past, but I have never let people read it publicly.&nbsp; The only thing that ever came close to public viewing was the several Role Playing Games I have run.&nbsp; Additionally I posted one [poem](http://www.tschopp.net/ted/2006/01/the_path_west.html)&nbsp;I had written about 5 years ago.
 

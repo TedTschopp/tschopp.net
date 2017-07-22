@@ -8,6 +8,7 @@ guid: http://tedtschopp.wordpress.com/2006/04/07/a_little_calend/
 permalink: /2006/04/07/a_little_calend/
 categories:
   - Web
+  - Coding
 ---
 The following code is a [calendar application](http://www.tschopp.net/date_time_testing.html) I’m building in JavaScript. It needs a couple rounds of refactoring (to get rid of document.writes and to make it more object friendly).  The next step will be to make it handle iCal files (which will be a trick).  This is posted for all to enjoy. See the link at the end of this document.
 

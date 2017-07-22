@@ -9,8 +9,6 @@ permalink: /2003/12/19/happy_advent/
 categories:
   - Religion
   - Computers
-tags:
-  - Main Menu
 ---
 OK, so a couple weeks ago I went to Disneyland with my sister, her husband James and her friend Eric from College.
 

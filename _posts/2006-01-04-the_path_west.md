@@ -7,7 +7,8 @@ layout: post
 guid: http://tedtschopp.wordpress.com/2006/01/04/the_path_west/
 permalink: /2006/01/04/the_path_west/
 categories:
-  - Poem
+  - Writing
+  - Fiction
 ---
 Slowly slip the sands of time  
 Past my fingers, through my hands.  

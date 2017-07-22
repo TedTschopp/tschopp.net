@@ -14,14 +14,6 @@ tags:
   - Film
   - linkedin
 ---
-<div id="attachment_1009" style="width: 116px" class="wp-caption alignright">
-  <a href="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/robinhood.png"><img class="size-thumbnail wp-image-1009" src="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/robinhood.png?w=106" alt="Robin Hood Statue" width="106" height="150" srcset="http://localhost:8888/Wordpress/wp-content/uploads/2011/06/robinhood.png 683w, http://localhost:8888/Wordpress/wp-content/uploads/2011/06/robinhood-212x300.png 212w" sizes="(max-width: 106px) 100vw, 106px" /></a>
-  
-  <p class="wp-caption-text">
-    A statue of Robin Hood at Thoresby Hall, Nottinghamshire
-  </p>
-</div>
-
 Recently I saw the movie Robin Hood staring Russell Crow. The movie itself isn’t great or grand, but it serves as a wonderful jumping off point for a point I’m trying to make. The movie itself is a story of how Robin Hood became an outlaw and what motivates him to do what he does. Upon returning from the crusades Robin finds himself in a community under attack on all sides. The rightful Lord of Nottingham is dead on the battle fields of France, and his father is a weak old blind man. His wife, now single, turns out to have married him right before he left for the crusades. The church is demanding its tithe and King John is demanding taxes to pay for an army to protect the realm from the French. The old, dying father of Lord of Nottingham asks Robin to protect His son’s community.
 
 What is Robin to do? What is he to protect? It turns out that one of his first tasks to protect the community is to make sure the common fields are planted. Eventually at the end of the movie we find Robin living off the land, an outlaw, still protecting the people of Nottingham by defending the commons of that community. The story of Robin Hood centers on the question of the commons. What makes a member a member of a community? Who has the rights to defend the commons? Who has the rights to tax the commons?

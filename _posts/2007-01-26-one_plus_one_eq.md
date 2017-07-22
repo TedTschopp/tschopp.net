@@ -8,8 +8,6 @@ guid: http://tedtschopp.wordpress.com/2007/01/26/one_plus_one_eq/
 permalink: /2007/01/26/one_plus_one_eq/
 categories:
   - Religion
-tags:
-  - Main Menu
 ---
 Some people are just idiots, other people are rude, and finally some people are just downright ugly.&nbsp; This means that there are some people who are brilliant, there are others who are considerate, and there is such a thing as beauty.&nbsp;&nbsp;I&rsquo;m not trying to say that I am brilliant, or considerate, or beautiful.&nbsp; To the contrary, most of the time I am not any of these things.&nbsp; </span>
 
@@ -44,7 +42,3 @@ The answer to this question is two fold.&nbsp; One, accept, understand, internal
 True Christianity holds that there are universal standards and value is based on the fact that all humans look like the creator of the universe.&nbsp; It&rsquo;s a value that humans as well as the creator recognise as valuable.&nbsp; The answer to the question of &ldquo;What do you get the person who has everything?&rdquo; is &ldquo;A miniature version of themselves.&rdquo;&nbsp; Sin, according to true Christianity, is the measure of how well we keep the universal standard.&nbsp; Our value as humans is not based on how much we sin or how little we sin.&nbsp; It&rsquo;s based on the fact that under all the grime of sin that covers us, we still look like the creator.&nbsp; The true message of Christianity is that the Creator of the universe entered the universe to clean all the grime off of us and to give us his clothing so that we could be a miniature version of Him.&nbsp; This is why the bible uses the term &ldquo;sons of God&rdquo; to refer to those who end up in heaven.&nbsp; 
 
 So to go all the way back to the beginning.&nbsp; Some people are just idiots, other people are rude, and finally some people are just downright ugly.&nbsp; Or to state it in a better way, sometimes, I am just an a rude, ugly, idiot.&nbsp; I have hope in the fact that some day I will stand before the creator wearing His cloths and I will be free of all this idiocy, ugliness, and rude manners.&nbsp; 
-
-<div class="bjtags">
-  Tags: <a rel="tag" href="http://technorati.com/tag/Philosophy">Philosophy</a>
-</div>

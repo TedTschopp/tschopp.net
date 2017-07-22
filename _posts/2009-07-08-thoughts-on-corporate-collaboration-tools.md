@@ -9,7 +9,7 @@ permalink: /2009/07/08/thoughts-on-corporate-collaboration-tools/
 categories:
   - Collaboration
   - Computers
-  - Enterprise 2.0
+  - Enterprise
 ---
 The key approach to collaboration tools is to treat them like Pen and Paper. They are like Conference Rooms. They are like the telephones. Each of these tools do not have a whole lot of restrictions placed on them in the office environment. A collaboration tool is only as useful as it is used. To put barriers to use in place only reduces the number of people who are going to use them.
 

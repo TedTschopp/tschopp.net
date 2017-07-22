@@ -8,11 +8,8 @@ guid: http://tedtschopp.wordpress.com/2006/12/20/shadows_and_sym/
 permalink: /2006/12/20/shadows_and_sym/
 categories:
   - Books
-tags:
-  - Main Menu
----
-[<img alt="Lilith" hspace="6" src="http://www.tschopp.net/ted/Lilith_thumb1.jpg" align="right" vspace="6" border="0" />](http://www.tschopp.net/ted/Lilith.png)I am&nbsp;reading [Lilith by George MacDonald](http://www.amazon.com/Lilith-George-MacDonald/dp/0802860613/sr=11-1/qid=1166636825/ref=sr_11_1/102-9945490-7278550).&nbsp; The book, so far, is typical George MacDonald, and I don&rsquo;t want to go into the details until I&rsquo;m finished; but my mind keeps focusing on something from the introduction:&nbsp; 
 
+---
 > &ldquo;It must be more than thirty years ago that I bought &mdash; almost unwilling, for I had looked at the column on that bookstall and rejected it on a dozen previous occasions &mdash; the Everyman edition of _Phantastes_. A few hours later I knew that I had crossed a great frontier. I had already been waist deep in Romanticism, and likely enough, at any moment, to flounder into its darker and more evil forms, slithering down the steep descent that leads from the love of strangeness to that of eccentricity and thence to that of perversity.&rdquo;&nbsp; &mdash; C.S. Lewis&nbsp;Preface to _George MacDonald: an Anthology_
 
 Many people who get to know me soon find out that I&rsquo;m a lover of things that are fantastic.&nbsp; I was first introduced to the worlds of the imagination when my mother use to read to me the books that had won Newbery awards.&nbsp; I can still remember _Island of the Blue Dolphins_, _Mrs. Frisby and the Rats of NIHM_, and _A Wrinkle in Time_.&nbsp; In these she would sprinkled Chronicles of Narnia and the Hobbit.&nbsp; It should be no wonder that I adore stories of strange beasts and noble kings.&nbsp; If I ever met a talking rodent my first thought would not be to question my sanity, but to question my new friend if he had ever heard of [Reepicheep](http://en.wikipedia.org/wiki/Reepicheep).&nbsp; 

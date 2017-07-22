@@ -8,6 +8,7 @@ guid: http://tedtschopp.wordpress.com/2008/02/13/fasting-for-len/
 permalink: /2008/02/13/fasting-for-len/
 categories:
   - Food and Drink
+  - Religion
 ---
 Well, this is starting the second week of my fast for Lent.  This year I have decided not to eat any solid food (liquids only) when the sun is up.  What this basically means is that I have a nice normal dinner, and everything else is liquid.  I have also decided that I will not be drinking any soda, so all fluids are going to be juices and tea.  Most of the time I will drink several types of tea.  Occasionally I will have an orange juice or a vitamin water.  For lunch I will drink a Jamba juice with a shot of wheat grass.
 

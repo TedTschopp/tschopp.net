@@ -8,7 +8,6 @@ guid: http://tedtschopp.wordpress.com/2007/09/26/ideas-to-think-about-life-and-t
 permalink: /2007/09/26/ideas-to-think-about-life-and-taxes/
 categories:
   - Weblogs
-tags:
   - Science
 ---
 I recently heard [Alex Wright](http://www.alexwright.org/) speak at the [Long Now Foundation](http://www.longnow.org/)&#160;via their [podcast](http://www.longnow.org/projects/seminars/SALT.xml).&#160; It made me think of a couple things.

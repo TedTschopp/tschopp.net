@@ -1,6 +1,6 @@
 ---
 id: 103
-title: 'N.T. Wright:  What is Christianity?'
+title: 'What is Christianity?'
 date: 2007-01-04T15:53:03+00:00
 author: Ted Tschopp
 excerpt: |
@@ -11,8 +11,6 @@ guid: http://tedtschopp.wordpress.com/2007/01/04/nt_wright_what_/
 permalink: /2007/01/04/nt_wright_what_/
 categories:
   - Religion
-tags:
-  - Main Menu
 ---
 The following quote is from N.T. Wright and it is his summary of what Christianity is.
 

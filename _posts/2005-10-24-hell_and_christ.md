@@ -8,8 +8,6 @@ guid: http://tedtschopp.wordpress.com/2005/10/24/hell_and_christ/
 permalink: /2005/10/24/hell_and_christ/
 categories:
   - Religion
-tags:
-  - Main Menu
 ---
 I posted this elsewhere, and ran into it today, and thought about reposting it here:
 
