@@ -351,6 +351,19 @@
                     <h2 class="section-heading">Ted Tschopp's Blog</h2>
                     <p class="lead">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p> 
                     <ul>
+
+  {% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+    <p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+    <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>
+    </a>
+  </li>
+  {% endfor %}
+
+
+
                         <li>40%+ Mobile Traffic</li>
                         <li>200K+ Followers on Social</li>
                         <li>2M+ Monthly Active Users</li>
@@ -608,10 +621,6 @@
         src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossorigin="anonymous"></script>
-
-    {% include js-jquery.html %}
-
-
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
