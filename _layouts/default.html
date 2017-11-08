@@ -354,9 +354,9 @@
                     {% for post in site.posts limit:4 %}
                       <li>
                         {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                        <a href="{{ post.url }}">{{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }} -- {{ post.title }}
-                        <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>-->
+                        <a href="{{ post.url }}">{{ post.title }} -- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
                         </a>
+                        <p>{{ post.content |truncatehtml | truncatewords: 60 }}</p>
                       </li>
                     {% endfor %}
                     </ul>
