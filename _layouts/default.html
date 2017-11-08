@@ -351,21 +351,14 @@
                     <h2 class="section-heading">Ted Tschopp's Blog</h2>
                     <p class="lead">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p> 
                     <ul>
-
-{% for post in site.posts limit:4 %}
-  <li>
-    <a href="{{ post.url }}">{{ post.date | date: "%d %B %Y" }} -- {{ post.title }}
-    <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>-->
-    </a>
-  </li>
-{% endfor %}
-
-
-
-                        <li>40%+ Mobile Traffic</li>
-                        <li>200K+ Followers on Social</li>
-                        <li>2M+ Monthly Active Users</li>
-                        <li>3.75M+ Transactions a Month</li>
+                    {% for post in site.posts limit:4 %}
+                      <li>
+                        {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
+                        <a href="{{ post.url }}">{{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }} -- {{ post.title }}
+                        <!-- <div>{{ post.content |truncatehtml | truncatewords: 60 }}</div>-->
+                        </a>
+                      </li>
+                    {% endfor %}
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
