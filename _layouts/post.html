@@ -316,7 +316,7 @@
 	            <hr>
 
 	            <!-- Date/Time -->
-                <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i>Posted {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
                 {% case hour %}
                 {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
                 during the night
