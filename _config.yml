@@ -1,5 +1,5 @@
-url: httpd://www.tedt.org/
-baseurl: "http://ww.tedt.org/"
+url: https//www.tedt.org/
+baseurl: https://www.tedt.org/
 
 # Build Settings
 sass:
@@ -8,12 +8,32 @@ include: ['_pages']
 
 
 # Varaibles that will be used elsewhere
-name: Ted Tschopp
+
+# The title tag of the site
+title: Ted Tschopp
+
+#description of the site for meta tags
 description: >
+  Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet
+
+# Site's name
+name: Ted Tschopp's Homepage
+
+# First Name / Given Name / Common Name
+givenname: Ted
+
+#Family Name
+familyname: Tschopp
+
+#Other Names
+othernames: >
   Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تيد شوب | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
+
+
+
 twitter_username: TedTschopp
 github_username: TedTschopp
 linkedin_username: tedtschopp
 keybaseio_username: tedtschopp
 email: ted@tschopp.org
-phonenumber: 1-626-255-3757
+phonenumber: +1-626-255-3757

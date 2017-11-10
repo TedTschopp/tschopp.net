@@ -8,7 +8,7 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
 
     <!-- Base URL to use for all relative URLs contained within the document -->
-    <base href="https://www.tedt.org/">
+    <base href="{{ site.baseurl }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
@@ -30,7 +30,7 @@
     <!-- Color of the status bar -->
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <!-- Web App Name for the Shortcut -->
-    <meta name="apple-mobile-web-app-title"            content="Ted Tschopp">
+    <meta name="apple-mobile-web-app-title"            content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <!-- Do Not Detect Phone Numbers -->
     <meta name="format-detection"                      content="telephone=no"> 
     
@@ -103,8 +103,8 @@
     <meta http-equiv="cleartype"                   content="on">
     <meta name="skype_toolbar"                     content="skype_toolbar_parser_compatible">
     <meta name="msapplication-tap-highlight"       content="no">
-    <meta name="application-name"                  content="Ted Tschopp">
-    <meta name="msapplication-tooltip"             content="Ted Tschopp's homepage">
+    <meta name="application-name"                  content="{{ site.name }}">
+    <meta name="msapplication-tooltip"             content="{{ site.name }}">
     <meta name="msapplication-starturl"            content="/">
     <meta name="msapplication-square150x150logo"   content="/img/mstile-150x150.png">
     <meta name="msapplication-square310x310logo"   content="/img/mstile-310x310.png">
@@ -114,10 +114,10 @@
     <meta name="msapplication-TileColor"           content="#FF3300">
     <meta name="msapplication-TileImage"           content="/img/mstile-144x144.png">
     <meta name="msapplication-task-separator"      content="1">
-    <meta name="msapplication-task"                content="name=Contact Ted;
+    <meta name="msapplication-task"                content="name=Contact {{ site.givenname }};
                                                             action-uri=./#contact;
                                                             icon-uri=./img/favicon.ico">
-    <meta name="msapplication-task"                content="name=Ted's Projects;
+    <meta name="msapplication-task"                content="name={{ site.givenname }}'s Projects;
                                                             action-uri=./#projects;
                                                             icon-uri=./img/favicon.ico">
     <meta name="msapplication-allowDomainApiCalls" content="false">
@@ -128,8 +128,8 @@
     <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
     -->
 
-    <title>Ted Tschopp</title>
-    <meta name="author" content="Ted Tschopp">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="author" content="{{ site.givenname }} {{ site.familyname }}">
     <link rel="author" href="/humans.txt">
     <link rel="copyright" href="/copyright.html">
 
@@ -143,9 +143,9 @@
     -->
     <!-- Search Eengine and Browser Meta Tags. -->
     <!-- The description of the website. Keep under 500 characters -->
-    <meta name="description" content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet"> 
+    <meta name="description" content="{{ site.description }}"> 
     <!-- The short description of the website.  Keep uder 100 characters -->
-    <meta name="abstract"    content="Ted Tschopp's Homepage"> 
+    <meta name="abstract"    content="{{ site.name }}"> 
  
     <!-- Search engine robots Meta Tags. -->
     <!-- Disable from all search engines.-->
@@ -155,15 +155,15 @@
     <meta property="og:image"            content="http://example.com/image.jpg">  <!-- Web page thumbnail -->
     <meta property="og:image"            content="http://example.com/image2.jpg"> <!-- Web page thumbnail (can be multiple) -->
     <!-- Web site title -->
-    <meta property="og:site_name"        content="Ted Tschopp's Homepage">
+    <meta property="og:site_name"        content="{{ site.name }}">
     <!-- Web page title -->
-    <meta property="og:title"            content="Ted Tschopp">
+    <meta property="og:title"            content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <!-- Web page description -->
-    <meta property="og:description"      content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet">  
+    <meta property="og:description"      content="{{ site.description }}">  
     <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
     <meta property="og:type"             content="website">  
     <!-- Url to this web page -->
-    <meta property="og:url"              content="https://www.tedt.org/"> 
+    <meta property="og:url"              content="{{ site.baseurl }}"> 
     <!-- Main Language -->
     <meta property="og:locale"           content="en_US">    
     <!-- Alternate Language -->
@@ -189,9 +189,9 @@
     <!-- <meta property="og:country-name"     content="UK"> -->
 
     <!-- Contact email -->
-    <meta property="og:email"            content="ted@tschopp"> 
+    <meta property="og:email"            content="{{ site.email }}"> 
     <!-- Contact phone number -->
-    <meta property="og:phone_number"     content="+1 626-255-3757">              
+    <meta property="og:phone_number"     content="{{site.phonenumber}}">              
 
     <!-- Video file url-->
     <!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
@@ -225,11 +225,11 @@
     <!-- Twitter Meta Tags. -->
     <meta name="twitter:card"            content="summary">
     <meta name="twitter:site"            content="@site_account">
-    <meta name="twitter:creator"         content="@TedTschopp">
-    <meta name="twitter:url"             content="https://www.tedt.org/">
-    <meta name="twitter:title"           content="Ted Tschopp">
-    <meta name="twitter:description"     content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet">
-    <meta name="twitter:image"           content="https://www.tedt.org/img/apple-touch-icon-180x180.png">
+    <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
+    <meta name="twitter:url"             content="{{ site.baseurl }}">
+    <meta name="twitter:title"           content="{{ site.title }}">
+    <meta name="twitter:description"     content="{{ site.description }}">
+    <meta name="twitter:image"           content="{{ site.baseurl }}img/apple-touch-icon-180x180.png">
     <meta name="twitter:image:alt"       content="The Tschopp Family Crest">
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
@@ -245,13 +245,15 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    {% include css-bootstrap.html %}
+
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    {% include css-font-awesome.html %}
+
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -364,7 +366,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/blog.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/blog.jpg" alt="">
                 </div>
             </div>
 
@@ -390,7 +392,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/automation.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/automation.jpg" alt="">
                 </div>
 
             </div>
@@ -421,7 +423,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/web.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/web.jpg" alt="">
                 </div>
             </div>
 
@@ -456,7 +458,7 @@
                         
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/sce_com.png" alt="">
+                        <img class="img-responsive img-thumbnail" src="img/sce_com.png" alt="">
                     </div>
                 </div>
             </div>
@@ -483,7 +485,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/tolkienonline.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/tolkienonline.jpg" alt="">
                 </div>
             </div>
 
@@ -504,7 +506,7 @@
                     <p class="lead">An application that generates text using procedural methods.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/table.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/table.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -522,7 +524,7 @@
                     <p class="lead">Check the strength of your password based on mathmatical models that take into account the latest hacking techniques!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/password.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="img/password.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -537,12 +539,12 @@
 
         <div class="container">
 
-            <div class="row vcard" id="hcard-Ted-Tschopp">
+            <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
                 <div class="col-lg-12">
-                    <h2 class="fnp-name">Contact <span class="p-given-name">Ted</span> <span class="p-family-name">Tschopp</span></h2>
+                    <h2 class="fnp-name">Contact <span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></h2>
                 </div>
                 <div class="col-lg-12 hidden">
-                    <img src="https://www.tedt.org/img/thumb1.jpg" alt="photo of Ted Tschopp" class="photo u-photo"/>
+                    <img src="{{ site.baseurl }}img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
                     <div class="p-adr hidden">
                         <soan class="p-locality">Los Angeles</span>,
                         <span class="p-region">CA</span>
