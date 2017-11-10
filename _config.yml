@@ -1,3 +1,19 @@
 url: httpd://www.tedt.org/
+baseurl: "http://ww.tedt.org/"
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+
+
+# Varaibles that will be used elsewhere
 name: Ted Tschopp
-description: Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تيد شوب | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
+description: >
+  Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تيد شوب | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
+twitter_username: TedTschopp
+github_username: TedTschopp
+linkedin_username: tedtschopp
+keybaseio_username: tedtschopp
+email: ted@tschopp.org
+phonenumber: 1-626-255-3757
