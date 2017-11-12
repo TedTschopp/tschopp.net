@@ -564,12 +564,12 @@
 
             <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
                 <div class="col-lg-12">
-                    <h2 class="fnp-name">Contact <span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></h2>
+                    <h2 class="fnp-name">Contact <span class="fn n"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></span></h2>
                 </div>
                 <div class="col-lg-12 hidden">
                     <img src="{{ site.baseurl }}img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
                     <div class="p-adr hidden">
-                        <soan class="p-locality">Los Angeles</span>,
+                        <span class="p-locality">Los Angeles</span>,
                         <span class="p-region">CA</span>
                         <span class="p-country-name">United States</span>
                     </div>
@@ -589,6 +589,10 @@
                             <a href="tel:{{ site.phonenumber }} " rel="me" class="btn btn-default btn-lg p-tel"><i class="fa fa-phone fa-fw"></i> <span class="network-name">+1-626-255-3757</span></a>
                         </li>
                     </ul>
+
+<div class="h-card"><a href="http://twitter.com/blabla" class="">Twitter</a></div>
+
+
                 </div>
                 <div class="col-lg-12">
                     <a  name="elsewhere"></a>
@@ -597,14 +601,24 @@
                 <div class="col-lg-12">
                     <ul class="list-inline intro-social-buttons">
                         <li>
-                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
+                        <li>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fa fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+
+
+
+
                     </ul>
                 </div>
             </div>
