@@ -5,6 +5,7 @@ author: Ted Tschopp
 layout: default
 permalink: /2015/01/29/mobile-computing/
 image: img/blog.jpg
+lead: A collection of writings I have put online over the years. Some of it is really bad, and some of it I am proud of. All of it can be made better.
 ---
   <ul>
   {% for post in site.posts limit:5 %}
