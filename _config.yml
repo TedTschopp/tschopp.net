@@ -5,6 +5,7 @@ baseurl: https://www.tedt.org/
 sass:
   sass_dir: _sass
 include: ['_pages']
+include: ['_default']
 
 
 # Varaibles that will be used elsewhere
