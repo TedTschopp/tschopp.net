@@ -345,26 +345,26 @@
 
 
   {% for defaults in site.default limit:5 %}
-      {% assign title = defaults.title %}
-      {% assign lead = defaults.lead %}
-      {% assign image = defaults.image %}
-      {% assign name = defaults.name %}
-      {% assign content = defaults.content %}
+      {% assign Dtitle = defaults.title %}
+      {% assign Dlead = defaults.lead %}
+      {% assign Dimage = defaults.image %}
+      {% assign Dname = defaults.name %}
+      {% assign Dcontent = defaults.content %}
 
-    <a name="{{ name }}"></a>
+    <a name="{{ Dname }}"></a>
 
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ title }}</h2>
-                    <p class="lead">{{ lead }}</p> 
-                    {{content}}
+                    <h2 class="section-heading">{{ Dtitle }}</h2>
+                    <p class="lead">{{ Dlead }}</p> 
+                    {{Dcontent}}
 
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/automation.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="{{ Dimage }}" alt="">
                 </div>
 
             </div>
