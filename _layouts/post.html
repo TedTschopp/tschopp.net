@@ -372,18 +372,9 @@
                 <!-- Blog Search Well -->
                 <div class="well">
                     <h4>Blog Search</h4>
-                    <script>
-                      (function() {
-                        var cx = '003027838407468454148:ddtovg0fltc';
-                        var gcse = document.createElement('script');
-                        gcse.type = 'text/javascript';
-                        gcse.async = true;
-                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                        var s = document.getElementsByTagName('script')[0];
-                        s.parentNode.insertBefore(gcse, s);
-                      })();
-                    </script>
-                    <gcse:search></gcse:search>
+                    {% include google-search.html %}
+
+
                 </div>
 
                 <!-- Blog Categories Well -->
@@ -414,6 +405,8 @@
                 <!-- Side Widget Well -->
                 <div class="well">
                     <h4>Side Widget Well</h4>
+                    {% include post-grid.html %}
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
                 </div>
 
