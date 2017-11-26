@@ -270,6 +270,9 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
+    {% include navigation.html %}
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
@@ -387,7 +390,7 @@
                     {% for post in site.posts limit:5 %}
                       <li>
                         {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                        <a href="{{ post.url }}">{{ post.title }} <!-- -- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
+                        <a href="{{ post.url }}">{{ post.title }} <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
                         </a>
                         {% if forloop.first %}
                         <p>{{ post.content |truncatehtml | truncatewords: 20 }}</p>
