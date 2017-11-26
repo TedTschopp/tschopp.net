@@ -63,8 +63,8 @@ h6 {
 
 .intro-image-avatar {
     border-radius: 50% 50% 50% 50%;
-    width: 100px;
-    height: 100px;
+/*    width: 100px;
+    height: 100px; */
 }
 
 @media(max-width:767px) {
