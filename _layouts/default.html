@@ -8,7 +8,7 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
 
     <!-- Base URL to use for all relative URLs contained within the document -->
-    <base href="{{ site.baseurl }}">
+    <base href="{{ site.siteurl }}">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
@@ -163,7 +163,7 @@
     <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
     <meta property="og:type"             content="website">
     <!-- Url to this web page -->
-    <meta property="og:url"              content="{{ site.baseurl }}">
+    <meta property="og:url"              content="{{ site.siteurl }}">
     <!-- Main Language -->
     <meta property="og:locale"           content="en_US">
     <!-- Alternate Language -->
@@ -226,10 +226,10 @@
     <meta name="twitter:card"            content="summary">
     <meta name="twitter:site"            content="@site_account">
     <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
-    <meta name="twitter:url"             content="{{ site.baseurl }}">
+    <meta name="twitter:url"             content="{{ site.siteurl }}">
     <meta name="twitter:title"           content="{{ site.title }}">
     <meta name="twitter:description"     content="{{ site.description }}">
-    <meta name="twitter:image"           content="{{ site.baseurl }}img/apple-touch-icon-180x180.png">
+    <meta name="twitter:image"           content="{{ site.siteurl }}img/apple-touch-icon-180x180.png">
     <meta name="twitter:image:alt"       content="The Tschopp Family Crest">
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
@@ -603,7 +603,7 @@
                     <h2 class="fnp-name">Contact <span class="fn n"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></span></h2>
                 </div>
                 <div class="col-lg-12 hidden">
-                    <img src="{{ site.baseurl }}img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
+                    <img src="{{ site.siteurl }}img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
                     <div class="p-adr hidden">
                         <span class="p-locality">Los Angeles</span>,
                         <span class="p-region">CA</span>
@@ -613,7 +613,7 @@
                 <div class="col-lg-12">
                     <ul class="list-inline intro-social-buttons">
                         <li>
-                            <a href="{{ site.baseurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
+                            <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
                         </li>
                         <li>
                             <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
