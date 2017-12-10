@@ -10,7 +10,7 @@ categories:
   - Projects
 ---
 <div id="attachment_787" style="width: 160px" class="wp-caption alignright">
-  <a href="http://localhost:8888/Wordpress/wp-content/uploads/2011/02/plumtree_2dportal_1.gif"><img class="size-thumbnail wp-image-787" title="SCE Corporate Portal using Plumtree" src="http://localhost:8888/Wordpress/wp-content/uploads/2011/02/plumtree_2dportal_1.gif?w=150" alt="" width="150" height="74" /></a>
+  <a href="https://www.tedt.org/wp-content/uploads/2011/02/plumtree_2dportal_1.gif"><img class="size-thumbnail wp-image-787" title="SCE Corporate Portal using Plumtree" src="https://www.tedt.org/wp-content/uploads/2011/02/plumtree_2dportal_1.gif?w=150" alt="" width="150" height="74" /></a>
   
   <p class="wp-caption-text">
     SCE Corporate Portal

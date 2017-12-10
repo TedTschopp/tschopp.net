@@ -4,7 +4,7 @@ title: Thoughts on Corporate Collaboration Tools
 date: 2009-07-08T12:11:54+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2009/07/08/thoughts-on-corporate-collaboration-tools/
+guid: https://www.tedt.org/2009/07/08/thoughts-on-corporate-collaboration-tools/
 permalink: /2009/07/08/thoughts-on-corporate-collaboration-tools/
 categories:
   - Collaboration

@@ -4,7 +4,7 @@ title: 'What&#8217;s Playing on KROQ'
 date: 2005-04-15T09:42:50+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/04/15/whats_playing_o/
+guid: https://www.tedt.org/2005/04/15/whats_playing_o/
 permalink: /2005/04/15/whats_playing_o/
 categories:
   - Web

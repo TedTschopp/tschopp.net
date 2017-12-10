@@ -4,7 +4,7 @@ title: 'Script# Prototype from Nikhil Kothari'
 date: 2006-05-23T17:28:39+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/05/23/script-prototype-from-nikhil-kothari/
+guid: https://www.tedt.org/2006/05/23/script-prototype-from-nikhil-kothari/
 permalink: /2006/05/23/script-prototype-from-nikhil-kothari/
 categories:
   - Web

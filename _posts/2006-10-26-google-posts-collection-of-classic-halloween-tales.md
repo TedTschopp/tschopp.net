@@ -4,7 +4,7 @@ title: Google Posts Collection of Classic Halloween Tales
 date: 2006-10-26T18:44:06+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/10/26/google-posts-collection-of-classic-halloween-tales/
+guid: https://www.tedt.org/2006/10/26/google-posts-collection-of-classic-halloween-tales/
 permalink: /2006/10/26/google-posts-collection-of-classic-halloween-tales/
 categories:
   - Books

@@ -4,7 +4,7 @@ title: Play Chess and see the computer thinking the next move
 date: 2006-08-21T13:28:36+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/08/21/play_chess_and_/
+guid: https://www.tedt.org/2006/08/21/play_chess_and_/
 permalink: /2006/08/21/play_chess_and_/
 categories:
   - Web

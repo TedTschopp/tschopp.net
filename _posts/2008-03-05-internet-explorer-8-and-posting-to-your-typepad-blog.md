@@ -4,7 +4,7 @@ title: Internet Explorer 8 and posting to your Typepad Blog
 date: 2008-03-05T23:55:06+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
+guid: https://www.tedt.org/2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
 permalink: /2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
 categories:
   - Programming

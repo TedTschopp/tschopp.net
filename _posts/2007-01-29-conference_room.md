@@ -4,7 +4,7 @@ title: 'Conference Room Names:'
 date: 2007-01-29T13:57:08+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/29/conference_room/
+guid: https://www.tedt.org/2007/01/29/conference_room/
 permalink: /2007/01/29/conference_room/
 categories:
   - Cool

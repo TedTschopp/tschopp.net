@@ -4,7 +4,7 @@ title: 'Disnyland Simulator &#8211; Real Cool!'
 date: 2007-04-30T15:52:17+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/04/30/disnyland_simul/
+guid: https://www.tedt.org/2007/04/30/disnyland_simul/
 permalink: /2007/04/30/disnyland_simul/
 categories:
   - Cool

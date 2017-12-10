@@ -4,7 +4,7 @@ title: Moving to the Mac
 date: 2008-04-13T22:54:26+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/04/13/moving-to-the-mac/
+guid: https://www.tedt.org/2008/04/13/moving-to-the-mac/
 permalink: /2008/04/13/moving-to-the-mac/
 categories:
   - Computers

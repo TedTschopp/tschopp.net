@@ -4,7 +4,7 @@ title: Is the game up at Decipher? Lawsuits are mounting and fans restless
 date: 2005-08-11T12:34:30+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/08/11/is_the_game_up_/
+guid: https://www.tedt.org/2005/08/11/is_the_game_up_/
 permalink: /2005/08/11/is_the_game_up_/
 categories:
   - Games

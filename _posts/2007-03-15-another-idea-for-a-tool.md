@@ -4,7 +4,7 @@ title: Another Idea for a Tool
 date: 2007-03-15T18:34:40+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/03/15/another-idea-for-a-tool/
+guid: https://www.tedt.org/2007/03/15/another-idea-for-a-tool/
 permalink: /2007/03/15/another-idea-for-a-tool/
 categories:
   - Computers

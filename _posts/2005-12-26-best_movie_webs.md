@@ -4,7 +4,7 @@ title: Best Movie Website Ever.
 date: 2005-12-26T20:13:18+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/12/26/best_movie_webs/
+guid: https://www.tedt.org/2005/12/26/best_movie_webs/
 permalink: /2005/12/26/best_movie_webs/
 categories:
   - Movies

@@ -4,7 +4,7 @@ title: The Tao Of Programming
 date: 2005-08-27T19:31:54+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/08/27/the-tao-of-programming/
+guid: https://www.tedt.org/2005/08/27/the-tao-of-programming/
 permalink: /2005/08/27/the-tao-of-programming/
 categories:
   - Web

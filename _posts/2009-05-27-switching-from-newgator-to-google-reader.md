@@ -4,7 +4,7 @@ title: Switching from NewGator to Google Reader
 date: 2009-05-27T22:57:46+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2009/05/27/switching-from-newgator-to-google-reader/
+guid: https://www.tedt.org/2009/05/27/switching-from-newgator-to-google-reader/
 permalink: /2009/05/27/switching-from-newgator-to-google-reader/
 categories:
   - Web

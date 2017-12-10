@@ -4,7 +4,7 @@ title: 'Wierd Words: Are you a Gynotikolobomassophile lapling who enjoys meupare
 date: 2007-03-04T13:15:54+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/03/04/wierd_words_are/
+guid: https://www.tedt.org/2007/03/04/wierd_words_are/
 permalink: /2007/03/04/wierd_words_are/
 categories:
   - Cool

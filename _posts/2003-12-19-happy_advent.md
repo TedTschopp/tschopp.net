@@ -4,7 +4,7 @@ title: Happy Advent
 date: 2003-12-19T08:41:00+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2003/12/19/happy_advent/
+guid: https://www.tedt.org/2003/12/19/happy_advent/
 permalink: /2003/12/19/happy_advent/
 categories:
   - Religion

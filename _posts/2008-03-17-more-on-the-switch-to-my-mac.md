@@ -4,7 +4,7 @@ title: More on the Switch to my Mac.
 date: 2008-03-17T00:19:54+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/03/17/more-on-the-switch-to-my-mac/
+guid: https://www.tedt.org/2008/03/17/more-on-the-switch-to-my-mac/
 permalink: /2008/03/17/more-on-the-switch-to-my-mac/
 categories:
   - Computers

@@ -4,7 +4,7 @@ title: '93-year-old blogger: &#8220;It Bothers Me That I Have To Go&#8221;'
 date: 2007-01-26T02:33:32+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
+guid: https://www.tedt.org/2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
 permalink: /2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
 categories:
   - Weblogs

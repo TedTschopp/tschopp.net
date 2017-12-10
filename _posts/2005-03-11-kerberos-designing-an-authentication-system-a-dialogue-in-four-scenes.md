@@ -4,7 +4,7 @@ title: 'Kerberos: Designing an Authentication System: a Dialogue in Four Scenes'
 date: 2005-03-11T22:54:43+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/03/11/kerberos-designing-an-authentication-system-a-dialogue-in-four-scenes/
+guid: https://www.tedt.org/2005/03/11/kerberos-designing-an-authentication-system-a-dialogue-in-four-scenes/
 permalink: /2005/03/11/kerberos-designing-an-authentication-system-a-dialogue-in-four-scenes/
 categories:
   - Web

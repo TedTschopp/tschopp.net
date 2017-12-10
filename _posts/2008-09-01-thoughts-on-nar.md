@@ -4,7 +4,7 @@ title: Thoughts on Narrative
 date: 2008-09-01T12:43:02+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/09/01/thoughts-on-nar/
+guid: https://www.tedt.org/2008/09/01/thoughts-on-nar/
 permalink: /2008/09/01/thoughts-on-nar/
 categories:
   - Books

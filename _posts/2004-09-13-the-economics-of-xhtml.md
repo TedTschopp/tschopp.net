@@ -4,7 +4,7 @@ title: The Economics of XHTML
 date: 2004-09-13T20:13:58+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2004/09/13/the-economics-of-xhtml/
+guid: https://www.tedt.org/2004/09/13/the-economics-of-xhtml/
 permalink: /2004/09/13/the-economics-of-xhtml/
 categories:
   - Web

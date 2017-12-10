@@ -4,7 +4,7 @@ title: Putting First Things First
 date: 2009-07-09T10:48:39+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2009/07/09/putting-first-things-first/
+guid: https://www.tedt.org/2009/07/09/putting-first-things-first/
 permalink: /2009/07/09/putting-first-things-first/
 image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png
 categories:

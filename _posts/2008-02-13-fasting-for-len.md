@@ -4,7 +4,7 @@ title: Fasting for Lent
 date: 2008-02-13T16:15:39+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/02/13/fasting-for-len/
+guid: https://www.tedt.org/2008/02/13/fasting-for-len/
 permalink: /2008/02/13/fasting-for-len/
 categories:
   - Food and Drink

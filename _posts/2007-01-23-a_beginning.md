@@ -4,7 +4,7 @@ title: A Beginning
 date: 2007-01-23T13:54:06+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/23/a_beginning/
+guid: https://www.tedt.org/2007/01/23/a_beginning/
 permalink: /2007/01/23/a_beginning/
 categories:
   - Fiction

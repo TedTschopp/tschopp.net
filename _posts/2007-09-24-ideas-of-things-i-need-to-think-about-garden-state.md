@@ -4,7 +4,7 @@ title: 'Ideas of things I need to think about:  Garden State'
 date: 2007-09-24T18:48:17+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
+guid: https://www.tedt.org/2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 permalink: /2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 categories:
   - Motivational

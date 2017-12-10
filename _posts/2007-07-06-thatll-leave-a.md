@@ -4,7 +4,7 @@ title: '&#8220;That&#8217;ll Leave a Mark&#8221;'
 date: 2007-07-06T18:31:28+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/07/06/thatll-leave-a/
+guid: https://www.tedt.org/2007/07/06/thatll-leave-a/
 permalink: /2007/07/06/thatll-leave-a/
 categories:
   - Politics

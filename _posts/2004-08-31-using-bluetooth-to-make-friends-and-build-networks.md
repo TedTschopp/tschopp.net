@@ -4,7 +4,7 @@ title: Using Bluetooth to Make Friends and Build Networks
 date: 2004-08-31T17:33:24+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2004/08/31/using-bluetooth-to-make-friends-and-build-networks/
+guid: https://www.tedt.org/2004/08/31/using-bluetooth-to-make-friends-and-build-networks/
 permalink: /2004/08/31/using-bluetooth-to-make-friends-and-build-networks/
 categories:
   - Web

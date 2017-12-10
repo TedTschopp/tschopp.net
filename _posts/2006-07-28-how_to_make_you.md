@@ -4,7 +4,7 @@ title: How to make your own Soda
 date: 2006-07-28T11:54:59+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/07/28/how_to_make_you/
+guid: https://www.tedt.org/2006/07/28/how_to_make_you/
 permalink: /2006/07/28/how_to_make_you/
 categories:
   - Food and Drink

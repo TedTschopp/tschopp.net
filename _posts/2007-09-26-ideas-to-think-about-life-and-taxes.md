@@ -4,7 +4,7 @@ title: 'Ideas to Think About: Life and Taxes'
 date: 2007-09-26T16:31:50+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/09/26/ideas-to-think-about-life-and-taxes/
+guid: https://www.tedt.org/2007/09/26/ideas-to-think-about-life-and-taxes/
 permalink: /2007/09/26/ideas-to-think-about-life-and-taxes/
 categories:
   - Weblogs

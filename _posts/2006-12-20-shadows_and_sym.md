@@ -4,7 +4,7 @@ title: Shadows and Symbols
 date: 2006-12-20T11:32:34+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/12/20/shadows_and_sym/
+guid: https://www.tedt.org/2006/12/20/shadows_and_sym/
 permalink: /2006/12/20/shadows_and_sym/
 categories:
   - Books

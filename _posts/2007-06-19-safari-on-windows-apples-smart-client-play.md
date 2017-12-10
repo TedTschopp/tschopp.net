@@ -4,7 +4,7 @@ title: 'Safari on Windows: Apple&#8217;s Smart Client Play'
 date: 2007-06-19T00:28:18+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/06/19/safari-on-windows-apples-smart-client-play/
+guid: https://www.tedt.org/2007/06/19/safari-on-windows-apples-smart-client-play/
 permalink: /2007/06/19/safari-on-windows-apples-smart-client-play/
 categories:
   - Computers

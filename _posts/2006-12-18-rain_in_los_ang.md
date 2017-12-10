@@ -4,7 +4,7 @@ title: Rain in Los Angeles
 date: 2006-12-18T11:28:23+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/12/18/rain_in_los_ang/
+guid: https://www.tedt.org/2006/12/18/rain_in_los_ang/
 permalink: /2006/12/18/rain_in_los_ang/
 categories:
   - Religion

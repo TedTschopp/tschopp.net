@@ -4,7 +4,7 @@ title: More on the Fast for Lent
 date: 2008-02-19T17:45:53+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/02/19/more-on-the-fas/
+guid: https://www.tedt.org/2008/02/19/more-on-the-fas/
 permalink: /2008/02/19/more-on-the-fas/
 categories:
   - Religion

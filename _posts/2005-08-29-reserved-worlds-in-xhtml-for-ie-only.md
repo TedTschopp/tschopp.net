@@ -4,7 +4,7 @@ title: Reserved Worlds in XHTML for IE only
 date: 2005-08-29T17:22:45+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/08/29/reserved-worlds-in-xhtml-for-ie-only/
+guid: https://www.tedt.org/2005/08/29/reserved-worlds-in-xhtml-for-ie-only/
 permalink: /2005/08/29/reserved-worlds-in-xhtml-for-ie-only/
 categories:
   - Weblogs

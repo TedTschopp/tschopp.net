@@ -4,7 +4,7 @@ title: Communion of the Saints in the Age of the Internet
 date: 2008-03-16T18:39:33+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2008/03/16/communion-of-th/
+guid: https://www.tedt.org/2008/03/16/communion-of-th/
 permalink: /2008/03/16/communion-of-th/
 categories:
   - Current Affairs

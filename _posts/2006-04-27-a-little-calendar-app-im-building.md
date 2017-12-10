@@ -4,7 +4,7 @@ title: 'A Little Calendar App I&#8217;m building ]['
 date: 2006-04-27T19:58:13+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/04/27/a-little-calendar-app-im-building/
+guid: https://www.tedt.org/2006/04/27/a-little-calendar-app-im-building/
 permalink: /2006/04/27/a-little-calendar-app-im-building/
 categories:
   - Web

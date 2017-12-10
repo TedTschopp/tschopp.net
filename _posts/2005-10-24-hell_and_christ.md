@@ -4,7 +4,7 @@ title: Hell and Christianity
 date: 2005-10-24T14:05:54+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/10/24/hell_and_christ/
+guid: https://www.tedt.org/2005/10/24/hell_and_christ/
 permalink: /2005/10/24/hell_and_christ/
 categories:
   - Religion

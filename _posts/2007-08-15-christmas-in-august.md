@@ -4,7 +4,7 @@ title: 'Christmas in August&#8230;.'
 date: 2007-08-15T21:59:18+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/08/15/christmas-in-august/
+guid: https://www.tedt.org/2007/08/15/christmas-in-august/
 permalink: /2007/08/15/christmas-in-august/
 categories:
   - Books

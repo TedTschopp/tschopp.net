@@ -4,7 +4,7 @@ title: Example of XMLHttpRequest
 date: 2005-03-11T01:49:55+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/03/11/example-of-xmlhttprequest/
+guid: https://www.tedt.org/2005/03/11/example-of-xmlhttprequest/
 permalink: /2005/03/11/example-of-xmlhttprequest/
 categories:
   - Computers

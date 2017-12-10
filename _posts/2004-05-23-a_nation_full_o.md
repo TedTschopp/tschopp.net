@@ -4,12 +4,12 @@ title: A Nation Full of Directors
 date: 2004-05-23T10:32:48+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2004/05/23/a_nation_full_o/
+guid: https://www.tedt.org/2004/05/23/a_nation_full_o/
 permalink: /2004/05/23/a_nation_full_o/
 categories:
   - Current Affairs
 ---
-I just heard this article read on NPR, and it gave me pause about the direction we are moving as a country. One of the books that I recently finished was <a HREF="http://www.amazon.com/exec/obidos/tg/detail/-/0375706534/theonering/">Life: The Movie : How Entertainment Conquered Reality</a>. The basic idea of this book is that we as American&#8217;s view our Life as a scripted movie. I think this article points more of this out. 
+I just heard this article read on NPR, and it gave me pause about the direction we are moving as a country. One of the books that I recently finished was <a HREF="http://www.amazon.com/exec/obidos/tg/detail/-/0375706534/tedt0c-20/">Life: The Movie : How Entertainment Conquered Reality</a>. The basic idea of this book is that we as American&#8217;s view our Life as a scripted movie. I think this article points more of this out. 
 
 Orignal found <A HREF="http://www.nytimes.com/2004/05/20/arts/design/20NOTE.html">here</a> and copied here in case Orignal is moved or deleted.
 

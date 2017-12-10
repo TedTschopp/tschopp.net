@@ -4,7 +4,7 @@ title: 'Up in the Sky, it&#8217;s a bird, it&#8217;s a plane, it&#8217;s a&#8230
 date: 2005-10-28T10:47:40+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/10/28/up_in_the_sky_i/
+guid: https://www.tedt.org/2005/10/28/up_in_the_sky_i/
 permalink: /2005/10/28/up_in_the_sky_i/
 categories:
   - Jokes

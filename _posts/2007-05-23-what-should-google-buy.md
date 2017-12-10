@@ -4,7 +4,7 @@ title: What Should Google Buy
 date: 2007-05-23T01:51:30+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/05/23/what-should-google-buy/
+guid: https://www.tedt.org/2007/05/23/what-should-google-buy/
 permalink: /2007/05/23/what-should-google-buy/
 categories:
   - Computers

@@ -7,7 +7,7 @@ excerpt: |
   The following quote is from N.T. Wright and it is his summary of what Christianity is.
   First Christian Theology tells a story, and seeks to tell it coherently. We have already summarized this st...
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/04/nt_wright_what_/
+guid: https://www.tedt.org/2007/01/04/nt_wright_what_/
 permalink: /2007/01/04/nt_wright_what_/
 categories:
   - Religion

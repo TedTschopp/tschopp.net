@@ -4,7 +4,7 @@ title: One Plus One Equals Three for Very Large Values of One
 date: 2007-01-26T12:49:19+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/26/one_plus_one_eq/
+guid: https://www.tedt.org/2007/01/26/one_plus_one_eq/
 permalink: /2007/01/26/one_plus_one_eq/
 categories:
   - Religion

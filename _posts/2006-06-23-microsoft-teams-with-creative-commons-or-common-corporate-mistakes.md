@@ -4,7 +4,7 @@ title: Microsoft teams with Creative Commons or Common Corporate Mistakes
 date: 2006-06-23T23:50:37+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
+guid: https://www.tedt.org/2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
 permalink: /2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
 categories:
   - Web

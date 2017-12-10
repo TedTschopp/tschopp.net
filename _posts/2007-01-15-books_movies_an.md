@@ -4,7 +4,7 @@ title: Books, Movies, and The Children of Men
 date: 2007-01-15T16:51:39+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/15/books_movies_an/
+guid: https://www.tedt.org/2007/01/15/books_movies_an/
 permalink: /2007/01/15/books_movies_an/
 categories:
   - Movies

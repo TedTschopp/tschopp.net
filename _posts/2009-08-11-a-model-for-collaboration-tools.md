@@ -4,7 +4,7 @@ title: A Model for Collaboration Tools
 date: 2009-08-11T15:09:58+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2009/08/11/a-model-for-collaboration-tools/
+guid: https://www.tedt.org/2009/08/11/a-model-for-collaboration-tools/
 permalink: /2009/08/11/a-model-for-collaboration-tools/
 image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-04-09-pm.png
 categories:

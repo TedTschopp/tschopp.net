@@ -11,7 +11,7 @@ categories:
   - Work
 ---
 <div id="attachment_793" style="width: 157px" class="wp-caption alignright">
-  <a href="http://localhost:8888/Wordpress/wp-content/uploads/2011/02/edna-sce-com_1.png"><img class="size-thumbnail wp-image-793  " title="Southern California Edison Intranet" src="http://localhost:8888/Wordpress/wp-content/uploads/2011/02/edna-sce-com_1.png?w=147" alt="" width="147" height="150" srcset="http://localhost:8888/Wordpress/wp-content/uploads/2011/02/edna-sce-com_1.png 771w, http://localhost:8888/Wordpress/wp-content/uploads/2011/02/edna-sce-com_1-296x300.png 296w, http://localhost:8888/Wordpress/wp-content/uploads/2011/02/edna-sce-com_1-768x779.png 768w" sizes="(max-width: 147px) 100vw, 147px" /></a>
+  <a href="wp-content/uploads/2011/02/edna-sce-com_1.png"><img class="size-thumbnail wp-image-793  " title="Southern California Edison Intranet" src="wp-content/uploads/2011/02/edna-sce-com_1.png?w=147" alt="" width="147" height="150" srcset="wp-content/uploads/2011/02/edna-sce-com_1.png 771w, wp-content/uploads/2011/02/edna-sce-com_1-296x300.png 296w, wp-content/uploads/2011/02/edna-sce-com_1-768x779.png 768w" sizes="(max-width: 147px) 100vw, 147px" /></a>
   
   <p class="wp-caption-text">
     SCE Intranet

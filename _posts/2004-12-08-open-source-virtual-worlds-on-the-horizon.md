@@ -4,7 +4,7 @@ title: Open Source Virtual Worlds On The Horizon
 date: 2004-12-08T02:03:36+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2004/12/08/open-source-virtual-worlds-on-the-horizon/
+guid: https://www.tedt.org/2004/12/08/open-source-virtual-worlds-on-the-horizon/
 permalink: /2004/12/08/open-source-virtual-worlds-on-the-horizon/
 categories:
   - Web

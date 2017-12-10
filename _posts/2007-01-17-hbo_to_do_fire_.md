@@ -4,7 +4,7 @@ title: 'HBO to do Fire and Ice series&#8230; and George Cloony to do Diamond Age
 date: 2007-01-17T15:23:42+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/17/hbo_to_do_fire_/
+guid: https://www.tedt.org/2007/01/17/hbo_to_do_fire_/
 permalink: /2007/01/17/hbo_to_do_fire_/
 categories:
   - Books

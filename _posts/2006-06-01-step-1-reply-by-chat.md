@@ -4,7 +4,7 @@ title: 'Step 1: Reply by Chat'
 date: 2006-06-01T21:33:53+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/06/01/step-1-reply-by-chat/
+guid: https://www.tedt.org/2006/06/01/step-1-reply-by-chat/
 permalink: /2006/06/01/step-1-reply-by-chat/
 categories:
   - Web

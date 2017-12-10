@@ -1,6 +1,5 @@
-#url: https//www.tedt.org/
+siteurl: https//www.tedt.org/
 #baseurl: https://www.tedt.org/
-#base_path: 
 
 plugins:
   - jekyll-sitemap

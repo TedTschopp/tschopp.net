@@ -4,7 +4,7 @@ title: 'Too many feeds&#8230;'
 date: 2007-06-07T18:53:36+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/06/07/too-many-feeds/
+guid: https://www.tedt.org/2007/06/07/too-many-feeds/
 permalink: /2007/06/07/too-many-feeds/
 categories:
   - Web

@@ -4,7 +4,7 @@ title: Leadership
 date: 2007-06-18T22:51:12+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/06/18/leadership-2/
+guid: https://www.tedt.org/2007/06/18/leadership-2/
 permalink: /2007/06/18/leadership-2/
 categories:
   - Motivational

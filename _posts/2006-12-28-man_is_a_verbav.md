@@ -4,7 +4,7 @@ title: Man is a Verbavore
 date: 2006-12-28T17:55:10+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/12/28/man_is_a_verbav/
+guid: https://www.tedt.org/2006/12/28/man_is_a_verbav/
 permalink: /2006/12/28/man_is_a_verbav/
 categories:
   - Religion

@@ -4,7 +4,7 @@ title: 'Word Trivia &#8211; Facts and Oddities of the English Language'
 date: 2007-03-04T12:00:38+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/03/04/word_trivia_fac/
+guid: https://www.tedt.org/2007/03/04/word_trivia_fac/
 permalink: /2007/03/04/word_trivia_fac/
 categories:
   - Cool

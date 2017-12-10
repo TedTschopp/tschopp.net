@@ -4,7 +4,7 @@ title: The Path West
 date: 2006-01-04T14:22:11+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2006/01/04/the_path_west/
+guid: https://www.tedt.org/2006/01/04/the_path_west/
 permalink: /2006/01/04/the_path_west/
 categories:
   - Writing

@@ -4,7 +4,7 @@ title: The Google Browser/OS
 date: 2004-08-25T16:08:24+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2004/08/25/the-google-browseros/
+guid: https://www.tedt.org/2004/08/25/the-google-browseros/
 permalink: /2004/08/25/the-google-browseros/
 categories:
   - Web

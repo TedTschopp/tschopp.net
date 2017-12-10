@@ -4,7 +4,7 @@ title: What Type of Computer Programmer are You?
 date: 2007-06-07T16:30:07+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/06/07/what-type-of-computer-programmer-are-you/
+guid: https://www.tedt.org/2007/06/07/what-type-of-computer-programmer-are-you/
 permalink: /2007/06/07/what-type-of-computer-programmer-are-you/
 categories:
   - Computers

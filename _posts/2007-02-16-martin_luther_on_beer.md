@@ -4,7 +4,7 @@ title: Martin Luther on Beer
 date: 2007-02-16T10:24:23+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/02/16/martin_luther_o-4/
+guid: https://www.tedt.org/2007/02/16/martin_luther_o-4/
 permalink: /2007/02/16/martin_luther_on_beer/
 categories:
   - Food and Drink

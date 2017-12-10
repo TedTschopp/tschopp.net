@@ -4,7 +4,7 @@ title: XMLHttpRequest
 date: 2005-02-22T22:42:06+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2005/02/22/cool_site_and_i/
+guid: https://www.tedt.org/2005/02/22/cool_site_and_i/
 permalink: /2005/02/22/cool_site_and_i/
 categories:
   - Web

@@ -4,7 +4,7 @@ title: Web Services, Web Services, Web Services
 date: 2007-01-26T15:27:06+00:00
 author: Ted Tschopp
 layout: post
-guid: http://tedtschopp.wordpress.com/2007/01/26/web_services_we/
+guid: https://www.tedt.org/2007/01/26/web_services_we/
 permalink: /2007/01/26/web_services_we/
 categories:
   - Computers
