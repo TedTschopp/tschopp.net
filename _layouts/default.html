@@ -28,12 +28,12 @@
     <!--Sets whether a web application runs in full-screen mode. -->
     <meta name="apple-mobile-web-app-capable"          content="yes">
     <!-- Color of the status bar -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <!-- Web App Name for the Shortcut -->
     <meta name="apple-mobile-web-app-title"            content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <!-- Do Not Detect Phone Numbers -->
-    <meta name="format-detection"                      content="telephone=no"> 
-    
+    <meta name="format-detection"                      content="telephone=no">
+
     <!-- iPhone icons -->
     <link rel="apple-touch-icon"                 href="/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57"   href="/img/apple-touch-icon-57x57.png">
@@ -143,14 +143,14 @@
     -->
     <!-- Search Eengine and Browser Meta Tags. -->
     <!-- The description of the website. Keep under 500 characters -->
-    <meta name="description" content="{{ site.description }}"> 
+    <meta name="description" content="{{ site.description }}">
     <!-- The short description of the website.  Keep uder 100 characters -->
-    <meta name="abstract"    content="{{ site.name }}"> 
- 
+    <meta name="abstract"    content="{{ site.name }}">
+
     <!-- Search engine robots Meta Tags. -->
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
- 
+
     <!-- Open Graph Meta Tags (ogp.me) -->
     <meta property="og:image"            content="http://example.com/image.jpg">  <!-- Web page thumbnail -->
     <meta property="og:image"            content="http://example.com/image2.jpg"> <!-- Web page thumbnail (can be multiple) -->
@@ -159,22 +159,22 @@
     <!-- Web page title -->
     <meta property="og:title"            content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <!-- Web page description -->
-    <meta property="og:description"      content="{{ site.description }}">  
+    <meta property="og:description"      content="{{ site.description }}">
     <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
-    <meta property="og:type"             content="website">  
+    <meta property="og:type"             content="website">
     <!-- Url to this web page -->
-    <meta property="og:url"              content="{{ site.baseurl }}"> 
+    <meta property="og:url"              content="{{ site.baseurl }}">
     <!-- Main Language -->
-    <meta property="og:locale"           content="en_US">    
+    <meta property="og:locale"           content="en_US">
     <!-- Alternate Language -->
     <!--
-    <meta property="og:locale:alternate" content="fr_FR">    
-    <meta property="og:locale:alternate" content="es_ES">    
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="es_ES">
     -->
 
     <!-- Geographical coordenates -->
     <!--
-    <meta property="og:latitude"         content="50.97590"> 
+    <meta property="og:latitude"         content="50.97590">
     <meta property="og:longitude"        content="0.017221">
     -->
     <!-- Postal Address -->
@@ -189,16 +189,16 @@
     <!-- <meta property="og:country-name"     content="UK"> -->
 
     <!-- Contact email -->
-    <meta property="og:email"            content="{{ site.email }}"> 
+    <meta property="og:email"            content="{{ site.email }}">
     <!-- Contact phone number -->
-    <meta property="og:phone_number"     content="{{site.phonenumber}}">              
+    <meta property="og:phone_number"     content="{{site.phonenumber}}">
 
     <!-- Video file url-->
     <!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
     <!-- Video height -->
     <!-- <meta property="og:video:height"     content="640"> -->
     <!-- Video width -->
-    <!-- <meta property="og:video:width"      content="385"> -->  
+    <!-- <meta property="og:video:width"      content="385"> -->
     <!-- Video file format mime type -->
     <!-- <meta property="og:video:type"       content="application/x-shockwave-flash"> -->
 
@@ -207,11 +207,11 @@
     <!-- Audio title -->
     <!-- <meta property="og:audio:title"      content="Song Title"> -->
     <!-- Audio artist -->
-    <!-- <meta property="og:audio:artist"     content="Name of Band"> -->                
+    <!-- <meta property="og:audio:artist"     content="Name of Band"> -->
     <!-- Audio album title-->
-    <!-- <meta property="og:audio:album"      content="Album Title"> -->              
+    <!-- <meta property="og:audio:album"      content="Album Title"> -->
     <!-- Audio file format mime type -->
-    <!-- <meta property="og:audio:type"       content="application/mp3"> -->               
+    <!-- <meta property="og:audio:type"       content="application/mp3"> -->
 
     <!-- UPC EAN barcodes-->
     <!-- <meta property="og:upc"              content="885909367481"> -->
@@ -234,7 +234,7 @@
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
-    
+
     <!-- News Feed Meta Tags. -->
     <!--
     <link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
@@ -263,6 +263,53 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <!-- Start of Async Drift Code -->
+    <script>
+    !function() {
+      var t;
+      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+      t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+      t.factory = function(e) {
+        return function() {
+          var n;
+          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+        };
+      }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+      }), t.load = function(t) {
+        var e, n, o, i;
+        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+      });
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('4vif9d6mns5r');
+    </script>
+    <!-- End of Async Drift Code -->
+    <!--  Fullstory Code Start -->
+    <script>
+    window['_fs_debug'] = false;
+    window['_fs_host'] = 'fullstory.com';
+    window['_fs_org'] = '95YBW';
+    window['_fs_namespace'] = 'FS';
+    (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
+        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
+        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
+    })(window,document,window['_fs_namespace'],'script','user');
+    </script>
+    <!--  Fullstory Code End -->
+    <!-- Start MailChip Code -->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/07933af4fdb0ade0f47a6581d/8401d1916bd9c449ebd7447d5.js");</script>
+    <!-- End MailChip Code -->
 </head>
 
 <body>
@@ -317,7 +364,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ Dtitle }}</h2>
-                    <p class="lead">{{ Dlead }}</p> 
+                    <p class="lead">{{ Dlead }}</p>
                     {{Dcontent}}
 
                 </div>
@@ -341,7 +388,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Ted Tschopp's Blog</h2>
-                    <p class="lead">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p> 
+                    <p class="lead">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p>
                     <ul>
                     {% for post in site.posts limit:5 %}
                       <li>
@@ -373,7 +420,7 @@
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Enterprise Technology Architect for Automation at Southern California Edison</h2>
-                    <p class="lead">Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions. </p> 
+                    <p class="lead">Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions. </p>
                     <ul>
                         <li>181K+ hours saved annually</li>
                         <li>40+ process automated</li>
@@ -391,7 +438,7 @@
     <!-- /.container -->
 
     <!--</div> -->
-    
+
     <!-- /.content-section-a -->
 
     <a name="ArchitectForDigital"></a>
@@ -404,7 +451,7 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Enterprise Technology Architect for Digital at Southern California Edison</h2>
-                    <p class="lead">Technology architect responsible SCE's digital portfolio of over 500 properties and $30M annual budget providing strategy, technology road map, and product management for digital solutions. </p> 
+                    <p class="lead">Technology architect responsible SCE's digital portfolio of over 500 properties and $30M annual budget providing strategy, technology road map, and product management for digital solutions. </p>
                     <ul>
                         <li>40%+ Mobile Traffic</li>
                         <li>200K+ Followers on Social</li>
@@ -432,8 +479,8 @@
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                        <h2 class="section-heading">Program Architect for <a target="_blank" ref="noopener" href="http://www.sce.com/">SCE.com</a></h2>
-                        <p class="lead">Technical team lead and single-point of contact for technical accountability on SCE's eCommerce channel from project concept through completion.</p> 
+                        <h2 class="section-heading">Program Architect for <a target="_blank" rel="noopener noreferrer" href="http://www.sce.com/">SCE.com</a></h2>
+                        <p class="lead">Technical team lead and single-point of contact for technical accountability on SCE's eCommerce channel from project concept through completion.</p>
                             <ul>
                                 <li>50% cost savings on SCE’s first mobile app for iOS and Android</li>
                                 <li>$12M savings on SCE.com rebranding project’s costs using agile methodologies focusing on expected outcomes</li>
@@ -445,7 +492,7 @@
                                 <li>75% increase for turn on/off service and 75% decrease in manual order processing</li>
                                 <li>Represented SCE’s digital and ecommerce interests on the Utility Information Technology Benchmark (UNITE) group.</li>
                             </ul>
-                        
+
                     </div>
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                         <img class="img-responsive img-thumbnail" src="img/sce_com.png" alt="">
@@ -466,8 +513,8 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Founder of <a target="_blank" ref="noopener" href="http://www.theonering.com">The One Ring: Tolkien Online</a></h2>
-                    <p class="lead">Founded and managed the most popular website dedicated to the works of J.R.R. Tolkien and the Lord of the Rings.</p> 
+                    <h2 class="section-heading">Founder of <a target="_blank" rel="noopener noreferrer" href="http://www.theonering.com">The One Ring: Tolkien Online</a></h2>
+                    <p class="lead">Founded and managed the most popular website dedicated to the works of J.R.R. Tolkien and the Lord of the Rings.</p>
                     <ul>
                         <li>Recognized in leading periodicals such as Los Angeles Times, CNN, and The Guardian UK</li>
                         <li>Interviewed and featured in Wired Magazine September 2001 Issue</li>
@@ -486,13 +533,13 @@
 
     <!-- /.content-section-b -->
     <a name="ProceduralTextGeneration"></a>
- 
+
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><a target="_blank" ref="noopener" href="https://tedtschopp.github.io/randomtables/">Procedural Text Generation</a></h2>
+                    <h2 class="section-heading"><a target="_blank" rel="noopener noreferrer" href="https://tedtschopp.github.io/randomtables/">Procedural Text Generation</a></h2>
                     <p class="lead">An application that generates text using procedural methods.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -511,7 +558,7 @@
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><a target="_blank" ref="noopener" href="https://tedtschopp.github.io/The-Password-Challange/Password%20Challange.html">The Password Challange</a></h2>
+                    <h2 class="section-heading"><a target="_blank" rel="noopener noreferrer" href="https://tedtschopp.github.io/The-Password-Challange/Password%20Challange.html">The Password Challange</a></h2>
                     <p class="lead">Check the strength of your password based on mathmatical models that take into account the latest hacking techniques!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
@@ -524,13 +571,13 @@
     <!-- /.content-section-b -->
 
     <a name="TwitterBot"></a>
- 
+
     <div class="content-section-a">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading"><a target="_blank" ref="noopener" href="https://twitter.com/randomgamenight">Twitterbot: Random Board Game Night</a></h2>
+                    <h2 class="section-heading"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/randomgamenight">Twitterbot: Random Board Game Night</a></h2>
                     <p class="lead">An application of the Procedural Text Generation system to create a new game for you to play every hour.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -583,13 +630,13 @@
                     </ul>
                 </div>
 
-                {% if site.github_username or 
-                      site.linkedin_username or 
-                      site.twitter_username or 
-                      site.facebook_username or 
-                      site.google_username or 
-                      site.youtube_username or 
-                      site.pinterest_username or 
+                {% if site.github_username or
+                      site.linkedin_username or
+                      site.twitter_username or
+                      site.facebook_username or
+                      site.google_username or
+                      site.youtube_username or
+                      site.pinterest_username or
                       site.reddit_username or
                       site.instagram_username or
                       site.quora_username %}
