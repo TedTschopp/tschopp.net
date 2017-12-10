@@ -48,7 +48,7 @@
 
 
     <!-- Apple Safari Pinned Site. -->
-    <link rel="mask-icon" href="img/Tschopp.svg" color="black">
+    <link rel="mask-icon" href="/img/Tschopp.svg" color="black">
 
     <!-- App Banner and link to app store. -->
     <!--
@@ -97,7 +97,7 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="img/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileImage" content="/img/apple-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#222222">
     <!-- Windows Internet Explorer. -->
     <meta http-equiv="cleartype"                   content="on">
@@ -249,7 +249,7 @@
 
 
     <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="/css/landing-page.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     {% include css-font-awesome.html %}
@@ -265,48 +265,11 @@
 
 
     <!-- Start of Async Drift Code -->
-    <script>
-    !function() {
-      var t;
-      if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
-      t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-      t.factory = function(e) {
-        return function() {
-          var n;
-          return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e, n, o, i;
-        e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
-        n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-      });
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('4vif9d6mns5r');
-    </script>
-    <!-- End of Async Drift Code -->
+    {% include js-drift.html %}
+
     <!--  Fullstory Code Start -->
-    <script>
-    window['_fs_debug'] = false;
-    window['_fs_host'] = 'fullstory.com';
-    window['_fs_org'] = '95YBW';
-    window['_fs_namespace'] = 'FS';
-    (function(m,n,e,t,l,o,g,y){
-        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-        g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
-        o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
-        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-        g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};
-        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-        g.clearUserCookie=function(c,d,i){if(!c || document.cookie.match('fs_uid=[`;`]*`[`;`]*`[`;`]*`')){
-        d=n.domain;while(1){n.cookie='fs_uid=;domain='+d+
-        ';path=/;expires='+new Date(0).toUTCString();i=d.indexOf('.');if(i<0)break;d=d.slice(i+1)}}};
-    })(window,document,window['_fs_namespace'],'script','user');
-    </script>
-    <!--  Fullstory Code End -->
+    {% include js-fullstory.html %}
+
     <!-- Start MailChip Code -->
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/07933af4fdb0ade0f47a6581d/8401d1916bd9c449ebd7447d5.js");</script>
     <!-- End MailChip Code -->
@@ -403,7 +366,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/blog.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/blog.jpg" alt="">
                 </div>
             </div>
 
@@ -429,7 +392,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/automation.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/automation.jpg" alt="">
                 </div>
 
             </div>
@@ -460,7 +423,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/web.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/web.jpg" alt="">
                 </div>
             </div>
 
@@ -522,7 +485,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/tolkienonline.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/tolkienonline.jpg" alt="">
                 </div>
             </div>
 
@@ -543,7 +506,7 @@
                     <p class="lead">An application that generates text using procedural methods.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/table.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/table.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -562,7 +525,7 @@
                     <p class="lead">Check the strength of your password based on mathmatical models that take into account the latest hacking techniques!</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/password.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/password.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -581,7 +544,7 @@
                     <p class="lead">An application of the Procedural Text Generation system to create a new game for you to play every hour.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="img/boardgamenight.jpg" alt="">
+                    <img class="img-responsive img-thumbnail" src="/img/boardgamenight.jpg" alt="">
                 </div>
             </div>
         </div>
