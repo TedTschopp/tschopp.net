@@ -247,7 +247,6 @@
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
 
-
     <!-- Custom CSS -->
     <link href="/css/landing-page.css" rel="stylesheet">
 
@@ -265,20 +264,32 @@
 
 
     <!-- Start of Async Drift Code -->
-    {% include js-drift.html %}
+    <!-- {% include js-drift.html %} -->
 
     <!--  Fullstory Code Start -->
-    {% include js-fullstory.html %}
+    <!-- {% include js-fullstory.html %} -->
 
     <!-- Start MailChip Code -->
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/07933af4fdb0ade0f47a6581d/8401d1916bd9c449ebd7447d5.js");</script>
-    <!-- End MailChip Code -->
+    {% include js-mailchip.html %} 
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M88BX7J');</script>
+    <!-- End Google Tag Manager -->
+
 </head>
 
 <body>
-  <!--[if lt IE 8]>
+    <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+    <![endif]-->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M88BX7J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     {% include navigation.html %}
 
