@@ -81,6 +81,11 @@ src="https://plus.google.com/up/?continue=https://www.google.com/intl/en/images/
 				show_login_status("Facebook", false);
 			}
 		});
+
+		FB.api('/me', {fields: 'last_name'}, function(response) {
+		  console.log(response);
+		});
+
 	};
 	// Load the SDK Asynchronously
 	(function(d){
