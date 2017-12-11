@@ -10,9 +10,9 @@ categories:
   - Religion
   - Computers
 ---
-OK, so a couple weeks ago I went to Disneyland with my sister, her husband James and her friend Eric from College.
+A couple weeks ago I went to Disneyland with my sister, her husband James and her friend Eric from College.
 
-So we get there and it&#8217;s raining and I said I should get a hat to wear becuase I was getting a bit wet. We went off to find hats while James and Eric went off to get fast passes to save our place line in at It&#8217;s a Small World. My sister ended purchasing a Grumpy Jester hat for me.
+When we got there and it&#8217;s raining and I said I should get a hat to wear becuase I was getting a bit wet. We went off to find hats while James and Eric went off to get fast passes to save our place line in at It&#8217;s a Small World. My sister ended purchasing a Grumpy Jester hat for me.
 
 After getting the hat we though, well we have a couple hours to kill lets try to get to Pirates. The line was too long. How about Haunted Mansion&#8230; To long&#8230; How about the Train and see what isn&#8217;t busy. We get on the train and see that Toon town is redone for Christmas and decide to take the rest of the trip around the park and the get off in toon town (as it is close to Small world) and see the lights in Toon Town.
 
