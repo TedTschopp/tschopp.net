@@ -16,7 +16,7 @@ Ok, So I have iTunes running here at work, and I have Typepad running. So now th
 
 Enjoy. 
 
-{% highlight ruby linenumbers%}
+{% highlight csharp linenumbers%}
 using System;
 using System.Text;
 using System.Net;
