@@ -10,11 +10,11 @@ categories:
   - Web
   - Coding
 ---
-The following code is a [calendar application](http://www.tschopp.net/date_time_testing.html) I’m building in JavaScript. It needs a couple rounds of refactoring (to get rid of document.writes and to make it more object friendly).  The next step will be to make it handle iCal files (which will be a trick).  This is posted for all to enjoy. See the link at the end of this document.
+The following code is a calendar application I’m building in JavaScript. It needs a couple rounds of refactoring (to get rid of document.writes and to make it more object friendly).  The next step will be to make it handle iCal files (which will be a trick).  This is posted for all to enjoy. See the link at the end of this document.
 
 &nbsp;
 
-> <pre>&lt;style&gt;
+{% highlight html linenos %}<pre>&lt;style&gt;
   body {
    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   }
@@ -209,7 +209,7 @@ The following code is a [calendar application](http://www.tschopp.net/date_time_
   output_calendar_day(DateOutput);
  }
  finishCalendar(finish);
-&lt;/script&gt;</pre>
+&lt;/script&gt;</pre>{% endhighlight %}
 
 &nbsp;
 
