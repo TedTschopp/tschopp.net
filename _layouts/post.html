@@ -339,6 +339,50 @@
 	            {{ content }}
 
 	            <hr>
+
+                <!--Next and Previous Articles -->
+                {% if post %}
+                    {% if post.previous.url %}
+                        {% assign previous_url = post.previous.url %}
+                        {% assign previous_title = post.previous.title %}
+                    {% else %}
+                        {% assign previous_url = site.siteurl %}
+                        {% assign previous_title = "Home" %}
+                    {% endif %}
+                    {% if post.next.url %}
+                        {% assign next_url = post.next.url %}
+                        {% assign next_title = post.next.title %}
+                    {% else %}
+                        {% assign next_url = site.siteurl %}
+                        {% assign next_title = "Home" %}
+                    {% endif %}
+                {% else %}
+                    {% if page.previous.url %}
+                        {% assign previous_url = page.previous.url %}
+                        {% assign previous_title = page.previous.title %}
+                    {% else %}
+                        {% assign previous_url = site.siteurl %}
+                        {% assign previous_title = "Home" %}
+                    {% endif %}
+                    {% if page.next.url %}
+                        {% assign next_url = page.next.url %}
+                        {% assign next_title = page.next.title %}
+                    {% else %}
+                        {% assign next_url = site.siteurl %}
+                        {% assign next_title = "Home" %}
+                    {% endif %}
+                {% endif %}
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></span>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></span>
+                    </div>
+                </div>
+ 
+
+
 	            <!-- Blog Comments -->
 	            <!-- Comments Form -->
 	            <div class="well">
@@ -365,41 +409,6 @@
 
                 <hr>
 
-                <div>
-                        {% if post %}
-                            {% if post.previous.url %}
-                                {% assign previous_url = post.previous.url %}
-                                {% assign previous_title = post.previous.title %}
-                            {% else %}
-                                {% assign previous_url = site.siteurl %}
-                                {% assign previous_title = "Home" %}
-                            {% endif %}
-                            {% if post.next.url %}
-                                {% assign next_url = post.next.url %}
-                                {% assign next_title = post.next.title %}
-                            {% else %}
-                                {% assign next_url = site.siteurl %}
-                                {% assign next_title = "Home" %}
-                            {% endif %}
-                        {% else %}
-                            {% if page.previous.url %}
-                                {% assign previous_url = page.previous.url %}
-                                {% assign previous_title = page.previous.title %}
-                            {% else %}
-                                {% assign previous_url = site.siteurl %}
-                                {% assign previous_title = "Home" %}
-                            {% endif %}
-                            {% if page.next.url %}
-                                {% assign next_url = page.next.url %}
-                                {% assign next_title = page.next.title %}
-                            {% else %}
-                                {% assign next_url = site.siteurl %}
-                                {% assign next_title = "Home" %}
-                            {% endif %}
-                        {% endif %}
-                        <div class="float-sm-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></div>
-                        <div class="float-sm-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></div>
-                </div>
 	        </div>
 
             <!-- Blog Sidebar Widgets Column -->
