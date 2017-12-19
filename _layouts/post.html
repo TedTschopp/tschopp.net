@@ -367,12 +367,39 @@
                 <hr>
 
                 <div class="container">
-                    {% if page.previous.url %}
-                        <li class="previous><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li>
-                    {% endif %}
-                    {% if page.next.url %}
-                        <li class="next"><a href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li>
-                    {% endif %}
+                        {% if post %}
+                            {% if post.previous.url %}
+                                {% assign previous_url = post.previous.url %}
+                                {% assign previous_title = post.previous.title %}
+                            {% else %}
+                                {% assign previous_url = site.siteurl %}
+                                {% assign previous_title = "Home" %}
+                            {% endif %}
+                            {% if post.next.url %}
+                                {% assign next_url = post.next.url %}
+                                {% assign next_title = post.next.title %}
+                            {% else %}
+                                {% assign next_url = site.siteurl %}
+                                {% assign next_title = "Home" %}
+                            {% endif %}
+                        {% else %}
+                            {% if page.previous.url %}
+                                {% assign previous_url = page.previous.url %}
+                                {% assign previous_title = page.previous.title %}
+                            {% else %}
+                                {% assign previous_url = site.siteurl %}
+                                {% assign previous_title = "Home" %}
+                            {% endif %}
+                            {% if page.next.url %}
+                                {% assign next_url = page.next.url %}
+                                {% assign next_title = page.next.title %}
+                            {% else %}
+                                {% assign next_url = site.siteurl %}
+                                {% assign next_title = "Home" %}
+                            {% endif %}
+                        {% endif %}
+                        <li class="previous><a href="{{previous_url}}">&laquo; {{previous_title}}</a></li>
+                        <li class="next"><a href="{{next_url}}">{{next_title}} &raquo;</a></li>
                 </div>
 	        </div>
 
