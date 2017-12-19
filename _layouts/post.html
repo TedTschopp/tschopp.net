@@ -252,8 +252,22 @@
     <meta name="twitter:url"             content="{{ page.url }}">
     <meta name="twitter:title"           content="{{ page.title }} - Ted Tschopp">
     <meta name="twitter:description"     content="{{ page.excerpt }}">
-    <meta name="twitter:image"           content="http://www.tedt.org/img/apple-touch-icon-180x180.png">
-    <meta name="twitter:image:alt"       content="The Tschopp Family Crest">
+
+
+    {% if post %}
+        {% if post.image %}
+            <meta property="twitter:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
+        {% else %}
+            <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+        {% endif %}
+    {% else %}
+        {% if page.image %}
+            <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+        {% else %}
+            <meta property="twitter:images            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+        {% endif %}
+    {% endif %}
+    <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
