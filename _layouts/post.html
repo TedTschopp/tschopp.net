@@ -247,14 +247,13 @@
 
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    {% include css-bootstrap.html %}
 
     <!-- Custom CSS -->
 	<link href="css/blog-post.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-<!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
+    {% include css-font-awesome.html %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -398,8 +397,8 @@
                                 {% assign next_title = "Home" %}
                             {% endif %}
                         {% endif %}
-                        <div><a href="{{previous_url}}">&laquo; {{previous_title}}</a></div>
-                        <div class="float-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></div>
+                        <div class="float-sm-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></div>
+                        <div class="float-sm-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></div>
                 </div>
 	        </div>
 
