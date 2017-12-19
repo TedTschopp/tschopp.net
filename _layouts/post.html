@@ -366,7 +366,7 @@
 
                 <hr>
 
-                <div class="d-flex justify-content-between">
+                <div>
                         {% if post %}
                             {% if post.previous.url %}
                                 {% assign previous_url = post.previous.url %}
@@ -398,8 +398,8 @@
                                 {% assign next_title = "Home" %}
                             {% endif %}
                         {% endif %}
-                        <div><a class="text-left" href="{{previous_url}}">&laquo; {{previous_title}}</a></div>
-                        <div><a class="text-right" href="{{next_url}}">{{next_title}} &raquo;</a></div>
+                        <div><a href="{{previous_url}}">&laquo; {{previous_title}}</a></div>
+                        <div class="float-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></div>
                 </div>
 	        </div>
 
