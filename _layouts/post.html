@@ -50,7 +50,7 @@
 
 
     <!-- Apple Safari Pinned Site. -->
-    <link rel="mask-icon" href="img/Tschopp.svg" color="black">
+    <link rel="mask-icon" href="/img/Tschopp.svg" color="black">
 
     <!-- App Banner and link to app store. -->
     <!--
@@ -99,7 +99,7 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="img/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileImage" content="/img/apple-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#222222">
     <!-- Windows Internet Explorer. -->
     <meta http-equiv="cleartype"                   content="on">
@@ -156,7 +156,7 @@
 	<!-- Open Graph Meta Tags (ogp.me) -->
     {% if post %}
         {% if post.image %}
-            <meta property="og:image"            content="{{ post.image }}">  <!-- Web page thumbnail -->
+            <meta property="og:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
             <meta property="og:image:alt"        content="{{ post.title }}">  <!-- Web page thumbnail -->
         {% else %}
             <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
@@ -164,7 +164,7 @@
         {% endif %}
     {% else %}
         {% if page.image %}
-            <meta property="og:image"            content="{{ page.image }}">  <!-- Web page thumbnail -->
+            <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
             <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
         {% else %}
             <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
@@ -186,7 +186,7 @@
 	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
 	<meta property="og:type"             content="article">  
 	<!-- Url to this web page -->
-    <meta property="og:url"              content="{{ page.url}}"> 
+    <meta property="og:url"              content="{{ page.url }}"> 
 	<!-- Main Language -->
 	<meta property="og:locale"           content="en_US">    
 	<!-- Alternate Language -->
