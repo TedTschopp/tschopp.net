@@ -1,6 +1,6 @@
 ---
-id: 238
-title: Happy Advent
+id: 1993010101
+title: Privacy Policy
 date: 1993-01-01T08:41:00+00:00
 author: Ted Tschopp
 layout: post
