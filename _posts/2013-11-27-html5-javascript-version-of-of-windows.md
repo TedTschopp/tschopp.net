@@ -4,7 +4,7 @@ title: HTML5 / JavaScript Version of Windows
 date: 2013-11-27T14:34:55+00:00
 author: Ted Tschopp
 excerpt: |
-  What you are seeing is... ...an HTML5 / JavaScript version of Windows 7 running in the cloud... ...they launch Photoshop and then... ...a 3D game using the Unreal tournament engine... ...Autodesk 3D Studio, the tool used to make the Transformers Movies, running in Firefox using just using HTML5 and JavaScript.
+  What you are seeing is an HTML5 / JavaScript version of Windows 7 running in the cloud they launch Photoshop and then a 3D game using the Unreal tournament engine Sutodesk 3D Studio, the tool used to make the Transformers Movies, running in Firefox using just using HTML5 and JavaScript.
   
   Let that sink in for a moment.
 layout: post
@@ -25,15 +25,15 @@ categories:
   - Computers
   - Web
 ---
-<span style="line-height: 1.5;">Take a look at the following video:</span>
+Take a look at the following video:
 
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A7nFcdLilKU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 And at this one:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TSrORhFUlPU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
-
-<span style="line-height: 1.5;">What you are seeing is someone Running a MacBook Pro dual booted into Windows 7. They launch Firefox, and visit a URL. This URL then renders an HTML5 / JavaScript version of Windows 7 running in the cloud. From this Windows 7 image they launch Photoshop and then they tab over to a 3D game using the Unreal tournament engine. The second video is basically the same setup, but instead of Photoshop or a game you are seeing Autodesk 3D Studio, the tool used to make the Transformers Movies, running in Firefox using just using HTML5 and JavaScript.</span>
+What you are seeing is someone Running a MacBook Pro dual booted into Windows 7. They launch Firefox, and visit a URL. This URL then renders an HTML5 / JavaScript version of Windows 7 running in the cloud. From this Windows 7 image they launch Photoshop and then they tab over to a 3D game using the Unreal tournament engine. The second video is basically the same setup, but instead of Photoshop or a game you are seeing Autodesk 3D Studio, the tool used to make the Transformers Movies, running in Firefox using just using HTML5 and JavaScript.
 
 Let that sink in for a moment; you have a company almost no one has ever heard of with advisors from two of the three major browser companies (Mozilla and Google) and IBM sitting at the table with a Hollywood power broker (WME) working with Adobe, Autodesk, and Amazon to make this all happen. Here is their board of advisors:
 
