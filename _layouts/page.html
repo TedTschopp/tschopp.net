@@ -50,7 +50,7 @@
 
 
     <!-- Apple Safari Pinned Site. -->
-    <link rel="mask-icon" href="/img/Tschopp.svg" color="black">
+    <link rel="mask-icon" href="img/Tschopp.svg" color="black">
 
     <!-- App Banner and link to app store. -->
     <!--
@@ -99,7 +99,7 @@
     <meta name="mobile-web-app-capable" content="yes">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/img/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileImage" content="img/apple-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#222222">
     <!-- Windows Internet Explorer. -->
     <meta http-equiv="cleartype"                   content="on">
@@ -153,40 +153,21 @@
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
  
-	<!-- Open Graph Meta Tags (ogp.me) -->
-    {% if post %}
-        {% if post.image %}
-            <meta property="og:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ post.title }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="Ted Tschopp's Homepage">  <!-- Web page thumbnail -->
-        {% endif %}
-    {% else %}
-        {% if page.image %}
-            <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="Ted Tschopp's Homepage">  <!-- Web page thumbnail -->
-        {% endif %}
-    {% endif %}
-
-
-
-
     <!-- Facebook web site appID  -->
     <meta property="fb:app_id"           content="1939132006351436" />
+	<!-- Open Graph Meta Tags (ogp.me) -->
+    <meta property="og:image"            content="http://example.com/image.jpg">  <!-- Web page thumbnail -->
+    <meta property="og:image"            content="http://example.com/image2.jpg"> <!-- Web page thumbnail (can be multiple) -->
 	<!-- Web site title -->
     <meta property="og:site_name"        content="Ted Tschopp's Homepage">
 	<!-- Web page title -->
-    <meta property="og:title"            content="{{ page.title }} - Ted Tschopp">
+    <meta property="og:title"            content="Ted Tschopp">
 	<!-- Web page description -->
-    <meta property="og:description"      content="{{ page.excerpt }}">  
+    <meta property="og:description"      content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet">  
 	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
-	<meta property="og:type"             content="article">  
+	<meta property="og:type"             content="website">  
 	<!-- Url to this web page -->
-    <meta property="og:url"              content="{{ page.url }}"> 
+    <meta property="og:url"              content="http://www.tedt.org/"> 
 	<!-- Main Language -->
 	<meta property="og:locale"           content="en_US">    
 	<!-- Alternate Language -->
@@ -249,25 +230,11 @@
     <meta name="twitter:card"            content="summary">
     <meta name="twitter:site"            content="@site_account">
     <meta name="twitter:creator"         content="@TedTschopp">
-    <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
-    <meta name="twitter:title"           content="{{ page.title }} - Ted Tschopp">
-    <meta name="twitter:description"     content="{{ page.excerpt }}">
-
-
-    {% if post %}
-        {% if post.image %}
-            <meta property="twitter:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-        {% endif %}
-    {% else %}
-        {% if page.image %}
-            <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="twitter:images            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-        {% endif %}
-    {% endif %}
-    <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
+    <meta name="twitter:url"             content="http://www.tedt.org/">
+    <meta name="twitter:title"           content="Ted Tschopp">
+    <meta name="twitter:description"     content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet">
+    <meta name="twitter:image"           content="http://www.tedt.org/img/apple-touch-icon-180x180.png">
+    <meta name="twitter:image:alt"       content="The Tschopp Family Crest">
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
@@ -282,13 +249,14 @@
 
 
     <!-- Bootstrap Core CSS -->
-    {% include css-bootstrap.html %}
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
 	<link href="css/blog-post.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    {% include css-font-awesome.html %}
+<!--    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -299,7 +267,6 @@
 </head>
 
 <body>
-    {% include js-facebook-analytics.html %}
 
     {% include navigation.html %}
 
@@ -375,50 +342,6 @@
 	            {{ content }}
 
 	            <hr>
-
-                <!--Next and Previous Articles -->
-                {% if post %}
-                    {% if post.previous.url %}
-                        {% assign previous_url = post.previous.url %}
-                        {% assign previous_title = post.previous.title %}
-                    {% else %}
-                        {% assign previous_url = site.siteurl %}
-                        {% assign previous_title = "Home" %}
-                    {% endif %}
-                    {% if post.next.url %}
-                        {% assign next_url = post.next.url %}
-                        {% assign next_title = post.next.title %}
-                    {% else %}
-                        {% assign next_url = site.siteurl %}
-                        {% assign next_title = "Home" %}
-                    {% endif %}
-                {% else %}
-                    {% if page.previous.url %}
-                        {% assign previous_url = page.previous.url %}
-                        {% assign previous_title = page.previous.title %}
-                    {% else %}
-                        {% assign previous_url = site.siteurl %}
-                        {% assign previous_title = "Home" %}
-                    {% endif %}
-                    {% if page.next.url %}
-                        {% assign next_url = page.next.url %}
-                        {% assign next_title = page.next.title %}
-                    {% else %}
-                        {% assign next_url = site.siteurl %}
-                        {% assign next_title = "Home" %}
-                    {% endif %}
-                {% endif %}
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <span class="float-md-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></span>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <span class="float-md-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></span>
-                    </div>
-                </div>
- 
-                <hr>
-
 	            <!-- Blog Comments -->
 	            <!-- Comments Form -->
 	            <div class="well">
@@ -443,11 +366,16 @@
 	    			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	            </div>
 
-
-                <div class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
-
                 <hr>
 
+                <div class="container">
+                    {% if page.previous.url %}
+                        <li class="previous><a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></li>
+                    {% endif %}
+                    {% if page.next.url %}
+                        <li class="next"><a href="{{page.next.url}}">{{page.next.title}} &raquo;</a></li>
+                    {% endif %}
+                </div>
 	        </div>
 
             <!-- Blog Sidebar Widgets Column -->
