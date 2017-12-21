@@ -321,7 +321,7 @@
 	            <hr>
 
 	            <!-- Date/Time -->
-                <p><i class="fa fa-clock-o" aria-hidden="true"></i>Posted {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
+                <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
                 {% case hour %}
                 {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
                 during the night
@@ -344,7 +344,10 @@
 
 
                 <!-- TODO: Do a good design on this.  Perhaps remove Category -->
-                <i class="fa fa-commenting" aria-hidden="true"></i><a href="{{ page.url }}#disqus_thread">Comments</a></br>
+                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
+
+                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>
+
                 <i class="fa fa-th-large" aria-hidden="true"></i>Catagories
                 {% if post %}
                 {% assign categories = post.categories %}
@@ -444,7 +447,7 @@
 	            </div>
 
 
-                <div class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+                <div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
 
                 <hr>
 
