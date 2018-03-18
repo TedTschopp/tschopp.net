@@ -182,7 +182,7 @@
 	<!-- Web page title -->
     <meta property="og:title"            content="{{ page.title }} - {{ site.name }}">
 	<!-- Web page description -->
-    <meta property="og:description"      content="{{ page.excerpt }}">  
+    <meta property="og:description"      content="{{ page.excerpt | strip_html }}">  
 	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
 	<meta property="og:type"             content="article">  
 	<!-- Url to this web page -->
@@ -251,7 +251,7 @@
     <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
     <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
     <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
-    <meta name="twitter:description"     content="{{ page.excerpt }}">
+    <meta name="twitter:description"     content="{{ page.excerpt | strip_html}}">
 
 
     {% if post %}
@@ -364,7 +364,7 @@
 
 	            <hr>
 
-	            <!-- <p class="lead">{{ page.excerpt }}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
+	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
 
                 <!-- Preview Image -->
                 <!--
