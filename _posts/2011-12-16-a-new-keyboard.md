@@ -23,7 +23,7 @@ categories:
   - Computers
   - iPad
 ---
-I got one of the new ZAAG / Logitech keyboard cases for my iPad last night. I am writing this to you from the new device. I really like this device, its a bit bulky and turns the iPad into a laptop, but I really think that at some point that is what is needed.[<img class="alignright size-thumbnail wp-image-1127" alt="timthumb" src="https://www.tedt.org/wp-content/uploads/2013/06/timthumb.jpeg" width="150" height="99" srcset="https://www.tedt.org/wp-content/uploads/2013/06/timthumb.jpeg" sizes="(max-width: 150px) 100vw, 150px" />](https://www.tedt.org/wp-content/uploads/2013/06/timthumb.jpeg)
+I got one of the new ZAAG / Logitech keyboard cases for my iPad last night. I am writing this to you from the new device. I really like this device, its a bit bulky and turns the iPad into a laptop, but I really think that at some point that is what is needed.
 
 The keyboard itself is Bluetooth with a USB charger, and getting it up and running with the iPad works like a charm. I like how Apple has given a bit of thought to keyboards on the iPad, as the escape key acts as the back button and there is a lock and unlock button that will work as well. I like how the cut and paste commands also work.
 
