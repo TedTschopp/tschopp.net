@@ -58,7 +58,7 @@ It is important to recall that the technology level of the ideology will be diff
 
 **Example:** 
 
-<span>
+<div markdown="1">
 The University is a Service Ideology with a University as its headquarters.  It builds satellite facilities as follows:
 
 **Level 5:** The University itself is a tech level 4 facility today that was once a Tech Level 6 facility that has an huge underground AI Think Tank.
@@ -70,7 +70,7 @@ The University is a Service Ideology with a University as its headquarters.  It 
 **Level 2:** The Laboratory.  The University operates various field laboratories around the continent.  These labs can be everything from Tech Level 3 all the way up to the Tech Level of the surrounding "culture".  Many times the University will deploy a lab in the Ancient ruins in order to retrieve some esoteric piece of missing data, or to retrieve an artifact.  These facilities are temporary.  Permanent Laboratories are deployed at The Colleges and at the Libraries.
 
 **Level 1:** The Chapter House.  The University operates small safe houses around the continent in various tech level 1 and 2 cities and towns.  These chapter houses are staffed with a single family unit without children and operate as safe places and an underground railroad for people escaping anti-technology / anti-learning ideologies. These buildings match the tech level of their surroundings and have a hidden communications relay station that allows The University to maintain an extensive communications network that ties directly into the Think Tank.
-</span>
+</div>
 {: .example}
 
 ### Alignment
@@ -170,7 +170,7 @@ This is a description of the various levels of membership.  Keep this simple at 
 
 **Example:**
 
-<span>
+<div markdown="1">
 **Level 5:** Dean of the Colleges - These are the leaders at each of the colleges.  The President of the University is also the Dean of the University.  He interacts with the Deans to make very large decisions are coordinated and is responsible for working with the AI, who is the ultimate authority in the University.   The Dean of the College can call upon multiple professors to accomplish their tasks.  They can also work with the AI to balance priorities.  This means that the AI will deploy its military resources for Deans occasionally.   
 
 **Level 4:** Professor of --- - Each professor works with the Dean to pick their field of study and their field of teaching.  Within their chosen discipline they have a lot of autonomy.  They are expected to interact with the other Professors of their discipline from other colleges in order to achieve the goals and objectives of the University.  Professors can call upon their students to help teach and administer their duties.  These students are given delegated responsibilities from the Professors.  Professors may also request the establishment of Laboratories and Chapter Houses.  These requests are generally approved based on availability and need and is one of the standing agenda items discussed by all the professors with their dean.
@@ -184,7 +184,7 @@ The AI who runs the University keeps the peace within the University Hierarchy. 
 The University Police have access to Tech level 5 equipment in the event of emergencies, but normal gear consists of Tech Level 4 equipment.  The Two Spec Ops teams that the AI deploys have 12 members each and they access to Tech Level 6 gear, and represent the most fearsome forces in all of Gamma World.  The AI rarely deploys them because it has no way to escalate a confrontation beyond their deployment.   
 
 **Level 1:** The Novices - These are people who visit the University or who benefit from the University, but are not Students or Staff.  The Novices are people who have applied to use either be a student or a staff or to access University Resources.  Novices do not have access to any University Resources, however they do carry a University ID Tag.  This is a Tech Level 4 Dog Tag that tracks the Novices and above through the University facilities via the handheld communication devices given to Level 2 personnel and above.  
-</span>
+</div>
 {: .example}
 
 ### Concepts & Policies
