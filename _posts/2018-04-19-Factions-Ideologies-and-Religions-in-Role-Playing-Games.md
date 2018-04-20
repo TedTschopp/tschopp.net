@@ -188,3 +188,18 @@ This is a description of legends that are believed by members of the ideology.
 
 >The technology that started the apocalypse was developed centuries prior to the Apocalypse by parent University of the agricultural college that eventually became what is now known as The University.  This previous and parent university was located in a town called Prince. 
 
+
+
+
+### Testing
+
+The HTML specification is maintained by the W3C.
+
+*[HTML]: HyperText Markup Language
+*[W3C]:  World Wide Web Consortium
+
+
+
+
+
+
