@@ -78,7 +78,7 @@ This is a description and a rating that tracks how much group think or individua
 
 Scale: This number is from -5 to +5 with +5 being an ant, bee, or robotic automaton and -5 being various societies that believe in anarchy. 
 
-**Example: ** The University encourages individualism in relationship to achieving its outcomes.  However it does expect this to occur within the limits of the scientific method.  0.
+**Example:** The University encourages individualism in relationship to achieving its outcomes.  However it does expect this to occur within the limits of the scientific method.  0.
 
 ###### Activism
 
@@ -86,7 +86,7 @@ This is a description and a rating that tracks how often the members of the ideo
 
 Scale:  This is a number from -5 to +5 with +5 being a complete and utter dedication to the ideology and -5 being complete complacency unless an existential threat is present.  
 
-**Example: ** The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
+**Example:** The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
 
 ###### Stereotypes
 
@@ -116,7 +116,7 @@ This is a description of how the headquarters is defended.
 
 This is an example of the building materials that are found at the headquarters.
 
-**Example:  **The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
+**Example:**The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
 
 ##### History
 
@@ -134,7 +134,7 @@ This is a description of the various levels of membership.  Keep this simple at 
 
 **Level 4:** Professor of --- - Each professor works with the Dean to pick their field of study and their field of teaching.  Within their chosen discipline they have a lot of autonomy.  They are expected to interact with the other Professors of their discipline from other colleges in order to achieve the goals and objectives of the University.  Professors can call upon their students to help teach and administer their duties.  These students are given delegated responsibilities from the Professors.  Professors may also request the establishment of Laboratories and Chapter Houses.  These requests are generally approved based on availability and need and is one of the standing agenda items discussed by all the professors with their dean.
 
-**Level 3: **Students - Everyone who has taken a class or is currently taking a class from the University is considered a student.  Even after death.  Admissions to the University as a Student is quite rigorous and a prestigious accomplishment in and of itself.  Students have access to the library and the archives.  They may request research from these facilities.  The only research off limits is research into the technologies that caused the apocalypse.   
+**Level 3:** Students - Everyone who has taken a class or is currently taking a class from the University is considered a student.  Even after death.  Admissions to the University as a Student is quite rigorous and a prestigious accomplishment in and of itself.  Students have access to the library and the archives.  They may request research from these facilities.  The only research off limits is research into the technologies that caused the apocalypse.   
 
 **Level 2:** University Police - The University Police are to protect the University from the forces in the world that have caused and perpetuated these current Dark Ages.  They are not tasked with keeping the peace within the University hierarchy.  
 
