@@ -58,18 +58,20 @@ It is important to recall that the technology level of the ideology will be diff
 
 **Example:** 
 
->The University is a Service Ideology with a University as its headquarters.  It builds satellite facilities as follows:
->
->**Level 5:** The University itself is a tech level 4 facility today that was once a Tech Level 6 facility that has an huge underground AI Think Tank.
->
->**Level 4:** The Library.  The University has a library at The University itself, but it also has several satellite libraries that it operates in various capital cities around the continent.  These facilities are tech level 3 facilities with printing presses and imported radio transmitters it uses to communicate with the University itself.  
->
->**Level 3:** The College.  The University operates schools across the continent.  These school are tech level 3 facilities that operate in various many cities.  The focus of these facilities is to train people in the Trivium and to funnel exceptional students to the University so they can further their goals of restoring the lost knowledge of the Ancients. 
->
->**Level 2:** The Laboratory.  The University operates various field laboratories around the continent.  These labs can be everything from Tech Level 3 all the way up to the Tech Level of the surrounding "culture".  Many times the University will deploy a lab in the Ancient ruins in order to retrieve some esoteric piece of missing data, or to retrieve an artifact.  These facilities are temporary.  Permanent Laboratories are deployed at The Colleges and at the Libraries.
->
->**Level 1:** The Chapter House.  The University operates small safe houses around the continent in various tech level 1 and 2 cities and towns.  These chapter houses are staffed with a single family unit without children and operate as safe places and an underground railroad for people escaping anti-technology / anti-learning ideologies. These buildings match the tech level of their surroundings and have a hidden communications relay station that allows The University to maintain an extensive communications network that ties directly into the Think Tank.
-{: .example .border .rounded .bg-light}
+<div>
+The University is a Service Ideology with a University as its headquarters.  It builds satellite facilities as follows:
+
+**Level 5:** The University itself is a tech level 4 facility today that was once a Tech Level 6 facility that has an huge underground AI Think Tank.
+
+**Level 4:** The Library.  The University has a library at The University itself, but it also has several satellite libraries that it operates in various capital cities around the continent.  These facilities are tech level 3 facilities with printing presses and imported radio transmitters it uses to communicate with the University itself.  
+
+**Level 3:** The College.  The University operates schools across the continent.  These school are tech level 3 facilities that operate in various many cities.  The focus of these facilities is to train people in the Trivium and to funnel exceptional students to the University so they can further their goals of restoring the lost knowledge of the Ancients. 
+
+**Level 2:** The Laboratory.  The University operates various field laboratories around the continent.  These labs can be everything from Tech Level 3 all the way up to the Tech Level of the surrounding "culture".  Many times the University will deploy a lab in the Ancient ruins in order to retrieve some esoteric piece of missing data, or to retrieve an artifact.  These facilities are temporary.  Permanent Laboratories are deployed at The Colleges and at the Libraries.
+
+**Level 1:** The Chapter House.  The University operates small safe houses around the continent in various tech level 1 and 2 cities and towns.  These chapter houses are staffed with a single family unit without children and operate as safe places and an underground railroad for people escaping anti-technology / anti-learning ideologies. These buildings match the tech level of their surroundings and have a hidden communications relay station that allows The University to maintain an extensive communications network that ties directly into the Think Tank.
+</div>
+{: .example}
 
 ### Alignment
 
@@ -84,7 +86,7 @@ Scale: Violently opposed to outcomes other than its own -5 to +5 - Tolerant of m
 **Example:**  
 
 >The University is quite tolerant as long as you are not interested in harming or suppressing knowledge or the restoration of knowledge. +4 unless you demonstrate a desire to suppress knowledge than -4. 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 #### Individualism
 
@@ -95,7 +97,7 @@ Scale: This number is from -5 to +5 with +5 being an ant, bee, or robotic automa
 **Example:** 
 
 >The University encourages individualism in relationship to achieving its outcomes.  However it does expect this to occur within the limits of the scientific method.  0.
-{: .example .border .rounded .bg-light}
+{: .example}
 
 #### Activism
 
@@ -106,7 +108,7 @@ Scale:  This is a number from -5 to +5 with +5 being a complete and utter dedica
 **Example:** 
 
 >The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
-{: .example .border .rounded .bg-light}
+{: .example}
 
 #### Stereotypes
 
@@ -115,7 +117,7 @@ Stereotypes are how the ideology views people of various other ideologies or rac
 **Example:** 
 
 >The University opposes the Neo-Luddites with a score of -4.  The University seeks to align itself with The Doctors with a score of +4.  The University also seeks to align itself with all synthetic life forms with a score of +3.
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### Zone of influence
 
@@ -124,7 +126,7 @@ This is a description and a map of the ideologies area of influence.  If this is
 **Example:**  
 
 >The University was founded centuries ago in the mountains a couple hours travel outside the capital.  The University now controls several hundred miles around the facility itself with that it patrols with restored Ancient machines that it has salvaged from various military facilities in the area.  The University also has an extensive communications network that allows it to exert its influence across all tech level 3 cities and it has knowledge of most tech level 4 enclaves operating today due to its friendly disposition towards most of those facilities.  
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### Headquarters
 
@@ -133,7 +135,7 @@ This is a description of the headquarters.
 **Example:** 
 
 >The University Campus is located with a nice picturesque valley.  The campus itself boasts of dorm rooms for both students and faculty.  Over the years the AI that runs the facility for the faculty has built extensive underground facilities that it extended off the underground seed storage and water cisterns it had originally been built with.  Today the facility mainly produces communications gear that it uses to extend its communications network in its efforts to collect more knowledge and preserve it.  
-{: .example .border .rounded .bg-light}
+{: .example}
 
 #### Defenses
 
@@ -142,7 +144,7 @@ This is a description of how the headquarters is defended.
 **Example:** 
 
 >The University itself is defended by the defenses stippped from various military bases.  The AI running the University convinced the AIs of these military facilities to pool their resources as the University was located ideally for the sort of warfare that would now be very common from societies of lower tech levels and raiders.  The first Chapter Houses and Labs sent out were with personal pulled from these military bases.  
-{: .example .border .rounded .bg-light}
+{: .example}
 
 #### Building materials
 
@@ -151,7 +153,7 @@ This is an example of the building materials that are found at the headquarters.
 **Example:**
 
 >The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### History
 
@@ -160,7 +162,7 @@ This is a description of the history of the ideology.
 **Example:** 
 
 >The university, back in the day, was focused on the development of agricultural technology, and has several farms surrounding it as well.  After the world fell apart, the AI, which operated the facility for the facility had the foresight to fall into a bunker mentality and hunkered down.  When the smoke cleared it saw that it was the largest facility on the University network and started the task of rebuilding and reaching out to the 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### Heiarchy
 
@@ -168,7 +170,7 @@ This is a description of the various levels of membership.  Keep this simple at 
 
 **Example:**
 
-<span>**Level 5:** Dean of the Colleges - These are the leaders at each of the colleges.  The President of the University is also the Dean of the University.  He interacts with the Deans to make very large decisions are coordinated and is responsible for working with the AI, who is the ultimate authority in the University.   The Dean of the College can call upon multiple professors to accomplish their tasks.  They can also work with the AI to balance priorities.  This means that the AI will deploy its military resources for Deans occasionally.   
+<div>**Level 5:** Dean of the Colleges - These are the leaders at each of the colleges.  The President of the University is also the Dean of the University.  He interacts with the Deans to make very large decisions are coordinated and is responsible for working with the AI, who is the ultimate authority in the University.   The Dean of the College can call upon multiple professors to accomplish their tasks.  They can also work with the AI to balance priorities.  This means that the AI will deploy its military resources for Deans occasionally.   
 
 **Level 4:** Professor of --- - Each professor works with the Dean to pick their field of study and their field of teaching.  Within their chosen discipline they have a lot of autonomy.  They are expected to interact with the other Professors of their discipline from other colleges in order to achieve the goals and objectives of the University.  Professors can call upon their students to help teach and administer their duties.  These students are given delegated responsibilities from the Professors.  Professors may also request the establishment of Laboratories and Chapter Houses.  These requests are generally approved based on availability and need and is one of the standing agenda items discussed by all the professors with their dean.
 
@@ -181,8 +183,8 @@ The AI who runs the University keeps the peace within the University Hierarchy. 
 The University Police have access to Tech level 5 equipment in the event of emergencies, but normal gear consists of Tech Level 4 equipment.  The Two Spec Ops teams that the AI deploys have 12 members each and they access to Tech Level 6 gear, and represent the most fearsome forces in all of Gamma World.  The AI rarely deploys them because it has no way to escalate a confrontation beyond their deployment.   
 
 **Level 1:** The Novices - These are people who visit the University or who benefit from the University, but are not Students or Staff.  The Novices are people who have applied to use either be a student or a staff or to access University Resources.  Novices do not have access to any University Resources, however they do carry a University ID Tag.  This is a Tech Level 4 Dog Tag that tracks the Novices and above through the University facilities via the handheld communication devices given to Level 2 personnel and above.  
-</span>
-{: .example .border .rounded .bg-light}
+</div>
+{: .example}
 
 ### Concepts & Policies
 
@@ -191,7 +193,7 @@ This is a description of the concepts and the policies the ideology pushes.
 **Example:** 
 
 The University has the goal of elimination of the Dark Ages that the world currently lives in through the education of the people, and to bring humanity back in order to allow humanity a second chance moving forward.  The University opposes all research into the technologies that caused the apocalypse.  It also opposes groups that want to keep humanity stuck in these dark ages. 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### Symbols
 
@@ -200,7 +202,7 @@ This is a description of all the symbols the ideology uses, and what they mean.
 **Example:** 
 
 The shield of the University has been its symbol for centuries.  A small replica of the shield is given to all Novices and above to track them through the University system.  This is the size of a keychain or necklace.  The Mascot of the University is a Tiger.  The University keeps breeding pairs of pure strain tigers at its headquarters.  These tigers were gifted to the University by a warlord who had them as pets.  The university opened a College within the warlord's territory in exchange for the first breeding pair.  The University uses Orange and Black as its colors, and all clothing worn by the University staff feature these colors. 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 ### Legends
 
@@ -209,7 +211,7 @@ This is a description of legends that are believed by members of the ideology.
 **Example:** 
 
 The technology that started the apocalypse was developed centuries prior to the Apocalypse by parent University of the agricultural college that eventually became what is now known as The University.  This previous and parent university was located in a town called Prince. 
-{: .example .border .rounded .bg-light}
+{: .example}
 
 
 
