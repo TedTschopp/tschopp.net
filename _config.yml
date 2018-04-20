@@ -29,6 +29,11 @@ givenname: Ted
 #Family Name
 familyname: Tschopp
 
+#Locality
+locality: Los Angeles
+region: California
+country: United States of America
+
 #Other Names
 othernames: >
   Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تيد شوب | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
@@ -48,7 +53,9 @@ pinterest_username: TedTschopp
 reddit_username: tedtschopp
 instagram_usermame: tedtschopp
 quora_username: Ted-Tschopp
-# whatsapp_username: 16262553757
+
+
+
 
 google_custom_search: 003027838407468454148:ddtovg0fltc
 
