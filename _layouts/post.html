@@ -372,7 +372,11 @@
                     and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
 
                     -->
-	            <img class="img-responsive" src="{{ page.image }}" alt="">
+                <figure>
+                <img class="img-responsive" src="{{ page.image }}" alt="{{page.image-credits}}">
+                  <figcaption>{{page.image-credits}}</figcaption>
+                </figure>
+
 	            <hr>
 	            <!-- Post Content -->
 	            {{ content }}
