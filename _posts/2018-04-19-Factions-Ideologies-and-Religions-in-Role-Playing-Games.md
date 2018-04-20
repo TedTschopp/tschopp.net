@@ -6,8 +6,8 @@ author: Ted Tschopp
 excerpt: |
   Most societies are formed around a given ideology or way of thinking.  These ideologies can be broken up into several different categories.  At the higher tech levels where people have more freetime, those societies will have multiple ideologies from all four segments operating together within their borders.  Each group will have various taboos, symbols, concepts, hierarchies, buildings, trade goods, occupations, equipment, stories, and legends that they have a monopoly on.   It should be noted that ideologies can exist with other ideologies.
 layout: post
-guid: http://tschopp.net/?p=1428
-permalink: /2015/01/29/mobile-computing/
+guid: /2018/04/19/Factions-Ideologies-and-Religions-in-Role-Playing-Games/
+permalink: /2018/04/19/Factions-Ideologies-and-Religions-in-Role-Playing-Games/
 image: wp-content/uploads/2018/04/Sunset on this ideology - Užhorod-Sunset near the border.jpg
 image-credits: |
   Sunset on this ideology - Užhorod - Sunset near the border (Slovack Rep. Ukaine) - Ukraine, Uzgorod City by Giorgio Minguzzi https://www.flickr.com/photos/iz4aks/4005020863 Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
