@@ -18,7 +18,15 @@ categories:
   - Gamma World
   - Draft
 ---
-### Ideologies 
+
+# Contents
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+
+# Ideologies 
 
 Most societies are formed around a given ideology or way of thinking.  These ideologies can be broken up into several different categories.  At the higher tech levels where people have more freetime, those societies will have multiple ideologies from all four segments operating together within their borders.  Each group will have various taboos, symbols, concepts, hierarchies, buildings, trade goods, occupations, equipment, stories, and legends that they have a monopoly on.   It should be noted that ideologies can exist with other ideologies.  An example of this from below is that each College in the University could be a separate Service ideology.  The PCs who were students at the University would need to indicate the strength of their allegiance to each.
 
