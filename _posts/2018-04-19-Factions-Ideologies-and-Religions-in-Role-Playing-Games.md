@@ -189,7 +189,8 @@ This is a description of the concepts and the policies the ideology pushes.
 
 **Example:** 
 
->The University has the goal of elimination of the Dark Ages that the world currently lives in through the education of the people, and to bring humanity back in order to allow humanity a second chance moving forward.  The University opposes all research into the technologies that caused the apocalypse.  It also opposes groups that want to keep humanity stuck in these dark ages. 
+The University has the goal of elimination of the Dark Ages that the world currently lives in through the education of the people, and to bring humanity back in order to allow humanity a second chance moving forward.  The University opposes all research into the technologies that caused the apocalypse.  It also opposes groups that want to keep humanity stuck in these dark ages. 
+{:title="Concept & Policies Example"}
 {: .exampl border}
 
 ### Symbols
