@@ -356,7 +356,7 @@
                 {% for category in categories %}
                     {% if forloop.length == 1 or forloop.first %}
                         {{category}}
-                    {% elsif forloop.last %} and {{category}}{% else %}, {{category}}{% endif %}
+                    {% elsif forloop.last %}, and {{category}}{% else %}, {{category}}{% endif %}
                     {% if category == "draft" or category == "Draft" %}
                         {% assign this_is_a_draft = true %}
                     {% endif %}
