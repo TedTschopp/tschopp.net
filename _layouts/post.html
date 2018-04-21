@@ -287,6 +287,25 @@
     <!-- Custom CSS -->
 	<link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
 
+
+
+    {% if post %}
+        {% assign categories = post.categories %}
+    {% else %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+            {% assign this_is_a_draft = true %}
+        {% endif %}
+    {% endfor %}
+    {% if this_is_a_draft == true %}
+        <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
+    {% endif %}
+
+
+
     <!-- Custom Fonts -->
     {% include css-font-awesome.html %}
 
@@ -386,10 +405,6 @@
 
 	            <hr>
 	            <!-- Post Content -->
-                {% if this_is_a_draft == true %}
-                    <h1>THIS IS A DRAFT</h1>h1>
-                {% endif %}
-
 	            {{ content }}
 
 	            <hr>
