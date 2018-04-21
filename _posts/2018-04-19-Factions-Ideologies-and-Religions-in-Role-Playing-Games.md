@@ -71,7 +71,7 @@ The University is a Service Ideology with a University as its headquarters.  It 
 
 **Level 1:** The Chapter House.  The University operates small safe houses around the continent in various tech level 1 and 2 cities and towns.  These chapter houses are staffed with a single family unit without children and operate as safe places and an underground railroad for people escaping anti-technology / anti-learning ideologies. These buildings match the tech level of their surroundings and have a hidden communications relay station that allows The University to maintain an extensive communications network that ties directly into the Think Tank.
 </div>
-{: .example}
+{: .example .well}
 
 ### Alignment
 
@@ -85,8 +85,8 @@ Scale: Violently opposed to outcomes other than its own -5 to +5 - Tolerant of m
 
 **Example:**  
 
->The University is quite tolerant as long as you are not interested in harming or suppressing knowledge or the restoration of knowledge. +4 unless you demonstrate a desire to suppress knowledge than -4. 
-{: .example}
+The University is quite tolerant as long as you are not interested in harming or suppressing knowledge or the restoration of knowledge. +4 unless you demonstrate a desire to suppress knowledge than -4. 
+{: .example .well}
 
 #### Individualism
 
@@ -96,8 +96,8 @@ Scale: This number is from -5 to +5 with +5 being an ant, bee, or robotic automa
 
 **Example:** 
 
->The University encourages individualism in relationship to achieving its outcomes.  However it does expect this to occur within the limits of the scientific method.  0.
-{: .example}
+The University encourages individualism in relationship to achieving its outcomes.  However it does expect this to occur within the limits of the scientific method.  0.
+{: .example .well}
 
 #### Activism
 
@@ -108,7 +108,7 @@ Scale:  This is a number from -5 to +5 with +5 being a complete and utter dedica
 **Example:** 
 
 The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
-{: .example}
+{: .example .well}
 
 #### Stereotypes
 
@@ -117,7 +117,7 @@ Stereotypes are how the ideology views people of various other ideologies or rac
 **Example:** 
 
 The University opposes the Neo-Luddites with a score of -4.  The University seeks to align itself with The Doctors with a score of +4.  The University also seeks to align itself with all synthetic life forms with a score of +3.
-{: .example}
+{: .example .well}
 
 ### Zone of influence
 
@@ -126,7 +126,7 @@ This is a description and a map of the ideologies area of influence.  If this is
 **Example:**  
 
 The University was founded centuries ago in the mountains a couple hours travel outside the capital.  The University now controls several hundred miles around the facility itself with that it patrols with restored Ancient machines that it has salvaged from various military facilities in the area.  The University also has an extensive communications network that allows it to exert its influence across all tech level 3 cities and it has knowledge of most tech level 4 enclaves operating today due to its friendly disposition towards most of those facilities.  
-{: .example}
+{: .example .well}
 
 ### Headquarters
 
@@ -135,7 +135,7 @@ This is a description of the headquarters.
 **Example:** 
 
 The University Campus is located with a nice picturesque valley.  The campus itself boasts of dorm rooms for both students and faculty.  Over the years the AI that runs the facility for the faculty has built extensive underground facilities that it extended off the underground seed storage and water cisterns it had originally been built with.  Today the facility mainly produces communications gear that it uses to extend its communications network in its efforts to collect more knowledge and preserve it.  
-{: .example}
+{: .example .well}
 
 #### Defenses
 
@@ -144,7 +144,7 @@ This is a description of how the headquarters is defended.
 **Example:** 
 
 The University itself is defended by the defenses stippped from various military bases.  The AI running the University convinced the AIs of these military facilities to pool their resources as the University was located ideally for the sort of warfare that would now be very common from societies of lower tech levels and raiders.  The first Chapter Houses and Labs sent out were with personal pulled from these military bases.  
-{: .example}
+{: .example .well}
 
 #### Building materials
 
@@ -153,7 +153,7 @@ This is an example of the building materials that are found at the headquarters.
 **Example:**
 
 The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
-{: .example}
+{: .example .well}
 
 ### History
 
@@ -162,7 +162,7 @@ This is a description of the history of the ideology.
 **Example:** 
 
 The university, back in the day, was focused on the development of agricultural technology, and has several farms surrounding it as well.  After the world fell apart, the AI, which operated the facility for the facility had the foresight to fall into a bunker mentality and hunkered down.  When the smoke cleared it saw that it was the largest facility on the University network and started the task of rebuilding and reaching out to the 
-{: .example}
+{: .example .well}
 
 ### Heiarchy
 
@@ -185,7 +185,7 @@ The University Police have access to Tech level 5 equipment in the event of emer
 
 **Level 1:** The Novices - These are people who visit the University or who benefit from the University, but are not Students or Staff.  The Novices are people who have applied to use either be a student or a staff or to access University Resources.  Novices do not have access to any University Resources, however they do carry a University ID Tag.  This is a Tech Level 4 Dog Tag that tracks the Novices and above through the University facilities via the handheld communication devices given to Level 2 personnel and above.  
 </div>
-{: .example}
+{: .example .well}
 
 ### Concepts & Policies
 
@@ -194,7 +194,7 @@ This is a description of the concepts and the policies the ideology pushes.
 **Example:** 
 
 The University has the goal of elimination of the Dark Ages that the world currently lives in through the education of the people, and to bring humanity back in order to allow humanity a second chance moving forward.  The University opposes all research into the technologies that caused the apocalypse.  It also opposes groups that want to keep humanity stuck in these dark ages. 
-{: .example}
+{: .example .well}
 
 ### Symbols
 
@@ -203,7 +203,7 @@ This is a description of all the symbols the ideology uses, and what they mean.
 **Example:** 
 
 The shield of the University has been its symbol for centuries.  A small replica of the shield is given to all Novices and above to track them through the University system.  This is the size of a keychain or necklace.  The Mascot of the University is a Tiger.  The University keeps breeding pairs of pure strain tigers at its headquarters.  These tigers were gifted to the University by a warlord who had them as pets.  The university opened a College within the warlord's territory in exchange for the first breeding pair.  The University uses Orange and Black as its colors, and all clothing worn by the University staff feature these colors. 
-{: .example}
+{: .example .well}
 
 ### Legends
 
@@ -212,7 +212,7 @@ This is a description of legends that are believed by members of the ideology.
 **Example:** 
 
 The technology that started the apocalypse was developed centuries prior to the Apocalypse by parent University of the agricultural college that eventually became what is now known as The University.  This previous and parent university was located in a town called Prince. 
-{: .well}
+{: .example .well}
 
 
 
