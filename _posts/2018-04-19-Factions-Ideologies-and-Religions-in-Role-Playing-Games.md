@@ -107,7 +107,7 @@ Scale:  This is a number from -5 to +5 with +5 being a complete and utter dedica
 
 **Example:** 
 
->The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
+The University encourages dedication and determination from its followers.  People who are of mixed minds on topics are shunted to the sidelines and do not advance within the hierarchy.  However, the University encourages marriage and a family with children who are educated within the University system.  +3
 {: .example}
 
 #### Stereotypes
