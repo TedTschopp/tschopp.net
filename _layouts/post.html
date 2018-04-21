@@ -349,14 +349,14 @@
 
                 <i class="fa fa-th-large" aria-hidden="true"></i>Catagories:
                 {% if post %}
-                {% assign categories = post.categories %}
+                    {% assign categories = post.categories %}
                 {% else %}
-                {% assign categories = page.categories %}
+                    {% assign categories = page.categories %}
                 {% endif %}
                 {% for category in categories %}
                     {% if forloop.length == 1 %}
                         {{category}}
-                    {% elseif forloop.last %}
+                    {% elsif forloop.last %}
                         and {{category}}
                     {% else %}
                         , {{category}}
