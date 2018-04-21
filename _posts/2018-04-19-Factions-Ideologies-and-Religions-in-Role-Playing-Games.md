@@ -212,7 +212,7 @@ This is a description of legends that are believed by members of the ideology.
 **Example:** 
 
 The technology that started the apocalypse was developed centuries prior to the Apocalypse by parent University of the agricultural college that eventually became what is now known as The University.  This previous and parent university was located in a town called Prince. 
-{: .example}
+{: .well}
 
 
 
