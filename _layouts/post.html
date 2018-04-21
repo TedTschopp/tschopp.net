@@ -355,7 +355,15 @@
                 {% endif %}
                 {% for category in categories %}
                     {% capture thiscategory %}{{ category | strip }}{% endcapture %}
-                    {% if forloop.length == 1 or forloop.first %}{{thiscategory}}{% elsif forloop.last %}, and {{thiscategory}}{% else %}, {{thiscategory}}{% endif %}
+                    {% if forloop.length == 1 %}
+                        {{thiscategory}}
+                    {% elsif forloop.last and forloop.length == 2 %}
+                        and {{thiscategory}}
+                    {% elsif forloop.last %}
+                        and {{thiscategory}}
+                    {% else %}
+                        {{thiscategory}}, 
+                    {% endif %}
                     {% if thiscategory == "draft" or thiscategory == "Draft" %}
                         {% assign this_is_a_draft = true %}
                     {% endif %}
