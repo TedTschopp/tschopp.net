@@ -365,7 +365,7 @@
                         {{thiscategory}}, 
                     {% endif %}
                     {% if thiscategory == "draft" or thiscategory == "Draft" %}
-                        {% assign this_is_a_draft = "T" %}
+                        {% assign this_is_a_draft = true %}
                     {% endif %}
                 {% endfor %}</br></p>
 
@@ -386,7 +386,7 @@
 
 	            <hr>
 	            <!-- Post Content -->
-                (% if this_is_a_draft == "T" %}
+                {% if this_is_a_draft == true %}
                     <h1>THIS IS A DRAFT</h1>h1>
                 {% endif %}
 
