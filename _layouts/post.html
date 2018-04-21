@@ -488,11 +488,11 @@
                 </div>
 
                 <div class="well">
-                    <h4>Table of Contents - 1</h4>
-
                     {% capture include_to_markdownify %}
-                    {% include toc.html %}
+                    {% include toc.md %}
                     {% endcapture %}
+
+                    <h4>Table of Contents - 2</h4>
                     {{ include_to_markdownify | markdownify }}
 
 
