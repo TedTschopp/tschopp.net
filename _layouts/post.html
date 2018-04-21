@@ -489,12 +489,12 @@
 
                 <div class="well">
 
-                    <h4>Table of Contents - 5</h4>
+                    <h4>Table of Contents - 6</h4>
                     {% capture Table %}
                         *  Auto generated table of contents
                         {.toc}
                     {% endcapture %}
-                    {{Table}}
+                    {{ Table | markdownify }}
 
                 </div>
 
