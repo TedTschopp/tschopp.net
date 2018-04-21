@@ -354,7 +354,16 @@
                 {% assign categories = page.categories %}
                 {% endif %}
                 {% for category in categories %}
-                    {{category}}, 
+                    {% if forloop.length == 1 %}
+                        {{category}}
+                    {% elseif forloop.last %}
+                        and {{category}}
+                    {% else %}
+                        , {{category}}
+                    {% endif %}
+                    {% if category == "draft" or category == "Draft" %}
+                        {% assign this_is_a_draft = true %}
+                    {% endif %}
                 {% endfor %}</br></p>
 
 	            <hr>
@@ -486,18 +495,6 @@
                         {% endfor %}
                     </div>                
                 </div>
-
-                <div class="well">
-
-                    <h4>Table of Contents - 6</h4>
-                    {% capture Table %}
-                        *  Auto generated table of contents
-                        {.toc}
-                    {% endcapture %}
-                    {{ Table | markdownify }}
-
-                </div>
-
 
 
                 <!-- Side Widget Well -->
