@@ -116,7 +116,7 @@ Stereotypes are how the ideology views people of various other ideologies or rac
 
 **Example:** 
 
->The University opposes the Neo-Luddites with a score of -4.  The University seeks to align itself with The Doctors with a score of +4.  The University also seeks to align itself with all synthetic life forms with a score of +3.
+The University opposes the Neo-Luddites with a score of -4.  The University seeks to align itself with The Doctors with a score of +4.  The University also seeks to align itself with all synthetic life forms with a score of +3.
 {: .example}
 
 ### Zone of influence
@@ -125,7 +125,7 @@ This is a description and a map of the ideologies area of influence.  If this is
 
 **Example:**  
 
->The University was founded centuries ago in the mountains a couple hours travel outside the capital.  The University now controls several hundred miles around the facility itself with that it patrols with restored Ancient machines that it has salvaged from various military facilities in the area.  The University also has an extensive communications network that allows it to exert its influence across all tech level 3 cities and it has knowledge of most tech level 4 enclaves operating today due to its friendly disposition towards most of those facilities.  
+The University was founded centuries ago in the mountains a couple hours travel outside the capital.  The University now controls several hundred miles around the facility itself with that it patrols with restored Ancient machines that it has salvaged from various military facilities in the area.  The University also has an extensive communications network that allows it to exert its influence across all tech level 3 cities and it has knowledge of most tech level 4 enclaves operating today due to its friendly disposition towards most of those facilities.  
 {: .example}
 
 ### Headquarters
@@ -134,7 +134,7 @@ This is a description of the headquarters.
 
 **Example:** 
 
->The University Campus is located with a nice picturesque valley.  The campus itself boasts of dorm rooms for both students and faculty.  Over the years the AI that runs the facility for the faculty has built extensive underground facilities that it extended off the underground seed storage and water cisterns it had originally been built with.  Today the facility mainly produces communications gear that it uses to extend its communications network in its efforts to collect more knowledge and preserve it.  
+The University Campus is located with a nice picturesque valley.  The campus itself boasts of dorm rooms for both students and faculty.  Over the years the AI that runs the facility for the faculty has built extensive underground facilities that it extended off the underground seed storage and water cisterns it had originally been built with.  Today the facility mainly produces communications gear that it uses to extend its communications network in its efforts to collect more knowledge and preserve it.  
 {: .example}
 
 #### Defenses
@@ -143,7 +143,7 @@ This is a description of how the headquarters is defended.
 
 **Example:** 
 
->The University itself is defended by the defenses stippped from various military bases.  The AI running the University convinced the AIs of these military facilities to pool their resources as the University was located ideally for the sort of warfare that would now be very common from societies of lower tech levels and raiders.  The first Chapter Houses and Labs sent out were with personal pulled from these military bases.  
+The University itself is defended by the defenses stippped from various military bases.  The AI running the University convinced the AIs of these military facilities to pool their resources as the University was located ideally for the sort of warfare that would now be very common from societies of lower tech levels and raiders.  The first Chapter Houses and Labs sent out were with personal pulled from these military bases.  
 {: .example}
 
 #### Building materials
@@ -152,7 +152,7 @@ This is an example of the building materials that are found at the headquarters.
 
 **Example:**
 
->The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
+The University has a lot of iron ore and steel that it has strippped from various Ancient facilities.  It is systematically using this store of metal to produce printing presses.  There is a lumber/paper mill at the University.  Also present is a lab that has been operating from before the Apocalypse that produces communication gear that operates on the Ancients Cellular frequencies. 
 {: .example}
 
 ### History
@@ -161,7 +161,7 @@ This is a description of the history of the ideology.
 
 **Example:** 
 
->The university, back in the day, was focused on the development of agricultural technology, and has several farms surrounding it as well.  After the world fell apart, the AI, which operated the facility for the facility had the foresight to fall into a bunker mentality and hunkered down.  When the smoke cleared it saw that it was the largest facility on the University network and started the task of rebuilding and reaching out to the 
+The university, back in the day, was focused on the development of agricultural technology, and has several farms surrounding it as well.  After the world fell apart, the AI, which operated the facility for the facility had the foresight to fall into a bunker mentality and hunkered down.  When the smoke cleared it saw that it was the largest facility on the University network and started the task of rebuilding and reaching out to the 
 {: .example}
 
 ### Heiarchy
