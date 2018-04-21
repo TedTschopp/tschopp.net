@@ -354,7 +354,7 @@
                     {% assign categories = page.categories %}
                 {% endif %}
                 {% for category in categories %}
-                    {% assign thiscategory = category | strip %}
+                    {% assign thiscategory = category | remove: " " %}
                     {% if forloop.length == 1 or forloop.first %}{{thiscategory}}{% elsif forloop.last %}, and {{thiscategory}}{% else %}, {{thiscategory}}{% endif %}
                     {% if thiscategory == "draft" or thiscategory == "Draft" %}
                         {% assign this_is_a_draft = true %}
