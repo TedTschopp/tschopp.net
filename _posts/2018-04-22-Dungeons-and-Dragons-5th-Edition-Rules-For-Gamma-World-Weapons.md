@@ -4,7 +4,7 @@ title: Dungeons and Dragons 5th Edition Rules for Gamma World Weapons and Armor
 date: 2018-04-22T10:04:00+00:00
 author: Ted Tschopp
 excerpt: |
-  Most societies are formed around a given ideology or way of thinking.  These ideologies can be broken up into several different categories.  At the higher tech levels where people have more freetime, those societies will have multiple ideologies from all four segments operating together within their borders.  Each group will have various taboos, symbols, concepts, hierarchies, buildings, trade goods, occupations, equipment, stories, and legends that they have a monopoly on.   It should be noted that ideologies can exist with other ideologies.
+	This property is following by a number.  This is the number of hitpoints the armor has before it no longer works properly.  Damage Reduction and Hit Points operate in concert with each other.  If armor has damage reduction of 6 and 100 hit points and someone attacks it with a bow and does 5 points of damage to the wearer.  The damage reduction will reduce the attack to 0 hit points, and the armor will remain unscratched.  However, if they got hit by a pistol for 8 points of damage, the damage reduction properties of the armor will reduce the attack to doing only 2 hit points, and the armor will be degraded from 100 hit points remaining to 98 hit points remaining.  Once the hitpoints of the armor have been reduced to 0, the armor is considered fragile.  
 layout: post
 guid: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
 permalink: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
