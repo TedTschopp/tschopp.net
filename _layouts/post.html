@@ -405,6 +405,13 @@
                     </figure>
 
     	            <hr>
+
+                    {% if this_is_a_draft == true %}
+                        {% include progress.html %}
+                    {% endif %}
+
+
+
     	            <!-- Post Content -->
     	            {{ content }}
 
