@@ -46,27 +46,27 @@ figcaption {
 8. Released - Black
 */
 
-	.progress > .notes {
-		background-color: LightGrey;
-	}
-	.progress > .unit {
-		background-color: #D41616;
-	}
-	.progress > .integration {
-		background-color: #CF1A92;
-	}
-	.progress > .component {
-		background-color: #901DCA;
-	}
-	.progress > .system {
-		background-color: #2121C5;
-	}
-	.progress > .alpha {
-		background-color: #248CC0;
-	}
-	.progress > .beta {
-		background-color: #28BBBC;
-	}
-	.progress > .prerelease {
-		background-color: #2BB62B;
-	}
+.progress > .notes {
+	background-color: LightGrey;
+}
+.progress > .unit {
+	background-color: #D41616;
+}
+.progress > .integration {
+	background-color: #CF1A92;
+}
+.progress > .component {
+	background-color: #901DCA;
+}
+.progress > .system {
+	background-color: #2121C5;
+}
+.progress > .alpha {
+	background-color: #248CC0;
+}
+.progress > .beta {
+	background-color: #28BBBC;
+}
+.progress > .prerelease {
+	background-color: #2BB62B;
+}
