@@ -16,7 +16,7 @@ categories:
   - Gamma World
   - Dungeons & Dragons
   - Draft
-draft-status: alpha
+draft-status: component
 ---
 
 # Contents
@@ -27,7 +27,7 @@ draft-status: alpha
 
 # Notes
 
-The following is being playtested by myself and a couple others.  There are no rules yet for radiation, as those will be posted seperately.  
+The following is being play-tested by myself and a couple others.  There are no rules yet for radiation, as those will be posted separately.  I also have an entire list of weapons and armor that need to be posted as well. 
 
 # Weapons in Gamma World
 
