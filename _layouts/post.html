@@ -416,98 +416,88 @@
 
                     {% if this_is_a_draft == true %}
                         <div class="well">
-                            <div class="progress">
+                            <div style="width:100%">
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "notes" or draftstatus == "" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "unit" or draftstatus == "" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "integration" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "component" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "system" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "alpha" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "beta" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                                 <div role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "pre-release" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
                                     {% endif %}
                                 </div>
                             </div>                            
                             <div class="progress">
                                 <div class="progress-bar notes" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "notes" or draftstatus == "" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% endif %}
+                                    Notes
                                 </div>
                                 <div class="progress-bar unit" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "unit" or draftstatus == "" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% endif %}
+                                    Unit
                                 </div>
                                 <div class="progress-bar integration" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "integration" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% endif %}
+                                    Int.
                                 </div>
                                 <div class="progress-bar component" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "component" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Comp.
-                                    {% endif %}
+                                    Comp.
                                 </div>
                                 <div class="progress-bar system" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "system" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        System
-                                    {% endif %}
+                                    System
                                 </div>
                                 <div class="progress-bar alpha" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "alpha" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Alpha
-                                    {% endif %}
+                                    Alpha
                                 </div>
                                 <div class="progress-bar beta" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "beta" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Beta
-                                    {% endif %}
+                                    Beta
                                 </div>
                                 <div class="progress-bar prerelease" role="progressbar" style="width:12.5%">
-                                    {% if draftstatus == "pre-release" %}
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Pre.
-                                    {% endif %}
+                                    Pre.
                                 </div>
                             </div>
                             {% if draftstatus == "notes" or draftstatus == "" %}
