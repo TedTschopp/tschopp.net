@@ -26,7 +26,6 @@ draft-status: integration
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-
 # Notes
 
 The following ideas have been written down from notes I have taken over the years and merged with Gamma World's concepts of Cryptic Socieities.  The goal here is to create some rules that can be easily moved from one setting to another and from one system to another on their creation.  Things that need to be done:
