@@ -1,16 +1,14 @@
 ---
-id: 1529
+id: 1629
 title: Dungeons and Dragons 5th Edition Rules for Gamma World Weapons and Armor
 date: 2018-04-22T10:04:00+00:00
 author: Ted Tschopp
-excerpt: |
-	The hitpoint property is following by a number.  This is the number of hitpoints the armor has before it no longer works properly.  
+excerpt: 
 layout: post
 guid: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
 permalink: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
 image: wp-content/uploads/2018/04/The-Leviathan.jpg
-image-credits: |
-  The Leviathan by Larry Elmore - http://www.larryelmore.com/store/TSTL/tsr--the-leviathan
+image-credits: The Leviathan by Larry Elmore - http://www.larryelmore.com/store/TSTL/tsr--the-leviathan
 categories:
   - Role Playing Games
   - Gamma World
