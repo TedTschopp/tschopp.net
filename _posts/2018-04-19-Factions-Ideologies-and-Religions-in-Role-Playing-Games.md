@@ -17,6 +17,7 @@ categories:
   - Politics
   - Gamma World
   - Draft
+draft-status: integration
 ---
 
 # Contents
