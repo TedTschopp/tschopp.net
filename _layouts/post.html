@@ -332,7 +332,7 @@
 
                 <article>
     	            <!-- Title -->
-    	            <h1>{{ page.title }}</h1>
+    	            <strong>{{ page.title }}</strong>
 
     	            <!-- Author -->
     	            <p class="lead">by {{page.author}}</p>
@@ -474,22 +474,29 @@
                                     {% endif %}
                                 </div>
                             </div>
-                            <h1>Notes:</h1>
                             {% if draftstatus == "notes" or draftstatus == "" %}
+                                <strong>Notes:</strong>
                                 <p>This project is a collection of notes, links, and ideas that need to be brought together in one unit so it can be read and digested as one complete section of a larger work.</p>
                             {% elsif draftstatus == "unit" %}
+                                <strong>Unit Testing:</strong>
                                 <p>This project is a unit that can stand on it's own, but it needs more context within a larger set of work.</p>
                             {% elsif draftstatus == "integration" %}
+                                <strong>Integration Testing:</strong>
                                 <p>This project is a being edited to bring it into a larger work.  It could also being made generic so as to be used in multiple places.</p>
                             {% elsif draftstatus == "component" %}
+                                <strong>Component Testing:</strong>
                                 <p>This project is now a complete component ready for the larger work.  At this point, it can be published as a complete </p>
                             {% elsif draftstatus == "system" %}
+                                <strong>System Testing:</strong>
                                 <p>This project is a complete system, article, paper, or work.  It has yet to be shared with others to gain their feedback </p>
                             {% elsif draftstatus == "alpha" %}
+                                <strong>Alpha Testing:</strong>
                                 <p>This project is complete and it has had feedback from colleagues, friends, and friendly audiences.</p>
                             {% elsif draftstatus == "beta" %}
+                                <strong>Beta Testing:</strong>
                                 <p>This project is complete and it has had feedback from the public. </p>
                             {% elsif draftstatus == "pre-release" %}
+                                <strong>Pre-Release:</strong>
                                 <p>This project is complete and ready for publishing or selling, and it is considered to be complete.</p>
                             {% endif %}
                         </div>
