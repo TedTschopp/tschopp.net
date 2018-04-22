@@ -417,25 +417,60 @@
                     {% if this_is_a_draft == true %}
                         <div class="well">
                             <div class="progress">
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "notes" or draftstatus == "" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "unit" or draftstatus == "" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "integration" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "component" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "system" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "alpha" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "beta" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>
+                                <div role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "pre-release" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% endif %}
+                                </div>                            
+                            <div class="progress">
                                 <div class="progress-bar notes" role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "notes" or draftstatus == "" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Notes
                                     {% endif %}
                                 </div>
                                 <div class="progress-bar unit" role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "unit" or draftstatus == "" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Unit
                                     {% endif %}
                                 </div>
                                 <div class="progress-bar integration" role="progressbar" style="width:12.5%">
                                     {% if draftstatus == "integration" %}
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    {% else %}
-                                        Unit
                                     {% endif %}
                                 </div>
                                 <div class="progress-bar component" role="progressbar" style="width:12.5%">
