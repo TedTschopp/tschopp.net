@@ -330,84 +330,86 @@
             <div class="col-lg-8">
 	            <!-- Blog Post -->
 
-	            <!-- Title -->
-	            <h1>{{ page.title }}</h1>
+                <article>
+    	            <!-- Title -->
+    	            <h1>{{ page.title }}</h1>
 
-	            <!-- Author -->
-	            <p class="lead">by {{page.author}}</p>
+    	            <!-- Author -->
+    	            <p class="lead">by {{page.author}}</p>
 
-	            <hr>
+    	            <hr>
 
-	            <!-- Date/Time -->
-                <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}">{% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
-                {% case hour %}
-                {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
-                during the night
-                {% when '05' or '06' or '07' or '08' %}
-                in the early morning
-                {% when '09' or '10' or '11'%}
-                late in the morning
-                {% when '12' %}
-                at noon
-                {% when '13' or '14' or '15' %}
-                early in the afternoon
-                {% when '16' or '17' %}
-                late in the afternoon
-                {% when '18' or '19' %}
-                early in the evening
-                {% when '20' or '21' or '22' %}
-                late in the evening
-                {%endcase%}
-                on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {{ page.date | date: "%Y" }}</time></br>
+    	            <!-- Date/Time -->
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}">{% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
+                    {% case hour %}
+                    {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
+                    during the night
+                    {% when '05' or '06' or '07' or '08' %}
+                    in the early morning
+                    {% when '09' or '10' or '11'%}
+                    late in the morning
+                    {% when '12' %}
+                    at noon
+                    {% when '13' or '14' or '15' %}
+                    early in the afternoon
+                    {% when '16' or '17' %}
+                    late in the afternoon
+                    {% when '18' or '19' %}
+                    early in the evening
+                    {% when '20' or '21' or '22' %}
+                    late in the evening
+                    {%endcase%}
+                    on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {{ page.date | date: "%Y" }}</time></br>
 
 
-                <!-- TODO: Do a good design on this.  Perhaps remove Category -->
-                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
+                    <!-- TODO: Do a good design on this.  Perhaps remove Category -->
+                    <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
 
-<!--                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>-->
+                    <!-- <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>-->
 
-                <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
-                {% if post %}
-                    {% assign categories = post.categories %}
-                {% else %}
-                    {% assign categories = page.categories %}
-                {% endif %}
-                {% for category in categories %}
-                    {% capture thiscategory %}{{ category | strip }}{% endcapture %}
-                    {% if forloop.length == 1 %}
-                        {{thiscategory}}
-                    {% elsif forloop.last and forloop.length == 2 %}
-                        and {{thiscategory}}
-                    {% elsif forloop.last %}
-                        and {{thiscategory}}
+                    <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
+                    {% if post %}
+                        {% assign categories = post.categories %}
                     {% else %}
-                        {{thiscategory}}, 
+                        {% assign categories = page.categories %}
                     {% endif %}
-                    {% if thiscategory == "draft" or thiscategory == "Draft" %}
-                        {% assign this_is_a_draft = true %}
-                    {% endif %}
-                {% endfor %}</br></p>
+                    {% for category in categories %}
+                        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+                        {% if forloop.length == 1 %}
+                            {{thiscategory}}
+                        {% elsif forloop.last and forloop.length == 2 %}
+                            and {{thiscategory}}
+                        {% elsif forloop.last %}
+                            and {{thiscategory}}
+                        {% else %}
+                            {{thiscategory}}, 
+                        {% endif %}
+                        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+                            {% assign this_is_a_draft = true %}
+                        {% endif %}
+                    {% endfor %}</br></p>
 
-	            <hr>
+    	            <hr>
 
-	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
+    	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
 
-                <!-- Preview Image -->
-                <!--
-                    TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
-                    and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
+                    <!-- Preview Image -->
+                    <!--
+                        TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
+                        and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
 
-                    -->
-                <figure>
-                <img class="img-responsive" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
-                  <figcaption>{{page.image-credits}}</figcaption>
-                </figure>
+                        -->
+                    <figure>
+                    <img class="img-responsive" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
+                      <figcaption>{{page.image-credits}}</figcaption>
+                    </figure>
 
-	            <hr>
-	            <!-- Post Content -->
-	            {{ content }}
+    	            <hr>
+    	            <!-- Post Content -->
+    	            {{ content }}
 
-	            <hr>
+    	            <hr>
+                </article>
 
                 <!--Next and Previous Articles -->
                 {% if post %}
