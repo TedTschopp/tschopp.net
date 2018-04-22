@@ -141,8 +141,6 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 
 **_Reload._** A limited number of shots can be made with a weapon that has the reload property. A character must then reload it using an action or a bonus action (the character's choice).  You must have one free hand to reload a firearm.
 
-The following weapon properties are from Matthew Mercer’s Gunslinger Martial Archetype for the Fighter Class.
-
 **_Scatter_**.  An attack is made against each creature within a 30ft cone.  If an affected creature is adjacent to you, they suffer double damage to a hit.
 
 **Misfire.** Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapons Misfire score, the weapon misfires.  The attack misses and the weapon cannot be used again until you spend an action to try to repair it.  To repair your firearm , you must make a successful Tinker’s Tools check (DC equal to 8+ misfire score)  If your check fails, the weapon is broken and must be repaired out of combat at half the cost of the firearm.
@@ -285,8 +283,6 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ## Weapon Size Increases
 
-The following is from the D&D 5e DMG guide
-
 * Large weapons have double the number of dice they had at normal size.
 
 * Huge weapons have triple the number of dice they had a normal size.
@@ -298,8 +294,6 @@ The following is from the D&D 5e DMG guide
 * A weapon sized for an attacker two or more sizes larger is too big for the attacker to use at all.
 
 ## Weapon Size Decreases
-
-The following is from the D&D 5e DMG guide
 
 * Weapons manufactured for Small attackers use the medium weapon charts.  Small Attackers may use medium weapons at no disadvantage.
 
