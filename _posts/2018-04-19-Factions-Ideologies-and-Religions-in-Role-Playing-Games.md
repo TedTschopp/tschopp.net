@@ -20,6 +20,13 @@ categories:
 draft-status: integration
 ---
 
+# Contents
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+
 # Notes
 
 The following ideas have been written down from notes I have taken over the years and merged with Gamma World's concepts of Cryptic Socieities.  The goal here is to create some rules that can be easily moved from one setting to another and from one system to another on their creation.  Things that need to be done:
@@ -28,13 +35,6 @@ The following ideas have been written down from notes I have taken over the year
 * Add components about currencies to Economic Organizations
 * Add components about rebelions, occupations and spys to Political Organizations
 * Add components about Oaths, Alliegances, Investments, and Committments.
-
-# Contents
-{:.no_toc}
-
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
-
 
 # Ideologies 
 
