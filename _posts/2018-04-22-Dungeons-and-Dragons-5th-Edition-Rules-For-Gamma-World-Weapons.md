@@ -29,11 +29,9 @@ draft-status: alpha
 
 The following is being playtested by myself and a couple others.  There are no rules yet for radiation, as those will be posted seperately.  
 
-## Weapons in Gamma World
+# Weapons in Gamma World
 
-The following is from the 5e SRD
-
-### Weapon Attributes
+## Weapon Attributes
 
 The following attributes are tracked for each weapon in Gamma World.  
 
@@ -41,25 +39,19 @@ The following attributes are tracked for each weapon in Gamma World.
 
 **Type.** This is the type of weapon.  The weapon type consists of 3 parts: 
 
-Simple / Martial
-
-A weapon can either be Simple or it can be martial.  It cannot be both.
+Simple / Martial - A weapon can either be Simple or it can be martial.  It cannot be both.
 
 * A simple weapon can be used by anyone with proficiency.
 
 * A martial weapons requires specialized training to be used by anyone with proficiency.
 
-Melee / Ranged
-
-A weapon may be used as both a melee weapon and a ranged weapon.  Example: Dagger, Spear.
+Melee / Ranged - A weapon may be used as both a melee weapon and a ranged weapon.  Example: Dagger, Spear.
 
 * A melee weapon is used to Attack a target within 5 feet of you.
 
 * A ranged weapon is used to Attack a target at a distance.
 
-Personal / Siege
-
-A weapon may be used by an individual or it may be used as a part of a vehicle or as a part of a building.  Siege weapons are labeled as such.  Personal weapons do not have a label.
+Personal / Siege - A weapon may be used by an individual or it may be used as a part of a vehicle or as a part of a building.  Siege weapons are labeled as such.  Personal weapons do not have a label.
 
 **Tech Level.**  This is the tech level that the stats for this weapon are for.   There is a complete chapter covering each tech level.  The tech levels are:  
 
@@ -111,7 +103,7 @@ Reload is the number of actions it takes to reload a ranged weapon.  Please see 
 
 **Description.**  This is a description for the weapon.  There is a seperate description for each weapon for each tech level.  A Tech Level 6 genetically engineered orbital human will see the spears carried by the Tech Level 1 Aquatic tribesman as a stick, while the Tech Level 2 Mutant Dog will see it as a improvised or old spear.
 
-### Weapon Properties
+## Weapon Properties
 
 **_Ammunition._** You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
 
@@ -138,8 +130,6 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 **_Two-Handed._** This weapon requires two hands when you attack with it.
 
 **_Versatile._** This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
-
-The following was adapted from the D&D DMG 
 
 **_Explosive._** The explosive property denotes that the weapon does damage to everyone within the weapon’s radius as calculated from the point of impact.  The number found after the Explosive keyword is the DC for the dexterity check that is required to avoid damage.  
 
@@ -169,7 +159,7 @@ The following weapon properties are from Matthew Mercer’s Gunslinger Martial A
 
 **Fragile Weapons.** Fragile weapons will break when used by a Medium size creature to damage a Medium Size creature on role of a 1.  For each size difference between the target creature and the weapon size, you need to roll increases by 1. See chart below for all the various ways this calculation works out.  
 
-<table>
+<table width="100%">
   <tr>
     <td></td>
     <td>Attacker - Weapon is </td>
@@ -253,9 +243,7 @@ The following weapon properties are from Matthew Mercer’s Gunslinger Martial A
 </table>
 
 
-### Weapon Damage Types
-
-The following was adapted from the D&D 5e SRD
+## Weapon Damage Types
 
 Different attacks, mutations, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
 
@@ -287,8 +275,6 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 **Thunder**. A concussive burst of sound. All sonic attacks deal thunder damage.
 
-The following is adapted from Dan Helmick article [My New D20 Modern Campaign](http://dnd.wizards.com/articles/features/my-new-d20-modern-campaign)
-
 **_Ballistic_**. Ballistic damage is damage that firearms inflict.  It is a subset of piercing damage. 
 
 * All ballistic damage counts as piercing damage, 
@@ -299,7 +285,7 @@ The following is adapted from Dan Helmick article [My New D20 Modern Campaign](h
 
 * Stuff that is resistant to ballistic damage is not automatically resistant to piercing damage.
 
-### Weapon Size Increases
+## Weapon Size Increases
 
 The following is from the D&D 5e DMG guide
 
@@ -313,7 +299,7 @@ The following is from the D&D 5e DMG guide
 
 * A weapon sized for an attacker two or more sizes larger is too big for the attacker to use at all.
 
-### Weapon Size Decreases
+## Weapon Size Decreases
 
 The following is from the D&D 5e DMG guide
 
@@ -329,11 +315,9 @@ The following is from the D&D 5e DMG guide
 
 * A weapon sized for an attacker two or more sizes smaller is too small for the attacker to use at all.
 
-### Weapon Construction Materials
+## Weapon Construction Materials
 
-Materials from this section are adapted from: [Dungeon Master Assistance](https://olddungeonmaster.wordpress.com/2017/12/12/dd-5e-non-standard-weapon-armor-materials/)
-
-#### Stone Weapons
+### Stone Weapons
 
 Light and one-handed bludgeoning weapons, spears, axes, and daggers can all be made of stone. 
 
@@ -345,7 +329,7 @@ Light and one-handed bludgeoning weapons, spears, axes, and daggers can all be m
 
 * Stone weapons can be manufactured by TL0 and above
 
-#### Bone (Horn, shell, and ivory) Weapons
+### Bone (Horn, shell, and ivory) Weapons
 
 Bone can be used in place of wood and steel in weapons.  Light and one-handed melee weapons, as well as two-handed weapons that deal bludgeoning damage only, can be crafted from bone. Hafted two-handed weapons such as spears can be crafted with bone. Other two-handed weapons cannot be constructed of bone. 
 
@@ -357,7 +341,7 @@ Bone can be used in place of wood and steel in weapons.  Light and one-handed me
 
 * Stone weapons can be manufactured by TL0 and above
 
-#### Unworked Wooden Weapons
+### Unworked Wooden Weapons
 
 Light and one-handed melee weapons, as well as two-handed weapons that deal bludgeoning damage only, can be crafted from unworked wood. Hafted two-handed weapons such as spears can be crafted entirely of wood. Other two-handed weapons cannot be constructed of wood. 
 
@@ -367,7 +351,7 @@ Light and one-handed melee weapons, as well as two-handed weapons that deal blud
 
 * Unworked Wooden weapons can be manufactured by TL0 and above
 
-#### Bronze (Brass, Copper, or Tin) Weapons
+### Bronze (Brass, Copper, or Tin) Weapons
 
 Before the advent of iron and steel, bronze ruled the world. This easily worked metal can be used in place of steel for both weapons and armor. For simplicity’s sake, similar or component metals such as brass, copper, or even tin can use the following rules, even though in reality bronze is both harder and more reliable than those metals.
 
@@ -377,7 +361,7 @@ All weapons that can be made out of steel can also be made out of bronze.  Bronz
 
 * Bronze weapons can be manufactured by TL1 and above
 
-#### Iron
+### Iron
 
 Items without metal parts cannot be made from iron. An arrow could be made of iron, but a standard quarterstaff could not. 
 
@@ -387,13 +371,13 @@ Items without metal parts cannot be made from iron. An arrow could be made of ir
 
 * Iron weapons can be manufactured by TL1 and above
 
-#### Steel
+### Steel
 
 Items listed in the manual are steel weapons.
 
 * Steel weapons can be manufactured by TL2 and above
 
-#### Synthetic Metal (Durasteel, Plasteel, Duralloy, Titanium Alloy) 
+### Synthetic Metal (Durasteel, Plasteel, Duralloy, Titanium Alloy) 
 
 An item made from Synthetic Metal weighs half as much as the same item made from other metals. 
 
@@ -411,7 +395,7 @@ An item made from Synthetic Metal weighs half as much as the same item made from
 
 * Synthetic Metal weapons can be manufactured by TL5 and above
 
-#### Synthetic Crystal (Ceramic, Diamond, Crysteel, Glassteel)
+### Synthetic Crystal (Ceramic, Diamond, Crysteel, Glassteel)
 
 Melee weapons and ammunition made with synthetic crystals are unusually effective when used to break objects. 
 
@@ -421,11 +405,11 @@ Melee weapons and ammunition made with synthetic crystals are unusually effectiv
 
 * Synthetic Crystals weapons can be manufactured by TL5 and above
 
-## Armor in ɣ κόσμος
+# Armor in Gamma World
 
-### Armor Attributes
+## Armor Attributes
 
-Name
+**Name** This is the name of the weapon.
 
 **Complexity.**  This is either Simple, Complex, or Multipurpose.  A simple object uses the rules for discovering the use of simple objects. Complex objects use the rules for discovering the use of complex objects.  Multipurpose objects can have multiple ratings for each purpose in which case you might see a rating of 4S 1C for 4 simple purposes and 1 Complex purpose.
 
@@ -483,7 +467,7 @@ Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but
 
 **Description.**  This is a description for the armor.  There is a seperate description for each armor for each tech level.  A Tech Level 6 genetically engineered orbital human will see the wooden armor carried by the Tech Level 1 tribesman as a sticks and bark, while the Tech Level 2 Mutant Dog will see it as a improvised armor.
 
-### Armor Properties
+## Armor Properties
 
 **Resistance.**  This is a list of types of damage the armor is resistant to. Resistance Acid would be armor that is resistant to acid damage.
 
@@ -495,9 +479,7 @@ Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but
 
 **Power Cells.**  The power cells required for one day’s worth of operation.  
 
-### Armor Resistance Types
-
-The following was adapted from the D&D 5e SRD
+## Armor Resistance Types
 
 Different attacks, mutations, and other harmful effects deal different types of damage. Damage types have no rules of their own, but other rules, such as damage resistance, rely on the types.
 
@@ -529,8 +511,6 @@ Armors  The damage types follow, with examples to help a GM assign a damage type
 
 **Thunder**. A concussive burst of sound. All sonic attacks deal thunder damage.
 
-The following is adapted from Dan Helmick article [My New D20 Modern Campaign](http://dnd.wizards.com/articles/features/my-new-d20-modern-campaign)
-
 **_Ballistic_**. Ballistic damage is damage that firearms inflict.  It is a subset of piercing damage. 
 
 * All ballistic damage counts as piercing damage, 
@@ -541,13 +521,13 @@ The following is adapted from Dan Helmick article [My New D20 Modern Campaign](h
 
 * Stuff that is resistant to ballistic damage is not automatically resistant to piercing damage.
 
-### Armor Size Increases
+## Armor Size Increases
 
 Armor may be made for larger body types.  You may not make any powered armor for larger body types. 
 
 Armor made specifically for larger body types have the following effects:
 
-#### Large Armor
+### Large Armor
 
 * Base AC is no longer 10 + Dex mod, it is 8 + Dex Mod.  This means the larger you get, you might not want to wear armor
 
@@ -555,7 +535,7 @@ Armor made specifically for larger body types have the following effects:
 
 * If the armor type you are scaling up to large has Damage Reduction, than it has 1.5x the Damage Reduction listed for the normal sized armor.
 
-#### Huge Armor
+### Huge Armor
 
 * Base AC is no longer 10 + Dex mod, it is 6 + Dex Mod.  This means the larger you get, you might not want to wear armor.
 
@@ -563,13 +543,13 @@ Armor made specifically for larger body types have the following effects:
 
 * If the armor type you are scaling up to large has Damage Reduction, than it has 2x the Damage Reduction listed for the normal sized armor.
 
-### Armor Size Decreases
+## Armor Size Decreases
 
 Armor may be made for smaller body types.  You may not make any powered armor for smaller body types. 
 
 Armor made specifically for smaller body types have the following effects:
 
-#### Small Armor
+### Small Armor
 
 * Base AC is no longer 10 + Dex mod(if any), it is 12 + Dex Mod(if any).  
 
@@ -577,7 +557,7 @@ Armor made specifically for smaller body types have the following effects:
 
 * If the armor type you are scaling down to small has Damage Reduction, than it has 75%(rounded down) the Damage Reduction listed for the normal sized armor.
 
-#### Tiny Armor
+### Tiny Armor
 
 * Base AC is no longer 10 + Dex mod(if any), it is 14 + Dex Mod(if any).  
 
@@ -585,13 +565,13 @@ Armor made specifically for smaller body types have the following effects:
 
 * If the armor type you are scaling down to tiny has Damage Reduction, than it has 50%(rounded down) the Damage Reduction listed for the normal sized armor.
 
-### Armor Construction Materials
+## Armor Construction Materials
 
-#### Stone
+### Stone
 
 Can not be used to construct armor
 
-#### Bone Armor
+### Bone Armor
 
 Studded leather, scale mail, breastplates, and wooden shields can all be constructed using bone. Bone either replaces the metal components of the armor, or in the case of wooden shields, large pieces of bone or shell replace the wood. 
 
@@ -605,7 +585,7 @@ Studded leather, scale mail, breastplates, and wooden shields can all be constru
 
 * Bone Armor doesn’t have a Strength requirement
 
-#### Unworked Wooden Armor
+### Unworked Wooden Armor
 
 Studded leather, scale mail, breastplates, and shields can all be constructed using Unworked worked wood. Wood replaces the metal components of the armor. 
 
@@ -621,7 +601,7 @@ Studded leather, scale mail, breastplates, and shields can all be constructed us
 
 * Unworked Wooden Armor have a Strength requirement
 
-#### Bronze
+### Bronze
 
 Bronze can be used to create any medium or light armor made entirely of metal or that has metal components. It protects a creature as well as steel armor does.  
 
@@ -629,28 +609,23 @@ Bronze can be used to create any medium or light armor made entirely of metal or
 
 * Bronze armor is the same weight as normal steel armor of its type.
 
-#### Synthetic Armored Cloth (Kevlar, Carbon Fiber)
+### Synthetic Armored Cloth (Kevlar, Carbon Fiber)
 
 Light Armor may be made with Synthetic Armored Cloth.  Synthetic Armored cloth grants the armor the following properties:  Damage Reduction 2, Resistance Ballistic.
 
-#### Synthetic Armored Leather (Duraskin)
+### Synthetic Armored Leather (Duraskin)
 
 Leather, Studded, and Hide armor can Synthetic Armored Leather and grants the following properties: Damage Reduction 3, Resistance Ballistic.
 
-#### Synthetic Metal Armor (Durasteel, Plasteel, Duralloy, Titanium Alloy)
+### Synthetic Metal Armor (Durasteel, Plasteel, Duralloy, Titanium Alloy)
 
 Can be any Medium or Heavy armor, but not hide. A Synthetic Metal Armor chain shirt or Synthetic Metal Armor can be worn under normal clothes. If the armor normally imposed a disadvantage on Dexterity (Stealth) checks or has a Strength requirement, this version of the armor doesn’t.
 
-#### Synthetic Crystal Armor (Ceramic, Diamond, Crysteel, Glassteel)
+### Synthetic Crystal Armor (Ceramic, Diamond, Crysteel, Glassteel)
 
 Can be any Medium or heavy armor, but not hide. While you’re wearing it, any critical hit against you becomes a normal hit.
 
-#### Fragile Armor
+### Fragile Armor
 
 All armor at Tech Level 0 is Fragile.  All armor with the fragile property falls apart when hit by heavy blows. If you are wearing fragile armor and are hit with a critical hit, you must make a DC(10) Dexterity (Acrobatics) save or the armor is damaged.  Armor damaged in this way only has half of its AC. If the armor is already damaged, the armor is destroyed instead.
-
-
-
-
-
 
