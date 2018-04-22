@@ -59,6 +59,19 @@ article > .h6 {
 .progress > .prerelease {
 	background-color: #2BB62B;
 }
+
+.progress-clear {
+	background-color: transparent;
+	border: transparent;
+	box-sizing: border-box;
+	color: rgb(51,51,51);
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
 .progress-bar-clear {
 	display: block;
 	float: left;
