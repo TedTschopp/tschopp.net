@@ -71,7 +71,7 @@ Personal / Siege - A weapon may be used by an individual or it may be used as a 
 
 A simple example of this is a bayonet, which is essentially a dagger attached to a gun, this would be rated a 2S complexity; one for the gun, and one for the dagger. 
 
-**Cost in Copper.**  The cost of this object in copper.  I am using the D&D 5e copper piece as the standard currency.  The basic translation method I employee is that 1 copper is equal to $1 American Dollar which is equivalent to 1 French penny from the 1300.  This enables me to triangulate into a price using 2 modern sources at two seperate tech levels.  This also gives people a way to transport their character into and out of Gamma World Settings.
+**Cost in Copper.**  The cost of this object in copper.  I am using the D&D 5e copper piece as the standard currency.  The basic translation method I employ is that 1 copper is equal to $1 American Dollar which is equivalent to 1 French penny from the 1300.  This enables me to triangulate into a price using 2 modern sources at two seperate tech levels.  This also gives people a way to transport their character into and out of Gamma World Settings.
 
 **Status.**  Various groups / ideologies such as organizations, cities, towns, and economic systems will find some items from Gamma World to be priceless, or they will be unable to give proper monetary value for this.  This status attribute will give you a reputational value for the object if it is turned into authorities.  It can also be used to determine the amount of awe or fear someone has of a PC / NPC if they are seen carrying around a working version of a weapon.  
 
