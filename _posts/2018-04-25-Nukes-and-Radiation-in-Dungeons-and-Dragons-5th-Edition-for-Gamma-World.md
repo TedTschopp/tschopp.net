@@ -24,7 +24,7 @@ draft-status: notes
 {:toc}
 
 
-#Notes
+# Notes
 
 This work is incomplete.  It still needs to be drawn together and form a consistant whole.  I plan on having two systems for Radiation Damage in my D&D 5e Gamma World system.  The first is a realisitic system that will be used for dramatic purposes.  This will be a system that will model the idea of someone who is so radiated that they are going to die, but it will take them weeks or months to do so.  This will give the player the option of finding a cure with some sort of Ancient Tech or revenge a wrong before dying.  The other system will mirror the radiation systems found in 1st and 2nd editions of Gamma World.  This system is not complete yet, as the math is still being done.  This second system will basically set a CON Save vs a DC that is based on the Radiation Intensity plus any modifiers based on armor or whatnot and give you an outcome that can either be mitigated by damage, mutation, or exhaustion effects.  I also plan on having a new damage type that will track to radiation damage in the realistic / dramatic system.  Radiation Damage effects will be able to be mitigated by Ancient Tech Medicine whcih will either repair your radiation stat or your remove various effects and negative bonuses to CON rolls.   
 
@@ -33,11 +33,11 @@ This work is incomplete.  It still needs to be drawn together and form a consist
 
 Insert summary Here
 
-##Radiation Damage
+## Radiation Damage
 
 Insert Summary Here
 
-###A New Stat
+### A New Stat
 
 Every character in Gamma World has a new stat that accounts for the amount of radiation damage they can take.  This stat is based on a creatures constitution and increases or decreases as that creatures constitution increases or decreases.  This new stat is called Rads.  To calculate the number of rads a creature has take it’s CON and multiply it by 100.  For example if a character has a constitution of 10 then they have a Rads of 1000.  Once you have this value you will multiply it by a modifier as found in the table below based on the characters size.
 
@@ -51,42 +51,42 @@ Every character in Gamma World has a new stat that accounts for the amount of ra
 |Huge|x3   |
 |Gargantuan|x4|
 
-###Damage to your Rads
+### Damage to your Rads
 
 You reduce the amount of Rads you have when you encounter radiation in Gamma World.  This radiation might be in the form of fallout from the bombs the ancients dropped or from creatures in Gamma World.  What makes Radiation damage so dangerous is that only the Ancients knew how to cure radiation damage.  
 
-###Nauseaed: 
+### Nauseaed: 
 
 * A nauseated creature can't take actions or reactions.
 * A nauseated creature has disadvantage on attack rolls and ability checks.
 * A nauseated creature automatically fails all saving throws except those made to shaking off these effects.
 
-###Anorexia
+### Anorexia
 
 * An Anorexiad character must make a Wisdom check (DC?) every time they try to eat.  When they fail, they are unable to eat.  On a sucess the character consumes half rations.
 * An anorexiad character follows normal 5e Rules for lack of nutrition / water.
 
-###Vomiting
+### Vomiting
 
 * A vomiting character must make a Con Check (DC?)1D4 minutes after they finish eating.  On a fail, they vomit up their food and water and recieve no nutritional value from the food and only half rations value for the water.  If the character was already drinking 1/2 rations, they get no nutritional value. 
 * A Vomiting character follows normal 5e rules for lack of nutrition / water.
 
-###Diarrhea
+### Diarrhea
 
 * A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
 * A character with Diarrea follows normal 5e rules for lack of nutrition / water.
 
-###Watery Diarrhea
+### Watery Diarrhea
 
 * A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food and the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
 * A character with Diarrea follows normal 5e rules for lack of nutrition / water.
 
-###Bleeding
+### Bleeding
 
 * A character who is bleeding from ionization damage must make a Con Check (DC?) every hour or lose 1 hitpoint.
 * or A character who is bleeding from ionization damage must make a Con Check (DC?) every day or lose 3D6.  On a sucessful roll, lose half that.
 
-###Convultions
+### Convultions
 
 * A Character with Convultions must make a Con Check (DC?) every hour.  On a fail the creature can't take actions or reactions and they take 1d4-2 damage if they are restrained carefully, otherwise they take 1d4 damage.
 
