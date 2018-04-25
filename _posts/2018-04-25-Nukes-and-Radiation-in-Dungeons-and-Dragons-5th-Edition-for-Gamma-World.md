@@ -7,8 +7,8 @@ excerpt:
 layout: post
 guid: /2018/04/25/Nukes-and-Radiation-in-Dungeons-and-Dragons-5th-Edition-for-Gamma-World/
 permalink: /2018/04/25/Nukes-and-Radiation-in-Dungeons-and-Dragons-5th-Edition-for-Gamma-World/
-image: wp-content/uploads/2018/04/The-Leviathan.jpg
-image-credits: The Leviathan by Larry Elmore - http://www.larryelmore.com/store/TSTL/tsr--the-leviathan
+image: wp-content/uploads/2018/04/Third-Edition.jpg
+image-credits: Third Edition Cover Art by Keith Parkinson - https://www.keithparkinson.com/
 categories:
   - Role Playing Games
   - Gamma World
