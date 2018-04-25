@@ -50,6 +50,7 @@ Every character in Gamma World has a new stat that accounts for the amount of ra
 |Large|x2   |
 |Huge|x3   |
 |Gargantuan|x4|
+{: .well .table}
 
 ### Damage to your Rads
 
@@ -101,6 +102,7 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 |Gastrointestinal (GI)|600|1000|1d4 hours|1d4*10+1d8 hours|Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion|
 |Cardiovascular (CV)|2000|5000|1d4 minutes|1d4 hours|Vomiting, watery diarrhea|
 |Central Nervous System (CNS)|2000|5000|1d4 minutes|1d4 hours|Nausea, Vomiting, Unconscious,|
+{: .well .table}
 
 #### Latent Stage
 
@@ -110,6 +112,7 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 |Gastrointestinal (GI)|600|1000|1d8 days|One Level of Exhaustion|
 |Cardiovascular (CV)|2000|5000|1d4 hours|One Level of Exhaustion|
 |Central Nervous System (CNS)|2000|5000|1d4 hours|One Level of Exhaustion|
+{: .well .table}
 
 #### Manifest Illness Stage
 
@@ -119,6 +122,7 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 |Gastrointestinal (GI)|600|1000|1d4/2|Anorexia, Diarrhea, One Level of exhaustion|
 |Cardiovascular (CV)|2000|5000|1d4 days|Watery diarrhea, Convulsions, Max level of Exhaustion|
 |Central Nervous System (CNS)|2000|5000|1d4 days|Watery diarrhea, Convulsions, Max level of Exhaustion|
+{: .well .table}
 
 #### Recovery Illness Stage
 
@@ -128,8 +132,7 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 |Gastrointestinal (GI)|600|1000|Death|Generally there is no recover stage|
 |Cardiovascular (CV)|2000|5000|Death|Generally there is no recover stage|
 |Central Nervous System (CNS)|2000|5000|Death|Generally there is no recover stage|
-
-
+{: .well .table}
 
 ## Damage from a Nuke
 
