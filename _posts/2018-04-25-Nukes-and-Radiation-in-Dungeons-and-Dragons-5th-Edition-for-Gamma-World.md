@@ -33,6 +33,155 @@ This work is incomplete.  It still needs to be drawn together and form a consist
 
 Insert summary Here
 
+##Radiation Damage
+
+Insert Summary Here
+
+###A New Stat
+
+Every character in Gamma World has a new stat that accounts for the amount of radiation damage they can take.  This stat is based on a creatures constitution and increases or decreases as that creatures constitution increases or decreases.  This new stat is called Rads.  To calculate the number of rads a creature has take it’s CON and multiply it by 100.  For example if a character has a constitution of 10 then they have a Rads of 1000.  Once you have this value you will multiply it by a modifier as found in the table below based on the characters size.
+
+
+|Size|Multiplier|
+|---|---|
+|Tiny|x1/4   |
+|Small|x1/2   |
+|Normal|none   |
+|Large|x2   |
+|Huge|x3   |
+|Gargantuan|x4|
+
+###Damage to your Rads
+
+You reduce the amount of Rads you have when you encounter radiation in Gamma World.  This radiation might be in the form of fallout from the bombs the ancients dropped or from creatures in Gamma World.  What makes Radiation damage so dangerous is that only the Ancients knew how to cure radiation damage.  
+
+###Nauseaed: 
+
+* A nauseated creature can't take actions or reactions.
+* A nauseated creature has disadvantage on attack rolls and ability checks.
+* A nauseated creature automatically fails all saving throws except those made to shaking off these effects.
+
+###Anorexia
+
+* An Anorexiad character must make a Wisdom check (DC?) every time they try to eat.  When they fail, they are unable to eat.  On a sucess the character consumes half rations.
+* An anorexiad character follows normal 5e Rules for lack of nutrition / water.
+
+###Vomiting
+
+* A vomiting character must make a Con Check (DC?)1D4 minutes after they finish eating.  On a fail, they vomit up their food and water and recieve no nutritional value from the food and only half rations value for the water.  If the character was already drinking 1/2 rations, they get no nutritional value. 
+* A Vomiting character follows normal 5e rules for lack of nutrition / water.
+
+###Diarrhea
+
+* A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
+* A character with Diarrea follows normal 5e rules for lack of nutrition / water.
+
+###Watery Diarrhea
+
+* A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food and the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
+* A character with Diarrea follows normal 5e rules for lack of nutrition / water.
+
+###Bleeding
+
+* A character who is bleeding from ionization damage must make a Con Check (DC?) every hour or lose 1 hitpoint.
+* or A character who is bleeding from ionization damage must make a Con Check (DC?) every day or lose 3D6.  On a sucessful roll, lose half that.
+
+###Convultions
+
+* A Character with Convultions must make a Con Check (DC?) every hour.  On a fail the creature can't take actions or reactions and they take 1d4-2 damage if they are restrained carefully, otherwise they take 1d4 damage.
+
+### Damage from Radiation based on the Center for Desiese Control studies on Ionization Damage from Radiation.
+
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Prodromal Stage</td>
+    <td></td>
+    <td></td>
+    <td>Latent Stage</td>
+    <td></td>
+    <td>Manifest Illness Stage</td>
+    <td></td>
+    <td>Recovery Stage</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Syndrome</td>
+    <td>Low Dose</td>
+    <td>High Dose</td>
+    <td>Onset</td>
+    <td>Length</td>
+    <td>Symptoms</td>
+    <td>Length</td>
+    <td>Latent Stage</td>
+    <td>Length</td>
+    <td>Manifest Illness Stage</td>
+    <td>Recovery Time</td>
+    <td>Recovery</td>
+  </tr>
+  <tr>
+    <td>Hematopoietic
+(Bone Marrow)</td>
+    <td>30</td>
+    <td>70</td>
+    <td>7D6-6 Hours</td>
+    <td>1D12 days</td>
+    <td>Anorexia, Nausea, and Vomiting</td>
+    <td>1d6 weeks</td>
+    <td>Suffers from one level of exhaustion</td>
+    <td>1d3 + 1 months</td>
+    <td>Anorexia and One Level of Exhaustion.</td>
+    <td>1d100 weeks</td>
+    <td>Suffers from one level of exhaustion</td>
+  </tr>
+  <tr>
+    <td>Gastrointestinal (GI)</td>
+    <td>600</td>
+    <td>1000</td>
+    <td>1d4 hours</td>
+    <td>1d4*10+1d8 hours</td>
+    <td>Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion</td>
+    <td>1d8 days</td>
+    <td>One Level of Exhaustion</td>
+    <td>1d4/2</td>
+    <td>Anorexia, Diarrhea, One Level of exhaustion</td>
+    <td>Death</td>
+    <td>Generally there is no recover stage</td>
+  </tr>
+  <tr>
+    <td>Cardiovascular (CV)</td>
+    <td>2000</td>
+    <td>5000</td>
+    <td>1d4 minutes</td>
+    <td>1d4 hours</td>
+    <td>Vomiting, watery diarrhea</td>
+    <td>1d4 hours</td>
+    <td>One Level of Exhaustion</td>
+    <td>1d4 days</td>
+    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
+    <td>Death</td>
+    <td>Generally there is no recover stage</td>
+  </tr>
+  <tr>
+    <td>Central Nervous System (CNS)</td>
+    <td>2000</td>
+    <td>5000</td>
+    <td>1d4 minutes</td>
+    <td>1d4 hours</td>
+    <td>Nausea, Vomiting, Unconscious,</td>
+    <td>1d4 hours</td>
+    <td>One Level of Exhaustion</td>
+    <td>1d4 days</td>
+    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
+    <td>Death</td>
+    <td>Generally there is no recover stage</td>
+  </tr>
+</table>
+
+
+
 ## Damage from a Nuke
 
 The following information is based on real world physics for weapons and the amount of damage structures can take in Gamma World.  Ranges are listed in Feet. 
@@ -387,152 +536,3 @@ The following information is based on real world physics for weapons and the amo
     <td>104,544</td>
   </tr>
 </table>
-
-
-##Radiation Damage
-
-Insert Summary Here
-
-###A New Stat
-
-Every character in Gamma World has a new stat that accounts for the amount of radiation damage they can take.  This stat is based on a creatures constitution and increases or decreases as that creatures constitution increases or decreases.  This new stat is called Rads.  To calculate the number of rads a creature has take it’s CON and multiply it by 100.  For example if a character has a constitution of 10 then they have a Rads of 1000.  Once you have this value you will multiply it by a modifier as found in the table below based on the characters size.
-
-
-|Size|Multiplier|
-|---|---|
-|Tiny|x1/4   |
-|Small|x1/2   |
-|Normal|none   |
-|Large|x2   |
-|Huge|x3   |
-|Gargantuan|x4|
-
-###Damage to your Rads
-
-You reduce the amount of Rads you have when you encounter radiation in Gamma World.  This radiation might be in the form of fallout from the bombs the ancients dropped or from creatures in Gamma World.  What makes Radiation damage so dangerous is that only the Ancients knew how to cure radiation damage.  
-
-### Damage from Radiation based on the Center for Desiese Control studies on Ionization Damage from Radiation.
-
-<table>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Prodromal Stage</td>
-    <td></td>
-    <td></td>
-    <td>Latent Stage</td>
-    <td></td>
-    <td>Manifest Illness Stage</td>
-    <td></td>
-    <td>Recovery Stage</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Syndrome</td>
-    <td>Low Dose</td>
-    <td>High Dose</td>
-    <td>Onset</td>
-    <td>Length</td>
-    <td>Symptoms</td>
-    <td>Length</td>
-    <td>Latent Stage</td>
-    <td>Length</td>
-    <td>Manifest Illness Stage</td>
-    <td>Recovery Time</td>
-    <td>Recovery</td>
-  </tr>
-  <tr>
-    <td>Hematopoietic
-(Bone Marrow)</td>
-    <td>30</td>
-    <td>70</td>
-    <td>7D6-6 Hours</td>
-    <td>1D12 days</td>
-    <td>Anorexia, Nausea, and Vomiting</td>
-    <td>1d6 weeks</td>
-    <td>Suffers from one level of exhaustion</td>
-    <td>1d3 + 1 months</td>
-    <td>Anorexia and One Level of Exhaustion.</td>
-    <td>1d100 weeks</td>
-    <td>Suffers from one level of exhaustion</td>
-  </tr>
-  <tr>
-    <td>Gastrointestinal (GI)</td>
-    <td>600</td>
-    <td>1000</td>
-    <td>1d4 hours</td>
-    <td>1d4*10+1d8 hours</td>
-    <td>Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion</td>
-    <td>1d8 days</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4/2</td>
-    <td>Anorexia, Diarrhea, One Level of exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-  <tr>
-    <td>Cardiovascular (CV)</td>
-    <td>2000</td>
-    <td>5000</td>
-    <td>1d4 minutes</td>
-    <td>1d4 hours</td>
-    <td>Vomiting, watery diarrhea</td>
-    <td>1d4 hours</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4 days</td>
-    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-  <tr>
-    <td>Central Nervous System (CNS)</td>
-    <td>2000</td>
-    <td>5000</td>
-    <td>1d4 minutes</td>
-    <td>1d4 hours</td>
-    <td>Nausea, Vomiting, Unconscious,</td>
-    <td>1d4 hours</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4 days</td>
-    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-</table>
-
-
-###Nauseaed: 
-
-* A nauseated creature can't take actions or reactions.
-* A nauseated creature has disadvantage on attack rolls and ability checks.
-* A nauseated creature automatically fails all saving throws except those made to shaking off these effects.
-
-###Anorexia
-
-* An Anorexiad character must make a Wisdom check (DC?) every time they try to eat.  When they fail, they are unable to eat.  On a sucess the character consumes half rations.
-* An anorexiad character follows normal 5e Rules for lack of nutrition / water.
-
-###Vomiting
-
-* A vomiting character must make a Con Check (DC?)1D4 minutes after they finish eating.  On a fail, they vomit up their food and water and recieve no nutritional value from the food and only half rations value for the water.  If the character was already drinking 1/2 rations, they get no nutritional value. 
-* A Vomiting character follows normal 5e rules for lack of nutrition / water.
-
-###Diarrhea
-
-* A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
-* A character with Diarrea follows normal 5e rules for lack of nutrition / water.
-
-###Watery Diarrhea
-
-* A character with Diarrhea must make a Con Check (DC?) 1D4x10 minutes after they finish eating.  On a fail, they pass their food and water out of their body and recieve no nutritional value from the food and the food.  This check is in addition to a check for a character who is Vomiting.  If a character has failed their Con Check for Vomiting, they will not need to roll for Diarrhea.  
-* A character with Diarrea follows normal 5e rules for lack of nutrition / water.
-
-###Bleeding
-
-* A character who is bleeding from ionization damage must make a Con Check (DC?) every hour or lose 1 hitpoint.
-* or A character who is bleeding from ionization damage must make a Con Check (DC?) every day or lose 3D6.  On a sucessful roll, lose half that.
-
-###Convultions
-
-* A Character with Convultions must make a Con Check (DC?) every hour.  On a fail the creature can't take actions or reactions and they take 1d4-2 damage if they are restrained carefully, otherwise they take 1d4 damage.
