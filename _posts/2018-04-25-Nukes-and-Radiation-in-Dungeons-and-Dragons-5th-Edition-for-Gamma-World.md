@@ -92,93 +92,42 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 ### Damage from Radiation based on the Center for Desiese Control studies on Ionization Damage from Radiation.
 
-<table>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Prodromal Stage</td>
-    <td></td>
-    <td></td>
-    <td>Latent Stage</td>
-    <td></td>
-    <td>Manifest Illness Stage</td>
-    <td></td>
-    <td>Recovery Stage</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Syndrome</td>
-    <td>Low Dose</td>
-    <td>High Dose</td>
-    <td>Onset</td>
-    <td>Length</td>
-    <td>Symptoms</td>
-    <td>Length</td>
-    <td>Latent Stage</td>
-    <td>Length</td>
-    <td>Manifest Illness Stage</td>
-    <td>Recovery Time</td>
-    <td>Recovery</td>
-  </tr>
-  <tr>
-    <td>Hematopoietic
-(Bone Marrow)</td>
-    <td>30</td>
-    <td>70</td>
-    <td>7D6-6 Hours</td>
-    <td>1D12 days</td>
-    <td>Anorexia, Nausea, and Vomiting</td>
-    <td>1d6 weeks</td>
-    <td>Suffers from one level of exhaustion</td>
-    <td>1d3 + 1 months</td>
-    <td>Anorexia and One Level of Exhaustion.</td>
-    <td>1d100 weeks</td>
-    <td>Suffers from one level of exhaustion</td>
-  </tr>
-  <tr>
-    <td>Gastrointestinal (GI)</td>
-    <td>600</td>
-    <td>1000</td>
-    <td>1d4 hours</td>
-    <td>1d4*10+1d8 hours</td>
-    <td>Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion</td>
-    <td>1d8 days</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4/2</td>
-    <td>Anorexia, Diarrhea, One Level of exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-  <tr>
-    <td>Cardiovascular (CV)</td>
-    <td>2000</td>
-    <td>5000</td>
-    <td>1d4 minutes</td>
-    <td>1d4 hours</td>
-    <td>Vomiting, watery diarrhea</td>
-    <td>1d4 hours</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4 days</td>
-    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-  <tr>
-    <td>Central Nervous System (CNS)</td>
-    <td>2000</td>
-    <td>5000</td>
-    <td>1d4 minutes</td>
-    <td>1d4 hours</td>
-    <td>Nausea, Vomiting, Unconscious,</td>
-    <td>1d4 hours</td>
-    <td>One Level of Exhaustion</td>
-    <td>1d4 days</td>
-    <td>Watery diarrhea, Convulsions, Max level of Exhaustion</td>
-    <td>Death</td>
-    <td>Generally there is no recover stage</td>
-  </tr>
-</table>
+
+#### Prodromal Stage
+
+|Prodromal Stage|
+|Syndrome|Low Dose|High Dose|Onset|Length|Symptoms|
+|Hematopoietic (Bone Marrow)|30|70|7D6-6 Hours|1D12 days|Anorexia, Nausea, and Vomiting|
+|Gastrointestinal (GI)|600|1000|1d4 hours|1d4*10+1d8 hours|Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion|
+|Cardiovascular (CV)|2000|5000|1d4 minutes|1d4 hours|Vomiting, watery diarrhea|
+|Central Nervous System (CNS)|2000|5000|1d4 minutes|1d4 hours|Nausea, Vomiting, Unconscious,|
+
+#### Latent Stage
+
+|Latent Stage|
+|Syndrome|Low Dose|High Dose|Length|Latent Stage|
+|Hematopoietic (Bone Marrow)|30|70|1d6 weeks|Suffers from one level of exhaustion|
+|Gastrointestinal (GI)|600|1000|1d8 days|One Level of Exhaustion|
+|Cardiovascular (CV)|2000|5000|1d4 hours|One Level of Exhaustion|
+|Central Nervous System (CNS)|2000|5000|1d4 hours|One Level of Exhaustion|
+
+#### Manifest Illness Stage
+
+|Manifest Illness Stage|
+|Syndrome|Low Dose|High Dose|Length|Manifest Illness Stage|
+|Hematopoietic (Bone Marrow)|30|70|1d3 + 1 months|Anorexia and One Level of Exhaustion.|
+|Gastrointestinal (GI)|600|1000|1d4/2|Anorexia, Diarrhea, One Level of exhaustion|
+|Cardiovascular (CV)|2000|5000|1d4 days|Watery diarrhea, Convulsions, Max level of Exhaustion|
+|Central Nervous System (CNS)|2000|5000|1d4 days|Watery diarrhea, Convulsions, Max level of Exhaustion|
+
+#### Recovery Illness Stage
+
+|Recovery Stage|
+|Syndrome|Low Dose|High Dose|Recovery Time|Recovery|
+|Hematopoietic (Bone Marrow)|30|70|1d100 weeks|Suffers from one level of exhaustion|
+|Gastrointestinal (GI)|600|1000|Death|Generally there is no recover stage|
+|Cardiovascular (CV)|2000|5000|Death|Generally there is no recover stage|
+|Central Nervous System (CNS)|2000|5000|Death|Generally there is no recover stage|
 
 
 
