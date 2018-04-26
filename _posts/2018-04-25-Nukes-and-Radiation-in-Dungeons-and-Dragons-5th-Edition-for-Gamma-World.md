@@ -97,7 +97,6 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 #### Prodromal Stage
 
 |Syndrome|Low Dose|High Dose|Onset|Length|Symptoms|
-{: .table-striped}
 | ------:|:------:|:-------:|:---:|:----:|:------ |
 |Hematopoietic (Bone Marrow)|30|70|7D6-6 Hours|1D12 days|Anorexia, Nausea, and Vomiting|
 |Gastrointestinal (GI)|600|1000|1d4 hours|1d4*10+1d8 hours|Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion|
