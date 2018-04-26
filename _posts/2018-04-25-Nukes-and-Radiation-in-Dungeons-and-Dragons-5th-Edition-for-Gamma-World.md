@@ -152,29 +152,7 @@ The following information is based on real world physics for weapons and the amo
 |REMs (Average Human has 1000 REM for their lifetime)|
 {: .well .table .table-striped}
 
-### Radiation Damage (Necrotic)
-
-|Description|Damage|
-| ---------:| :--: | 
-|100 REMs (Sickness, increased lifetime cancer risks)| See Table Above|
-|500 REM (50-90% Mortality without medical Care)| See Table Above|
-|600 REM (80% Mortality Rate with Medical Care)| See Table Above|
-|1000 REM (95% Mortality Rate with Medical Care)| See Table Above|
-|5000 REM (100% Mortality)| | See Table Above|
-{: .well .table .table-striped}
-
-### Radiation Damage (Fire)
-
-|Description|Damage|
-| ---------:| :--: | 
-|Dry wood usually burns (35 cal/cm²)| 10d12|
-|Third degree burns (100% probability)| 4d12|
-|Third degree burns (50% probability)| 4d12|
-|Second degree burns (50% probability)| 2d12|
-|First degree burns (50% probability)| 1d12|
-{: .well .table .table-striped}
-
-### Range in Feet
+#### Blast Damage Range in Feet
 
 |Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
 | ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -189,6 +167,21 @@ The following information is based on real world physics for weapons and the amo
 {: .well .table .table-striped}
 
 
+### Radiation Damage (Necrotic)
+
+|Description|Damage|
+| ---------:| :--: | 
+|100 REMs (Sickness, increased lifetime cancer risks)| See Table Above|
+|500 REM (50-90% Mortality without medical Care)| See Table Above|
+|600 REM (80% Mortality Rate with Medical Care)| See Table Above|
+|1000 REM (95% Mortality Rate with Medical Care)| See Table Above|
+|5000 REM (100% Mortality)| See Table Above|
+{: .well .table .table-striped}
+
+#### Radiation Damage Range
+
+|Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
+| ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |REMs (Average Human has 1000 REM for their lifetime)|
 |100 REMs (Sickness, increased lifetime cancer risks)|2,060|3,643|5,174|5,702|9,451|12,355|13,886|
 |500 REM (50-90% Mortality without medical Care)|1,400|2,746|4,118|4,594|8,184|11,088|12,672|
@@ -198,6 +191,21 @@ The following information is based on real world physics for weapons and the amo
 {: .well .table .table-striped}
 
 
+### Radiation Damage (Fire)
+
+|Description|Damage|
+| ---------:| :--: | 
+|Dry wood usually burns (35 cal/cm²)| 10d12|
+|Third degree burns (100% probability)| 4d12|
+|Third degree burns (50% probability)| 4d12|
+|Second degree burns (50% probability)| 2d12|
+|First degree burns (50% probability)| 1d12|
+{: .well .table .table-striped}
+
+### Radiation Damage Range
+
+|Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
+| ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |Skin burns (Fire Damage)|
 |Dry wood usually burns (35 cal/cm²)|740|2,320|3,221|20,803|59,664|81,840|
 |Third degree burns (100% probability)|450|1,650|4,594|6,283|35,059|93,984|126,192|
@@ -207,9 +215,12 @@ The following information is based on real world physics for weapons and the amo
 |Minimum radius for 100% probability of no harm|1,080|3,960|10,930|14,784|78,672|203,808|271,392|
 {: .well .table .table-striped}
 
+## Visible Fireball and Blast
+
+|Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
+| ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |Fireball Radius|50|260|650|860|4,118|10,349|13,675|
 |Airblast Radius|50|3,854|8,342|10,454|38,597|83,424|104,544|
-{: .well .table .table-striped}
 {: .well .table .table-striped}
 
 
