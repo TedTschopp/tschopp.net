@@ -138,11 +138,10 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 The following information is based on real world physics for weapons and the amount of damage structures can take in Gamma World.  Ranges are listed in Feet. 
 
-### Damage
+### Blast Damage (Thunder, Bludgeoning, and Force Damage)
 
-|Description|PSI|Damage|
-| ---------:| - |----: | 
-|Blast - (Thunder, Bludgeoning, and Force Damage)|
+|Description| PSI |Damage|
+| ---------:| :-: |----: | 
 |10000 psi / surface (destruction of even very hardened silos)|10000|190D100|
 |1000 psi / surface (hardened silos destroyed/damaged)|1000|10D100|
 |600 psi / surface (destruction of highways and airfields)|600|36D20|
@@ -151,21 +150,29 @@ The following information is based on real world physics for weapons and the amo
 |5 psi / surface (destruction of wooden buildings, heavy damage to brick/steel buildings)|5|5D12|
 |1 psi / surface (broken windows, light damage)|1|1d4-2|
 |REMs (Average Human has 1000 REM for their lifetime)|
-||
-|100 REMs (Sickness, increased lifetime cancer risks)| | See Table Above|
-|500 REM (50-90% Mortality without medical Care)| | See Table Above|
-|600 REM (80% Mortality Rate with Medical Care)| | See Table Above|
-|1000 REM (95% Mortality Rate with Medical Care)| | See Table Above|
+{: .well .table .table-striped}
+
+### Radiation Damage (Necrotic)
+
+|Description|Damage|
+| ---------:| :--: | 
+|100 REMs (Sickness, increased lifetime cancer risks)| See Table Above|
+|500 REM (50-90% Mortality without medical Care)| See Table Above|
+|600 REM (80% Mortality Rate with Medical Care)| See Table Above|
+|1000 REM (95% Mortality Rate with Medical Care)| See Table Above|
 |5000 REM (100% Mortality)| | See Table Above|
-||
-|Skin burns (Fire Damage)|
-|Dry wood usually burns (35 cal/cm²)| |10d12|
-|Third degree burns (100% probability)| |4d12|
-|Third degree burns (50% probability)| |4d12|480|
-|Second degree burns (50% probability)| |2d12|
-|First degree burns (50% probability)| |1d12|
+{: .well .table .table-striped}
 
+### Radiation Damage (Fire)
 
+|Description|Damage|
+| ---------:| :--: | 
+|Dry wood usually burns (35 cal/cm²)| 10d12|
+|Third degree burns (100% probability)| 4d12|
+|Third degree burns (50% probability)| 4d12|
+|Second degree burns (50% probability)| 2d12|
+|First degree burns (50% probability)| 1d12|
+{: .well .table .table-striped}
 
 ### Range in Feet
 
@@ -179,12 +186,18 @@ The following information is based on real world physics for weapons and the amo
 |20 psi / surface (severe to complete damage to most buildings)|190|710|1,540|1,940|7,128|15,365|19,378|
 |5 psi / surface (destruction of wooden buildings, heavy damage to brick/steel buildings)|410|1,500|3,221|4,066|14,995|32,366|40,762|
 |1 psi / surface (broken windows, light damage)|1,050|3,854|8,342|10,454|38,597|83,424|104,544|
+{: .well .table .table-striped}
+
+
 |REMs (Average Human has 1000 REM for their lifetime)|
 |100 REMs (Sickness, increased lifetime cancer risks)|2,060|3,643|5,174|5,702|9,451|12,355|13,886|
 |500 REM (50-90% Mortality without medical Care)|1,400|2,746|4,118|4,594|8,184|11,088|12,672|
 |600 REM (80% Mortality Rate with Medical Care)|1,340|2,640|4,013|4,488|8,078|10,930|12,514|
 |1000 REM (95% Mortality Rate with Medical Care)|1,170|2,390|3,696|4,171|7,656|10,507|12,091|
 |5000 REM (100% Mortality)|720|1,660|2,746|3,168|6,389|9,134|10,718|
+{: .well .table .table-striped}
+
+
 |Skin burns (Fire Damage)|
 |Dry wood usually burns (35 cal/cm²)|740|2,320|3,221|20,803|59,664|81,840|
 |Third degree burns (100% probability)|450|1,650|4,594|6,283|35,059|93,984|126,192|
@@ -192,9 +205,12 @@ The following information is based on real world physics for weapons and the amo
 |Second degree burns (50% probability)|590|2,170|6,072|8,290|46,042|123,024|164,208|
 |First degree burns (50% probability)|840|3,115|8,501|11,563|62,304|163,680|216,480|
 |Minimum radius for 100% probability of no harm|1,080|3,960|10,930|14,784|78,672|203,808|271,392|
-|Visibile Blast Radius|
+{: .well .table .table-striped}
+
 |Fireball Radius|50|260|650|860|4,118|10,349|13,675|
 |Airblast Radius|50|3,854|8,342|10,454|38,597|83,424|104,544|
+{: .well .table .table-striped}
+{: .well .table .table-striped}
 
 
 
