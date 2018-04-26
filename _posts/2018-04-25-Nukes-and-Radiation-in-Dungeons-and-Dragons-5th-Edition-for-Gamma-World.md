@@ -96,8 +96,7 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 #### Prodromal Stage
 
-|Prodromal Stage|{:.thead-dark}
-|Syndrome|Low Dose|High Dose|Onset|Length|Symptoms|
+|Syndrome|Low Dose|High Dose|Onset|Length|Symptoms|{:.thead-dark}
 |Hematopoietic (Bone Marrow)|30|70|7D6-6 Hours|1D12 days|Anorexia, Nausea, and Vomiting|
 |Gastrointestinal (GI)|600|1000|1d4 hours|1d4*10+1d8 hours|Anorexia, Nausea, Vomiting, Diarrhea, one level of exhaustion|
 |Cardiovascular (CV)|2000|5000|1d4 minutes|1d4 hours|Vomiting, watery diarrhea|
@@ -106,7 +105,6 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 #### Latent Stage
 
-|Latent Stage|
 |Syndrome|Low Dose|High Dose|Length|Latent Stage|
 |Hematopoietic (Bone Marrow)|30|70|1d6 weeks|Suffers from one level of exhaustion|
 |Gastrointestinal (GI)|600|1000|1d8 days|One Level of Exhaustion|
@@ -116,7 +114,6 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 #### Manifest Illness Stage
 
-|Manifest Illness Stage|
 |Syndrome|Low Dose|High Dose|Length|Manifest Illness Stage|
 |Hematopoietic (Bone Marrow)|30|70|1d3 + 1 months|Anorexia and One Level of Exhaustion.|
 |Gastrointestinal (GI)|600|1000|1d4/2|Anorexia, Diarrhea, One Level of exhaustion|
@@ -126,7 +123,6 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 #### Recovery Illness Stage
 
-|Recovery Stage|
 |Syndrome|Low Dose|High Dose|Recovery Time|Recovery|
 |Hematopoietic (Bone Marrow)|30|70|1d100 weeks|Suffers from one level of exhaustion|
 |Gastrointestinal (GI)|600|1000|Death|Generally there is no recover stage|
