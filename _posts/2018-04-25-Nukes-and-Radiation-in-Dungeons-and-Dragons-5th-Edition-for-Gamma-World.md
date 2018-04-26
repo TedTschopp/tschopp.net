@@ -156,9 +156,8 @@ The following information is based on real world physics for weapons and the amo
 
 |Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
 | ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|Blast - (Thunder, Bludgeoning, and Force Damage)|
-|10000 psi / surface (destruction of even very hardened silos)|70|150|190|690|1,490|1,870|
-|1000 psi / surface (hardened silos destroyed/damaged)|150|330|420|1,540|3,326|4,171|
+|10000 psi / surface (destruction of even very hardened silos)||70|150|190|690|1,490|1,870|
+|1000 psi / surface (hardened silos destroyed/damaged)||150|330|420|1,540|3,326|4,171|
 |600 psi / surface (destruction of highways and airfields)|50|190|400|500|1,850|4,013|5,016|
 |200 psi / surface (underground water and gas lines destroyed)|70|260|570|720|2,640|5,702|7,181|
 |20 psi / surface (severe to complete damage to most buildings)|190|710|1,540|1,940|7,128|15,365|19,378|
@@ -171,7 +170,6 @@ The following information is based on real world physics for weapons and the amo
 
 |Description|Damage|
 | ---------:| :--: | 
-|100 REMs (Sickness, increased lifetime cancer risks)| See Table Above|
 |500 REM (50-90% Mortality without medical Care)| See Table Above|
 |600 REM (80% Mortality Rate with Medical Care)| See Table Above|
 |1000 REM (95% Mortality Rate with Medical Care)| See Table Above|
@@ -182,7 +180,6 @@ The following information is based on real world physics for weapons and the amo
 
 |Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
 | ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|REMs (Average Human has 1000 REM for their lifetime)|
 |100 REMs (Sickness, increased lifetime cancer risks)|2,060|3,643|5,174|5,702|9,451|12,355|13,886|
 |500 REM (50-90% Mortality without medical Care)|1,400|2,746|4,118|4,594|8,184|11,088|12,672|
 |600 REM (80% Mortality Rate with Medical Care)|1,340|2,640|4,013|4,488|8,078|10,930|12,514|
@@ -202,12 +199,12 @@ The following information is based on real world physics for weapons and the amo
 |First degree burns (50% probability)| 1d12|
 {: .well .table .table-striped}
 
-### Radiation Damage Range
+#### Radiation Damage Range
 
 |Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
 | ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |Skin burns (Fire Damage)|
-|Dry wood usually burns (35 cal/cm²)|740|2,320|3,221|20,803|59,664|81,840|
+|Dry wood usually burns (35 cal/cm²)||740|2,320|3,221|20,803|59,664|81,840|
 |Third degree burns (100% probability)|450|1,650|4,594|6,283|35,059|93,984|126,192|
 |Third degree burns (50% probability)|480|1,780|4,963|6,758|37,594|100,848|134,640|
 |Second degree burns (50% probability)|590|2,170|6,072|8,290|46,042|123,024|164,208|
@@ -215,7 +212,7 @@ The following information is based on real world physics for weapons and the amo
 |Minimum radius for 100% probability of no harm|1,080|3,960|10,930|14,784|78,672|203,808|271,392|
 {: .well .table .table-striped}
 
-## Visible Fireball and Blast
+### Visible Fireball and Blast
 
 |Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
 | ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
