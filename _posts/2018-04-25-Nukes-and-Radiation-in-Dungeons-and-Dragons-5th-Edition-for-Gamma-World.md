@@ -138,353 +138,64 @@ You reduce the amount of Rads you have when you encounter radiation in Gamma Wor
 
 The following information is based on real world physics for weapons and the amount of damage structures can take in Gamma World.  Ranges are listed in Feet. 
 
-<table>
-  <tr>
-    <td>Effects</td>
-    <td></td>
-    <td></td>
-    <td>Feet</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>PSI</td>
-    <td>Damage</td>
-    <td>20t</td>
-    <td>1kt</td>
-    <td>10kt</td>
-    <td>20kt</td>
-    <td>1 MT</td>
-    <td>10 MT</td>
-    <td>20 MT</td>
-  </tr>
-  <tr>
-    <td>Blast - (Thunder, Bludgeoning, and Force Damage)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>10000 psi / surface (destruction of even very hardened silos)</td>
-    <td>10000</td>
-    <td>190D100</td>
-    <td></td>
-    <td>70</td>
-    <td>150</td>
-    <td>190</td>
-    <td>690</td>
-    <td>1,490</td>
-    <td>1,870</td>
-  </tr>
-  <tr>
-    <td>1000 psi / surface (hardened silos destroyed/damaged)</td>
-    <td>1000</td>
-    <td>10D100</td>
-    <td></td>
-    <td>150</td>
-    <td>330</td>
-    <td>420</td>
-    <td>1,540</td>
-    <td>3,326</td>
-    <td>4,171</td>
-  </tr>
-  <tr>
-    <td>600 psi / surface (destruction of highways and airfields)</td>
-    <td>600</td>
-    <td>36D20</td>
-    <td>50</td>
-    <td>190</td>
-    <td>400</td>
-    <td>500</td>
-    <td>1,850</td>
-    <td>4,013</td>
-    <td>5,016</td>
-  </tr>
-  <tr>
-    <td>200 psi / surface (underground water and gas lines destroyed)</td>
-    <td>200</td>
-    <td>20D20</td>
-    <td>70</td>
-    <td>260</td>
-    <td>570</td>
-    <td>720</td>
-    <td>2,640</td>
-    <td>5,702</td>
-    <td>7,181</td>
-  </tr>
-  <tr>
-    <td>20 psi / surface (severe to complete damage to most buildings)</td>
-    <td>20</td>
-    <td>8D12</td>
-    <td>190</td>
-    <td>710</td>
-    <td>1,540</td>
-    <td>1,940</td>
-    <td>7,128</td>
-    <td>15,365</td>
-    <td>19,378</td>
-  </tr>
-  <tr>
-    <td>5 psi / surface (destruction of wooden buildings, heavy damage to brick/steel buildings)</td>
-    <td>5</td>
-    <td>5D12</td>
-    <td>410</td>
-    <td>1,500</td>
-    <td>3,221</td>
-    <td>4,066</td>
-    <td>14,995</td>
-    <td>32,366</td>
-    <td>40,762</td>
-  </tr>
-  <tr>
-    <td>1 psi / surface (broken windows, light damage)</td>
-    <td>1</td>
-    <td>1d4-2</td>
-    <td>1,050</td>
-    <td>3,854</td>
-    <td>8,342</td>
-    <td>10,454</td>
-    <td>38,597</td>
-    <td>83,424</td>
-    <td>104,544</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>REMs (Average Human has 1000 REM for their lifetime)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>100 REMs (Sickness, increased lifetime cancer risks)</td>
-    <td></td>
-    <td></td>
-    <td>2,060</td>
-    <td>3,643</td>
-    <td>5,174</td>
-    <td>5,702</td>
-    <td>9,451</td>
-    <td>12,355</td>
-    <td>13,886</td>
-  </tr>
-  <tr>
-    <td>500 REM (50-90% Mortality without medical Care)</td>
-    <td></td>
-    <td></td>
-    <td>1,400</td>
-    <td>2,746</td>
-    <td>4,118</td>
-    <td>4,594</td>
-    <td>8,184</td>
-    <td>11,088</td>
-    <td>12,672</td>
-  </tr>
-  <tr>
-    <td>600 REM (80% Mortality Rate with Medical Care)</td>
-    <td></td>
-    <td></td>
-    <td>1,340</td>
-    <td>2,640</td>
-    <td>4,013</td>
-    <td>4,488</td>
-    <td>8,078</td>
-    <td>10,930</td>
-    <td>12,514</td>
-  </tr>
-  <tr>
-    <td>1000 REM (95% Mortality Rate with Medical Care)</td>
-    <td></td>
-    <td></td>
-    <td>1,170</td>
-    <td>2,390</td>
-    <td>3,696</td>
-    <td>4,171</td>
-    <td>7,656</td>
-    <td>10,507</td>
-    <td>12,091</td>
-  </tr>
-  <tr>
-    <td>5000 REM (100% Mortality)</td>
-    <td></td>
-    <td></td>
-    <td>720</td>
-    <td>1,660</td>
-    <td>2,746</td>
-    <td>3,168</td>
-    <td>6,389</td>
-    <td>9,134</td>
-    <td>10,718</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Skin burns (Fire Damage)</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Dry wood usually burns (35 cal/cm²)</td>
-    <td></td>
-    <td>10d12</td>
-    <td></td>
-    <td>740</td>
-    <td>2,320</td>
-    <td>3,221</td>
-    <td>20,803</td>
-    <td>59,664</td>
-    <td>81,840</td>
-  </tr>
-  <tr>
-    <td>Third degree burns (100% probability)</td>
-    <td></td>
-    <td>4d12</td>
-    <td>450</td>
-    <td>1,650</td>
-    <td>4,594</td>
-    <td>6,283</td>
-    <td>35,059</td>
-    <td>93,984</td>
-    <td>126,192</td>
-  </tr>
-  <tr>
-    <td>Third degree burns (50% probability)</td>
-    <td></td>
-    <td>4d12</td>
-    <td>480</td>
-    <td>1,780</td>
-    <td>4,963</td>
-    <td>6,758</td>
-    <td>37,594</td>
-    <td>100,848</td>
-    <td>134,640</td>
-  </tr>
-  <tr>
-    <td>Second degree burns (50% probability)</td>
-    <td></td>
-    <td>2d12</td>
-    <td>590</td>
-    <td>2,170</td>
-    <td>6,072</td>
-    <td>8,290</td>
-    <td>46,042</td>
-    <td>123,024</td>
-    <td>164,208</td>
-  </tr>
-  <tr>
-    <td>First degree burns (50% probability)</td>
-    <td></td>
-    <td>1d12</td>
-    <td>840</td>
-    <td>3,115</td>
-    <td>8,501</td>
-    <td>11,563</td>
-    <td>62,304</td>
-    <td>163,680</td>
-    <td>216,480</td>
-  </tr>
-  <tr>
-    <td>Minimum radius for 100% probability of no harm</td>
-    <td></td>
-    <td></td>
-    <td>1,080</td>
-    <td>3,960</td>
-    <td>10,930</td>
-    <td>14,784</td>
-    <td>78,672</td>
-    <td>203,808</td>
-    <td>271,392</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Visibile Blast Radius</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Fireball Radius</td>
-    <td></td>
-    <td></td>
-    <td>50</td>
-    <td>260</td>
-    <td>650</td>
-    <td>860</td>
-    <td>4,118</td>
-    <td>10,349</td>
-    <td>13,675</td>
-  </tr>
-  <tr>
-    <td>Airblast Radius</td>
-    <td></td>
-    <td></td>
-    <td>50</td>
-    <td>3,854</td>
-    <td>8,342</td>
-    <td>10,454</td>
-    <td>38,597</td>
-    <td>83,424</td>
-    <td>104,544</td>
-  </tr>
-</table>
+### Damage
+
+|Description|PSI|Damage|
+| ---------:| - |----: | 
+|Blast - (Thunder, Bludgeoning, and Force Damage)|
+|10000 psi / surface (destruction of even very hardened silos)|10000|190D100|
+|1000 psi / surface (hardened silos destroyed/damaged)|1000|10D100|
+|600 psi / surface (destruction of highways and airfields)|600|36D20|
+|200 psi / surface (underground water and gas lines destroyed)|200|20D20|
+|20 psi / surface (severe to complete damage to most buildings)|20|8D12|
+|5 psi / surface (destruction of wooden buildings, heavy damage to brick/steel buildings)|5|5D12|
+|1 psi / surface (broken windows, light damage)|1|1d4-2|
+|REMs (Average Human has 1000 REM for their lifetime)|
+||
+|100 REMs (Sickness, increased lifetime cancer risks)| | See Table Above|
+|500 REM (50-90% Mortality without medical Care)| | See Table Above|
+|600 REM (80% Mortality Rate with Medical Care)| | See Table Above|
+|1000 REM (95% Mortality Rate with Medical Care)| | See Table Above|
+|5000 REM (100% Mortality)| | See Table Above|
+||
+|Skin burns (Fire Damage)|
+|Dry wood usually burns (35 cal/cm²)| |10d12|
+|Third degree burns (100% probability)| |4d12|
+|Third degree burns (50% probability)| |4d12|480|
+|Second degree burns (50% probability)| |2d12|
+|First degree burns (50% probability)| |1d12|
+
+
+
+### Range in Feet
+
+|Description|  20t|  1kt| 10kt| 20kt| 1 MT|10 MT|20 MT|
+| ---------:| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|Blast - (Thunder, Bludgeoning, and Force Damage)|
+|10000 psi / surface (destruction of even very hardened silos)|70|150|190|690|1,490|1,870|
+|1000 psi / surface (hardened silos destroyed/damaged)|150|330|420|1,540|3,326|4,171|
+|600 psi / surface (destruction of highways and airfields)|50|190|400|500|1,850|4,013|5,016|
+|200 psi / surface (underground water and gas lines destroyed)|70|260|570|720|2,640|5,702|7,181|
+|20 psi / surface (severe to complete damage to most buildings)|190|710|1,540|1,940|7,128|15,365|19,378|
+|5 psi / surface (destruction of wooden buildings, heavy damage to brick/steel buildings)|410|1,500|3,221|4,066|14,995|32,366|40,762|
+|1 psi / surface (broken windows, light damage)|1,050|3,854|8,342|10,454|38,597|83,424|104,544|
+|REMs (Average Human has 1000 REM for their lifetime)|
+|100 REMs (Sickness, increased lifetime cancer risks)|2,060|3,643|5,174|5,702|9,451|12,355|13,886|
+|500 REM (50-90% Mortality without medical Care)|1,400|2,746|4,118|4,594|8,184|11,088|12,672|
+|600 REM (80% Mortality Rate with Medical Care)|1,340|2,640|4,013|4,488|8,078|10,930|12,514|
+|1000 REM (95% Mortality Rate with Medical Care)|1,170|2,390|3,696|4,171|7,656|10,507|12,091|
+|5000 REM (100% Mortality)|720|1,660|2,746|3,168|6,389|9,134|10,718|
+|Skin burns (Fire Damage)|
+|Dry wood usually burns (35 cal/cm²)|740|2,320|3,221|20,803|59,664|81,840|
+|Third degree burns (100% probability)|450|1,650|4,594|6,283|35,059|93,984|126,192|
+|Third degree burns (50% probability)|480|1,780|4,963|6,758|37,594|100,848|134,640|
+|Second degree burns (50% probability)|590|2,170|6,072|8,290|46,042|123,024|164,208|
+|First degree burns (50% probability)|840|3,115|8,501|11,563|62,304|163,680|216,480|
+|Minimum radius for 100% probability of no harm|1,080|3,960|10,930|14,784|78,672|203,808|271,392|
+|Visibile Blast Radius|
+|Fireball Radius|50|260|650|860|4,118|10,349|13,675|
+|Airblast Radius|50|3,854|8,342|10,454|38,597|83,424|104,544|
+
+
+
+
