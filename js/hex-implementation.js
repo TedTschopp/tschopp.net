@@ -138,37 +138,38 @@ function drawGrid(id, backgroundColor, withLabels, layout, hexes) {
     });
 }
 
+drawGrid("layout-test-orientation-pointy", //Canvis ID
+         "hsla(60, 10%, 90%, 0)",          // Background color
+         false,                            // With Lables?
+         new Layout(Layout.pointy,         // :aupit 
+                    new Point(10, 10), 
+                    new Point(0, 0)
+                    ),
+         shapeHexagon(50)
+         );
 drawGrid("layout-test-orientation-pointy", 
          "hsla(60, 10%, 90%, 0)", 
          false,
          new Layout(Layout.pointy, 
-                    new Point(10, 10), 
+                    new Point(90, 90), 
                     new Point(0, 0)
-                    )
-         );
-drawGrid("layout-test-orientation-pointy", 
-         "hsla(60, 10%, 90%, 0)", 
-         true,
-         new Layout(Layout.pointy, 
-                    new Point(60, 60), 
-                    new Point(0, 0)
-                )
+                ),
+         shapeHexagon(30)
          );
 
 drawGrid("layout-test-orientation-pointy", 
          "hsla(60, 10%, 90%, 0)", 
-         true,
+         false,
          new Layout(Layout.pointy, 
-                    new Point(360, 360), 
+                    new Point(540, 540), 
                     new Point(0, 0)
-                )
+                ),
+         shapeHexagon(10)
          );
 
 
-drawGrid("layout-test-orientation-flat", "hsl(60, 10%, 85%)", true,
-         new Layout(Layout.flat, new Point(25, 25), new Point(0, 0)));
 
-drawGrid("layout-test-size-1", "hsl(60, 10%, 85%)", false,
+/*drawGrid("layout-test-size-1", "hsl(60, 10%, 85%)", false,
          new Layout(Layout.pointy, new Point(10, 10), new Point(0, 0)));
 drawGrid("layout-test-size-2", "hsl(60, 10%, 90%)", false,
          new Layout(Layout.pointy, new Point(20, 20), new Point(0, 0)));
@@ -219,9 +220,13 @@ drawGrid("shape-flat-triangle-2", "hsl(60, 10%, 85%)", false,
          new Layout(Layout.flat, new Point(15, 15), new Point(-60, -130)),
          shapeTriangle2(5));
 
-drawGrid("shape-pointy-hexagon", "hsl(60, 10%, 85%)", false,
+drawGrid("shape-pointy-hexagon", 
+         "hsl(60, 10%, 85%)", 
+         false,
          new Layout(Layout.pointy, new Point(15, 15), new Point(0, 0)),
          shapeHexagon(3));
+
+
 drawGrid("shape-flat-hexagon", "hsl(60, 10%, 90%)", false,
          new Layout(Layout.flat, new Point(15, 15), new Point(0, 0)),
          shapeHexagon(3));
@@ -263,3 +268,4 @@ drawGrid("shape-flat-rectangle-sr", "hsl(60, 10%, 90%)", false,
 drawGrid("shape-flat-rectangle-qs", "hsl(60, 10%, 85%)", false,
          new Layout(Layout.flat, new Point(10, 10), new Point(0, 0)),
          shapeRectangle(8, 6, permuteQSR));
+*/
