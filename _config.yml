@@ -3,7 +3,7 @@ siteurl: https://www.tedt.org
 
 plugins:
   - jekyll-sitemap
-
+  - jekyll-feed
 
 # Build Settings
 sass:
