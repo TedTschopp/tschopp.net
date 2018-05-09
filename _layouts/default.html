@@ -19,6 +19,63 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
+    <!-- IndieAuth.com -->
+
+    {% if site.keybaseio_username %}
+        <link href="https://keybase.io/{{ site.keybaseio_username }}" rel="me">
+    {% endif %}
+    {% if site.github_username or
+          site.linkedin_username or
+          site.twitter_username or
+          site.facebook_username or
+          site.google_username or
+          site.youtube_username or
+          site.pinterest_username or
+          site.reddit_username or
+          site.instagram_username or
+          site.quora_username %}
+
+            {% if site.github_username %}
+                <link href="https://github.com/{{ site.github_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.linkedin_username %}
+                <link href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.twitter_username %}
+                <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.facebook_username %}
+                <link href="https://www.facebook.com/{{ site.facebook_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.google_username %}
+                <link href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.youtube_username %}
+                <link href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.pinterest_username %}
+                <link href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.reddit_username %}
+                <link href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.instagram_username %}
+                <link href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.quora_username %}
+                <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+    {% endif %}
 
     <!-- Favicon Meta Tags.  -->
     <link rel="shortcut icon" href="/img/favicon.ico">
