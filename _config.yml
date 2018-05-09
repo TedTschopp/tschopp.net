@@ -14,7 +14,7 @@ include: ['_pages']
 # Varaibles that will be used elsewhere
 
 # Verison
-Version: 1.0.0
+version: 1.0.0
 
 # The title tag of the site
 title: Ted Tschopp
