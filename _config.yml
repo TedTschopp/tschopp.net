@@ -4,7 +4,7 @@ siteurl: https://www.tedt.org
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-
+ 
 # Build Settings
 sass:
   sass_dir: _sass
@@ -44,8 +44,6 @@ othernames: >
 email: ted@tschopp.org
 phonenumber: 
 keybaseio_username: tedtschopp
-
-
 twitter_username: TedTschopp
 github_username: TedTschopp
 linkedin_username: tedtschopp
