@@ -427,9 +427,11 @@
 
                     {% assign buildDate = "now" | date: '%s'  %}
                     {% assign thisDate = page.date | date: '%s'  %}
-                    {% assign prevDateDiff = buildDate | minus: thisDateDate | divided_by: 86400 %}
+                    {% assign prevDateDiff = buildDate | minus: thisDateDate %}
+                    {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
 
-                    {% include fuzzy-date.html daysDiff=prevDateDiff label='after' %} - {{prevDateDiff}} - {{ buildDate }} - {{thisDate}}. </br>
+
+                    {% include fuzzy-date.html daysDiff=prevDateDiff label='after' %} - {{ prevDateDiff }} - {{ buildDate }} - {{ thisDate }}. </br>
 
 
                     <!-- TODO: Do a good design on this.  Perhaps remove Category -->
