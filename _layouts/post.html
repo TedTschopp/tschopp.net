@@ -427,7 +427,7 @@
 
                     {% assign buildDate = "now" | date: '%s'  %}
                     {% assign thisDate = page.date | date: '%s'  %}
-                    {% assign prevDateDiff = buildDate | minus: thisDateDate %}
+                    {% assign prevDateDiff = buildDate | minus: thisDate %}
                     {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
 
 
