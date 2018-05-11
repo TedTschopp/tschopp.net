@@ -404,9 +404,6 @@
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}">
                         {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
 
-                        {% assign prevDate = post.prev.date | date: '%s'  %}
-                        {% assign thisDate = post.date | date: '%s'  %}
-                        {% assign prevDateDiff = thisDate | minus: prevDate | divided_by: 86400 %}
 
                     {% case hour %}
                     {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
@@ -427,6 +424,12 @@
                     late in the evening
                     {%endcase%}
                     on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {{ page.date | date: "%Y" }}.</time>
+
+                    {% assign buildDate = "now" | date: '%s'  %}
+                    {% assign prevDate = page.prev.date | date: '%s'  %}
+                    {% assign thisDate = page.date | date: '%s'  %}
+                    {% assign prevDateDiff = buildDate | minus: thisDateDate | divided_by: 86400 %}
+
                     {% include fuzzy-date.html dayDiff=prevDateDiff label='after' %}</br>
 
 
