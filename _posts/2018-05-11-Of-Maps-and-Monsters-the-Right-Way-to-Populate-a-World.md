@@ -1,11 +1,9 @@
 ---
-id: 1631
 title: Of Maps and Monsters\: The Right way to Populate a World
 date: 2018-05-11T21:04:42-07:00
 author: Ted Tschopp
 excerpt: 
 layout: post
-guid: /2018/05/11/Of-Maps-and-Monsters-the-Right-Way-to-Populate-a-World/
 permalink: /2018/05/11/Of-Maps-and-Monsters-the-Right-Way-to-Populate-a-World/
 image: wp-content/uploads/2018/05/Ebstorfer-stich2.jpg
 image-credits: Ebstorf Map by Gervase of Ebstorf 
