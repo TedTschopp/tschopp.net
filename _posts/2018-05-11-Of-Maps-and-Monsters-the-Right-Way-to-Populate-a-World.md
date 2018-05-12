@@ -1,5 +1,5 @@
 ---
-title: Of Maps and Monsters&#58; The Right way to Populate a World
+title: Of Maps and Monsters, the Right way to Populate a World
 date: 2018-05-11T21:04:42-07:00
 author: Ted Tschopp
 excerpt: 
