@@ -1,7 +1,7 @@
 ---
 id: 1631
 title: Of Maps and Monsters\: The Right way to Populate a World
-date: 2018-05-11T21:04:42.914125-07:00
+date: 2018-05-11T21:04:42-07:00
 author: Ted Tschopp
 excerpt: 
 layout: post
