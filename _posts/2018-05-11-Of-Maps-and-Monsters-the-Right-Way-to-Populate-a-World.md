@@ -37,9 +37,7 @@ Today in most role playing games monsters are reduced to a handful of stats that
 
 ### Expected Values
 
-In order to maintain some sort of normal distribution around a given 
-
-
+In order to maintain some sort of normal distribution around a given stat expected values should be used
 
 |Expected Value|1.50|2.00|2.50|3.00|3.50|4.00|4.50|5.50|6.50|7.50|8.50|9.50|10.50|12.50|15.50|17.50|24.50|25.50|30.50|50.50|42.08|
 |Dice Sides|2.00|3.00|4.00|5.00|6.00|7.00|8.00|10.00|12.00|14.00|16.00|18.00|20.00|24.00|30.00|34.00|48.00|50.00|60.00|100.00|120.00|
@@ -166,9 +164,43 @@ In order to maintain some sort of normal distribution around a given
 |120|||||||||||||||||||||1.00|
 {: .well .table .table-striped}
 
+### Stats for Exceptional Members of the Encounter
 
+### Stats for Young Members of the Encounter
 
+### Travel 
+Distance they can Travel in one day.  How long will they remain away from their Home.
 
+#### What sort of Travel
+Do they travel by:
+* Land
+* Air - close to ground
+* Air - within ranged combat
+* Air - within sight
+* Air - Above sight
+* Water
+* other?
 
+#### Why are they travelling
+Travelling, Hunting, Gathering, Fighting
 
+### Close Calls
 
+#### Tracks
+What sort of tracks to these monsters leave
+
+#### Remains
+Abandoned lairs, camps, prey or victims
+
+#### Markings
+What sort of ways to these monsters mark their territory
+
+### Not so Close Calls
+
+#### Their Lair 
+Perhaps they are soc
+
+#### Encountered
+Travelling, Hunting, Gathering, Fighting
+
+### External Reactions
