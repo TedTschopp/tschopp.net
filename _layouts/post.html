@@ -4,9 +4,9 @@
 <head>
 
     {% if page.excerpt != "" %}
-        {assign SEO_description = page.excerpt | strip_html %}
+        {% assign SEO_description = page.excerpt | strip_html %}
     {% elsif page.description != "" %}
-        {assign SEO_description = page.description | strip_html %}
+        {% assign SEO_description = page.description | strip_html %}
     {% endif %}
 
     <meta charset="utf-8">
