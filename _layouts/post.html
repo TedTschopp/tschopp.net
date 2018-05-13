@@ -3,6 +3,12 @@
 
 <head>
 
+    {% if page.excerpt != "" %}
+        {assign SEO_description = page.excerpt | strip_html %}
+    {% elsif page.description != "" %}
+        {assign SEO_description = page.description | strip_html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -206,7 +212,7 @@
 	-->
     <!-- Search Eengine and Browser Meta Tags. -->
 	<!-- The description of the website. Keep under 500 characters -->
-	<meta name="description" content="{{ site.description }}"> 
+	<meta name="description" content="{{ SEO_description }}"> 
 	<!-- The short description of the website.  Keep uder 100 characters -->
     <meta name="abstract"    content="{{ site.name }}"> 
  
@@ -312,14 +318,8 @@
     <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
     <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
     <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
+    <meta name="twitter:description"     content="{{ SEO_description }}">
 
-    {% if page.excerpt != "" %}
-        {assign twitter_description = page.excerpt | strip_html %}
-    {% elsif page.description != "" %}
-        {assign twitter_description = page.description | strip_html %}
-    {% endif %}
-
-    <meta name="twitter:description"     content="{{ twitter_description }}">
     {% if post %}
         {% if post.image %}
             <meta property="twitter:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
