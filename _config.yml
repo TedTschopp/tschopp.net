@@ -4,7 +4,8 @@ siteurl: https://www.tedt.org
 plugins:
   - jekyll-sitemap
   - jekyll-feed
- 
+  - jekyll-seo-tag
+  
 # Build Settings
 sass:
   sass_dir: _sass
