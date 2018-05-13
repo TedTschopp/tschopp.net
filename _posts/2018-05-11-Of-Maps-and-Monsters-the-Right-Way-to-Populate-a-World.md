@@ -2,7 +2,7 @@
 title: Of Maps and Monsters, the Right way to Populate a World
 date: 2018-05-11T21:04:42-07:00
 author: Ted Tschopp
-excerpt: 
+excerpt: This work is the beginning of a collection of notes on Monsters and Maps.  In the future I will split this out into several different sections.  I wanted to start wtih what I had here and start working my thoughts out while getting some of this out of my head and into a place I can review and look at. 
 layout: post
 permalink: /2018/05/11/Of-Maps-and-Monsters-the-Right-Way-to-Populate-a-World/
 image: wp-content/uploads/2018/05/Ebstorfer-stich2.jpg
