@@ -11,6 +11,14 @@ sass:
   sass_dir: _sass
 include: ['_pages']
 
+webrick:
+  headers:
+    My-Header: My-Value
+    My-Other-Header: My-Other-Value
+
+
+timezone: America/Los_Angeles
+
 
 # Varaibles that will be used elsewhere
 
@@ -19,6 +27,9 @@ version: 1.0.0
 
 # The title tag of the site
 title: Ted Tschopp
+
+# The Logo of the site
+logo: https://www.tedt.org/img/android-chrome-512x512.png
 
 #description of the site for meta tags
 description: >
