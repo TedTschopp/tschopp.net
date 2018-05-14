@@ -3,6 +3,12 @@
 
 <head>
 
+    {% if page.excerpt != "" %}
+        {% assign SEO_description = page.excerpt | strip_html %}
+    {% elsif page.description != "" %}
+        {% assign SEO_description = page.description | strip_html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -206,7 +212,7 @@
 	-->
     <!-- Search Eengine and Browser Meta Tags. -->
 	<!-- The description of the website. Keep under 500 characters -->
-	<meta name="description" content="{{ site.description }}"> 
+	<meta name="description" content="{{ SEO_description }}"> 
 	<!-- The short description of the website.  Keep uder 100 characters -->
     <meta name="abstract"    content="{{ site.name }}"> 
  
@@ -312,8 +318,7 @@
     <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
     <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
     <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
-    <meta name="twitter:description"     content="{{ page.excerpt | strip_html}}">
-
+    <meta name="twitter:description"     content="{{ SEO_description }}">
 
     {% if post %}
         {% if post.image %}
@@ -342,6 +347,10 @@
 	-->
 
 
+    {% seo %}
+
+
+
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
 
@@ -362,6 +371,7 @@
         {% endif %}
     {% endfor %}
     {% if this_is_a_draft == true %}
+        <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
         <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
     {% endif %}
 
@@ -414,7 +424,7 @@
 
 
                         {% case hour %}
-                            {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
+                            {% when '01' or '02' or '03' or '04' or '23' or '24' %}
                                 during the night
                             {% when '05' or '06' or '07' or '08' %}
                                 in the early morning
