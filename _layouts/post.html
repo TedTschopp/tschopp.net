@@ -411,7 +411,7 @@
     	            <hr>
 
     	            <!-- Date/Time -->
-                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}"><span class="aria-hidden hidden dt-publish">{{page.date}}</span>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time class="dt-published" datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
                         {% assign d = page.date | date: "%-d" %}
                         {% assign m = page.date | date: "%B" %}
                         {% assign dy = page.date | date: "%A" %}
@@ -456,7 +456,7 @@
                     {% else %}
                         {% assign categories = page.categories %}
                     {% endif %}
-                    {% for category in categories %}
+                    {% for category in categories %}<span class="p-category">
                         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
                         {% if forloop.length == 1 %}
                             {{thiscategory}}
@@ -469,7 +469,7 @@
                         {% endif %}
                         {% if thiscategory == "draft" or thiscategory == "Draft" %}
                             {% assign this_is_a_draft = true %}
-                        {% endif %}
+                        {% endif %}</span>
                     {% endfor %}</br>
 
                     <span class="hidden aria-hidden u-url">{{ site.siteurl }}{{ page.url }}</span></p>
