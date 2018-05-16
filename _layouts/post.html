@@ -3,6 +3,12 @@
 
 <head>
 
+    {% if page.excerpt != "" %}
+        {% assign SEO_description = page.excerpt | strip_html %}
+    {% elsif page.description != "" %}
+        {% assign SEO_description = page.description | strip_html %}
+    {% endif %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -10,21 +16,82 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
 
     <!-- Base URL to use for all relative URLs contained within the document -->
-    <base href="https://www.tedt.org/">
+    <!--<base href="https://www.tedt.org/">-->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
+    <!-- IndieAuth.com -->
+    {% if site.keybaseio_username %}
+        <link href="https://keybase.io/{{ site.keybaseio_username }}" rel="me">
+    {% endif %}
+    {% if site.github_username or
+          site.linkedin_username or
+          site.twitter_username or
+          site.facebook_username or
+          site.google_username or
+          site.youtube_username or
+          site.pinterest_username or
+          site.reddit_username or
+          site.instagram_username or
+          site.quora_username %}
+
+            {% if site.github_username %}
+                <link href="https://github.com/{{ site.github_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.linkedin_username %}
+                <link href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.twitter_username %}
+                <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.facebook_username %}
+                <link href="https://www.facebook.com/{{ site.facebook_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.google_username %}
+                <link href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.youtube_username %}
+                <link href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.pinterest_username %}
+                <link href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.reddit_username %}
+                <link href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.instagram_username %}
+                <link href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.quora_username %}
+                <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+    {% endif %}
+    <!-- Webmentions.io -->
+    <link rel="pingback" href="https://webmention.io/www.tedt.org/xmlrpc" />
+    <link rel="webmention" href="https://webmention.io/www.tedt.org/webmention" />
+
+
 
     <!-- Favicon Meta Tags.  -->
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="icon" sizes="16x16"   type="image/png" href="/img/favicon-16x16.png">
-    <link rel="icon" sizes="32x32"   type="image/png" href="/img/favicon-32x32.png">
-    <link rel="icon" sizes="48x48"   type="image/png" href="/img/android-chrome-48x48.png">
-    <link rel="icon" sizes="62x62"   type="image/png" href="/img/favicon-62x62.png">
-    <link rel="icon" sizes="128x128" type="image/png" href="/img/favicon-128x128.png">
-    <link rel="icon" sizes="192x192" type="image/png" href="/img/android-chrome-192x192.png" >
+    <link rel="icon" sizes="16x16"   type="image/png" href="{{site.siteurl}}/img/favicon-16x16.png">
+    <link rel="icon" sizes="32x32"   type="image/png" href="{{site.siteurl}}/img/favicon-32x32.png">
+    <link rel="icon" sizes="48x48"   type="image/png" href="{{site.siteurl}}/img/android-chrome-48x48.png">
+    <link rel="icon" sizes="62x62"   type="image/png" href="{{site.siteurl}}/img/favicon-62x62.png">
+    <link rel="icon" sizes="128x128" type="image/png" href="{{site.siteurl}}/img/favicon-128x128.png">
+    <link rel="icon" sizes="192x192" type="image/png" href="{{site.siteurl}}/img/android-chrome-192x192.png" >
 
     <!-- Apple iOS Settings. -->
 	<!--Sets whether a web application runs in full-screen mode. -->
@@ -37,20 +104,20 @@
     <meta name="format-detection" content="telephone=no"> 
     
 	<!-- iPhone icons -->
-	<!--<link rel="apple-touch-icon"                 href="/img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="57x57"   href="/img/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72"   href="/img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png">-->
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png">
-    <!--<link rel="apple-touch-icon-precomposed"     href="/img/apple-touch-icon-precomposed.png">-->
+	<!--<link rel="apple-touch-icon"                 href="{{site.siteurl}}/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57"   href="{{site.siteurl}}/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="{{site.siteurl}}/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{site.siteurl}}/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.siteurl}}/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{site.siteurl}}/img/apple-touch-icon-152x152.png">-->
+	<link rel="apple-touch-icon" sizes="180x180" href="{{site.siteurl}}/img/apple-touch-icon-180x180.png">
+    <!--<link rel="apple-touch-icon-precomposed"     href="{{site.siteurl}}/img/apple-touch-icon-precomposed.png">-->
 	<!-- TODO: Add in Splash Screens with apple-touch-startup-image -->
 
 
 
     <!-- Apple Safari Pinned Site. -->
-    <link rel="mask-icon" href="/img/Tschopp.svg" color="black">
+    <link rel="mask-icon" href="{{site.siteurl}}/img/Tschopp.svg" color="black">
 
     <!-- App Banner and link to app store. -->
     <!--
@@ -83,15 +150,15 @@
   -->
 
     <!-- Google Chrome. -->
-	<link rel="icon" type="image/png" sizes="36x36" href="/img/android-chrome-36x36.png">
-	<link rel="icon" type="image/png" sizes="48x48" href="/img/android-chrome-48x48.png">
-	<link rel="icon" type="image/png" sizes="72x72" href="/img/android-chrome-72x72.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/img/android-chrome-96x96.png">
-	<link rel="icon" type="image/png" sizes="144x144" href="/img/android-chrome-144x144.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/img/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="384x384" href="/img/android-chrome-384x384.png">
-	<link rel="icon" type="image/png" sizes="256x256" href="/img/android-chrome-256x256.png">
-	<link rel="icon" type="image/png" sizes="512x512" href="/img/android-chrome-512x512.png">
+	<link rel="icon" type="image/png" sizes="36x36" href="{{site.siteurl}}/img/android-chrome-36x36.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="{{site.siteurl}}/img/android-chrome-48x48.png">
+	<link rel="icon" type="image/png" sizes="72x72" href="{{site.siteurl}}/img/android-chrome-72x72.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{site.siteurl}}/img/android-chrome-96x96.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="{{site.siteurl}}/img/android-chrome-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{site.siteurl}}/img/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="384x384" href="{{site.siteurl}}/img/android-chrome-384x384.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="{{site.siteurl}}/img/android-chrome-256x256.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="{{site.siteurl}}/img/android-chrome-512x512.png">
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
     <meta name="google" value="notranslate">
 
@@ -107,21 +174,21 @@
     <meta name="msapplication-tap-highlight"       content="no">
     <meta name="application-name"                  content="Ted Tschopp">
     <meta name="msapplication-tooltip"             content="Ted Tschopp's homepage">
-    <meta name="msapplication-starturl"            content="/">
-    <meta name="msapplication-square150x150logo"   content="/img/mstile-150x150.png">
-    <meta name="msapplication-square310x310logo"   content="/img/mstile-310x310.png">
-    <meta name="msapplication-square70x70logo"     content="/img/mstile-70x70.png">
-    <meta name="msapplication-wide310x150logo"     content="/img/mstile-310x150.png">
+    <meta name="msapplication-starturl"            content="{{site.siteurl}}/">
+    <meta name="msapplication-square150x150logo"   content="{{site.siteurl}}/img/mstile-150x150.png">
+    <meta name="msapplication-square310x310logo"   content="{{site.siteurl}}/img/mstile-310x310.png">
+    <meta name="msapplication-square70x70logo"     content="{{site.siteurl}}/img/mstile-70x70.png">
+    <meta name="msapplication-wide310x150logo"     content="{{site.siteurl}}/img/mstile-310x150.png">
     <meta name="msapplication-navbutton-color"     content="#FF3300">
     <meta name="msapplication-TileColor"           content="#FF3300">
-    <meta name="msapplication-TileImage"           content="/img/mstile-144x144.png">
+    <meta name="msapplication-TileImage"           content="{{site.siteurl}}/img/mstile-144x144.png">
     <meta name="msapplication-task-separator"      content="1">
     <meta name="msapplication-task"                content="name=Contact Ted;
-															action-uri=./#contact;
-															icon-uri=./img/favicon.ico">
+															action-uri={{site.siteurl}}/#contact;
+															icon-uri={{site.siteurl}}/img/favicon.ico">
     <meta name="msapplication-task"                content="name=Ted's Projects;
-															action-uri=./#projects;
-															icon-uri=./img/favicon.ico">
+															action-uri={{site.siteurl}}/#projects;
+															icon-uri={{site.siteurl}}/img/favicon.ico">
     <meta name="msapplication-allowDomainApiCalls" content="false">
     <meta name="msapplication-allowDomainMetaTags" content="false">
     <meta name="msapplication-window"              content="width=1024;height=768">
@@ -132,8 +199,8 @@
 
     <title>{{ page.title }}</title>
     <meta name="author" content="Ted Tschopp">
-    <link rel="author" href="/humans.txt">
-    <link rel="copyright" href="/copyright.html">
+    <link rel="author" href="{{site.siteurl}}/humans.txt">
+    <link rel="copyright" href="{{site.siteurl}}/copyright.html">
 
     <!-- Geo Positioning Meta Tags. -->
     <!--
@@ -145,9 +212,9 @@
 	-->
     <!-- Search Eengine and Browser Meta Tags. -->
 	<!-- The description of the website. Keep under 500 characters -->
-	<meta name="description" content="Discover who Ted Tschopp is.  My homepage has links to all the other things I have around the internet"> 
+	<meta name="description" content="{{ SEO_description }}"> 
 	<!-- The short description of the website.  Keep uder 100 characters -->
-    <meta name="abstract"    content="Ted Tschopp's Homepage"> 
+    <meta name="abstract"    content="{{ site.name }}"> 
  
     <!-- Search engine robots Meta Tags. -->
     <!-- Disable from all search engines.-->
@@ -160,7 +227,7 @@
             <meta property="og:image:alt"        content="{{ post.title }}">  <!-- Web page thumbnail -->
         {% else %}
             <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="Ted Tschopp's Homepage">  <!-- Web page thumbnail -->
+            <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
         {% endif %}
     {% else %}
         {% if page.image %}
@@ -168,7 +235,7 @@
             <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
         {% else %}
             <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="Ted Tschopp's Homepage">  <!-- Web page thumbnail -->
+            <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
         {% endif %}
     {% endif %}
 
@@ -178,15 +245,15 @@
     <!-- Facebook web site appID  -->
     <meta property="fb:app_id"           content="1939132006351436" />
 	<!-- Web site title -->
-    <meta property="og:site_name"        content="Ted Tschopp's Homepage">
+    <meta property="og:site_name"        content="{{ site.name }}">
 	<!-- Web page title -->
-    <meta property="og:title"            content="{{ page.title }} - Ted Tschopp">
+    <meta property="og:title"            content="{{ page.title }} - {{ site.name }}">
 	<!-- Web page description -->
-    <meta property="og:description"      content="{{ page.excerpt }}">  
+    <meta property="og:description"      content="{{ page.excerpt | strip_html }}">  
 	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
 	<meta property="og:type"             content="article">  
 	<!-- Url to this web page -->
-    <meta property="og:url"              content="{{ page.url }}"> 
+    <meta property="og:url"              content="{{ site.siteurl }}{{ page.url }}"> 
 	<!-- Main Language -->
 	<meta property="og:locale"           content="en_US">    
 	<!-- Alternate Language -->
@@ -212,9 +279,9 @@
 	<!-- <meta property="og:country-name"     content="UK"> -->
 
 	<!-- Contact email -->
-    <meta property="og:email"            content="ted@tschopp"> 
+    <meta property="og:email"            content="{{ site.email }}"> 
 	<!-- Contact phone number -->
-	<meta property="og:phone_number"     content="+1 626-255-3757">              
+	<meta property="og:phone_number"     content="{{ site.phonenumber }}">
 
     <!-- Video file url-->
 	<!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
@@ -248,11 +315,10 @@
     <!-- Twitter Meta Tags. -->
     <meta name="twitter:card"            content="summary">
     <meta name="twitter:site"            content="@site_account">
-    <meta name="twitter:creator"         content="@TedTschopp">
+    <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
     <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
-    <meta name="twitter:title"           content="{{ page.title }} - Ted Tschopp">
-    <meta name="twitter:description"     content="{{ page.excerpt }}">
-
+    <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
+    <meta name="twitter:description"     content="{{ SEO_description }}">
 
     {% if post %}
         {% if post.image %}
@@ -281,11 +347,35 @@
 	-->
 
 
+    {% seo %}
+
+
+
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
 
     <!-- Custom CSS -->
-	<link href="css/blog-post.css" rel="stylesheet">
+	<link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
+
+
+
+    {% if post %}
+        {% assign categories = post.categories %}
+    {% else %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    {% for category in categories %}
+        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+            {% assign this_is_a_draft = true %}
+        {% endif %}
+    {% endfor %}
+    {% if this_is_a_draft == true %}
+        <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
+        <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
+    {% endif %}
+
+
 
     <!-- Custom Fonts -->
     {% include css-font-awesome.html %}
@@ -307,77 +397,229 @@
     <div class="container">
 
         <div class="row">
-
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
 	            <!-- Blog Post -->
 
-	            <!-- Title -->
-	            <h1>{{ page.title }}</h1>
+                <article class="h-entry">
+    	            <!-- Title -->
+    	            <h1 class="p-name">{{ page.title }}</h1>
 
-	            <!-- Author -->
-	            <p class="lead">by {{page.author}}</p>
+    	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
+    	            <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.siteurl }}">{{page.author}}</a></p>
 
-	            <hr>
+    	            <hr>
 
-	            <!-- Date/Time -->
-                <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted {% assign d = page.date | date: "%-d" %}{% assign m = page.date | date: "%B" %}{% assign dy = page.date | date: "%A" %}{% assign hour = page.date | date: "%H" %}
-                {% case hour %}
-                {% when '01' or '02' or '03' or '04' or '05' or '23' or '24' %}
-                during the night
-                {% when '05' or '06' or '07' or '08' %}
-                in the early morning
-                {% when '09' or '10' or '11'%}
-                late in the morning
-                {% when '12' %}
-                at noon
-                {% when '13' or '14' or '15' %}
-                early in the afternoon
-                {% when '16' or '17' %}
-                late in the afternoon
-                {% when '18' or '19' %}
-                early in the evening
-                {% when '20' or '21' or '22' %}
-                late in the evening
-                {%endcase%}
-                on {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ page.date | date: "%Y" }}</p>
-
-
-                <!-- TODO: Do a good design on this.  Perhaps remove Category -->
-                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
-
-                <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>
-
-                <i class="fa fa-th-large" aria-hidden="true"></i>Catagories
-                {% if post %}
-                {% assign categories = post.categories %}
-                {% else %}
-                {% assign categories = page.categories %}
-                {% endif %}
-                {% for category in categories %}
-                    {{category}}, 
-                {% endfor %}</br>
+    	            <!-- Date/Time -->
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time class="dt-published" datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
+                        {% assign d = page.date | date: "%-d" %}
+                        {% assign m = page.date | date: "%B" %}
+                        {% assign dy = page.date | date: "%A" %}
+                        {% assign hour = page.date | date: "%H" %}
+                        {% assign buildDate = "now" | date: '%s'  %}
+                        {% assign thisDate = page.date | date: '%s'  %}
+                        {% assign prevDateDiff = buildDate | minus: thisDate %}
+                        {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
 
 
 
+                        {% case hour %}
+                            {% when '01' or '02' or '03' or '04' or '23' or '24' %}
+                                during the night
+                            {% when '05' or '06' or '07' or '08' %}
+                                in the early morning
+                            {% when '09' or '10' or '11'%}
+                                late in the morning
+                            {% when '12' %}
+                                at noon
+                            {% when '13' or '14' or '15' %}
+                                early in the afternoon
+                            {% when '16' or '17' %}
+                                late in the afternoon
+                            {% when '18' or '19' %}
+                                early in the evening
+                            {% when '20' or '21' or '22' %}
+                                late in the evening
+                        {%endcase%}
+                        
+                        on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
 
 
-	            <hr>
+                    <!-- TODO: Do a good design on this.  Perhaps remove Category -->
+                    <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
 
-	            <!-- <p class="lead">{{ page.excerpt }}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
+                    <!-- <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>-->
 
-                <!-- Preview Image -->
-                <!--
-                    TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
-                    and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
+                    <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
+                    {% if post %}
+                        {% assign categories = post.categories %}
+                    {% else %}
+                        {% assign categories = page.categories %}
+                    {% endif %}
+                    {% for category in categories %}<span class="p-category">
+                        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+                        {% if forloop.length == 1 %}
+                            {{thiscategory}}
+                        {% elsif forloop.last and forloop.length == 2 %}
+                            and {{thiscategory}}
+                        {% elsif forloop.last %}
+                            and {{thiscategory}}
+                        {% else %}
+                            {{thiscategory}}, 
+                        {% endif %}
+                        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+                            {% assign this_is_a_draft = true %}
+                        {% endif %}</span>
+                    {% endfor %}</br>
 
-                    -->
-	            <img class="img-responsive" src="{{ page.image }}" alt="">
-	            <hr>
-	            <!-- Post Content -->
-	            {{ content }}
+                    <span class="hidden aria-hidden u-url">{{ site.siteurl }}{{ page.url }}</span></p>
 
-	            <hr>
+    	            <hr>
+
+    	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
+
+                    <!-- Preview Image -->
+                    <!--
+                        TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
+                        and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
+
+                        -->
+                    <figure>
+                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
+                      <figcaption>{{page.image-credits}}</figcaption>
+                    </figure>
+
+    	            <hr>
+
+                    <!-- In the event of a draft include a progress bar -->
+                    {% if post %}
+                        {% assign draftstatus = post.draft-status %}
+                    {% else %}
+                        {% assign draftstatus = page.draft-status %}
+                    {% endif %}
+
+
+                    {% if this_is_a_draft == true %}
+                        <aside class="well">
+                            {% if draftstatus == "notes" or draftstatus == "" %}
+                                <strong>Notes:</strong>
+                                <p>This project is a collection of notes, links, and ideas that need to be brought together in one unit so it can be read and digested as one complete section of a larger work.</p>
+                            {% elsif draftstatus == "unit" %}
+                                <strong>Unit Testing:</strong>
+                                <p>This project is a unit that can stand on it's own, but it needs more context within a larger set of work.</p>
+                            {% elsif draftstatus == "integration" %}
+                                <strong>Integration Testing:</strong>
+                                <p>This project is a being edited to bring it into a larger work.  It could also being made generic so as to be used in multiple places.</p>
+                            {% elsif draftstatus == "component" %}
+                                <strong>Component Testing:</strong>
+                                <p>This project is now a complete component ready for the larger work.  At this point, it can be published as a complete </p>
+                            {% elsif draftstatus == "system" %}
+                                <strong>System Testing:</strong>
+                                <p>This project is a complete system, article, paper, or work.  It has yet to be shared with others to gain their feedback </p>
+                            {% elsif draftstatus == "alpha" %}
+                                <strong>Alpha Testing:</strong>
+                                <p>This project is complete and it has had feedback from colleagues, friends, and friendly audiences.</p>
+                            {% elsif draftstatus == "beta" %}
+                                <strong>Beta Testing:</strong>
+                                <p>This project is complete and it has had feedback from the public. </p>
+                            {% elsif draftstatus == "pre-release" %}
+                                <strong>Pre-Release:</strong>
+                                <p>This project is complete and ready for publishing or selling, and it is considered to be complete.</p>
+                            {% endif %}
+                            <div class="progress-clear">
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "notes" or draftstatus == "" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "unit" or draftstatus == "" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "integration" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "component" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "system" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "alpha" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "beta" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                                <div class="progress-bar-clear" role="progressbar" style="width:12.5%">
+                                    {% if draftstatus == "pre-release" %}
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    {% else %}
+                                        &nbsp;
+                                    {% endif %}
+                                </div>
+                            </div>                            
+                            <div class="progress">
+                                <div class="progress-bar notes" role="progressbar" style="width:12.5%">
+                                    Notes
+                                </div>
+                                <div class="progress-bar unit" role="progressbar" style="width:12.5%">
+                                    Unit
+                                </div>
+                                <div class="progress-bar integration" role="progressbar" style="width:12.5%">
+                                    Int.
+                                </div>
+                                <div class="progress-bar component" role="progressbar" style="width:12.5%">
+                                    Comp.
+                                </div>
+                                <div class="progress-bar system" role="progressbar" style="width:12.5%">
+                                    System
+                                </div>
+                                <div class="progress-bar alpha" role="progressbar" style="width:12.5%">
+                                    Alpha
+                                </div>
+                                <div class="progress-bar beta" role="progressbar" style="width:12.5%">
+                                    Beta
+                                </div>
+                                <div class="progress-bar prerelease" role="progressbar" style="width:12.5%">
+                                    Pre.
+                                </div>
+                            </div>
+                        </aside>
+                        {% endif %}
+
+
+
+    	            <!-- Post Content -->
+    	            <span class="e-content">{{ content }}</span>
+
+    	            <hr>
+                </article>
 
                 <!--Next and Previous Articles -->
                 {% if post %}
@@ -447,7 +689,7 @@
 	            </div>
 
 
-                <div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>
+                <!--<div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>-->
 
                 <hr>
 
@@ -461,8 +703,6 @@
                 <div class="well">
                     <h4>Blog Search</h4>
                     {% include google-search.html %}
-
-
                 </div>
 
                 <!-- Blog Categories Well -->
@@ -476,12 +716,12 @@
                             {% assign categories = page.categories %}
                         {% endif %}
                         {% for category in categories %}
-                            <h4>Latest in <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
+                            <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
 	                            <div class="row">
 	                            <div class="col-lg-12">
 	                                <ul lass="list-unstyled">
 	                                    {% for post in site.categories.[category] limit:5 %}
-	                                    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+	                                    <li><a href="{{site.siteurl}}{{ post.url }}">{{ post.title }}</a></li>
 	                                    {% endfor %}
 	                                </ul>
 	                            </div>
@@ -490,10 +730,20 @@
                     </div>                
                 </div>
 
+
                 <!-- Side Widget Well -->
+                <!-- This is the flipboard widget example 
                 <div class="well">
-                    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="56682/"></script> <!-- end feedwind code --> 
-               </div>
+                    <a data-flip-widget="mag" href="https://flipboard.com/@tedtschopp/technology-trends-of-tomorrow-qnepnf10y">View my Flipboard Magazine.</a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+                </div>
+                -->
+
+                <!-- Side Widget Well -->
+                <!-- start feedwind code --> 
+                <!-- <div class="well">
+                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="56682/"></script> 
+               </div> -->
+               <!-- end feedwind code --> 
 
             </div>
 

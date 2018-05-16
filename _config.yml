@@ -3,18 +3,33 @@ siteurl: https://www.tedt.org
 
 plugins:
   - jekyll-sitemap
-
-
+  - jekyll-feed
+  - jekyll-seo-tag
+  
 # Build Settings
 sass:
   sass_dir: _sass
 include: ['_pages']
 
+webrick:
+  headers:
+    My-Header: My-Value
+    My-Other-Header: My-Other-Value
+
+
+timezone: America/Los_Angeles
+
 
 # Varaibles that will be used elsewhere
 
+# Verison
+version: 1.0.0
+
 # The title tag of the site
 title: Ted Tschopp
+
+# The Logo of the site
+logo: https://www.tedt.org/img/android-chrome-512x512.png
 
 #description of the site for meta tags
 description: >
@@ -29,15 +44,18 @@ givenname: Ted
 #Family Name
 familyname: Tschopp
 
+#Locality
+locality: Los Angeles
+region: California
+country: United States of America
+
 #Other Names
 othernames: >
   Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تيد شوب | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
 
 email: ted@tschopp.org
-# phonenumber: +1-626-255-3757
+phonenumber: 
 keybaseio_username: tedtschopp
-
-
 twitter_username: TedTschopp
 github_username: TedTschopp
 linkedin_username: tedtschopp
@@ -48,7 +66,9 @@ pinterest_username: TedTschopp
 reddit_username: tedtschopp
 instagram_usermame: tedtschopp
 quora_username: Ted-Tschopp
-# whatsapp_username: 16262553757
+
+
+
 
 google_custom_search: 003027838407468454148:ddtovg0fltc
 
