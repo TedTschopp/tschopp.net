@@ -412,7 +412,7 @@
     	            <hr>
 
     	            <!-- Date/Time -->
-                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time class="dt-published" datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
                         {% assign d = page.date | date: "%-d" %}
                         {% assign m = page.date | date: "%B" %}
                         {% assign dy = page.date | date: "%A" %}
