@@ -78,9 +78,10 @@
             {% else %}
             {% endif %}
     {% endif %}
-    <!-- Webmentions.io -->
-    <link rel="pingback" href="https://webmention.io/www.tedt.org/xmlrpc" />
-    <link rel="webmention" href="https://webmention.io/www.tedt.org/webmention" />
+
+    <!-- Webmentions -->
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+
 
 
 
@@ -664,6 +665,22 @@
  
                 <hr>
 
+
+                <div class="well">
+                    <script id="webmention-hosted">
+                    (function () {
+                    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+                    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+                    url = url && url[0] ? url[0].href : false;
+                    sn.type = "text/javascript"; sn.async = true;
+                    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+                    s.parentNode.insertBefore(sn, s);
+                    }());
+                    </script> 
+               </div>
+
+                <hr>
+
 	            <!-- Blog Comments -->
 	            <!-- Comments Form -->
 	            <div class="well">
@@ -690,6 +707,7 @@
 
 
                 <!--<div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>-->
+
 
                 <hr>
 
