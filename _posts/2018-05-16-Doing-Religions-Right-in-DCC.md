@@ -283,6 +283,81 @@ These are people who have heard about the religion and have rejected it.  They m
 ## Example - Tolkien's Valar
 
 ### Manwë
+| --:|:----|
+|Name|Manwë|
+|AKA|Súlimo|
+|Role|Aratar|
+|Profession|Mage / Cleric of Eru|
+|Position|Lord of the Breath of Arda|
+|Title|Ruler of Arda,|
+|Other Titles|Chief of the Valar, The Eldar King, King of the Valar, Vicegerent of Eru, Husband of Varda, Brother of Melkor, First of all Kings, Lord fo the Realm of Arda, Ruler of All that Dwell in Arda.|
+|Epithets|Dearest to Ilúvatar|
+|Domain|Air (sky, wind, weather, sight, empathy, wisdom)|
+|Color|Blue|
+|Hair|White|
+|Eye Color|Sky-Blue shining with pure white star light|
+|Clothing|Blue Robes|
+|Gender|Male|
+|Location|Ilmarin, Taniquetil|
+|Affiliation|Eagles|
+|Source of Inspiration|Zeus|
+|Alignment|Good|
+|Description|He appears as a wise King bearded with white hair, clear skin and blue eyes. His robes are rich blue. He carries a blue scepter made of Sapphire|
+|Overview|Manwe is King of the Valar and Morgoth and his wife Varda rivaled him in strength. No Vala stands above him in seniority. Varda and Manwe are bound in enduring love that knows no limts and gives each other strenght and power that equates to more than the sum of their parts.|
+|Symbol|Eagle|
+|Weapons for followers|Sword and Spear|
+|Unholy|Balrogs, Dragons|
+|Powers|Vision, Voice, Authority, Air Spells|
+|Sins against Self|Inability see themselves within Eru's greater plans (Lack of Vision)|
+|Comission sins of Self|Taking the easy path|
+|Omission sins of Self|Not taking the time to comtemplate actions on which decisino to take|
+|Sins against Others|Inability to find a path of compassion|
+|Comission sins of Others|Harming someone else|
+|Omission sins of Others|Allowing someone else to get harmed by not getting involved|
+|Morality the diety favors||
+|Care: cherishing and protecting others; opposite of harm||
+|Fairness or proportionality: rendering justice according to shared rules; opposite of cheating||
+|Loyalty or ingroup: standing with your group, family, nation; opposite of betrayal||
+|Authority or respect: submitting to tradition and legitimate authority; opposite of subversion||
+|Sanctity or purity: abhorrence for disgusting things, foods, actions; opposite of degradation||
+|Liberty (opposite of oppression): coercion by a dominating power or person||
+|World View of the Diety and their followers||
+|Who are we?||
+|Where are we?||
+|What is wrong?||
+|What is the solution?||
+|What Sacrafices does this diety like?||
+|Title for Level 1||
+|Title for Level 2||
+|Title for Level 3||
+|Title for Level 4||
+|Title for Level 5||
+|Title for Level 6||
+|Title for Level 7||
+|Title for Level 8||
+|Title for Level 9||
+|Title for Level 10||
+|1|1 The supplicant realizes that mistakes have been made in the choices made, in not aligning actions with Eru's Music. The supplicant must do nothing but contemplate the sound of the wind and listen for Manwe's voice for the next 10 minutes, starting as soon as he is able (i.e., if in combat, ait until the danger is over).|
+|2|2 The supplicant must pray for forgiveness for a lack of vision and empathy immediately. He must spend at least one hour in prayer, beginning as soon as he is able (i.e., if he is in combat, he can wait until the danger is over). Failure to finish the full hour of prayers within the next 120 minutes is looked upon unfavorably; he incurs a -1 penalty to all spell checks until he completes the full hour.|
+|3|3 The supplicant must serve another one of Eru's Children by listening and counseling them in order to allow them to reach a fuller potential. If the supplicant does not do this by the next sunrise, he takes a -1 penalty to all checks on the following day. This penalty resets after 24 hours.|
+|4|The supplicant must teach another one of Eru's children to listen and counsel others teaching them to|
+|5|A Test of the Valar's Principal Emotions / Activities|
+|6|Restore Arda to Eru's vision|
+|7|Simple Doom of the Valar with external and stat consiquences|
+|8|Out of Tune with the Music of the Valar.|
+|9|Give to others in need|
+|10|Rely on your own strength|
+|11|Daily Meditation on the emotional state of the Valar|
+|12|Focusing on the lessons learned in the past|
+|13|Rely on your own strength|
+|14|Build or rebuild something to meet the orignal plan of Eru's|
+|15|The sins of the past hanut you|
+|16|A focus on self instead of on others|
+|17|Out of tune with the music of Eru|
+|18|The light of Eru no longer shines brightly in your face|
+|19|A Mark of Melkor mars your body|
+|20|An enounter with the Valar|
+
 
 ### Varda
 
