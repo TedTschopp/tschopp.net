@@ -269,13 +269,13 @@ This is a believer who is a part of the formal religion around the deity.  They 
 
 #### The Secular Vocations
 
-#### Deities and Religions as Warrior Patrons
+##### Deities and Religions as Warrior Patrons
 A warrior might get a deity patron to protect a group of believers in doing something.  This could be as simple guard duty at a shrine that houses a priceless relic.  This could be a crusade.  This could be escorting collections from the various shrines to the temple.
 
-#### Deities as Wizard Patrons
+##### Deities as Wizard Patrons
 A wizard might get a deity patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the deity, this could become a big problem quickly.  The recommendation is to avoid this relationship.
 
-#### Deities as Thief Patrons
+##### Deities as Thief Patrons
 A thief might get a deity patron.  The alignment of the deity and the thief needs to match, and the Thief needs to be a believer.  The thief would get his orders from the religious hierarchy and not from the deity itself.  This means that the thief needs to trust the hierarchy.
 
 **Roles in the Guild**
@@ -317,7 +317,7 @@ Con artists: Someone who specializes in building and exploiting confidence.
 Pickpocket: Someone who specializes in stealing possessions off of a victims body without their awareness.  May require coordination of a Lookout / Distraction.
 Shadower: Follows targets to gain information
 
-#### Level 0 Occupations
+##### Level 0 Occupations
 Some deities might consider some occupations as unclean.  This might be for many reasons.  I have included a table below based on some historical moral issues and monopolies some religions have had on certain domains.  Please consider this for each religion you create. 
 
 Occupation|Morality|Monopoly
@@ -357,10 +357,10 @@ Vagrant|Might be considered illegal|
 Wizard’s apprentice|Might be considered demon worship| 
 {: .well .table .table-striped}
 
-#### The Unreached
+##### The Unreached
 These are people who have never heard anything about a given deity or religious system of practice.  
 
-#### The Anathematized
+##### The Anathematized
 These are people who have heard about the religion and have rejected it.  They may be formal enemies or they may be 
 
 
