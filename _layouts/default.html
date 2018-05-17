@@ -439,7 +439,7 @@
                             {% if post.categories contains "Draft" %}
                                 <!-- Do Nothing -->
                             {% else %}
-                                {% increment count %}
+                                {% assign count = count | plus: 1 %}
                                 {% if count > 6 %}
                                     {% break %}
                                 {% endif %}
