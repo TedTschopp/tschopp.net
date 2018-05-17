@@ -445,11 +445,11 @@
                                 {% endif %}
                               <li>
                                 {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                                <a href="{{ post.url }}">{{ post.title }} <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
+                                <a href="{{ post.url }}">{{ post.title }} <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }} -->
                                 </a>
                                 {% if forloop.first %}
-                                <p>{{ post.content |truncatehtml | truncatewords: 20 }}</p>
-                                {% endif %} -->
+                                <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                                {% endif %}
                               </li>
                             {% endif %}
                     {% endfor %}
@@ -482,11 +482,11 @@
                     {% for post in posts-drafts limit:5 %}
                       <li>
                         {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                        <a href="{{ post.url }}">{{ post.title }} <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}
+                        <a href="{{ post.url }}">{{ post.title }} <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}-->
                         </a>
                         {% if forloop.first %}
-                        <p>{{ post.content |truncatehtml | truncatewords: 20 }}</p>
-                        {% endif %} -->
+                        <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                        {% endif %} 
                       </li>
                     {% endfor %}
                     </ul>
