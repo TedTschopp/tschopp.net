@@ -33,3 +33,11 @@ figcaption {
 	display: block;
 }
 
+
+.rules::before {
+	font-weight: bold;
+	content: "Rules: ";
+	text-transform: uppercase;
+	display: block;
+}
+

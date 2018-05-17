@@ -252,9 +252,6 @@ How does one become a believer?
 
 #### The Sacred Vocations
 
-##### The Believer
-These are people who believe in deity.  They pray and make oaths in the name of this deity. 
-
 ##### The Pastor
 This is a believer who is a part of the formal religion around the deity.  They are focused on helping other believers.  In game terms they are a cleric that gets at least an additional +1 bonus on spells and assisting people who are also believers of the deity. In exchange for this bonus, they get at least a -1 to all people whose alignment is one step away, and at least a -2 to all people whose alignment is opposed.
 
@@ -269,14 +266,42 @@ This is a believer who is a part of the formal religion around the deity.  They 
 
 #### The Secular Vocations
 
-##### Deities and Religions as Warrior Patrons
+##### The Believer
+These are people who believe in deity.  They pray and make oaths in the name of this deity.  They however do not have a Sacred Bond with a Patron deity.  They can however have a bond with a deity. 
+
+<div markdown="1">
+
+**Divine aid:** As a devout worshipper, a believer is entitled to beseech his deity for divine aid.  The believer does not have spells, the ability to turn the unholy, or the ability to heal, so any such request must be recognized as an extraordinary act. To request divine aid, the believer makes a spell check at the same modifier that would apply were he casting a spell.  This extraordinary act imparts a cumulative +10 penalty in the event of a failure to future disapproval range. Based on the result of the spell check, the judge will describe the result. Simple requests (e.g., light a candle) are DC 10 and extraordinary requests (e.g., summon and control a living column of flame) are DC 18 or higher.
+
+**Turn unholy:** A believer wields his faith to turn away abominations. At any time, a believer may utilize a spell check to deter unholy creatures. An unholy creature is any being that the believer’s scriptures declare unholy. As with all spell checks, the turn unholy spell check is made as follows: 1d20 + Personality modifier + caster level + deity approval rating.  Failure increases disapproval range.
+
+**Sacrifices:** A cleric may make sacrifices to his deity in order to regain favor. Sacrifices vary according to the nature of the deity, but, in general, any offering of material wealth counts. Other acts may count as well, at the discretion of the judge.  Please see the sections on Sin, Absolution, Devotion, and Discipleship.
+
+**Lay on Hands:** These rules are the same, except that the believer must be praying for a creature who is a believer in the same deity or praying for a non-sentient creature that isn't unholy.
+
+**Luck:** A believer’s Luck modifier does not apply all divine aid checks.
+
+</div>
+{: .rules .well}
+
+
+##### Warrior as a believer
 A warrior might get a deity patron to protect a group of believers in doing something.  This could be as simple guard duty at a shrine that houses a priceless relic.  This could be a crusade.  This could be escorting collections from the various shrines to the temple.
 
-##### Deities as Wizard Patrons
+**Roles in the Guild** 
+
+**The Lord:** 
+
+**The Princes:**
+
+
+
+
+##### Wizards as believers
 A wizard might get a deity patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the deity, this could become a big problem quickly.  The recommendation is to avoid this relationship.
 
-##### Deities as Thief Patrons
-A thief might get a deity patron.  The alignment of the deity and the thief needs to match, and the Thief needs to be a believer.  The thief would get his orders from the religious hierarchy and not from the deity itself.  This means that the thief needs to trust the hierarchy.
+##### Thieves as believers
+A thief might be a believer.  The alignment of the deity and the thief needs to match.  Also, there needs to be a great back-story as to how this occurred.  The thief would get his orders from the religious hierarchy and not from the deity itself or the guild.  This means that the thief needs to trust the hierarchy.
 
 **Roles in the Guild**
 
@@ -309,13 +334,19 @@ A thief might get a deity patron.  The alignment of the deity and the thief need
 **Trapsmith:** Specializing in creating, detecting, bypassing and disarming traps (p153 Advanced Players Guide). Teaches how to identify different traps and disarm them. Salvages traps and remakes them.  This role may not have a Deity as a patron.  
 
 **Jobs for people within Thieves guild.**
-Enforcer/ Thug: Ensure protection rackets, to body guard important or skilled Thieves’ Guild members, protect entrances to Thieves’ Guild HQ/ hideout.
-Lookout / Distraction: Ensure that teams working in the field have situational awareness.  They also distract others from the activities the group is engaged in.
-Runner (Courier): Ensures that messages are moved through the Guild. 
-Second story men: Someone who specializes in breaking into a building without leaving any trace.
-Con artists: Someone who specializes in building and exploiting confidence. 
-Pickpocket: Someone who specializes in stealing possessions off of a victims body without their awareness.  May require coordination of a Lookout / Distraction.
-Shadower: Follows targets to gain information
+*Enforcer / Thug:* Ensure protection rackets, to body guard important or skilled Thieves’ Guild members, protect entrances to Thieves’ Guild HQ/ hideout.
+
+*Lookout / Distraction:* Ensure that teams working in the field have situational awareness.  They also distract others from the activities the group is engaged in.
+
+*Runner (Courier):* Ensures that messages are moved through the Guild. 
+
+*Second story men:* Someone who specializes in breaking into a building without leaving any trace.
+
+*Con artists:* Someone who specializes in building and exploiting confidence. 
+
+*Pickpocket:* Someone who specializes in stealing possessions off of a victims body without their awareness.  May require coordination of a Lookout / Distraction.
+
+*Shadower:* Follows targets to gain information
 
 ##### Level 0 Occupations
 Some deities might consider some occupations as unclean.  This might be for many reasons.  I have included a table below based on some historical moral issues and monopolies some religions have had on certain domains.  Please consider this for each religion you create. 
