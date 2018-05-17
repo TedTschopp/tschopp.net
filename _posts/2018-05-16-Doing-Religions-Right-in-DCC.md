@@ -63,7 +63,7 @@ Primates evolved for life in hierarchies. Non-human alpha males are generally mo
 
 Pathogens and parasites threaten survival, and organisms that avoid contact with these contaminants are more likely to survive than their counterparts. The adaptive pressure to make accurate judgments about disease risk is especially strong for a group-living species whose diet includes scavenging, as seems to have been the case for early humans. The uniquely human emotion of disgust seems well-tuned as a “guardian of the mouth” for a highly social and omnivorous species.   "Behavioral immune systems" shows that contamination concerns can be generalized to social practices including being fearful of dissimilar others (e.g., immigrants) and a rejection of people who do not live in accordance with the group’s sacred practices.
 
-#### Minor spectrums
+#### Other spectrums
 
 ##### Liberty
 Liberty (opposite of oppression): coercion by a dominating power or person
@@ -74,25 +74,22 @@ equity/undeservingness (Meindl, Iyer, & Graham, 2017)
 ##### Honesty
 honesty/lying (Hofmann et al., 2014; Iyer, 2010). 
 
-## Religious Patrons
-
-
-
 ## Bonds, Oaths, and Religion
+In ancient times until today the idea of making promises and oaths was a part of everyone's life.  In the past there were heavy religious conotations to this.  Today we can see this in court proceedings and the holding of public office where oaths are still made.  This forme of oath taking has a pattern that is still followed today.  It consists of the following ideas. 
 
 **The Preamble:** Identifies the parties involved in the treaty, the author, the title of the sovereign party, and usually his genealogy. It usually emphasises the greatness of the dominant party by mentioning their epithets as well.
 
-**Prologue:** Lists the deeds already performed by the dominant party on behalf of the vassal. This section would outline the previous relationship the two had up until that point with historical detail and facts.  The dominant party would document previous events in which they did a favor that benefited the vassal. The purpose of this would show that the more powerful group was merciful and giving, therefore, the vassal should obey the stipulations that are presented in the treaty. It discusses the relationship between them as a personal relationship instead of a solely political or religion one. Most importantly in this section, the vassal is agreeing to future obedience for the benefits that he received in the past without deserving them.
+**The Prologue:** Lists the deeds already performed by the dominant party on behalf of the vassal. This section would outline the previous relationship the two had up until that point with historical detail and facts.  The dominant party would document previous events in which they did a favor that benefited the vassal. The purpose of this would show that the more powerful group was merciful and giving, therefore, the vassal should obey the stipulations that are presented in the treaty. It discusses the relationship between them as a personal relationship instead of a solely political or religion one. Most importantly in this section, the vassal is agreeing to future obedience for the benefits that he received in the past without deserving them.
 
-**Stipulations:** Terms to be upheld by the vassal for the life of the treaty; defines how the vassal is obligated and gives more of the legalities associated with the covenant.
+**The Stipulations:** Terms to be upheld by the vassal for the life of the treaty; defines how the vassal is obligated and gives more of the legalities associated with the covenant.
 
-**Divine witness to the treaty:** These usually include the deities or powers that witness the sovereign party and the vassal, but put special emphasis on the deities of the vassal.
+**The Divine witness to the treaty:** These usually include the deities or powers that witness the sovereign party and the vassal, but put special emphasis on the deities of the vassal.
 
-**Blessings and Curses:** Blessings if the stipulations of the treaty are upheld and curses if the stipulations are not upheld. These blessings and curses were generally seen to come from the Sovereign instead of punishment by the dominant party.
+**The Blessings and Curses:** Blessings if the stipulations of the treaty are upheld and curses if the stipulations are not upheld. These blessings and curses were generally seen to come from the Sovereign instead of punishment by the dominant party.
 
-**Provision for regular public statements of affiliation:** Generally a public announcement of affiliation would be made, along with a stated regulatirty.  This would be done to renew the bond and to make the public aware of the commitments. 
+**The Provision for regular public statements of affiliation:** Generally a public announcement of affiliation would be made, along with a stated regulatirty.  This would be done to renew the bond and to make the public aware of the commitments. 
 
-**Sacrificial Meal:** Both parties would share a meal to show their participation in the treaty.  This meal will also most likely be associated the public statements of affiliation as well. 
+**The Sacrificial Meal:** Both parties would share a meal to show their participation in the treaty.  This meal will also most likely be associated the public statements of affiliation as well. 
 
 ### Types of Covenants
 
@@ -187,27 +184,47 @@ But if you keep these words, then may the thousand gods keep you, your wife, you
 
 Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
 
-
-
 ## Sin, Absolution, Devotion, and Discipleship
 
-## Roles in Religion
 
-### The Believer
+{Insert stuff}
 
-### The Pastor
+## Patrons in Religion
+There are seven roles within a religion.  
 
-### The Paladin
+### Roles in Religion
 
-### The Monk
+#### The Unreached
+These are people who have never heard anything about a given diety or religious system of practice.  
 
-### The Missionary
+#### The Anathematized
+These are people who have heard about the religion and have rejected it.  They may be formal enemies or they may be 
 
-## Dieties as Warrior Patrons
+#### The Believer
+These are people who believe in diety.  They pray and make oaths in the name of this diety.  
 
-## Dieties as Wizard Patrons
+#### The Pastor
+This is a believer who is a part of the formal religion around the diety.  They are focused on helping other believers.  In game terms they are a cleric that gets at least an additional +1 bonus on spells and assisting people who are also believers of the diety. In exchange for this bonus, they get at least a -1 to all people whose alignment is one step away, and at least a -2 to all people whose alignment is opposed.
 
-## Dieties as Thief Patrons
+#### The Paladin
+This is a believer who is part of the formal religion around the diety.  They are focused on defending other believers.  In game terms they are a cleric that gets access to forbbiden weapons however they will not have access to as many spells, and the spells they do have access on are those that focus on their own self defence and the defence of the believer.
+
+#### The Monk
+This is a believer who is a part of the formal religion around the diety.  They are focused on studying, meditating, and extending knowledge of their diety and the religion around it.  In game terms they are a cleric that gets at least an addition +2 bonus on spells when they cast when presence of other believers.  If a non-believer is present, they do not get this bonus.  They get an additional +1 bonus if only other monks are present.  They are also limited to spells that focus on the domain of the religion and diety they have bound themselves to.
+
+#### The Missionary
+This is a believer who is a part of the formal relgion around the diety.  They are focused on reaching out to the unreached and the Anathematized.  They recieve at least an additional +2 bonus on spells when they cast them in the presence of their outreach group.  If a non-Missionary believer is present, they do not get this bonus. 
+
+### Non-Cleric Patrons
+
+#### Dieties and Religions as Warrior Patrons
+A warrior might get a diety patron to protect a group of believers in doing something.  This could be as simple guard duty at a shrine that houses a priceless relic.  This could be a crusade.  This could be escorting collections from the various shrines to the temple.
+
+#### Dieties as Wizard Patrons
+A wizard might get a diety patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the diety, this could become a big problem quickly.  The recommendation is to avoid this relationship.
+
+#### Dieties as Thief Patrons
+A thief might get a diety patron.  The alignment of the diety and the thief needs to match, and the Thief needs to be a believer.  The thief would get his orders from the religious hierarchy and not from the diety itself.  This means that the theif needs to trust the hiearchy.  
 
 ## Example - Tolkien's Valar
 
