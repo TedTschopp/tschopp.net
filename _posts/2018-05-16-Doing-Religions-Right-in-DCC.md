@@ -11,7 +11,7 @@ image: 	wp-content/uploads/2018/05/the-valar.jpg
 image-credits: The Valar by Dan Hainsworth https://www.etsy.com/shop/dthains  
 image-credits-title: The Valar
 image-credits-artist: Dan Hainsworth
-image-credits-URL: https://www.etsy.com/shop/dthains  
+image-credits-URL: https://www.etsy.com/shop/dthains
 categories:
   - Role Playing Games
   - DCC

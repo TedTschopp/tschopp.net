@@ -488,24 +488,13 @@
                     <figure>
                     <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
                       <figcaption>
-                        {% if page.image-credits-URL != "" %}
-                            <a href="{{image-credits-URL}}" target="_new">
-                        {% elsif page.image-credits-title !="" %}
-                            "{{image-credits-title}}"
-                        {% elsif page.image-credits-artist != "" %}
-                            &nbsp;by&nbsp;{{image-credits-artist}}
-                        {% elsif page.image-credits-URL != "" %}
-                            </a>
+                        {% if page.image-credits-URL != "" and page.image-credits-title} != "" and page.image-credits-artist !="" %}
+                            <a target="_new" href="{{image-credits-URL}}">"{{image-credits-title}}" by {{image-credits-artist}}
+                        {% elsif page.image-credits != "" %}
+                            {{page.image-credits}}
                         {% else %}
-                          {{ page.image-credits }}
+                            Unknown
                         {% endif %}
-
-
-
-
-                      {{page.image-credits}}
-
-
                       </figcaption>
                     </figure>
 
