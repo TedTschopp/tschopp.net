@@ -220,7 +220,7 @@ But if you keep these words, then may the thousand gods keep you, your wife, you
 
 'Fair shall the end be, though long and hard shall be the road! Say farewell to bondage! But say farewell also to ease! Say farewell to the weak! Say farewell to your treasures! More still shall we make. Journey light: but bring with you your swords! For we will go further than Oromë, endure longer than Tulkas: we will never turn back from pursuit. After Morgoth to the ends of the Earth! War shall he have and hatred undying. But when we have conquered and have regained the Silmarils, then we and we alone shall be lords of the unsullied Light, and masters of the bliss and beauty of Arda. No other race shall oust us!'
 
-Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
+Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë̈ they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
 </div>
 {: .example .well}
 
@@ -238,6 +238,16 @@ How does the deity want believers to show their devotion?
 
 ### Discipleship
 How do believers level and grow in their understanding of the deity?
+
+### The World View
+
+#### Who are we?
+
+#### Where are we?
+
+#### What is wrong?
+
+#### What is the solution?
 
 ### The Calling
 How does one become a believer?
@@ -268,10 +278,86 @@ A warrior might get a deity patron to protect a group of believers in doing some
 A wizard might get a deity patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the deity, this could become a big problem quickly.  The recommendation is to avoid this relationship.
 
 #### Deities as Thief Patrons
-A thief might get a deity patron.  The alignment of the deity and the thief needs to match, and the Thief needs to be a believer.  The thief would get his orders from the religious hierarchy and not from the deity itself.  This means that the thief needs to trust the hierarchy.  
+A thief might get a deity patron.  The alignment of the deity and the thief needs to match, and the Thief needs to be a believer.  The thief would get his orders from the religious hierarchy and not from the deity itself.  This means that the thief needs to trust the hierarchy.
+
+#### Roles in the Guild
+
+**Guild Master:** Sets up policy, dictates targets and decides goals of Thieves’ Guild. What is and isn’t allowed, what areas or people are off limits, dictates how the Thieves’ Guild operates. This person may have a Deity as a patron. 
+
+**Task Master:** Set out jobs, matches up crews for job, matches the right levels and number of thieves to the right jobs, gives briefings and debriefs, helps assess target before a job and helps plan best method and time of theft. Also plans escape plans, escape routes, safe houses and bail money. Also in charge of recruiting people into the fold.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master. 
+
+**Quartermaster:** Issues out standard gear and equipment. Receives and stores it all when job is done. In charge of maintenance of tools and weapons. A standard burglar’s kit could consist of: a black hooded cloak, studded leather armor, sap and dagger, crowbar, rope and pulley, thieves’ tools. Also maintains Thieves’ Guild HQ / hideout. Organizes basic food and drink and beds for thieves in HQ. This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.
+
+**Accountant/ Appraiser:** Launders money, runs the accounts and gold storage. Ensures all parties get their share of the loot and that the Guild gets its cut from each job. Ascertains worth of items - rare antiquities, old paintings and artworks and jewels, gems and jewelery found. Runs the books.   This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.
+
+**Locksmith:** Designs and tests locks, creates thieves tools, skeleton keys, ‘bump’ keys, acid vials, freezing potions and other aids to get through locks.  This role may not have a Deity as a patron.  
+
+**Magician:** Gives magical assessment of the target, their magical capabilities and defenses, small magical aids to help with jobs, assessment of magical items brought back. Scrying and divination to assess target before a job. Shielding and obfuscation to prevent anyone using magic to locate the stolen goods or track the thieves.  This role may not have a Deity as a patron.  
+
+**Melee Combat Training instructor:** Best weapons and techniques to use whilst melee fighting. Emphasis on dirty fighting, small concealable weapons, sneak attacks, improvised weapons and distracting maneuverer that give Guild members time to flee e.g. Smoke sticks, smoke bombs, tangle foot bags, oil and tinder twigs.  This role may not have a Deity as a patron.  
+
+**Ranged Combat Training instructor:** Best weapons and techniques to use whilst in ranged combat. Emphasis on sniping, sneak attacks and distracting maneuverer that give Guild members time to flee. Flaming arrows, arrows with strangely fluted arrow heads (noise makers) for distraction purposes.  This role may not have a Deity as a patron.  
+
+**Information Specialist:** Informant, spy and information network, has many spies distributed amongst beggars, merchants and servants. Collects information to assess target before a job and help plan best method and time of theft. Manages the blackmail section of the Thieves’ Guild.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.  
+
+**Alchemist/ Poisoner/ Potion Master:** Works on poisons and potions. Sleep potions, knockout drops, sedatives, memory blockers (for retrograde amnesia) and tranquilizers. Poisons to fake illness or fake death (to cause a distraction or get out of a jail cell). Poisons to cause a temporary illness (a violently vomiting victim is easily stolen from). Deadly poisons to get rid of problems permanently. Agility potions, healing potions, darkness potions, cats eyes potions (for dark vision or low light vision). Smoke bombs, grease potions to throw off pursuit. This role may not have a Deity as a patron.
+
+**Engineer/Architect/ Bureaucrat:** Has access to floor plans and layout of various buildings, can tell you which walls to break through to get into vaults. Can get members passes and dispensation to go into restricted areas. False papers and cargo inventories for smugglers. Knows who to blackmail / threaten / seduce within the bureaucracy / city to get results.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.  
+
+**Fence and Smuggler:** Get goods into or out of the city without prying eyes or taxes, knows who to bribe or where to unload goods entering or leaving a city, knows what goods will sell in different areas, knows what trade goods are common/legal in one area but uncommon/illegal in another area, knowledge of local roads, waterways and country side - knows where to set up ambushes and highway robbery.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.  
+
+**Disguise master:** Having all sorts of makeup and wigs, many different outfits and uniforms, works closely to the quartermaster/weapons master to make sure the weapons and clothes are appropriate.  This role may not have a Deity as a patron.  
+
+**Trapsmith:** Specializing in creating, detecting, bypassing and disarming traps (p153 Advanced Players Guide). Teaches how to identify different traps and disarm them. Salvages traps and remakes them.  This role may not have a Deity as a patron.  
+
+**Jobs for people within Thieves guild.**
+Enforcer/ Thug: Ensure protection rackets, to body guard important or skilled Thieves’ Guild members, protect entrances to Thieves’ Guild HQ/ hideout.
+Lookout / Distraction: Ensure that teams working in the field have situational awareness.  They also distract others from the activities the group is engaged in.
+Runner (Courier): Ensures that messages are moved through the Guild. 
+Second story men: Someone who specializes in breaking into a building without leaving any trace.
+Con artists: Someone who specializes in building and exploiting confidence. 
+Pickpocket: Someone who specializes in stealing possessions off of a victims body without their awareness.  May require coordination of a Lookout / Distraction.
+Shadower: Follows targets to gain information
 
 ##### Level 0 Occupations
-Are there any occupations that are unclean that might push someone into being Anathematized?
+Some deities might consider some occupations as unclean.  This might be for many reasons.  I have included a table below based on some historical moral issues and monopolies some religions have had on certain domains.  Please consider this for each religion you create. 
+
+Occupation|Morality|Monopoly
+:-----:|:-----:|:-----:
+Butcher|Handling dead animals might be unclean|Deity might have this as their domain
+Alchemist|Might be considered demon worship|Deity might have this as their domain
+Animal trainer| |Deity might have this as their domain
+Apothacarist|Might be considered demon worship|Deity might have this as their domain
+Astrologer|Might be considered demon worship|Deity might have this as their domain
+Barber|Might be considered unclean| 
+Chicken butcher|Handling dead animals might be unclean|Deity might have this as their domain
+Cutpurse|Might be considered illegal| 
+Fortune-teller|Might be considered demon worship|Deity might have this as their domain
+Gambler|Might be considered illegal or immoral| 
+Gongfarmer|Handing of feces might be considered unclean| 
+Grave digger|Handling dead humans might be considered unclean| 
+Guild beggar|Might be considered illegal| 
+Gypsy|Might be considered demon worship| 
+Healer|Might be considered demon worship| 
+Herbalist|Might be considered demon worship| 
+Hunter|Handling dead animals might be unclean| 
+Indentured servant|Might be considered immoral| 
+Jester|Might be considered immoral| 
+Moneylender|Might not be allowed| 
+Mushroom-farmer|Handing of feces might be considered unclean| 
+Outlaw|Might be considered illegal| 
+Rat-catcher|Handling dead animals might be unclean| 
+Scribe| |Deity might have this as their domain
+Shaman|Might be considered demon worship|Deity might have this as their domain
+Slave|Might be considered immoral|Deity might have this as their domain
+Smuggler|Might be considered illegal| 
+Soldier|Might be seen as murder|Deity might have this as their domain
+Squire|Might be seen as assisting a murderer|Deity might have this as their domain
+Tax collector|Might be considered illegal| 
+Urchin|Might be considered illegal| 
+Vagrant|Might be considered illegal| 
+Wizard’s apprentice|Might be considered demon worship| 
+{: .well .table .table-striped}
 
 ##### The Unreached
 These are people who have never heard anything about a given deity or religious system of practice.  
@@ -292,7 +378,7 @@ These are people who have heard about the religion and have rejected it.  They m
 |Profession|Mage / Cleric of Eru|
 |Position|Lord of the Breath of Arda|
 |Title|Ruler of Arda,|
-|Other Titles|Chief of the Valar, The Eldar King, King of the Valar, Vicegerent of Eru, Husband of Varda, Brother of Melkor, First of all Kings, Lord fo the Realm of Arda, Ruler of All that Dwell in Arda.|
+|Other Titles|Chief of the Valar, The Elder King, King of the Valar, Vicegerent of Eru, Husband of Varda, Brother of Melkor, First of all Kings, Lord of the Realm of Arda, Ruler of All that Dwell in Arda.|
 |Epithets|Dearest to Ilúvatar|
 |Domain|Air (sky, wind, weather, sight, empathy, wisdom)|
 |Color|Blue|
@@ -305,30 +391,30 @@ These are people who have heard about the religion and have rejected it.  They m
 |Source of Inspiration|Zeus|
 |Alignment|Good|
 |Description|He appears as a wise King bearded with white hair, clear skin and blue eyes. His robes are rich blue. He carries a blue scepter made of Sapphire|
-|Overview|Manwe is King of the Valar and Morgoth and his wife Varda rivaled him in strength. No Vala stands above him in seniority. Varda and Manwe are bound in enduring love that knows no limts and gives each other strenght and power that equates to more than the sum of their parts.|
+|Overview|Manwë is King of the Valar and Morgoth and his wife Varda rivaled him in strength. No Valar stands above him in seniority. Varda and Manwë are bound in enduring love that knows no limits and gives each other strength and power that equates to more than the sum of their parts.|
 |Symbol|Eagle|
 |Weapons for followers|Sword and Spear|
 |Unholy|Balrogs, Dragons|
 |Powers|Vision, Voice, Authority, Air Spells|
 |Sins against Self|Inability see themselves within Eru's greater plans (Lack of Vision)|
-|Comission sins of Self|Taking the easy path|
-|Omission sins of Self|Not taking the time to comtemplate actions on which decisino to take|
+|Commission sins of Self|Taking the easy path|
+|Omission sins of Self|Not taking the time to contemplate actions on which decision to take|
 |Sins against Others|Inability to find a path of compassion|
-|Comission sins of Others|Harming someone else|
+|Commission sins of Others|Harming someone else|
 |Omission sins of Others|Allowing someone else to get harmed by not getting involved|
-|Morality the diety favors||
+|Morality the deity favors||
 |Care: cherishing and protecting others; opposite of harm||
 |Fairness or proportionality: rendering justice according to shared rules; opposite of cheating||
-|Loyalty or ingroup: standing with your group, family, nation; opposite of betrayal||
+|Loyalty or in group: standing with your group, family, nation; opposite of betrayal||
 |Authority or respect: submitting to tradition and legitimate authority; opposite of subversion||
 |Sanctity or purity: abhorrence for disgusting things, foods, actions; opposite of degradation||
 |Liberty (opposite of oppression): coercion by a dominating power or person||
-|World View of the Diety and their followers||
+|World View of the Deity and their followers||
 |Who are we?||
 |Where are we?||
 |What is wrong?||
 |What is the solution?||
-|What Sacrafices does this diety like?||
+|What Sacrifices does this deity like?||
 |Title for Level 1||
 |Title for Level 2||
 |Title for Level 3||
@@ -339,26 +425,26 @@ These are people who have heard about the religion and have rejected it.  They m
 |Title for Level 8||
 |Title for Level 9||
 |Title for Level 10||
-|1|1 The supplicant realizes that mistakes have been made in the choices made, in not aligning actions with Eru's Music. The supplicant must do nothing but contemplate the sound of the wind and listen for Manwe's voice for the next 10 minutes, starting as soon as he is able (i.e., if in combat, ait until the danger is over).|
-|2|2 The supplicant must pray for forgiveness for a lack of vision and empathy immediately. He must spend at least one hour in prayer, beginning as soon as he is able (i.e., if he is in combat, he can wait until the danger is over). Failure to finish the full hour of prayers within the next 120 minutes is looked upon unfavorably; he incurs a -1 penalty to all spell checks until he completes the full hour.|
-|3|3 The supplicant must serve another one of Eru's Children by listening and counseling them in order to allow them to reach a fuller potential. If the supplicant does not do this by the next sunrise, he takes a -1 penalty to all checks on the following day. This penalty resets after 24 hours.|
+|1|The supplicant realizes that mistakes have been made in the choices made, in not aligning actions with Eru's Music. The supplicant must do nothing but contemplate the sound of the wind and listen for Manwë's voice for the next 10 minutes, starting as soon as he is able (i.e., if in combat, ait until the danger is over).|
+|2|The supplicant must pray for forgiveness for a lack of vision and empathy immediately. He must spend at least one hour in prayer, beginning as soon as he is able (i.e., if he is in combat, he can wait until the danger is over). Failure to finish the full hour of prayers within the next 120 minutes is looked upon unfavorably; he incurs a -1 penalty to all spell checks until he completes the full hour.|
+|3|The supplicant must serve another one of Eru's Children by listening and counseling them in order to allow them to reach a fuller potential. If the supplicant does not do this by the next sunrise, he takes a -1 penalty to all checks on the following day. This penalty resets after 24 hours.|
 |4|The supplicant must teach another one of Eru's children to listen and counsel others teaching them to|
-|5|A Test of the Valar's Principal Emotions / Activities|
-|6|Restore Arda to Eru's vision|
-|7|Simple Doom of the Valar with external and stat consiquences|
-|8|Out of Tune with the Music of the Valar.|
-|9|Give to others in need|
-|10|Rely on your own strength|
-|11|Daily Meditation on the emotional state of the Valar|
-|12|Focusing on the lessons learned in the past|
-|13|Rely on your own strength|
-|14|Build or rebuild something to meet the orignal plan of Eru's|
-|15|The sins of the past hanut you|
-|16|A focus on self instead of on others|
-|17|Out of tune with the music of Eru|
-|18|The light of Eru no longer shines brightly in your face|
-|19|A Mark of Melkor mars your body|
-|20|An enounter with the Valar|
+|5|{A Test of the Valar's Principal Emotions / Activities}|
+|6|{Restore Arda to Eru's vision}|
+|7|{Simple Doom of the Valar with external and stat consequences}|
+|8|{Out of Tune with the Music of the Valar}|
+|9|{Give to others in need}|
+|10|{Rely on your own strength}|
+|11|{Daily Meditation on the emotional state of the Valar}|
+|12|{Focusing on the lessons learned in the past}|
+|13|{Rely on your own strength}|
+|14|{Build or rebuild something to meet the original plan of Eru's}|
+|15|{The sins of the past haunt you}|
+|16|{A focus on self instead of on others}|
+|17|{Out of tune with the music of Eru}|
+|18|{The light of Eru no longer shines brightly in your face}|
+|19|{A Mark of Melkor mars your body}|
+|20|{An encounter with the Valar}|
 {: .well .table .table-striped}
 
 
