@@ -270,7 +270,6 @@ This is a believer who is a part of the formal religion around the deity.  They 
 These are people who believe in deity.  They pray and make oaths in the name of this deity.  They however do not have a Sacred Bond with a Patron deity.  They can however have a bond with a deity. 
 
 <div markdown="1">
-
 **Divine aid:** As a devout worshipper, a believer is entitled to beseech his deity for divine aid.  The believer does not have spells, the ability to turn the unholy, or the ability to heal, so any such request must be recognized as an extraordinary act. To request divine aid, the believer makes a spell check at the same modifier that would apply were he casting a spell.  This extraordinary act imparts a cumulative +10 penalty in the event of a failure to future disapproval range. Based on the result of the spell check, the judge will describe the result. Simple requests (e.g., light a candle) are DC 10 and extraordinary requests (e.g., summon and control a living column of flame) are DC 18 or higher.
 
 **Turn unholy:** A believer wields his faith to turn away abominations. At any time, a believer may utilize a spell check to deter unholy creatures. An unholy creature is any being that the believer’s scriptures declare unholy. As with all spell checks, the turn unholy spell check is made as follows: 1d20 + Personality modifier + caster level + deity approval rating.  Failure increases disapproval range.
@@ -280,8 +279,6 @@ These are people who believe in deity.  They pray and make oaths in the name of 
 **Lay on Hands:** These rules are the same, except that the believer must be praying for a creature who is a believer in the same deity or praying for a non-sentient creature that isn't unholy.
 
 **Luck:** A believer’s Luck modifier does not apply all divine aid checks.
-
-</div>
 {: .rules .well}
 
 
