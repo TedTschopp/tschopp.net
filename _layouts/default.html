@@ -436,7 +436,7 @@
                     <ul>
                         {% assign count = 0 %}
                         {% for post in site.posts %}
-                            {% count = count +1 %}
+                            {% increment count %}
                             {% if count == 6 %}
                                 {% break %}
                             {% endif %}
