@@ -359,6 +359,7 @@ These are people who have heard about the religion and have rejected it.  They m
 |18|The light of Eru no longer shines brightly in your face|
 |19|A Mark of Melkor mars your body|
 |20|An enounter with the Valar|
+{: .well .table .table-striped}
 
 
 ### Varda
