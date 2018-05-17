@@ -283,6 +283,7 @@ These are people who have heard about the religion and have rejected it.  They m
 ## Example - Tolkien's Valar
 
 ### Manwë
+
 |Name | Value | 
 | --:|:--- |
 |Name|Manwë|
