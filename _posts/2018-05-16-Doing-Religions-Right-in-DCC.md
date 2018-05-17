@@ -53,4 +53,44 @@ Every role playing game that I have ever run into with the exception of Dogs in 
 
 ### The Missionary
 
+## Dieties as Warrior Patrons
+
+## Dieties as Wizard Patrons
+
+## Dieties as Thief Patrons
+
+## Example - Tolkien's Valar
+
+### Manwë
+
+### Varda
+
+### Ulmo
+
+### Aulë
+
+### Yavanna
+
+### Námo
+
+### Oromë
+
+### Nienna
+
+### Melkor
+
+### Irmo
+
+### Tulkas
+
+### Estë
+
+### Vairë
+
+### Vána
+
+### Nessa
+
+## Example - Gorhan	& Justicia
+
 
