@@ -41,6 +41,8 @@ Every role playing game that I have ever run into with the exception of Dogs in 
 
 ## Bonds, Oaths, and Religion
 
+## Sin, Absolution, Devotion, and Discipleship
+
 ## Roles in Religion
 
 ### The Believer
