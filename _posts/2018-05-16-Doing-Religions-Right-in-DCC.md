@@ -63,7 +63,7 @@ Primates evolved for life in hierarchies. Non-human alpha males are generally mo
 
 Pathogens and parasites threaten survival, and organisms that avoid contact with these contaminants are more likely to survive than their counterparts. The adaptive pressure to make accurate judgments about disease risk is especially strong for a group-living species whose diet includes scavenging, as seems to have been the case for early humans. The uniquely human emotion of disgust seems well-tuned as a “guardian of the mouth” for a highly social and omnivorous species.   "Behavioral immune systems" shows that contamination concerns can be generalized to social practices including being fearful of dissimilar others (e.g., immigrants) and a rejection of people who do not live in accordance with the group’s sacred practices.
 
-#### Minor spectrums.
+#### Minor spectrums
 
 ##### Liberty
 Liberty (opposite of oppression): coercion by a dominating power or person
@@ -76,7 +76,118 @@ honesty/lying (Hofmann et al., 2014; Iyer, 2010).
 
 ## Religious Patrons
 
+
+
 ## Bonds, Oaths, and Religion
+
+**The Preamble:** Identifies the parties involved in the treaty, the author, the title of the sovereign party, and usually his genealogy. It usually emphasises the greatness of the dominant party by mentioning their epithets as well.
+
+**Prologue:** Lists the deeds already performed by the dominant party on behalf of the vassal. This section would outline the previous relationship the two had up until that point with historical detail and facts.  The dominant party would document previous events in which they did a favor that benefited the vassal. The purpose of this would show that the more powerful group was merciful and giving, therefore, the vassal should obey the stipulations that are presented in the treaty. It discusses the relationship between them as a personal relationship instead of a solely political or religion one. Most importantly in this section, the vassal is agreeing to future obedience for the benefits that he received in the past without deserving them.
+
+**Stipulations:** Terms to be upheld by the vassal for the life of the treaty; defines how the vassal is obligated and gives more of the legalities associated with the covenant.
+
+**Divine witness to the treaty:** These usually include the deities or powers that witness the sovereign party and the vassal, but put special emphasis on the deities of the vassal.
+
+**Blessings and Curses:** Blessings if the stipulations of the treaty are upheld and curses if the stipulations are not upheld. These blessings and curses were generally seen to come from the Sovereign instead of punishment by the dominant party.
+
+**Provision for regular public statements of affiliation:** Generally a public announcement of affiliation would be made, along with a stated regulatirty.  This would be done to renew the bond and to make the public aware of the commitments. 
+
+**Sacrificial Meal:** Both parties would share a meal to show their participation in the treaty.  This meal will also most likely be associated the public statements of affiliation as well. 
+
+### Types of Covenants
+
+#### Parity Covenant
+
+Both parties are equal and bound under the covenant
+
+##### Example: Laben and Jacob bind their families together as equals
+
+Laben said, "Let us make a covenant, you and I. And let it be a witness between you and me."
+
+So So Jacob took a stone and set it up as a pillar. 
+
+Jacob said to Laben, "Gather stones." 
+
+And so they took stones and made a heap, 
+
+And they ate there by the heap. 
+
+Laban called it Jegar-sahadutha, which means "A heap of Witnesses" in his language.
+
+Jacob called it Galeed which means "A heap of Witnesses" in his language.  Laban said, “This heap is a witness between you and me today.” 
+
+Together they called it "Watchpost" 
+
+Laben said "The Lord watch between us, when we are out of one another's sight. If you oppress my daughters, or if you take wives besides my daughters, although no one is with us, see, God is witness between you and me."
+
+#### Promissory Covenant
+
+This is the type of covenant in which two parties establish a new relationship to guarantee future performance of stipulated obligations.
+
+##### Example: Josiah Restores the Temple
+
+Now the king sent them to gather all the elders of the country and the capital to him.  The king went up to the top of the mountain where the Temple was with all the men of country, and with him all the inhabitants of the capital—the priests and the prophets and all the people, both small and great. And the King read in their hearing all the words of the Book of the Covenant which had been found in the Temple.
+
+
+Then the king stood by a pillar and made a covenant before the Lord, to follow the Lord and to keep His commandments and His testimonies and His statutes, with all his heart and all his soul, to perform the words of this covenant that were written in this book. And all the people took a stand for the covenant.
+
+#### Patron Covenant
+
+The more powerful party gives something to the lesser
+
+##### Example: Land Grant
+
+Whosoever in later days of the brethren, sons, family, relatives, or household of Bit-Ada, there be anyone who shall rise up and shall put forward a claim concerning that land, or shall cause one to be put forward, or shall say: ‘The land was not a gift!’ or shall say ‘The seal was not sealed,’ whether he be a future head of the House or Bit-Ada, or a governor of Bit-ada, or a prefect of Bit-Ada, or an administrator of Bit-ada, or an official of Bit-Ada, or an agent or other future official of Bit-Ada who shall be appointed: and shall say: "The land was not measured,’ or shall say ‘The Seal was not sealed’ or shall present this land to a god, or shall appropriate it for himself, or its limit, boundary, or boundry-stone shall alter, or curtailment or diminution in land shall bring about, may all the jofs who are upon this stone, and all whose names are mentioned, curse him with a curse that cannot be loosened!"
+
+Example: Abram
+
+#### Suzerainty Covenant 
+
+One party is more powerful than the other and demands things of the weaker
+
+##### Example ‘Treaty of Mursilis II of Hatti and Niqmepa of Ugarit’:
+
+**The Preamble:** Thus says the Sun, Mursilis, Great King, King of Hatti.
+
+**Prologue:** As for you, Niqmepa, I brought you back to your country and made you sit as king on the throne of your father
+
+**Stipulations:** The country to which I brought you back and you, Niqmepa, along with your country, you are my servants, and you, Niqmepa, from now on into the days of the future shall be faithful to the king of Hatti, your Lord, and the land of Hatti, and as you, Niqmepa, hold your person, your wife, your army and your country dear, so shall the person of the king, the sons of the king and the land of Hatti be forever dear to you. In days to come keep this pact of friendship with the king of Hatti, the sons of the king, the grandsons of the king and with Hatti! 
+
+Now come before the king at the appointed time! When I summon you to the court, come! And if you keep not the appointed time of your coming, report to me what hindered you! 
+
+To my friend you are friend and to my enemy you are enemy. If the king of Hatti is engaged with Hanigalbat or Egypt or the border of your country, which are enemies of the king of Hatti, or any of the countries which are near the border of your country which are friends of the king of Hatti, (Mukish , Aleppo, Nuhassi, turn about and make war on the king of Hatti as the king of Hatti is setting out on campaign, then, if you, Niqmepa, with your army (and) your chariots be not faithful with all your heart and if you do not do battle with all your heart, and if the son of the king or the chief general with his army and his chariots, Niqmepa, …against another country I send you in a campaign….
+
+**Divine witness to the treaty:** Aruna [the God of the Sea], Ellel [the of the Sky, Treaties, and Oath], the gods of the Habiru [these are rebels, outlaws, raiders, mercenaries, bowmen, servants, slaves, and laborers that lived between the Hittites and the Egyptians], and Telepinus [the Hittite of farmers.  A storm God who is worshiped at an Oak tree.] are witnesses to this sworn treaty, every word of the sworn treaty which this tablet records.
+
+**Blessings and Curses:** If Niqmepa does not keep the words of this sworn treaty, may these divine oaths destroy Niqmepa himself utterly together with his wife, his sons, his city, his country and all his possessions. But if Niqmepa keeps the words of the sworn treaty which this tablet records, then may the divine oaths keep him together with his wife, his sons, his city, his country and all his possessions.
+
+##### Example ‘Treaty of Muwatallis and Alaksandus of Wilusa’
+
+**The Preamble****:**These are the words of the Sun, Muwatallis, the Great King, King of the land of Hatti, Beloved of the Weather-God
+
+**Prologue:** When, in former times Labarnas, my grandfather, attacked the land of Wilusa, he conquered it.  The Land of Wilusa never after fell away from the land of Hatti, but remained friends with the king of Hatti.
+
+**Stipulations:** Thou, Alaksandus, shalt protect the Sun as a friend!  If anyone says an unfriendly word about the Sun and you keep it secret from the Sun then you, Alaksandus, sin before the oath of the gods; let the oath of the gods harry you!
+
+**Blessings and Curses:** If thou, Alaksandus, break the words of this document, which are placed on this document, then may these oaths wipe thee out and wipe thy seed from the face of the earth.
+
+But if you keep these words, then may the thousand gods keep you, your wife, your sons with friendly hand.
+
+**Divine witness to the treaty:** The Sun God of heaven, lord of the lands, Shepherd of men, the Sun Goddess of Arinna, the Queen of the lands, the Weather-God
+
+**Provision for regular public statements of affiliation:** Moreover, let someone read thee this tablet which I have made for thee three times every year.
+
+##### Exmaples in Middle-earth					
+
+'Why, O people of the Noldor, why should we longer serve the jealous Valar, who cannot keep us nor even their own realm secure from their Enemy? And though he be now their foe, are not they and he of one kin? Vengeance calls me hence, but even were it otherwise I would not dwell longer in the same land with the kin of my father's slayer and of the thief of my treasure. Yet I am not the only valiant in this valiant people. And have ye not all lost your King? And what else have ye not lost, cooped here in a narrow land between the mountains and the sea?
+
+'Here once was light, that the Valar begrudged to Middle-earth, but now dark levels all. Shall we mourn here deedless for ever, a shadow-folk, mist-haunting, dropping vain tears in the thankless sea? Or shall we return to our home? In Cuiviénen sweet ran the waters under unclouded stars, and wide lands lay about, where a free people might walk. There they lie still and await us who in our folly forsook them. Come away! Let the cowards keep this city!'
+
+'Fair shall the end be, though long and hard shall be the road! Say farewell to bondage! But say farewell also to ease! Say farewell to the weak! Say farewell to your treasures! More still shall we make. Journey light: but bring with you your swords! For we will go further than Oromë, endure longer than Tulkas: we will never turn back from pursuit. After Morgoth to the ends of the Earth! War shall he have and hatred undying. But when we have conquered and have regained the Silmarils, then we and we alone shall be lords of the unsullied Light, and masters of the bliss and beauty of Arda. No other race shall oust us!'
+
+Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
+
+
 
 ## Sin, Absolution, Devotion, and Discipleship
 
