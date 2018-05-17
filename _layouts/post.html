@@ -487,7 +487,15 @@
                         -->
                     <figure>
                     <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
-                      <figcaption>{{page.image-credits}}</figcaption>
+                      <figcaption>
+                        {% if page.image-credits-URL or page.image-credits-title %}
+                            <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}
+                        {% elsif page.image-credits %}
+                            {{page.image-credits}}
+                        {% else %}
+                            Unknown
+                        {% endif %}
+                      </figcaption>
                     </figure>
 
     	            <hr>
