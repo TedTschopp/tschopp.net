@@ -490,14 +490,14 @@
                       <figcaption>
                         {% if page.image-credits-URL != "" %}
                             <a href="{{image-credits-URL}}" target="_new">
-                        {% if page.image-credits-title !="" %}
+                        {% elsif page.image-credits-title !="" %}
                             "{{image-credits-title}}"
                         {% elsif page.image-credits-artist != "" %}
                             &nbsp;by&nbsp;{{image-credits-artist}}
                         {% elsif page.image-credits-URL != "" %}
                             </a>
                         {% else %}
-                          {{page.image-credits}}
+                          {{ page.image-credits }}
                         {% endif %}
 
 
