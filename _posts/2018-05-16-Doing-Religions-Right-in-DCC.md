@@ -279,7 +279,7 @@ These are people who believe in deity.  They pray and make oaths in the name of 
 **Lay on Hands:** These rules are the same, except that the believer must be praying for a creature who is a believer in the same deity or praying for a non-sentient creature that isn't unholy.
 
 **Luck:** A believer’s Luck modifier does not apply all divine aid checks.
-{: .rules .well}
+</div>{: .rules .well}
 
 
 ##### Warrior as a believer
