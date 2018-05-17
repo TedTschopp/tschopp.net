@@ -78,9 +78,10 @@
             {% else %}
             {% endif %}
     {% endif %}
-    <!-- Webmentions.io -->
-    <link rel="pingback" href="https://webmention.io/www.tedt.org/xmlrpc" />
-    <link rel="webmention" href="https://webmention.io/www.tedt.org/webmention" />
+
+    <!-- Webmentions -->
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+
 
 
 
@@ -401,17 +402,17 @@
             <div class="col-lg-8">
 	            <!-- Blog Post -->
 
-                <article>
+                <article class="h-entry">
     	            <!-- Title -->
-    	            <h1>{{ page.title }}</h1>
+    	            <h1 class="p-name">{{ page.title }}</h1>
 
-    	            <!-- Author -->
-    	            <p class="lead">by {{page.author}}</p>
+    	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
+    	            <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.siteurl }}">{{page.author}}</a></p>
 
     	            <hr>
 
     	            <!-- Date/Time -->
-                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}">
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
                         {% assign d = page.date | date: "%-d" %}
                         {% assign m = page.date | date: "%B" %}
                         {% assign dy = page.date | date: "%A" %}
@@ -456,7 +457,7 @@
                     {% else %}
                         {% assign categories = page.categories %}
                     {% endif %}
-                    {% for category in categories %}
+                    {% for category in categories %}<span class="p-category">
                         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
                         {% if forloop.length == 1 %}
                             {{thiscategory}}
@@ -469,8 +470,10 @@
                         {% endif %}
                         {% if thiscategory == "draft" or thiscategory == "Draft" %}
                             {% assign this_is_a_draft = true %}
-                        {% endif %}
-                    {% endfor %}</br></p>
+                        {% endif %}</span>
+                    {% endfor %}</br>
+
+                    <span class="hidden aria-hidden u-url">{{ site.siteurl }}{{ page.url }}</span></p>
 
     	            <hr>
 
@@ -633,7 +636,7 @@
 
 
     	            <!-- Post Content -->
-    	            {{ content }}
+    	            <span class="e-content">{{ content }}</span>
 
     	            <hr>
                 </article>
@@ -681,6 +684,22 @@
  
                 <hr>
 
+
+                <div class="well">
+                    <script id="webmention-hosted">
+                    (function () {
+                    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+                    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+                    url = url && url[0] ? url[0].href : false;
+                    sn.type = "text/javascript"; sn.async = true;
+                    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+                    s.parentNode.insertBefore(sn, s);
+                    }());
+                    </script> 
+               </div>
+
+                <hr>
+
 	            <!-- Blog Comments -->
 	            <!-- Comments Form -->
 	            <div class="well">
@@ -707,6 +726,7 @@
 
 
                 <!--<div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>-->
+
 
                 <hr>
 
