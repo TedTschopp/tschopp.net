@@ -445,7 +445,8 @@
                         
                         on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
 
-                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Updated: <time datetime="{{page.update}}" class="aria-hidden hidden dt-update">{{page.update}}</time> <time datetime="{{page.update}}">
+                    {% if page.update %}
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Updated: <time datetime="{{page.update}}" class="aria-hidden hidden dt-update">{{page.update}}</time> <time datetime="{{page.update}}">
                         {% assign d = page.update | date: "%-d" %}
                         {% assign m = page.update | date: "%B" %}
                         {% assign dy = page.update | date: "%A" %}
@@ -477,6 +478,7 @@
                         {%endcase%}
                         
                         on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
+                        {% endif %}
 
                     <!-- TODO: Do a good design on this.  Perhaps remove Category -->
                     <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
