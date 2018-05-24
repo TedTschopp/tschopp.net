@@ -31,37 +31,92 @@ draft-status: notes
 
 # Notes
 
-Every role playing game that I have ever run into with the exception of Dogs in the Vineyard has done religions wrong in role playing games.  These are my notes on how to get DCC closer to a relgious system that works for a believer and a role player.   
+Every role playing game that I have ever run into with the exception of Dogs in the Vineyard has done religions wrong in role playing games.  These are my notes on how to get Dungeon Crawl Classic (DCC) closer to a religious system that works for a believer and a role player.   
 
 
 # Religion in DCC
+very role playing game that I have ever run into with the exception of Dogs in the Vineyard has done religions wrong in role playing games.  This is my attempt to close several gaps.  The first is the gap in Role Playing Games in General.  The second is to close the gap in DCC.  I believe that DCC addresses many of the gaps in role playing games already, but leaves open a huge hole in patrons and deities.  This is my attempt to address these gaps.
 
-## Morality of Good and Evil
-One of the first questions you need to address in building a religion and a deity for your game is the question of good vs. evil or order vs. chaos.  In Dungeon Crawl Classic (DCC) the spectrum is order vs. chaos.  This is a very post-modern approach to classifying religions which is under 75 years old.  The more classical approach is good vs. evil when it comes to religious struggles.  However the question remains open, what makes something good or evil.  What makes something ordered or chaotic.  These questions have been studied by psychologists and anthropologists for many years.  There are at least 6 major flavors of morality that are universal, and uncounted number of minor flavors.  Everyone puts a different emphasis on these domains and collectively a Moral System codifies their practices and beliefs.  Not everyone who follows a religion has the same mix of flavors, however over time as a group people within a religion tend to move towards a consensus regarding these different aspects. 
+## The Deity 
+My view of a deity in a Role Playing Game is an NPC who serves the purpose of the story and provides power and limitations to those powers to magic users.  These two aspects need to be balanced with the intention of allowing players to have fun.  
 
-Formally a Moral system is the interlocking set of values, virtues, norms, practices, identities, institutions, technology, and evolved psychological mechanisms that work together to suppress or regulate self-interest and make cooperation possible.
+I would also stress that the creation of a deity is probably something a player should work out with their Judge.  I can see running through this set of rules focusing on a given mythology or religion and ending up with very different views of the same deity.  These rules are not going to reproduce a complete cultural and religious framework, they are only there to help the player and the judge come up with answers to problems presented within the narrative. 
 
-### Care or Empathy
+### Morality of Good and Evil
+One of the first questions you need to address in building a religion and a deity for your game is the question of good vs. evil or order vs. chaos.  In DCC the spectrum is law vs. chaos.  This is a very post-modern approach to classifying religions which is under 75 years old.  The more classical approach is good vs. evil when it comes to religious conflicts.  The reason that law vs. chaos was introduced is that good vs. evil doesn't really address the question of what makes something good or evil or what makes something lawful or chaotic.  
+
+Role players are not the only people who have attempted to address these questions.  Psychologists and anthropologists have studied these questions for many years.  The model presented below is a variation of Moral Foundation theory by Jonathan Haidt.  It  states that there are at least 6 major flavors of morality that are universal, and there are uncounted number of minor flavors.  Everyone puts a different emphasis on these domains and collectively a Moral System codifies their practices and beliefs.  Not everyone who follows a religion has the same mix of flavors, however over time as a group people within a religion tend to move towards a consensus regarding these different aspects. 
+
+Formally a moral system is the interlocking set of values, virtues, norms, practices, identities, institutions, technology, and evolved psychological mechanisms that work together to suppress or regulate self-interest and make cooperation possible.
+
+What we will attempt to do here is to use this theory to start to document the nuanced differences between two different deities within a DCC game. 
+
+With each moral foundation you will rank (+2, +1, 0)how the deity feels about that given aspect of morality.  You will then give several examples of what provokes the deity to anger and why the deity values their position.  
+
+For an example, I will be using Manwë from Tolkien's Silmarillion.
+
+<div markdown="1">
+**Description**
+Manwë is King of the Valar and Morgoth and his wife Varda are the only ones who rival him in strength.  No Valar stands above him in seniority. Varda, his spouse, and Manwë are bound in enduring love that knows no limits and gives each other strength and power that equates to more than the sum of their parts.  
+
+Manwë appears as a wise King bearded with white hair, clear skin and blue eyes. His robes are rich blue. He carries a blue scepter made of Sapphire.  
+
+Manwë's powers are from the air, seeing, his voice, and his authority as the King of the Valar.  Eagles are his friends.  
+</div>
+{: .example .well}
+
+#### Care or Empathy
 
 Cherishing and protecting others; opposite of harm.
 
 Mammals have an unusually long period of development during which they are dependent upon their caretakers. Therefore, caretakers who were more sensitive to the needs and distress of their children were more likely to have children survive into adulthood. This sensitivity generalizes beyond our own children, and can be activated when we learn of other people’s children or even see artwork of animal babies that activate our urges to care and protect.  This can be linked to anger toward the perpetrator of the harm.
 
-This domain is the primary domain for progressives.
+Note: This domain is the primary domain for political progressives.
 
-### Fairness or Proportionality
+<div markdown="1">
+**Manwë**
+As King of the Valar, Manwë is keen on seeing that everyone reaches their full potential and purpose.  This is the defintion of moral goodness for the Valar, to fufill the purpose for which you were created.  
+
+Care: +1
+Harm: -1
+Manwë wishes to see his followers cared for and not see harm come to them, however he is also a realist who takes Eru's long view of things and allows for temporary harm in the service of some greater purpose.
+
+* Manwë does not like to see people take the easy way out.
+* Manwë does not like it when people deviate from their purpose
+* Manwë does not like it when people act do not consider their purpose or design when making decisions
+* Manwë likes it when people show empathy for others
+* Manwë likes it when people help others to understand their purpose in life
+
+</div>
+{: .example .well}
+
+#### Fairness or Proportionality
 
 Rendering judgment according to shared rules; opposite of cheating.
 
 All social animals interact with each other, and while there are debates as to whether any non-human animals have a sense of “fairness”, there is little debate that the sense of fairness can be found across human cultures emerges well before the age of five, and possibly before the age of one and is related to the evolutionary process of reciprocal altruism. People monitor the behavior and reputations of others; those linked to cheating become less attractive as partners for future interactions. 
 
-### Loyalty or In-group
+<div markdown="1">
+**Manwë**
+As King of the Valar, Manwë is the final authority and judge within the Valar, there are other Valar whose job it is to judge and measure the Children of Eru.   
+
+Fairness: 0
+cheating: -1
+Manwë will allow the other Valar to judge the children of Eru.  However he abhors cheating as it is a way of taking the easy way out. 
+
+* Manwë does not like to see people take the easy way out.
+* Manwë does not like it when people cheat each other
+
+</div>
+{: .example .well}
+
+#### Loyalty or In-group
 
 Standing with your group, family, nation; opposite of betrayal.
 
 There are finite resources and coalitions compete for these resources. The coalitions that are most cohesive tend to prevail over less cohesive rival coalitions.  The intuitions generated by this foundation generalize to brand loyalty, political partisanship, and sports fandom today. When people show signs of being disloyal, they are labeled as traitors and may be ostracized from their groups, or even put to death (e.g., treason is an offense punishable by death in the US). When people are loyal group members, they are extolled as virtuous (e.g., as patriots).
 
-### Authority or Respect
+#### Authority or Respect
 
 Submitting to tradition and legitimate authority; opposite of subversion.
 
@@ -69,13 +124,13 @@ This is the traditional model in role playing games of lawful vs. chaos where ch
 
 Primates evolved for life in hierarchies. Non-human alpha males are generally more like bullies than like leaders. Human alphas can go either way, but there can be little doubt that the psychology of authority is essential for understanding human political behavior. Groups and companies that have clear lines of authority, in which the authority is respected and seen as legitimate, generally function better than leaderless or normless groups, or groups with autocratic and domineering leadership. People who do not respect authorities or traditions are often ostracized or punished for insubordination.
 
-### Sanctity or Purity
+#### Sanctity or Purity
 
 Abhorrence for disgusting things, foods, actions; opposite of degradation.
 
 Pathogens and parasites threaten survival, and organisms that avoid contact with these contaminants are more likely to survive than their counterparts. The adaptive pressure to make accurate judgments about disease risk is especially strong for a group-living species whose diet includes scavenging, as seems to have been the case for early humans. The uniquely human emotion of disgust seems well-tuned as a “guardian of the mouth” for a highly social and omnivorous species.   "Behavioral immune systems" shows that contamination concerns can be generalized to social practices including being fearful of dissimilar others (e.g., immigrants) and a rejection of people who do not live in accordance with the group’s sacred practices.
 
-### Liberty or sovereignty
+#### Liberty or sovereignty
 
 Disgust for the coercion by a dominating power or person; opposite of oppression.
 
@@ -83,12 +138,12 @@ Evolved in response to the adaptive challenge of living in small groups with ind
 
 This foundation operates in tension with the Authority / Respect Foundation.  
 
-This domain is the primary domain of libertarians. 
+This domain is the primary domain of political libertarians. 
 
-### Other Foundations
+#### Other Foundations
 There are a great many other sorts of morality that can be measured.  The above are the big ones.  The following are examples of things that can also be measured as well within humans.  Feel free to create your own.
 
-#### Equity or Justice
+##### Equity or Justice
 
 Ensuring that equality instead of fairness is used to render justice according to shared rules.  Opposite of Grace. 
 
@@ -96,14 +151,11 @@ This is justice over judgment.  This is law over forgiveness.
 
 This foundation operates in tension with the Fairness or Proportionality and is a different take on the results observed in that domain.  The focus here is insuring that the law is always kept.  
 
-#### Honesty or Integrity
+##### Honesty or Integrity
 
 Does communication match reality as seen from an impartial omniscient observer; opposite of Lying.
 
-
-
-
-## Bonds, Oaths, and Religion
+### Bonds, Oaths, and Religion
 In ancient times until today the idea of making promises and oaths was a part of everyone's life.  In the past there were heavy religious connotations to this.  Today we can see this in court proceedings and the holding of public office where oaths are still made.  This form of oath taking has a pattern that is still followed today.  It consists of the following ideas. 
 
 **The Preamble:** Identifies the parties involved in the treaty, the author, the title of the sovereign party, and usually his genealogy. It usually emphasizes the greatness of the dominant party by mentioning their epithets as well.
@@ -120,7 +172,7 @@ In ancient times until today the idea of making promises and oaths was a part of
 
 **The Sacrificial Meal:** Both parties would share a meal to show their participation in the treaty.  This meal will also most likely be associated the public statements of affiliation as well. 
 
-#### Parity Covenant
+##### Parity Covenant
 
 Both parties are equal and bound under the covenant
 
@@ -147,7 +199,7 @@ Laben said "The Lord watch between us, when we are out of one another's sight. I
 </div>
 {: .example .well}
 
-#### Promissory Covenant
+##### Promissory Covenant
 
 This is the type of covenant in which two parties establish a new relationship to guarantee future performance of stipulated obligations.
 
@@ -160,7 +212,7 @@ Then the king stood by a pillar and made a covenant before the Lord, to follow t
 </div>
 {: .example .well}
 
-#### Patron Covenant
+##### Patron Covenant
 
 The more powerful party gives something to the lesser
 
@@ -172,7 +224,7 @@ Whosoever in later days of the brethren, sons, family, relatives, or household o
 {: .example .well}
 
 
-#### Suzerainty Covenant 
+##### Suzerainty Covenant 
 
 One party is more powerful than the other and demands things of the weaker
 
@@ -214,34 +266,8 @@ But if you keep these words, then may the thousand gods keep you, your wife, you
 </div>
 {: .example .well}
 
-#### Examples in Middle-earth					
-<div markdown="1">
-'Why, O people of the Noldor, why should we longer serve the jealous Valar, who cannot keep us nor even their own realm secure from their Enemy? And though he be now their foe, are not they and he of one kin? Vengeance calls me hence, but even were it otherwise I would not dwell longer in the same land with the kin of my father's slayer and of the thief of my treasure. Yet I am not the only valiant in this valiant people. And have ye not all lost your King? And what else have ye not lost, cooped here in a narrow land between the mountains and the sea?
-
-'Here once was light, that the Valar begrudged to Middle-earth, but now dark levels all. Shall we mourn here deedless for ever, a shadow-folk, mist-haunting, dropping vain tears in the thankless sea? Or shall we return to our home? In Cuiviénen sweet ran the waters under unclouded stars, and wide lands lay about, where a free people might walk. There they lie still and await us who in our folly forsook them. Come away! Let the cowards keep this city!'
-
-'Fair shall the end be, though long and hard shall be the road! Say farewell to bondage! But say farewell also to ease! Say farewell to the weak! Say farewell to your treasures! More still shall we make. Journey light: but bring with you your swords! For we will go further than Oromë, endure longer than Tulkas: we will never turn back from pursuit. After Morgoth to the ends of the Earth! War shall he have and hatred undying. But when we have conquered and have regained the Silmarils, then we and we alone shall be lords of the unsullied Light, and masters of the bliss and beauty of Arda. No other race shall oust us!'
-
-Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë̈ they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
-</div>
-{: .example .well}
-
 ## The Religious Journey
 {Insert stuff}
-
-### The Sin Chain
-How does sin escalate with the deity?  
-
-### The Path to Absolution 
-How does sin get forgiven with the deity?
-
-### Devotion
-How does the deity want believers to show their devotion?
-
-### Discipleship
-How do believers level and grow in their understanding of the deity?
-
-
 
 ### The Calling
 How does one become a believer?
@@ -292,15 +318,15 @@ A warrior might get a deity patron to protect a group of believers in doing some
 
 **Quartermaster:** Issues out standard gear and equipment. Receives and stores it all when job is done. In charge of maintenance of tools and weapons. A standard warrior's kit could consist of: a uniform, cloak, backpack, bedroll, rations, studded leather armor, short sword and shield, and a whetstone. Also maintains Guild's chapter house. Organizes basic food and drink and beds for those who stay at the HQ. This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.
 
-**Accountant:** Runs the accounts and gold storage. Ensures all parties get their share of the paymet for jobs and that the Guild gets its cut from each job. Runs the books.   This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.
+**Accountant:** Runs the accounts and gold storage. Ensures all parties get their share of the payment for jobs and that the Guild gets its cut from each job. Runs the books.   This person may have a Deity as a patron, but only if it is the same patron as the Guild Master.
 
 **Melee Combat Training instructor:** Best weapons and techniques to use whilst melee fighting. Emphasis on fighting as a military unity.   This role may not have a Deity as a patron.  
 
 **Ranged Combat Training instructor:** Best weapons and techniques to use whilst in ranged combat. Emphasis on supporting melee units in grouped combat.  This role may not have a Deity as a patron.  
 
-**Information Specialist:**  This person is the liason officer to the spy network that a patron might have.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master and the spy network.
+**Information Specialist:**  This person is the liaison officer to the spy network that a patron might have.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master and the spy network.
 
-**Engineer:** This indivdual specializes in the bulding of combat related buildings while in the field.  They also specialize in building bridges and other affordances to cross difficult terrain quicker.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master. 
+**Engineer:** This individual specializes in the building of combat related buildings while in the field.  They also specialize in building bridges and other accordances to cross difficult terrain quicker.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master. 
 
 **Jobs for people within warrior guilds.**
 *Guard / cop:* These warriors patrol a given area and protect it for their patron.  They may also protect defensive structures such as the headquarters, city walls, official buildings, or even jails.  Also guards may be assigned to caravans, barges, or boats. 
@@ -409,6 +435,24 @@ These are people who have never heard anything about a given deity or religious 
 
 ##### The Anathematized
 These are people who have heard about the religion and have rejected it.  They may be formal enemies or they may be 
+
+### The Life of the Called
+
+#### Devotion
+How does the deity want believers to show their devotion?
+
+#### Discipleship
+How do believers level and grow in their understanding of the deity?
+
+#### The Sin Chain
+How does sin escalate with the deity?  
+
+#### The Path to Absolution 
+How does sin get forgiven with the deity?
+
+
+
+
 
 ### The Organization
 
@@ -535,7 +579,20 @@ These are people who have heard about the religion and have rejected it.  They m
 
 ### Nessa
 
-## Example - DCC Dieties
+### Examples of bonds in Middle-earth					
+<div markdown="1">
+'Why, O people of the Noldor, why should we longer serve the jealous Valar, who cannot keep us nor even their own realm secure from their Enemy? And though he be now their foe, are not they and he of one kin? Vengeance calls me hence, but even were it otherwise I would not dwell longer in the same land with the kin of my father's slayer and of the thief of my treasure. Yet I am not the only valiant in this valiant people. And have ye not all lost your King? And what else have ye not lost, cooped here in a narrow land between the mountains and the sea?
+
+'Here once was light, that the Valar begrudged to Middle-earth, but now dark levels all. Shall we mourn here deedless for ever, a shadow-folk, mist-haunting, dropping vain tears in the thankless sea? Or shall we return to our home? In Cuiviénen sweet ran the waters under unclouded stars, and wide lands lay about, where a free people might walk. There they lie still and await us who in our folly forsook them. Come away! Let the cowards keep this city!'
+
+'Fair shall the end be, though long and hard shall be the road! Say farewell to bondage! But say farewell also to ease! Say farewell to the weak! Say farewell to your treasures! More still shall we make. Journey light: but bring with you your swords! For we will go further than Oromë, endure longer than Tulkas: we will never turn back from pursuit. After Morgoth to the ends of the Earth! War shall he have and hatred undying. But when we have conquered and have regained the Silmarils, then we and we alone shall be lords of the unsullied Light, and masters of the bliss and beauty of Arda. No other race shall oust us!'
+
+Then Fëanor swore a terrible oath. His seven sons leapt straightway to his side and took the selfsame vow together, and red as blood shone their drawn swords in the glare of the torches. They swore an oath which none shall break, and none should take, by the name even of Ilúvatar, calling the Everlasting Dark upon them if they kept it not; and Manwë̈ they named in witness, and Varda, and the hallowed mountain of Taniquetil, vowing to pursue with vengeance and hatred to the ends of the World Vala, Demon, Elf or Man as yet unborn, or any creature, great or small, good or evil, that time should bring forth unto the end of days, whoso should hold or take or keep a Silmaril from their possession.
+</div>
+{: .example .well}
+
+
+## Example - DCC Deities
 
 ### Gorhan
 
