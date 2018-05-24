@@ -403,6 +403,7 @@ A warrior might get a deity patron to protect a group of believers in doing some
 **Engineer:** This individual specializes in the building of combat related buildings while in the field.  They also specialize in building bridges and other accordances to cross difficult terrain quicker.  This person may have a Deity as a patron, but only if it is the same patron as the Guild Master. 
 
 **Jobs for people within warrior guilds.**
+
 *Guard / cop:* These warriors patrol a given area and protect it for their patron.  They may also protect defensive structures such as the headquarters, city walls, official buildings, or even jails.  Also guards may be assigned to caravans, barges, or boats. 
 
 *Bodyguard:* Generally a Guard who has been promoted to protect a given individual.  This can be in the form of an official honor guard or as a personal assistant. 
@@ -443,6 +444,7 @@ A thief might be a believer.  The alignment of the deity and the thief needs to 
 **Trapsmith:** Specializing in creating, detecting, bypassing and disarming traps. Teaches how to identify different traps and disarm them. Salvages traps and remakes them.  This role may not have a Deity as a patron.  
 
 **Jobs for people within Thieves guild.**
+
 *Enforcer / Thug:* Ensure protection rackets, to body guard important or skilled Thieves’ Guild members, protect entrances to Thieves’ Guild HQ/ hideout.
 
 *Lookout / Distraction:* Ensure that teams working in the field have situational awareness.  They also distract others from the activities the group is engaged in.
