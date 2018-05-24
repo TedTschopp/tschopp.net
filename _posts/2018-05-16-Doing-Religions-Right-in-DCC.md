@@ -1,6 +1,7 @@
 ---
 title: Doing Religions Right in DCC
 date: 2018-05-16T17:37:12-07:00
+update: 2018-05-23T16:44:34-07:00
 author: Ted Tschopp
 description: 
 excerpt: |
@@ -296,7 +297,11 @@ A warrior might get a deity patron to protect a group of believers in doing some
 
 
 ##### Wizards as believers
-A wizard might get a deity patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the deity, this could become a big problem quickly.  The recommendation is to avoid this relationship.
+A wizard might get a deity patron however, this is very rare.  The Wizard takes power from another power source and uses it to their own ends.  Depending on the moral composition of the deity, this could become a big problem quickly.  The recommendation is to avoid this relationship.  However if you wish to proceed, the following needs to be taken into account.
+
+* A Believer submits their will to the diety.  Thus a believe's patron bond will be one that places the diety above themselves.
+* A Wizard's shapes reality to match their own will using power from their diety.  Thus a believer's patron bond will be one that places the diety at the same level of the believer or it will place the believer above that of the patron.  
+* A diety that has certain moral values around Authority or Liberty will place heavy burdens on the wizard as by defintion the patron is an NPC with power only limited by the needs the story the judge is telling.
 
 ##### Thieves as believers
 A thief might be a believer.  The alignment of the deity and the thief needs to match.  Also, there needs to be a great back-story as to how this occurred.  The thief would get his orders from the religious hierarchy and not from the deity itself or the guild.  This means that the thief needs to trust the hierarchy.
