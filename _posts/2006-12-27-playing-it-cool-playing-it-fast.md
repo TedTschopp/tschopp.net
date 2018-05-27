@@ -2,8 +2,10 @@
 id: 487
 title: Playing it Cool, Playing it Fast!
 date: 2006-12-27T23:50:07+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/12/27/playing-it-cool-playing-it-fast/
 permalink: /2006/12/27/playing-it-cool-playing-it-fast/
 categories:

@@ -2,8 +2,10 @@
 id: 467
 title: Safari on Windows - Apple's Smart Client Play
 date: 2007-06-19T00:28:18+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/06/19/safari-on-windows-apples-smart-client-play/
 permalink: /2007/06/19/safari-on-windows-apples-smart-client-play/
 categories:

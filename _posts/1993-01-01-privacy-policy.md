@@ -2,8 +2,10 @@
 id: 1993010101
 title: Privacy Policy
 date: 1993-01-01T08:41:00+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/1993/01/01/privacy-policy/
 permalink: /1993/01/01/privacy-policy/
 categories:

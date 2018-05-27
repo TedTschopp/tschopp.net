@@ -2,8 +2,10 @@
 id: 231
 title: Program - Currently Listening to now live
 date: 2004-05-21T09:43:20+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2004/05/21/currently_liste/
 permalink: /2004/05/21/currently_liste/
 categories:

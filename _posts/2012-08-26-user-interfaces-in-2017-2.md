@@ -2,8 +2,10 @@
 id: 1053
 title: User Interfaces in 2017
 date: 2012-08-26T17:38:23+00:00
-author: Ted Tschopp
-excerpt: With the release of the Mac Book this year that included a high resolution monitor, I have been thinking a lot about user interfaces and their future.
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpgexcerpt: With the release of the Mac Book this year that included a high resolution monitor, I have been thinking a lot about user interfaces and their future.
 layout: post
 guid: http://tschopp.net/2012/08/26/user-interfaces-in-2017-2/
 permalink: /2012/08/26/user-interfaces-in-2017-2/

@@ -2,8 +2,10 @@
 id: 454
 title: Moving to the Mac
 date: 2008-04-13T22:54:26+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2008/04/13/moving-to-the-mac/
 permalink: /2008/04/13/moving-to-the-mac/
 categories:

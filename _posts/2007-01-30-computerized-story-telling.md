@@ -2,8 +2,10 @@
 id: 476
 title: Computerized Story Telling
 date: 2007-01-30T00:34:46+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/01/30/computerized-story-telling/
 permalink: /2007/01/30/computerized-story-telling/
 categories:

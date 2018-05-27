@@ -2,8 +2,10 @@
 id: 298
 title: Communion of the Saints in the Age of the Internet
 date: 2008-03-16T18:39:33+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2008/03/16/communion-of-th/
 permalink: /2008/03/16/communion-of-th/
 categories:

@@ -2,8 +2,10 @@
 id: 1030
 title: A New Keyboard
 date: 2011-12-16T06:34:33+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://tedtschopp.wordpress.com/?p=1030
 permalink: /2011/12/16/a-new-keyboard/
 tagazine-media:

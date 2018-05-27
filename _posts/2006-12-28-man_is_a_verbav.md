@@ -2,8 +2,10 @@
 id: 106
 title: Man is a Verbavore
 date: 2006-12-28T17:55:10+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/12/28/man_is_a_verbav/
 permalink: /2006/12/28/man_is_a_verbav/
 categories:

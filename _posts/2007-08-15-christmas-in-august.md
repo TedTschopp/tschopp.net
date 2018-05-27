@@ -2,8 +2,10 @@
 id: 464
 title: Christmas in August&#8230;
 date: 2007-08-15T21:59:18+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/08/15/christmas-in-august/
 permalink: /2007/08/15/christmas-in-august/
 categories:

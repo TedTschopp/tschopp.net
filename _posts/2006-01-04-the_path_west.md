@@ -2,8 +2,10 @@
 id: 171
 title: The Path West
 date: 2006-01-04T14:22:11+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/01/04/the_path_west/
 permalink: /2006/01/04/the_path_west/
 categories:

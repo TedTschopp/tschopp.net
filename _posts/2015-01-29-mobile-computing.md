@@ -2,8 +2,10 @@
 id: 1428
 title: Mobile Computing
 date: 2015-01-29T12:17:59+00:00
-author: Ted Tschopp
-excerpt: |
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpgexcerpt: |
   The trend in computing is to be more and more personable.  When you went from a mainframe to a PC, what was compelling about that was that it was accessible to more people. Then from a desktop to a laptop, it was not just accessible to more people, but accessible in more places.  And this was the beginning of mobile computing.
 layout: post
 guid: http://tschopp.net/?p=1428

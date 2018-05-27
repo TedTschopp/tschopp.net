@@ -2,8 +2,10 @@
 id: 180
 title: Hell and Christianity
 date: 2005-10-24T14:05:54+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2005/10/24/hell_and_christ/
 permalink: /2005/10/24/hell_and_christ/
 categories:

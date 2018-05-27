@@ -2,8 +2,10 @@
 id: 198
 title: What's Playing on KROQ
 date: 2005-04-15T09:42:50+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2005/04/15/whats_playing_o/
 permalink: /2005/04/15/whats_playing_o/
 categories:

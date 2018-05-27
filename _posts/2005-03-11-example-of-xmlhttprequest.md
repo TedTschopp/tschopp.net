@@ -2,8 +2,10 @@
 id: 536
 title: Example of XMLHttpRequest
 date: 2005-03-11T01:49:55+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2005/03/11/example-of-xmlhttprequest/
 permalink: /2005/03/11/example-of-xmlhttprequest/
 categories:

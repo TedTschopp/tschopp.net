@@ -2,8 +2,10 @@
 id: 969
 title: Edison International Portal - Corporate Portal
 date: 2006-03-13T16:55:12+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: http://tschopp.net/?p=969
 permalink: /2006/03/13/edison-international-portal-corporate-portal/
 categories:

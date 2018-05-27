@@ -2,8 +2,10 @@
 id: 502
 title: Step 1 - Reply by Chat
 date: 2006-06-01T21:33:53+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/06/01/step-1-reply-by-chat/
 permalink: /2006/06/01/step-1-reply-by-chat/
 categories:

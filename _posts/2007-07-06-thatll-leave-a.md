@@ -2,8 +2,10 @@
 id: 321
 title: That'll Leave a Mark
 date: 2007-07-06T18:31:28+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/07/06/thatll-leave-a/
 permalink: /2007/07/06/thatll-leave-a/
 categories:

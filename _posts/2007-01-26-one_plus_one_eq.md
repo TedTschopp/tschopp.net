@@ -2,8 +2,10 @@
 id: 87
 title: One Plus One Equals Three for Very Large Values of One
 date: 2007-01-26T12:49:19+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/01/26/one_plus_one_eq/
 permalink: /2007/01/26/one_plus_one_eq/
 categories:

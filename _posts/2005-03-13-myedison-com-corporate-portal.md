@@ -2,8 +2,10 @@
 id: 983
 title: MyEdison.com - Corporate Portal
 date: 2005-03-13T19:37:44+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: http://tschopp.net/?p=983
 permalink: /2005/03/13/myedison-com-corporate-portal/
 categories:

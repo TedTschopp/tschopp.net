@@ -2,8 +2,10 @@
 id: 501
 title: Microsoft teams with Creative Commons or Common Corporate Mistakes
 date: 2006-06-23T23:50:37+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
 permalink: /2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
 categories:

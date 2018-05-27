@@ -2,8 +2,10 @@
 id: 470
 title: Too many feeds&#8230;
 date: 2007-06-07T18:53:36+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2007/06/07/too-many-feeds/
 permalink: /2007/06/07/too-many-feeds/
 categories:

@@ -2,8 +2,10 @@
 id: 972
 title: Corporate Intranet Redesign
 date: 2004-03-13T16:58:14+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: http://tschopp.net/?p=972
 permalink: /2004/03/13/corporate-intranet-redesign/
 categories:

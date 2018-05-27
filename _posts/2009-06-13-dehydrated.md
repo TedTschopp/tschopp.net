@@ -2,8 +2,10 @@
 id: 291
 title: Dehydrated
 date: 2009-06-13T12:06:54+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2009/06/13/dehydrated/
 permalink: /2009/06/13/dehydrated/
 image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1.png

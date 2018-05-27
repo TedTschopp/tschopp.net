@@ -2,8 +2,10 @@
 id: 506
 title: A Little Calendar App I'm building ][
 date: 2006-04-27T19:58:13+00:00
-author: Ted Tschopp
-layout: post
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
 guid: https://www.tedt.org/2006/04/27/a-little-calendar-app-im-building/
 permalink: /2006/04/27/a-little-calendar-app-im-building/
 categories:
