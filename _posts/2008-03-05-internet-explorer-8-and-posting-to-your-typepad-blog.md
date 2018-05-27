@@ -70,9 +70,11 @@ Here is the code that will make it work in Typepad:
   * Create a new HTML file
   * Name it typepad.html
   * Put the following code in the html file:
+
 ~~~html
   <A href=”javascript:window.external.addService(‘http://www.tschopp.net/typepad.xml’);”>Click Here</a>
 ~~~
+
   * Replace my URL with the URL to the XML file you created above
   * Save file
   * Upload File to Typepad
