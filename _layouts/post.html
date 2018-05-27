@@ -520,6 +520,8 @@
                         and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
 
                         -->
+
+                    {% if page.image %}
                     <figure>
                     <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
                       <figcaption>
@@ -532,6 +534,7 @@
                         {% endif %}
                       </figcaption>
                     </figure>
+                    {% endif %}
 
     	            <hr>
 
