@@ -12,26 +12,8 @@ excerpt: |
 
 layout: post
 
-guid: http://tschopp.net/?p=1428
+guid: e456bbe4-6b84-41ce-b307-68e2e2869fe6
 permalink: /2015/01/29/mobile-computing/
-publicize_facebook_url:
-  - https://facebook.com/10152529262640044
-publicize_google_plus_url:
-  - https://plus.google.com/100123883403754468788/posts/U1nMUoLBgdL
-geo_public:
-  - "1"
-geo_longitude:
-  - "-118.082854"
-publicize_linkedin_url:
-  - ""
-publicize_twitter_url:
-  - http://t.co/oEjlvSQgzW
-publicize_twitter_user:
-  - TedTschopp
-geo_address:
-  - Rosemead, CA, USA
-geo_latitude:
-  - "34.047205"
 image: /wp-content/uploads/2015/01/7348035690_d483c5e3e0_o.jpg
 categories:
   - Computers

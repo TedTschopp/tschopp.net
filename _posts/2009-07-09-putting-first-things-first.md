@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2009/07/09/putting-first-things-first/
+guid: 39d83599-6538-47bf-ad4b-415a0426b359
 permalink: /2009/07/09/putting-first-things-first/
 image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-12-47-pm.png
 categories:

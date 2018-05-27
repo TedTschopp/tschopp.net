@@ -407,7 +407,9 @@
     	            <h1 class="p-name">{{ page.title }}</h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-    	            <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.siteurl }}">{{page.author}}</a></p>
+                    {% for author in page.author %}
+    	               <p class="lead">by <a rel="author" class="p-author h-card" href="{{ author.url }}">{{author.name}}</a></p>
+                    {% endfor %}
 
     	            <hr>
 

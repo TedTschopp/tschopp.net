@@ -8,12 +8,8 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://tedtschopp.wordpress.com/?p=1035
+guid: 306b8f7b-3d49-4c6c-806b-eb1b4c72f58d
 permalink: /2011/12/24/android-is-knotts-berry-farm-as-ios-is-to-disneyland/
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:65:"https://www.tedt.org/2011/12/20111224-091119.jpg";s:6:"images";a:1:{s:65:"https://www.tedt.org/2011/12/20111224-091119.jpg";a:6:{s:8:"file_url";s:65:"https://www.tedt.org/2011/12/20111224-091119.jpg";s:5:"width";s:3:"240";s:6:"height";s:3:"363";s:4:"type";s:5:"image";s:4:"area";s:5:"87120";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"1";s:6:"author";s:8:"13062753";s:7:"blog_id";s:8:"13665242";s:9:"mod_stamp";s:19:"2011-12-24 17:12:25";}'
-twitter_cards_summary_img_size:
-  - 'a:7:{i:0;i:1414;i:1;i:2100;i:2;i:2;i:3;s:26:"width="1414" height="2100"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}'
 image: /wp-content/uploads/2013/06/main-street-disney-mickey-statue-e1371582793846.jpg
 categories:
   - Computers

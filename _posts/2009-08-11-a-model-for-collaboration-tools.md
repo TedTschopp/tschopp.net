@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2009/08/11/a-model-for-collaboration-tools/
+guid: d2917662-5d88-4ebb-8b7a-f4c86949bec0
 permalink: /2009/08/11/a-model-for-collaboration-tools/
 image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-04-09-pm.png
 categories:

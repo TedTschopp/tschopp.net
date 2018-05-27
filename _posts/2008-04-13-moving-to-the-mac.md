@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/04/13/moving-to-the-mac/
+guid: d1449d92-cde6-40f3-a68c-532d2d5fdcd3
 permalink: /2008/04/13/moving-to-the-mac/
 categories:
   - Computers

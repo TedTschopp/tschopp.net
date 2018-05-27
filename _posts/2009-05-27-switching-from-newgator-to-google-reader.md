@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2009/05/27/switching-from-newgator-to-google-reader/
+guid: c7bd5507-0ed9-48b7-bef6-ba31a37796fe
 permalink: /2009/05/27/switching-from-newgator-to-google-reader/
 categories:
   - Web

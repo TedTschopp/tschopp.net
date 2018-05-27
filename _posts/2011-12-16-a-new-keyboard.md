@@ -8,20 +8,8 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://tedtschopp.wordpress.com/?p=1030
+guid: 2ff999c5-2e4b-4689-85d1-6e24dc035dc1
 permalink: /2011/12/16/a-new-keyboard/
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:8:"13062753";s:7:"blog_id";s:8:"13665242";s:9:"mod_stamp";s:19:"2011-12-16 14:34:33";}'
-publicize_facebook_url:
-  - https://facebook.com/10151653874420044
-publicize_twitter_user:
-  - TedTschopp
-publicize_twitter_url:
-  - http://t.co/bubAmRPJd6
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=525370&stype=M&topic=5802804302791577600&type=U&a=15bm'
-twitter_cards_summary_img_size:
-  - 'a:7:{i:0;i:628;i:1;i:416;i:2;i:2;i:3;s:24:"width="628" height="416"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}'
 image: /wp-content/uploads/2013/06/timthumb.jpeg
 categories:
   - Computers

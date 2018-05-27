@@ -14,18 +14,8 @@ excerpt: |
 
 layout: post
 
-guid: http://tschopp.net/?p=1348
+guid: 0704acdf-a373-4c5b-b27f-c20ef7a392ec
 permalink: /2013/11/27/html5-javascript-version-of-of-windows/
-gplus_authorship_disabled:
-  - "1"
-publicize_facebook_url:
-  - https://facebook.com/10151706800980044
-publicize_twitter_user:
-  - TedTschopp
-publicize_twitter_url:
-  - http://t.co/aZvJWk5Fv6
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=525370&stype=M&topic=5811592820674281472&type=U&a=eDw2'
 image: /wp-content/uploads/2013/11/javascript.jpg
 categories:
   - Computers

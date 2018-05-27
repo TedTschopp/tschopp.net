@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/09/01/thoughts-on-nar/
+guid: 42c85abf-76c2-47b2-b0c9-2130800d2697
 permalink: /2008/09/01/thoughts-on-nar/
 categories:
   - Books

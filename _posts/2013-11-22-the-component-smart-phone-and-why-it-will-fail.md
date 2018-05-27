@@ -11,16 +11,8 @@ excerpt: 'Today TechCruch covered a direction Motorola is taking with a project 
 
 layout: post
 
-guid: http://tschopp.net/?p=1338
+guid: 8f2896e6-5f4b-41db-86b2-a0fd90897a59
 permalink: /2013/11/22/the-component-smart-phone-and-why-it-will-fail/
-publicize_facebook_url:
-  - https://facebook.com/10151696320105044
-publicize_linkedin_url:
-  - 'http://www.linkedin.com/updates?discuss=&scope=525370&stype=M&topic=5809753820560883712&type=U&a=fdIc'
-publicize_twitter_user:
-  - TedTschopp
-publicize_twitter_url:
-  - http://t.co/21OPIYGQce
 image: /wp-content/uploads/2013/11/modules-283e329ee51bbee11f4765c3501e7d1b.jpg
 categories:
   - Computers

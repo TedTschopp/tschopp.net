@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2009/07/17/four-is-the-new-three/
+guid: 9b29b1f8-66f5-435b-a0a6-36b104dc6f82
 permalink: /2009/07/17/four-is-the-new-three/
 image: /wp-content/uploads/2013/06/four-is-the-new-three.png
 categories:

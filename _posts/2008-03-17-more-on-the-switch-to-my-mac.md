@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/03/17/more-on-the-switch-to-my-mac/
+guid: fdacab89-38c6-4625-93ff-54094a9fbd56
 permalink: /2008/03/17/more-on-the-switch-to-my-mac/
 categories:
   - Computers

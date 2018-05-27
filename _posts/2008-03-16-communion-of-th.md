@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/03/16/communion-of-th/
+guid: c84b3746-3f7e-4bdf-991e-5212b567ce4e
 permalink: /2008/03/16/communion-of-th/
 categories:
   - Current Affairs

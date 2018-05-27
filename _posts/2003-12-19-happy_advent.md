@@ -8,7 +8,14 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2003/12/19/happy_advent/
+description: |
+   What does Advent mean to you?  What is that sense of yearning and longing we all have for something.   
+excerpt: |
+   What does Advent mean to you?  What is that sense of yearning and longing we all have for something.   
+seo_description: |
+   What does Advent mean to you?  What is that sense of yearning and longing we all have for something.   
+
+guid: 898e542e-db14-4355-ba6d-cddb4ac5b148
 permalink: /2003/12/19/happy_advent/
 categories:
   - Religion

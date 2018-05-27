@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2009/07/08/thoughts-on-corporate-collaboration-tools/
+guid: fe15202c-5003-4886-8c40-3a1a6e469a5a
 permalink: /2009/07/08/thoughts-on-corporate-collaboration-tools/
 categories:
   - Collaboration

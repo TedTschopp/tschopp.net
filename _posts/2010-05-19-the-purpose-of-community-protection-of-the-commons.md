@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2010/05/19/protection-of-the-commons-the-purpose-of-community/
+guid: 501175c6-692e-46de-9ae5-ca1b3a4e7690
 permalink: /2010/05/19/the-purpose-of-community-protection-of-the-commons/
 image: /wp-content/uploads/2013/06/russell-crowe-as-robin-hood-robin-hood-2010-movie.jpg
 categories:
