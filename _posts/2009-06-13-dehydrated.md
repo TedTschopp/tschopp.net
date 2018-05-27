@@ -10,7 +10,7 @@ image: /wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1.png
 categories:
   - Fiction
 ---
-I was asked to put together a short story describing someone in a world not unlike the one presented to us in X-Files or Fringe. This is the first draft after about 60 minutes of work. Perhaps I&#8217;ll do more in the future. The story is titled Dehydrated.
+I was asked to put together a short story describing someone in a world not unlike the one presented to us in X-Files or Fringe. This is the first draft after about 60 minutes of work. Perhaps I'll do more in the future. The story is titled Dehydrated.
 
 * * *
 
@@ -90,6 +90,6 @@ I pulled up in front of the house and started to walk through the front yard. I 
 
 The red of the flowers, the black branches…
 
-[<img class="alignright size-thumbnail wp-image-1147" alt="Screen Shot 2013-06-12 at 4.26.36 PM" src="https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1.png?w=150" width="150" height="150" srcset="https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1.png 1574w, https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1-150x150.png 150w, https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1-300x300.png 300w, https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1-768x768.png 768w, https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1-1024x1024.png 1024w" sizes="(max-width: 150px) 100vw, 150px" />](https://www.tedt.org/wp-content/uploads/2013/06/screen-shot-2013-06-12-at-4-26-36-pm1.png)I only found out many years later what Alice went through. But I remember that day like it was this morning. My eyes opened for the first time. I had seen something that wasn’t human and it wasn’t normal. It is growing in my front yard right now. But those eyes, whatever it was it had connected with me. In the end, Alice changed me. I now see the world as a very interesting and unusual place. In my line of work, I see many crazy and unusual things. The only thing that really scares me these days is the quacks and the crazies. The ones who ‘want’ to believe. There is no great conspiracy, no great meaning as these people see it.
+I only found out many years later what Alice went through. But I remember that day like it was this morning. My eyes opened for the first time. I had seen something that wasn’t human and it wasn’t normal. It is growing in my front yard right now. But those eyes, whatever it was it had connected with me. In the end, Alice changed me. I now see the world as a very interesting and unusual place. In my line of work, I see many crazy and unusual things. The only thing that really scares me these days is the quacks and the crazies. The ones who ‘want’ to believe. There is no great conspiracy, no great meaning as these people see it.
 
 But you didn’t come here looking for a lecture on Philosophy or Psychology. You came here to understand that bump in the night. I’m here to tell you that the bump you heard, it’s a little girl just as frightened as you, she trembles when you slam the doors and make loud noises. All she is looking for is for someone to call her beautiful.

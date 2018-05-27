@@ -9,25 +9,12 @@ permalink: /2004/03/13/corporate-intranet-redesign/
 categories:
   - Projects
   - Work
+image: wp-content/uploads/2011/02/edna-sce-com_1-768x779.png
+image-credits: SCE Intranet by Ted Tschopp  
 ---
-<div id="attachment_793" style="width: 157px" class="wp-caption alignright">
-  <a href="wp-content/uploads/2011/02/edna-sce-com_1.png"><img class="size-thumbnail wp-image-793  " title="Southern California Edison Intranet" src="wp-content/uploads/2011/02/edna-sce-com_1.png?w=147" alt="" width="147" height="150" srcset="wp-content/uploads/2011/02/edna-sce-com_1.png 771w, wp-content/uploads/2011/02/edna-sce-com_1-296x300.png 296w, wp-content/uploads/2011/02/edna-sce-com_1-768x779.png 768w" sizes="(max-width: 147px) 100vw, 147px" /></a>
-  
-  <p class="wp-caption-text">
-    SCE Intranet
-  </p>
-</div>
+**Overview:** This project was a quick hit for Corporate Communications.  The idea here was to do something with our old design which had been around for 7 years and come up with something that incorporated the new *Building the Future* branding, as well as tie it into the branding for the Edison Family of Web sites.  This branding for the project was also to straddle the gap between our ERP Portal solution and old branding.  Scope included  a home page redesign, and 7 different templates, two menuing systems, an AJAX RSS reader, and content wells to act like “portlets”.  Also covered was the employee directory and paging system, the two highest used applications at the company.
 
-<span style="font-size:13px;font-weight:normal;"><strong>Overview:</strong> This project was a quick hit for Corporate Communications.  The idea here was to do something with our old design which had been around for 7 years and come up with something that incorporated the new <em>Building the Future</em> branding, as well as tie it into the branding for the Edison Family of Web sites.  This branding for the project was also to straddle the gap between our ERP Portal solution and old branding.  Scope included  a home page redesign, and 7 different templates, two menuing systems, an AJAX RSS reader, and content wells to act like “portlets”.  Also covered was the employee directory and paging system, the two highest used applications at the company.</span>
 
-<div>
-  <div>
-    <p>
-      <strong>Technology Used:</strong> HTML, XML, RSS, AJAX, Perl, Netscape Web Server, Sybase database.
-    </p>
-    
-    <p>
-      <strong>Role: </strong>Engineer and Developer
-    </p>
-  </div>
-</div>
+**Technology Used:** HTML, XML, RSS, AJAX, Perl, Netscape Web Server, Sybase database
+
+**Role:** Engineer and Developer
