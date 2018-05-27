@@ -19,7 +19,7 @@ I downloaded IE8 today and noticed it had a new way to post to Microsoft’s blo
 
 Here is the code that will make it work in Typepad:
 
-~~~
+~~~xml
 <?xml version="1.0" encoding="utf-8" ?>
 <openServiceDescription xmlns="<http://www.microsoft.com/schemas/openservicedescription/1.0>&#8220;>
 <homepageUrl>http://www.typepad.com/t/app</homepageUrl>
