@@ -16,11 +16,15 @@ webrick:
     My-Header: My-Value
     My-Other-Header: My-Other-Value
 
-
 timezone: America/Los_Angeles
 
 
 # Varaibles that will be used elsewhere
+
+author:
+  name: Ted Tschopp
+  url: https://www.tedt.org/
+  avatar: https://www.tedt.org/img/thumb3.jpg
 
 # Verison
 version: 1.0.0
