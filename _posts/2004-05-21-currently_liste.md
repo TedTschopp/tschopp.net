@@ -12,7 +12,7 @@ categories:
 tags:
   - Programming
 ---
-Ok, So I have iTunes running here at work, and I have Typepad running. So now the two of them are working together. This program below will update TypePad list of songs with the latest tunes you are listening to. You will need to instert your List ID, Username, and Password instead of the ************&#8217;s.
+Ok, So I have iTunes running here at work, and I have Typepad running. So now the two of them are working together. This program below will update TypePad list of songs with the latest tunes you are listening to. You will need to instert your List ID, Username, and Password instead of the ************'s.
 
 Enjoy. 
 

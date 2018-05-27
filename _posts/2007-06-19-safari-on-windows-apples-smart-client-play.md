@@ -1,6 +1,6 @@
 ---
 id: 467
-title: 'Safari on Windows: Apple&#8217;s Smart Client Play'
+title: 'Safari on Windows: Apple's Smart Client Play'
 date: 2007-06-19T00:28:18+00:00
 author: Ted Tschopp
 layout: post

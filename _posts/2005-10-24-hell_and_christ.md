@@ -13,7 +13,7 @@ I posted this elsewhere, and ran into it today, and thought about reposting it h
 
 "There are really several postitions on regards to the afterlife for unbelievers. One is anniliation where after a certain amount of punishment the soul and the body will stop existing. And the second is that hell goes on forever and ever.
 
-To be perfectly honest, I don&#8217;t like either option. I really don&#8217;t. I don&#8217;t think that any human if he spends the time thinking about the idea of hell likes it, even if he believes he is not going there. The reason is that our idea of who God is greatly altered when we realize that He allows either idea of hell to exist. He would not be God if He did not.
+To be perfectly honest, I don't like either option. I really don't. I don't think that any human if he spends the time thinking about the idea of hell likes it, even if he believes he is not going there. The reason is that our idea of who God is greatly altered when we realize that He allows either idea of hell to exist. He would not be God if He did not.
 
 But the problem with hell is that the Bible is overly abundantly clear that it does exist. Even pagan literature says that it does. There is something universal about the idea of hell in human culture.
 

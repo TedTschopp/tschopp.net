@@ -1,6 +1,6 @@
 ---
 id: 321
-title: '&#8220;That&#8217;ll Leave a Mark&#8221;'
+title: '&#8220;That'll Leave a Mark&#8221;'
 date: 2007-07-06T18:31:28+00:00
 author: Ted Tschopp
 layout: post
@@ -9,7 +9,7 @@ permalink: /2007/07/06/thatll-leave-a/
 categories:
   - Politics
 ---
-&#8220;That&#8217;ll Leave a Mark&#8221; &#8211; Tommy from Tommy Boy
+&#8220;That'll Leave a Mark&#8221; &#8211; Tommy from Tommy Boy
 
 Over the last week several news items got me thinking the most pormenient one is that Bill Gates lost the thone of the richest man in the world.  Here is a man who has changed the face of the world with the creation of the Software Company.  From all reports, his second act looks like it will make this first act insignafiant.  The size of the Bill and Melinda Gates foundation is so large that it boggles the mind.
 

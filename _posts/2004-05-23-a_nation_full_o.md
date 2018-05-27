@@ -9,7 +9,7 @@ permalink: /2004/05/23/a_nation_full_o/
 categories:
   - Current Affairs
 ---
-I just heard this article read on NPR, and it gave me pause about the direction we are moving as a country. One of the books that I recently finished was <a HREF="http://www.amazon.com/exec/obidos/tg/detail/-/0375706534/tedt0c-20/">Life: The Movie : How Entertainment Conquered Reality</a>. The basic idea of this book is that we as American&#8217;s view our Life as a scripted movie. I think this article points more of this out. 
+I just heard this article read on NPR, and it gave me pause about the direction we are moving as a country. One of the books that I recently finished was <a HREF="http://www.amazon.com/exec/obidos/tg/detail/-/0375706534/tedt0c-20/">Life: The Movie : How Entertainment Conquered Reality</a>. The basic idea of this book is that we as American's view our Life as a scripted movie. I think this article points more of this out. 
 
 Orignal found <A HREF="http://www.nytimes.com/2004/05/20/arts/design/20NOTE.html">here</a> and copied here in case Orignal is moved or deleted.
 
@@ -19,7 +19,7 @@ Orignal found <A HREF="http://www.nytimes.com/2004/05/20/arts/design/20NOTE.html
 > 
 > Until now the photographs published have been seen as hard evidence of what was already happening at Abu Ghraib. The thinking here is that a photograph is a window, a transparent view, of what is out there. But cameras engender their own violence. That is, some of the torment may have been done solely for the photo op. 
 > 
-> If the pictures of piled-up naked Iraqi captives have a precedent in the world of photography, it is not the photographs of heaps of bodies left by the Nazis, but rather, appalling though it might sound, tourist snapshots. Many of the most wrenching pictures are like the ones people pose for as they pretend to hold up the leaning tower of Pisa or point to the penis on Michelangelo&#8217;s &#8220;David.&#8221; The picture of Pfc. Lynndie England with a naked prisoner on a leash is a version of the classic &#8220;I caught this big fish&#8221; photo.
+> If the pictures of piled-up naked Iraqi captives have a precedent in the world of photography, it is not the photographs of heaps of bodies left by the Nazis, but rather, appalling though it might sound, tourist snapshots. Many of the most wrenching pictures are like the ones people pose for as they pretend to hold up the leaning tower of Pisa or point to the penis on Michelangelo's &#8220;David.&#8221; The picture of Pfc. Lynndie England with a naked prisoner on a leash is a version of the classic &#8220;I caught this big fish&#8221; photo.
 > 
 > Specialist Jeremy C. Sivits, the first to be court-martialed, said he shot some pictures, including one which he said his colleague, Specialist Charles A. Graner Jr., asked him to take with his knees planted on a pile of detainees. He also said he remembered Specialist Sabrina Harman and Private England posing, thumbs up, for the camera. As for the picture of the pyramid of naked prisoners looking like a cheerleading squad, he said, he found the &#8220;tower thing&#8221; funny. The oral-sex photograph was posed, he said, by Specialist Graner, so &#8220;it would look like the detainee kneeling had the penis of the detainee standing in his mouth.&#8221; It, too, was done for appearances. 
 > 
@@ -31,13 +31,13 @@ Orignal found <A HREF="http://www.nytimes.com/2004/05/20/arts/design/20NOTE.html
 > 
 > Soldiers are cheerfully tormenting their captives for the camera. Of course, as always, the photographs are now serving as evidence. But this time there are two kinds of evidence in play, and they are difficult to tease apart: the kind that tells you what was going on anyway and the kind that tells you what was being done for the sake of a photograph. 
 
-Not only are we actors in our other movies, I guess we now direct others in this play. It&#8217;s interesting. Here is another example of this: This song is by the Postal Serivce. 
+Not only are we actors in our other movies, I guess we now direct others in this play. It's interesting. Here is another example of this: This song is by the Postal Serivce. 
 
 > &#8220;Clark Gable&#8221;
 > 
 > I was waiting for a cross-town train in the london underground
   
-> When it struck me that i&#8217;ve been waiting since birth to find
+> When it struck me that i've been waiting since birth to find
   
 > A love that would look and sound like a movie so i changed
   
@@ -47,7 +47,7 @@ Not only are we actors in our other movies, I guess we now direct others in this
 > 
 > I want so badly to believe that &#8220;there is truth, that love is real&#8221;
   
-> And i want life in every word to the extent that it&#8217;s absurd
+> And i want life in every word to the extent that it's absurd
   
 > I greased the lens and framed the shot using a friend as my stand-in
   
@@ -63,8 +63,8 @@ Not only are we actors in our other movies, I guess we now direct others in this
 > 
 > I want so badly to believe that &#8220;there is truth, that love is real&#8221;
   
-> And i want life in every word to the extent that it&#8217;s absurd
+> And i want life in every word to the extent that it's absurd
   
-> I know you&#8217;re wise beyond your years, but do you ever get the fear
+> I know you're wise beyond your years, but do you ever get the fear
   
 > That your perfect verse is just a lie you tell yourself to help you get by?

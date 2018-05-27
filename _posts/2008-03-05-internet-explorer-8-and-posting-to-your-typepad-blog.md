@@ -100,7 +100,7 @@ Here is the code that will make it work in Typepad:
   * Upload file to your Typepad account
   * Create a new HTML file
   * Name it typepad.html
-  * Put the following code in the html file:<span style="font-family:monospace;"><A href=&#8221;javascript:window.external.addService(&#8216;http://www.tschopp.net/typepad.xml&#8217;);&#8221;>Click Here</a></span>
+  * Put the following code in the html file:<span style="font-family:monospace;"><A href=&#8221;javascript:window.external.addService(&#8216;http://www.tschopp.net/typepad.xml');&#8221;>Click Here</a></span>
   * Replace my URL with the URL to the XML file you created above
   * Save file
   * Upload File to Typepad

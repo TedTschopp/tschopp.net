@@ -13,7 +13,7 @@ categories:
 Slowly slip the sands of time  
 Past my fingers, through my hands.  
 Crashing waves and pounding surf  
-Tonight&#8217;s the night we leave this earth
+Tonight's the night we leave this earth
 
 Companions brave our task complete.  
 Some come to live, some come to sleep.  

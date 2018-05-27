@@ -1,6 +1,6 @@
 ---
 id: 198
-title: 'What&#8217;s Playing on KROQ'
+title: 'What's Playing on KROQ'
 date: 2005-04-15T09:42:50+00:00
 author: Ted Tschopp
 layout: post
@@ -9,7 +9,7 @@ permalink: /2005/04/15/whats_playing_o/
 categories:
   - Web
 ---
-Ever wonder what&#8217;s playing on KROQ?&nbsp; Well, here is your chance to get an XML feed that has it all.
+Ever wonder what's playing on KROQ?&nbsp; Well, here is your chance to get an XML feed that has it all.
 
 <http://tmex.spun.com/tmexhistory.jsp?CampaignID=1253273&Events=10&EndTime=20050415-0930>
 
