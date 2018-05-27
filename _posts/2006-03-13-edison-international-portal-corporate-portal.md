@@ -1,6 +1,6 @@
 ---
 id: 969
-title: 'Edison International Portal: Corporate Portal'
+title: Edison International Portal: Corporate Portal
 date: 2006-03-13T16:55:12+00:00
 author: Ted Tschopp
 layout: post

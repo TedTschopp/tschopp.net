@@ -1,6 +1,6 @@
 ---
 id: 321
-title: '&#8220;That'll Leave a Mark&#8221;'
+title: That'll Leave a Mark
 date: 2007-07-06T18:31:28+00:00
 author: Ted Tschopp
 layout: post

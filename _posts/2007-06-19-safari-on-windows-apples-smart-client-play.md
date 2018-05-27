@@ -1,6 +1,6 @@
 ---
 id: 467
-title: 'Safari on Windows: Apple's Smart Client Play'
+title: Safari on Windows: Apple's Smart Client Play
 date: 2007-06-19T00:28:18+00:00
 author: Ted Tschopp
 layout: post
@@ -16,17 +16,13 @@ I have spent the last week now looking at everyone’s ideas on why Apple releas
   2. It’s about the cloud.  Steve also said that his paradigm for software included the cloud of web services.
   3. It’s about the SDK for the iPhone.  Many people have pointed out that by having a version of Safari on the Windows, it allows those individuals to develop applications for the iPhone on the Windows.
 
-**Software
-  
-** Software is important.  Having your software running on a given piece of hardware is important.  By itself there is value in having your software run on Windows.   The more software that Apple releases on a given platform the less unique that platform becomes.  The software is the user experience and the brand.  All the software that Apple releases for the Windows platform breaks the branding of Windows.  What would happen if Apple continued to release different pieces of functionality from their iLife applications for Windows.  Would people use them.  Yes.  Would people recommend them.  Yes.  Would they be more usable than the built in Windows software.  Probably.  This hurts the Windows brand.
+**Software** Software is important.  Having your software running on a given piece of hardware is important.  By itself there is value in having your software run on Windows.   The more software that Apple releases on a given platform the less unique that platform becomes.  The software is the user experience and the brand.  All the software that Apple releases for the Windows platform breaks the branding of Windows.  What would happen if Apple continued to release different pieces of functionality from their iLife applications for Windows.  Would people use them.  Yes.  Would people recommend them.  Yes.  Would they be more usable than the built in Windows software.  Probably.  This hurts the Windows brand.
 
 This also plays right into a weakness that few have exploited up until this point.  Microsoft has to allow for 3<sup>rd</sup> party applications to replace built in Windows functionality.  As soon as this becomes hard for Apple to do, all someone needs to do is complain about Microsoft lock in.  Google is doing this right now.  I’m surprised more companies are not doing this.  Adobe should start to build Bridge into the basic operating system search, replacing the way Windows handles graphic searches.  Also, I’m not surprised that Microsoft hasn’t played this card against other platforms they are trying to gain traction on.
 
 One final point. Isn’t Safari used to render out all those widgets in OS X?  Will this mean that those guy will now run on Windows and on the iPhone?  If the answer is yes to this question, then we now have a common development environment for these widgets.  This is an end run around Google, Microsoft, and Yahoo all at once.  This also leads to my next point.  This also provides a common platform for Cloud based Applications
 
-**The Cloud
-  
-** What applications use the cloud these days.  There are all sorts of tools which use web services.  But in the end, there are only several standards that are available in this space.  The battle is still being fought.
+**The Cloud** What applications use the cloud these days.  There are all sorts of tools which use web services.  But in the end, there are only several standards that are available in this space.  The battle is still being fought.
 
 Microsoft has been doing a lot of heavy lifting in this area with their .Net framework and the implementation of WS-\* to provide inter-platform operability. All this stuff is great for fat clients and .NET  based smart clients.  But this leaves Apple and Adobe to build in support for the WS-\* standards into their smart client applications.
 
@@ -34,13 +30,9 @@ Oh wait, Apple has no Smart Client platform.  Or do they?  Perhaps Safari is t
 
 I predict that Safari + Quicktime will be the Smart Client platform that Apple will move towards in the next year to create their cloud development platform.  This will be done to extend the widgets platform that currently exists today.
 
-**SDKs
-  
-** I think this is going to be the true SDK for the iPhone.  If you merge Quicktime into the Canvas tag, then you truly have something.  If I had an iPhone right now, I would love to play around with some of the Apple specific tags supported by Safari.  What happens when I throw widget code at it’s JavaScript interpreter.  What happens on Windows if I do this?  I would also love to point it to a .MOV file online that has some interactive content in it.  Extend and expand this, and you have a nice save environment to build applications that won’t take down the network they are running on.
+**SDKs** I think this is going to be the true SDK for the iPhone.  If you merge Quicktime into the Canvas tag, then you truly have something.  If I had an iPhone right now, I would love to play around with some of the Apple specific tags supported by Safari.  What happens when I throw widget code at it’s JavaScript interpreter.  What happens on Windows if I do this?  I would also love to point it to a .MOV file online that has some interactive content in it.  Extend and expand this, and you have a nice save environment to build applications that won’t take down the network they are running on.
 
-**Summary
-  
-** I feel that the decision to make Safari as the SDK for the iPhone is a good idea if they take some of the steps laid out above.  This is an opportunity for Apple to take control of the platform that will be used to develop “cloud” based applications.  They will leverage their iTunes / Quicktime platform on Windows and combine it with their iPod platform into a cell phone form factor, bypassing the coming standards war which will feature Google, Microsoft, Adobe, and Yahoo fighting it out to control the Smart Client Platform.
+**Summary** I feel that the decision to make Safari as the SDK for the iPhone is a good idea if they take some of the steps laid out above.  This is an opportunity for Apple to take control of the platform that will be used to develop “cloud” based applications.  They will leverage their iTunes / Quicktime platform on Windows and combine it with their iPod platform into a cell phone form factor, bypassing the coming standards war which will feature Google, Microsoft, Adobe, and Yahoo fighting it out to control the Smart Client Platform.
 
 <div class="bjtags">
   Tags: <a href="http://technorati.com/tag/Apple" rel="tag">Apple</a>, <a href="http://technorati.com/tag/iPhone" rel="tag">iPhone</a>

@@ -1,6 +1,6 @@
 ---
 id: 103
-title: 'What is Christianity?'
+title: What is Christianity?
 date: 2007-01-04T15:53:03+00:00
 author: Ted Tschopp
 excerpt: |

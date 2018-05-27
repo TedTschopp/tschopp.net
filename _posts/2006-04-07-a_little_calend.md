@@ -1,6 +1,6 @@
 ---
 id: 160
-title: 'A Little Calendar App I'm building'
+title: A Little Calendar App I'm building
 date: 2006-04-07T17:57:34+00:00
 author: Ted Tschopp
 layout: post

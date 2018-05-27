@@ -1,6 +1,6 @@
 ---
 id: 198
-title: 'What's Playing on KROQ'
+title: What's Playing on KROQ
 date: 2005-04-15T09:42:50+00:00
 author: Ted Tschopp
 layout: post

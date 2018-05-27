@@ -1,6 +1,6 @@
 ---
 id: 231
-title: 'Program: Currently Listening to now live'
+title: Program: Currently Listening to now live
 date: 2004-05-21T09:43:20+00:00
 author: Ted Tschopp
 layout: post

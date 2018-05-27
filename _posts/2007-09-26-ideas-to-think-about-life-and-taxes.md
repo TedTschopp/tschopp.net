@@ -1,6 +1,6 @@
 ---
 id: 460
-title: 'Ideas to Think About: Life and Taxes'
+title: Ideas to Think About: Life and Taxes
 date: 2007-09-26T16:31:50+00:00
 author: Ted Tschopp
 layout: post

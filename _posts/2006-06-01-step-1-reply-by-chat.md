@@ -1,6 +1,6 @@
 ---
 id: 502
-title: 'Step 1: Reply by Chat'
+title: Step 1: Reply by Chat
 date: 2006-06-01T21:33:53+00:00
 author: Ted Tschopp
 layout: post

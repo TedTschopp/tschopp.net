@@ -1,6 +1,6 @@
 ---
 id: 288
-title: 'The Purpose of Community: Protection of the Commons'
+title: The Purpose of Community: Protection of the Commons
 date: 2010-05-19T10:20:45+00:00
 author: Ted Tschopp
 layout: post

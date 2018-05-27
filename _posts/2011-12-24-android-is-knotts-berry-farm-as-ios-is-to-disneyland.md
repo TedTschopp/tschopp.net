@@ -1,6 +1,6 @@
 ---
 id: 1035
-title: 'Android is Knott's Berry Farm as iOS is to Disneyland'
+title: Android is Knott's Berry Farm as iOS is to Disneyland
 date: 2011-12-24T09:12:25+00:00
 author: Ted Tschopp
 layout: post

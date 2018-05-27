@@ -1,6 +1,6 @@
 ---
 id: 461
-title: 'Ideas of things I need to think about:  Garden State'
+title: Ideas of things I need to think about:  Garden State
 date: 2007-09-24T18:48:17+00:00
 author: Ted Tschopp
 layout: post

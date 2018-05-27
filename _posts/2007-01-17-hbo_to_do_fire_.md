@@ -1,6 +1,6 @@
 ---
 id: 92
-title: 'HBO to do Fire and Ice series&#8230; and George Cloony to do Diamond Age'
+title: HBO to do Fire and Ice series&#8230; and George Cloony to do Diamond Age
 date: 2007-01-17T15:23:42+00:00
 author: Ted Tschopp
 layout: post

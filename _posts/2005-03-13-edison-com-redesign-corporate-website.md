@@ -1,6 +1,6 @@
 ---
 id: 980
-title: 'Edison.com Redesign: Corporate Website'
+title: Edison.com Redesign: Corporate Website
 date: 2005-03-13T17:06:31+00:00
 author: Ted Tschopp
 layout: post
