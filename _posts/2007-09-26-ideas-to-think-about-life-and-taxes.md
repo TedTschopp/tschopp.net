@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/09/26/ideas-to-think-about-life-and-taxes/
+guid: eca1c1ee-efc8-453b-8791-4dc4ca8227bb
 permalink: /2007/09/26/ideas-to-think-about-life-and-taxes/
 categories:
   - Weblogs

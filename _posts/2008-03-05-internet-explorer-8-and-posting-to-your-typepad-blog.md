@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
+guid: 89326e70-d65a-4c85-8d88-3caa537e7f5c
 permalink: /2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
 categories:
   - Programming

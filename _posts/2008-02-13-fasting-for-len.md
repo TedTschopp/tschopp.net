@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/02/13/fasting-for-len/
+guid: 4c5c466f-239b-479f-a36f-9084f3688e4f
 permalink: /2008/02/13/fasting-for-len/
 categories:
   - Food and Drink

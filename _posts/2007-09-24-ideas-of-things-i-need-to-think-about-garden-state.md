@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
+guid: eeb92c15-7422-41c7-9075-be04e977cf0e
 permalink: /2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 categories:
   - Motivational

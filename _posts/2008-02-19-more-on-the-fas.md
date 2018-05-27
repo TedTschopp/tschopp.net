@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2008/02/19/more-on-the-fas/
+guid: 5be2c380-c65b-4ca6-957d-7626f2e41a98
 permalink: /2008/02/19/more-on-the-fas/
 categories:
   - Religion
