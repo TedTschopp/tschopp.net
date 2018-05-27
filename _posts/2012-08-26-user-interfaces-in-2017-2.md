@@ -11,7 +11,7 @@ excerpt: With the release of the Mac Book this year that included a high resolut
 
 layout: post
 
-guid: http://tschopp.net/2012/08/26/user-interfaces-in-2017-2/
+guid: 0700cc97-bf74-43de-9bd1-4f60fe776a45
 permalink: /2012/08/26/user-interfaces-in-2017-2/
 image: /wp-content/uploads/2013/06/color-eye.png
 categories:
