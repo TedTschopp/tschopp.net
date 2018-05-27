@@ -1,6 +1,6 @@
 ---
 id: 1338
-title: The Component Smart Phone and Why It Will Fail.
+title: The Component Smart Phone and Why It Will Fail
 date: 2013-11-22T12:47:26+00:00
 author: Ted Tschopp
 excerpt: 'Today TechCruch covered a direction Motorola is taking with a project called Ara.  The idea here is that a smart phone can be broken up into individual components and you can buy each of them individually.  This looks really intriguing from a business perspective as well as the perspective of a technologist such as myself.  However cool this idea is, I think it is doomed to failure. '

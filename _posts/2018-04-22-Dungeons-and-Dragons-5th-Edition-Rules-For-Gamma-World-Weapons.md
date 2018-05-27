@@ -165,6 +165,7 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 ||Large|4|3|2|1|1|1|
 ||Huge|5|4|3|2|1|1|
 ||Gargantuan|6|5|4|3|2|1|
+{: .well .table .table-striped}
 
 
 ## Weapon Damage Types
