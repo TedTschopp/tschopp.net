@@ -6,8 +6,6 @@ author: Ted Tschopp
 layout: post
 guid: http://tschopp.net/?p=1005
 permalink: /2011/06/03/collaboration-lessons-learned-from-tasmania/
-twitter_cards_summary_img_size:
-  - 'a:7:{i:0;i:800;i:1;i:525;i:2;i:2;i:3;s:24:"width="800" height="525"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}'
 image: /wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape.jpg
 categories:
   - Collaboration

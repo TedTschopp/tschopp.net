@@ -1,6 +1,6 @@
 ---
 id: 455
-title: More on the Switch to my Mac.
+title: More on the Switch to my Mac
 date: 2008-03-17T00:19:54+00:00
 author: Ted Tschopp
 layout: post
