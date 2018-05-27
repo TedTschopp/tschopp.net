@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/08/15/christmas-in-august/
+guid: 7bf52b51-dc5c-4533-ae4f-e55f850da699
 permalink: /2007/08/15/christmas-in-august/
 categories:
   - Books

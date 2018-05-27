@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/30/computerized-story-telling/
+guid: 4ebd6f3b-6d08-44db-8f6d-b1e2920f2049
 permalink: /2007/01/30/computerized-story-telling/
 categories:
   - Books

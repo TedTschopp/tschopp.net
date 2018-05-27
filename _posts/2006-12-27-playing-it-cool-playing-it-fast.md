@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/12/27/playing-it-cool-playing-it-fast/
+guid: 766623be-b111-4258-9a8c-061ece6cadc0
 permalink: /2006/12/27/playing-it-cool-playing-it-fast/
 categories:
   - Music

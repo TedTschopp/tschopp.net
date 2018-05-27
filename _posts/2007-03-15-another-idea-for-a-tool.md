@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/03/15/another-idea-for-a-tool/
+guid: b448cf2f-3b0f-4549-8a5a-055ec6845b2e
 permalink: /2007/03/15/another-idea-for-a-tool/
 categories:
   - Computers

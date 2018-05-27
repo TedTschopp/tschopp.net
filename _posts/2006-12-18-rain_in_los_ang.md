@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/12/18/rain_in_los_ang/
+guid: 5c22a9d8-7406-44f6-984a-3208042ec265
 permalink: /2006/12/18/rain_in_los_ang/
 categories:
   - Religion

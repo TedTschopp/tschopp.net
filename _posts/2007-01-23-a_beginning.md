@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/23/a_beginning/
+guid: f5b58be0-9210-4f82-8d0f-d57a79431df9
 permalink: /2007/01/23/a_beginning/
 categories:
   - Fiction

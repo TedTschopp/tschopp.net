@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/15/books_movies_an/
+guid: 97a7bdd5-16ba-47eb-a098-fbf1782f16c2
 permalink: /2007/01/15/books_movies_an/
 categories:
   - Movies

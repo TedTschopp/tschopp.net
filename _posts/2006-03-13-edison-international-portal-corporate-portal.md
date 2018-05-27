@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: http://tschopp.net/?p=969
+guid: 28f59393-e650-4af3-a324-02a9b137ac50
 permalink: /2006/03/13/edison-international-portal-corporate-portal/
 categories:
   - Projects

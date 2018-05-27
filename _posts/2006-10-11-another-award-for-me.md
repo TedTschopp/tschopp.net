@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/10/11/another-award-for-me/
+guid: 20bb2dd5-2cbc-4cff-8aff-65582a1ebdb8
 permalink: /2006/10/11/another-award-for-me/
 categories:
   - Web

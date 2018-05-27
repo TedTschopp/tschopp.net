@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2004/05/23/a_nation_full_o/
+guid: b5391e04-26d5-43c5-93c9-1932ccd05ae5
 permalink: /2004/05/23/a_nation_full_o/
 categories:
   - Current Affairs

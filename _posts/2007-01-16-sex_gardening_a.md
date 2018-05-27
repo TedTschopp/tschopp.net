@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/16/sex_gardening_a/
+guid: 2bc2eebf-bfbe-45d6-9bbd-b642cc596694
 permalink: /2007/01/16/sex_gardening_a/
 categories:
   - Religion

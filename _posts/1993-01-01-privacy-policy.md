@@ -10,7 +10,7 @@ author:
 
 layout: post
 
-guid: https://www.tedt.org/1993/01/01/privacy-policy/
+guid: 8a7330e9-faaf-4c5a-b5fb-da6c513f1f76
 permalink: /1993/01/01/privacy-policy/
 categories:
   - Privacy

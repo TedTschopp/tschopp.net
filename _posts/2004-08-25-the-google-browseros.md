@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2004/08/25/the-google-browseros/
+guid: f3857b90-e751-4853-8f6e-90b936fac80f
 permalink: /2004/08/25/the-google-browseros/
 categories:
   - Web

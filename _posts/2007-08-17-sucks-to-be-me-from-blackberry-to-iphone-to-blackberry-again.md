@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/08/17/sucks-to-be-me-from-blackberry-to-iphone-to-blackberry-again/
+guid: 26ca4c54-46a6-4498-b0f0-3d368c2fe27f
 permalink: /2007/08/17/sucks-to-be-me-from-blackberry-to-iphone-to-blackberry-again/
 categories:
   - Computers

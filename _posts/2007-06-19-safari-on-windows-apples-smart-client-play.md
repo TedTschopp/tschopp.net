@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/06/19/safari-on-windows-apples-smart-client-play/
+guid: e743c18d-c004-4c15-a657-7c34f32116d8
 permalink: /2007/06/19/safari-on-windows-apples-smart-client-play/
 categories:
   - Computers

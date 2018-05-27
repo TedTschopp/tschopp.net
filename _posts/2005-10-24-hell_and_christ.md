@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2005/10/24/hell_and_christ/
+guid: 25d4365c-1bb8-474b-ba52-56622b8ea9c3
 permalink: /2005/10/24/hell_and_christ/
 categories:
   - Religion

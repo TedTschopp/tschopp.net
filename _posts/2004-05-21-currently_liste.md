@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2004/05/21/currently_liste/
+guid: 5a3cd62d-c94f-4f67-8504-7dead22e0a28
 permalink: /2004/05/21/currently_liste/
 categories:
   - Computers

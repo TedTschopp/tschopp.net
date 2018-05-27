@@ -8,12 +8,12 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/26/one_plus_one_eq/
+guid: f90e2057-bc36-4ee5-87c5-bb4835abcd7e
 permalink: /2007/01/26/one_plus_one_eq/
 categories:
   - Religion
 ---
-Some people are just idiots, other people are rude, and finally some people are just downright ugly.&nbsp; This means that there are some people who are brilliant, there are others who are considerate, and there is such a thing as beauty.&nbsp;&nbsp;I&rsquo;m not trying to say that I am brilliant, or considerate, or beautiful.&nbsp; To the contrary, most of the time I am not any of these things.&nbsp; </span>
+Some people are just idiots, other people are rude, and finally some people are just downright ugly.&nbsp; This means that there are some people who are brilliant, there are others who are considerate, and there is such a thing as beauty.&nbsp;&nbsp;I&rsquo;m not trying to say that I am brilliant, or considerate, or beautiful.&nbsp; To the contrary, most of the time I am not any of these things.&nbsp; 
 
 I&rsquo;m not saying that I _think_ there are standards of intelligence, wisdom, beauty, or manners.&nbsp; I&rsquo;m saying something much more subtle.&nbsp; I&rsquo;m saying that there **are** standards of intelligence, wisdom, beauty, and manners.
 

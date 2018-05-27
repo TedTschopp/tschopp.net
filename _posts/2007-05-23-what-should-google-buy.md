@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/05/23/what-should-google-buy/
+guid: 976d5096-5387-4179-af9a-6e494b50cb2a
 permalink: /2007/05/23/what-should-google-buy/
 categories:
   - Computers
@@ -22,18 +22,10 @@ A while back someone asked me what I think Google should buy next.&#160; I was r
 > 
 > Three: Real time Monitoring. Traffic.com and other sites like this which provide real time data about the real world. Also look into companies which provide real time monitoring of other transportation systems.
 
-<p dir="ltr">
-  This is all very interesting considering the announcements over the last month of so.&#160; So how would I modify this?
-</p>
+This is all very interesting considering the announcements over the last month of so.&#160; So how would I modify this?
 
-<p dir="ltr">
-  One: The Algorithm.&#160; You must always improve this.&#160; Purchase any company that has interesting IP in the area.&#160; You are looking for pattern recognition and data mining.&#160; Anything that can make your index larger.
-</p>
+1: The Algorithm.&#160; You must always improve this.&#160; Purchase any company that has interesting IP in the area.&#160; You are looking for pattern recognition and data mining.&#160; Anything that can make your index larger.
 
-<p dir="ltr">
-  Two: The Inverse of Search.&#160; Connecting content creators to content consumers.&#160; AKA Advertising, Branding, Identity.&#160; This is how Google gets paid.&#160; If a person can search for Pizza why can’t a restaurant search for Pizza Customers?&#160; You are looking for mediums for selling ads.&#160;
-</p>
+2: The Inverse of Search.&#160; Connecting content creators to content consumers.&#160; AKA Advertising, Branding, Identity.&#160; This is how Google gets paid.&#160; If a person can search for Pizza why can’t a restaurant search for Pizza Customers?&#160; You are looking for mediums for selling ads.&#160;
 
-<p dir="ltr">
-  Three: The Real World.&#160; Any technology that is merging real world information with online information.&#160; GIS, Mapping, Scanning, OCR, Speech to Text.
-</p>
+3: The Real World.&#160; Any technology that is merging real world information with online information.&#160; GIS, Mapping, Scanning, OCR, Speech to Text.

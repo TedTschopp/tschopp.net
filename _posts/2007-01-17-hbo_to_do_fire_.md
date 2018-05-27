@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/17/hbo_to_do_fire_/
+guid: 7558f4ff-87c8-42c3-89f9-c35fcd4f7156
 permalink: /2007/01/17/hbo_to_do_fire_/
 categories:
   - Books

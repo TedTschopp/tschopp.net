@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/07/06/thatll-leave-a/
+guid: 686e26a3-30fd-4b6b-94bc-9198beea49e9
 permalink: /2007/07/06/thatll-leave-a/
 categories:
   - Politics

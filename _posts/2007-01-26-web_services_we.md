@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/26/web_services_we/
+guid: 5076e5bd-f37b-46d6-8381-3b53326a886c
 permalink: /2007/01/26/web_services_we/
 categories:
   - Computers

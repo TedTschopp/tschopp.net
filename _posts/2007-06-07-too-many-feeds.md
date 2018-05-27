@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/06/07/too-many-feeds/
+guid: 064921a7-6a93-4047-a8a5-47d924cbbf95
 permalink: /2007/06/07/too-many-feeds/
 categories:
   - Web

@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/12/27/playing_it_cool/
+guid: 7b0571b9-46ef-4f8c-8498-8b9f5e1de3d5
 permalink: /2006/12/27/playing_it_cool/
 categories:
   - Music

@@ -13,7 +13,7 @@ excerpt: |
 
 layout: post
 
-guid: https://www.tedt.org/2007/01/04/nt_wright_what_/
+guid: 7a87b0b0-6f0e-44bd-bcd3-ec73e449f6a4
 permalink: /2007/01/04/nt_wright_what_/
 categories:
   - Religion

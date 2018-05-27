@@ -8,14 +8,16 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2005/04/15/whats_playing_o/
+guid: 75ec84d5-052d-4f3d-aea1-60d3846ba921
 permalink: /2005/04/15/whats_playing_o/
 categories:
   - Web
 ---
 Ever wonder what's playing on KROQ?&nbsp; Well, here is your chance to get an XML feed that has it all.
 
+~~~html
 <http://tmex.spun.com/tmexhistory.jsp?CampaignID=1253273&Events=10&EndTime=20050415-0930>
+~~~
 
 Now to write an XSLT to parse it and link to the iTunes and Amazon.com stores (oh and why not the SPUN store as well).
 

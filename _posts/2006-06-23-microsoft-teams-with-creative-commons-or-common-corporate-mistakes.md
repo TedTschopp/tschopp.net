@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
+guid: b0cd4204-75b3-40ef-b90f-b672c919e4a2
 permalink: /2006/06/23/microsoft-teams-with-creative-commons-or-common-corporate-mistakes/
 categories:
   - Web

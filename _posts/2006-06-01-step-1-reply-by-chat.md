@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/06/01/step-1-reply-by-chat/
+guid: 199e35fe-9f8f-41b5-a635-0b2e2b0d69e4
 permalink: /2006/06/01/step-1-reply-by-chat/
 categories:
   - Web

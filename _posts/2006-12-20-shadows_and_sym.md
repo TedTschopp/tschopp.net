@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/12/20/shadows_and_sym/
+guid: 9b6eda43-2311-4038-afa0-4106bc4ab8c5
 permalink: /2006/12/20/shadows_and_sym/
 categories:
   - Books

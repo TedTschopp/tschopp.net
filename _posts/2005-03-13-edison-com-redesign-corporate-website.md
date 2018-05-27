@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: http://tschopp.net/?p=980
+guid: 6b0aee16-61b3-4f48-9ce6-e4953971b1a5
 permalink: /2005/03/13/edison-com-redesign-corporate-website/
 categories:
   - Projects

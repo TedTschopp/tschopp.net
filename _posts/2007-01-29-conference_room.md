@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/29/conference_room/
+guid: 9efa86eb-262d-4e81-b063-244e603a0637
 permalink: /2007/01/29/conference_room/
 categories:
   - Cool
@@ -18,8 +18,8 @@ At work we are putting together a list of conference room names for our new buil
 
 Well, now we have a chance to name our new conference rooms.&nbsp; So here is one entry that I helped out on.&nbsp; How would you do it differently.
 
-<u>Superheros & Villains  
-</u>A &#8211; Archangel  
+<u>Superheros & Villains</u>
+A &#8211; Archangel  
 B &#8211; Batman  
 C &#8211; Captain America  
 D &#8211; Daredevil  
@@ -103,7 +103,3 @@ W &#8211; White Council
 Y &#8211; Yavanna  
 Z &#8211; Zirakzigil  
 &nbsp;
-
-<div class="bjtags">
-  Tags: <a rel="tag" href="http://technorati.com/tag/Superheros">Superheros</a>, <a rel="tag" href="http://technorati.com/tag/Villians">Villians</a>
-</div>

@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
+guid: 07db18f9-a62c-4daf-b93b-f1e7a4868aa2
 permalink: /2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
 categories:
   - Weblogs

@@ -8,7 +8,7 @@ author:
   avatar: https://www.tedt.org/img/thumb3.jpg
 layout: post
 
-guid: https://www.tedt.org/2006/12/28/man_is_a_verbav/
+guid: 30a5a540-3245-4c01-b4f2-050f7c759831
 permalink: /2006/12/28/man_is_a_verbav/
 categories:
   - Religion
