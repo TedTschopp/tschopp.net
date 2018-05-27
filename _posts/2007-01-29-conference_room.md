@@ -1,6 +1,6 @@
 ---
 id: 83
-title: Conference Room Names:
+title: Conference Room Names
 date: 2007-01-29T13:57:08+00:00
 author: Ted Tschopp
 layout: post
