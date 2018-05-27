@@ -5,10 +5,14 @@ update: 2018-05-23T16:44:34-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpgdescription: 
+  avatar: https://www.tedt.org/img/thumb3.jpg
+
+description: 
 excerpt: |
    Every role playing game that I have ever run into with the exception of Dogs in the Vineyard has done religions wrong in role playing games.  These are my notes on how to get DCC closer to a relgious system that works for a believer and a role player.   
+
 layout: post
+
 permalink: /2018/05/16/Doing-Religions-Right-in-DCC/
 image: 	wp-content/uploads/2018/05/the-valar.jpg
 image-credits: The Valar by Dan Hainsworth https://www.etsy.com/shop/dthains  

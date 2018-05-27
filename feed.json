@@ -28,7 +28,7 @@ layout: null
             "summary": {{ post.excerpt | jsonify }},
             {% endif %}
             "content_text": {{ post.content | strip | strip_html | strip_newlines | jsonify }},
-            "content_html": {{ post.content | strip | strip_newlines | jsonify }},
+            "content_html": {{ post.content | strip | strip_newlines | strip | jsonify }},
             "url": "{{ post.url | absolute_url }}",
             {% if post.image.size > 1 %}"image": {{ post.image | jsonify }},{% endif %}
             {% if post.link.size > 1 %}"external_url": "{{ post.link }}",{% endif %}

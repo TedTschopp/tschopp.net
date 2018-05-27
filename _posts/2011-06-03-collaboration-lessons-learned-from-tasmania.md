@@ -5,7 +5,9 @@ date: 2011-06-03T16:35:45+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: http://tschopp.net/?p=1005
 permalink: /2011/06/03/collaboration-lessons-learned-from-tasmania/
 image: /wp-content/uploads/2011/06/800px-tessellated_pavement_sunrise_landscape.jpg

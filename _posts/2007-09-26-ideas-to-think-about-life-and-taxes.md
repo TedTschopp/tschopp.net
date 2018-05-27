@@ -5,7 +5,9 @@ date: 2007-09-26T16:31:50+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/09/26/ideas-to-think-about-life-and-taxes/
 permalink: /2007/09/26/ideas-to-think-about-life-and-taxes/
 categories:

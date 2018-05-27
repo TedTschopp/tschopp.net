@@ -5,7 +5,9 @@ date: 2007-03-15T18:34:40+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/03/15/another-idea-for-a-tool/
 permalink: /2007/03/15/another-idea-for-a-tool/
 categories:

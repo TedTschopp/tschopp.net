@@ -5,7 +5,9 @@ date: 2007-01-26T15:27:06+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/01/26/web_services_we/
 permalink: /2007/01/26/web_services_we/
 categories:

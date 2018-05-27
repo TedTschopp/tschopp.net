@@ -5,7 +5,9 @@ date: 2008-03-05T23:55:06+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
 permalink: /2008/03/05/internet-explorer-8-and-posting-to-your-typepad-blog/
 categories:

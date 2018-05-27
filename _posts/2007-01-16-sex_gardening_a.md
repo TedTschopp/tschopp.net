@@ -5,7 +5,9 @@ date: 2007-01-16T11:10:00+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/01/16/sex_gardening_a/
 permalink: /2007/01/16/sex_gardening_a/
 categories:

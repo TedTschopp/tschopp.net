@@ -5,9 +5,13 @@ date: 2018-04-19T03:13:00+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpgexcerpt: |
+  avatar: https://www.tedt.org/img/thumb3.jpg
+
+excerpt: |
   Most societies are formed around a given ideology or way of thinking.  These ideologies can be broken up into several different categories.  At the higher tech levels where people have more freetime, those societies will have multiple ideologies from all four segments operating together within their borders.  Each group will have various taboos, symbols, concepts, hierarchies, buildings, trade goods, occupations, equipment, stories, and legends that they have a monopoly on.   It should be noted that ideologies can exist with other ideologies.
+
 layout: post
+
 guid: /2018/04/19/Factions-Ideologies-and-Religions-in-Role-Playing-Games/
 permalink: /2018/04/19/Factions-Ideologies-and-Religions-in-Role-Playing-Games/
 image: wp-content/uploads/2018/04/Sunset on this ideology.jpg

@@ -5,7 +5,9 @@ date: 2009-07-08T12:11:54+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2009/07/08/thoughts-on-corporate-collaboration-tools/
 permalink: /2009/07/08/thoughts-on-corporate-collaboration-tools/
 categories:

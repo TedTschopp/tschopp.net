@@ -5,9 +5,14 @@ date: 2018-04-22T10:04:00+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpgdescription: Dungeons and Dragons 5th Edition Rules for Gamma World Weapons and Armor.  
-excerpt: 
+  avatar: https://www.tedt.org/img/thumb3.jpg
+
+description: Dungeons and Dragons 5th Edition Rules for Gamma World Weapons and Armor.  
+
+excerpt: Dungeons and Dragons 5th Edition Rules for Gamma World Weapons and Armor. 
+
 layout: post
+
 guid: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
 permalink: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
 image: wp-content/uploads/2018/04/The-Leviathan.jpg

@@ -5,7 +5,9 @@ date: 2011-12-24T09:12:25+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://tedtschopp.wordpress.com/?p=1035
 permalink: /2011/12/24/android-is-knotts-berry-farm-as-ios-is-to-disneyland/
 tagazine-media:

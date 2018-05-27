@@ -5,7 +5,9 @@ date: 2008-09-01T12:43:02+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2008/09/01/thoughts-on-nar/
 permalink: /2008/09/01/thoughts-on-nar/
 categories:

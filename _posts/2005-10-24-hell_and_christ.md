@@ -5,7 +5,9 @@ date: 2005-10-24T14:05:54+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2005/10/24/hell_and_christ/
 permalink: /2005/10/24/hell_and_christ/
 categories:

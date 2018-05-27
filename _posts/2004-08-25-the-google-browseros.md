@@ -5,7 +5,9 @@ date: 2004-08-25T16:08:24+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2004/08/25/the-google-browseros/
 permalink: /2004/08/25/the-google-browseros/
 categories:

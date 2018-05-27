@@ -5,7 +5,9 @@ date: 2006-04-07T17:57:34+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2006/04/07/a_little_calend/
 permalink: /2006/04/07/a_little_calend/
 categories:

@@ -5,7 +5,9 @@ date: 2007-05-23T01:51:30+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/05/23/what-should-google-buy/
 permalink: /2007/05/23/what-should-google-buy/
 categories:

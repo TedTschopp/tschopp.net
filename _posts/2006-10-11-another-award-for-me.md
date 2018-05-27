@@ -5,7 +5,9 @@ date: 2006-10-11T19:22:19+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2006/10/11/another-award-for-me/
 permalink: /2006/10/11/another-award-for-me/
 categories:

@@ -5,7 +5,9 @@ date: 2005-03-13T17:06:31+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: http://tschopp.net/?p=980
 permalink: /2005/03/13/edison-com-redesign-corporate-website/
 categories:

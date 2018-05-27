@@ -5,7 +5,9 @@ date: 2004-05-21T09:43:20+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2004/05/21/currently_liste/
 permalink: /2004/05/21/currently_liste/
 categories:

@@ -5,7 +5,9 @@ date: 2007-01-26T02:33:32+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
 permalink: /2007/01/26/93-year-old-blogger-it-bothers-me-that-i-have-to-go/
 categories:

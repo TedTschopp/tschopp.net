@@ -5,7 +5,9 @@ date: 2010-05-19T10:20:45+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2010/05/19/protection-of-the-commons-the-purpose-of-community/
 permalink: /2010/05/19/the-purpose-of-community-protection-of-the-commons/
 image: /wp-content/uploads/2013/06/russell-crowe-as-robin-hood-robin-hood-2010-movie.jpg

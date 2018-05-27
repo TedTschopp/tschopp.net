@@ -5,7 +5,9 @@ date: 2007-09-24T18:48:17+00:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpglayout: post
+  avatar: https://www.tedt.org/img/thumb3.jpg
+layout: post
+
 guid: https://www.tedt.org/2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 permalink: /2007/09/24/ideas-of-things-i-need-to-think-about-garden-state/
 categories:
