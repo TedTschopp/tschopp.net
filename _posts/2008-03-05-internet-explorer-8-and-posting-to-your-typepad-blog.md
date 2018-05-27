@@ -21,7 +21,7 @@ Here is the code that will make it work in Typepad:
 
 ~~~xml
 <?xml version="1.0" encoding="utf-8" ?>
-<openServiceDescription xmlns="<http://www.microsoft.com/schemas/openservicedescription/1.0>&#8220;>
+<openServiceDescription xmlns="http://www.microsoft.com/schemas/openservicedescription/1.0>">
 <homepageUrl>http://www.typepad.com/t/app</homepageUrl>
 <display>
 <name>Blog in Typepad</name>
@@ -30,7 +30,7 @@ Here is the code that will make it work in Typepad:
 </display>
 <activity category="Blog">
 <activityAction context="selection">
-<execute method="get" action="<http://www.typepad.com/t/app/weblog/post>&#8220;>
+<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
 <parameter name="title" value="{documentTitle}" />
 <parameter name="SourceURL" value="{documentUrl}" />
 <parameter name="blog_id" value="16627" />
@@ -39,14 +39,14 @@ Here is the code that will make it work in Typepad:
 </execute>
 </activityAction>
 <activityAction context="document">
-<execute method="get" action="<http://www.typepad.com/t/app/weblog/post>&#8220;>
+<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
 <parameter name="title" value="{documentTitle}" />
 <parameter name="blog_id" value="16627" />
 <parameter name="SourceURL" value="{documentUrl}" />
 </execute>
 </activityAction>
 <activityAction context="link">
-<execute method="get" action="<http://www.typepad.com/t/app/weblog/post>&#8220;>
+<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
 <parameter name="title" value="{linkTitle}" />
 <parameter name="blog_id" value="16627" />
 <parameter name="SourceURL" value="{link}" />
@@ -70,7 +70,9 @@ Here is the code that will make it work in Typepad:
   * Create a new HTML file
   * Name it typepad.html
   * Put the following code in the html file:
-~~~  <A href=”javascript:window.external.addService(‘http://www.tschopp.net/typepad.xml’);”>Click Here</a>~~~~
+~~~html
+  <A href=”javascript:window.external.addService(‘http://www.tschopp.net/typepad.xml’);”>Click Here</a>
+~~~
   * Replace my URL with the URL to the XML file you created above
   * Save file
   * Upload File to Typepad
