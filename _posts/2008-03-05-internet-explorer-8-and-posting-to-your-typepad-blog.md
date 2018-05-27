@@ -22,37 +22,37 @@ Here is the code that will make it work in Typepad:
 ~~~xml
 <?xml version="1.0" encoding="utf-8" ?>
 <openServiceDescription xmlns="http://www.microsoft.com/schemas/openservicedescription/1.0>">
-<homepageUrl>http://www.typepad.com/t/app</homepageUrl>
-<display>
-<name>Blog in Typepad</name>
-<icon>http://www.tschopp.net/favicon.ico</icon>
-<description>Post this in my Blog</description>
-</display>
-<activity category="Blog">
-<activityAction context="selection">
-<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
-<parameter name="title" value="{documentTitle}" />
-<parameter name="SourceURL" value="{documentUrl}" />
-<parameter name="blog_id" value="16627" />
-<parameter name="text" value="{selection}" />
-<parameter name="keywords" value="{keywords}" />
-</execute>
-</activityAction>
-<activityAction context="document">
-<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
-<parameter name="title" value="{documentTitle}" />
-<parameter name="blog_id" value="16627" />
-<parameter name="SourceURL" value="{documentUrl}" />
-</execute>
-</activityAction>
-<activityAction context="link">
-<execute method="get" action="http://www.typepad.com/t/app/weblog/post">
-<parameter name="title" value="{linkTitle}" />
-<parameter name="blog_id" value="16627" />
-<parameter name="SourceURL" value="{link}" />
-</execute>
-</activityAction>
-</activity>
+  <homepageUrl>http://www.typepad.com/t/app</homepageUrl>
+  <display>
+    <name>Blog in Typepad</name>
+    <icon>http://www.tschopp.net/favicon.ico</icon>
+    <description>Post this in my Blog</description>
+  </display>
+  <activity category="Blog">
+    <activityAction context="selection">
+      <execute method="get" action="http://www.typepad.com/t/app/weblog/post">
+        <parameter name="title" value="{documentTitle}" />
+        <parameter name="SourceURL" value="{documentUrl}" />
+        <parameter name="blog_id" value="16627" />
+        <parameter name="text" value="{selection}" />
+        <parameter name="keywords" value="{keywords}" />
+      </execute>
+    </activityAction>
+    <activityAction context="document">
+      <execute method="get" action="http://www.typepad.com/t/app/weblog/post">
+        <parameter name="title" value="{documentTitle}" />
+        <parameter name="blog_id" value="16627" />
+        <parameter name="SourceURL" value="{documentUrl}" />
+      </execute>
+    </activityAction>
+    <activityAction context="link">
+      <execute method="get" action="http://www.typepad.com/t/app/weblog/post">
+        <parameter name="title" value="{linkTitle}" />
+        <parameter name="blog_id" value="16627" />
+        <parameter name="SourceURL" value="{link}" />
+      </execute>
+    </activityAction>
+  </activity>
 </openServiceDescription>
 ~~~   
 
