@@ -17,7 +17,7 @@ categories:
 ---
 I'm working on this at work, and I'd like to use some of the ideas on my personal sites as well.  I thought I'd post this, as it doesn't yet contain anything to amazing or too specific to my work's enviroment.
 
-~~~HTML
+{% highlight html linenos %}
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
@@ -132,4 +132,4 @@ I'm working on this at work, and I'd like to use some of the ideas on my persona
 </body>
 
 </html>
-~~~
+{% endhighlight %}
