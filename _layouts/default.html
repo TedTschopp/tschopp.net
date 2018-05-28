@@ -13,7 +13,7 @@
 
     <!-- PWA Code -->
     <link rel="manifest" href="manifest.webmanifest">
-    <meta name="theme-color" content="#222222"/>
+    <meta name="theme-color" content="#222222">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
@@ -78,6 +78,14 @@
     
     <!-- Webmentions -->
     <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+
+    <!-- Indieauth.com/ 
+         MICROPUB_TOKEN_ENDPOINT Required
+         The token endpoint to verify the micropub token against. See: https://indieweb.org/token-endpoint
+    -->
+    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+    <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
 
     <!-- Favicon Meta Tags.  -->
     <link rel="shortcut icon" href="/img/favicon.ico">
