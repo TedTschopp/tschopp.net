@@ -32,9 +32,9 @@ And another
 > With this I commend you to God, together with our young ones and all the members of our household. Amen.
 > 
 > July 29, 1534
-  
+>  
 > The Man whom you Love
-  
+>  
 > Martin Luther, Doctor
 
 Katie must have been quite a woman.  Not only did she ship him the beer, but Martin also mentions her beauty and calls her his lord.
