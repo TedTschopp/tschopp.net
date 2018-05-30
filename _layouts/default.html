@@ -304,10 +304,13 @@
     <meta name="twitter:title"           content="{{ site.title }}">
     <meta name="twitter:description"     content="{{ site.description }}">
     <meta name="twitter:image"           content="{{ site.siteurl }}img/apple-touch-icon-180x180.png">
-    <meta name="twitter:image:alt"       content="The Tschopp Family Crest">
+    <meta name="twitter:image:alt"       content="{{ site.logo-alt}}">
+
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
+    <!-- Pinterest Verify -->
+    <meta name="p:domain_verify" content="{{ site.pinterest_domain_verify }}"/>
 
     <!-- News Feed Meta Tags. -->
     {% feed_meta %}
@@ -335,9 +338,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Pinterest Verify -->
-    <meta name="p:domain_verify" content="{{ site.pinterest_domain_verify }}"/>
     
     <!-- Start of Async Drift Code -->
     <!-- {% include js-drift.html %} -->
@@ -387,7 +387,6 @@
                             <p class="lead">I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
                             <p class="lead">Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
                             <p class="lead">I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
-                            <p class="lead">I’m always interested in hearing from former colleagues, managers, or just interesting people, so feel free to contact me if you’d like to connect.</p>
                         </span>
                     </div>
                 </div>
@@ -445,6 +444,8 @@
                         {% assign count = 0 %}
                         {% for post in site.posts %}
                             {% if post.categories contains "Draft" %}
+                                <!-- Do Nothing -->
+                            {% elsif post.categories contains "micropubpost" %}
                                 <!-- Do Nothing -->
                             {% else %}
                                 {% assign count = count | plus: 1 %}
@@ -703,10 +704,9 @@
                         <span class="p-region">{{ site.region }}</span>
                         <span class="p-country-name">{{ site.country }}</span>
                         <span class="p-note hidden aria-hidden">
-                            <p class="lead">I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
-                            <p class="lead">Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
-                            <p class="lead">I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
-                            <p class="lead">I’m always interested in hearing from former colleagues, managers, or just interesting people, so feel free to contact me if you’d like to connect.</p>
+                            <p>I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
+                            <p>Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
+                            <p>I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
                         </span>
                     </div>
                 </div>
