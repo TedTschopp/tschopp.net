@@ -400,36 +400,6 @@
 
     <!-- Page Content -->
 
-  {% for defaults in site.default %}
-      {% assign Dtitle = defaults.title %}
-      {% assign Dlead = defaults.lead %}
-      {% assign Dimage = defaults.image %}
-      {% assign Dname = defaults.name %}
-      {% assign Dcontent = defaults.content %}
-
-    <a name="{{ Dname }}"></a>
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ Dtitle }}</h2>
-                    <p class="lead">{{ Dlead }}</p>
-                    {{Dcontent}}
-
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="{{ Dimage }}" alt="">
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- /.container -->
-    {% endfor %}
-
-
     <!-- .content-section-a -->
     <a name="blog"></a>
 
