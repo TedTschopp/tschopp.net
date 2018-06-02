@@ -481,68 +481,64 @@
 
         {% assign count = 0 %}
         {% for post in posts-home %}
-            {% if post.categories contains "Home" %}
-                {% assign count = count | plus: 1 %}
-                {% assign mod = count | modulo: 2 %}
-                {% if mod == 1 %}
-                    <!-- odd -->
+            {% assign count = count | plus: 1 %}
+            {% assign mod = count | modulo: 2 %}
+            {% if mod == 1 %}
+                <!-- odd -->
 
-                    <a name="{{ post.title | handleize}}"></a>
+                <a name="{{ post.title | handleize}}"></a>
 
-                    <div class="content-section-a">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-5 col-sm-6">
-                                    <div class="clearfix"></div>
-                                    <h2 class="section-heading">{{ post.title}}</h2>
-                                    <p class="lead">{{ post.description}}</p>
-                                    <ul>
-                                        {% for bullet in post.bullets %}
-                                            <li>{{ bullet }} </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                                    <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
-                                </div>
+                <div class="content-section-a">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <h2 class="section-heading">{{ post.title}}</h2>
+                                <p class="lead">{{ post.description}}</p>
+                                <ul>
+                                    {% for bullet in post.bullets %}
+                                        <li>{{ bullet }} </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                                <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
                             </div>
                         </div>
-                        <!-- /.container -->
                     </div>
-                    <!-- /.content-section-a -->
+                    <!-- /.container -->
+                </div>
+                <!-- /.content-section-a -->
 
 
-                {% else %}
-                    <!-- even -->
+            {% else %}
+                <!-- even -->
 
-                    <a name="{{ post.title | handleize}}"></a>
+                <a name="{{ post.title | handleize}}"></a>
 
-                    <div class="content-section-b">
+                <div class="content-section-b">
 
-                        <div class="container">
+                    <div class="container">
 
-                            <div class="row">
-                                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                                    <div class="clearfix"></div>
-                                    <h2 class="section-heading">{{ post.title}}</h2>
-                                    <p class="lead">{{ post.description}}</p>
-                                    <ul>
-                                        {% for bullet in post.bullets %}
-                                            <li>{{ bullet }} </li>
-                                        {% endfor %}
-                                    </ul>
-                                </div>
-                                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                                    <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
-                                </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                <div class="clearfix"></div>
+                                <h2 class="section-heading">{{ post.title}}</h2>
+                                <p class="lead">{{ post.description}}</p>
+                                <ul>
+                                    {% for bullet in post.bullets %}
+                                        <li>{{ bullet }} </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
                             </div>
                         </div>
-                        <!-- /.container -->
                     </div>
-                    <!-- /.content-section-b -->
-
-                {% endif %}
-
+                    <!-- /.container -->
+                </div>
+                <!-- /.content-section-b -->
 
             {% endif %}
         {% endfor %}
