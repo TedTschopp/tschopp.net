@@ -221,22 +221,12 @@
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
  
 	<!-- Open Graph Meta Tags (ogp.me) -->
-    {% if post %}
-        {% if post.image %}
-            <meta property="og:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ post.title }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
-        {% endif %}
+    {% if page.image %}
+        <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+        <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
     {% else %}
-        {% if page.image %}
-            <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-            <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
-        {% endif %}
+        <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+        <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
     {% endif %}
 
 
@@ -320,18 +310,10 @@
     <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
     <meta name="twitter:description"     content="{{ SEO_description }}">
 
-    {% if post %}
-        {% if post.image %}
-            <meta property="twitter:image"            content="{{ site.siteurl }}{{ post.image }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-        {% endif %}
+    {% if page.image %}
+        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
     {% else %}
-        {% if page.image %}
-            <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-        {% else %}
-            <meta property="twitter:images            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-        {% endif %}
+        <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
     {% endif %}
     <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
     <!-- Pinterest. -->
@@ -358,11 +340,7 @@
 	<link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
     
-    {% if post %}
-        {% assign categories = post.categories %}
-    {% else %}
-        {% assign categories = page.categories %}
-    {% endif %}
+    {% assign categories = page.categories %}
     {% for category in categories %}
         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
         {% if thiscategory == "draft" or thiscategory == "Draft" %}
@@ -484,11 +462,7 @@
                     <!-- <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#facebook_thread"><span class="fb-comments-count" data-href="{{ site.siteurl }}{{ page.url }}"></span>&nbsp;Comments</a></br>-->
 
                     <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
-                    {% if post %}
-                        {% assign categories = post.categories %}
-                    {% else %}
-                        {% assign categories = page.categories %}
-                    {% endif %}
+                    {% assign categories = page.categories %}
                     {% for category in categories %}<span class="p-category">
                         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
                         {% if forloop.length == 1 %}
@@ -509,7 +483,7 @@
 
     	            <hr>
 
-    	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ post.content | strip_html | truncatewords:75 }}</p> -->
+    	            <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ page.content | strip_html | truncatewords:75 }}</p> -->
 
                     <!-- Preview Image -->
                     <!--
@@ -536,13 +510,7 @@
     	            <hr>
 
                     <!-- In the event of a draft include a progress bar -->
-                    {% if post %}
-                        {% assign draftstatus = post.draft-status %}
-                    {% else %}
-                        {% assign draftstatus = page.draft-status %}
-                    {% endif %}
-
-
+                    {% assign draftstatus = page.draft-status %}
                     {% if this_is_a_draft == true %}
                         <aside class="well">
                             {% if draftstatus == "notes" or draftstatus == "" %}
@@ -666,36 +634,19 @@
                 </article>
 
                 <!--Next and Previous Articles -->
-                {% if post %}
-                    {% if post.previous.url %}
-                        {% assign previous_url = post.previous.url %}
-                        {% assign previous_title = post.previous.title %}
-                    {% else %}
-                        {% assign previous_url = site.siteurl %}
-                        {% assign previous_title = "Home" %}
-                    {% endif %}
-                    {% if post.next.url %}
-                        {% assign next_url = post.next.url %}
-                        {% assign next_title = post.next.title %}
-                    {% else %}
-                        {% assign next_url = site.siteurl %}
-                        {% assign next_title = "Home" %}
-                    {% endif %}
+                {% if page.previous.url %}
+                    {% assign previous_url = page.previous.url %}
+                    {% assign previous_title = page.previous.title %}
                 {% else %}
-                    {% if page.previous.url %}
-                        {% assign previous_url = page.previous.url %}
-                        {% assign previous_title = page.previous.title %}
-                    {% else %}
-                        {% assign previous_url = site.siteurl %}
-                        {% assign previous_title = "Home" %}
-                    {% endif %}
-                    {% if page.next.url %}
-                        {% assign next_url = page.next.url %}
-                        {% assign next_title = page.next.title %}
-                    {% else %}
-                        {% assign next_url = site.siteurl %}
-                        {% assign next_title = "Home" %}
-                    {% endif %}
+                    {% assign previous_url = site.siteurl %}
+                    {% assign previous_title = "Home" %}
+                {% endif %}
+                {% if page.next.url %}
+                    {% assign next_url = page.next.url %}
+                    {% assign next_title = page.next.title %}
+                {% else %}
+                    {% assign next_url = site.siteurl %}
+                    {% assign next_title = "Home" %}
                 {% endif %}
                 <div class="row">
                     <div class="col-md-6 text-center">
@@ -771,18 +722,14 @@
 
 
                     <div class="post-categories">
-                        {% if post %}
-                            {% assign categories = post.categories %}
-                        {% else %}
-                            {% assign categories = page.categories %}
-                        {% endif %}
+                        {% assign categories = page.categories %}
                         {% for category in categories %}
                             <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
 	                            <div class="row">
 	                            <div class="col-lg-12">
 	                                <ul lass="list-unstyled">
 	                                    {% for post in site.categories.[category] limit:5 %}
-	                                    <li><a href="{{site.siteurl}}{{ post.url }}">{{ post.title }}</a></li>
+	                                    <li><a href="{{site.siteurl}}{{ pageurl }}">{{ page.title }}</a></li>
 	                                    {% endfor %}
 	                                </ul>
 	                            </div>
