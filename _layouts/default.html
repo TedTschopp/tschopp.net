@@ -443,7 +443,7 @@
                     <ul>
                         {% assign count = 0 %}
                         {% for post in site.posts %}
-                            {% if post.categories contains "Draft" %}
+                            {% if post.categories contains "Draft" or post.categories contains "Home" %}
                                 <!-- Do Nothing -->
                             {% elsif post.layout contains "micropubpost" %}
                                 <!-- Do Nothing -->
@@ -508,6 +508,95 @@
         <!-- /.container -->
 
     </div>
+    <!-- /.content-section-a -->
+
+<!--- Trying to CMS the Entries on the Homepage --->
+
+
+        {% assign count = 0 %}
+        {% for post in site.posts %}
+            {% if post.categories contains contains "Home" %}
+                {% assign count = count | plus: 1 %}
+                {% assign mod = count | modulo: 2 %}
+                {% if mod == 1 %}
+                    <!-- odd -->
+
+                    <a name="{{ post.title | handleize}}"></a>
+
+                    <div class="content-section-a">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 col-sm-6">
+                                    <div class="clearfix"></div>
+                                    <h2 class="section-heading">{{ post.title}}</h2>
+                                    <p class="lead">{{ post.description}}</p>
+                                    <ul>
+                                        {% for bullet in post.bullets %}
+                                            <li>{{ bullet }} </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                                    <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                    <!-- /.content-section-a -->
+
+
+                {% else %}
+                    <!-- even -->
+
+                    <a name="{{ post.title | handleize}}"></a>
+
+                    <div class="content-section-b">
+
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                    <div class="clearfix"></div>
+                                    <h2 class="section-heading">{{ post.title}}</h2>
+                                    <p class="lead">{{ post.description}}</p>
+                                    <ul>
+                                        {% for bullet in post.bullets %}
+                                            <li>{{ bullet }} </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                                    <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{image-credits-title}} by {{image-credits-artist}}">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.container -->
+                    </div>
+                    <!-- /.content-section-b -->
+
+                {% endif %}
+
+
+            {% endif %}
+        {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---  Ending CMS homepage --->
+
     <!-- /.content-section-b -->
     <a name="ArchitectForAutomation"></a>
 
