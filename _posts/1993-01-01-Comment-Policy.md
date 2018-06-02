@@ -1,10 +1,10 @@
 ---
 id: 2017121901
 title: Comment Policy
-date: 2017-12-19T08:41:00+00:00
+date: 1993-01-01T08:41:00+00:00
 author: Ted Tschopp
 layout: page
-guid: https://www.tedt.org/2017/12/19/comment_policy
+guid: 686d02e4-9b37-4ea9-bf23-4f0be39d41ac
 permalink: /2017/12/19/comment_policy
 categories:
   - tedt.org

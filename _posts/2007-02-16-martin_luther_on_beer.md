@@ -55,6 +55,6 @@ Sermon on Soberness and Moderation against Gluttony and Drunkenness, 1 Peter 4:7
 
 > God does not forbid you to drink, as do the Turks; he permits you to drink wine and beer: he does not make a law of it. But do not make a pig of yourself; remain a human being. If you are a human being, then keep your human self-control. Even though we do not have a command of God, we should nevertheless be ashamed that we are thus spit upon by other peoples. If you want to be a Christian, do not argue in this way: Nobody reproaches me, therefore God does not reproach me. So it has been from the time of Noah. And so it was with the Sodomites, who wanted to rape the angels; they were all so drunk they could not find the door. Sodom and Gomorrah perished because of a flood of drunkenness; this vice was punished. God does not tolerate such confusion and inordinate use of his creatures [i.e., food and drink].
 
-<p dir="ltr">
+<p>
   I thought this was important to include.  Here Luther uses the term Turk to refer to the Islamic laws.  It should be noted that in Christianity there are very few <em><strong>Thou Shalt Not’s</strong></em>.  Almost everything is permitted.  Even when something is forbidden, such as the fruit from the tree of knowledge of good and evil, God always provides a way out.  The message of Christianity is not a set of rules on how to appear holy.  Christianity is the message that a Holy God has made sinful people Holy.  Christianity is not about what one does or doesn’t do.  It is about what was done because I could not do what was asked of me.
 </p>

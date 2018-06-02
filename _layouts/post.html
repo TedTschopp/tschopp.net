@@ -410,7 +410,7 @@
     	            <hr>
 
     	            <!-- Date/Time -->
-                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">{% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}&nbsp;
                         {% assign d = page.date | date: "%-d" %}
                         {% assign m = page.date | date: "%B" %}
                         {% assign dy = page.date | date: "%A" %}
@@ -441,7 +441,7 @@
                                 late in the evening
                         {%endcase%}
                         
-                        on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
+                        on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup></time></br>
 
                     {% if page.update %}
                     <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Updated: <time datetime="{{page.update}}" class="aria-hidden hidden dt-update">{{page.update}}</time> <time datetime="{{page.update}}">

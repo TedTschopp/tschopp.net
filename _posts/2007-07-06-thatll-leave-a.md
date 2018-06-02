@@ -89,7 +89,7 @@ Martin Luther
 
 At this point I give up.  I cheated to get this far.  I can name only a handful of people before this time who made a mark on the world.  But now we have to look at time periods of hundreds of years.  Many times the mark they left is only their name and a handful of paragraphs in a history book.
 
-<p dir="ltr" style="margin-right:0;">
+<p style="margin-right:0;">
   Why are we as humans so worried about leaving a mark?  For the next 18 months our television will be crawling with people promising to make a mark on the world.  Some of these Presidential canidates will promise to solve problems, win wars, and balance budgets.  In the end they will all look for your alligence and vote.  They will promise that if you give them that, they will leave your mark on the world.  In years to come you can say, “My vote put them into a position of leadership, they were able to change the world because of me.  I made a difference.”  But if this is the case, then why are we so worried about how the future will find us?  Why are we so worried about the mark that our last President left on the world?  Perhaps we worry about these things becuase we can’t control them.  We can’t control our legacy.  We can’t control the future.
 </p>
 
