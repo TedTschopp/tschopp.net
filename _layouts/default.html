@@ -445,7 +445,7 @@
                         {% for post in site.posts %}
                             {% if post.categories contains "Draft" %}
                                 <!-- Do Nothing -->
-                            {% elsif post.categories contains "micropubpost" %}
+                            {% elsif post.layout contains "micropubpost" %}
                                 <!-- Do Nothing -->
                             {% else %}
                                 {% assign count = count | plus: 1 %}
