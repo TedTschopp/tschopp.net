@@ -515,7 +515,7 @@
 
         {% assign count = 0 %}
         {% for post in site.posts %}
-            {% if post.categories contains contains "Home" %}
+            {% if post.categories contains "Home" %}
                 {% assign count = count | plus: 1 %}
                 {% assign mod = count | modulo: 2 %}
                 {% if mod == 1 %}
