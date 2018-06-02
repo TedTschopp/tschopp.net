@@ -423,11 +423,9 @@
                                     {% break %}
                                 {% endif %}
                               <li>
-                                {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                                <a href="{{ post.url }}">{{ post.title }}
-                                </a>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
                                 {% if count == 1 %}
-                                <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                                    <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
                                 {% endif %}
                               </li>
                             {% endif %}
@@ -458,12 +456,9 @@
                     {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'Draft'" %}
                     {% for post in posts-drafts limit:5 %}
                       <li>
-                        {% assign d = post.date | date: "%-d" %}{% assign m = post.date | date: "%B" %}{% assign dy = post.date | date: "%A" %}
-                        <a href="{{ post.url }}">{{ post.title }} 
-                            <!-- {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}-->
-                        </a>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
                         {% if forloop.first %}
-                        <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                            <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
                         {% endif %} 
                       </li>
                     {% endfor %}
@@ -482,9 +477,10 @@
 
 <!--- Trying to CMS the Entries on the Homepage --->
 
+        {% assign posts-home = site.posts | where_exp: "post", "post.categories contains 'Home'" %}
 
         {% assign count = 0 %}
-        {% for post in site.posts %}
+        {% for post in posts-home %}
             {% if post.categories contains "Home" %}
                 {% assign count = count | plus: 1 %}
                 {% assign mod = count | modulo: 2 %}
