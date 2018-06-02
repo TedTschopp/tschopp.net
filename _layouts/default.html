@@ -477,7 +477,7 @@
 
 <!--- Trying to CMS the Entries on the Homepage --->
 
-        {% assign posts-home = site.posts | where_exp: "post", "post.categories contains 'Home'" %}
+        {% assign posts-home = site.categories.Home %}
 
         {% assign count = 0 %}
         {% for postHome in posts-home %}
