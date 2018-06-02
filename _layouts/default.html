@@ -480,9 +480,6 @@
 
         {% assign count = 0 %}
         {% for post in site.posts %}
-            {% if post.categories contains "Home" %}
-
-
                 {% assign count = count | plus: 1 %}
                 {% assign mod = count | modulo: 2 %}
                 {% if mod == 1 %}
@@ -533,7 +530,6 @@
                         <!-- /.container -->
                     </div>
                     <!-- /.content-section-b -->
-                {% endif %}
             {% endif %}
         {% endfor %}
 
