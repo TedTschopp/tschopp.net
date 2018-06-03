@@ -476,13 +476,11 @@
     <!-- /.content-section-a -->
 
     <!--- Trying to CMS the Entries on the Homepage --->
-    <!-- 4 -->
+    <!-- 6 -->
 
         {% assign count = 0 %}
-        {{count}}
-        {% for post in site.categories.['home'] %}
+        {% for post in site.posts %}
             {% assign count = count | plus: 1 %}
-        {{count}}
             {% assign mod = count | modulo: 2 %}
             {% if mod == 1 %}
                 <!-- odd -->
@@ -499,6 +497,15 @@
                                         <li>{{ bullet }} </li>
                                     {% endfor %}
                                 </ul>
+
+
+                        {% assign categories = post.categories %}
+                        {% for category in categories %}
+                            <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
+                        {% endfor %}
+
+
+
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                                 <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{post.image-credits-title}} by {{post.image-credits-artist}}">

@@ -21,7 +21,7 @@ bullets:
 
 layout: post
 guid: 24ccc6a5-f9e8-4278-a610-cd6aabec11d9
-image: /img/automation.jpg
+image: /img/web.jpg
 image-credits: Spider's Web with Raindrops by Pexels https://www.tedt.org/img/web.jpg  
 image-credits-title: Spider's Web with Raindrops
 image-credits-artist: Pexels
