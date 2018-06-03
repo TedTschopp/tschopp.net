@@ -480,28 +480,28 @@
 
         {% assign count = 0 %}
         {{count}}
-        {% for postHome in site.categories.['home'] %}
+        {% for post in site.categories.['home'] %}
             {% assign count = count | plus: 1 %}
         {{count}}
             {% assign mod = count | modulo: 2 %}
             {% if mod == 1 %}
                 <!-- odd -->
-                <a name="{{ postHome.title | handleize}}"></a>
+                <a name="{{ post.title | handleize}}"></a>
                 <div class="content-section-a">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <h2 class="section-heading">{{ postHome.title}}</h2>
-                                <p class="lead">{{ postHome.description}}</p>
+                                <h2 class="section-heading">{{ post.title}}</h2>
+                                <p class="lead">{{ post.description}}</p>
                                 <ul>
-                                    {% for bullet in postHome.bullets %}
+                                    {% for bullet in post.bullets %}
                                         <li>{{ bullet }} </li>
                                     {% endfor %}
                                 </ul>
                             </div>
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                                <img class="img-responsive img-thumbnail" src="{{postHome.image-credits-URL}}" alt="{{postHome.image-credits-title}} by {{postHome.image-credits-artist}}">
+                                <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{post.image-credits-title}} by {{post.image-credits-artist}}">
                             </div>
                         </div>
                     </div>
@@ -510,22 +510,22 @@
                 <!-- /.content-section-a -->
             {% else %}
                 <!-- even -->
-                <a name="{{ postHome.title | handleize}}"></a>
+                <a name="{{ post.title | handleize}}"></a>
                 <div class="content-section-b">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                                 <div class="clearfix"></div>
-                                <h2 class="section-heading">{{ postHome.title}}</h2>
-                                <p class="lead">{{ postHome.description}}</p>
+                                <h2 class="section-heading">{{ post.title}}</h2>
+                                <p class="lead">{{ post.description}}</p>
                                 <ul>
-                                    {% for bullet in postHome.bullets %}
+                                    {% for bullet in post.bullets %}
                                         <li>{{ bullet }} </li>
                                     {% endfor %}
                                 </ul>
                             </div>
                             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                                <img class="img-responsive img-thumbnail" src="{{postHome.image-credits-URL}}" alt="{{postHome.image-credits-title}} by {{postHome.image-credits-artist}}">
+                                <img class="img-responsive img-thumbnail" src="{{post.image-credits-URL}}" alt="{{post.image-credits-title}} by {{post.image-credits-artist}}">
                             </div>
                         </div>
                     </div>
