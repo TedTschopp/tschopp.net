@@ -1,6 +1,6 @@
 ---
 title: Enterprise Technology Architect for Automation at Southern California Edison
-date: 2017-01-01T09:37:12-07:00
+date: 2018-06-03T07:11:51-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
