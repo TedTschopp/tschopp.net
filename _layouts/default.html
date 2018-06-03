@@ -479,7 +479,7 @@
     <!-- 1 -->
 
         {% assign count = 0 %}
-        {% for postHome in site.categories.['Home'] %}
+        {% for postHome in site.categories.['home'] %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
             {% if mod == 1 %}
