@@ -27,7 +27,7 @@ image-credits-title: Spider's Web with Raindrops
 image-credits-artist: Pexels
 image-credits-URL: https://www.tedt.org/img/web.jpg
 categories:
-  - Home
+  - home
 ---
 
 Build a holistic view of the current and future state architecture for digital solutions that links domain architectures to business capabilities and processes for SCE using multiple architectural models and views building SCE’s strategy, technology road map, and product management direction for over 500 properties with an annual budget of $30M.
