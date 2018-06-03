@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Enterprise Technology Architect for Digital at Southern California Edison
 date: 2018-06-03T07:11:42-07:00
 author:
@@ -19,15 +20,13 @@ bullets:
   - 2M+ Monthly Active Users
   - 3.75M+ Transactions a Month
 
-layout: post
 guid: 24ccc6a5-f9e8-4278-a610-cd6aabec11d9
 image: /img/web.jpg
 image-credits: Spider's Web with Raindrops by Pexels https://www.tedt.org/img/web.jpg  
 image-credits-title: Spider's Web with Raindrops
 image-credits-artist: Pexels
 image-credits-URL: https://www.tedt.org/img/web.jpg
-categories:
-  - home
+categories: home
 ---
 
 Build a holistic view of the current and future state architecture for digital solutions that links domain architectures to business capabilities and processes for SCE using multiple architectural models and views building SCE’s strategy, technology road map, and product management direction for over 500 properties with an annual budget of $30M.
