@@ -475,12 +475,10 @@
     </div>
     <!-- /.content-section-a -->
 
-<!--- Trying to CMS the Entries on the Homepage --->
-
-        {% assign posts-home = site.categories.["Home"] %}
+    <!--- Trying to CMS the Entries on the Homepage --->
 
         {% assign count = 0 %}
-        {% for postHome in posts-home %}
+        {% for postHome in site.categories.['Home'] %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
             {% if mod == 1 %}
