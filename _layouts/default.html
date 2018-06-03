@@ -476,11 +476,13 @@
     <!-- /.content-section-a -->
 
     <!--- Trying to CMS the Entries on the Homepage --->
-    <!-- 3 -->
+    <!-- 4 -->
 
         {% assign count = 0 %}
+        {{count}}
         {% for postHome in site.categories.['home'] %}
             {% assign count = count | plus: 1 %}
+        {{count}}
             {% assign mod = count | modulo: 2 %}
             {% if mod == 1 %}
                 <!-- odd -->
