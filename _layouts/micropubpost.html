@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% if page.excerpt != "" %}
+        {% assign SEO_description = page.excerpt | strip_html %}
+    {% elsif page.description != "" %}
+        {% assign SEO_description = page.description | strip_html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
+
+    <!-- Base URL to use for all relative URLs contained within the document -->
+    <!--<base href="https://www.tedt.org/">-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <!-- IndieAuth.com -->
+    {% if site.keybaseio_username %}
+        <link href="https://keybase.io/{{ site.keybaseio_username }}" rel="me">
+    {% endif %}
+    {% if site.github_username or
+          site.linkedin_username or
+          site.twitter_username or
+          site.facebook_username or
+          site.google_username or
+          site.youtube_username or
+          site.pinterest_username or
+          site.reddit_username or
+          site.instagram_username or
+          site.quora_username %}
+
+            {% if site.github_username %}
+                <link href="https://github.com/{{ site.github_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.linkedin_username %}
+                <link href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.twitter_username %}
+                <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.facebook_username %}
+                <link href="https://www.facebook.com/{{ site.facebook_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.google_username %}
+                <link href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.youtube_username %}
+                <link href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.pinterest_username %}
+                <link href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.reddit_username %}
+                <link href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.instagram_username %}
+                <link href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.quora_username %}
+                <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+    {% endif %}
+
+    <!-- Webmentions -->
+    <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+
+
+    <!-- Favicon Meta Tags.  -->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="icon" sizes="16x16"   type="image/png" href="{{site.siteurl}}/img/favicon-16x16.png">
+    <link rel="icon" sizes="32x32"   type="image/png" href="{{site.siteurl}}/img/favicon-32x32.png">
+    <link rel="icon" sizes="48x48"   type="image/png" href="{{site.siteurl}}/img/android-chrome-48x48.png">
+    <link rel="icon" sizes="62x62"   type="image/png" href="{{site.siteurl}}/img/favicon-62x62.png">
+    <link rel="icon" sizes="128x128" type="image/png" href="{{site.siteurl}}/img/favicon-128x128.png">
+    <link rel="icon" sizes="192x192" type="image/png" href="{{site.siteurl}}/img/android-chrome-192x192.png" >
+
+    <!-- Apple iOS Settings. -->
+	<!--Sets whether a web application runs in full-screen mode. -->
+    <meta name="apple-mobile-web-app-capable"          content="yes">
+    <!-- Color of the status bar -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+	<!-- Web App Name for the Shortcut -->
+	<meta name="apple-mobile-web-app-title"            content="Ted Tschopp">
+	<!-- Do Not Detect Phone Numbers -->
+    <meta name="format-detection" content="telephone=no"> 
+    
+	<!-- iPhone icons -->
+	<!--
+    <link rel="apple-touch-icon"                 href="{{site.siteurl}}/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57"   href="{{site.siteurl}}/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="{{site.siteurl}}/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{site.siteurl}}/img/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.siteurl}}/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{site.siteurl}}/img/apple-touch-icon-152x152.png"> -->
+	<link rel="apple-touch-icon" sizes="180x180" href="{{site.siteurl}}/img/apple-touch-icon-180x180.png">
+    <!--<link rel="apple-touch-icon-precomposed"     href="{{site.siteurl}}/img/apple-touch-icon-precomposed.png">-->
+	<!-- TODO: Add in Splash Screens with apple-touch-startup-image -->
+
+
+
+    <!-- Apple Safari Pinned Site. -->
+    <link rel="mask-icon" href="{{site.siteurl}}/img/Tschopp.svg" color="black">
+
+    <!-- App Banner and link to app store. -->
+    <!--
+    <meta name="apple-itunes-app" content="app-id=APP_ID, affiliate-data=AFFILIATE_ID, app-argument=http/url-sample.com">
+    -->
+    <!-- Apple iOS app deep linking. -->
+    <!--
+    <link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
+    <meta property="al:ios:url" content="applinks://docs">
+    <meta property="al:ios:app_store_id" content="12345">
+    <meta property="al:ios:app_name" content="App Links">
+    -->
+
+    <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+    <!--
+    <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+    -->
+
+    <!-- Google Android. -->
+    <!--
+    <meta name="theme-color" content="#E64545">
+    <meta name="google-play-app" content="app-id=package-name">
+    -->
+    <!-- Android app deep linking. -->
+    <!--
+    <link rel="alternate" href="android-app://package-name/http/url-sample.com">
+    <meta property="al:android:url" content="applinks://docs">
+    <meta property="al:android:app_name" content="App Links">
+    <meta property="al:android:package" content="org.applinks">
+  -->
+
+    <!-- Google Chrome. -->
+	<link rel="icon" type="image/png" sizes="36x36" href="{{site.siteurl}}/img/android-chrome-36x36.png">
+	<link rel="icon" type="image/png" sizes="48x48" href="{{site.siteurl}}/img/android-chrome-48x48.png">
+	<link rel="icon" type="image/png" sizes="72x72" href="{{site.siteurl}}/img/android-chrome-72x72.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{site.siteurl}}/img/android-chrome-96x96.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="{{site.siteurl}}/img/android-chrome-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{site.siteurl}}/img/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="384x384" href="{{site.siteurl}}/img/android-chrome-384x384.png">
+	<link rel="icon" type="image/png" sizes="256x256" href="{{site.siteurl}}/img/android-chrome-256x256.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="{{site.siteurl}}/img/android-chrome-512x512.png">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
+    <meta name="google" value="notranslate">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/img/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
+    <!-- Windows Internet Explorer. -->
+    <meta http-equiv="cleartype"                   content="on">
+    <meta name="skype_toolbar"                     content="skype_toolbar_parser_compatible">
+    <meta name="msapplication-tap-highlight"       content="no">
+    <meta name="application-name"                  content="Ted Tschopp">
+    <meta name="msapplication-tooltip"             content="Ted Tschopp's homepage">
+    <meta name="msapplication-starturl"            content="{{site.siteurl}}/">
+    <meta name="msapplication-square150x150logo"   content="{{site.siteurl}}/img/mstile-150x150.png">
+    <meta name="msapplication-square310x310logo"   content="{{site.siteurl}}/img/mstile-310x310.png">
+    <meta name="msapplication-square70x70logo"     content="{{site.siteurl}}/img/mstile-70x70.png">
+    <meta name="msapplication-wide310x150logo"     content="{{site.siteurl}}/img/mstile-310x150.png">
+    <meta name="msapplication-navbutton-color"     content="#FF3300">
+    <meta name="msapplication-TileColor"           content="#FF3300">
+    <meta name="msapplication-TileImage"           content="{{site.siteurl}}/img/mstile-144x144.png">
+    <meta name="msapplication-task-separator"      content="1">
+    <meta name="msapplication-task"                content="name=Contact Ted;
+															action-uri={{site.siteurl}}/#contact;
+															icon-uri={{site.siteurl}}/img/favicon.ico">
+    <meta name="msapplication-task"                content="name=Ted's Projects;
+															action-uri={{site.siteurl}}/#projects;
+															icon-uri={{site.siteurl}}/img/favicon.ico">
+    <meta name="msapplication-allowDomainApiCalls" content="false">
+    <meta name="msapplication-allowDomainMetaTags" content="false">
+    <meta name="msapplication-window"              content="width=1024;height=768">
+	<!--
+	<meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
+    <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
+    -->
+
+    <title>{{ page.title }}</title>
+    <meta name="author" content="Ted Tschopp">
+    <link rel="author" href="{{site.siteurl}}/humans.txt">
+    <link rel="copyright" href="{{site.siteurl}}/copyright.html">
+
+    <!-- Geo Positioning Meta Tags. -->
+    <!--
+	<meta name="geo.position"  content="50.97590;0.01722">
+    <meta name="geo.region"    content="GB">
+    <meta name="geo.placename" content="London, United Kingdom">
+    <meta name="ICBM"          content="50.9759, 0.0172">
+    <meta name="DC.title"      content="Location Name">
+	-->
+    <!-- Search Eengine and Browser Meta Tags. -->
+	<!-- The description of the website. Keep under 500 characters -->
+	<meta name="description" content="{{ SEO_description }}"> 
+	<!-- The short description of the website.  Keep uder 100 characters -->
+    <meta name="abstract"    content="{{ site.name }}"> 
+ 
+    <!-- Search engine robots Meta Tags. -->
+    <!-- Disable from all search engines.-->
+    <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
+ 
+	<!-- Open Graph Meta Tags (ogp.me) -->
+    {% if page.image %}
+        <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+        <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
+    {% else %}
+        <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+        <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
+    {% endif %}
+
+
+
+
+    <!-- Facebook web site appID  -->
+    <meta property="fb:app_id"           content="1939132006351436" />
+	<!-- Web site title -->
+    <meta property="og:site_name"        content="{{ site.name }}">
+	<!-- Web page title -->
+    <meta property="og:title"            content="{{ page.title }} - {{ site.name }}">
+	<!-- Web page description -->
+    <meta property="og:description"      content="{{ page.excerpt | strip_html }}">  
+	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
+	<meta property="og:type"             content="article">  
+	<!-- Url to this web page -->
+    <meta property="og:url"              content="{{ site.siteurl }}{{ page.url }}"> 
+	<!-- Main Language -->
+	<meta property="og:locale"           content="en_US">    
+	<!-- Alternate Language -->
+	<!--
+	<meta property="og:locale:alternate" content="fr_FR">    
+    <meta property="og:locale:alternate" content="es_ES">    
+	-->
+
+	<!-- Geographical coordenates -->
+	<!--
+	<meta property="og:latitude"         content="50.97590"> 
+    <meta property="og:longitude"        content="0.017221">
+	-->
+	<!-- Postal Address -->
+    <!-- <meta property="og:street-address"   content="Flat 1, 26 Street Name"> -->
+	<!-- Locality -->
+    <!-- <meta property="og:locality"         content="London"> -->
+	<!-- Region -->
+	<!-- <meta property="og:region"           content="London"> -->
+	<!-- Post code -->
+	<!-- <meta property="og:postal-code"      content="N1 PLE"> -->
+	<!-- Country -->
+	<!-- <meta property="og:country-name"     content="UK"> -->
+
+	<!-- Contact email -->
+    <meta property="og:email"            content="{{ site.email }}"> 
+	<!-- Contact phone number -->
+	<meta property="og:phone_number"     content="{{ site.phonenumber }}">
+
+    <!-- Video file url-->
+	<!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
+	<!-- Video height -->
+    <!-- <meta property="og:video:height"     content="640"> -->
+	<!-- Video width -->
+    <!-- <meta property="og:video:width"      content="385"> -->  
+	<!-- Video file format mime type -->
+    <!-- <meta property="og:video:type"       content="application/x-shockwave-flash"> -->
+
+	<!-- Audio file url -->
+	<!-- <meta property="og:audio"            content="http://example.com/audio.mp3"> -->
+	<!-- Audio title -->
+	<!-- <meta property="og:audio:title"      content="Song Title"> -->
+	<!-- Audio artist -->
+    <!-- <meta property="og:audio:artist"     content="Name of Band"> -->                
+	<!-- Audio album title-->
+    <!-- <meta property="og:audio:album"      content="Album Title"> -->              
+	<!-- Audio file format mime type -->
+    <!-- <meta property="og:audio:type"       content="application/mp3"> -->               
+
+	<!-- UPC EAN barcodes-->
+    <!-- <meta property="og:upc"              content="885909367481"> -->
+	<!-- Book ISBN number-->
+    <!-- <meta property="og:isbn"             content="1873520786"> -->
+
+    <!-- Facebook Meta Tags. -->
+    <!-- <meta property="fb:app_id"           content="123456789"> -->
+
+
+    <!-- Twitter Meta Tags. -->
+    <meta name="twitter:card"            content="summary">
+    <meta name="twitter:site"            content="@site_account">
+    <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
+    <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
+    <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
+    <meta name="twitter:description"     content="{{ SEO_description }}">
+
+    {% if page.image %}
+        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+    {% else %}
+        <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+    {% endif %}
+    <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
+    <!-- Pinterest. -->
+    <!-- Prevents sharing of content by Pinterest users. -->
+    <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
+    
+	<!-- News Feed Meta Tags. -->
+    <!--
+	<link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
+    <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
+    <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
+	<link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
+	-->
+
+
+    {% seo %}
+
+
+
+    <!-- Bootstrap Core CSS -->
+    {% include css-bootstrap.html %}
+
+    <!-- Custom CSS -->
+	<link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
+    <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
+    
+    {% assign categories = page.categories %}
+    {% for category in categories %}
+        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+            {% assign this_is_a_draft = true %}
+        {% endif %}
+    {% endfor %}
+    {% if this_is_a_draft == true %}
+        <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
+        <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
+    {% endif %}
+
+
+
+    <!-- Custom Fonts -->
+    {% include css-font-awesome.html %}
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    {% include js-facebook-analytics.html %}
+
+    {% include navigation.html %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+	            <!-- Blog Post -->
+
+                <article class="h-entry">
+    	            <!-- Title -->
+    	            <h1 class="p-name">{{ page.title }}</h1>
+
+    	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
+	               <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}">{{page.author.name}}</a></p>
+
+    	            <hr>
+
+    	            <!-- Date/Time -->
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">{% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}&nbsp;
+                        {% assign d = page.date | date: "%-d" %}
+                        {% assign m = page.date | date: "%B" %}
+                        {% assign dy = page.date | date: "%A" %}
+                        {% assign hour = page.date | date: "%H" %}
+                        {% assign buildDate = "now" | date: '%s'  %}
+                        {% assign thisDate = page.date | date: '%s'  %}
+                        {% assign prevDateDiff = buildDate | minus: thisDate %}
+                        {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
+
+
+
+                        {% case hour %}
+                            {% when '01' or '02' or '03' or '04' or '23' or '24' %}
+                                during the night
+                            {% when '05' or '06' or '07' or '08' %}
+                                in the early morning
+                            {% when '09' or '10' or '11'%}
+                                late in the morning
+                            {% when '12' %}
+                                at noon
+                            {% when '13' or '14' or '15' %}
+                                early in the afternoon
+                            {% when '16' or '17' %}
+                                late in the afternoon
+                            {% when '18' or '19' %}
+                                early in the evening
+                            {% when '20' or '21' or '22' %}
+                                late in the evening
+                        {%endcase%}
+                        
+                        on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup></time></br>
+
+                    {% if page.update %}
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Updated: <time datetime="{{page.update}}" class="aria-hidden hidden dt-update">{{page.update}}</time> <time datetime="{{page.update}}">
+                        {% assign d = page.update | date: "%-d" %}
+                        {% assign m = page.update | date: "%B" %}
+                        {% assign dy = page.update | date: "%A" %}
+                        {% assign hour = page.update | date: "%H" %}
+                        {% assign buildDate = "now" | date: '%s'  %}
+                        {% assign thisDate = page.update | date: '%s'  %}
+                        {% assign prevDateDiff = buildDate | minus: thisDate %}
+                        {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
+
+
+
+                        {% case hour %}
+                            {% when '01' or '02' or '03' or '04' or '23' or '24' %}
+                                during the night
+                            {% when '05' or '06' or '07' or '08' %}
+                                in the early morning
+                            {% when '09' or '10' or '11'%}
+                                late in the morning
+                            {% when '12' %}
+                                at noon
+                            {% when '13' or '14' or '15' %}
+                                early in the afternoon
+                            {% when '16' or '17' %}
+                                late in the afternoon
+                            {% when '18' or '19' %}
+                                early in the evening
+                            {% when '20' or '21' or '22' %}
+                                late in the evening
+                        {%endcase%}
+                        
+                        on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
+                        {% endif %}
+
+
+                    {% if page.image %}
+                    <figure>
+                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
+                      <figcaption>
+                        {% if page.image-credits-URL or page.image-credits-title %}
+                            <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}
+                        {% elsif page.image-credits %}
+                            {{page.image-credits}}
+                        {% else %}
+                            Unknown
+                        {% endif %}
+                      </figcaption>
+                    </figure>
+                    {% endif %}
+
+    	            <hr>
+
+
+
+
+    	            <!-- Post Content -->
+    	            <span class="e-content">{{ content }}</span>
+
+    	            <hr>
+                </article>
+
+                <!--Next and Previous Articles -->
+                {% if page.previous.url %}
+                    {% assign previous_url = page.previous.url %}
+                    {% assign previous_title = page.previous.title %}
+                {% else %}
+                    {% assign previous_url = site.siteurl %}
+                    {% assign previous_title = "Home" %}
+                {% endif %}
+                {% if page.next.url %}
+                    {% assign next_url = page.next.url %}
+                    {% assign next_title = page.next.title %}
+                {% else %}
+                    {% assign next_url = site.siteurl %}
+                    {% assign next_title = "Home" %}
+                {% endif %}
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></span>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></span>
+                    </div>
+                </div>
+ 
+                <hr>
+
+
+                <div class="well">
+                    <script id="webmention-hosted">
+                    (function () {
+                    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+                    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+                    url = url && url[0] ? url[0].href : false;
+                    sn.type = "text/javascript"; sn.async = true;
+                    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+                    s.parentNode.insertBefore(sn, s);
+                    }());
+                    </script> 
+               </div>
+
+                <hr>
+
+	            <!-- Blog Comments -->
+	            <!-- Comments Form -->
+	            <div class="well">
+	    			<div id="disqus_thread"></div>
+					<script>
+					/**
+					*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+					/*
+					var disqus_config = function () {
+					this.page.url = " {{ page.url }} ";  // Replace PAGE_URL with your page's canonical URL variable
+					this.page.identifier = " {{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					};
+					*/
+					(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = 'https://tedtschopp.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+					})();
+					</script>
+	    			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	            </div>
+
+
+                <!--<div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>-->
+
+
+                <hr>
+
+	        </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- TODO: Google Custom Search -->
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h4>Blog Search</h4>
+                    {% include google-search.html %}
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+
+
+                    <div class="post-categories">
+                        {% assign categories = page.categories %}
+                        {% for category in categories %}
+                            <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
+	                            <div class="row">
+	                            <div class="col-lg-12">
+	                                <ul lass="list-unstyled">
+	                                    {% for post in site.categories.[category] limit:5 %}
+	                                    <li><a href="{{site.siteurl}}{{ pageurl }}">{{ page.title }}</a></li>
+	                                    {% endfor %}
+	                                </ul>
+	                            </div>
+                            </div>
+                        {% endfor %}
+                    </div>                
+                </div>
+
+
+                <!-- Side Widget Well -->
+                <!-- This is the flipboard widget example 
+                <div class="well">
+                    <a data-flip-widget="mag" href="https://flipboard.com/@tedtschopp/technology-trends-of-tomorrow-qnepnf10y">View my Flipboard Magazine.</a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+                </div>
+                -->
+
+                <!-- Side Widget Well -->
+                <!-- start feedwind code --> 
+                <!-- <div class="well">
+                    <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="56682/"></script> 
+               </div> -->
+               <!-- end feedwind code --> 
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    {% include js-jquery.html %}
+
+    <!-- Bootstrap Core JavaScript -->
+    {% include js-bootstrap.html %}
+
+    <!-- Google Analytics JavaScript -->
+    {% include js-google-analytics.html %}
+
+
+    <!-- Disqus Count JavaScript -->
+    <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async></script>
+
+
+
+
+</body>
+
+</html>
