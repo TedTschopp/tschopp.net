@@ -480,18 +480,25 @@
     	            <!-- Post Content -->
     	            <span class="e-content">{{ content }}
 
-                            mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
+                            page.mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
 
-                            mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
+                            page.mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
 
-                            mf-syndication - {{ page.mf-syndication | jsonify }} <br><br><br>
+                            page.mf-syndication - {{ page.mf-syndication | jsonify }} <br><br><br>
 
 
-                            mf-checkin - {{ page.mf-checkin  }} <br><br><br>
 
-                            mf-locations - {{ page.mf-location }} <br><br><br>
+                            {% assign mf-checkin = page.mf-checkin %} <br><br><br>
 
-                            mf-syndication - {{ page.mf-syndication   }} <br><br><br>
+                            mf-checkin - {{ mf-checkin | jsonify }} <br><br><br>
+
+
+
+                            page.mf-checkin - {{ page.mf-checkin  }} <br><br><br>
+
+                            page.mf-locations - {{ page.mf-location }} <br><br><br>
+
+                            page.mf-syndication - {{ page.mf-syndication   }} <br><br><br>
 
 
 
