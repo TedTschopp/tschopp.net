@@ -479,7 +479,7 @@
     <!-- 10 -->
 
         {% assign count = 0 %}
-        {% assign HomePagePosts site.categories.['home'] | sort: 'order' %}
+        {% assign HomePagePosts site.categories.['home'] %}
         {% for post in HomePagePosts %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}

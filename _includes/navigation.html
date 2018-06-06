@@ -37,7 +37,7 @@
                         </a>
                         <ul class="dropdown-menu">
 
-                            {% assign HomePagePosts site.categories.['home'] | sort: 'order' %}
+                            {% assign HomePagePosts site.categories.['home']  %}
                             {% for post in HomePagePosts %}
                                 <li><a href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a></li>
                             {% endfor %}
