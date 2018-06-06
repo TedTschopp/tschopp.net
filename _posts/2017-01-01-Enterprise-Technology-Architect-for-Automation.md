@@ -7,12 +7,9 @@ author:
   url: https://www.tedt.org/
   avatar: https://www.tedt.org/img/thumb3.jpg
 
-description: |
-   Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.   
-excerpt: |
-   Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.   
-seo_description: |
-   Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.  
+description: Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.   
+excerpt: Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.   
+seo_description: Technology architect responsible SCE's Automation portfolio providing strategy, technology road map, and product management for automation solutions.  
 
 bullets:
   - 181K+ hours saved annually
