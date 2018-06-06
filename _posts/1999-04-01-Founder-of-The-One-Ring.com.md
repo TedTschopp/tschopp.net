@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Founder of The One Ring - Tolkien Online
+title-url: http://www.theonering.com/
 date: 2018-06-03T07:11:42-07:00
 author:
   name: Ted Tschopp
