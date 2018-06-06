@@ -39,9 +39,9 @@
 
                             {% assign HomePagePosts site.categories.['home'] | sort: 'order' %}}
                             {% for post in HomePagePosts %}
-                                <li><a href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title | strip_html}}</a></li>
-
+                                <li><a href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a></li>
                             {% endfor %}
+
                             <li><a href="{{site.siteurl}}/#ArchitectForDigital">Technology Architect for Digital</a></li>
                             <li><a href="{{site.siteurl}}/#ArchitectforSCEcom">Program Architect for SCE.com</a></li>
                             <li><a href="{{site.siteurl}}/#FounderTolkienOnline">Founder of The One Ring: Tolkien Online</a></li>
