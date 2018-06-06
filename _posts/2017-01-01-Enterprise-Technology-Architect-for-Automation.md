@@ -27,6 +27,7 @@ image-credits-title: Automate / Turn On
 image-credits-artist: Pixabay
 image-credits-URL: https://www.tedt.org/img/automation.jpg
 categories: home
+order: 2
 ---
 
 Build a holistic view of the current and future state architecture for automation solutions that links domain architectures to business capabilities and processes for SCE using multiple architectural models and views building SCE’s strategy, technology road map, and product management direction for automation solutions.
