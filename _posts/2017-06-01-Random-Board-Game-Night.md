@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Password Challenge
+title: Twitterbot - Random Board Game Night
 title-url: https://twitter.com/randomgamenight
 date: 2018-06-03T07:11:42-07:00
 author:
