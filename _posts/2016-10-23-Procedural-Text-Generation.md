@@ -18,7 +18,7 @@ seo_description: |
 bullets:
   - A work in progress to help build an automated story telling computer
   - Over 100 tables of various objects and qualities. 
-  - To Do: Look into Mustache engine
+  - To Do- Look into Mustache engine
 
 guid: 9f531baa-bd7f-4dd8-bbe8-46bb65b97a46
 image: /img/table.jpg
@@ -30,7 +30,7 @@ categories: home
 order: 5
 ---
 
- An application that generates text using procedural methods.
+An application that generates text using procedural methods.
 * A work in progress to help build an automated story telling computer
 * Over 100 tables of various objects and qualities. 
 * To Do: Look into Mustache engine
