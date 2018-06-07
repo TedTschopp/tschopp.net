@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Program Architect for SCE.com
+title-url: https://www.sce.com/
 date: 2018-06-03T07:11:51-07:00
 author:
   name: Ted Tschopp
