@@ -484,7 +484,11 @@
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
                 <a name="{{ post.title | slugify}}"></a>
+                {% if mod == 1 %}<!-- odd -->
                 <div class="content-section-a">
+                {% else %}
+                <div class="content-section-b">
+                {% endif %}
                     <div class="container">
                         <div class="row">
                             {% if mod == 1 %}<!-- odd -->
