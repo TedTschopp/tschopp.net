@@ -27,7 +27,7 @@ image-credits-title: Password List
 image-credits-artist: Ted Tschopp
 image-credits-URL: https://github.com/TedTschopp/The-Password-Challange
 categories: home
-order: 7
+order: 5
 ---
 
 Check the strength of your password based on mathematical models that take into account the latest hacking techniques! 

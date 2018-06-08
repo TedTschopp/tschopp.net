@@ -36,8 +36,8 @@
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-
-                            {% for post in site.categories.['home'] %}
+                            {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
+                            {% for post in sorted_homepage %}
                                 <li><a href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a></li>
                             {% endfor %}
 
