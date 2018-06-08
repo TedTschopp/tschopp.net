@@ -478,8 +478,9 @@
     <!--- Trying to CMS the Entries on the Homepage --->
     <!-- 10 -->
 
+        {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
         {% assign count = 0 %}
-        {% for post in site.categories.['home'] %}
+        {% for post in sorted_homepage %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
                 <a name="{{ post.title | slugify}}"></a>
