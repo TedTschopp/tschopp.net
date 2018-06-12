@@ -480,33 +480,21 @@
     	            <!-- Post Content -->
     	            <span class="e-content">{{ content }}
 
-                            page.mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
-
-                            page.mf-checkin['properties'].name  - {{ page.mf-checkin['properties'].name | jsonify }} <br><br><br>
+                            page.mf-syndication - {{ page.mf-syndication | jsonify }} <br><br><br>
 
                             page.mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
 
-                            page.mf-syndication - {{ page.mf-syndication | jsonify }} <br><br><br>
-
-
-
-                            {% assign mf-checkin = page.mf-checkin %} <br><br><br>
-
-                            mf-checkin - {{ mf-checkin | jsonify }} <br><br><br>
-
-
                             mf-checkin[0] - {{ mf-checkin[0] | jsonify }} <br><br><br>
 
-                            mf-checkin[1] - {{ mf-checkin[1] | jsonify }} <br><br><br>
+                            mf-checkin[0].type - {{ mf-checkin[0].type | jsonify }} <br><br><br>
 
-                            mf-checkin[2] - {{ mf-checkin[2] | jsonify }} <br><br><br>
+                            mf-checkin[0].properties.name - {{ mf-checkin[0].properties.name | jsonify }} <br><br><br>
+                            mf-checkin[0].properties.url - {{ mf-checkin[0].properties.url | jsonify }} <br><br><br>
+                            mf-checkin[0].properties.latitude - {{ mf-checkin[0].properties.latitude | jsonify }} <br><br><br>
 
 
-                            page.mf-checkin - {{ page.mf-checkin  }} <br><br><br>
 
-                            page.mf-locations - {{ page.mf-location }} <br><br><br>
 
-                            page.mf-syndication - {{ page.mf-syndication   }} <br><br><br>
 
 
 
