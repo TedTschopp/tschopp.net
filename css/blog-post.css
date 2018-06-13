@@ -51,5 +51,6 @@ figcaption {
 }
 
 .lead > .u-photo {
-	height: 1em;
+	height: .75em;
+	border-radius: 50% 50% 50% 50%;
 }
