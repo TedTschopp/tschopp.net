@@ -50,7 +50,13 @@ figcaption {
 	display: block;
 }
 
-.lead > .u-photo {
+
+.lead > .p-author > .u-photo {
 	height: .75em;
 	border-radius: 50% 50% 50% 50%;
 }
+
+.lead > .p-author > .u-photo:hover {
+	text-decoration: none;
+}
+
