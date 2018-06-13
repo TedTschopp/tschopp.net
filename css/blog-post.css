@@ -50,3 +50,6 @@ figcaption {
 	display: block;
 }
 
+.lead > .u-photo {
+	height: 1em;
+}
