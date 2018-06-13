@@ -332,8 +332,6 @@
     <!-- Custom Fonts -->
     {% include css-font-awesome.html %}
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -386,9 +384,10 @@
                         <h3><span class="p-job-title">Enterprise Technology Architect <br> ⟨ Digital ⟩⟨ Automation ⟩</span></h3>
                         <hr class="intro-divider">
                         <span class="p-note">
-                            <p class="lead">I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
-                            <p class="lead">Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
-                            <p class="lead">I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
+                            {% for paragraphs in site.biography %}
+                                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+                                <p class="lead">{{paragraph}}</p>
+                            {% endfor %}
                         </span>
                     </div>
                 </div>
@@ -480,12 +479,17 @@
     <!--- Trying to CMS the Entries on the Homepage --->
     <!-- 10 -->
 
+        {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
         {% assign count = 0 %}
-        {% for post in site.categories.['home'] %}
+        {% for post in sorted_homepage %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
                 <a name="{{ post.title | slugify}}"></a>
+                {% if mod == 1 %}<!-- odd -->
                 <div class="content-section-a">
+                {% else %}
+                <div class="content-section-b">
+                {% endif %}
                     <div class="container">
                         <div class="row">
                             {% if mod == 1 %}<!-- odd -->
@@ -537,9 +541,10 @@
                         <span class="p-region">{{ site.region }}</span>
                         <span class="p-country-name">{{ site.country }}</span>
                         <span class="p-note hidden aria-hidden">
-                            <p>I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.</p>
-                            <p>Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.</p>
-                            <p>I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.</p>
+                            {% for paragraphs in site.biography %}
+                                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+                                <p>{{paragraph}}</p>
+                            {% endfor %}
                         </span>
                     </div>
                 </div>

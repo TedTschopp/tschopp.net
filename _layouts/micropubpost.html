@@ -480,29 +480,31 @@
     	            <!-- Post Content -->
     	            <span class="e-content">{{ content }}
 
-                            page.mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
+                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br>
 
-                            page.mf-checkin['properties'].name  - {{ page.mf-checkin['properties'].name | jsonify }} <br><br><br>
+                            mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
+                            mf-checkin[0] - {{ page.mf-checkin[0] }} <br><br><br>
+                            mf-checkin[0].type - {{ page.mf-checkin[0].type }} <br><br><br>
+                            mf-checkin[0].properties - {{ page.mf-checkin[0].properties }} <br><br><br>
+                            mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }} <br><br><br>
+                            mf-checkin[0].properties.latitude - {{ page.mf-checkin[0].properties.latitude  }} <br><br><br>
+                            mf-checkin[0].properties.longitude - {{ page.mf-checkin[0].properties.longitude  }} <br><br><br>
+                            mf-checkin[0].properties.street-address - {{ page.mf-checkin[0].properties.street-address  }} <br><br><br>
+                            mf-checkin[0].properties.locality - {{ page.mf-checkin[0].properties.locality }} <br><br><br>
+                            mf-checkin[0].properties.region - {{ page.mf-checkin[0].properties.region }} <br><br><br>
+                            mf-checkin[0].properties.country-name - {{ page.mf-checkin[0].properties.country-name }} <br><br><br>
+                            mf-checkin[0].properties.postal-code - {{ page.mf-checkin[0].properties.postal-code }} <br><br><br>
+                            mf-checkin[0].value - {{ page.mf-checkin[0].value }} <br><br><br>
+
+
 
                             page.mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
 
-                            page.mf-syndication - {{ page.mf-syndication | jsonify }} <br><br><br>
 
 
 
-                            {% assign mf-checkin = page.mf-checkin %} <br><br><br>
-
-                            mf-checkin - {{ mf-checkin | jsonify }} <br><br><br>
 
 
-                            mf-checkin[1] - {{ mf-checkin[1] | jsonify }} <br><br><br>
-
-
-                            page.mf-checkin - {{ page.mf-checkin  }} <br><br><br>
-
-                            page.mf-locations - {{ page.mf-location }} <br><br><br>
-
-                            page.mf-syndication - {{ page.mf-syndication   }} <br><br><br>
 
 
 
