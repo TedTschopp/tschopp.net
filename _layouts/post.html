@@ -658,19 +658,8 @@
                 <hr>
 
 
-                <div class="well">
-                    <script id="webmention-hosted">
-                    (function () {
-                    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-                    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-                    url = url && url[0] ? url[0].href : false;
-                    sn.type = "text/javascript"; sn.async = true;
-                    //sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
-                    sn.src = "//webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
-                    s.parentNode.insertBefore(sn, s);
-                    }());
-                    </script> 
-               </div>
+                <div class="well webmentions">
+                </div>
 
                 <hr>
 
@@ -778,9 +767,25 @@
     <!-- Disqus Count JavaScript -->
     <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async></script>
 
+    <!-- Web Mentions -->
+    <script src="{{site.siteurl}}//js/liquid.js" async=""></script>
+    <script src="{{site.siteurl}}//js/JekyllWebmentionIO.js" async=""></script>
+    <script src="{{site.siteurl}}//js/webmentions-counters.js" async=""></script>
+    <script src="{{site.siteurl}}//js/webmentions-loader.js" async=""></script>
+    <script src="{{site.siteurl}}//js/webmentions-utils.js" async=""></script>
+    <script id="webmention-hosted">
+        (function () {
+        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+        url = url && url[0] ? url[0].href : false;
+        sn.type = "text/javascript"; sn.async = true;
+        //sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+        sn.src = "//webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
+        s.parentNode.insertBefore(sn, s);
+        }());
+    </script> 
 
-
-
+{% include webmention-io-all-templates.html %}
 </body>
 
 </html>
