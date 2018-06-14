@@ -774,7 +774,8 @@
     <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-loader.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-utils.js" type="text/javascript" async=""></script>
-    <script id="webmention-hosted">
+
+<!--    <script id="webmention-hosted">
         (function () {
         var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
         url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
@@ -784,7 +785,7 @@
         sn.src = "//webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
         s.parentNode.insertBefore(sn, s);
         }());
-    </script> 
+    </script>--> 
 
 {% include webmention-io-all-templates.html %}
 </body>
