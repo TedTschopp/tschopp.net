@@ -290,3 +290,7 @@ __pycache__/
 
 .DS_Store
 .DS_Store
+wp-content/uploads/.DS_Store
+.DS_Store
+img/.DS_Store
+wp-content/uploads/.DS_Store
