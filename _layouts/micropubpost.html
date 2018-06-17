@@ -480,7 +480,7 @@
     	            <!-- Post Content -->
     	            <span class="e-content">{{ content }}
 
-                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br>
+                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br><hr>
 
                             mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
                             mf-checkin[0] - {{ page.mf-checkin[0] }} <br><br><br>
@@ -494,11 +494,23 @@
                             mf-checkin[0].properties.region - {{ page.mf-checkin[0].properties.region }} <br><br><br>
                             mf-checkin[0].properties.country-name - {{ page.mf-checkin[0].properties.country-name }} <br><br><br>
                             mf-checkin[0].properties.postal-code - {{ page.mf-checkin[0].properties.postal-code }} <br><br><br>
-                            mf-checkin[0].value - {{ page.mf-checkin[0].value }} <br><br><br>
+                            mf-checkin[0].value - {{ page.mf-checkin[0].value }} <br><br><br><hr>
 
 
 
                             page.mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
+                            mf-location[0] - {{ page.mf-location[0] }} <br><br><br>
+                            mf-location[0].type - {{ page.mf-location[0].type }} <br><br><br>
+                            mf-location[0].properties - {{ page.mf-location[0].properties }} <br><br><br>
+                            mf-location[0].properties.name - {{ page.mf-location[0].properties.name }} <br><br><br>
+                            mf-location[0].properties.latitude - {{ page.mf-location[0].properties.latitude  }} <br><br><br>
+                            mf-location[0].properties.longitude - {{ page.mf-location[0].properties.longitude  }} <br><br><br>
+                            mf-location[0].properties.street-address - {{ page.mf-location[0].properties.street-address  }} <br><br><br>
+                            mf-location[0].properties.locality - {{ page.mf-location[0].properties.locality }} <br><br><br>
+                            mf-location[0].properties.region - {{ page.mf-location[0].properties.region }} <br><br><br>
+                            mf-location[0].properties.country-name - {{ page.mf-location[0].properties.country-name }} <br><br><br>
+                            mf-locationn[0].properties.postal-code - {{ page.mf-location[0].properties.postal-code }} <br><br><br>
+
 
 
 
