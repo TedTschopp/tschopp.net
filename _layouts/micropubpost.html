@@ -541,7 +541,7 @@
     	            <hr>
                 </article>
                 <script>
-                    var mymap = L.map('mapid').setView([ {{ page.mf-location[0].properties.longitude }}, {{ page.mf-checkin[0].properties.latitude }} ], 13);
+                    var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 13);
 
                     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                         maxZoom: 18,
@@ -551,8 +551,8 @@
                         id: 'mapbox.streets'
                     }).addTo(mymap);
 
-                    L.marker([{{ page.mf-location[0].properties.longitude }}, {{ page.mf-checkin[0].properties.latitude }}]).addTo(mymap)
-                        .bindPopup("<b>Hello world!</b><br />{{ page.mf-location[0].properties.longitude }}, {{ page.mf-checkin[0].properties.latitude }}").openPopup();
+                    L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
+                        .bindPopup("<b>Hello world!</b><br />{{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }}").openPopup();
 
                     var popup = L.popup();
 
