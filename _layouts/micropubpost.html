@@ -395,7 +395,12 @@
     	            <h1 class="p-name">{{ page.title }}</h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-	               <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}">{{page.author.name}}</a></p>
+                    {% if page.author.name %}
+	                    <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}">{{page.author.name}}</a></p>
+                    {% else %}
+                        <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.author.url }}">{{site.author.name}}</a></p>
+                    {% endif %}
+
 
     	            <hr>
 
@@ -557,14 +562,14 @@
                     var popup = L.popup();
 
 
-                    function onMapClick(e) {
+                  /*  function onMapClick(e) {
                         popup
                             .setLatLng(e.latlng)
                             .setContent("You clicked the map at " + e.latlng.toString())
                             .openOn(mymap);
                     }
 
-                    mymap.on('click', onMapClick);
+                    mymap.on('click', onMapClick); */
 
                 </script>
 
