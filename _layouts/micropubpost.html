@@ -410,18 +410,8 @@
                         {% endif %)
 
 
-                        {% if CheckInLink %}
-                            {% if CheckInName %}
-                                <a href="{{CheckInLink}}"> Checked into {{CheckInName}}<a/>
-                            {% else %}
-                                <a href="{{CheckInLink}}"> Checked in.<a/>
-                            {% endif %}
-                        {% else %}
-                            {% if CheckInName %}
-                                Checked into {{CheckInName}}
-                            {% else %}
-                                Checked in.
-                            {% endif %}
+                        {% if CheckInLink and CheckedInName %}
+                            <a href="{{CheckInLink}}"> Checked into {{CheckInName}}<a/>
                         {% endif %}
                     </h1>
 
