@@ -405,24 +405,23 @@
                         {% elsif page.mf-checkin[0].value %)
                             {% assign CheckInLink = page.mf-checkin[0].value %}
                         {% endif %}
-
-
-                        {% if CheckInLink %}
-                            <a href="{{CheckInLink}}"> Checked into
-                        {% else %}
-                            Checked into
-                        {% endif %}
-
                         {% if page.mf-checkin[0].properties.name %}
-                            {{ page.mf-checkin[0].properties.name }}
+                            {{ assign CheckInName = page.mf-checkin[0].properties.name }}
                         {% endif %)
 
+
                         {% if CheckInLink %}
-                            <a/>
-                        {% endif %}
-
-
-
+                            {% if CheckInName %}
+                                <a href="{{CheckInLink}}"> Checked into {{CheckInName}}<a/>
+                            {% else %}
+                                <a href="{{CheckInLink}}"> Checked in.<a/>
+                            {% endif %}
+                        {% else %}
+                            {% if CheckInName %}
+                                Checked into {{CheckInName}}
+                            {% else %}
+                                Checked in.
+                            {% endif %}
                     </h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
