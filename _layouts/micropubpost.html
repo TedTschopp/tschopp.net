@@ -552,7 +552,7 @@
                     }).addTo(mymap);
 
                     L.marker([{{ page.mf-location[0].properties.longitude }}, {{ page.mf-checkin[0].properties.latitude }}]).addTo(mymap)
-                        .bindPopup("<b>Hello world!</b><br />").openPopup();
+                        .bindPopup("<b>Hello world!</b><br />{{ page.mf-location[0].properties.longitude }}, {{ page.mf-checkin[0].properties.latitude }}").openPopup();
 
                     var popup = L.popup();
 
