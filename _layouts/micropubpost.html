@@ -398,7 +398,7 @@
                         {% else %}
                             <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
-                        {% if page.mf-checkin %}
+                        {% if page.mf-checkin[0].properties.name %}
                             {% if page.mf-syndication %}
                                 <a href="{{page.mf-syndication}}">Checked into {{page.mf-checkin[0].properties.name}}</A>
                             {% else %)
