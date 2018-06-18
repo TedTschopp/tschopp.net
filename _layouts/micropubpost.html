@@ -392,14 +392,21 @@
 
                 <article class="h-entry">
     	            <!-- Title -->
-    	            <h1 class="p-name">{{ page.title }}</h1>
+    	            <h1 class="p-name">
+                        {% if page.author.name %}
+                            <a rel="author" class="p-author lead h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
+                        {% else %}
+                            <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
+                        {% endif %}
+                        {% if page.mf-checkin %}
+                            {% if page.mf-syndication %}
+                                <a href="{{page.mf-syndication}}">Checked into {{page.mf-checkin[0].properties.name}}</A>
+                            {% else %)
+                                <a href="{{page.mf-checkin[0].value}}">Checked into {page.{mf-checkin[0].properties.name}}</A>
+                            {% endif %}
+                        {% endif %}</h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-                    {% if page.author.name %}
-	                    <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}">{{page.author.name}}</a></p>
-                    {% else %}
-                        <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.author.url }}">{{site.author.name}}</a></p>
-                    {% endif %}
 
 
     	            <hr>
