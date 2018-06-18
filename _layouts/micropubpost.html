@@ -398,13 +398,24 @@
                         {% else %}
                             <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
-                        {% if page.mf-checkin[0].properties.name %}
-                            {% if page.mf-syndication %}
-                                <a href="{{page.mf-syndication}}">Checked into {{ page.mf-checkin[0].properties.name }}</A>
-                            {% else %)
-                                <a href="{{page.mf-checkin[0].value}}">Checked into {{ page.mf-checkin[0].properties.name}}</A>
-                            {% endif %}
-                        {% endif %}</h1>
+                        {% if page.mf-syndication %}
+                            <a href="{{page.mf-syndication}}">
+                        {% elsif page.mf-checkin[0].value %)
+                            <a href="{{page.mf-checkin[0].value}}">
+                        {% endif %}
+                        
+                        Checked into {{ page.mf-checkin[0].properties.name }}</A>
+
+
+                        {% if page.mf-syndication %}
+
+
+
+
+
+
+                        {% endif %}
+                    </h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
 
