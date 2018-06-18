@@ -410,7 +410,7 @@
                         {% endif %)
 
 
-                        {% if CheckInLink and CheckedInName %}
+                        {% if CheckInLink == true and CheckedInName == true %}
                             <a href="{{CheckInLink}}"> Checked into {{CheckInName}}<a/>
                         {% endif %}
                     </h1>
