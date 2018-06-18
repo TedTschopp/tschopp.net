@@ -400,18 +400,8 @@
                         {% endif %}
 
 
-                        {% if page.mf-syndication %}
-                            {% assign CheckInLink = page.mf-syndication %}
-                        {% elsif page.mf-checkin[0].value %)
-                            {% assign CheckInLink = page.mf-checkin[0].value %}
-                        {% endif %}
-                        {% if page.mf-checkin[0].properties.name %}
-                            {% assign CheckInName = page.mf-checkin[0].properties.name %}
-                        {% endif %)
-
-
-                        {% if CheckInLink == true and CheckedInName == true %}
-                            <a href="{{CheckInLink}}"> Checked into {{CheckInName}}<a/>
+                        {% if page.mf-syndication == true and page.mf-checkin[0].properties.name == true%}
+                            <a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/>
                         {% endif %}
                     </h1>
 
