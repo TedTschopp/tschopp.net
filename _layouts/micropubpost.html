@@ -560,17 +560,6 @@
                         .bindPopup("<b>{{page.mf-checkin[0].properties.name}}").openPopup();
 
                     var popup = L.popup();
-
-
-                  /*  function onMapClick(e) {
-                        popup
-                            .setLatLng(e.latlng)
-                            .setContent("You clicked the map at " + e.latlng.toString())
-                            .openOn(mymap);
-                    }
-
-                    mymap.on('click', onMapClick); */
-
                 </script>
 
 
@@ -600,19 +589,27 @@
  
                 <hr>
 
-
-                <div class="well">
-                    <script id="webmention-hosted">
-                    (function () {
-                    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-                    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-                    url = url && url[0] ? url[0].href : false;
-                    sn.type = "text/javascript"; sn.async = true;
-                    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
-                    s.parentNode.insertBefore(sn, s);
-                    }());
-                    </script> 
-               </div>
+                <div class="well ">
+                    <form class="webmention-form ui form" action="https://webmention.io/www.tedt.org/webmention" method="post">
+                        <div class="fields">
+                            <div class="twelve wide field">
+                                <label>Have you written a <a href="https://indieweb.org/responses">response</a> to this? Let me know the URL:</label>
+                                <input type="url" name="source" class="url">
+                            </div>
+                            <div class="four wide field">
+                                <label>&nbsp;</label>
+                                <input type="submit" class="ui submit button" value="Send Webmention">
+                            </div>
+                        </div>
+                        <div class="status hidden">
+                            <div class="ui message"></div>
+                        </div>
+                        <input type="hidden" name="target" value="{{page.url}}">
+                    </form>
+                    <div class="webmentions">
+                        <p class="webmentions__not-found">No webmentions were found.</p>
+                    </div>
+                </div>
 
                 <hr>
 
@@ -694,7 +691,7 @@
 
 
 
-
+{% include webmention-io-all-templates.html %}
 </body>
 
 </html>
