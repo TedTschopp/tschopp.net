@@ -399,7 +399,7 @@
                             <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
 
-                        {% comment %}
+                        {%comment%}
                         {% if page.mf-syndication %}
                             <a href="{{page.mf-syndication}}"> Checked into 
                         {% elsif page.mf-checkin[0].value %)
@@ -407,7 +407,7 @@
                         {% endif %}
                         
                         {{ page.mf-checkin[0].properties.name }}</A>
-                        {% endcomment %}
+                        {%endcomment%}
 
 
                     </h1>
