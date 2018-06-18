@@ -392,17 +392,15 @@
 
                 <article class="h-entry">
     	            <!-- Title -->
+                    <!-- Author TODO: Fix this to be dynamic for more than one author. -->
     	            <h1 class="p-name lead">
                         {% if page.author.name %}
-                            <a rel="author" class="p-author lead h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
+                            <a rel="author" class="p-author h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
                         {% else %}
-                            <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
+                            <a rel="author" class="p-author h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
                         <a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/>
                     </h1>
-
-    	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-
 
     	            <hr>
 
@@ -481,7 +479,7 @@
                         <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
                       <figcaption>
                         {% if page.image-credits-URL or page.image-credits-title %}
-                            <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}
+                            <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}</a>
                         {% elsif page.image-credits %}
                             {{page.image-credits}}
                         {% else %}
@@ -548,7 +546,7 @@
     	            <hr>
                 </article>
                 <script>
-                    var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 18);
+                    var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 15);
 
                     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                         maxZoom: 18,
