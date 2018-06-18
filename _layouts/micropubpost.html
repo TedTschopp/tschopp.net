@@ -392,7 +392,7 @@
 
                 <article class="h-entry">
     	            <!-- Title -->
-    	            <h1 class="p-name">
+    	            <h1 class="p-name lead">
                         {% if page.author.name %}
                             <a rel="author" class="p-author lead h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
                         {% else %}
@@ -405,13 +405,23 @@
                         {% elsif page.mf-checkin[0].value %)
                             {% assign CheckInLink = page.mf-checkin[0].value %}
                         {% endif %}
+
+
                         {% if CheckInLink %}
-                            <a href="{{CheckInLink}}"> Checked into <a/>
+                            <a href="{{CheckInLink}}"> Checked into
                         {% else %}
                             Checked into
                         {% endif %}
-                            
-                            <br><a href="{{page.mf-checkin[0].value}}"> Checked into {{ page.mf-checkin[0].properties.name }}</a>
+
+                        {% if page.mf-checkin[0].properties.name %}
+                            {{ page.mf-checkin[0].properties.name }}
+                        {% endif %)
+
+                        {% if CheckInLink %}
+                            <a/>
+                        {% endif %}
+
+
 
                     </h1>
 
