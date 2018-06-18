@@ -399,9 +399,20 @@
                             <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
 
+
                         {% if page.mf-syndication %}
-                            <a href="{{page.mf-syndication}}"> Checked into <a/>
+                            {% assign CheckInLink = page.mf-syndication %}
+                        {% elsif page.mf-checkin[0].value %)
+                            {% assign CheckInLink = page.mf-checkin[0].value %}
                         {% endif %}
+                        {% if CheckInLink %}
+                            <a href="{{CheckInLink}}"> Checked into <a/>
+                        {% else %}
+                            Checked into
+                        {% endif %}
+                            
+                            <br><a href="{{page.mf-checkin[0].value}}"> Checked into {{ page.mf-checkin[0].properties.name }}</a>
+
                     </h1>
 
     	            <!-- Author TODO: Fix this to be dynamic for more than one author. -->
