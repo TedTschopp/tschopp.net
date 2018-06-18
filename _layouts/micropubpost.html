@@ -398,7 +398,6 @@
                         {% else %}
                             <a rel="author" class="p-author lead h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
                         {% endif %}
-
                         <a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/>
                     </h1>
 
@@ -560,7 +559,7 @@
                     }).addTo(mymap);
 
                     L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
-                        .bindPopup("<b>Hello world!</b><br />{{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }}").openPopup();
+                        .bindPopup("<b>{page.mf-checkin[0].properties.name}}</b><br />{{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }}").openPopup();
 
                     var popup = L.popup();
 
