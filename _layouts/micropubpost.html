@@ -3,6 +3,179 @@
 
 <head>
 
+    {% if page.mf-repost-of %}
+        <!--
+        mf-repost-of:
+          - >-
+            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+
+        mf-repost-of:
+          - 'https://idiallo.com/blog/when-a-machine-fired-me'
+
+
+
+                -->
+
+    {% if page.mf-like-of %}
+        <!--
+        mf-like-of:
+          - >-
+            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+                -->
+
+    {% if page.mf-item %}
+        <!--
+        mf-item:
+          - type:
+              - h-product
+            properties:
+              name:
+                - Product Name
+              url:
+                - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
+                -->
+
+    {% if page.mf-rating %}
+        <!--
+        mf-rating:
+          - 5
+                -->
+
+    {% if page.mf-summary %}
+        <!--
+        mf-summary:
+          - AMAZING!
+
+                -->
+
+    {% if page.mf-itinerary %}
+        <!--
+        mf-itinerary:
+          - type:
+              - h-leg
+            properties:
+              transit-type:
+                - air
+              operator:
+                - Ted Air
+              number:
+                - '833'
+              origin:
+                - LAX
+              destination:
+                - OXF
+              departure:
+                - '2018-06-22T16:35:00-07:00'
+              arrival:
+                - '2018-06-22T16:35:00+01:00'
+
+                -->
+
+    {% if page.mf-in-reply-to %}
+        <!--
+        mf-in-reply-to:
+          - 'https://idiallo.com/blog/when-a-machine-fired-me'
+
+        mf-in-reply-to:
+          - >-
+            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+
+
+                -->
+
+    {% if page.mf-location %}
+        <!--
+        mf-location:
+            - type:
+              - h-adr
+            properties:
+              latitude:
+                - 34.14634159231104
+              longitude:
+                - -118.1133562999198
+              street-address:
+                - 1795 E Colorado Blvd
+              locality:
+                - Pasadena
+              region:
+                - CA
+              country-name:
+                - United States
+              postal-code:
+                - '91106'
+
+        mf-location:
+          - 'geo:34.049571899827,-118.08246843619'
+
+        mf-location:
+          - 'geo:34.14661,-117.93846;u=34'
+
+
+                -->
+
+    {% if page.mf-photo %}
+        <!--
+        mf-photo:
+          - >-
+            https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
+
+        mf-photo:
+          - >-
+            https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
+
+                -->
+
+    {% if page.mf-in-reply-to %}
+        <!--
+
+                -->
+
+    {% if page.mf-syndication %}
+        <!--
+        mf-syndication:
+          - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
+
+        mf-syndication:
+          - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
+                -->
+
+    {% if page.mf-checkin %}
+        <!--
+        mf-checkin:
+          - type:
+              - h-card
+            properties:
+              name:
+                - Game Empire Pasadena
+              url:
+                - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+              latitude:
+                - 34.14634159231104
+              longitude:
+                - -118.1133562999198
+              street-address:
+                - 1795 E Colorado Blvd
+              locality:
+                - Pasadena
+              region:
+                - CA
+              country-name:
+                - United States
+              postal-code:
+                - '91106'
+            value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+
+
+
+TODO: Add full articles.
+
+                -->
+
+
+
+
+
+
     {% if page.excerpt != "" %}
         {% assign SEO_description = page.excerpt | strip_html %}
     {% elsif page.description != "" %}

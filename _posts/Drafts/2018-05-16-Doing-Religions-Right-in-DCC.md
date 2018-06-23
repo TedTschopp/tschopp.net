@@ -16,7 +16,7 @@ seo_description: |
 
 layout: post
 guid: 61829ad4-ef0c-46d1-af81-613e59b55850
-# permalink: /2018/05/16/Doing-Religions-Right-in-DCC/
+permalink: /2018/05/16/Doing-Religions-Right-in-DCC/
 image: 	wp-content/uploads/2018/05/the-valar.jpg
 image-credits: The Valar by Dan Hainsworth https://www.etsy.com/shop/dthains  
 image-credits-title: The Valar
