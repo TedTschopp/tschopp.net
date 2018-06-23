@@ -12,9 +12,8 @@
         mf-repost-of:
           - 'https://idiallo.com/blog/when-a-machine-fired-me'
 
-
-
                 -->
+    {% endif %}
 
     {% if page.mf-like-of %}
         <!--
@@ -22,6 +21,7 @@
           - >-
             https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
                 -->
+    {% endif %}
 
     {% if page.mf-item %}
         <!--
@@ -34,12 +34,14 @@
               url:
                 - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
                 -->
+    {% endif %}
 
     {% if page.mf-rating %}
         <!--
         mf-rating:
           - 5
                 -->
+    {% endif %}
 
     {% if page.mf-summary %}
         <!--
@@ -47,6 +49,7 @@
           - AMAZING!
 
                 -->
+    {% endif %}
 
     {% if page.mf-itinerary %}
         <!--
@@ -69,7 +72,45 @@
               arrival:
                 - '2018-06-22T16:35:00+01:00'
 
+        mf-itinerary:
+          - type:
+              - h-leg
+            properties:
+              transit-type:
+                - air
+              operator:
+                - Ted Air
+              number:
+                - '833'
+              origin:
+                - LAX
+              destination:
+                - OXF
+              departure:
+                - '2018-06-23T15:40:00-07:00'
+              arrival:
+                - '2018-06-23T15:40:00+01:00'
+          - type:
+              - h-leg
+            properties:
+              transit-type:
+                - air
+              operator:
+                - Lou Air
+              number:
+                - '338'
+              origin:
+                - OXF
+              destination:
+                - HOL
+              departure:
+                - '2018-06-23T15:40:00+01:00'
+              arrival:
+                - '2018-06-23T15:40:00'
+
+
                 -->
+    {% endif %}
 
     {% if page.mf-in-reply-to %}
         <!--
@@ -82,6 +123,7 @@
 
 
                 -->
+    {% endif %}
 
     {% if page.mf-location %}
         <!--
@@ -110,8 +152,28 @@
         mf-location:
           - 'geo:34.14661,-117.93846;u=34'
 
+          - 'geo:lat,long;u=undertanity_in_Meters'
+            -->
 
-                -->
+            {% if page.mf-location[0].type %}
+                {% assign micropubpost.mf-location-type  = page.mf-location[0].type %} <!-- h-card -->
+                {% assign micropubpost.mf-location-facility-name  = page.mf-location[0].properties.name%}
+                {% assign micropubpost.mf-location-facility-latitude  = page.mf-location[0].properties.latitude %}
+                {% assign micropubpost.mf-location-facility-longitude  = page.mf-location[0].properties.longitude %}
+                {% assign micropubpost.mf-location-facility-street-address  = page.mf-location[0].properties.street-address %}
+                {% assign micropubpost.mf-location-facility-city  = page.mf-location[0].properties.locality %}
+                {% assign micropubpost.mf-location-state  = page.mf-location[0].properties.region %}
+                {% assign micropubpost.mf-location-country  = page.mf-location[0].properties.country-name %}
+                {% assign micropubpost.mf-location-country  = page.mf-location[0].properties.postal-code %}
+            {% else %}
+                {% capture micropubpost.geo %}
+                    {{  mf-location |remove: "geo:" }}
+                {% endcapture %}
+                {% assign micropubpost.geos | split: ';'%}
+
+            {% endif %}
+
+    {% endif %}
 
     {% if page.mf-photo %}
         <!--
@@ -124,11 +186,7 @@
             https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
 
                 -->
-
-    {% if page.mf-in-reply-to %}
-        <!--
-
-                -->
+    {% endif %}
 
     {% if page.mf-syndication %}
         <!--
@@ -138,7 +196,10 @@
         mf-syndication:
           - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
                 -->
+        {% assign micropubpost.mf-syndication-url  = page.page.mf-syndication %}
 
+
+    {% endif %}
     {% if page.mf-checkin %}
         <!--
         mf-checkin:
@@ -164,8 +225,22 @@
               postal-code:
                 - '91106'
             value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+                -->
+        {% assign micropubpost.mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
+        {% assign micropubpost.mf-checkin-url  = page.mf-checkin[0].value %}
+        {% assign micropubpost.mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
+        {% assign micropubpost.mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
+        {% assign micropubpost.mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
+        {% assign micropubpost.mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
+        {% assign micropubpost.mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
+        {% assign micropubpost.mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
+        {% assign micropubpost.mf-checkin-state  = page.mf-checkin[0].properties.region %}
+        {% assign micropubpost.mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
+        {% assign micropubpost.mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+    {% endif %}
 
 
+<!--
 
 TODO: Add full articles.
 
@@ -696,6 +771,13 @@ TODO: Add full articles.
 
     	            <!-- Post Content -->
     	            <span class="e-content">{{ content }}
+{% if micropubpost.geos [0] %}
+    0 - {{ micropubpost.geos [0] }}
+{%endif%}
+{% if micropubpost.geos [1] %}
+    1 - {{ micropubpost.geos [1] }}
+{%endif%}
+
 
 <!--                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br><hr>
 
