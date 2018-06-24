@@ -36,14 +36,14 @@
                 -->
     {% endif %}
 
-    {% if page.mf-rating != null or page.mf-rating != ""%}
+    {% if page.mf-rating != null or page.mf-rating != "" %}
         <!--
         mf-rating:
           - 5
                 -->
     {% endif %}
 
-    {% if page.mf-summary != null or page.mf-summary != ""%}
+    {% if page.mf-summary != null or page.mf-summary != "" %}
         <!--
         mf-summary:
           - AMAZING!
@@ -51,7 +51,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-itinerary != null or page.mf-itinerary != ""%}
+    {% if page.mf-itinerary != null or page.mf-itinerary != "" %}
         <!--
         mf-itinerary:
           - type:
@@ -112,7 +112,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-in-reply-to != null or page.mf-in-reply-to != ""%}
+    {% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
         <!--
         mf-in-reply-to:
           - 'https://idiallo.com/blog/when-a-machine-fired-me'
@@ -125,7 +125,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-location[0].type != null or page.mf-location[0].type != ""%}
+    {% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
         <!--
         mf-location:
             - type:
@@ -166,11 +166,6 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters'
             -->
-      <!--
-        {% capture micropubpost.geo %}
-            {{mf-location |remove: "geo:"}}
-        {% endcapture %}
-        {% assign micropubpost.geos | split: ';'%} -->
 
     {% endif %}
 
