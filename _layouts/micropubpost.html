@@ -195,7 +195,7 @@
         mf-syndication:
           - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
                 -->
-        {% assign micropubpost.mf-syndication-url  = page.page.mf-syndication %}
+        {% assign mf-syndication-url  = page.page.mf-syndication %}
 
 
     {% endif %}
@@ -225,17 +225,17 @@
                 - '91106'
             value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
                 -->
-        {% assign micropubpost.mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
-        {% assign micropubpost.mf-checkin-url  = page.mf-checkin[0].value %}
-        {% assign micropubpost.mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
-        {% assign micropubpost.mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
-        {% assign micropubpost.mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
-        {% assign micropubpost.mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
-        {% assign micropubpost.mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
-        {% assign micropubpost.mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
-        {% assign micropubpost.mf-checkin-state  = page.mf-checkin[0].properties.region %}
-        {% assign micropubpost.mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
-        {% assign micropubpost.mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+        {% assign mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
+        {% assign mf-checkin-url  = page.mf-checkin[0].value %}
+        {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
+        {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
+        {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
+        {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
+        {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
+        {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
+        {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
+        {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
+        {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
     {% endif %}
 
 
