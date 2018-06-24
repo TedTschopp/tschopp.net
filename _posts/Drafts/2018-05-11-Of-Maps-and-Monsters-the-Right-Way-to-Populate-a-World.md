@@ -34,6 +34,33 @@ draft-status: notes
 
 This work is the beginning of a collection of notes on Monsters and Maps.  In the future I will split this out into several different sections.  I wanted to start wtih what I had here and start working my thoughts out while getting some of this out of my head and into a place I can review and look at.    
 
+# Maps
+
+## Encounter Scale ( )
+
+## Providence Scale (1 Mile Per Hex)
+* http://blogofholding.com/?p=6741
+
+## Kingdom Scale (6 Mile Per Hex)
+
+
+## Continent Scale (60 Mile Per Hex)
+
+
+## Global Scale (60 Mile Per Hex)
+
+
+## Stellar Scale
+In Fantasy Role Playing Games it can not always be assumed that there is a stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
+
+* Spherical
+* Flat
+* Ring
+* Sphere
+* Hollow World
+* Alien Geometries 
+
+
 
 # Monsters
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
