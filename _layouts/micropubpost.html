@@ -146,15 +146,16 @@
               postal-code:
                 - '91106'
         -->
-        {% assign micropubpost.mf-location-type = page.mf-location[0].type %} <!-- h-card -->
-        {% assign micropubpost.mf-location-facility-name = page.mf-location[0].properties.name%}
-        {% assign micropubpost.mf-location-facility-latitude = page.mf-location[0].properties.latitude %}
-        {% assign micropubpost.mf-location-facility-longitude = page.mf-location[0].properties.longitude %}
-        {% assign micropubpost.mf-location-facility-street-address = page.mf-location[0].properties.street-address %}
-        {% assign micropubpost.mf-location-facility-city = page.mf-location[0].properties.locality %}
-        {% assign micropubpost.mf-location-state = page.mf-location[0].properties.region %}
-        {% assign micropubpost.mf-location-country = page.mf-location[0].properties.country-name %}
-        {% assign micropubpost.mf-location-country = page.mf-location[0].properties.postal-code %}
+        {% assign location-type = page.mf-location[0].type %} <!-- h-card -->
+        {% assign location-facility-name = page.mf-location[0].properties.name%}
+        {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
+        {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
+        {% assign location-facility-street-address = page.mf-location[0].properties.street-address %}
+        {% assign location-facility-city = page.mf-location[0].properties.locality %}
+        {% assign location-state = page.mf-location[0].properties.region %}
+        {% assign location-country = page.mf-location[0].properties.country-name %}
+        {% assign location-country = page.mf-location[0].properties.postal-code %}
+
     {% else %}
         <!--
         mf-location:
