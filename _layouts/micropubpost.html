@@ -3,7 +3,7 @@
 
 <head>
 
-    {% if page.mf-repost-of %}
+    {% if page.mf-repost-of != null or page.mf-repost-of != "" %}
         <!--
         mf-repost-of:
           - >-
@@ -15,7 +15,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-like-of %}
+    {% if page.mf-like-of != null or page.mf-like-of != "" %}
         <!--
         mf-like-of:
           - >-
@@ -23,7 +23,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-item %}
+    {% if page.mf-item != null or page.mf-item != "" %}
         <!--
         mf-item:
           - type:
@@ -36,14 +36,14 @@
                 -->
     {% endif %}
 
-    {% if page.mf-rating %}
+    {% if page.mf-rating != null or page.mf-rating != ""%}
         <!--
         mf-rating:
           - 5
                 -->
     {% endif %}
 
-    {% if page.mf-summary %}
+    {% if page.mf-summary != null or page.mf-summary != ""%}
         <!--
         mf-summary:
           - AMAZING!
@@ -51,7 +51,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-itinerary %}
+    {% if page.mf-itinerary != null or page.mf-itinerary != ""%}
         <!--
         mf-itinerary:
           - type:
@@ -112,7 +112,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-in-reply-to %}
+    {% if page.mf-in-reply-to != null or page.mf-in-reply-to != ""%}
         <!--
         mf-in-reply-to:
           - 'https://idiallo.com/blog/when-a-machine-fired-me'
@@ -125,7 +125,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-location[0].type %}
+    {% if page.mf-location[0].type != null or page.mf-location[0].type != ""%}
         <!--
         mf-location:
             - type:
@@ -156,7 +156,7 @@
         {% assign location-country = page.mf-location[0].properties.country-name %}
         {% assign location-country = page.mf-location[0].properties.postal-code %}
 
-    {% else %}
+    {% elsif page.mf-location != null or page.mf-location != "" %}
         <!--
         mf-location:
           - 'geo:34.049571899827,-118.08246843619'
@@ -174,7 +174,7 @@
 
     {% endif %}
 
-    {% if page.mf-photo %}
+    {% if page.mf-photo != null or page.mf-photo != "" %}
         <!--
         mf-photo:
           - >-
@@ -187,7 +187,7 @@
                 -->
     {% endif %}
 
-    {% if page.mf-syndication %}
+    {% if page.mf-syndication != null or page.mf-syndication != "" %}
         <!--
         mf-syndication:
           - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
@@ -199,7 +199,7 @@
 
 
     {% endif %}
-    {% if page.mf-checkin %}
+    {% if page.mf-checkin != null or page.mf-checkin != ""%}
         <!--
         mf-checkin:
           - type:
