@@ -13,6 +13,9 @@
           - 'https://idiallo.com/blog/when-a-machine-fired-me'
 
                 -->
+        {% assign mf-repost-of = TRUE %} 
+    {% else %}
+        {% assign mf-repost-of = FLASE %} 
     {% endif %}
 
     {% if page.mf-like-of != null or page.mf-like-of != "" %}
@@ -21,6 +24,9 @@
           - >-
             https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
                 -->
+        {% assign mf-like-of = TRUE %} 
+    {% else %}
+        {% assign mf-like-of = FLASE %} 
     {% endif %}
 
     {% if page.mf-item != null or page.mf-item != "" %}
@@ -34,6 +40,9 @@
               url:
                 - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
                 -->
+        {% assign mf-item  = TRUE %} 
+    {% else %}
+        {% assign mf-item  = FLASE %} 
     {% endif %}
 
     {% if page.mf-rating != null or page.mf-rating != "" %}
@@ -41,6 +50,9 @@
         mf-rating:
           - 5
                 -->
+        {% assign mf-rating  = TRUE %} 
+    {% else %}
+        {% assign mf-rating  = FLASE %} 
     {% endif %}
 
     {% if page.mf-summary != null or page.mf-summary != "" %}
@@ -49,6 +61,9 @@
           - AMAZING!
 
                 -->
+        {% assign mf-summary  = TRUE %} 
+    {% else %}
+        {% assign mf-summary  = FLASE %} 
     {% endif %}
 
     {% if page.mf-itinerary != null or page.mf-itinerary != "" %}
@@ -110,6 +125,9 @@
 
 
                 -->
+        {% assign mf-itinerary  = TRUE %} 
+    {% else %}
+        {% assign mf-itinerary  = FLASE %} 
     {% endif %}
 
     {% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
@@ -123,6 +141,9 @@
 
 
                 -->
+        {% assign mf-in-reply-to  = TRUE %} 
+    {% else %}
+        {% assign mf-in-reply-to  = FLASE %} 
     {% endif %}
 
     {% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
@@ -146,6 +167,9 @@
               postal-code:
                 - '91106'
         -->
+        {% assign mf-location = TRUE %} 
+        {% assign mf-location-full = TRUE %}
+        {% assign mf-location-short = FALSE %}
         {% assign location-type = page.mf-location[0].type %} <!-- h-card -->
         {% assign location-facility-name = page.mf-location[0].properties.name%}
         {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
@@ -166,6 +190,9 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters'
             -->
+        {% assign mf-location = TRUE %} 
+        {% assign mf-location-full = FALSE %}
+        {% assign mf-location-short = TRUE %}
 
     {% endif %}
 
@@ -180,6 +207,9 @@
             https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
 
                 -->
+        {% assign mf-photo = TRUE %} 
+    {% else %}
+        {% assign mf-photo = FLASE %} 
     {% endif %}
 
     {% if page.mf-syndication != null or page.mf-syndication != "" %}
@@ -192,7 +222,9 @@
                 -->
         {% assign mf-syndication-url  = page.page.mf-syndication %}
 
-
+        {% assign mf-syndication = TRUE %} 
+    {% else %}
+        {% assign mf-syndication = FLASE %} 
     {% endif %}
     {% if page.mf-checkin != null or page.mf-checkin != ""%}
         <!--
@@ -231,6 +263,9 @@
         {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
         {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
         {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+        {% assign mf-checkin = TRUE %} 
+    {% else %}
+        {% assign mf-checkin = FLASE %} 
     {% endif %}
 
 
