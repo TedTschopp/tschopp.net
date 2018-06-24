@@ -36,11 +36,9 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 
 
 # Monsters
-
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
 
 ## Monster variation
-
 Today in most role playing games monsters are reduced to a handful of stats that do not make them unique.  The first activity that I think is needed for a database of monsters to run into is that these monsters need to have random stats.  Not every player character or human today has the same strength.  The basic idea here is that there is some variation.  Many times this variation is reduced to simplify bookkeeping and that makese sense.  Today however we have rather powerful computers that can work on handing some of that bookkeeping.  Therefore I propose that attributes be replaced with a set of dice.  
 
 
@@ -50,21 +48,41 @@ Today in most role playing games monsters are reduced to a handful of stats that
 
 #### Types of exceptional Members
 
-* Giant
-* Monsterous
-* Dire
-* Magical
-* Dwarf, Minature, Pygmy, Tiny, Teacup, 
+* Leader, Alpha, Commander
+* Giant, Monstrous
+* Dire, Prehistoric
+* Magical, blessed
 
 
-#### 
+#### Types of Subnormal Members of the Encounter
+* Child, Grunt, Beta, 
+* Dwarf, Miniature, Pygmy, Tiny, Teacup, Pixie
+* Dire, Prehistoric
+* Magical, Cursed
 
-### Stats for Young Members of the Encounter
 
-### Travel 
-Distance they can Travel in one day.  How long will they remain away from their Home.
+## Close Calls
 
-#### What sort of Travel
+### Tracks
+What sort of tracks do these monsters leave
+
+### Remains
+Abandoned lairs, camps, prey or victims
+
+### Markings
+What sort of ways do these monsters mark their territory
+
+## Not so Close Calls
+
+### Their Lair 
+Perhaps they are social.  Perhaps they are anti-social.  What happens when you meet them in their typical lair. 
+
+### Encountered away from their Lair
+Traveling, Hunting, Gathering, Fighting, Trading, Exploring, Patrolling, Scouting?
+
+#### Travel 
+Distance they can Travel in one day.  How long will they remain away from their Home. What sort of Travel?
+
 Do they travel by:
 * Land
 * Air - close to ground
@@ -74,30 +92,20 @@ Do they travel by:
 * Water
 * other?
 
-#### Why are they travelling
-Travelling, Hunting, Gathering, Fighting
+Why are they traveling
+* Traveling
+* Hunting
+* Gathering
+* Fighting
 
-### Close Calls
+### Habitat
+What sort of habitat does this creature live and travel in.  
 
-#### Tracks
-What sort of tracks to these monsters leave
+## External Reactions
+How do these creatures typically react to others
 
-#### Remains
-Abandoned lairs, camps, prey or victims
+## How to hunt them
+How difficult are these creatures to hunt and what sort of skills and equipment are needed.
 
-#### Markings
-What sort of ways to these monsters mark their territory
-
-### Not so Close Calls
-
-#### Their Lair 
-Perhaps they are soc
-
-#### Encountered
-Travelling, Hunting, Gathering, Fighting
-
-### External Reactions
-
-### How to hunt them
-
-### How to cook / eat them
+## How to cook / eat them
+Once they are hunted, how are they cooked.  Are they edible?  Are the poisonousness?  Are they a delicacy? 
