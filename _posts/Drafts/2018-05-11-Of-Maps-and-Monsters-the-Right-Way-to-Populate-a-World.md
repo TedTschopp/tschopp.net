@@ -53,11 +53,10 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 
 
 $$ 
-
 \let\oldsqrt\sqrt
 
 \def\sqrt{\mathpalette\DHLhksqrt}
-\def\DHLhksqrt#1#2{%
+\def\DHLhksqrt#1#2{\%
 \setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
 \advance\dimen0-0.2\ht0
 \setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
