@@ -21,6 +21,7 @@ categories:
   - Monsters
   - Draft
 draft-status: notes
+mathjax: true
 ---
 
 # Contents
@@ -47,11 +48,11 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 ## Continent Scale (60 Mile Per Hex)
 
 
-## Global Scale (60 Mile Per Hex)
-
-
 ## Stellar Scale
-In Fantasy Role Playing Games it can not always be assumed that there is a stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
+In Fantasy Role Playing Games it can not always be assumed that there is a Stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
+
+
+$$ d = \sqrt{h(2R+h)} $$
 
 * Spherical
 * Flat
@@ -66,7 +67,7 @@ In Fantasy Role Playing Games it can not always be assumed that there is a stell
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
 
 ## Monster variation
-Today in most role playing games monsters are reduced to a handful of stats that do not make them unique.  The first activity that I think is needed for a database of monsters to run into is that these monsters need to have random stats.  Not every player character or human today has the same strength.  The basic idea here is that there is some variation.  Many times this variation is reduced to simplify bookkeeping and that makese sense.  Today however we have rather powerful computers that can work on handing some of that bookkeeping.  Therefore I propose that attributes be replaced with a set of dice.  
+Today in most role playing games monsters are reduced to a handful of stats that do not make them unique.  The first activity that I think is needed for a database of monsters to run into is that these monsters need to have random stats.  Not every player character or human today has the same strength.  The basic idea here is that there is some variation.  Many times this variation is reduced to simplify bookkeeping and that makes sense.  Today however we have rather powerful computers that can work on handing some of that bookkeeping.  Therefore I propose that attributes be replaced with a set of dice.  
 
 
 ### Stats for Exceptional Members of the Encounter
