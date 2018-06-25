@@ -52,7 +52,22 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 In Fantasy Role Playing Games it can not always be assumed that there is a Stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
 
 
-$$ d = \sqrt{h(2R+h)} $$
+$$ 
+
+% New definition of square root:
+% it renames \sqrt as \oldsqrt
+\let\oldsqrt\sqrt
+% it defines the new \sqrt in terms of the old one
+\def\sqrt{\mathpalette\DHLhksqrt}
+\def\DHLhksqrt#1#2{%
+\setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
+\advance\dimen0-0.2\ht0
+\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
+{\box0\lower0.4pt\box2}}
+
+d = \sqrt{h(2R+h)} 
+
+$$
 
 * Spherical
 * Flat
