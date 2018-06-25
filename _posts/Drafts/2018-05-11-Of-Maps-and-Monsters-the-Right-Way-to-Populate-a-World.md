@@ -54,6 +54,26 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 
 $$ 
 
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz}
+\begin{document}
+\begin{tikzpicture}
+   \newdimen\R
+\R=2.7cm
+   \draw (0:\R)
+   \foreach \x in {60,120,...,360} {  -- (\x:\R) }
+ -- cycle (360:\R) node[right] {(3,2,1)}
+ -- cycle (300:\R) node[below] {(3,1,2)}
+      -- cycle (240:\R) node[below] {(1,3,2)}
+ -- cycle (180:\R) node[left] {(1,2,3)}
+-- cycle  (120:\R) node[above] {(2,1,3)}
+
+           -- cycle  (60:\R) node[above] {(2,3,1)};
+\end{tikzpicture}
+\end{document}
+
+
+
 d = \sqrt{h(2R+h)} 
 
 $$
