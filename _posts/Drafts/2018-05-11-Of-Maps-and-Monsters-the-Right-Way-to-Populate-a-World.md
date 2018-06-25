@@ -42,6 +42,35 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 ## Providence Scale (1 Mile Per Hex)
 * http://blogofholding.com/?p=6741
 
+
+
+Travel Pace and Effects
+
+Terrain Type and Features| Pace | Minute   | Hour    | Day      | Effect (TBD)
+------------------------:|:----:|:--------:|:-------:|:--------:|:-----
+                                               Normal Roads, Trails, Grasslands |Fast  | 400 feet | 4.00 miles | 30.00 miles | −5 penalty to passive Wisdom (Perception) scores
+                                               Normal Roads, Trails, Grasslands |Normal| 300 feet | 3.00 miles | 24.00 miles | —
+                                               Normal Roads, Trails, Grasslands |Slow  | 200 feet | 2.00 miles | 18.00 miles | Able to use stealth
+                                            Difficult Roads, Trails, Grasslands |Fast  | 200 feet | 2.00 miles | 15.00 miles | −5 penalty to passive Wisdom (Perception) scores
+                                            Difficult Roads, Trails, Grasslands |Normal| 150 feet | 1.50 miles | 12.00 miles | —
+                                            Difficult Roads, Trails, Grasslands |Slow  | 100 feet | 1.00 miles |  9.00 miles | Able to use stealth
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  | 200 feet | 2.00 miles | 15.00 miles | −5 penalty to passive Wisdom (Perception) scores
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal| 150 feet | 1.50 miles | 12.00 miles | —
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  | 100 feet | 1.00 miles |  9.00 miles | Able to use stealth
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  | 100 feet | 1.00 miles |  7.50 miles | −5 penalty to passive Wisdom (Perception) scores
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  75 feet | 0.75 miles |  6.00 miles | —
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  |  50 feet | 0.50 miles |  4.50 miles | Able to use stealth
+                                                               Normal Mountains |Fast  | 100 feet | 1.00 miles |  7.50 miles | −5 penalty to passive Wisdom (Perception) scores
+                                                               Normal Mountains |Normal|  75 feet | 0.75 miles |  6.00 miles | —
+                                                               Normal Mountains |Slow  |  50 feet | 0.50 miles |  4.50 miles | Able to use stealth
+                                                            Difficult Mountains |Fast  |  50 feet | 0.50 miles |  3.75 miles | −5 penalty to passive Wisdom (Perception) scores
+                                                            Difficult Mountains |Normal|  37 feet | 0.37 miles |  3.00 miles | —
+                                                            Difficult Mountains |Slow  |  25 feet | 0.25 miles |  2.75 miles | Able to use stealth
+
+
+
+
+
 ## Kingdom Scale (6 Mile Per Hex)
 
 
