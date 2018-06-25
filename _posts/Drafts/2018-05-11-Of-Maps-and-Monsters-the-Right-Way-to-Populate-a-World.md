@@ -44,7 +44,7 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 
 
 
-Travel Pace and Effects
+Travel Pace and Effects based on D&D 5e
 
 Terrain Type and Features| Pace | Minute   | Hour    | Day      | Effect (TBD)
 ------------------------:|:----:|:--------:|:-------:|:--------:|:-----
@@ -66,7 +66,30 @@ Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp 
                                                             Difficult Mountains |Fast  |  50 feet | 0.50 miles |  3.75 miles | −5 penalty to passive Wisdom (Perception) scores
                                                             Difficult Mountains |Normal|  37 feet | 0.37 miles |  3.00 miles | —
                                                             Difficult Mountains |Slow  |  25 feet | 0.25 miles |  2.75 miles | Able to use stealth
+{: .well .table .table-striped}
 
+
+Terrain Type and Features| Pace | Minute a hex   | Hour    | Day      | Effect (TBD)
+------------------------:|:----:|:--------:|:-------:|:--------:|:-----
+                                               Normal Roads, Trails, Grasslands |Fast  |  15.0 | 4.00 hexs | 30.00 hexs | −5 penalty to passive Wisdom (Perception) scores
+                                               Normal Roads, Trails, Grasslands |Normal|  22.5 | 3.00 hexs | 24.00 hexs | —
+                                               Normal Roads, Trails, Grasslands |Slow  |  30.0 | 2.00 hexs | 18.00 hexs | Able to use stealth
+                                            Difficult Roads, Trails, Grasslands |Fast  |  30.0 | 2.00 hexs | 15.00 hexs | −5 penalty to passive Wisdom (Perception) scores
+                                            Difficult Roads, Trails, Grasslands |Normal|  45.0 | 1.50 hexs | 12.00 hexs | —
+                                            Difficult Roads, Trails, Grasslands |Slow  |  60.0 | 1.00 hexs |  9.00 hexs | Able to use stealth
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  |  30.0 | 2.00 hexs | 15.00 hexs | −5 penalty to passive Wisdom (Perception) scores
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  45.0 | 1.50 hexs | 12.00 hexs | —
+   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  |  60.0 | 1.00 hexs |  9.00 hexs | Able to use stealth
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  |  60.0 | 1.00 hexs |  7.50 hexs | −5 penalty to passive Wisdom (Perception) scores
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  90.0 | 0.75 hexs |  6.00 hexs | —
+Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  | 120.0 | 0.50 hexs |  4.50 hexs | Able to use stealth
+                                                               Normal Mountains |Fast  |  60.0 | 1.00 hexs |  7.50 hexs | −5 penalty to passive Wisdom (Perception) scores
+                                                               Normal Mountains |Normal|  90.0 | 0.75 hexs |  6.00 hexs | —
+                                                               Normal Mountains |Slow  | 120.0 | 0.50 hexs |  4.50 hexs | Able to use stealth
+                                                            Difficult Mountains |Fast  | 120.0 | 0.50 hexs |  3.75 hexs | −5 penalty to passive Wisdom (Perception) scores
+                                                            Difficult Mountains |Normal| 180.0 | 0.37 hexs |  3.00 hexs | —
+                                                            Difficult Mountains |Slow  | 240.0 | 0.25 hexs |  2.75 hexs | Able to use stealth
+{: .well .table .table-striped}
 
 
 
