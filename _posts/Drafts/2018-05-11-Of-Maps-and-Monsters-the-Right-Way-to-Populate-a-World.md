@@ -54,10 +54,8 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 
 $$ 
 
-% New definition of square root:
-% it renames \sqrt as \oldsqrt
 \let\oldsqrt\sqrt
-% it defines the new \sqrt in terms of the old one
+
 \def\sqrt{\mathpalette\DHLhksqrt}
 \def\DHLhksqrt#1#2{%
 \setbox0=\hbox{$#1\oldsqrt{#2\,}$}\dimen0=\ht0
