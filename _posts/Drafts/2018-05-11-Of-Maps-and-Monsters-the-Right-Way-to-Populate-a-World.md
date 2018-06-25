@@ -54,26 +54,6 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 
 $$ 
 
-\documentclass[10pt]{article}
-\usepackage{pgf,tikz}
-\begin{document}
-\begin{tikzpicture}
-   \newdimen\R
-\R=2.7cm
-   \draw (0:\R)
-   \foreach \x in {60,120,...,360} {  -- (\x:\R) }
- -- cycle (360:\R) node[right] {(3,2,1)}
- -- cycle (300:\R) node[below] {(3,1,2)}
-      -- cycle (240:\R) node[below] {(1,3,2)}
- -- cycle (180:\R) node[left] {(1,2,3)}
--- cycle  (120:\R) node[above] {(2,1,3)}
-
-           -- cycle  (60:\R) node[above] {(2,3,1)};
-\end{tikzpicture}
-\end{document}
-
-
-
 d = \sqrt{h(2R+h)} 
 
 $$
@@ -85,7 +65,18 @@ $$
 * Hollow World
 * Alien Geometries 
 
-
+$$
+\newcommand{ptr}[1]{\overset{\mathtt{#1}}{\longrightarrow}}
+\begin{align*}
+                                             &\mathtt{newNode} \\
+                                             &\quad\downarrow  \\
+\mathtt{head} \ptr{} \fbox{first} \ptr{next} &\fbox{another} \ptr{next} \mathtt{null} \\
+                                             &\fbox{second}  \ptr{next}
+                                              \fbox{rest}    \ptr{next}
+                                              \fbox{of}      \ptr{next}
+                                              \fbox{list}    \ptr{next} \mathtt{null}
+\end{align*}
+$$
 
 # Monsters
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
