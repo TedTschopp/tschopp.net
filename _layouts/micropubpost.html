@@ -1,291 +1,285 @@
+{% if page.mf-repost-of != null or page.mf-repost-of != "" %}
+    <!--
+    mf-repost-of:
+      - >-
+        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+
+    mf-repost-of:
+      - 'https://idiallo.com/blog/when-a-machine-fired-me'
+            -->
+    {% assign }
+
+    {% assign mf-repost-of = TRUE %} 
+{% else %}
+    {% assign mf-repost-of = FLASE %} 
+{% endif %}
+
+{% if page.mf-like-of != null or page.mf-like-of != "" %}
+    <!--
+    mf-like-of:
+      - >-
+        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+            -->
+    {% assign mf-like-of = TRUE %} 
+{% else %}
+    {% assign mf-like-of = FLASE %} 
+{% endif %}
+
+{% if page.mf-item != null or page.mf-item != "" %}
+    <!--
+    mf-item:
+      - type:
+          - h-product
+        properties:
+          name:
+            - Product Name
+          url:
+            - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
+            -->
+    {% assign mf-item  = TRUE %} 
+{% else %}
+    {% assign mf-item  = FLASE %} 
+{% endif %}
+
+{% if page.mf-rating != null or page.mf-rating != "" %}
+    <!--
+    mf-rating:
+      - 5
+            -->
+    {% assign mf-rating  = TRUE %} 
+{% else %}
+    {% assign mf-rating  = FLASE %} 
+{% endif %}
+
+{% if page.mf-summary != null or page.mf-summary != "" %}
+    <!--
+    mf-summary:
+      - AMAZING!
+
+            -->
+    {% assign mf-summary  = TRUE %} 
+{% else %}
+    {% assign mf-summary  = FLASE %} 
+{% endif %}
+
+{% if page.mf-itinerary != null or page.mf-itinerary != "" %}
+    <!--
+    mf-itinerary:
+      - type:
+          - h-leg
+        properties:
+          transit-type:
+            - air
+          operator:
+            - Ted Air
+          number:
+            - '833'
+          origin:
+            - LAX
+          destination:
+            - OXF
+          departure:
+            - '2018-06-22T16:35:00-07:00'
+          arrival:
+            - '2018-06-22T16:35:00+01:00'
+
+    mf-itinerary:
+      - type:
+          - h-leg
+        properties:
+          transit-type:
+            - air
+          operator:
+            - Ted Air
+          number:
+            - '833'
+          origin:
+            - LAX
+          destination:
+            - OXF
+          departure:
+            - '2018-06-23T15:40:00-07:00'
+          arrival:
+            - '2018-06-23T15:40:00+01:00'
+      - type:
+          - h-leg
+        properties:
+          transit-type:
+            - air
+          operator:
+            - Lou Air
+          number:
+            - '338'
+          origin:
+            - OXF
+          destination:
+            - HOL
+          departure:
+            - '2018-06-23T15:40:00+01:00'
+          arrival:
+            - '2018-06-23T15:40:00'
+
+
+            -->
+    {% assign mf-itinerary  = TRUE %} 
+{% else %}
+    {% assign mf-itinerary  = FLASE %} 
+{% endif %}
+
+{% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
+    <!--
+    mf-in-reply-to:
+      - 'https://idiallo.com/blog/when-a-machine-fired-me'
+
+    mf-in-reply-to:
+      - >-
+        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
+
+
+            -->
+    {% assign mf-in-reply-to  = TRUE %} 
+{% else %}
+    {% assign mf-in-reply-to  = FLASE %} 
+{% endif %}
+
+{% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
+    <!--
+    mf-location:
+        - type:
+          - h-adr
+        properties:
+          latitude:
+            - 34.14634159231104
+          longitude:
+            - -118.1133562999198
+          street-address:
+            - 1795 E Colorado Blvd
+          locality:
+            - Pasadena
+          region:
+            - CA
+          country-name:
+            - United States
+          postal-code:
+            - '91106'
+    -->
+    {% assign mf-location = TRUE %} 
+    {% assign mf-location-full = TRUE %}
+    {% assign mf-location-short = FALSE %}
+    {% assign location-type = page.mf-location[0].type %} <!-- h-card -->
+    {% assign location-facility-name = page.mf-location[0].properties.name%}
+    {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
+    {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
+    {% assign location-facility-street-address = page.mf-location[0].properties.street-address %}
+    {% assign location-facility-city = page.mf-location[0].properties.locality %}
+    {% assign location-state = page.mf-location[0].properties.region %}
+    {% assign location-country = page.mf-location[0].properties.country-name %}
+    {% assign location-country = page.mf-location[0].properties.postal-code %}
+
+{% elsif page.mf-location != null or page.mf-location != "" %}
+    <!--
+    mf-location:
+      - 'geo:34.049571899827,-118.08246843619'
+
+    mf-location:
+      - 'geo:34.14661,-117.93846;u=34'
+
+      - 'geo:lat,long;u=undertanity_in_Meters'
+        -->
+
+    {% assign mf-location = TRUE %} 
+    {% assign mf-location-full = FALSE %}
+    {% assign mf-location-short = TRUE %}
+
+{% endif %}
+
+{% if page.mf-photo != null or page.mf-photo != "" %}
+    <!--
+    mf-photo:
+      - >-
+        https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
+
+    mf-photo:
+      - >-
+        https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
+
+            -->
+    {% assign mf-photo = TRUE %} 
+{% else %}
+    {% assign mf-photo = FLASE %} 
+{% endif %}
+
+{% if page.mf-syndication != null or page.mf-syndication != "" %}
+    <!--
+    mf-syndication:
+      - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
+
+    mf-syndication:
+      - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
+            -->
+    {% assign mf-syndication-url  = page.page.mf-syndication %}
+
+    {% assign mf-syndication = TRUE %} 
+{% else %}
+    {% assign mf-syndication = FLASE %} 
+{% endif %}
+{% if page.mf-checkin != null or page.mf-checkin != ""%}
+    <!--
+    mf-checkin:
+      - type:
+          - h-card
+        properties:
+          name:
+            - Game Empire Pasadena
+          url:
+            - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+          latitude:
+            - 34.14634159231104
+          longitude:
+            - -118.1133562999198
+          street-address:
+            - 1795 E Colorado Blvd
+          locality:
+            - Pasadena
+          region:
+            - CA
+          country-name:
+            - United States
+          postal-code:
+            - '91106'
+        value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+            -->
+    {% assign mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
+    {% assign mf-checkin-url  = page.mf-checkin[0].value %}
+    {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
+    {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
+    {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
+    {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
+    {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
+    {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
+    {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
+    {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
+    {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+    {% assign mf-checkin = TRUE %} 
+{% else %}
+    {% assign mf-checkin = FLASE %} 
+{% endif %}
+
+
+<!-- TODO: Add full articles. -->
+
+
+{% if page.excerpt != "" %}
+    {% assign SEO_description = page.excerpt | strip_html %}
+{% elsif page.description != "" %}
+    {% assign SEO_description = page.description | strip_html %}
+{% endif %}
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    {% if page.mf-repost-of != null or page.mf-repost-of != "" %}
-        <!--
-        mf-repost-of:
-          - >-
-            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-
-        mf-repost-of:
-          - 'https://idiallo.com/blog/when-a-machine-fired-me'
-
-                -->
-        {% assign mf-repost-of = TRUE %} 
-    {% else %}
-        {% assign mf-repost-of = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-like-of != null or page.mf-like-of != "" %}
-        <!--
-        mf-like-of:
-          - >-
-            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-                -->
-        {% assign mf-like-of = TRUE %} 
-    {% else %}
-        {% assign mf-like-of = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-item != null or page.mf-item != "" %}
-        <!--
-        mf-item:
-          - type:
-              - h-product
-            properties:
-              name:
-                - Product Name
-              url:
-                - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
-                -->
-        {% assign mf-item  = TRUE %} 
-    {% else %}
-        {% assign mf-item  = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-rating != null or page.mf-rating != "" %}
-        <!--
-        mf-rating:
-          - 5
-                -->
-        {% assign mf-rating  = TRUE %} 
-    {% else %}
-        {% assign mf-rating  = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-summary != null or page.mf-summary != "" %}
-        <!--
-        mf-summary:
-          - AMAZING!
-
-                -->
-        {% assign mf-summary  = TRUE %} 
-    {% else %}
-        {% assign mf-summary  = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-itinerary != null or page.mf-itinerary != "" %}
-        <!--
-        mf-itinerary:
-          - type:
-              - h-leg
-            properties:
-              transit-type:
-                - air
-              operator:
-                - Ted Air
-              number:
-                - '833'
-              origin:
-                - LAX
-              destination:
-                - OXF
-              departure:
-                - '2018-06-22T16:35:00-07:00'
-              arrival:
-                - '2018-06-22T16:35:00+01:00'
-
-        mf-itinerary:
-          - type:
-              - h-leg
-            properties:
-              transit-type:
-                - air
-              operator:
-                - Ted Air
-              number:
-                - '833'
-              origin:
-                - LAX
-              destination:
-                - OXF
-              departure:
-                - '2018-06-23T15:40:00-07:00'
-              arrival:
-                - '2018-06-23T15:40:00+01:00'
-          - type:
-              - h-leg
-            properties:
-              transit-type:
-                - air
-              operator:
-                - Lou Air
-              number:
-                - '338'
-              origin:
-                - OXF
-              destination:
-                - HOL
-              departure:
-                - '2018-06-23T15:40:00+01:00'
-              arrival:
-                - '2018-06-23T15:40:00'
-
-
-                -->
-        {% assign mf-itinerary  = TRUE %} 
-    {% else %}
-        {% assign mf-itinerary  = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
-        <!--
-        mf-in-reply-to:
-          - 'https://idiallo.com/blog/when-a-machine-fired-me'
-
-        mf-in-reply-to:
-          - >-
-            https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-
-
-                -->
-        {% assign mf-in-reply-to  = TRUE %} 
-    {% else %}
-        {% assign mf-in-reply-to  = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
-        <!--
-        mf-location:
-            - type:
-              - h-adr
-            properties:
-              latitude:
-                - 34.14634159231104
-              longitude:
-                - -118.1133562999198
-              street-address:
-                - 1795 E Colorado Blvd
-              locality:
-                - Pasadena
-              region:
-                - CA
-              country-name:
-                - United States
-              postal-code:
-                - '91106'
-        -->
-        {% assign mf-location = TRUE %} 
-        {% assign mf-location-full = TRUE %}
-        {% assign mf-location-short = FALSE %}
-        {% assign location-type = page.mf-location[0].type %} <!-- h-card -->
-        {% assign location-facility-name = page.mf-location[0].properties.name%}
-        {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
-        {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
-        {% assign location-facility-street-address = page.mf-location[0].properties.street-address %}
-        {% assign location-facility-city = page.mf-location[0].properties.locality %}
-        {% assign location-state = page.mf-location[0].properties.region %}
-        {% assign location-country = page.mf-location[0].properties.country-name %}
-        {% assign location-country = page.mf-location[0].properties.postal-code %}
-
-    {% elsif page.mf-location != null or page.mf-location != "" %}
-        <!--
-        mf-location:
-          - 'geo:34.049571899827,-118.08246843619'
-
-        mf-location:
-          - 'geo:34.14661,-117.93846;u=34'
-
-          - 'geo:lat,long;u=undertanity_in_Meters'
-            -->
-        {% assign mf-location = TRUE %} 
-        {% assign mf-location-full = FALSE %}
-        {% assign mf-location-short = TRUE %}
-
-    {% endif %}
-
-    {% if page.mf-photo != null or page.mf-photo != "" %}
-        <!--
-        mf-photo:
-          - >-
-            https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
-
-        mf-photo:
-          - >-
-            https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
-
-                -->
-        {% assign mf-photo = TRUE %} 
-    {% else %}
-        {% assign mf-photo = FLASE %} 
-    {% endif %}
-
-    {% if page.mf-syndication != null or page.mf-syndication != "" %}
-        <!--
-        mf-syndication:
-          - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
-
-        mf-syndication:
-          - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
-                -->
-        {% assign mf-syndication-url  = page.page.mf-syndication %}
-
-        {% assign mf-syndication = TRUE %} 
-    {% else %}
-        {% assign mf-syndication = FLASE %} 
-    {% endif %}
-    {% if page.mf-checkin != null or page.mf-checkin != ""%}
-        <!--
-        mf-checkin:
-          - type:
-              - h-card
-            properties:
-              name:
-                - Game Empire Pasadena
-              url:
-                - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
-              latitude:
-                - 34.14634159231104
-              longitude:
-                - -118.1133562999198
-              street-address:
-                - 1795 E Colorado Blvd
-              locality:
-                - Pasadena
-              region:
-                - CA
-              country-name:
-                - United States
-              postal-code:
-                - '91106'
-            value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
-                -->
-        {% assign mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
-        {% assign mf-checkin-url  = page.mf-checkin[0].value %}
-        {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
-        {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
-        {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
-        {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
-        {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
-        {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
-        {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
-        {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
-        {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
-        {% assign mf-checkin = TRUE %} 
-    {% else %}
-        {% assign mf-checkin = FLASE %} 
-    {% endif %}
-
-
-<!--
-
-TODO: Add full articles.
-
-                -->
-
-
-
-
-
-
-    {% if page.excerpt != "" %}
-        {% assign SEO_description = page.excerpt | strip_html %}
-    {% elsif page.description != "" %}
-        {% assign SEO_description = page.description | strip_html %}
-    {% endif %}
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -314,57 +308,53 @@ TODO: Add full articles.
           site.instagram_username or
           site.quora_username %}
 
-            {% if site.github_username %}
-                <link href="https://github.com/{{ site.github_username }}/" rel="me authn">
-            {% else %}
-            {% endif %}
-            {% if site.linkedin_username %}
-                <link href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.twitter_username %}
-                <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.facebook_username %}
-                <link href="https://www.facebook.com/{{ site.facebook_username }}" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.google_username %}
-                <link href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.youtube_username %}
-                <link href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.pinterest_username %}
-                <link href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.reddit_username %}
-                <link href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.instagram_username %}
-                <link href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me">
-            {% else %}
-            {% endif %}
-            {% if site.quora_username %}
-                <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
-            {% else %}
-            {% endif %}
+      {% if site.github_username %}
+          <link href="https://github.com/{{ site.github_username }}/" rel="me authn">
+      {% else %}
+      {% endif %}
+      {% if site.linkedin_username %}
+          <link href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.twitter_username %}
+          <link href="https://twitter.com/{{ site.twitter_username }}" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.facebook_username %}
+          <link href="https://www.facebook.com/{{ site.facebook_username }}" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.google_username %}
+          <link href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.youtube_username %}
+          <link href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.pinterest_username %}
+          <link href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.reddit_username %}
+          <link href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.instagram_username %}
+          <link href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me">
+      {% else %}
+      {% endif %}
+      {% if site.quora_username %}
+          <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
+      {% else %}
+      {% endif %}
     {% endif %}
 
     <!-- Webmentions -->
     <link rel="pingback" href="https://webmention.io/www.tedt.org/xmlrpc" />
     <link rel="webmention" href="https://webmention.io/www.tedt.org/webmention" />
 
-    <!-- Indieauth.com/ 
-         MICROPUB_TOKEN_ENDPOINT Required
-         The token endpoint to verify the micropub token against. See: https://indieweb.org/token-endpoint
-    -->
-
+    <!-- Indieauth.com/ The token endpoint to verify the micropub token against. See: https://indieweb.org/token-endpoint -->
     <link rel="authorization_endpoint" href="https://indielogin.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
     <link href="https://micropub-to-github-for-ted.herokuapp.com/micropub/main" rel="micropub">
@@ -379,26 +369,26 @@ TODO: Add full articles.
     <link rel="icon" sizes="192x192" type="image/png" href="{{site.siteurl}}/img/android-chrome-192x192.png" >
 
     <!-- Apple iOS Settings. -->
-	<!--Sets whether a web application runs in full-screen mode. -->
+    <!--Sets whether a web application runs in full-screen mode. -->
     <meta name="apple-mobile-web-app-capable"          content="yes">
     <!-- Color of the status bar -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
-	<!-- Web App Name for the Shortcut -->
-	<meta name="apple-mobile-web-app-title"            content="Ted Tschopp">
-	<!-- Do Not Detect Phone Numbers -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+    <!-- Web App Name for the Shortcut -->
+    <meta name="apple-mobile-web-app-title"            content="Ted Tschopp">
+    <!-- Do Not Detect Phone Numbers -->
     <meta name="format-detection" content="telephone=no"> 
     
-	<!-- iPhone icons -->
-	<!--
+    <!-- iPhone icons -->
+    <!--
     <link rel="apple-touch-icon"                 href="{{site.siteurl}}/img/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="57x57"   href="{{site.siteurl}}/img/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72"   href="{{site.siteurl}}/img/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="{{site.siteurl}}/img/apple-touch-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="144x144" href="{{site.siteurl}}/img/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="{{site.siteurl}}/img/apple-touch-icon-152x152.png"> -->
-	<link rel="apple-touch-icon" sizes="180x180" href="{{site.siteurl}}/img/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{site.siteurl}}/img/apple-touch-icon-152x152.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.siteurl}}/img/apple-touch-icon-180x180.png">
     <!--<link rel="apple-touch-icon-precomposed"     href="{{site.siteurl}}/img/apple-touch-icon-precomposed.png">-->
-	<!-- TODO: Add in Splash Screens with apple-touch-startup-image -->
+    <!-- TODO: Add in Splash Screens with apple-touch-startup-image -->
 
 
 
@@ -433,18 +423,18 @@ TODO: Add full articles.
     <meta property="al:android:url" content="applinks://docs">
     <meta property="al:android:app_name" content="App Links">
     <meta property="al:android:package" content="org.applinks">
-  -->
+    -->
 
     <!-- Google Chrome. -->
-	<link rel="icon" type="image/png" sizes="36x36" href="{{site.siteurl}}/img/android-chrome-36x36.png">
-	<link rel="icon" type="image/png" sizes="48x48" href="{{site.siteurl}}/img/android-chrome-48x48.png">
-	<link rel="icon" type="image/png" sizes="72x72" href="{{site.siteurl}}/img/android-chrome-72x72.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="{{site.siteurl}}/img/android-chrome-96x96.png">
-	<link rel="icon" type="image/png" sizes="144x144" href="{{site.siteurl}}/img/android-chrome-144x144.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="{{site.siteurl}}/img/android-chrome-192x192.png">
-	<link rel="icon" type="image/png" sizes="384x384" href="{{site.siteurl}}/img/android-chrome-384x384.png">
-	<link rel="icon" type="image/png" sizes="256x256" href="{{site.siteurl}}/img/android-chrome-256x256.png">
-	<link rel="icon" type="image/png" sizes="512x512" href="{{site.siteurl}}/img/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="36x36" href="{{site.siteurl}}/img/android-chrome-36x36.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{site.siteurl}}/img/android-chrome-48x48.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="{{site.siteurl}}/img/android-chrome-72x72.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{site.siteurl}}/img/android-chrome-96x96.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="{{site.siteurl}}/img/android-chrome-144x144.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{site.siteurl}}/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="{{site.siteurl}}/img/android-chrome-384x384.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="{{site.siteurl}}/img/android-chrome-256x256.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="{{site.siteurl}}/img/android-chrome-512x512.png">
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
     <meta name="google" value="notranslate">
 
@@ -470,16 +460,16 @@ TODO: Add full articles.
     <meta name="msapplication-TileImage"           content="{{site.siteurl}}/img/mstile-144x144.png">
     <meta name="msapplication-task-separator"      content="1">
     <meta name="msapplication-task"                content="name=Contact Ted;
-															action-uri={{site.siteurl}}/#contact;
-															icon-uri={{site.siteurl}}/img/favicon.ico">
+                              action-uri={{site.siteurl}}/#contact;
+                              icon-uri={{site.siteurl}}/img/favicon.ico">
     <meta name="msapplication-task"                content="name=Ted's Projects;
-															action-uri={{site.siteurl}}/#projects;
-															icon-uri={{site.siteurl}}/img/favicon.ico">
+                              action-uri={{site.siteurl}}/#projects;
+                              icon-uri={{site.siteurl}}/img/favicon.ico">
     <meta name="msapplication-allowDomainApiCalls" content="false">
     <meta name="msapplication-allowDomainMetaTags" content="false">
     <meta name="msapplication-window"              content="width=1024;height=768">
-	<!--
-	<meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
+    <!--
+    <meta name="msapplication-badge"               content="frequency=30; polling-uri=http://example.com/id45453245/polling.xml">
     <meta name="msapplication-notification"        content="frequency=60;polling-uri=http://example.com/livetile">
     -->
 
@@ -490,23 +480,23 @@ TODO: Add full articles.
 
     <!-- Geo Positioning Meta Tags. -->
     <!--
-	<meta name="geo.position"  content="50.97590;0.01722">
+    <meta name="geo.position"  content="50.97590;0.01722">
     <meta name="geo.region"    content="GB">
     <meta name="geo.placename" content="London, United Kingdom">
     <meta name="ICBM"          content="50.9759, 0.0172">
     <meta name="DC.title"      content="Location Name">
-	-->
+    -->
     <!-- Search Eengine and Browser Meta Tags. -->
-	<!-- The description of the website. Keep under 500 characters -->
-	<meta name="description" content="{{ SEO_description }}"> 
-	<!-- The short description of the website.  Keep uder 100 characters -->
+    <!-- The description of the website. Keep under 500 characters -->
+    <meta name="description" content="{{ SEO_description }}"> 
+    <!-- The short description of the website.  Keep uder 100 characters -->
     <meta name="abstract"    content="{{ site.name }}"> 
- 
+   
     <!-- Search engine robots Meta Tags. -->
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
- 
-	<!-- Open Graph Meta Tags (ogp.me) -->
+   
+    <!-- Open Graph Meta Tags (ogp.me) -->
     {% if page.image %}
         <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
         <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
@@ -520,68 +510,68 @@ TODO: Add full articles.
 
     <!-- Facebook web site appID  -->
     <meta property="fb:app_id"           content="1939132006351436" />
-	<!-- Web site title -->
+    <!-- Web site title -->
     <meta property="og:site_name"        content="{{ site.name }}">
-	<!-- Web page title -->
+    <!-- Web page title -->
     <meta property="og:title"            content="{{ page.title }} - {{ site.name }}">
-	<!-- Web page description -->
+    <!-- Web page description -->
     <meta property="og:description"      content="{{ page.excerpt | strip_html }}">  
-	<!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
-	<meta property="og:type"             content="article">  
-	<!-- Url to this web page -->
+    <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
+    <meta property="og:type"             content="article">  
+    <!-- Url to this web page -->
     <meta property="og:url"              content="{{ site.siteurl }}{{ page.url }}"> 
-	<!-- Main Language -->
-	<meta property="og:locale"           content="en_US">    
-	<!-- Alternate Language -->
-	<!--
-	<meta property="og:locale:alternate" content="fr_FR">    
+    <!-- Main Language -->
+    <meta property="og:locale"           content="en_US">    
+    <!-- Alternate Language -->
+    <!--
+    <meta property="og:locale:alternate" content="fr_FR">    
     <meta property="og:locale:alternate" content="es_ES">    
-	-->
+    -->
 
-	<!-- Geographical coordenates -->
-	<!--
-	<meta property="og:latitude"         content="50.97590"> 
+    <!-- Geographical coordenates -->
+    <!--
+    <meta property="og:latitude"         content="50.97590"> 
     <meta property="og:longitude"        content="0.017221">
-	-->
-	<!-- Postal Address -->
+    -->
+    <!-- Postal Address -->
     <!-- <meta property="og:street-address"   content="Flat 1, 26 Street Name"> -->
-	<!-- Locality -->
+    <!-- Locality -->
     <!-- <meta property="og:locality"         content="London"> -->
-	<!-- Region -->
-	<!-- <meta property="og:region"           content="London"> -->
-	<!-- Post code -->
-	<!-- <meta property="og:postal-code"      content="N1 PLE"> -->
-	<!-- Country -->
-	<!-- <meta property="og:country-name"     content="UK"> -->
+    <!-- Region -->
+    <!-- <meta property="og:region"           content="London"> -->
+    <!-- Post code -->
+    <!-- <meta property="og:postal-code"      content="N1 PLE"> -->
+    <!-- Country -->
+    <!-- <meta property="og:country-name"     content="UK"> -->
 
-	<!-- Contact email -->
+    <!-- Contact email -->
     <meta property="og:email"            content="{{ site.email }}"> 
-	<!-- Contact phone number -->
-	<meta property="og:phone_number"     content="{{ site.phonenumber }}">
+    <!-- Contact phone number -->
+    <meta property="og:phone_number"     content="{{ site.phonenumber }}">
 
     <!-- Video file url-->
-	<!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
-	<!-- Video height -->
+    <!-- <meta property="og:video"            content="http://example.com/video.flv"> -->
+    <!-- Video height -->
     <!-- <meta property="og:video:height"     content="640"> -->
-	<!-- Video width -->
+    <!-- Video width -->
     <!-- <meta property="og:video:width"      content="385"> -->  
-	<!-- Video file format mime type -->
+    <!-- Video file format mime type -->
     <!-- <meta property="og:video:type"       content="application/x-shockwave-flash"> -->
 
-	<!-- Audio file url -->
-	<!-- <meta property="og:audio"            content="http://example.com/audio.mp3"> -->
-	<!-- Audio title -->
-	<!-- <meta property="og:audio:title"      content="Song Title"> -->
-	<!-- Audio artist -->
+    <!-- Audio file url -->
+    <!-- <meta property="og:audio"            content="http://example.com/audio.mp3"> -->
+    <!-- Audio title -->
+    <!-- <meta property="og:audio:title"      content="Song Title"> -->
+    <!-- Audio artist -->
     <!-- <meta property="og:audio:artist"     content="Name of Band"> -->                
-	<!-- Audio album title-->
+    <!-- Audio album title-->
     <!-- <meta property="og:audio:album"      content="Album Title"> -->              
-	<!-- Audio file format mime type -->
+    <!-- Audio file format mime type -->
     <!-- <meta property="og:audio:type"       content="application/mp3"> -->               
 
-	<!-- UPC EAN barcodes-->
+    <!-- UPC EAN barcodes-->
     <!-- <meta property="og:upc"              content="885909367481"> -->
-	<!-- Book ISBN number-->
+    <!-- Book ISBN number-->
     <!-- <meta property="og:isbn"             content="1873520786"> -->
 
     <!-- Facebook Meta Tags. -->
@@ -605,14 +595,14 @@ TODO: Add full articles.
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
-    
-	<!-- News Feed Meta Tags. -->
+      
+    <!-- News Feed Meta Tags. -->
     <!--
-	<link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
+    <link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
     <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
     <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
-	<link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
-	-->
+    <link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
+    -->
 
 
     {% seo %}
@@ -623,7 +613,7 @@ TODO: Add full articles.
     {% include css-bootstrap.html %}
 
     <!-- Custom CSS -->
-	<link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
+    <link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
     
     {% assign categories = page.categories %}
@@ -675,12 +665,12 @@ TODO: Add full articles.
         <div class="row">
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
-	            <!-- Blog Post -->
+              <!-- Blog Post -->
 
                 <article class="h-entry">
-    	            <!-- Title -->
+                  <!-- Title -->
                     <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-    	            <h1 class="p-name lead">
+                  <h1 class="p-name lead">
                         {% if page.author.name %}
                             <a rel="author" class="p-author h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
                         {% else %}
@@ -689,9 +679,9 @@ TODO: Add full articles.
                         <a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/>
                     </h1>
 
-    	            <hr>
+                  <hr>
 
-    	            <!-- Date/Time -->
+                  <!-- Date/Time -->
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> <time datetime="{{page.date}}">{% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}&nbsp;
                         {% assign d = page.date | date: "%-d" %}
                         {% assign m = page.date | date: "%B" %}
@@ -793,13 +783,13 @@ TODO: Add full articles.
                         var popup = L.popup();
                     </script>
 
-    	            <hr>
+                  <hr>
 
 
 
 
-    	            <!-- Post Content -->
-    	            <span class="e-content">{{ content }}
+                  <!-- Post Content -->
+                  <span class="e-content">{{ content }}
 {% if micropubpost.geos [0] %}
     0 - {{ micropubpost.geos [0] }}
 {%endif%}
@@ -850,7 +840,7 @@ TODO: Add full articles.
 
                     </span>
 
-    	            <hr>
+                  <hr>
                 </article>
 
 
@@ -935,7 +925,7 @@ TODO: Add full articles.
 
                 <hr>
 
-	        </div>
+          </div>
 
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
@@ -955,14 +945,14 @@ TODO: Add full articles.
                         {% assign categories = page.categories %}
                         {% for category in categories %}
                             <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
-	                            <div class="row">
-	                            <div class="col-lg-12">
-	                                <ul lass="list-unstyled">
-	                                    {% for post in site.categories.[category] limit:5 %}
-	                                    <li><a href="{{site.siteurl}}{{ pageurl }}">{{ page.title }}</a></li>
-	                                    {% endfor %}
-	                                </ul>
-	                            </div>
+                              <div class="row">
+                              <div class="col-lg-12">
+                                  <ul lass="list-unstyled">
+                                      {% for post in site.categories.[category] limit:5 %}
+                                      <li><a href="{{site.siteurl}}{{ pageurl }}">{{ page.title }}</a></li>
+                                      {% endfor %}
+                                  </ul>
+                              </div>
                             </div>
                         {% endfor %}
                     </div>                
