@@ -150,7 +150,7 @@ d = 15,836.6674525 \text{feet}
 \therefore
 \\
 \\
-d = 15,836.6674525 \text{feet} * \frac{1\text{mile}{5280\text{feet}}
+d = 15,836.6674525 \text{feet} * \frac{1\text{mile}}{5280\text{feet}}
 \\
 \\
 d = 2.99936883569 \text{miles} 
