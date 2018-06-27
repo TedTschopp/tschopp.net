@@ -111,9 +111,9 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 ### Spherical
 
 #### Distance to the horizon
-Based on the 
+Based on the following formula. 
 
-$$ 
+$$
 d = \sqrt{h\times(2 \times R+h)} 
 $$
 
@@ -137,9 +137,16 @@ $$
 d = \sqrt{6\times(2\times20,900,000+6)}
 $$
 
+$$
+\therefore
+$$
 
 $$
 d = \sqrt{6\times x 41,800,006}
+$$
+
+$$
+\therefore
 $$
 
 $$
@@ -147,15 +154,31 @@ d = \sqrt{250800036}
 $$
 
 $$
-d = 15836.6674525 feet * 1 mile \div 5280 feet
+\therefore
 $$
 
 $$
 d = 15836.6674525 feet * 1 mile \div 5280 feet
+$$
+
+$$
+\therefore
+$$
+
+$$
+d = 15836.6674525 feet * 1 mile \div 5280 feet
+$$
+
+$$
+\therefore
 $$
 
 $$
 d = 2.99936883569  \approx 3 miles
+$$
+
+$$
+\therefore
 $$
 
 $$
@@ -164,6 +187,7 @@ $$
 
 
 This is interesting
+
 $$
 \begin{array}{c|lcr}
 n & \text{Left} & \text{Center} & \text{Right} \\
