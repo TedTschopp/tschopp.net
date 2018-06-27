@@ -137,6 +137,33 @@ $$
 d = \sqrt{6\times(2\times20,900,000+6)}
 $$
 
+
+$$
+d = \sqrt{6\times x 41,800,006}
+$$
+
+$$
+d = \sqrt{250800036}
+$$
+
+$$
+d = 15836.6674525 feet * 1 mile \div 5280 feet
+$$
+
+$$
+d = 15836.6674525 feet * 1 mile \div 5280 feet
+$$
+
+$$
+d = 2.99936883569  \approx 3 miles
+$$
+
+$$
+d = 3 miles
+$$
+
+
+This is interesting
 $$
 \begin{array}{c|lcr}
 n & \text{Left} & \text{Center} & \text{Right} \\
