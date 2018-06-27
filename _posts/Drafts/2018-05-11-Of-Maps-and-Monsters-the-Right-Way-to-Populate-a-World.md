@@ -145,17 +145,22 @@ d = \sqrt{250,800,036}
 \therefore
 \\
 \\
-d = 15,836.6674525 \text{ feet } * \frac{1 \text{ mile }{5280 \text{ feet }}
+d = 15,836.6674525 feet
 \\
 \therefore
 \\
 \\
-d = 2.99936883569  \approx 3 \text{ miles }
+d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}}
 \\
 \therefore
 \\
 \\
-d = 3 \text{ miles }
+d = 2.99936883569  \approx 3 miles 
+\\
+\therefore
+\\
+\\
+d = 3 miles 
 \\
 $$
 
