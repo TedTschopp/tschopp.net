@@ -309,6 +309,7 @@
     {% assign map-latitude-one = location-facility-latitude %}
     {% assign map-longitude-one = location-facility-longitude %}
     {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
+    {% assign map-name-one = location-facility-name %}
   {% endif %}
 {% else %}
   {% comment %} <!--
@@ -317,6 +318,8 @@
   {% assign draw-map-one = true %}
   {% assign map-latitude-one = mf-checkin-facility-latitude %}
   {% assign map-longitude-one = mf-checkin-facility-longitude %}
+  {% assign map-name-one = page.content %}
+
   {% if location-facility-latitude == null or location-facility-latitude  == empty %}
     {% comment %} <!--
       We do have a facility checkin.  We do not have a Location.  Therefore we can keep the map we already have -->
@@ -329,6 +332,7 @@
     {% assign map-latitude-two = location-facility-latitude %}
     {% assign map-longitude-two = location-facility-longitude %}
     {% assign map-uncertanity-two = location-facility-gis-uncertanity %}
+    {% assign map-name-two = location-facility-name %}
   {% endif %}
 {%endif%}
 
@@ -841,12 +845,12 @@
                           }).addTo(mymap);
 
                           L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
-                              .bindPopup("<b>{{page.mf-checkin[0].properties.name}}").openPopup();
+                              .bindPopup("<b>{{map-name-one}}").openPopup();
 
                           {% if draw-map-two == true %}
 
                           L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ]).addTo(mymap)
-                              .bindPopup("<b>{{page.mf-checkin[0].properties.name}}").openPopup();
+                              .bindPopup("<b>{{map-name-two}}").openPopup();
                           {% endif %}
 
                           var popup = L.popup();
