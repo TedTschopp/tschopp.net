@@ -116,6 +116,7 @@ Based on the following formula.
 $$
 d = \sqrt{h\times(2 \times R+h)} 
 $$
+{: .well }
 
 where 
 
@@ -183,19 +184,6 @@ $$
 
 $$
 d = 3 miles
-$$
-
-
-This is interesting
-
-$$
-\begin{array}{c|lcr}
-n & \text{Left} & \text{Center} & \text{Right} \\
-\hline
-1 & 0.24 & 1 & 125 \\
-2 & -1 & 189 & -8 \\
-3 & -20 & 2000 & 1+10i
-\end{array}
 $$
 
 
