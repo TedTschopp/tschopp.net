@@ -104,31 +104,56 @@ Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp 
 In Fantasy Role Playing Games it can not always be assumed that there is a Stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
 
 
+
+### Flat
+
+
+### Spherical
+
+#### Distance to the horizon
+Based on the 
+
 $$ 
 
-d = \sqrt{h(2R+h)} 
+d = \sqrt{h(2\timesR+h)} 
+
+where 
+
+d = distance to the horizon
+h = height of the observer above sea level
+R = radius of the Earth
+
+\therefore
+
+h = 6 feet
+R = 20,900,000 feet
+
+d = \sqrt{h(2\times20,900,000+6)}
+
+
+
+
+\begin{array}{c|lcr}
+n & \text{Left} & \text{Center} & \text{Right} \\
+\hline
+1 & 0.24 & 1 & 125 \\
+2 & -1 & 189 & -8 \\
+3 & -20 & 2000 & 1+10i
+\end{array}
+
 
 $$
 
-* Spherical
-* Flat
-* Ring
-* Sphere
-* Hollow World
-* Alien Geometries 
 
-$$
-\newcommand{ptr}[1]{\overset{\mathtt{#1}}{\longrightarrow}}
-\begin{align*}
-                                             &\mathtt{newNode} \\
-                                             &\quad\downarrow  \\
-\mathtt{head} \ptr{} \fbox{first} \ptr{next} &\fbox{another} \ptr{next} \mathtt{null} \\
-                                             &\fbox{second}  \ptr{next}
-                                              \fbox{rest}    \ptr{next}
-                                              \fbox{of}      \ptr{next}
-                                              \fbox{list}    \ptr{next} \mathtt{null}
-\end{align*}
-$$
+### Ring
+
+### Sphere
+
+### Hollow World
+
+### Alien Geometries 
+
+
 
 # Monsters
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
