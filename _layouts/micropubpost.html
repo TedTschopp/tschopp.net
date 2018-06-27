@@ -221,7 +221,7 @@
     {% comment %} <!--
       We do not have a complex Location, but we might have a simple one.  Lets check. -->
     {% endcomment %}
-    {% if page.mf-location == null or page.mf-location == "" %}
+    {% if page.mf-location == null or page.mf-location == empty %}
       {% comment %} <!--
         We do not have a complex Location, and we do not a simple one.  Lets set flags. -->
       {% endcomment %}
@@ -245,6 +245,7 @@
       {% assign mf-location = true %} 
       {% assign mf-location-full = false %}
       {% assign mf-location-short = true %}
+    {% endif %}
 {% else %} 
     {% comment %} <!--
     We have a complex Location lets parse
