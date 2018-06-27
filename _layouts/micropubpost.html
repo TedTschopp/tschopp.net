@@ -296,7 +296,7 @@
   {% comment %} <!--
     We do not have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
-  {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude  == empty %}
+  {% if location-facility-latitude  == null or location-facility-latitude   == empty %}
     {% comment %} <!--
       We do not have a facility checkin.  We do not have a Location.  Therefore we have no need for a map -->
     {% endcomment %}
@@ -306,8 +306,8 @@
       We do not have a facility checkin.  We do  have a Location.  Therefore we have a need for a map -->
     {% endcomment %}
     {% assign draw-map-one = true %}
-    {% assign map-latitude-one = mf-checkin-facility-latitude %}
-    {% assign map-longitude-one = mf-checkin-facility-longitude %}
+    {% assign map-latitude-one = location-facility-latitude %}
+    {% assign map-longitude-one = location-facility-longitude %}
     {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
   {% endif %}
 {% else %}
@@ -315,10 +315,9 @@
     We do have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
   {% assign draw-map-one = true %}
-  {% assign map-latitude-one = location-facility-latitude %}
-  {% assign map-longitude-one = location-facility-longitude %}
-  {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
-  {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude  == empty %}
+  {% assign map-latitude-one = mf-checkin-facility-latitude %}
+  {% assign map-longitude-one = mf-checkin-facility-longitude %}
+  {% if location-facility-latitude == null or location-facility-latitude  == empty %}
     {% comment %} <!--
       We do have a facility checkin.  We do not have a Location.  Therefore we can keep the map we already have -->
     {% endcomment %}
