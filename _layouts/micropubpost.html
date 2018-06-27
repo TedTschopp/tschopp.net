@@ -262,14 +262,9 @@
       <!-- {{ location-facility-step-four | jsonify }} -->
       <!-- four - 0 - {{ location-facility-step-four[0] | jsonify }} -->
       <!-- four - 1 - {{ location-facility-step-four[1] | jsonify }} -->
-
-
-      {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
-      {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
-
-
-
-
+      {% assign location-facility-latitude = location-facility-step-three[0] %}
+      {% assign location-facility-longitude = location-facility-step-three[1] %}
+      {% assign location-facility-gis-uncertanity = location-facility-step-four[1] %}
       {% assign mf-location = true %} 
       {% assign mf-location-full = false %}
       {% assign mf-location-short = true %}
