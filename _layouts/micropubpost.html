@@ -215,17 +215,39 @@
     {% assign mf-checkin = true %} 
 {% endif %}
 
-
 <!-- This needs to be fixed -->
 
 {% if page.mf-location[0].type == null or page.mf-location[0].type == empty %}
     {% comment %} <!--
       We do not have a complex Location, but we might have a simple one.  Lets check. -->
     {% endcomment %}
-    
+    {% if page.mf-location == null or page.mf-location == "" %}
+      {% comment %} <!--
+        We do not have a complex Location, and we do not a simple one.  Lets set flags. -->
+      {% endcomment %}
+      {% assign mf-location = false %} 
+      {% assign mf-location-full = false %}
+      {% assign mf-location-short = false %}
+
+    {% else %}
+      {% comment %} <!--
+        We do not have a complex Location, and we do not a simple one.  Lets set flags.
+        TODO: Parse Simple Location.
+        mf-location:
+          - 'geo:34.049571899827,-118.08246843619'
+
+        mf-location:
+          - 'geo:34.14661,-117.93846;u=34'
+
+          - 'geo:lat,long;u=undertanity_in_Meters' -->
+      {% endcomment %}
+
+      {% assign mf-location = true %} 
+      {% assign mf-location-full = false %}
+      {% assign mf-location-short = true %}
 {% else %} 
     {% comment %} <!--
-      We have a complex Location lets parse
+    We have a complex Location lets parse
 
     mf-location:
         - type:
@@ -258,30 +280,6 @@
     {% assign location-state = page.mf-location[0].properties.region %}
     {% assign location-country = page.mf-location[0].properties.country-name %}
     {% assign location-country = page.mf-location[0].properties.postal-code %}
-{% endif %}
-
-{% if page.mf-location[0].type != null or page.mf-location[0].type != empty %}
-
-
-{% elsif page.mf-location != null or page.mf-location != "" %}
-    {% comment %} <!--
-    mf-location:
-      - 'geo:34.049571899827,-118.08246843619'
-
-    mf-location:
-      - 'geo:34.14661,-117.93846;u=34'
-
-      - 'geo:lat,long;u=undertanity_in_Meters' -->
-    {% endcomment %}
-
-    {% assign mf-location = true %} 
-    {% assign mf-location-full = false %}
-    {% assign mf-location-short = true %}
-{% else %}
-    {% assign mf-location = false %} 
-    {% assign mf-location-full = false %}
-    {% assign mf-location-short = false %}
-
 {% endif %}
 
 

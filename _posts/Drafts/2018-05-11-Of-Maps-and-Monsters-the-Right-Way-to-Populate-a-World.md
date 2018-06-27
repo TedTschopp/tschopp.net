@@ -154,7 +154,7 @@ d = 15,836.6674525 \text{ feet}
 \therefore
 \\
 \\
-d = 15,836.6674525 \text{ feet} * \frac{1\text{ mile}}{5280\text{ feet}}
+d = 15,836.6674525 \text{ feet} \times \frac{1\text{ mile}}{5280\text{ feet}}
 \\
 \\
 \therefore
@@ -183,7 +183,7 @@ d = 2.99936883569  \approx 3 \text{ miles}
 \therefore
 \\
 \\
-d = 3 miles = 3 hexs
+d = 3 miles = 3 hexs 
 \\
 \\
 
