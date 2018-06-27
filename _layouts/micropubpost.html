@@ -246,22 +246,22 @@
       {% assign location-facility-step-one = page.mf-location | split: ':' %}
 
       <!-- {{ location-facility-step-one | jsonify }} -->
-      <!-- 0 - {{ location-facility-step-one[0] | jsonify }} -->
-      <!-- 1 - {{ location-facility-step-one[1] | jsonify }} -->
+      <!-- one - 0 - {{ location-facility-step-one[0] | jsonify }} -->
+      <!-- one - 1 - {{ location-facility-step-one[1] | jsonify }} -->
 
 
       {% assign location-facility-step-two = location-facility-step-one[1] | split: ';' %}
       <!-- {{ location-facility-step-two | jsonify }} -->
-      <!-- 0 - {{ location-facility-step-two[0] | jsonify }} -->
-      <!-- 1 - {{ location-facility-step-two[1] | jsonify }} -->
-      {% assign location-facility-step-three = location-facility-step-one[0] | split: ',' %}
+      <!-- two - 0 - {{ location-facility-step-two[0] | jsonify }} -->
+      <!-- two - 1 - {{ location-facility-step-two[1] | jsonify }} -->
+      {% assign location-facility-step-three = location-facility-step-two[0] | split: ',' %}
       <!-- {{ location-facility-step-three | jsonify }} -->
-      <!-- 0 - {{ location-facility-step-three[0] | jsonify }} -->
-      <!-- 1 - {{ location-facility-step-three[1] | jsonify }} -->
-      {% assign location-facility-step-four = location-facility-step-one[1] | split: '=' %}
+      <!-- three - 0 - {{ location-facility-step-three[0] | jsonify }} -->
+      <!-- three - 1 - {{ location-facility-step-three[1] | jsonify }} -->
+      {% assign location-facility-step-four = location-facility-step-two[1] | split: '=' %}
       <!-- {{ location-facility-step-four | jsonify }} -->
-      <!-- 0 - {{ location-facility-step-four[0] | jsonify }} -->
-      <!-- 1 - {{ location-facility-step-four[1] | jsonify }} -->
+      <!-- four - 0 - {{ location-facility-step-four[0] | jsonify }} -->
+      <!-- four - 1 - {{ location-facility-step-four[1] | jsonify }} -->
 
 
       {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
