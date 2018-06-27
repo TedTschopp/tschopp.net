@@ -163,7 +163,7 @@
     {% assign mf-location = TRUE %} 
     {% assign mf-location-full = TRUE %}
     {% assign mf-location-short = FALSE %}
-    {% assign location-type = page.mf-location[0].type %} <!-- h-card -->
+    {% assign location-type = page.mf-location[0].type %}
     {% assign location-facility-name = page.mf-location[0].properties.name%}
     {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
     {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
@@ -251,7 +251,7 @@
             - '91106'
         value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
     {% endcomment %}
-    {% assign mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
+    {% assign mf-checkin-type  = page.mf-checkin[0].type %}
     {% assign mf-checkin-url  = page.mf-checkin[0].value %}
     {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
     {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
