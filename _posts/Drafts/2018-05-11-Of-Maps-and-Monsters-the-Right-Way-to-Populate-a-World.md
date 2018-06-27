@@ -150,7 +150,7 @@ d = 15,836.6674525 feet
 \therefore
 \\
 \\
-d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}}
+d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}
 \\
 \therefore
 \\
