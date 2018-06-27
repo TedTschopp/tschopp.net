@@ -127,33 +127,43 @@ R = radius of the Earth = 20,900,000 feet
 
 $$
 \\
+\\
 \therefore
 \\
 \\
 d = \sqrt{6\times(2 \times 20,900,000+6)}
+\\
 \\
 \therefore
 \\
 \\
 d = \sqrt{6 \times 41,800,006}
 \\
+\\
 \therefore
 \\
 \\
 d = \sqrt{250,800,036}
 \\
-\therefore
-\\
-\\
-d = 15,836.6674525 \text{feet}
 \\
 \therefore
 \\
 \\
-d = 15,836.6674525 \text{feet} * \frac{1\text{mile}}{5280\text{feet}}
+d = 15,836.6674525 \text{ feet}
+\\
+\therefore
 \\
 \\
-d = 2.99936883569 \text{miles} 
+d = 15,836.6674525 \text{ feet} * \frac{1\text{ mile}}{5280\text{ feet}}
+\\
+\\
+\therefore
+\\
+\\
+d = 2.99936883569 \text{ miles} 
+\\
+\\
+\therefore
 \\
 \\
 \text{round}(d)= \lceil d-\frac{1}{2} \rceil
@@ -168,7 +178,7 @@ d = 2.99936883569 \text{miles}
 \therefore
 \\
 \\
-d = 2.99936883569  \approx 3 \text{miles} 
+d = 2.99936883569  \approx 3 \text{ miles} 
 \\
 \therefore
 \\
