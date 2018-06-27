@@ -213,6 +213,7 @@
     {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
     {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
     {% assign mf-checkin = true %} 
+
 {% endif %}
 
 <!-- This needs to be fixed -->
@@ -243,26 +244,10 @@
       {% endcomment %}
 
 
-      {% assign location-facility-step-zero = page.mf-location[0] | remove: '"' %}
-      {% assign location-facility-step-one = location-facility-step-zero | split: ':' %}
-
-      <!-- {{ location-facility-step-one  }} -->
-      <!-- one - 0 - {{ location-facility-step-one[0]  }} -->
-      <!-- one - 1 - {{ location-facility-step-one[1]  }} -->
-
-
+      {% assign location-facility-step-one = page.mf-location[0] | split: ':' %}
       {% assign location-facility-step-two = location-facility-step-one[1] | split: ';' %}
-      <!-- {{ location-facility-step-two }} -->
-      <!-- two - 0 - {{ location-facility-step-two[0]  }} -->
-      <!-- two - 1 - {{ location-facility-step-two[1]  }} -->
       {% assign location-facility-step-three = location-facility-step-two[0] | split: ',' %}
-      <!-- {{ location-facility-step-three }} -->
-      <!-- three - 0 - {{ location-facility-step-three[0]  }} -->
-      <!-- three - 1 - {{ location-facility-step-three[1]  }} -->
       {% assign location-facility-step-four = location-facility-step-two[1] | split: '=' %}
-      <!-- {{ location-facility-step-four }} -->
-      <!-- four - 0 - {{ location-facility-step-four[0]  }} -->
-      <!-- four - 1 - {{ location-facility-step-four[1]  }} -->
       {% assign location-facility-latitude = location-facility-step-three[0] %}
       {% assign location-facility-longitude = location-facility-step-three[1] %}
       {% assign location-facility-gis-uncertanity = location-facility-step-four[1] %}
@@ -307,6 +292,46 @@
     {% assign location-country = page.mf-location[0].properties.postal-code %}
 {% endif %}
 
+{% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude == empty %}
+  {% comment %} <!--
+    We do not have a facility checkin.  Lets Check if we have a Location -->
+  {% endcomment %}
+  {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude  == empty %}
+    {% comment %} <!--
+      We do not have a facility checkin.  We do not have a Location.  Therefore we have no need for a map -->
+    {% endcomment %}
+    {% assign Draw-Map = false %}
+  {% else %}
+    {% comment %} <!--
+      We do not have a facility checkin.  We do  have a Location.  Therefore we have a need for a map -->
+    {% endcomment %}
+    {% assign draw-map-one = true %}
+    {% assign map-latitude-one = mf-checkin-facility-latitude %}
+    {% assign map-longitude-one = mf-checkin-facility-longitude %}
+    {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
+  {% endif %}
+{% else %}
+  {% comment %} <!--
+    We do have a facility checkin.  Lets Check if we have a Location -->
+  {% endcomment %}
+  {% assign draw-map-one = true %}
+  {% assign map-latitude-one = location-facility-latitude %}
+  {% assign map-longitude-one = location-facility-longitude %}
+  {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
+  {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude  == empty %}
+    {% comment %} <!--
+      We do have a facility checkin.  We do not have a Location.  Therefore we can keep the map we already have -->
+    {% endcomment %}
+  {% else %}
+    {% comment %} <!--
+      We do have a facility checkin.  We do have a Location.  Therefore we have a need for two maps -->
+    {% endcomment %}
+    {% assign draw-map-two = true %}
+    {% assign map-latitude-two = location-facility-latitude %}
+    {% assign map-longitude-two = location-facility-longitude %}
+    {% assign map-uncertanity-two = location-facility-gis-uncertanity %}
+  {% endif %}
+{%endif%}
 
 <!-- TODO: Add full articles. -->
 
@@ -800,10 +825,13 @@
                       {% endfor %}
                     {% endif %}
 
-                    {% if mf-location == true %}
+
+
+
+                    {% if draw-map-one == true %}
                       <div id="mapid"></div>
                       <script>
-                          var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 15);
+                          var mymap = L.map('mapid').setView([ {{ map-latitude-one }} , {{ map-longitude-one }} ], 15);
 
                           L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
                               maxZoom: 18,
@@ -815,6 +843,12 @@
 
                           L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
                               .bindPopup("<b>{{page.mf-checkin[0].properties.name}}").openPopup();
+
+                          {% if draw-map-two == true %}
+
+                          L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ]).addTo(mymap)
+                              .bindPopup("<b>{{page.mf-checkin[0].properties.name}}").openPopup();
+                          {% endif %}
 
                           var popup = L.popup();
                       </script>
