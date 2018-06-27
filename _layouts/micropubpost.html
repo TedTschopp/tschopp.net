@@ -212,12 +212,7 @@
       - 'https://www.tedt.org/media/2017-11-77689/igook-qxb.jpg'
             -->
 
-    {{ page.mf-photo | jsonify }}
-
-
     {% assign mf-photo = TRUE %} 
-
-    {{ mf-photo }}
 {% else %}
     {% assign mf-photo = FLASE %} 
 {% endif %}
@@ -761,12 +756,12 @@
                         {% endif %}
 
 
-                    {% if mf-photo %}
+                      {{ page.mf-photo | jsonify }}
+                      {{ mf-photo }}
                       {% for photo in page.mf-photo %}
-                        {{ photo }}
-                      <figure>
-                          <img class="img-responsive img-thumbnail" src="{{photo}}">
-                      </figure>
+                        <figure>
+                            <img class="img-responsive img-thumbnail" src="{{photo}}">
+                        </figure>
                       {% endfor %}
                     {% endif %}
                     <div id="mapid"></div>
