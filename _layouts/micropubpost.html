@@ -207,6 +207,7 @@
       - >-
         https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
+    {% assign mf-photo = TRUE %} 
 
     <!-- 
       {% for photo in page.mf-photo %}
@@ -214,7 +215,6 @@
       {% endfor %}
     -->
 
-    {% assign mf-photo = TRUE %} 
 {% else %}
     {% assign mf-photo = FLASE %} 
 {% endif %}
@@ -759,7 +759,11 @@
 
 
                     {{ page.mf-photo | jsonify }}
-                    {{ mf-photo }}
+                    {% if mf-photo %}
+                      mf-photo = true
+                    {% else %}
+                      mf-photo = false
+                    {% endif %}
                     {% for photo in page.mf-photo %}
                       <figure>
                           <img class="img-responsive img-thumbnail" src="{{photo}}">
