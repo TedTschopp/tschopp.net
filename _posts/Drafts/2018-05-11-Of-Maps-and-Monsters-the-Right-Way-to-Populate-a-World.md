@@ -115,8 +115,8 @@ Based on the following formula.
 
 $$
 d = \sqrt{h\times(2 \times R+h)} 
-$$
 
+\text{
 where 
 
 d = distance to the horizon
@@ -124,8 +124,7 @@ d = distance to the horizon
 h = height of the observer above sea level = 6 feet
 
 R = radius of the Earth = 20,900,000 feet
-
-$$
+}
 \\
 \therefore
 \\
@@ -145,17 +144,17 @@ d = \sqrt{250,800,036}
 \therefore
 \\
 \\
-d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}
+d = 15,836.6674525 \text{ feet } * \frac{1 \text{ mile }{5280 \text{ feet }}
 \\
 \therefore
 \\
 \\
-d = 2.99936883569  \approx 3 miles
+d = 2.99936883569  \approx 3 \text{ miles }
 \\
 \therefore
 \\
 \\
-d = 3 miles
+d = 3 \text{ miles }
 \\
 $$
 
