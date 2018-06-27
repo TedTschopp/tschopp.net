@@ -798,12 +798,10 @@
 
                   <!-- Post Content -->
                   <span class="e-content">{{ content }}
-{% if micropubpost.geos [0] %}
-    0 - {{ micropubpost.geos [0] }}
-{%endif%}
-{% if micropubpost.geos [1] %}
-    1 - {{ micropubpost.geos [1] }}
-{%endif%}
+                  
+    mf-location - {{ mf-location  }} <br>
+    mf-location-full - {{ mf-location-full  }} <br>
+    mf-location-short - {{ mf-location-short }} <br>
 
 
 <!--                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br><hr>
