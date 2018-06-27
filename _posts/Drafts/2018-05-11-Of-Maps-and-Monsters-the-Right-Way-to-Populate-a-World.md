@@ -126,6 +126,7 @@ h = height of the observer above sea level = 6 feet
 R = radius of the Earth = 20,900,000 feet
 
 $$
+\\
 \therefore
 \\
 \\
@@ -149,17 +150,13 @@ d = 15836.6674525 feet * 1 mile \div 5280 feet
 \therefore
 \\
 \\
-d = 15836.6674525 feet * 1 mile \div 5280 feet
-\\
-\therefore
-\\
-\\
 d = 2.99936883569  \approx 3 miles
 \\
 \therefore
 \\
 \\
 d = 3 miles
+\\
 $$
 
 
