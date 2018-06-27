@@ -130,22 +130,22 @@ $$
 \therefore
 \\
 \\
-d = \sqrt{6\times(2\times20,900,000+6)}
+d = \sqrt{6\times(2 \times 20,900,000+6)}
 \\
 \therefore
 \\
 \\
-d = \sqrt{6\times x 41,800,006}
+d = \sqrt{6 \times 41,800,006}
 \\
 \therefore
 \\
 \\
-d = \sqrt{250800036}
+d = \sqrt{250,800,036}
 \\
 \therefore
 \\
 \\
-d = 15836.6674525 feet * 1 mile \div 5280 feet
+d = 15,836.6674525 feet * 1 mile \div 5280 feet
 \\
 \therefore
 \\
