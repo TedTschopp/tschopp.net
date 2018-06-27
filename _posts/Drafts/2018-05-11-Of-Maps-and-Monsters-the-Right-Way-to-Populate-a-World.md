@@ -120,7 +120,9 @@ $$
 where 
 
 d = distance to the horizon
+
 h = height of the observer above sea level
+
 R = radius of the Earth
 
 $$
@@ -128,12 +130,12 @@ $$
 $$
 
 h = 6 feet
+
 R = 20,900,000 feet
+
 $$
 d = \sqrt{6\times(2\times20,900,000+6)}
 $$
-
-
 
 $$
 \begin{array}{c|lcr}
