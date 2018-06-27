@@ -115,8 +115,8 @@ Based on the following formula.
 
 $$
 d = \sqrt{h\times(2 \times R+h)} 
+$$
 
-\text{
 where 
 
 d = distance to the horizon
@@ -124,7 +124,8 @@ d = distance to the horizon
 h = height of the observer above sea level = 6 feet
 
 R = radius of the Earth = 20,900,000 feet
-}
+
+$$
 \\
 \therefore
 \\
