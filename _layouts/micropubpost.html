@@ -798,10 +798,24 @@
 
                   <!-- Post Content -->
                   <span class="e-content">{{ content }}
+                    {% if mf-location %}
+                      mf-location = true<br>
+                    {% else %}
+                      mf-location = false<br>
+                    {% endif %}
+
+                    {% if mf-location-full %}
+                      mf-location-full = true<br>
+                    {% else %}
+                      mf-location-full = false<br>
+                    {% endif %}
                   
-    mf-location - {{ mf-location  }} <br>
-    mf-location-full - {{ mf-location-full  }} <br>
-    mf-location-short - {{ mf-location-short }} <br>
+                    {% if mf-location-short %}
+                      mf-location-short = true<br>
+                    {% else %}
+                      mf-location-short = false<br>
+                    {% endif %}
+
 
 
 <!--                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br><hr>
