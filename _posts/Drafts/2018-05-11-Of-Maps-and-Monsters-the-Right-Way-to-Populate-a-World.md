@@ -145,7 +145,7 @@ d = \sqrt{250,800,036}
 \therefore
 \\
 \\
-d = 15,836.6674525 feet * 1 mile \div 5280 feet
+d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}
 \\
 \therefore
 \\
