@@ -243,7 +243,8 @@
       {% endcomment %}
 
 
-      {% assign location-facility-step-one = page.mf-location | split: ':' %}
+      {% assign location-facility-step-zero = page.mf-location | remove: '\' %}
+      {% assign location-facility-step-one = location-facility-step-zero | split: ':' %}
 
       <!-- {{ location-facility-step-one | jsonify }} -->
       <!-- one - 0 - {{ location-facility-step-one[0] | jsonify }} -->
