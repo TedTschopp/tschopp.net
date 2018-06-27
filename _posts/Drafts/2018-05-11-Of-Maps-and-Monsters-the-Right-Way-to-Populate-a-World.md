@@ -114,8 +114,8 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 Based on the 
 
 $$ 
-
 d = \sqrt{h(2\timesR+h)} 
+$$
 
 where 
 
@@ -123,16 +123,19 @@ d = distance to the horizon
 h = height of the observer above sea level
 R = radius of the Earth
 
+$$
 \therefore
+$$
 
 h = 6 feet
 R = 20,900,000 feet
-
+$$
 d = \sqrt{h(2\times20,900,000+6)}
+$$
 
 
 
-
+$$
 \begin{array}{c|lcr}
 n & \text{Left} & \text{Center} & \text{Right} \\
 \hline
@@ -140,8 +143,6 @@ n & \text{Left} & \text{Center} & \text{Right} \\
 2 & -1 & 189 & -8 \\
 3 & -20 & 2000 & 1+10i
 \end{array}
-
-
 $$
 
 
