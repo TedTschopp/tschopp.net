@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 {% if page.mf-repost-of != null or page.mf-repost-of != "" %}
-    <!--
+    {% comment %} <!--
     mf-repost-of:
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
 
     mf-repost-of:
-      - 'https://idiallo.com/blog/when-a-machine-fired-me'
-            -->
+      - 'https://idiallo.com/blog/when-a-machine-fired-me' -->
+    {% endcomment %}
 
     {% assign mf-repost-of = TRUE %} 
 {% else %}
@@ -18,18 +17,18 @@
 {% endif %}
 
 {% if page.mf-like-of != null or page.mf-like-of != "" %}
-    <!--
+    {% comment %} <!--
     mf-like-of:
       - >-
-        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-            -->
+        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
+    {% endcomment %}
     {% assign mf-like-of = TRUE %} 
 {% else %}
     {% assign mf-like-of = FLASE %} 
 {% endif %}
 
 {% if page.mf-item != null or page.mf-item != "" %}
-    <!--
+    {% comment %} <!--
     mf-item:
       - type:
           - h-product
@@ -37,36 +36,35 @@
           name:
             - Product Name
           url:
-            - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces'
-            -->
+            - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces' -->
+    {% endcomment %}
     {% assign mf-item  = TRUE %} 
 {% else %}
     {% assign mf-item  = FLASE %} 
 {% endif %}
 
 {% if page.mf-rating != null or page.mf-rating != "" %}
-    <!--
+    {% comment %} <!--
     mf-rating:
-      - 5
-            -->
+      - 5 -->
+    {% endcomment %}
     {% assign mf-rating  = TRUE %} 
 {% else %}
     {% assign mf-rating  = FLASE %} 
 {% endif %}
 
 {% if page.mf-summary != null or page.mf-summary != "" %}
-    <!--
+    {% comment %} <!--
     mf-summary:
-      - AMAZING!
-
-            -->
+      - AMAZING! -->
+    {% endcomment %}
     {% assign mf-summary  = TRUE %} 
 {% else %}
     {% assign mf-summary  = FLASE %} 
 {% endif %}
 
 {% if page.mf-itinerary != null or page.mf-itinerary != "" %}
-    <!--
+    {% comment %} <!--
     mf-itinerary:
       - type:
           - h-leg
@@ -120,33 +118,29 @@
           departure:
             - '2018-06-23T15:40:00+01:00'
           arrival:
-            - '2018-06-23T15:40:00'
-
-
-            -->
+            - '2018-06-23T15:40:00' -->
+    {% endcomment %}
     {% assign mf-itinerary  = TRUE %} 
 {% else %}
     {% assign mf-itinerary  = FLASE %} 
 {% endif %}
 
 {% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
-    <!--
+    {% comment %} <!--
     mf-in-reply-to:
       - 'https://idiallo.com/blog/when-a-machine-fired-me'
 
     mf-in-reply-to:
       - >-
-        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-
-
-            -->
+        https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
+    {% endcomment %}
     {% assign mf-in-reply-to  = TRUE %} 
 {% else %}
     {% assign mf-in-reply-to  = FLASE %} 
 {% endif %}
 
 {% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
-    <!--
+    {% comment %} <!--
     mf-location:
         - type:
           - h-adr
@@ -164,8 +158,8 @@
           country-name:
             - United States
           postal-code:
-            - '91106'
-    -->
+            - '91106' -->
+    {% endcomment %}
     {% assign mf-location = TRUE %} 
     {% assign mf-location-full = TRUE %}
     {% assign mf-location-short = FALSE %}
@@ -180,15 +174,15 @@
     {% assign location-country = page.mf-location[0].properties.postal-code %}
 
 {% elsif page.mf-location != null or page.mf-location != "" %}
-    <!--
+    {% comment %} <!--
     mf-location:
       - 'geo:34.049571899827,-118.08246843619'
 
     mf-location:
       - 'geo:34.14661,-117.93846;u=34'
 
-      - 'geo:lat,long;u=undertanity_in_Meters'
-        -->
+      - 'geo:lat,long;u=undertanity_in_Meters' -->
+    {% endcomment %}
 
     {% assign mf-location = TRUE %} 
     {% assign mf-location-full = FALSE %}
@@ -197,7 +191,7 @@
 {% endif %}
 
 {% if page.mf-photo != null or page.mf-photo != "" %}
-    <!--
+    {% comment %} <!--
     mf-photo:
       - >-
         https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
@@ -209,8 +203,8 @@
     mf-photo:
       - 'https://www.tedt.org/media/2017-11-77689/ig-aw8tqa.jpg'
       - 'https://www.tedt.org/media/2017-11-77689/igghg-vua.jpg'
-      - 'https://www.tedt.org/media/2017-11-77689/igook-qxb.jpg'
-            -->
+      - 'https://www.tedt.org/media/2017-11-77689/igook-qxb.jpg' -->
+    {% endcomment %}
 
     {% assign mf-photo = TRUE %} 
 {% else %}
@@ -218,13 +212,13 @@
 {% endif %}
 
 {% if page.mf-syndication != null or page.mf-syndication != "" %}
-    <!--
+    {% comment %} <!--
     mf-syndication:
       - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
 
     mf-syndication:
-      - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717'
-            -->
+      - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
+    {% endcomment %}
     {% assign mf-syndication-url  = page.page.mf-syndication %}
 
     {% assign mf-syndication = TRUE %} 
@@ -232,7 +226,7 @@
     {% assign mf-syndication = FLASE %} 
 {% endif %}
 {% if page.mf-checkin != null or page.mf-checkin != ""%}
-    <!--
+    {% comment %} <!--
     mf-checkin:
       - type:
           - h-card
@@ -255,8 +249,8 @@
             - United States
           postal-code:
             - '91106'
-        value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
-            -->
+        value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
+    {% endcomment %}
     {% assign mf-checkin-type  = page.mf-checkin[0].type %} <!-- h-card -->
     {% assign mf-checkin-url  = page.mf-checkin[0].value %}
     {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
