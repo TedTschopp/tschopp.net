@@ -243,7 +243,7 @@
       {% endcomment %}
 
 
-      {% assign location-facility-step-zero = page.mf-location | remove: '"' %}
+      {% assign location-facility-step-zero = page.mf-location[0] | remove: '"' %}
       {% assign location-facility-step-one = location-facility-step-zero | split: ':' %}
 
       <!-- {{ location-facility-step-one  }} -->
@@ -256,11 +256,11 @@
       <!-- two - 0 - {{ location-facility-step-two[0]  }} -->
       <!-- two - 1 - {{ location-facility-step-two[1]  }} -->
       {% assign location-facility-step-three = location-facility-step-two[0] | split: ',' %}
-      <!-- {{ location-facility-step-three | jsonify }} -->
+      <!-- {{ location-facility-step-three }} -->
       <!-- three - 0 - {{ location-facility-step-three[0]  }} -->
       <!-- three - 1 - {{ location-facility-step-three[1]  }} -->
       {% assign location-facility-step-four = location-facility-step-two[1] | split: '=' %}
-      <!-- {{ location-facility-step-four | jsonify }} -->
+      <!-- {{ location-facility-step-four }} -->
       <!-- four - 0 - {{ location-facility-step-four[0]  }} -->
       <!-- four - 1 - {{ location-facility-step-four[1]  }} -->
       {% assign location-facility-latitude = location-facility-step-three[0] %}
