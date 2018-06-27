@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% if page.mf-repost-of != null or page.mf-repost-of != "" %}
+{% if page.mf-repost-of != null or page.mf-repost-of != empty %}
     {% comment %} <!--
     mf-repost-of:
       - >-
@@ -16,7 +16,7 @@
     {% assign mf-repost-of = FLASE %} 
 {% endif %}
 
-{% if page.mf-like-of != null or page.mf-like-of != "" %}
+{% if page.mf-like-of != null or page.mf-like-of != empty %}
     {% comment %} <!--
     mf-like-of:
       - >-
@@ -27,7 +27,7 @@
     {% assign mf-like-of = FLASE %} 
 {% endif %}
 
-{% if page.mf-item != null or page.mf-item != "" %}
+{% if page.mf-item != null or page.mf-item != empty %}
     {% comment %} <!--
     mf-item:
       - type:
@@ -43,7 +43,7 @@
     {% assign mf-item  = FLASE %} 
 {% endif %}
 
-{% if page.mf-rating != null or page.mf-rating != "" %}
+{% if page.mf-rating != null or page.mf-rating != empty %}
     {% comment %} <!--
     mf-rating:
       - 5 -->
@@ -53,7 +53,7 @@
     {% assign mf-rating  = FLASE %} 
 {% endif %}
 
-{% if page.mf-summary != null or page.mf-summary != "" %}
+{% if page.mf-summary != null or page.mf-summary != empty %}
     {% comment %} <!--
     mf-summary:
       - AMAZING! -->
@@ -63,7 +63,7 @@
     {% assign mf-summary  = FLASE %} 
 {% endif %}
 
-{% if page.mf-itinerary != null or page.mf-itinerary != "" %}
+{% if page.mf-itinerary != null or page.mf-itinerary != empty %}
     {% comment %} <!--
     mf-itinerary:
       - type:
@@ -125,7 +125,7 @@
     {% assign mf-itinerary  = FLASE %} 
 {% endif %}
 
-{% if page.mf-in-reply-to != null or page.mf-in-reply-to != "" %}
+{% if page.mf-in-reply-to != null or page.mf-in-reply-to != empty %}
     {% comment %} <!--
     mf-in-reply-to:
       - 'https://idiallo.com/blog/when-a-machine-fired-me'
@@ -139,7 +139,7 @@
     {% assign mf-in-reply-to  = FLASE %} 
 {% endif %}
 
-{% if page.mf-location[0].type != null or page.mf-location[0].type != "" %}
+{% if page.mf-location[0].type != null or page.mf-location[0].type != empty %}
     {% comment %} <!--
     mf-location:
         - type:
@@ -190,7 +190,7 @@
 
 {% endif %}
 
-{% if page.mf-photo != null or page.mf-photo != "" %}
+{% if page.mf-photo != null or page.mf-photo != empty %}
     {% comment %} <!--
     mf-photo:
       - >-
@@ -199,19 +199,27 @@
     mf-photo:
       - >-
         https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
-
     mf-photo:
-      - 'https://www.tedt.org/media/2017-11-77689/ig-aw8tqa.jpg'
-      - 'https://www.tedt.org/media/2017-11-77689/igghg-vua.jpg'
-      - 'https://www.tedt.org/media/2017-11-77689/igook-qxb.jpg' -->
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/65b00c0cea188cb92a730222feff0b97/5BE35D60/t51.2885-15/e35/24175395_1272798276200131_8733420610316664832_n.jpg
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/fd3133a626153315ac3735996c28e60f/5BB8C2A0/t51.2885-15/e35/24127175_136580130451436_1425162009573326848_n.jpg
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
+
+    <!-- 
+      {% for photo in page.mf-photo %}
+        <img class="img-responsive img-thumbnail" src="{{photo}}">
+      {% endfor %}
+    -->
 
     {% assign mf-photo = TRUE %} 
 {% else %}
     {% assign mf-photo = FLASE %} 
 {% endif %}
 
-{% if page.mf-syndication != null or page.mf-syndication != "" %}
+{% if page.mf-syndication != null or page.mf-syndication != empty %}
     {% comment %} <!--
     mf-syndication:
       - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
@@ -225,7 +233,7 @@
 {% else %}
     {% assign mf-syndication = FLASE %} 
 {% endif %}
-{% if page.mf-checkin != null or page.mf-checkin != ""%}
+{% if page.mf-checkin != null or page.mf-checkin != empty %}
     {% comment %} <!--
     mf-checkin:
       - type:
