@@ -130,29 +130,36 @@ h = 6 feet
 \\
 R = 20,900,000 feet
 \\
+\\
 d = \sqrt{6\times(2\times20,900,000+6)}
 \\
 \therefore
+\\
 \\
 d = \sqrt{6\times x 41,800,006}
 \\
 \therefore
 \\
+\\
 d = \sqrt{250800036}
 \\
 \therefore
 \\
-d = 15836.6674525 feet * 1 mile \div 5280 feet
-\\
-\therefore
 \\
 d = 15836.6674525 feet * 1 mile \div 5280 feet
 \\
 \therefore
+\\
+\\
+d = 15836.6674525 feet * 1 mile \div 5280 feet
+\\
+\therefore
+\\
 \\
 d = 2.99936883569  \approx 3 miles
 \\
 \therefore
+\\
 \\
 d = 3 miles
 $$
