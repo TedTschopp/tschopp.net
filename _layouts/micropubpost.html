@@ -318,7 +318,7 @@
   {% assign draw-map-one = true %}
   {% assign map-latitude-one = mf-checkin-facility-latitude %}
   {% assign map-longitude-one = mf-checkin-facility-longitude %}
-  {% assign map-name-one = page.content %}
+  {% assign map-name-one = content %}
 
   {% if location-facility-latitude == null or location-facility-latitude  == empty %}
     {% comment %} <!--
@@ -845,12 +845,11 @@
                           }).addTo(mymap);
 
                           L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
-                              .bindPopup("<b>{{map-name-one}}").openPopup();
+                              .bindPopup("<b>{{map-name-one}}</b>").openPopup();
 
                           {% if draw-map-two == true %}
-
                           L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ]).addTo(mymap)
-                              .bindPopup("<b>{{map-name-two}}").openPopup();
+                              .bindPopup("<b>{{map-name-two}}</b>").openPopup();
                           {% endif %}
 
                           var popup = L.popup();
