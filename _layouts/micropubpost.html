@@ -231,7 +231,7 @@
 
     {% else %}
       {% comment %} <!--
-        We do not have a complex Location, and we do not a simple one.  Lets set flags.
+        We do not have a complex Location, but we do have a simple one.  Lets set variables.
         TODO: Parse Simple Location.
         mf-location:
           - 'geo:34.049571899827,-118.08246843619'
@@ -241,6 +241,25 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters' -->
       {% endcomment %}
+
+
+      {% assign location-facility-step-one = page.mf-location | split: ':' %}
+
+      <!-- {{ location-facility-step-one | jsonify }} -->
+      <!-- 0 - {{ location-facility-step-one[0] | jsonify }} -->
+      <!-- 1 - {{ location-facility-step-one[1] | jsonify }} -->
+      <!-- 2 - {{ location-facility-step-one[2] | jsonify }} -->
+
+
+      {% assign location-facility-step-two = location-facility-step-one[1] | split: ';' %}
+      {% assign location-facility-longitude = page.mf-location %}
+
+
+      {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
+      {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
+
+
+
 
       {% assign mf-location = true %} 
       {% assign mf-location-full = false %}
