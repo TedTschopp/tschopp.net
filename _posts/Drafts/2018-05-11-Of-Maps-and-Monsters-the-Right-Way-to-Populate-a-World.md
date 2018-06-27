@@ -104,31 +104,76 @@ Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp 
 In Fantasy Role Playing Games it can not always be assumed that there is a Stellar scale.  When at this scale, the goal isn't to provide a map to allow travelers on the surface of the land mass a means of navigation.  Instead it is to provide an overview of what the landmass looks like from space.  
 
 
-$$ 
 
-d = \sqrt{h(2R+h)} 
+### Flat
 
-$$
 
-* Spherical
-* Flat
-* Ring
-* Sphere
-* Hollow World
-* Alien Geometries 
+### Spherical
+
+#### Distance to the horizon
+Based on the following formula. 
 
 $$
-\newcommand{ptr}[1]{\overset{\mathtt{#1}}{\longrightarrow}}
-\begin{align*}
-                                             &\mathtt{newNode} \\
-                                             &\quad\downarrow  \\
-\mathtt{head} \ptr{} \fbox{first} \ptr{next} &\fbox{another} \ptr{next} \mathtt{null} \\
-                                             &\fbox{second}  \ptr{next}
-                                              \fbox{rest}    \ptr{next}
-                                              \fbox{of}      \ptr{next}
-                                              \fbox{list}    \ptr{next} \mathtt{null}
-\end{align*}
+d = \sqrt{h\times(2 \times R+h)} 
 $$
+
+where 
+
+d = distance to the horizon
+
+h = height of the observer above sea level = 6 feet
+
+R = radius of the Earth = 20,900,000 feet
+
+$$
+\\
+\therefore
+\\
+\\
+d = \sqrt{6\times(2 \times 20,900,000+6)}
+\\
+\therefore
+\\
+\\
+d = \sqrt{6 \times 41,800,006}
+\\
+\therefore
+\\
+\\
+d = \sqrt{250,800,036}
+\\
+\therefore
+\\
+\\
+d = 15,836.6674525 feet
+\\
+\therefore
+\\
+\\
+d = 15,836.6674525 feet * \frac{1 mile}{5280 feet}
+\\
+\therefore
+\\
+\\
+d = 2.99936883569  \approx 3 miles 
+\\
+\therefore
+\\
+\\
+d = 3 miles 
+\\
+$$
+
+
+### Ring
+
+### Sphere
+
+### Hollow World
+
+### Alien Geometries 
+
+
 
 # Monsters
 One of the aspects of making a sandbox type of role playing game is that many times the monsters that the players run into do not make sense.  These rules are things I am trying to put down to make a computer controlled map generator that can be used to simplify the planning process for people running a game. A lot of this information was inspired and taken from around the web and expanded upon.
