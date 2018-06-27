@@ -248,11 +248,20 @@
       <!-- {{ location-facility-step-one | jsonify }} -->
       <!-- 0 - {{ location-facility-step-one[0] | jsonify }} -->
       <!-- 1 - {{ location-facility-step-one[1] | jsonify }} -->
-      <!-- 2 - {{ location-facility-step-one[2] | jsonify }} -->
 
 
       {% assign location-facility-step-two = location-facility-step-one[1] | split: ';' %}
-      {% assign location-facility-longitude = page.mf-location %}
+      <!-- {{ location-facility-step-two | jsonify }} -->
+      <!-- 0 - {{ location-facility-step-two[0] | jsonify }} -->
+      <!-- 1 - {{ location-facility-step-two[1] | jsonify }} -->
+      {% assign location-facility-step-three = location-facility-step-one[0] | split: ',' %}
+      <!-- {{ location-facility-step-three | jsonify }} -->
+      <!-- 0 - {{ location-facility-step-three[0] | jsonify }} -->
+      <!-- 1 - {{ location-facility-step-three[1] | jsonify }} -->
+      {% assign location-facility-step-four = location-facility-step-one[1] | split: '=' %}
+      <!-- {{ location-facility-step-four | jsonify }} -->
+      <!-- 0 - {{ location-facility-step-four[0] | jsonify }} -->
+      <!-- 1 - {{ location-facility-step-four[1] | jsonify }} -->
 
 
       {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
