@@ -756,14 +756,13 @@
                         {% endif %}
 
 
-                      {{ page.mf-photo | jsonify }}
-                      {{ mf-photo }}
-                      {% for photo in page.mf-photo %}
-                        <figure>
-                            <img class="img-responsive img-thumbnail" src="{{photo}}">
-                        </figure>
-                      {% endfor %}
-                    {% endif %}
+                    {{ page.mf-photo | jsonify }}
+                    {{ mf-photo }}
+                    {% for photo in page.mf-photo %}
+                      <figure>
+                          <img class="img-responsive img-thumbnail" src="{{photo}}">
+                      </figure>
+                    {% endfor %}
                     <div id="mapid"></div>
                     <script>
                         var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 15);
