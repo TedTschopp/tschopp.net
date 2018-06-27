@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% if page.mf-repost-of != null or page.mf-repost-of != empty %}
+{% if page.mf-repost-of == null or page.mf-repost-of == empty %}
+    {% assign mf-repost-of = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-repost-of:
       - >-
@@ -12,22 +14,22 @@
     {% endcomment %}
 
     {% assign mf-repost-of = TRUE %} 
-{% else %}
-    {% assign mf-repost-of = FLASE %} 
 {% endif %}
 
-{% if page.mf-like-of != null or page.mf-like-of != empty %}
+{% if page.mf-like-of == null or page.mf-like-of == empty %}
+    {% assign mf-like-of = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-like-of:
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
     {% assign mf-like-of = TRUE %} 
-{% else %}
-    {% assign mf-like-of = FLASE %} 
 {% endif %}
 
-{% if page.mf-item != null or page.mf-item != empty %}
+{% if page.mf-item == null or page.mf-item == empty %}
+    {% assign mf-item  = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-item:
       - type:
@@ -39,21 +41,19 @@
             - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces' -->
     {% endcomment %}
     {% assign mf-item  = TRUE %} 
-{% else %}
-    {% assign mf-item  = FLASE %} 
 {% endif %}
 
-{% if page.mf-rating != null or page.mf-rating != empty %}
+{% if page.mf-rating == null or page.mf-rating == empty %}
+    {% assign mf-rating  = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-rating:
       - 5 -->
     {% endcomment %}
     {% assign mf-rating  = TRUE %} 
-{% else %}
-    {% assign mf-rating  = FLASE %} 
 {% endif %}
 
-{% if page.mf-summary != null or page.mf-summary != empty %}
+{% if page.mf-summary == null or page.mf-summary == empty %}
     {% comment %} <!--
     mf-summary:
       - AMAZING! -->
@@ -63,7 +63,9 @@
     {% assign mf-summary  = FLASE %} 
 {% endif %}
 
-{% if page.mf-itinerary != null or page.mf-itinerary != empty %}
+{% if page.mf-itinerary == null or page.mf-itinerary == empty %}
+    {% assign mf-itinerary  = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-itinerary:
       - type:
@@ -121,11 +123,11 @@
             - '2018-06-23T15:40:00' -->
     {% endcomment %}
     {% assign mf-itinerary  = TRUE %} 
-{% else %}
-    {% assign mf-itinerary  = FLASE %} 
 {% endif %}
 
-{% if page.mf-in-reply-to != null or page.mf-in-reply-to != empty %}
+{% if page.mf-in-reply-to == null or page.mf-in-reply-to == empty %}
+    {% assign mf-in-reply-to  = FLASE %} 
+{% else %}
     {% comment %} <!--
     mf-in-reply-to:
       - 'https://idiallo.com/blog/when-a-machine-fired-me'
@@ -135,9 +137,96 @@
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
     {% assign mf-in-reply-to  = TRUE %} 
-{% else %}
-    {% assign mf-in-reply-to  = FLASE %} 
 {% endif %}
+
+{% if page.mf-photo == null or page.mf-photo == empty %}
+    {% comment %} <!--
+    mf-photo:
+      - >-
+        https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
+
+    mf-photo:
+      - >-
+        https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
+    mf-photo:
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/65b00c0cea188cb92a730222feff0b97/5BE35D60/t51.2885-15/e35/24175395_1272798276200131_8733420610316664832_n.jpg
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/fd3133a626153315ac3735996c28e60f/5BB8C2A0/t51.2885-15/e35/24127175_136580130451436_1425162009573326848_n.jpg
+      - >-
+        https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
+    {% endcomment %}
+    {% assign mf-photo = TRUE %} 
+
+    <!-- 
+      {% for photo in page.mf-photo %}
+        <img class="img-responsive img-thumbnail" src="{{photo}}">
+      {% endfor %}
+    -->
+
+{% else %}
+    {% assign mf-photo = FLASE %} 
+{% endif %}
+
+{% if page.mf-syndication == null or page.mf-syndication == empty %}
+    {% assign mf-syndication = FLASE %} 
+{% else %}
+    {% comment %} <!--
+    mf-syndication:
+      - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
+
+    mf-syndication:
+      - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
+    {% endcomment %}
+    {% assign mf-syndication-url  = page.page.mf-syndication %}
+
+    {% assign mf-syndication = TRUE %} 
+{% endif %}
+{% if page.mf-checkin != null or page.mf-checkin != empty %}
+    {% assign mf-checkin = FLASE %} 
+{% else %}
+    {% comment %} <!--
+    mf-checkin:
+      - type:
+          - h-card
+        properties:
+          name:
+            - Game Empire Pasadena
+          url:
+            - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
+          latitude:
+            - 34.14634159231104
+          longitude:
+            - -118.1133562999198
+          street-address:
+            - 1795 E Colorado Blvd
+          locality:
+            - Pasadena
+          region:
+            - CA
+          country-name:
+            - United States
+          postal-code:
+            - '91106'
+        value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
+    {% endcomment %}
+    {% assign mf-checkin-type  = page.mf-checkin[0].type %}
+    {% assign mf-checkin-url  = page.mf-checkin[0].value %}
+    {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
+    {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
+    {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
+    {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
+    {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
+    {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
+    {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
+    {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
+    {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+    {% assign mf-checkin = TRUE %} 
+{% endif %}
+
+
+<!-- This needs to be fixed -->
+
 
 {% if page.mf-location[0].type != null or page.mf-location[0].type != empty %}
     {% comment %} <!--
@@ -188,91 +277,6 @@
     {% assign mf-location-full = FALSE %}
     {% assign mf-location-short = TRUE %}
 
-{% endif %}
-
-{% if page.mf-photo != null or page.mf-photo != empty %}
-    {% comment %} <!--
-    mf-photo:
-      - >-
-        https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
-
-    mf-photo:
-      - >-
-        https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
-    mf-photo:
-      - >-
-        https://scontent-sjc3-1.cdninstagram.com/vp/65b00c0cea188cb92a730222feff0b97/5BE35D60/t51.2885-15/e35/24175395_1272798276200131_8733420610316664832_n.jpg
-      - >-
-        https://scontent-sjc3-1.cdninstagram.com/vp/fd3133a626153315ac3735996c28e60f/5BB8C2A0/t51.2885-15/e35/24127175_136580130451436_1425162009573326848_n.jpg
-      - >-
-        https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
-    {% endcomment %}
-    {% assign mf-photo = TRUE %} 
-
-    <!-- 
-      {% for photo in page.mf-photo %}
-        <img class="img-responsive img-thumbnail" src="{{photo}}">
-      {% endfor %}
-    -->
-
-{% else %}
-    {% assign mf-photo = FLASE %} 
-{% endif %}
-
-{% if page.mf-syndication != null or page.mf-syndication != empty %}
-    {% comment %} <!--
-    mf-syndication:
-      - 'https://www.swarmapp.com/user/4195/checkin/5b25a7ca8a6f17002c5d4846'
-
-    mf-syndication:
-      - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
-    {% endcomment %}
-    {% assign mf-syndication-url  = page.page.mf-syndication %}
-
-    {% assign mf-syndication = TRUE %} 
-{% else %}
-    {% assign mf-syndication = FLASE %} 
-{% endif %}
-{% if page.mf-checkin != null or page.mf-checkin != empty %}
-    {% comment %} <!--
-    mf-checkin:
-      - type:
-          - h-card
-        properties:
-          name:
-            - Game Empire Pasadena
-          url:
-            - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
-          latitude:
-            - 34.14634159231104
-          longitude:
-            - -118.1133562999198
-          street-address:
-            - 1795 E Colorado Blvd
-          locality:
-            - Pasadena
-          region:
-            - CA
-          country-name:
-            - United States
-          postal-code:
-            - '91106'
-        value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
-    {% endcomment %}
-    {% assign mf-checkin-type  = page.mf-checkin[0].type %}
-    {% assign mf-checkin-url  = page.mf-checkin[0].value %}
-    {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
-    {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
-    {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
-    {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
-    {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
-    {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
-    {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
-    {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
-    {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
-    {% assign mf-checkin = TRUE %} 
-{% else %}
-    {% assign mf-checkin = FLASE %} 
 {% endif %}
 
 
