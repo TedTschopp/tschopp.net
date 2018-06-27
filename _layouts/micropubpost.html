@@ -159,13 +159,6 @@
         https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
     {% assign mf-photo = true %} 
-
-    <!-- 
-      {% for photo in page.mf-photo %}
-        <img class="img-responsive img-thumbnail" src="{{photo}}">
-      {% endfor %}
-    -->
-
 {% endif %}
 {% if page.mf-syndication == null or page.mf-syndication == empty %}
     {% assign mf-syndication = false %} 
@@ -178,7 +171,6 @@
       - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
     {% endcomment %}
     {% assign mf-syndication-url  = page.page.mf-syndication %}
-
     {% assign mf-syndication = true %} 
 {% endif %}
 {% if page.mf-checkin != null or page.mf-checkin != empty %}
@@ -805,24 +797,7 @@
 
 
 
-<!--                            page.mf-syndication - {{ page.mf-syndication }} <br><br><br><hr>
-
-                            mf-checkin - {{ page.mf-checkin | jsonify }} <br><br><br>
-                            mf-checkin[0] - {{ page.mf-checkin[0] }} <br><br><br>
-                            mf-checkin[0].type - {{ page.mf-checkin[0].type }} <br><br><br>
-                            mf-checkin[0].properties - {{ page.mf-checkin[0].properties }} <br><br><br>
-                            mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }} <br><br><br>
-                            mf-checkin[0].properties.latitude -   {{ page.mf-checkin[0].properties.latitude  }}   <br><br><br>
-                            mf-checkin[0].properties.longitude - {{ page.mf-checkin[0].properties.longitude  }} <br><br><br>
-                            mf-checkin[0].properties.street-address - {{ page.mf-checkin[0].properties.street-address  }} <br><br><br>
-                            mf-checkin[0].properties.locality - {{ page.mf-checkin[0].properties.locality }} <br><br><br>
-                            mf-checkin[0].properties.region - {{ page.mf-checkin[0].properties.region }} <br><br><br>
-                            mf-checkin[0].properties.country-name - {{ page.mf-checkin[0].properties.country-name }} <br><br><br>
-                            mf-checkin[0].properties.postal-code - {{ page.mf-checkin[0].properties.postal-code }} <br><br><br>
-                            mf-checkin[0].value - {{ page.mf-checkin[0].value }} <br><br><br><hr>
-
-
-
+<!--
                             page.mf-locations - {{ page.mf-location | jsonify }} <br><br><br>
                             mf-location[0] - {{ page.mf-location[0] }} <br><br><br>
                             mf-location[0].type - {{ page.mf-location[0].type }} <br><br><br>
