@@ -115,20 +115,18 @@ Based on the following formula.
 
 $$
 d = \sqrt{h\times(2 \times R+h)} 
-\\
+$$
+
 where 
-\\
+
 d = distance to the horizon
-\\
-h = height of the observer above sea level
-\\
-R = radius of the Earth
-\\
+
+h = height of the observer above sea level = 6 feet
+
+R = radius of the Earth = 20,900,000 feet
+
+$$
 \therefore
-\\
-h = 6 feet
-\\
-R = 20,900,000 feet
 \\
 \\
 d = \sqrt{6\times(2\times20,900,000+6)}
