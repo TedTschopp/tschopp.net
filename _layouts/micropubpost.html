@@ -773,6 +773,8 @@
                           <img class="img-responsive img-thumbnail" src="{{photo}}">
                       </figure>
                     {% endfor %}
+
+                    {% if mf-location == true %}
                     <div id="mapid"></div>
                     <script>
                         var mymap = L.map('mapid').setView([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ], 15);
@@ -790,6 +792,7 @@
 
                         var popup = L.popup();
                     </script>
+                    {% endif %}
 
                   <hr>
 
@@ -798,23 +801,6 @@
 
                   <!-- Post Content -->
                   <span class="e-content">{{ content }}
-                    {% if mf-location == true %}
-                      mf-location = true<br>
-                    {% else %}
-                      mf-location = false<br>
-                    {% endif %}
-
-                    {% if mf-location-full == true %}
-                      mf-location-full = true<br>
-                    {% else %}
-                      mf-location-full = false<br>
-                    {% endif %}
-                  
-                    {% if mf-location-short == true %}
-                      mf-location-short = true<br>
-                    {% else %}
-                      mf-location-short = false<br>
-                    {% endif %}
 
 
 
