@@ -114,7 +114,7 @@ In Fantasy Role Playing Games it can not always be assumed that there is a Stell
 Based on the 
 
 $$ 
-d = \sqrt{h(2\timesR+h)} 
+d = \sqrt{h\times(2 \times R+h)} 
 $$
 
 where 
@@ -130,7 +130,7 @@ $$
 h = 6 feet
 R = 20,900,000 feet
 $$
-d = \sqrt{h(2\times20,900,000+6)}
+d = \sqrt{6\times(2\times20,900,000+6)}
 $$
 
 
