@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 {% if page.mf-repost-of == null or page.mf-repost-of == empty %}
-    {% assign mf-repost-of = FLASE %} 
+    {% assign mf-repost-of = false %} 
 {% else %}
     {% comment %} <!--
     mf-repost-of:
@@ -13,22 +13,22 @@
       - 'https://idiallo.com/blog/when-a-machine-fired-me' -->
     {% endcomment %}
 
-    {% assign mf-repost-of = TRUE %} 
+    {% assign mf-repost-of = true %} 
 {% endif %}
 
 {% if page.mf-like-of == null or page.mf-like-of == empty %}
-    {% assign mf-like-of = FLASE %} 
+    {% assign mf-like-of = false %} 
 {% else %}
     {% comment %} <!--
     mf-like-of:
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-    {% assign mf-like-of = TRUE %} 
+    {% assign mf-like-of = true %} 
 {% endif %}
 
 {% if page.mf-item == null or page.mf-item == empty %}
-    {% assign mf-item  = FLASE %} 
+    {% assign mf-item  = false %} 
 {% else %}
     {% comment %} <!--
     mf-item:
@@ -40,17 +40,17 @@
           url:
             - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces' -->
     {% endcomment %}
-    {% assign mf-item  = TRUE %} 
+    {% assign mf-item  = true %} 
 {% endif %}
 
 {% if page.mf-rating == null or page.mf-rating == empty %}
-    {% assign mf-rating  = FLASE %} 
+    {% assign mf-rating  = false %} 
 {% else %}
     {% comment %} <!--
     mf-rating:
       - 5 -->
     {% endcomment %}
-    {% assign mf-rating  = TRUE %} 
+    {% assign mf-rating  = true %} 
 {% endif %}
 
 {% if page.mf-summary == null or page.mf-summary == empty %}
@@ -58,13 +58,13 @@
     mf-summary:
       - AMAZING! -->
     {% endcomment %}
-    {% assign mf-summary  = TRUE %} 
+    {% assign mf-summary  = true %} 
 {% else %}
-    {% assign mf-summary  = FLASE %} 
+    {% assign mf-summary  = false %} 
 {% endif %}
 
 {% if page.mf-itinerary == null or page.mf-itinerary == empty %}
-    {% assign mf-itinerary  = FLASE %} 
+    {% assign mf-itinerary  = false %} 
 {% else %}
     {% comment %} <!--
     mf-itinerary:
@@ -122,11 +122,11 @@
           arrival:
             - '2018-06-23T15:40:00' -->
     {% endcomment %}
-    {% assign mf-itinerary  = TRUE %} 
+    {% assign mf-itinerary  = true %} 
 {% endif %}
 
 {% if page.mf-in-reply-to == null or page.mf-in-reply-to == empty %}
-    {% assign mf-in-reply-to  = FLASE %} 
+    {% assign mf-in-reply-to  = false %} 
 {% else %}
     {% comment %} <!--
     mf-in-reply-to:
@@ -136,7 +136,7 @@
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-    {% assign mf-in-reply-to  = TRUE %} 
+    {% assign mf-in-reply-to  = true %} 
 {% endif %}
 
 {% if page.mf-photo == null or page.mf-photo == empty %}
@@ -156,7 +156,7 @@
       - >-
         https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
-    {% assign mf-photo = TRUE %} 
+    {% assign mf-photo = true %} 
 
     <!-- 
       {% for photo in page.mf-photo %}
@@ -165,11 +165,11 @@
     -->
 
 {% else %}
-    {% assign mf-photo = FLASE %} 
+    {% assign mf-photo = false %} 
 {% endif %}
 
 {% if page.mf-syndication == null or page.mf-syndication == empty %}
-    {% assign mf-syndication = FLASE %} 
+    {% assign mf-syndication = false %} 
 {% else %}
     {% comment %} <!--
     mf-syndication:
@@ -180,10 +180,10 @@
     {% endcomment %}
     {% assign mf-syndication-url  = page.page.mf-syndication %}
 
-    {% assign mf-syndication = TRUE %} 
+    {% assign mf-syndication = true %} 
 {% endif %}
 {% if page.mf-checkin != null or page.mf-checkin != empty %}
-    {% assign mf-checkin = FLASE %} 
+    {% assign mf-checkin = false %} 
 {% else %}
     {% comment %} <!--
     mf-checkin:
@@ -221,7 +221,7 @@
     {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
     {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
     {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
-    {% assign mf-checkin = TRUE %} 
+    {% assign mf-checkin = true %} 
 {% endif %}
 
 
@@ -249,9 +249,9 @@
           postal-code:
             - '91106' -->
     {% endcomment %}
-    {% assign mf-location = TRUE %} 
-    {% assign mf-location-full = TRUE %}
-    {% assign mf-location-short = FALSE %}
+    {% assign mf-location = true %} 
+    {% assign mf-location-full = true %}
+    {% assign mf-location-short = false %}
     {% assign location-type = page.mf-location[0].type %}
     {% assign location-facility-name = page.mf-location[0].properties.name%}
     {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
@@ -273,9 +273,9 @@
       - 'geo:lat,long;u=undertanity_in_Meters' -->
     {% endcomment %}
 
-    {% assign mf-location = TRUE %} 
-    {% assign mf-location-full = FALSE %}
-    {% assign mf-location-short = TRUE %}
+    {% assign mf-location = true %} 
+    {% assign mf-location-full = false %}
+    {% assign mf-location-short = true %}
 
 {% endif %}
 
@@ -798,19 +798,19 @@
 
                   <!-- Post Content -->
                   <span class="e-content">{{ content }}
-                    {% if mf-location %}
+                    {% if mf-location == true %}
                       mf-location = true<br>
                     {% else %}
                       mf-location = false<br>
                     {% endif %}
 
-                    {% if mf-location-full %}
+                    {% if mf-location-full == true %}
                       mf-location-full = true<br>
                     {% else %}
                       mf-location-full = false<br>
                     {% endif %}
                   
-                    {% if mf-location-short %}
+                    {% if mf-location-short == true %}
                       mf-location-short = true<br>
                     {% else %}
                       mf-location-short = false<br>
