@@ -844,7 +844,7 @@
                               id: 'mapbox.streets'
                           }).addTo(mymap);
 
-                          L.marker([ {{ page.mf-checkin[0].properties.latitude }} , {{ page.mf-location[0].properties.longitude }} ]).addTo(mymap)
+                          L.marker([ {{ map-latitude-one }} , {{ map-longitude-one }} ]).addTo(mymap)
                               .bindPopup("<b>{{map-name-one}}</b>").openPopup();
 
                           {% if draw-map-two == true %}
