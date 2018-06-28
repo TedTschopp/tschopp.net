@@ -849,14 +849,14 @@
                       {% endfor %}
                     {% endif %}
                     {% if draw-map == true %}
-                      mf- location -       {{ mf-location       }} 
-                      mf- location - full  {{ mf-location-full  }}
-                      mf- location - short {{ mf-location-short }}
-                                     one - {{ map-name-one }}
-                                     two - {{ map-name-two }}
-                                     {{draw-map}}
-                                     {{draw-map-one}}
-                                     {{draw-map-two}}
+                             mf-location - {{ mf-location       }} 
+                        mf-location-full - {{ mf-location-full  }}
+                       mf-location-short - {{ mf-location-short }}
+                            map-name-one - {{ map-name-one }}
+                            map-name-two - {{ map-name-two }}
+                                draw-map - {{ draw-map }}
+                            draw-map-one - {{ draw-map-one }}
+                            draw-map-two - {{ draw-map-two }}
 
                       <div id="mapid"></div>
                       <script>
