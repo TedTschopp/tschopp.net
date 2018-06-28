@@ -214,7 +214,7 @@
     {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
     {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
     {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
-    {% assign mf-checkin-country  = page.mf-checkin[0].properties.postal-code %}
+    {% assign mf-checkin-zip-code  = page.mf-checkin[0].properties.postal-code %}
     {% assign mf-checkin = true %} 
 
 {% endif %}
@@ -292,7 +292,7 @@
     {% assign location-facility-city = page.mf-location[0].properties.locality %}
     {% assign location-state = page.mf-location[0].properties.region %}
     {% assign location-country = page.mf-location[0].properties.country-name %}
-    {% assign location-country = page.mf-location[0].properties.postal-code %}
+    {% assign location-zip-code = page.mf-location[0].properties.postal-code %}
 {% endif %}
 
 {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude == empty %}
@@ -312,7 +312,11 @@
     {% assign map-latitude-one = location-facility-latitude %}
     {% assign map-longitude-one = location-facility-longitude %}
     {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
-    {% assign map-name-one = stripped-content %}
+    {% if mf-checkin-facility-name == null or mf-checkin-facility-name == empty %}
+      {% assign map-name-one = stripped-content %}
+    {% else %}
+      {% assign map-name-one = mf-checkin-facility-name %}
+    {% endif %}
   {% endif %}
 {% else %}
   {% comment %} <!--
@@ -860,7 +864,7 @@
                     {% endif %}
 
                   <hr>
-                  {% if page.content == null or page.content == empty %}                  
+                  {% if stripped-content == null or stripped-content == empty %}                  
                   {% else %}
                   <!-- Post Content -->
                   <span class="e-content">{{ content }}</span>
