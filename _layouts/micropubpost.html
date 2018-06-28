@@ -309,7 +309,7 @@
     {% assign map-latitude-one = location-facility-latitude %}
     {% assign map-longitude-one = location-facility-longitude %}
     {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
-    {% assign map-name-one = location-facility-name %}
+    {% assign map-name-one = page.content %}
   {% endif %}
 {% else %}
   {% comment %} <!--
@@ -318,7 +318,7 @@
   {% assign draw-map-one = true %}
   {% assign map-latitude-one = mf-checkin-facility-latitude %}
   {% assign map-longitude-one = mf-checkin-facility-longitude %}
-  {% assign map-name-one = content %}
+  {% assign map-name-one = mf-checkin-facility-name %}
 
   {% if location-facility-latitude == null or location-facility-latitude  == empty %}
     {% comment %} <!--
