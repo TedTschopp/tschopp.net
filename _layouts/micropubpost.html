@@ -11,7 +11,6 @@
     mf-repost-of:
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1
-
     mf-repost-of:
       - 'https://idiallo.com/blog/when-a-machine-fired-me' -->
     {% endcomment %}
@@ -88,7 +87,6 @@
             - '2018-06-22T16:35:00-07:00'
           arrival:
             - '2018-06-22T16:35:00+01:00'
-
     mf-itinerary:
       - type:
           - h-leg
@@ -128,7 +126,8 @@
     {% assign mf-itinerary  = true %} 
 {% endif %}
 
-{% if page.mf-in-reply-to == null or page.mf-in-reply-to == empty %}
+{% if page.mf-in-reply-to == null or 
+      page.mf-in-reply-to == empty %}
     {% assign mf-in-reply-to  = false %} 
 {% else %}
     {% comment %} <!--
@@ -142,14 +141,14 @@
     {% assign mf-in-reply-to  = true %} 
 {% endif %}
 
-{% if page.mf-photo == null or page.mf-photo == empty %}
+{% if page.mf-photo == null or 
+      page.mf-photo == empty %}
     {% assign mf-photo = false %} 
 {% else %}
     {% comment %} <!--
     mf-photo:
       - >-
         https://www.tedt.org/media/2018-06-85087/screen-shot-2018-06-22-at-4.33.30-pm.png
-
     mf-photo:
       - >-
         https://igx.4sqi.net/img/general/original/4195_P3LEKM8c3SMWtHxe9iy0KW9XLlw16wD0rgk7RD_odAo.jpg
@@ -163,7 +162,8 @@
     {% endcomment %}
     {% assign mf-photo = true %} 
 {% endif %}
-{% if page.mf-syndication == null or page.mf-syndication == empty %}
+{% if page.mf-syndication == null or 
+      page.mf-syndication == empty %}
     {% assign mf-syndication = false %} 
 {% else %}
     {% comment %} <!--
@@ -176,7 +176,8 @@
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
-{% if page.mf-checkin[0].type != null or page.mf-checkin[0].type != empty %}
+{% if page.mf-checkin[0].type != null or 
+      page.mf-checkin[0].type != empty %}
     {% assign mf-checkin = false %} 
 {% else %}
     {% comment %} <!--
@@ -204,35 +205,36 @@
             - '91106'
         value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
     {% endcomment %}
-    {% assign mf-checkin-type  = page.mf-checkin[0].type %}
-    {% assign mf-checkin-url  = page.mf-checkin[0].value %}
-    {% assign mf-checkin-facility-name  = page.mf-checkin[0].properties.name %}
-    {% assign mf-checkin-facility-url  = page.mf-checkin[0].properties.url %}
-    {% assign mf-checkin-facility-latitude  = page.mf-checkin[0].properties.latitude %}
-    {% assign mf-checkin-facility-longitude  = page.mf-checkin[0].properties.longitude %}
+    {% assign mf-checkin-type                     = page.mf-checkin[0].type %}
+    {% assign mf-checkin-url                      = page.mf-checkin[0].value %}
+    {% assign mf-checkin-facility-name            = page.mf-checkin[0].properties.name %}
+    {% assign mf-checkin-facility-url             = page.mf-checkin[0].properties.url %}
+    {% assign mf-checkin-facility-latitude        = page.mf-checkin[0].properties.latitude %}
+    {% assign mf-checkin-facility-longitude       = page.mf-checkin[0].properties.longitude %}
     {% assign mf-checkin-facility-street-address  = page.mf-checkin[0].properties.street-address %}
-    {% assign mf-checkin-facility-city  = page.mf-checkin[0].properties.locality %}
-    {% assign mf-checkin-state  = page.mf-checkin[0].properties.region %}
-    {% assign mf-checkin-country  = page.mf-checkin[0].properties.country-name %}
-    {% assign mf-checkin-zip-code  = page.mf-checkin[0].properties.postal-code %}
-    {% assign mf-checkin = true %} 
+    {% assign mf-checkin-facility-city            = page.mf-checkin[0].properties.locality %}
+    {% assign mf-checkin-state                    = page.mf-checkin[0].properties.region %}
+    {% assign mf-checkin-country                  = page.mf-checkin[0].properties.country-name %}
+    {% assign mf-checkin-zip-code                 = page.mf-checkin[0].properties.postal-code %}
+    {% assign mf-checkin                          = true %} 
 
 {% endif %}
 
 <!-- This needs to be fixed -->
 
-{% if page.mf-location[0].type == null or page.mf-location[0].type == empty %}
+{% if page.mf-location[0].type == null or 
+      page.mf-location[0].type == empty %}
     {% comment %} <!--
       We do not have a complex Location, but we might have a simple one.  Lets check. -->
     {% endcomment %}
-    {% if page.mf-location == null or page.mf-location == empty %}
+    {% if page.mf-location == null or 
+          page.mf-location == empty %}
       {% comment %} <!--
         We do not have a complex Location, and we do not a simple one.  Lets set flags. -->
       {% endcomment %}
-      {% assign mf-location = false %} 
-      {% assign mf-location-full = false %}
-      {% assign mf-location-short = false %}
-
+      {% assign mf-location                       = false %} 
+      {% assign mf-location-full                  = false %}
+      {% assign mf-location-short                 = false %}
     {% else %}
       {% comment %} <!--
         We do not have a complex Location, but we do have a simple one.  Lets set variables.
@@ -245,18 +247,16 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters' -->
       {% endcomment %}
-
-
-      {% assign location-facility-step-one = page.mf-location[0] | split: ':' %}
-      {% assign location-facility-step-two = location-facility-step-one[1] | split: ';' %}
-      {% assign location-facility-step-three = location-facility-step-two[0] | split: ',' %}
-      {% assign location-facility-step-four = location-facility-step-two[1] | split: '=' %}
-      {% assign location-facility-latitude = location-facility-step-three[0] %}
-      {% assign location-facility-longitude = location-facility-step-three[1] %}
+      {% assign location-facility-step-one        = page.mf-location[0] | split: ':' %}
+      {% assign location-facility-step-two        = location-facility-step-one[1] | split: ';' %}
+      {% assign location-facility-step-three      = location-facility-step-two[0] | split: ',' %}
+      {% assign location-facility-step-four       = location-facility-step-two[1] | split: '=' %}
+      {% assign location-facility-latitude        = location-facility-step-three[0] %}
+      {% assign location-facility-longitude       = location-facility-step-three[1] %}
       {% assign location-facility-gis-uncertanity = location-facility-step-four[1] %}
-      {% assign mf-location = true %} 
-      {% assign mf-location-full = false %}
-      {% assign mf-location-short = true %}
+      {% assign mf-location                       = true %} 
+      {% assign mf-location-full                  = false %}
+      {% assign mf-location-short                 = true %}
     {% endif %}
 {% else %} 
     {% comment %} <!--
@@ -282,54 +282,58 @@
             - '91106' -->
     {% endcomment %}
 
-    {% assign mf-location = true %} 
-    {% assign mf-location-full = true %}
-    {% assign mf-location-short = false %}
-    {% assign location-type = page.mf-location[0].type %}
+    {% assign mf-location                         = true %} 
+    {% assign mf-location-full                    = true %}
+    {% assign mf-location-short                   = false %}
+    {% assign location-type                       = page.mf-location[0].type %}
 
-    {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
-    {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
-    {% assign location-facility-street-address = page.mf-location[0].properties.street-address %}
-    {% assign location-facility-city = page.mf-location[0].properties.locality %}
-    {% assign location-state = page.mf-location[0].properties.region %}
-    {% assign location-country = page.mf-location[0].properties.country-name %}
-    {% assign location-zip-code = page.mf-location[0].properties.postal-code %}
+    {% assign location-facility-latitude          = page.mf-location[0].properties.latitude %}
+    {% assign location-facility-longitude         = page.mf-location[0].properties.longitude %}
+    {% assign location-facility-street-address    = page.mf-location[0].properties.street-address %}
+    {% assign location-facility-city              = page.mf-location[0].properties.locality %}
+    {% assign location-state                      = page.mf-location[0].properties.region %}
+    {% assign location-country                    = page.mf-location[0].properties.country-name %}
+    {% assign location-zip-code                   = page.mf-location[0].properties.postal-code %}
 {% endif %}
 
 
-{% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude == empty %}
+{% if mf-checkin-facility-latitude == null or 
+      mf-checkin-facility-latitude == empty %}
   {% comment %} <!--
     We do not have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
-  {% if location-facility-latitude == null or location-facility-latitude == empty %}
+  {% if location-facility-latitude == null or 
+        location-facility-latitude == empty %}
     {% comment %} <!--
       We do not have a facility checkin.  We do not have a Location.  Therefore we have no need for a map -->
     {% endcomment %}
-    {% assign Draw-Map = false %}
+    {% assign Draw-Map                            = false %}
   {% else %}
     {% comment %} <!--
       We do not have a facility checkin.  We do  have a Location.  Therefore we have a need for a map -->
     {% endcomment %}
-    {% assign draw-map-one = true %}
-    {% assign map-latitude-one = location-facility-latitude %}
-    {% assign map-longitude-one = location-facility-longitude %}
-    {% assign map-uncertanity-one = location-facility-gis-uncertanity %}
-    {% if mf-checkin-facility-name == null or mf-checkin-facility-name == empty %}
-      {% assign map-name-one = stripped-content %}
+    {% assign draw-map-one                        = true %}
+    {% assign map-latitude-one                    = location-facility-latitude %}
+    {% assign map-longitude-one                   = location-facility-longitude %}
+    {% assign map-uncertanity-one                 = location-facility-gis-uncertanity %}
+    {% if mf-checkin-facility-name == null or 
+          mf-checkin-facility-name == empty %}
+      {% assign map-name-one                      = stripped-content %}
     {% else %}
-      {% assign map-name-one = mf-checkin-facility-name %}
+      {% assign map-name-one                      = mf-checkin-facility-name %}
     {% endif %}
    {% endif %}
 {% else %}
   {% comment %} <!--
     We do have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
-  {% assign draw-map-one = true %}
-  {% assign map-latitude-one = mf-checkin-facility-latitude %}
-  {% assign map-longitude-one = mf-checkin-facility-longitude %}
-  {% assign map-name-one = mf-checkin-facility-name %}
+  {% assign draw-map-one                          = true %}
+  {% assign map-latitude-one                      = mf-checkin-facility-latitude %}
+  {% assign map-longitude-one                     = mf-checkin-facility-longitude %}
+  {% assign map-name-one                          = mf-checkin-facility-name %}
 
-  {% if location-facility-latitude == null or location-facility-latitude  == empty %}
+  {% if location-facility-latitude == null or 
+        location-facility-latitude == empty %}
     {% comment %} <!--
       We do have a facility checkin.  We do not have a Location.  Therefore we can keep the map we already have -->
     {% endcomment %}
@@ -337,14 +341,15 @@
     {% comment %} <!--
       We do have a facility checkin.  We do have a Location.  Therefore we have a need for two maps -->
     {% endcomment %}
-    {% assign draw-map-two = true %}
-    {% assign map-latitude-two = location-facility-latitude %}
-    {% assign map-longitude-two = location-facility-longitude %}
-    {% assign map-uncertanity-two = location-facility-gis-uncertanity %}
-    {% if mf-checkin-facility-name == null or mf-checkin-facility-name == empty %}
-      {% assign map-name-two = stripped-content %}
+    {% assign draw-map-two                        = true %}
+    {% assign map-latitude-two                    = location-facility-latitude %}
+    {% assign map-longitude-two                   = location-facility-longitude %}
+    {% assign map-uncertanity-two                 = location-facility-gis-uncertanity %}
+    {% if mf-checkin-facility-name == null or 
+          mf-checkin-facility-name == empty %}
+      {% assign map-name-two                      = stripped-content %}
     {% else %}
-      {% assign map-name-two = mf-checkin-facility-name %}
+      {% assign map-name-two                      = mf-checkin-facility-name %}
     {% endif %}
   {% endif %}
 {%endif%}
