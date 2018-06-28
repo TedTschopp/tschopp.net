@@ -176,7 +176,7 @@
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
-{% if page.mf-checkin != null or page.mf-checkin != empty %}
+{% if page.mf-checkin[0].type != null or page.mf-checkin[0].type != empty %}
     {% assign mf-checkin = false %} 
 {% else %}
     {% comment %} <!--
@@ -281,11 +281,12 @@
           postal-code:
             - '91106' -->
     {% endcomment %}
+
     {% assign mf-location = true %} 
     {% assign mf-location-full = true %}
     {% assign mf-location-short = false %}
     {% assign location-type = page.mf-location[0].type %}
-    {% assign location-facility-name = page.mf-location[0].properties.name%}
+
     {% assign location-facility-latitude = page.mf-location[0].properties.latitude %}
     {% assign location-facility-longitude = page.mf-location[0].properties.longitude %}
     {% assign location-facility-street-address = page.mf-location[0].properties.street-address %}
@@ -295,11 +296,12 @@
     {% assign location-zip-code = page.mf-location[0].properties.postal-code %}
 {% endif %}
 
+
 {% if mf-checkin-facility-latitude == null or mf-checkin-facility-latitude == empty %}
   {% comment %} <!--
     We do not have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
-  {% if location-facility-latitude  == null or location-facility-latitude   == empty %}
+  {% if location-facility-latitude == null or location-facility-latitude == empty %}
     {% comment %} <!--
       We do not have a facility checkin.  We do not have a Location.  Therefore we have no need for a map -->
     {% endcomment %}
@@ -317,7 +319,7 @@
     {% else %}
       {% assign map-name-one = mf-checkin-facility-name %}
     {% endif %}
-  {% endif %}
+   {% endif %}
 {% else %}
   {% comment %} <!--
     We do have a facility checkin.  Lets Check if we have a Location -->
@@ -339,7 +341,11 @@
     {% assign map-latitude-two = location-facility-latitude %}
     {% assign map-longitude-two = location-facility-longitude %}
     {% assign map-uncertanity-two = location-facility-gis-uncertanity %}
-    {% assign map-name-two = location-facility-name %}
+    {% if mf-checkin-facility-name == null or mf-checkin-facility-name == empty %}
+      {% assign map-name-two = stripped-content %}
+    {% else %}
+      {% assign map-name-two = mf-checkin-facility-name %}
+    {% endif %}
   {% endif %}
 {%endif%}
 
@@ -852,11 +858,11 @@
                           }).addTo(mymap);
 
                           L.marker([ {{ map-latitude-one }} , {{ map-longitude-one }} ]).addTo(mymap)
-                              .bindPopup("<b>{{map-name-one}}</b>").openPopup();
+                              .bindPopup("<b>{{ map-name-one }}</b>").openPopup();
 
                           {% if draw-map-two == true %}
                           L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ]).addTo(mymap)
-                              .bindPopup("<b>{{map-name-two}}</b>").openPopup();
+                              .bindPopup("<b>{{ map-name-two }}</b>").openPopup();
                           {% endif %}
 
                           var popup = L.popup();
