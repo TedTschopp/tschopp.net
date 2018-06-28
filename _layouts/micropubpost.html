@@ -845,18 +845,12 @@
                         </figure>
                       {% endfor %}
                     {% endif %}
-
-
-
-
                     {% if draw-map-one == true %}
-
-
-                      {{ mf-location       }} 
-                      {{ mf-location-full  }}
-                      {{ mf-location-short }}
-                      {{ map-name-one }}
-                      {{ map-name-two }}
+                      mf- location -       {{ mf-location       }} 
+                      mf- location - full  {{ mf-location-full  }}
+                      mf- location - short {{ mf-location-short }}
+                                     one - {{ map-name-one }}
+                                     two - {{ map-name-two }}
 
                       <div id="mapid"></div>
                       <script>
