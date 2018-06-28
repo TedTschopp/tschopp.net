@@ -176,8 +176,9 @@
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
-{% if page.mf-checkin[0].type != null or 
-      page.mf-checkin[0].type != empty %}
+
+{% if page.mf-checkin[0].type == null or 
+      page.mf-checkin[0].type == empty %}
     {% assign mf-checkin = false %} 
 {% else %}
     {% comment %} <!--
@@ -217,7 +218,6 @@
     {% assign mf-checkin-country                  = page.mf-checkin[0].properties.country-name %}
     {% assign mf-checkin-zip-code                 = page.mf-checkin[0].properties.postal-code %}
     {% assign mf-checkin                          = true %} 
-
 {% endif %}
 
 <!-- This needs to be fixed -->
