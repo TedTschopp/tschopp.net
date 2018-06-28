@@ -307,11 +307,12 @@
     {% comment %} <!--
       We do not have a facility checkin.  We do not have a Location.  Therefore we have no need for a map -->
     {% endcomment %}
-    {% assign Draw-Map                            = false %}
+    {% assign draw-map                            = false %}
   {% else %}
     {% comment %} <!--
       We do not have a facility checkin.  We do  have a Location.  Therefore we have a need for a map -->
     {% endcomment %}
+    {% assign draw-map                            = true %}
     {% assign draw-map-one                        = true %}
     {% assign map-latitude-one                    = location-facility-latitude %}
     {% assign map-longitude-one                   = location-facility-longitude %}
@@ -327,6 +328,7 @@
   {% comment %} <!--
     We do have a facility checkin.  Lets Check if we have a Location -->
   {% endcomment %}
+  {% assign draw-map                              = true %}
   {% assign draw-map-one                          = true %}
   {% assign map-latitude-one                      = mf-checkin-facility-latitude %}
   {% assign map-longitude-one                     = mf-checkin-facility-longitude %}
@@ -341,6 +343,7 @@
     {% comment %} <!--
       We do have a facility checkin.  We do have a Location.  Therefore we have a need for two maps -->
     {% endcomment %}
+    {% assign draw-map                            = true %}
     {% assign draw-map-two                        = true %}
     {% assign map-latitude-two                    = location-facility-latitude %}
     {% assign map-longitude-two                   = location-facility-longitude %}
@@ -845,12 +848,15 @@
                         </figure>
                       {% endfor %}
                     {% endif %}
-                    {% if draw-map-one == true %}
+                    {% if draw-map == true %}
                       mf- location -       {{ mf-location       }} 
                       mf- location - full  {{ mf-location-full  }}
                       mf- location - short {{ mf-location-short }}
                                      one - {{ map-name-one }}
                                      two - {{ map-name-two }}
+                                     {{draw-map}}
+                                     {{draw-map-one}}
+                                     {{draw-map-two}}
 
                       <div id="mapid"></div>
                       <script>
