@@ -850,6 +850,14 @@
 
 
                     {% if draw-map-one == true %}
+
+
+                      {{ mf-location       }} 
+                      {{ mf-location-full  }}
+                      {{ mf-location-short }}
+                      {{ map-name-one }}
+                      {{ map-name-two }}
+
                       <div id="mapid"></div>
                       <script>
                           var mymap = L.map('mapid').setView([ {{ map-latitude-one }} , {{ map-longitude-one }} ], 15);
