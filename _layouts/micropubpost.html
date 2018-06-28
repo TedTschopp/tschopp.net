@@ -849,6 +849,7 @@
                       {% endfor %}
                     {% endif %}
                     {% if draw-map == true %}
+
                              mf-location - {{ mf-location       }} 
                         mf-location-full - {{ mf-location-full  }}
                        mf-location-short - {{ mf-location-short }}
@@ -857,6 +858,11 @@
                                 draw-map - {{ draw-map }}
                             draw-map-one - {{ draw-map-one }}
                             draw-map-two - {{ draw-map-two }}
+                mf-checkin-facility-name - {{mf-checkin-facility-name}}
+      page.mf-checkin[0].properties.name - {{page.mf-checkin[0].properties.name}}
+
+
+
 
                       <div id="mapid"></div>
                       <script>
