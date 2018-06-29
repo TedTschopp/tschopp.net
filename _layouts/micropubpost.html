@@ -10,6 +10,10 @@
 {% for category in categories %}
   {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
+{% assign page.category = "" categories %}
+{% for category in categories %}
+  {% assign page-categories-collection = page-categories-collection | push: category %}
+{% endfor %}
 
 {% if page.mf-repost-of == null or page.mf-repost-of == empty %}
     {% assign mf-repost-of = false %} 
