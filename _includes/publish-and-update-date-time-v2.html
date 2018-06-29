@@ -8,8 +8,8 @@
                   {%- assign prevDateDiff = prevDateDiff | divided_by: 86400 -%}
                   <!-- Date/Time -->
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time><time datetime="{{page.date}}">
-                        {%- include fuzzy-date.html daysDiff=prevDateDiff label='ago' -%}&nbsp;
-                        {%- capture time-output -%}{%- case hour -%}
+                        {%- capture time-output -%}&nbsp;about&nbsp;{%- include fuzzy-date.html daysDiff=prevDateDiff label='ago' -%}&nbsp;
+                        {%- case hour -%}
                             {%- when '01' or '02' or '03' or '04' or '23' or '24' -%}during the night
                             {%- when '05' or '06' or '07' or '08' -%}in the early morning
                             {%- when '09' or '10' or '11' -%}late in the morning
@@ -53,5 +53,5 @@
                                   late in the evening
                           {%endcase%}
                           
-                          on {{ dy }}, {{ m }} <sup>{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}</sup> {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}</time></br>
-                        {% endif %}
+                        on {{ dy }}, {{ m }} {% case d %}{% when '1' or '21' or '31' %}{{ d }}<sup>st</sup>{% when '2' or '22' %}{{ d }}<sup>nd</sup>{% when '3' or '23' %}{{ d }}<suup>rd</suup>{% else %}{{ d }}<sup>th</sup>{% endcase %}</time></br>
+                    {% endif %}
