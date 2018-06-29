@@ -772,85 +772,81 @@
 
                   {% include publish-and-update-date-time-v2.html %}
 
+                  {% if mf-photo %}
+                    {% for photo in page.mf-photo %}
+                      <figure>
+                          <img class="img-responsive img-thumbnail" src="{{photo}}">
+                      </figure>
+                    {% endfor %}
+                  {% endif %}
 
-
-
-
-                    {% if mf-photo %}
-                      {% for photo in page.mf-photo %}
-                        <figure>
-                            <img class="img-responsive img-thumbnail" src="{{photo}}">
-                        </figure>
-                      {% endfor %}
-                    {% endif %}
-
-                    {% if draw-map == true %}
-                    {% comment %} <!--
-                                                     mf-location - {{ mf-location }} 
-                                                mf-location-full - {{ mf-location-full }}
-                                               mf-location-short - {{ mf-location-short }}
-                                                    map-name-one - {{ map-name-one }}
-                                                    map-name-two - {{ map-name-two }}
-                                                        draw-map - {{ draw-map }}
-                                                    draw-map-one - {{ draw-map-one }}
-                                                    draw-map-two - {{ draw-map-two }}
-                                        mf-checkin-facility-name - {{ mf-checkin-facility-name }}
-                              page.mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }}
-                                                 mf-checkin-type - {{ mf-checkin-type }}
-                                                  mf-checkin-url - {{ mf-checkin-url }}
-                                        mf-checkin-facility-name - {{ mf-checkin-facility-name }}
-                                         mf-checkin-facility-url - {{ mf-checkin-facility-url }}
-                                    mf-checkin-facility-latitude - {{ mf-checkin-facility-latitude }}
-                                   mf-checkin-facility-longitude - {{ mf-checkin-facility-longitude }}
-                              mf-checkin-facility-street-address - {{ mf-checkin-facility-street-address }}
-                                        mf-checkin-facility-city - {{ mf-checkin-facility-city }}
-                                                mf-checkin-state - {{ mf-checkin-state }}
-                                              mf-checkin-country - {{ mf-checkin-country }}
-                                             mf-checkin-zip-code - {{ mf-checkin-zip-code }}
-                                                      mf-checkin - {{ mf-checkin }} 
-                                         page.mf-checkin[0].type - {{ page.mf-checkin[0].type}}
-                                        page.mf-checkin[0].value - {{ page.mf-checkin[0].value }}
-                              page.mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }}
-                               page.mf-checkin[0].properties.url - {{ page.mf-checkin[0].properties.url }}
-                          page.mf-checkin[0].properties.latitude - {{ page.mf-checkin[0].properties.latitude }}
-                         page.mf-checkin[0].properties.longitude - {{ page.mf-checkin[0].properties.longitude }}
-                    page.mf-checkin[0].properties.street-address - {{ page.mf-checkin[0].properties.street-address }}
-                          page.mf-checkin[0].properties.locality - {{ page.mf-checkin[0].properties.locality }}
-                            page.mf-checkin[0].properties.region - {{ page.mf-checkin[0].properties.region }}
-                      page.mf-checkin[0].properties.country-name - {{ page.mf-checkin[0].properties.country-name }}
-                       page.mf-checkin[0].properties.postal-code - {{ page.mf-checkin[0].properties.postal-code }} -->
-                    {% endcomment %}
+                  {% if draw-map == true %}
+                  {% comment %} <!--
+                                                   mf-location - {{ mf-location }} 
+                                              mf-location-full - {{ mf-location-full }}
+                                             mf-location-short - {{ mf-location-short }}
+                                                  map-name-one - {{ map-name-one }}
+                                                  map-name-two - {{ map-name-two }}
+                                                      draw-map - {{ draw-map }}
+                                                  draw-map-one - {{ draw-map-one }}
+                                                  draw-map-two - {{ draw-map-two }}
+                                      mf-checkin-facility-name - {{ mf-checkin-facility-name }}
+                            page.mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }}
+                                               mf-checkin-type - {{ mf-checkin-type }}
+                                                mf-checkin-url - {{ mf-checkin-url }}
+                                      mf-checkin-facility-name - {{ mf-checkin-facility-name }}
+                                       mf-checkin-facility-url - {{ mf-checkin-facility-url }}
+                                  mf-checkin-facility-latitude - {{ mf-checkin-facility-latitude }}
+                                 mf-checkin-facility-longitude - {{ mf-checkin-facility-longitude }}
+                            mf-checkin-facility-street-address - {{ mf-checkin-facility-street-address }}
+                                      mf-checkin-facility-city - {{ mf-checkin-facility-city }}
+                                              mf-checkin-state - {{ mf-checkin-state }}
+                                            mf-checkin-country - {{ mf-checkin-country }}
+                                           mf-checkin-zip-code - {{ mf-checkin-zip-code }}
+                                                    mf-checkin - {{ mf-checkin }} 
+                                       page.mf-checkin[0].type - {{ page.mf-checkin[0].type}}
+                                      page.mf-checkin[0].value - {{ page.mf-checkin[0].value }}
+                            page.mf-checkin[0].properties.name - {{ page.mf-checkin[0].properties.name }}
+                             page.mf-checkin[0].properties.url - {{ page.mf-checkin[0].properties.url }}
+                        page.mf-checkin[0].properties.latitude - {{ page.mf-checkin[0].properties.latitude }}
+                       page.mf-checkin[0].properties.longitude - {{ page.mf-checkin[0].properties.longitude }}
+                  page.mf-checkin[0].properties.street-address - {{ page.mf-checkin[0].properties.street-address }}
+                        page.mf-checkin[0].properties.locality - {{ page.mf-checkin[0].properties.locality }}
+                          page.mf-checkin[0].properties.region - {{ page.mf-checkin[0].properties.region }}
+                    page.mf-checkin[0].properties.country-name - {{ page.mf-checkin[0].properties.country-name }}
+                     page.mf-checkin[0].properties.postal-code - {{ page.mf-checkin[0].properties.postal-code }} -->
+                  {% endcomment %}
 
 
 
 
 
-                      <div id="mapid"></div>
-                      <script>
-                          var mymap = L.map('mapid')
-                                       .setView([ {{ map-latitude-one }} , 
-                                                  {{ map-longitude-one }}    ], 15);
+                    <div id="mapid"></div>
+                    <script>
+                        var mymap = L.map('mapid')
+                                     .setView([ {{ map-latitude-one }} , 
+                                                {{ map-longitude-one }}    ], 15);
 
-                          L.tileLayer(
-                            'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 
-                            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
-                           .addTo(mymap);
+                        L.tileLayer(
+                          'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 
+                          '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'})
+                         .addTo(mymap);
 
-                          L.marker([ {{ map-latitude-one }} , {{ map-longitude-one }} ])
-                           .addTo(mymap)
-                           .bindPopup("<b>{{ map-name-one }}</b>")
-                           .openPopup();
+                        L.marker([ {{ map-latitude-one }} , {{ map-longitude-one }} ])
+                         .addTo(mymap)
+                         .bindPopup("<b>{{ map-name-one }}</b>")
+                         .openPopup();
 
-                          {% if draw-map-two == true %}
-                          L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ])
-                           .addTo(mymap)
-                           .bindPopup("<b>{{ map-name-two }}</b>")
-                           .openPopup();
-                          {% endif %}
+                        {% if draw-map-two == true %}
+                        L.marker([ {{ map-latitude-two }} , {{ map-longitude-two }} ])
+                         .addTo(mymap)
+                         .bindPopup("<b>{{ map-name-two }}</b>")
+                         .openPopup();
+                        {% endif %}
 
-                          var popup = L.popup();
-                      </script>
-                    {% endif %}
+                        var popup = L.popup();
+                    </script>
+                  {% endif %}
 
                   <hr>
                   {% if stripped-content == null or stripped-content == empty %}                  
