@@ -22,7 +22,7 @@
       - 'https://idiallo.com/blog/when-a-machine-fired-me' -->
     {% endcomment %}
 
-    {% assign page.categories = page.categories | push: "Repost" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Repost" %}
     {% assign mf-repost-of = true %} 
 {% endif %}
 
@@ -34,7 +34,7 @@
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Like" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Like" %}
     {% assign mf-like-of = true %} 
 {% endif %}
 
@@ -51,7 +51,7 @@
           url:
             - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces' -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Item" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Item" %}
     {% assign mf-item  = true %} 
 {% endif %}
 
@@ -62,7 +62,7 @@
     mf-rating:
       - 5 -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Review" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Review" %}
     {% assign mf-rating  = true %} 
 {% endif %}
 
@@ -71,7 +71,7 @@
     mf-summary:
       - AMAZING! -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Summary" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Summary" %}
     {% assign mf-summary  = true %} 
 {% else %}
     {% assign mf-summary  = false %} 
@@ -134,7 +134,7 @@
             - '2018-06-23T15:40:00+01:00'
           arrival:
             - '2018-06-23T15:40:00' -->
-    {% assign page.categories = page.categories | push: "Itinerary" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Itinerary" %}
     {% endcomment %}
     {% assign mf-itinerary  = true %} 
 {% endif %}
@@ -151,7 +151,7 @@
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Reply" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Reply" %}
     {% assign mf-in-reply-to  = true %} 
 {% endif %}
 
@@ -174,7 +174,7 @@
       - >-
         https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Photo" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Photo" %}
     {% assign mf-photo = true %} 
 {% endif %}
 {% if page.mf-syndication == null or 
@@ -188,7 +188,7 @@
     mf-syndication:
       - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Syndication" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Syndication" %}
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
@@ -222,7 +222,7 @@
             - '91106'
         value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Check in" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Check in" %}
     {% assign mf-checkin-type                     = page.mf-checkin[0].type %}
     {% assign mf-checkin-url                      = page.mf-checkin[0].value %}
     {% assign mf-checkin-facility-name            = page.mf-checkin[0].properties.name %}
@@ -264,7 +264,7 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters' -->
       {% endcomment %}
-      {% assign page.categories = page.categories | push: "Location" %}
+      {% assign page-categories-collection = page-categories-collection | push: "Location" %}
       {% assign location-facility-step-one        = page.mf-location[0] | split: ':' %}
       {% assign location-facility-step-two        = location-facility-step-one[1] | split: ';' %}
       {% assign location-facility-step-three      = location-facility-step-two[0] | split: ',' %}
@@ -299,7 +299,7 @@
           postal-code:
             - '91106' -->
     {% endcomment %}
-    {% assign page.categories = page.categories | push: "Location" %}
+    {% assign page-categories-collection = page-categories-collection | push: "Location" %}
 
     {% assign mf-location                         = true %} 
     {% assign mf-location-full                    = true %}
