@@ -9,7 +9,6 @@
 {% assign categories = page.categories %}
 {% for category in categories %}
   {% assign category = category | capitalize %}
-  
   {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
 
@@ -795,7 +794,7 @@
                   <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
                   {% assign categories = page-categories-collection %}
                   {% for category in categories %}<span class="p-category">
-                      {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+                      {% capture thiscategory %}{{ category | strip | capitalize }}{% endcapture %}
                       {% if forloop.length == 1 %}
                           {{thiscategory}}
                       {% elsif forloop.last and forloop.length == 2 %}
@@ -963,7 +962,7 @@
                     <div class="post-categories">
                         {% assign categories = page-categories-collection %}
                         {% for category in categories %}
-                            <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
+                            <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category | capitalize}}</a></h4>
                               <div class="row">
                               <div class="col-lg-12">
                                   <ul lass="list-unstyled">
