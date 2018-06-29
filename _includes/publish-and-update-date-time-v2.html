@@ -1,15 +1,15 @@
-                  {% assign d = page.date | date: "%-d" %}
-                  {% assign m = page.date | date: "%B" %}
-                  {% assign dy = page.date | date: "%A" %}
-                  {% assign hour = page.date | date: "%H" %}
-                  {% assign buildDate = "now" | date: '%s'  %}
-                  {% assign thisDate = page.date | date: '%s'  %}
-                  {% assign prevDateDiff = buildDate | minus: thisDate %}
-                  {% assign prevDateDiff = prevDateDiff | divided_by: 86400 %}
+                  {%- assign d = page.date | date: "%-d" -%}
+                  {%- assign m = page.date | date: "%B" -%}
+                  {%- assign dy = page.date | date: "%A" -%}
+                  {%- assign hour = page.date | date: "%H" -%}
+                  {%- assign buildDate = "now" | date: '%s'  -%}
+                  {%- assign thisDate = page.date | date: '%s' -%}
+                  {%- assign prevDateDiff = buildDate | minus: thisDate -%}
+                  {%- assign prevDateDiff = prevDateDiff | divided_by: 86400 -%}
                   <!-- Date/Time -->
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time><time datetime="{{page.date}}">
-                        {% include fuzzy-date.html daysDiff=prevDateDiff label='ago' %}&nbsp;
-                        {% capture time-output %}{%- case hour -%}
+                        {%- include fuzzy-date.html daysDiff=prevDateDiff label='ago' -%}&nbsp;
+                        {%- capture time-output -%}{%- case hour -%}
                             {%- when '01' or '02' or '03' or '04' or '23' or '24' -%}during the night
                             {%- when '05' or '06' or '07' or '08' -%}in the early morning
                             {%- when '09' or '10' or '11' -%}late in the morning
@@ -18,7 +18,7 @@
                             {%- when '16' or '17' -%}late in the afternoon
                             {%- when '18' or '19' -%}early in the evening
                             {%- when '20' or '21' or '22' -%}late in the evening
-                        {%- endcase -%}, {% endcapture %}
+                        {%- endcase -%}, {%- endcapture -%}
                         {% assign time-output = time-output | strip_newlines  | trim %}
                         {{ time-output }}
 
