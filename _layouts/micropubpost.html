@@ -4,18 +4,6 @@
 
 {% assign stripped-content = page.content | strip_html | strip %} 
 
-<<<<<<< HEAD
-{% assign page-category-collection = "" | split: ',' %}
-
-{% assign categories = page.categories %}
-{% for category in categories %}
-  {% assign page-category-collection | push: category %}
-{% endfor %}
-
-
-
-=======
->>>>>>> parent of 2df95c9... Fun stuff
 {% if page.mf-repost-of == null or page.mf-repost-of == empty %}
     {% assign mf-repost-of = false %} 
 {% else %}
@@ -27,11 +15,7 @@
       - 'https://idiallo.com/blog/when-a-machine-fired-me' -->
     {% endcomment %}
 
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Repost" %}
-=======
     {% assign page.categories = page.categories | push: "Repost" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-repost-of = true %} 
 {% endif %}
 
@@ -43,11 +27,7 @@
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Like" %}
-=======
     {% assign page.categories = page.categories | push: "Like" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-like-of = true %} 
 {% endif %}
 
@@ -64,11 +44,7 @@
           url:
             - 'https://www.goodreads.com/book/show/17343.Till_We_Have_Faces' -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Item" %}
-=======
     {% assign page.categories = page.categories | push: "Item" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-item  = true %} 
 {% endif %}
 
@@ -79,11 +55,7 @@
     mf-rating:
       - 5 -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Review" %}
-=======
     {% assign page.categories = page.categories | push: "Review" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-rating  = true %} 
 {% endif %}
 
@@ -92,11 +64,7 @@
     mf-summary:
       - AMAZING! -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Summary" %}
-=======
     {% assign page.categories = page.categories | push: "Summary" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-summary  = true %} 
 {% else %}
     {% assign mf-summary  = false %} 
@@ -159,11 +127,7 @@
             - '2018-06-23T15:40:00+01:00'
           arrival:
             - '2018-06-23T15:40:00' -->
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Itinerary" %}
-=======
     {% assign page.categories = page.categories | push: "Itinerary" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% endcomment %}
     {% assign mf-itinerary  = true %} 
 {% endif %}
@@ -180,11 +144,7 @@
       - >-
         https://www.buzzfeed.com/carolineodonovan/ziosk-presto-tabletop-tablet-restaurant-rating-servers?utm_term=.flYY91r5Za#.jkloJz4Ol1 -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Reply" %}
-=======
     {% assign page.categories = page.categories | push: "Reply" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-in-reply-to  = true %} 
 {% endif %}
 
@@ -207,11 +167,7 @@
       - >-
         https://scontent-sjc3-1.cdninstagram.com/vp/81d32fe0f7b8f687ae9fa1eb05af52d2/5BB5551D/t51.2885-15/e35/24174868_1945197792408473_193377161585885184_n.jpg -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Photo" %}
-=======
     {% assign page.categories = page.categories | push: "Photo" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-photo = true %} 
 {% endif %}
 {% if page.mf-syndication == null or 
@@ -225,11 +181,7 @@
     mf-syndication:
       - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Syndication" %}
-=======
     {% assign page.categories = page.categories | push: "Syndication" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
@@ -263,11 +215,7 @@
             - '91106'
         value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Check in" %}
-=======
     {% assign page.categories = page.categories | push: "Check in" %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% assign mf-checkin-type                     = page.mf-checkin[0].type %}
     {% assign mf-checkin-url                      = page.mf-checkin[0].value %}
     {% assign mf-checkin-facility-name            = page.mf-checkin[0].properties.name %}
@@ -309,11 +257,7 @@
 
           - 'geo:lat,long;u=undertanity_in_Meters' -->
       {% endcomment %}
-<<<<<<< HEAD
-      {% assign page-category-collection = page-category-collection | push: "Location" %}
-=======
       {% assign page.categories = page.categories | push: "Location" %}
->>>>>>> parent of 2df95c9... Fun stuff
       {% assign location-facility-step-one        = page.mf-location[0] | split: ':' %}
       {% assign location-facility-step-two        = location-facility-step-one[1] | split: ';' %}
       {% assign location-facility-step-three      = location-facility-step-two[0] | split: ',' %}
@@ -348,11 +292,7 @@
           postal-code:
             - '91106' -->
     {% endcomment %}
-<<<<<<< HEAD
-    {% assign page-category-collection = page-category-collection | push: "Location" %}
-=======
     {% assign page.categories = page.categories | push: "Location" %}
->>>>>>> parent of 2df95c9... Fun stuff
 
     {% assign mf-location                         = true %} 
     {% assign mf-location-full                    = true %}
@@ -775,13 +715,8 @@
     <!-- Custom CSS -->
     <link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
-<<<<<<< HEAD
-
-    {% assign categories = page-category-collection %}
-=======
     
     {% assign categories = page.categories %}
->>>>>>> parent of 2df95c9... Fun stuff
     {% for category in categories %}
         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
         {% if thiscategory == "draft" or thiscategory == "Draft" %}
@@ -848,13 +783,7 @@
 
 
                   <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
-<<<<<<< HEAD
-                  
-
-                  {% assign categories = page-category-collection %}
-=======
                   {% assign categories = page.categories %}
->>>>>>> parent of 2df95c9... Fun stuff
                   {% for category in categories %}<span class="p-category">
                       {% capture thiscategory %}{{ category | strip }}{% endcapture %}
                       {% if forloop.length == 1 %}
@@ -876,7 +805,8 @@
                     <!--
                         TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
                         and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
-                    -->
+
+                        -->
 
                   {% if mf-photo %}
                     {% for photo in page.mf-photo %}
@@ -1021,11 +951,7 @@
                 <!-- TODO: Add Social -->
                 <div class="well">
                     <div class="post-categories">
-<<<<<<< HEAD
-                        {% assign categories = page-category-collection %}
-=======
                         {% assign categories = page.categories %}
->>>>>>> parent of 2df95c9... Fun stuff
                         {% for category in categories %}
                             <h4>Latest in <a href="{{site.siteurl}}/categories/#{{category|slugize}}">{{category}}</a></h4>
                               <div class="row">
