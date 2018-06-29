@@ -6,11 +6,11 @@
 
 
 {% assign page-categories-collection = "" | split: ',' %}
-{% assign page.categories = "" categories %}
+{% assign categories = page.categories %}
 {% for category in categories %}
   {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
-{% assign page.category = "" categories %}
+{% assign categories = page.category %}
 {% for category in categories %}
   {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
