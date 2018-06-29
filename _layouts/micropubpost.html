@@ -598,9 +598,6 @@
         <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
     {% endif %}
 
-
-
-
     <!-- Facebook web site appID  -->
     <meta property="fb:app_id"           content="1939132006351436" />
     <!-- Web site title -->
@@ -698,10 +695,7 @@
     <link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
     -->
 
-
     {% seo %}
-
-
 
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
@@ -751,8 +745,6 @@
 </head>
 
 <body>
-    {% include js-facebook-analytics.html %}
-
     {% include navigation.html %}
 
     <!-- Page Content -->
@@ -1002,7 +994,6 @@
             </div>
         </div>
         <!-- /.row -->
-
         <hr>
 
     <!-- Footer -->
@@ -1018,8 +1009,9 @@
     {% include js-bootstrap.html %}
 
     <!-- Google Analytics JavaScript -->
+    {% comment %} <!--
     {% include js-google-analytics.html %}
-
+    {% endcomment %}
 
     {% comment %} <!--
     <!-- Web Mentions -->
