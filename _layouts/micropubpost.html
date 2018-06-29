@@ -680,11 +680,12 @@
     <meta name="twitter:description"     content="{{ SEO_description }}">
 
     {% if page.image %}
-        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+        <meta property="twitter:image"   content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
     {% else %}
-        <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+        <meta property="twitter:imagee"  content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
     {% endif %}
     <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
+
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
@@ -1020,9 +1021,7 @@
     {% include js-google-analytics.html %}
 
 
-    <!-- Disqus Count JavaScript -->
-    <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async></script>
-
+    {% comment %} <!--
     <!-- Web Mentions -->
     <script src="{{site.siteurl}}/js/liquid.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
@@ -1032,6 +1031,19 @@
     <script src="{{site.siteurl}}/js/JekyllWebmentionIO.js" type="text/javascript" async=""></script>
 
     {% include webmention-io-all-templates.html %}
+
+    <script id="webmention-hosted">
+        (function () {
+        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+        url = url && url[0] ? url[0].href : false;
+        sn.type = "text/javascript"; sn.async = true;
+        sn.src = "https://webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
+        s.parentNode.insertBefore(sn, s);
+        }());
+    </script>
+    -->
+    {% endcomment %}
 
 </body>
 
