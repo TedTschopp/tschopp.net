@@ -8,7 +8,7 @@
 {% assign page-categories-collection = "" | split: ',' %}
 {% assign categories = page.categories %}
 {% for category in categories %}
-
+  {% assign category = category | capitalize %}
   
   {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
