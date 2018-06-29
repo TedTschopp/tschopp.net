@@ -4,6 +4,8 @@
 
 {% assign stripped-content = page.content | strip_html | strip %} 
 
+{% assign page.category-collection = "" | split: ',' %}
+
 {% assign categories = page.categories %}
 {% for category in categories %}
   {% assign page.category-collection | push: category %}
