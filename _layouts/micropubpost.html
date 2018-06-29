@@ -761,16 +761,17 @@
                 <article class="h-entry">
                   <!-- Title -->
                     <!-- Author TODO: Fix this to be dynamic for more than one author. -->
-                  <h1 class="p-name lead">
-                        {% if page.author.name %}
-                            <a rel="author" class="p-author h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a>
-                        {% else %}
-                            <a rel="author" class="p-author h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a>
-                        {% endif %}
-                        <a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/>
-                    </h1>
+                  <h1 class="p-name lead"><a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/></h1>
+                  {% if page.author.name %}
+                      <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}}</a></p>
+                  {% else %}
+                      <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}}</a></p>
+                  {% endif %}
 
                   <hr>
+
+                  {% include publish-and-update-date-time.html %}
+
 
                   <!-- Date/Time -->
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;Posted <time datetime="{{page.date}}" class="aria-hidden hidden dt-publish">{{page.date}}</time> 
