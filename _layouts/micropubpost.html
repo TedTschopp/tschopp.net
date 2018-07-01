@@ -73,7 +73,6 @@
     mf-summary:
       - AMAZING! -->
     {% endcomment %}
-    {% assign page-categories-collection = page-categories-collection | push: "Summary" %}
     {% assign mf-summary  = true %} 
 {% else %}
     {% assign mf-summary  = false %} 
@@ -136,8 +135,8 @@
             - '2018-06-23T15:40:00+01:00'
           arrival:
             - '2018-06-23T15:40:00' -->
-    {% assign page-categories-collection = page-categories-collection | push: "Itinerary" %}
     {% endcomment %}
+    {% assign page-categories-collection = page-categories-collection | push: "Itinerary" %}
     {% assign mf-itinerary  = true %} 
 {% endif %}
 
@@ -190,7 +189,6 @@
     mf-syndication:
       - 'https://www.swarmapp.com/user/4195/checkin/5b28072bc0cacb002c61a717' -->
     {% endcomment %}
-    {% assign page-categories-collection = page-categories-collection | push: "Syndication" %}
     {% assign mf-syndication-url  = page.page.mf-syndication %}
     {% assign mf-syndication = true %} 
 {% endif %}
