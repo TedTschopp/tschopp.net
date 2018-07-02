@@ -16,9 +16,9 @@ seo_description: |
 
 
 guid: 3a688bb9-55a3-407b-a5d8-b558e0ae1742
-image: /media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png
+image: media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png
 categories: home
-order: 3
+order: 1
 ---
 
-An application I threw together to output a bunch of Procedurally generated star constellations. 
+A collection of my public social media posts 
