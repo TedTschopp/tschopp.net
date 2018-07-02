@@ -27,7 +27,7 @@ image-credits-title: Board Game Night
 image-credits-artist: Geoffrey Fairchild 
 image-credits-URL: https://www.flickr.com/photos/gcfairch/4421257399/in/photolist-7Kb6Us-7wwKqo-7JG6MR
 categories: home
-order: 7
+order: 8
 ---
 
 An application of the Procedural Text Generation system to create a new game for you to play every hour.

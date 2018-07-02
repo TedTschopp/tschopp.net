@@ -27,7 +27,7 @@ image-credits-title: Countdown to the Lord of the Rings
 image-credits-artist: Ted Tschopp
 image-credits-URL: http://www.theonering.com  
 categories: home
-order: 4
+order: 5
 ---
 
 Founded and managed the most popular website dedicated to the works of J.R.R. Tolkien and the Lord of the Rings.
