@@ -8,10 +8,7 @@
 {% assign page-categories-collection = "" | split: ',' %}
 {% assign categories = page.categories %}
 {% for category in categories %}
-  {% if category = "Social" or category = "social"%}
-  {% else %}
-    {% assign page-categories-collection = page-categories-collection | push: category %}
-  {% endif %}
+  {% assign page-categories-collection = page-categories-collection | push: category %}
 {% endfor %}
 
 
