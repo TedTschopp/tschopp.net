@@ -8,8 +8,7 @@
 {% assign page-categories-collection = "" | split: ',' %}
 {% assign categories = page.categories %}
 {% for category in categories %}
-  {% assign category = category | capitalize %}
-  {% if category = "Social" %}
+  {% if category = "Social" or category = "social"%}
   {% else %}
     {% assign page-categories-collection = page-categories-collection | push: category %}
   {% endif %}
@@ -968,11 +967,7 @@
                               <div class="col-lg-12">
                                   <ul lass="list-unstyled">
                                     {% for post in site.categories.[category] limit:5 %}
-                                        {% if post.title == null or post.title == empty %}
-                                          <!-- TODO get the type of social it is and get what we are going to use as a title -->
-                                        {% else %}
-                                          <li><a href="{{site.siteurl}}{{ post.url }}">{{ post.title }}</a></li>
-                                        {% endif %}
+                                        <li><a href="{{site.siteurl}}{{ post.url }}">{{ post.title }}</a></li>
                                     {% endfor %}
                                   </ul>
                               </div>
