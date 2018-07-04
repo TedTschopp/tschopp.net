@@ -1,3 +1,4 @@
+{%raw%}
 <template style="display:none" id="webmention-webmentions">
   {% capture webmention_types %}{{ types | join: ',' }}{% endcapture %}
   <div class="webmentions"{% unless webmention_types=="" %} data-webmention-types="{{ webmention_types }}"{% endunless %}>
@@ -48,3 +49,4 @@
     {% endif %}
   </div>
 </template>
+{%endraw%}
