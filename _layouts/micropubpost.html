@@ -12,6 +12,21 @@
 {% endfor %}
 
 
+
+{% if page.mf-bookmark-of == null or page.mf-bookmark-of == empty %}
+    {% assign mf-bookmark-of = false %} 
+{% else %}
+    {% comment %} <!--
+    mf-bookmark-of:
+      - >-
+        https://www.theguardian.com/technology/2018/jul/02/facebook-mark-zuckerberg-platform-publisher-lawsuit
+    {% endcomment %}
+
+    {% assign page-categories-collection = page-categories-collection | push: "Bookmark" %}
+    {% assign mf-bookmark-of = true %} 
+{% endif %}
+
+
 {% if page.mf-repost-of == null or page.mf-repost-of == empty %}
     {% assign mf-repost-of = false %} 
 {% else %}
@@ -994,7 +1009,6 @@
     {% include js-google-analytics.html %}
     {% endcomment %}
 
-    {% comment %} <!--
     <!-- Web Mentions -->
     <script src="{{site.siteurl}}/js/liquid.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
@@ -1015,8 +1029,6 @@
         s.parentNode.insertBefore(sn, s);
         }());
     </script>
-    -->
-    {% endcomment %}
 
 </body>
 
