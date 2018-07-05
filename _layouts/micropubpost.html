@@ -738,7 +738,7 @@
     <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/webmention.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
-        
+
     {% assign categories = page-categories-collection %}
     {% for category in categories %}
         {% capture thiscategory %}{{ category | strip }}{% endcapture %}
@@ -804,6 +804,8 @@
 
                   {% include publish-and-update-date-time-v2.html %}
 
+                  <!-- TODO: Do a good design on this.  Perhaps remove Category -->
+                  <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
 
                   <i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;Catagories:
                   {% assign categories = page-categories-collection %}
@@ -965,6 +967,31 @@
                     </div>
                 </div>
                 <hr>
+
+                <!-- Blog Comments -->
+                <!-- Comments Form -->
+                <div class="well">
+                    <div id="disqus_thread"></div>
+                    <script>
+                    /**
+                    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                    /*
+                    var disqus_config = function () {
+                    this.page.url = " {{ page.url }} ";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = " {{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    };
+                    */
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://tedtschopp.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>
+               <hr>
             </div>
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
@@ -1014,6 +1041,10 @@
     {% include js-google-analytics.html %}
     -->
     {% endcomment %}
+
+    <!-- Disqus Count JavaScript -->
+    <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async=""></script>
+
 
     <!-- Web Mentions -->
     <script src="{{site.siteurl}}/js/webmention-min.js" type="text/javascript" async=""></script>
