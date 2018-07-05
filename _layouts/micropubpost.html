@@ -775,6 +775,9 @@
     </style>
     {% endif %}
 
+<script async="" src="https://webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&amp;target[]={{site.siteurl}}{{page.url}}"></script>
+
+
 </head>
 
 <body>
@@ -1014,12 +1017,18 @@
     {% endcomment %}
 
     <!-- Web Mentions -->
+    {% comment %} <!--
+
     <script src="{{site.siteurl}}/js/JekyllWebmentionIO.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/liquid.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-add-types.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-utils.js" type="text/javascript" async=""></script>
     <script src="{{site.siteurl}}/js/webmention-loader.js" type="text/javascript" async=""></script>
+    -->
+    {% endcomment %}
+
+    <script src="{{site.siteurl}}/js/webmention-min.js" type="text/javascript" async=""></script>
 
     {% include webmention-io-all-templates.html %}
 
