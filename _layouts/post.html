@@ -622,7 +622,10 @@
                         <input type="hidden" name="target" value="{{page.url}}">
                     </form>
                     <div class="webmentions">
+                        {% comment %} <!--
                         <p class="webmentions__not-found">No webmentions were found.</p>
+                        -->
+                        {% endcomment %}
                     </div>
                 </div>
 
@@ -630,7 +633,6 @@
 
                 <!-- Blog Comments -->
                 <!-- Comments Form -->
-                <!--
                 <div class="well">
                     <div id="disqus_thread"></div>
                     <script>
@@ -651,13 +653,8 @@
                     })();
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div> -->
-
-
-                <!--<div id="facebook_thread" class="fb-comments" data-href="{{ site.siteurl }}{{ page.url }}" data-width="100%" data-numposts="5"></div>-->
-
-
-                <hr>
+                </div>
+               <hr>
 
             </div>
 
@@ -726,29 +723,12 @@
 
 
     <!-- Disqus Count JavaScript -->
-    <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async></script>
+    <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async=""></script>
 
     <!-- Web Mentions -->
-    <script src="{{site.siteurl}}/js/liquid.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/JekyllWebmentionIO.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-loader.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-utils.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-add-types.js" type="text/javascript" async=""></script>
+    <script src="{{site.siteurl}}/js/webmention-min.js" type="text/javascript" async=""></script>
+    {% include webmention-io-all-templates.html %}
 
-<!--    <script id="webmention-hosted">
-        (function () {
-        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-        url = url && url[0] ? url[0].href : false;
-        sn.type = "text/javascript"; sn.async = true;
-        //sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
-        sn.src = "//webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
-        s.parentNode.insertBefore(sn, s);
-        }());
-    </script>--> 
-
-{% include webmention-io-all-templates.html %}
 </body>
 
 </html>

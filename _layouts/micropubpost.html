@@ -1014,34 +1014,10 @@
     {% endcomment %}
 
     <!-- Web Mentions -->
-    {% comment %} <!--
-
-    <script src="{{site.siteurl}}/js/JekyllWebmentionIO.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/liquid.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-add-types.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-counters.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-utils.js" type="text/javascript" async=""></script>
-    <script src="{{site.siteurl}}/js/webmention-loader.js" type="text/javascript" async=""></script>
-    -->
-    {% endcomment %}
-
     <script src="{{site.siteurl}}/js/webmention-min.js" type="text/javascript" async=""></script>
-
     {% include webmention-io-all-templates.html %}
 
-    {% comment %} <!--
-    <script id="webmention-hosted">
-        (function () {
-        var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
-        url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
-        url = url && url[0] ? url[0].href : false;
-        sn.type = "text/javascript"; sn.async = true;
-        sn.src = "https://webmention.io/api/mentions?jsonp=window.JekyllWebmentionIO.processWebmentions&target[]=" + encodeURIComponent(url || window.location);
-        s.parentNode.insertBefore(sn, s);
-        }());
-    </script>
-    -->
-    {% endcomment %}
+
 
 </body>
 
