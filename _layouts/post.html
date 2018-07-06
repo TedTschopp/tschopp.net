@@ -3,6 +3,14 @@
 
 <head>
 
+    {% assign categories = page.categories %}
+    {% for category in categories %}
+        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
+        {% if thiscategory == "draft" or thiscategory == "Draft" %}
+            {% assign this_is_a_draft = true %}
+        {% endif %}
+    {% endfor %}
+
     {% if page.excerpt != "" %}
         {% assign SEO_description = page.excerpt | strip_html %}
     {% elsif page.description != "" %}
@@ -265,9 +273,17 @@
 
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
-    <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
+    <!-- <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!"> -->
+    <!-- Pinterest Verify -->
+    <meta name="p:domain_verify" content="{{ site.pinterest_domain_verify }}"/>
     
     <!-- News Feed Meta Tags. -->
+    <!-- Start Feed_Meta -->
+
+    {% feed_meta %}
+
+    <!-- End Feed_Meta -->
+    
     <!--
     <link rel="alternate" type="application/rss+xml"  title="Example (Feedburner)" href="//feeds.feedburner.com/example">
     <link rel="alternate" type="application/atom+xml" title="Example (Atom 0.3)"   href="//example.com/atom.xml">
@@ -275,10 +291,11 @@
     <link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
     -->
 
+<!-- Start SEO Tag -->
 
     {% seo %}
 
-
+<!-- End SEO Tag -->
 
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
@@ -288,14 +305,10 @@
     <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/webmention.css" rel="stylesheet">
     <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    {% include css-font-awesome.html %}
     
-    {% assign categories = page.categories %}
-    {% for category in categories %}
-        {% capture thiscategory %}{{ category | strip }}{% endcapture %}
-        {% if thiscategory == "draft" or thiscategory == "Draft" %}
-            {% assign this_is_a_draft = true %}
-        {% endif %}
-    {% endfor %}
     {% if this_is_a_draft == true %}
         <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
         <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
@@ -303,15 +316,6 @@
 
     {% include scripts.html %}
 
-    <!-- Custom Fonts -->
-    {% include css-font-awesome.html %}
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -544,33 +548,7 @@
  
                 <hr>
 
-
-                <div class="well " id="webmention_thread">
-                    <form class="webmention-form ui form" action="https://webmention.io/www.tedt.org/webmention" method="post">
-                        <div class="fields">
-                            <div class="twelve wide field">
-                                <label>Have you written a <a href="https://indieweb.org/responses">response</a> to this? Let me know the URL:</label>
-                                <input type="url" name="source" class="url">
-                            </div>
-                            <div class="four wide field">
-                                <label>&nbsp;</label>
-                                <input type="submit" class="ui submit button" value="Send Webmention">
-                            </div>
-                        </div>
-                        <div class="status hidden">
-                            <div class="ui message"></div>
-                        </div>
-                        <input type="hidden" name="target" value="{{page.url}}">
-                    </form>
-                    <div class="webmentions">
-                        {% comment %} <!--
-                        <p class="webmentions__not-found">No webmentions were found.</p>
-                        -->
-                        {% endcomment %}
-                    </div>
-                </div>
-
-                <hr>
+                {% include comments-webmentions.html %}
 
                 {% include comments.html %}
 
