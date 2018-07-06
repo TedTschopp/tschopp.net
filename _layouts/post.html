@@ -334,7 +334,12 @@
     {% else %}
         <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
     {% endif %}
-    <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
+    {% if page.image-credits %}
+        <meta name="twitter:image:alt"       content="{{ page.image-credits }} - Ted Tschopp">
+    {% else %}
+        <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
+    {% endif %}
+
     <!-- Pinterest. -->
     <!-- Prevents sharing of content by Pinterest users. -->
     <!--<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">-->
