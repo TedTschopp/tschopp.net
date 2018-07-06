@@ -271,12 +271,10 @@
         <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
     {% endif %}
 
-    <!-- Pinterest. -->
-    <!-- Prevents sharing of content by Pinterest users. -->
-    <!-- <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!"> -->
-    <!-- Pinterest Verify -->
-    <meta name="p:domain_verify" content="{{ site.pinterest_domain_verify }}"/>
-    
+
+    <!-- SEO Metadata -->
+    {% include meta-data-seo.html %}
+ 
     <!-- News Feed Meta Tags. -->
     <!-- Start Feed_Meta -->
 

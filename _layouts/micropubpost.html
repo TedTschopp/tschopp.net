@@ -644,27 +644,9 @@
     <!-- <meta property="fb:app_id"           content="123456789"> -->
 
 
-    <!-- Twitter Meta Tags. -->
-    <meta name="twitter:card"            content="summary">
-    <meta name="twitter:site"            content="@site_account">
-    <meta name="twitter:creator"         content="@{{ site.twitter_username }}">
-    <meta name="twitter:url"             content="{{ site.siteurl }}{{ page.url }}">
-    <meta name="twitter:title"           content="{{ page.title }} - {{ site.title }}">
-    <meta name="twitter:description"     content="{{ SEO_description }}">
-
-    {% if page.image %}
-        <meta property="twitter:image"   content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-    {% else %}
-        <meta property="twitter:imagee"  content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-    {% endif %}
-    <meta name="twitter:image:alt"       content="{{ page.title }} - Ted Tschopp">
-
-    <!-- Pinterest. -->
-    <!-- Prevents sharing of content by Pinterest users. -->
-    <!-- <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!"> -->
-    <!-- Pinterest Verify -->
-    <meta name="p:domain_verify" content="{{ site.pinterest_domain_verify }}"/>
-      
+    <!-- SEO Metadata -->
+    {% include meta-data-seo.html %}
+    
     <!-- News Feed Meta Tags. -->
     <!-- Start Feed_Meta -->
 
