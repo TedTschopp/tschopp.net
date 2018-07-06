@@ -18,9 +18,10 @@ webrick:
 
 timezone: America/Los_Angeles
 
+owner:
+  disqus-shortname: tedtschopp
 
 # Varaibles that will be used elsewhere
-
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
@@ -86,7 +87,6 @@ xboxlive:
 Steam: //steamcommunity.com/id/theothesilly/
 withings:
 yammer:
-
 
 
 
