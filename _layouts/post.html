@@ -23,9 +23,6 @@
     <meta name="MobileOptimized" content="320">
 
     <!-- IndieAuth.com -->
-    {% if site.keybaseio_username %}
-        <link href="https://keybase.io/{{ site.keybaseio_username }}" rel="me">
-    {% endif %}
     {% if site.github_username or
           site.linkedin_username or
           site.twitter_username or
@@ -35,10 +32,18 @@
           site.pinterest_username or
           site.reddit_username or
           site.instagram_username or
-          site.quora_username %}
+          site.quora_username or
+          site.indiewebcamp_username or
+          site.keybaseio_username
+          %}
+
+            {% if site.keybaseio_username %}
+              <link href="https://keybase.io/{{ site.keybaseio_username }}" rel="me">
+            {% else %}
+            {% endif %}
 
             {% if site.github_username %}
-                <link href="https://github.com/{{ site.github_username }}/" rel="me authn">
+                <link href="https://github.com/{{ site.github_username }}/" rel="me">
             {% else %}
             {% endif %}
             {% if site.linkedin_username %}
@@ -75,6 +80,10 @@
             {% endif %}
             {% if site.quora_username %}
                 <link href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me">
+            {% else %}
+            {% endif %}
+            {% if site.indiewebcamp_username %}
+                <link href="https://indieweb.org/User:{{ site.quora_username }}/" rel="me">
             {% else %}
             {% endif %}
     {% endif %}
