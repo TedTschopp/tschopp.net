@@ -240,7 +240,7 @@
  
     <!-- Open Graph Meta Tags (ogp.me) -->
     {% if page.image %}
-        <meta property="og:image"            content="{{ site.siteurl }}/{{ page.image }}">  <!-- Web page thumbnail -->
+        <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
         <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
     {% else %}
         <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
@@ -261,7 +261,7 @@
     <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
     <meta property="og:type"             content="article">  
     <!-- Url to this web page -->
-    <meta property="og:url"              content="{{ site.siteurl }}{{ page.url }}"> 
+    <meta property="og:url"              content="{{ site.siteurl }}/{{ page.url }}"> 
     <!-- Main Language -->
     <meta property="og:locale"           content="en_US">    
     <!-- Alternate Language -->
@@ -330,7 +330,7 @@
     <meta name="twitter:description"     content="{{ SEO_description }}">
 
     {% if page.image %}
-        <meta property="twitter:image"            content="{{ site.siteurl }}/{{ page.image }}">  <!-- Web page thumbnail -->
+        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
     {% else %}
         <meta property="twitter:imagee"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
     {% endif %}
@@ -456,7 +456,7 @@
 
                     {% if page.image %}
                     <figure>
-                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{ page.image }}" alt="{{page.image-credits}}">
+                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}{{ page.image }}" alt="{{page.image-credits}}">
                       <figcaption>
                         {% if page.image-credits-URL or page.image-credits-title %}
                             <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}</a>

@@ -15,7 +15,7 @@ layout: post
 
 guid: b76b9f97-6472-424a-83cc-2c824b5a091b
 permalink: /2018/04/22/Dungeons-and-Dragons-5th-Edition-Rules-For-Gamma-World-Weapons/
-image: wp-content/uploads/2018/04/The-Leviathan.jpg
+image: /wp-content/uploads/2018/04/The-Leviathan.jpg
 image-credits: The Leviathan by Larry Elmore - http://www.larryelmore.com/store/TSTL/tsr--the-leviathan
 categories:
   - Role Playing Games
