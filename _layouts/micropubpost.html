@@ -1008,7 +1008,7 @@
                 <!-- Blog Search Well -->
                 <div class="well">
                     <h4>Blog Search</h4>
-                    {% comment %} <!-- {% include google-search.html %} --> {% endcomment %}
+                    {% include google-search.html %}
                 </div>
                 <!-- Blog Categories Well -->
                 <!-- TODO: Add Social -->
@@ -1047,10 +1047,7 @@
     {% include js-bootstrap.html %}
 
     <!-- Google Analytics JavaScript -->
-    {% comment %} <!--
     {% include js-google-analytics.html %}
-    -->
-    {% endcomment %}
 
     <!-- Disqus Count JavaScript -->
     <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async=""></script>
