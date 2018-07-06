@@ -18,8 +18,11 @@ webrick:
 
 timezone: America/Los_Angeles
 
+facebook_app_id: 1939132006351436
+
 owner:
   disqus-shortname: tedtschopp
+
 
 # Varaibles that will be used elsewhere
 author:
