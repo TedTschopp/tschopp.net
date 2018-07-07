@@ -8,7 +8,7 @@
 <!-- End Jekyll SEO tag -->
 
 
-<!--  {{ site.siteurl }} -->
+<!--  {{ site.siteurl | append: "/"}} -->
 <!--  {{full-page-url }} -->
 
 	<!-- TODO do I need different layouts -->
@@ -96,6 +96,26 @@
 	    <meta property="og:url"              content="{{ site.siteurl }}/{{ page.url }}"> 
 	    <!-- Main Language -->
 	    <meta property="og:locale"           content="en_US">    
+
+
+<!--
+
+<meta property="og:article:published_time" content="..">
+<meta property='article:author' content='https://www.facebook.com/YOUR-NAME' />
+<meta property='article:publisher' content='https://www.facebook.com/YOUR-PAGE' />
+<meta property="article:publisher" content="https://www.facebook.com/author/"/>
+<meta property="article:published_time" content="2017-11-26T17:41:45+00:00" />
+<meta property="article:modified_time" content="2017-11-27T00:32:23+00:00" />
+<meta property="og:updated_time" content="2017-11-27T00:32:23+00:00" />
+
+
+article:expiration_time - datetime - When the article is out of date after.
+article:section - string - A high-level section name. E.g. Technology
+article:tag - string array - Tag words associated with this article.
+
+-->
+
+
 	    <!-- Alternate Language -->
 	    <!--
 	    <meta property="og:locale:alternate" content="fr_FR">    
