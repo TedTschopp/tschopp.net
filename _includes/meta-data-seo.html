@@ -27,46 +27,31 @@
 
 	{% if full-page-url == home-page-url %}
 	    <!-- Search Eengine and Browser Meta Tags. -->
-	    <!-- The description of the website. Keep under 500 characters -->
 	    <meta name="description" content="{{ site.description }}">
-	    <!-- The short description of the website.  Keep uder 100 characters -->
 	    <meta name="abstract"    content="{{ site.name }}">
 	{% else %}
 	    <!-- Search Eengine and Browser Meta Tags. -->
-	    <!-- The description of the website. Keep under 500 characters -->
 	    <meta name="description" content="{{ SEO_description }}"> 
-	    <!-- The short description of the website.  Keep uder 100 characters -->
 	    <meta name="abstract"    content="{{ site.name }}"> 
     {% endif %}
 
 	{% if full-page-url == home-page-url %}
-	    <!-- Facebook web site appID  -->
-	    <meta property="fb:app_id"           content="{{facebook_app_id}}" />
-	    <!-- Open Graph Meta Tags (ogp.me) -->
-	    <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-	    <meta property="og:image:alt"        content="{{site.name}}">  <!-- Web page thumbnail -->
-	    <!-- Web site title -->
+	    <meta property="fb:app_id"           content="{{site.facebook_app_id}}" />
+	    <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">
+	    <meta property="og:image:alt"        content="{{site.name}}">
 	    <meta property="og:site_name"        content="{{ site.name }}">
-	    <!-- Web page title -->
 	    <meta property="og:title"            content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-	    <!-- Web page description -->
 	    <meta property="og:description"      content="{{ site.description }}">
-	    <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
 	    <meta property="og:type"             content="website">
-	    <!-- Url to this web page -->
-	    <meta property="og:url"              content="{{ site.siteurl }}">
-	    <!-- Main Language -->
+	    <meta property="og:url"              content="{{ home-page-url }}">
 	    <meta property="og:locale"           content="en_US">
-	    <!-- Alternate Language -->
 	    <!--
 	    <meta property="og:locale:alternate" content="fr_FR">
 	    <meta property="og:locale:alternate" content="es_ES">
 	    -->
 
-	    <!-- Contact email -->
 	    <meta property="og:email"            content="{{ site.email }}">
-	    <!-- Contact phone number -->
-	    <meta property="og:phone_number"     content="{{site.phonenumber}}">
+	    <meta property="og:phone_number"     content="{{ site.phonenumber }}">
 
 	    <!-- UPC EAN barcodes-->
 	    <!-- <meta property="og:upc"              content="885909367481"> -->
@@ -76,28 +61,23 @@
 	{% else %}
 		<!-- Open Graph Meta Tags (ogp.me) -->
 	    {% if page.image %}
-	        <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
-	        <meta property="og:image:alt"        content="{{ page.title }}">  <!-- Web page thumbnail -->
+	        <meta property="og:image"            content="{{ site.siteurl }}{{ page.image }}">
+	        <meta property="og:image:alt"        content="{{ page.title }}">
 	    {% else %}
-	        <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
-	        <meta property="og:image:alt"        content="{{ site.name }}">  <!-- Web page thumbnail -->
+	        <meta property="og:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">
+	        <meta property="og:image:alt"        content="{{ site.name }}">
 	    {% endif %}
-	    <!-- Facebook web site appID  -->
 	    <meta property="fb:app_id"           content="{{facebook_app_id}}" />
-	    <!-- Web site title -->
 	    <meta property="og:site_name"        content="{{ site.name }}">
-	    <!-- Web page title -->
 	    <meta property="og:title"            content="{{ page.title }} - {{ site.name }}">
-	    <!-- Web page description -->
 	    <meta property="og:description"      content="{{ SEO_description }}">  
-	    <!-- Content type ["product", "blog", "website", "book", "movie", ... ] -->
 	    <meta property="og:type"             content="article">  
-	    <!-- Url to this web page -->
 	    <meta property="og:url"              content="{{ site.siteurl }}/{{ page.url }}"> 
-	    <!-- Main Language -->
 	    <meta property="og:locale"           content="en_US">    
 
 <!--
+TODO: Add all this in and wire it up
+
 <meta property="og:article:published_time" content="..">
 <meta property='article:author' content='https://www.facebook.com/YOUR-NAME' />
 <meta property='article:publisher' content='https://www.facebook.com/YOUR-PAGE' />
@@ -197,9 +177,9 @@ article:tag - string array - Tag words associated with this article.
 	    <meta name="twitter:description"     content="{{ SEO_description }}">
 
 	    {% if page.image %}
-	        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">  <!-- Web page thumbnail -->
+	        <meta property="twitter:image"            content="{{ site.siteurl }}{{ page.image }}">
 	    {% else %}
-	        <meta property="twitter:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
+	        <meta property="twitter:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">
 	    {% endif %}
 
 	    {% if page.image-credits %}
