@@ -4,6 +4,7 @@
 <head>
 
     {% assign full-page-url = site.siteurl | append: page.url %}
+    {% assign home-page-url = site.siteurl | append: "/" %}
 
     {% assign categories = page.categories %}
     {% for category in categories %}

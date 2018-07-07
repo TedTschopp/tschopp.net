@@ -25,7 +25,7 @@
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
 
-	{% if full-page-url == site.siteurl | append: "/" %}
+	{% if full-page-url == home-page-url %}
 	    <!-- Search Eengine and Browser Meta Tags. -->
 	    <!-- The description of the website. Keep under 500 characters -->
 	    <meta name="description" content="{{ site.description }}">
@@ -39,7 +39,7 @@
 	    <meta name="abstract"    content="{{ site.name }}"> 
     {% endif %}
 
-	{% if full-page-url == site.siteurl | append: "/" %}
+	{% if full-page-url == home-page-url %}
 	    <!-- Facebook web site appID  -->
 	    <meta property="fb:app_id"           content="{{facebook_app_id}}" />
 	    <!-- Open Graph Meta Tags (ogp.me) -->
@@ -178,7 +178,7 @@ article:tag - string array - Tag words associated with this article.
 	    <!-- <meta property="og:country-name"     content="UK"> -->
 
 	<!-- Twitter Meta Tags. -->
-	{% if full-page-url == "default" }
+	{% if full-page-url == home-page-url %}
 		<!-- Home Page Twitter Data -->
 	    <meta name="twitter:url"             content="{{ site.siteurl }}">
 	    <meta name="twitter:title"           content="{{ site.title }}">
