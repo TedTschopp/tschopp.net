@@ -8,7 +8,7 @@
 <!-- End Jekyll SEO tag -->
 
 
-<!--  {{ site.siteurl | append: "/"}} -->
+<!--  {{ site.siteurl | append: "/" }} -->
 <!--  {{full-page-url }} -->
 
 	<!-- TODO do I need different layouts -->
@@ -25,7 +25,7 @@
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
 
-	{% if full-page-url == "default" }
+	{% if full-page-url == site.siteurl | append: "/" }
 	    <!-- Search Eengine and Browser Meta Tags. -->
 	    <!-- The description of the website. Keep under 500 characters -->
 	    <meta name="description" content="{{ site.description }}">
