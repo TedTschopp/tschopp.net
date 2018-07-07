@@ -9,6 +9,9 @@
 <!-- End Jekyll SEO tag -->
 
 
+<!--  {{ site.siteurl }}/{{ page.url }} -->
+<!--  {{full-page-url }}
+
 	<!-- TODO do I need different layouts -->
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <!-- TODO: Add Multiple Authors -->
@@ -23,7 +26,10 @@
     <!-- Disable from all search engines.-->
     <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
 
-	{% if page.layout == "default" }
+
+
+
+	{% if full-page-url == "default" }
 	    <!-- Search Eengine and Browser Meta Tags. -->
 	    <!-- The description of the website. Keep under 500 characters -->
 	    <meta name="description" content="{{ site.description }}">
@@ -37,7 +43,7 @@
 	    <meta name="abstract"    content="{{ site.name }}"> 
     {% endif %}
 
-	{% if page.layout == "default" }
+	{% if full-page-url == "default" }
 	    <!-- Facebook web site appID  -->
 	    <meta property="fb:app_id"           content="{{facebook_app_id}}" />
 	    <!-- Open Graph Meta Tags (ogp.me) -->
@@ -158,7 +164,7 @@
 	    <!-- <meta property="og:country-name"     content="UK"> -->
 
 	<!-- Twitter Meta Tags. -->
-	{% if page.layout == "default" }
+	{% if full-page-url == "default" }
 		<!-- Home Page Twitter Data -->
 	    <meta name="twitter:url"             content="{{ site.siteurl }}">
 	    <meta name="twitter:title"           content="{{ site.title }}">
@@ -181,6 +187,7 @@
 	    {% else %}
 	        <meta property="twitter:image"            content="https://www.tedt.org/img/webpage_thumbnail.png">  <!-- Web page thumbnail -->
 	    {% endif %}
+
 	    {% if page.image-credits %}
 	        <meta name="twitter:image:alt"       content="{{ page.image-credits }} - Ted Tschopp">
 	    {% else %}
