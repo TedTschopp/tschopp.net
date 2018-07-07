@@ -12,7 +12,6 @@
     <!-- Base URL to use for all relative URLs contained within the document -->
     <base href="{{ site.siteurl }}">
 
-
     <!-- PWA Code -->
     <link rel="manifest" href="manifest.webmanifest">
     <meta name="theme-color" content="#222222">
@@ -22,11 +21,6 @@
     <meta name="MobileOptimized" content="320">
 
     {% include indieauth-and-webmentions-metadata.html %}
-
-    <!-- Search engine robots Meta Tags. -->
-    <!-- Disable from all search engines.-->
-    <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
-
 
     <!-- SEO Metadata -->
     {% include meta-data-seo.html %}
@@ -60,18 +54,9 @@
  </head>
 
 <body>
-    <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M88BX7J"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-    {% include js-facebook-analytics.html %}
+    {% include top-of-body.html %}
 
     {% include navigation.html %}
-
 
     <!-- Header -->
     <a name="about"></a>

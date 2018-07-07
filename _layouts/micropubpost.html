@@ -29,7 +29,7 @@
     {% comment %} <!--
     mf-bookmark-of:
       - >-
-        https://www.theguardian.com/technology/2018/jul/02/facebook-mark-zuckerberg-platform-publisher-lawsuit
+        https://www.theguardian.com/technology/2018/jul/02/facebook-mark-zuckerberg-platform-publisher-lawsuit -->
     {% endcomment %}
 
     {% assign page-categories-collection = page-categories-collection | push: "Bookmark" %}
@@ -431,10 +431,6 @@
 
     {% include indieauth-and-webmentions-metadata.html %}
 
-    <!-- Search engine robots Meta Tags. -->
-    <!-- Disable from all search engines.-->
-    <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
-
     <!-- SEO Metadata -->
     {% include meta-data-seo.html %}
     
@@ -451,13 +447,6 @@
     <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
     <link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
     -->
-
-
-<!-- Start SEO Tag -->
-
-    {% seo %}
-
-<!-- End SEO Tag -->
 
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
@@ -481,6 +470,8 @@
 </head>
 
 <body>
+    {% include top-of-body.html %}
+
     {% include navigation.html %}
 
     <!-- Page Content -->
@@ -698,12 +689,9 @@
     <!-- Disqus Count JavaScript -->
     <script id="dsq-count-scr" src="https://tedtschopp.disqus.com/count.js" async=""></script>
 
-
     <!-- Web Mentions -->
     <script src="{{site.siteurl}}/js/webmention-min.js" type="text/javascript" async=""></script>
     {% include webmention-io-all-templates.html %}
-
-
 
 </body>
 

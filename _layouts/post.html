@@ -3,8 +3,7 @@
 
 <head>
 
-{% assign full-page-url = site.siteurl | append: page.url %}
-
+    {% assign full-page-url = site.siteurl | append: page.url %}
 
     {% assign categories = page.categories %}
     {% for category in categories %}
@@ -20,8 +19,6 @@
         {% assign SEO_description = page.description | strip_html %}
     {% endif %}
 
-
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
@@ -36,10 +33,6 @@
     <meta name="MobileOptimized" content="320">
 
     {% include indieauth-and-webmentions-metadata.html %}
-
-    <!-- Search engine robots Meta Tags. -->
-    <!-- Disable from all search engines.-->
-    <!--<meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive">-->
 
     <!-- SEO Metadata -->
     {% include meta-data-seo.html %}
@@ -57,12 +50,6 @@
     <link rel="alternate" type="application/rss+xml"  title="Example (RSS 2.0)"    href="//example.com/rss.xml">
     <link rel="alternate" type="application/json"     title="Example (JSON)"       href="//example.org/feed.json" />
     -->
-
-<!-- Start SEO Tag -->
-
-    {% seo %}
-
-<!-- End SEO Tag -->
 
     <!-- Bootstrap Core CSS -->
     {% include css-bootstrap.html %}
@@ -86,7 +73,7 @@
 </head>
 
 <body>
-    {% include js-facebook-analytics.html %}
+    {% include top-of-body.html %}
 
     {% include navigation.html %}
 
