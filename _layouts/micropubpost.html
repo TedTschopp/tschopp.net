@@ -407,14 +407,11 @@
 
 <!-- TODO: Add full articles. -->
 
-
 {% if page.excerpt != "" %}
     {% assign SEO_description = page.excerpt | strip_html %}
 {% elsif page.description != "" %}
     {% assign SEO_description = page.description | strip_html %}
 {% endif %}
-
-
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
