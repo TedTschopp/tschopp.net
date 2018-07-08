@@ -4,7 +4,11 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    {% if site.name != null or site.name != empty %}
     <title>{{ site.name | xml_escape }} - Articles</title>
+    {% else %}
+    <title>Articles</title>
+    {% endif %}    
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>{{ site.url }}</link>{% for post in site.posts %}{% unless post.link %}
       <item>
