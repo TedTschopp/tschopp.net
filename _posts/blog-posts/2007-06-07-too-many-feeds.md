@@ -1,6 +1,6 @@
 ---
 id: 470
-title: Too many feeds&#8230;
+title: Too many feeds
 date: 2007-06-07T18:53:36+00:00
 author:
   name: Ted Tschopp

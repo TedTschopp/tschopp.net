@@ -1,6 +1,6 @@
 ---
 id: 464
-title: Christmas in August&#8230;
+title: Christmas in August
 date: 2007-08-15T21:59:18+00:00
 author:
   name: Ted Tschopp
