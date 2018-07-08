@@ -28,3 +28,4 @@ layout: null
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>{% endunless %}{% endfor %}
   </channel>
+</rss>
