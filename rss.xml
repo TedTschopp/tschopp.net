@@ -11,7 +11,7 @@ layout: null
     <title>Articles</title>
     {% endif %}    
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>{% for post in site.posts %}{% unless post.link %}
+    <link>{{ site.url }}</link>{% for post in site.posts limit:36 %}{% unless post.link %}
       <item>
         {% if post.title == null or post.title == empty %}
           <title>-None-</title>
