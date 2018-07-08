@@ -8,10 +8,10 @@ layout: null
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>{{ site.url }}</link>{% for post in site.posts %}{% unless post.link %}
       <item>
-        {% if post.title %}
-          <title>{{ post.title | xml_escape }}</title>
+        {% if post.title == null or post.title == empty %}
+          <title>-None-</title>
         {% else %}
-          <title>-none-</title>
+          <title>{{ post.title | xml_escape }}</title>
         {% endif %}
         {% if post.excerpt %}
           <description>{{ post.excerpt | xml_escape }}</description>
