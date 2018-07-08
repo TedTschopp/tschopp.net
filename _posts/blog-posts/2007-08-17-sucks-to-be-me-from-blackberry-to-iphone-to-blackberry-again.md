@@ -1,6 +1,6 @@
 ---
 id: 463
-title: Sucks to be me&#8230; From Blackberry to iPhone to Blackberry Again
+title: Sucks to be me - From Blackberry to iPhone to Blackberry Again
 date: 2007-08-17T16:29:55+00:00
 author:
   name: Ted Tschopp

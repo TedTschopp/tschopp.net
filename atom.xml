@@ -10,8 +10,12 @@ layout: null
     {% for post in site.posts %}
       {% unless post.link %}
       <item>
+        {% if post.title %}
         <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
+        {% else %}
+        <title>-none-</title>
+        {% endif %}
+          {% if post.excerpt %}
           <description>{{ post.excerpt | xml_escape }}</description>
         {% else %}
           <description>{{ post.content | xml_escape }}</description>
