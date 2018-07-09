@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-    {% assign full-page-url = site.siteurl | append: page.url %}
-    {% assign home-page-url = site.siteurl | append: "/" %}
 
     <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
+
+    {% include calculate-variables.html %}
 
     <!-- Base URL to use for all relative URLs contained within the document -->
     <base href="{{ site.siteurl }}">

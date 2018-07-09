@@ -1,7 +1,6 @@
 siteurl: https://www.tedt.org
 #baseurl: https://www.tedt.org/
 
- 
 # Build Settings
 sass:
   sass_dir: _sass
