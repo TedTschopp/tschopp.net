@@ -282,7 +282,6 @@
     {% else %}
       {% comment %} <!--
         We do not have a complex Location, but we do have a simple one.  Lets set variables.
-        TODO: Parse Simple Location.
         mf-location:
           - 'geo:34.049571899827,-118.08246843619'
 
@@ -408,8 +407,6 @@
   {% endif %}
 {%endif%}
 
-<!-- TODO: Add full articles. -->
-
 {% if page.excerpt != "" %}
     {% assign SEO_description = page.excerpt | strip_html %}
 {% elsif page.description != "" %}
@@ -482,7 +479,6 @@
 
                   {% include publish-and-update-date-time-v2.html %}
 
-                  <!-- TODO: Do a good design on this.  Perhaps remove Category -->
                   <i class="fa fa-commenting" aria-hidden="true"></i>&nbsp;<a href="{{ page.url }}#disqus_thread">&nbsp;Comments</a></br>
 
                   <img class="webmention-svg" height="1em" src="{{site.siteurl}}/img/webmention-logo.svg"></i>&nbsp;<a href="{{ page.url }}#webmention_thread">&nbsp;Webmentions</a></br>

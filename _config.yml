@@ -25,10 +25,34 @@ owner:
 
 
 # Varaibles that will be used elsewhere
-author:
-  name: Ted Tschopp
-  url: https://www.tedt.org/
-  avatar: https://www.tedt.org/img/thumb3.jpg
+# Use {% assign author = site.authors[page.author] %} to get author which author
+
+authors:
+  tschopp:
+    name: Ted Tschopp
+    url: https://www.tedt.org/
+    avatar: https://www.tedt.org/img/thumb3.jpg
+    givenname: Ted
+    familyname: Tschopp
+    othernames: Þeodor Tʃopp | टेड चप | Фёдор Тшёп | تِد چاپ | Թէտ Չըփ | Ted Çeöp | தெட் சுப்
+    biography:
+      - I am the enterprise technology architect focused on digital and automation portfolios at Southern California Edison(SCE), one of the United States' largest investor-owned utilities with a service territory of over 50,000 square miles consisting of 430 cities and home to nearly 14 million people. In this role I am responsible for providing major stake holders, executives, and senior management with strategic and actionable guidance focusing on the maturity and technical issues and risks associated with Web, Mobile, Social, and Automation ecosystems. I have been at SCE for over a decade.
+      - Before working at Edison, I owned my own business which was featured in Wired Magazine. I founded the largest community website focused on the works of J.R.R. Tolkien. Prior to this I worked in for a market research company focusing on the automotive industry.
+      - I love working in technology as it provides me with the opportunity to watch the future unfold. Some of the things I have worked on were considered science-fiction when I was in school. This means I get to work on hard problems with brilliant people using complex and cool tools.
+    email: ted@tschopp.org
+    phonenumber: 
+    keybaseio_username: tedtschopp
+    twitter_username: TedTschopp
+    github_username: TedTschopp
+    linkedin_username: tedtschopp
+    facebook_username: ted.tschopp
+    google_username: TedTschopp
+    youtube_username: TedTschopp
+    pinterest_username: TedTschopp
+    reddit_username: tedtschopp
+    instagram_username: tedtschopp
+    quora_username: Ted-Tschopp
+    indiewebcamp_username: Www.tedt.org
 
 # First Name / Given Name / Common Name
 givenname: Ted
@@ -90,7 +114,7 @@ xboxlive:
 Steam: //steamcommunity.com/id/theothesilly/
 withings:
 yammer:
-
+gravatar: 
 
 
 
