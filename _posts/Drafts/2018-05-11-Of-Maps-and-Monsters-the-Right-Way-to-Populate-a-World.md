@@ -97,7 +97,7 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 | Unstable walls                                                                        |          |          |             | x     |       |            |         | 
 | Webs                                                                                  |          |          | x           | x     |       |            |         | 
 | Windowed walls                                                                        |          |          |             | x     |       |            |         | 
-
+{: .well .table .table-striped}
 
 
 TODO: Convert to DCC Rules.
