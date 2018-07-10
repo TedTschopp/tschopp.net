@@ -234,7 +234,7 @@ A close-growing stand of trees, a thicket is typically dominated by birch or haw
 
 * This counts as difficult terrain (half move through the thicket).
 
-### Mirkwood
+### The Haunted Forest
 
 #### Black toadstools
 
