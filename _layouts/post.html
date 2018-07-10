@@ -8,38 +8,26 @@
 
     {% include calculate-variables.html %}
 
-    <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
-    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'">-->
-
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
+    <!-- IndieAuth and WebMentions Metadata -->
     {% include indieauth-and-webmentions-metadata.html %}
 
     <!-- SEO Metadata -->
     {% include meta-data-seo.html %}
- 
+
+    <!-- PWA Header Includes -->
+    {% include pwa-header-includes.html %}
+
     <!-- News Feed Meta Tags. -->
     {% include feeds.jekyll %}
 
     <!-- Bootstrap Core CSS -->
-    {% include css-bootstrap.html %}
+    {% include all-css-includes.html %}
 
-    <!-- Custom CSS -->
-    <link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/webmention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    {% include css-font-awesome.html %}
-    
-    {% if this_is_a_draft == true %}
-        <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
-        <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
-    {% endif %}
-
+    <!-- Scripts that need to be at the end of the header -->
     {% include scripts.html %}
 
 </head>
@@ -51,12 +39,10 @@
 
     <!-- Page Content -->
     <div class="container">
-
         <div class="row">
             <!-- Blog Post Content Column -->
             <div class="col-lg-8">
                 <!-- Blog Post -->
-
                 <article class="h-entry">
                     <!-- Title -->
                     <h1 class="p-name">{{ page.title }}</h1>
