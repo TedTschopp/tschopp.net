@@ -39,6 +39,67 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 
 ## Encounter Scale (5 feet per hex / square )
 
+| Type of Terrain                                                                       | The Wild | Woodland | Deep Forest | Ruins | Caves | Atmosphere | Weather | 
+|--------------------------------------------------------------------------------------:|:--------:|:--------:|:-----------:|:-----:|:-----:|:----------:|:-------:| 
+| Ancient dyke                                                                          |          |          |             | x     |       |            |         | 
+| Birdsong                                                                              |          |          |             |       |       | x          |         | 
+| Black toadstools                                                                      |          |          | x           |       |       |            |         | 
+| Bog                                                                                   | x        | x        |             |       |       |            |         | 
+| Bracken                                                                               |          | x        |             | x     |       |            |         | 
+| Cliffs                                                                                | x        |          |             |       | x     |            |         | 
+| Covered pit                                                                           |          |          |             | x     |       |            |         | 
+| Crags, rocky outcrops (defensible rocks),huge boulders                                | x        |          |             |       | x     |            |         | 
+| Dust                                                                                  |          |          |             | x     |       |            |         | 
+| Fallen statue, old walls, statue, giant fallen statue head                            |          |          |             | x     |       |            |         | 
+| Fallen tree, pile of timber                                                           |          | x        |             |       |       |            |         | 
+| Flooded pit                                                                           |          |          | x           |       |       |            |         | 
+| Foundations                                                                           |          |          |             | x     |       |            |         | 
+| Freezing cold, torrential downpour, blizzard                                          |          |          |             |       |       |            | x       | 
+| Freezing pool                                                                         |          |          |             |       | x     |            |         | 
+| Gale, strong wind                                                                     |          |          |             |       |       |            | x       | 
+| Impenetrable hedge of tree limbs                                                      |          | x        | x           |       |       |            |         | 
+| Lone trees, boulders                                                                  | x        |          |             |       |       |            |         | 
+| Low boughs                                                                            |          | x        |             |       |       |            |         | 
+| Low ceilings                                                                          |          |          |             |       | x     |            |         | 
+| Mossy masonry, root-covered wall                                                      |          | x        |             |       |       |            |         | 
+| Mud                                                                                   | x        | x        |             |       |       |            |         | 
+| Narrow walls                                                                          |          |          |             |       | x     |            |         | 
+| Nettle bank or briar patch                                                            | x        | x        |             | x     |       |            |         | 
+| Old floors                                                                            |          |          |             | x     |       |            |         | 
+| Partial and collapsed floors, stairs, broken stairs                                   |          |          |             | x     |       |            |         | 
+| Passable hedge of tree limbs                                                          |          | x        |             |       |       |            |         | 
+| Path, deer track                                                                      |          | x        |             |       |       |            |         | 
+| Pillar                                                                                |          |          |             | x     |       |            |         | 
+| Pit                                                                                   |          |          |             | x     |       |            |         | 
+| Poison nettles, black briars                                                          |          |          | x           |       |       |            |         | 
+| Poisonous fumes                                                                       |          |          | x           |       |       |            |         | 
+| Puddles, slimy floor, slippery floor                                                  |          |          |             |       | x     |            |         | 
+| Ravines                                                                               | x        |          |             |       |       |            |         | 
+| River shallows, stream, flood water                                                   | x        |          |             |       |       |            |         | 
+| Roar of water                                                                         |          |          |             |       |       | x          |         | 
+| Rock edges                                                                            | x        |          |             |       | x     |            |         | 
+| Rock pillar                                                                           |          |          |             |       | x     |            |         | 
+| Rocky floor, tiny stalagmites, pool, rubbish-strewn floor, shale floor                |          |          |             |       | x     |            |         | 
+| Roots                                                                                 |          |          | x           |       |       |            |         | 
+| Rotten Trees                                                                          |          |          | x           |       |       |            |         | 
+| Rubble                                                                                |          |          |             | x     |       |            |         | 
+| Scattered rocks, moorland heather, small streams                                      | x        |          |             |       |       |            |         | 
+| Slope                                                                                 |          |          |             |       | x     |            |         | 
+| Sloping terrain                                                                       | x        | x        | x           |       |       |            |         | 
+| Sucking bog                                                                           |          |          | x           |       |       |            |         | 
+| Terrible stench, the scent of death                                                   |          |          |             |       |       | x          |         | 
+| The incessant buzzing of insects                                                      |          |          |             |       |       | x          |         | 
+| The warm golden sun, slanting rays of golden light, the sun breaks through the clouds |          |          |             |       |       |            | x       | 
+| Thick fog, smoke, eerie mist                                                          |          |          |             |       |       |            | x       | 
+| Thick trunked trees                                                                   |          | x        |             |       |       |            |         | 
+| Thicket                                                                               | x        | x        |             |       |       |            |         | 
+| Unstable stalactites                                                                  |          |          |             |       | x     |            |         | 
+| Unstable walls                                                                        |          |          |             | x     |       |            |         | 
+| Webs                                                                                  |          |          | x           | x     |       |            |         | 
+| Windowed walls                                                                        |          |          |             | x     |       |            |         | 
+
+
+
 TODO: Convert to DCC Rules.
 
 ### The Wild
@@ -553,6 +614,7 @@ Creatures considered good are heartened by the appearance of the sun.
 
 ## Providence Scale (1 Mile Per Hex)
 
+```markdown
 
     Types of Transportation | Pace | Minute   | Hour    | Day      | Effect (TBD)
 ---------------------------:|:----:|:--------:|:-------:|:--------:|:-----
@@ -593,7 +655,7 @@ Longship (sailed and rowed) |Fast  |
 4 mph
 Daily Distance*
 24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
-
+```
 
 
 
