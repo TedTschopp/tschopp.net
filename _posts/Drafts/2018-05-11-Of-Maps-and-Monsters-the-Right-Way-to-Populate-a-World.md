@@ -552,9 +552,52 @@ Creatures considered good are heartened by the appearance of the sun.
 
 
 ## Providence Scale (1 Mile Per Hex)
+
+
+    Types of Transportation | Pace | Minute   | Hour    | Day      | Effect (TBD)
+---------------------------:|:----:|:--------:|:-------:|:--------:|:-----
+             Transportation | Fast |
+             Transportation |Normal|
+                    Walking |Fast  |
+                    Walking |Normal|
+             Mule or donkey |Fast  |
+             Mule or donkey |Normal|
+              Horse or pony |Fast  |
+              Horse or pony |Normal|
+                   Warhorse |Fast  |
+                   Warhorse |Normal|
+            Farmer’s cart** |Fast  |
+            Farmer’s cart** |Normal|
+         Passenger wagon*** |Fast  |
+         Passenger wagon*** |Normal|
+         Merchant’s caravan |Fast  |
+         Merchant’s caravan |Normal|
+              Raft or barge |Fast  |
+              Raft or barge |Normal|
+                    Rowboat |Fast  |
+               Sailing ship |Normal|
+               Sailing ship |Fast  |
+ Warship (sailed and rowed) |Normal|
+ Warship (sailed and rowed) |Fast  |
+Longship (sailed and rowed) |Normal|
+Longship (sailed and rowed) |Fast  |
+                     Galley |Normal|
+                     Galley |Fast  |
+3 mph
+3 mph
+4 mph
+5 mph
+2 mph
+3 mph
+3 mph 1/2 mph 1.5 mph 2 mph 2.5 mph 3 mph
+4 mph
+Daily Distance*
+24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
+
+
+
+
 * http://blogofholding.com/?p=6741
-
-
 
 Travel Pace and Effects based on D&D 5e
 
