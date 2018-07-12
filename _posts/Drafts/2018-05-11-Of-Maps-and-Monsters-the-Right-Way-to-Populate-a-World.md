@@ -528,122 +528,42 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 
 
-     Types of Transportation | Pace | Minute   | Hour    | Day      | Effect TBD
-----------------------------:|:----:|:--------:|:-------:|:--------:|:-----------
-              Transportation | Fast |          |         |          |
-              Transportation |Normal|          |         |          |
-              Transportation | Slow |          |         |          |
-                     Walking |Fast  |          |         |          |
-                     Walking |Normal|          |         |          |
-                     Walking | Slow |          |         |          |
-              Mule or donkey |Fast  |          |         |          |
-              Mule or donkey |Normal|          |         |          |
-              Mule or donkey | Slow |          |         |          |
-               Horse or pony |Fast  |          |         |          |
-               Horse or pony |Normal|          |         |          |
-               Horse or pony | Slow |          |         |          |
-                    Warhorse | Fast |          |         |          |
-                    Warhorse |Normal|          |         |          |
-                    Warhorse | Slow |          |         |          |
-               Farmer’s cart |Fast  |          |         |          |
-               Farmer’s cart |Normal|          |         |          |
-               Farmer’s cart | Slow |          |         |          |
-             Passenger wagon |Fast  |          |         |          |
-             Passenger wagon |Normal|          |         |          |
-             Passenger wagon | Slow |          |         |          |
-          Merchant’s caravan |Fast  |          |         |          |
-          Merchant’s caravan |Normal|          |         |          |
-          Merchant’s caravan | Slow |          |         |          |
-               Raft or barge |Fast  |          |         |          |
-               Raft or barge |Normal|          |         |          |
-               Raft or barge | Slow |          |         |          |
-                     Rowboat |Fast  |          |         |          |
-                     Rowboat |Normal|          |         |          |
-                     Rowboat | Slow |          |         |          |
-                Sailing ship | Fast |          |         |          |
-                Sailing ship |Normal|          |         |          |
-                Sailing ship | Slow |          |         |          |
-  Warship (sailed and rowed) | Fast |          |         |          |
-  Warship (sailed and rowed) |Normal|          |         |          |
-  Warship (sailed and rowed) | Slow |          |         |          |
- Longship (sailed and rowed) | Fast |          |         |          |
- Longship (sailed and rowed) |Normal|          |         |          |
- Longship (sailed and rowed) | Slow |          |         |          |
-                      Galley | Fast |          |         |          |
-                      Galley |Normal|          |         |          |
-                      Galley | Slow |          |         |          |
+| Transportation              |    MPH |     Time |    Daily | 
+|----------------------------:|:------:|:--------:|:--------:| 
+| Walking                     | 3 MPH  | 8 hours  | 24 miles | 
+| Mule or donkey              | 3 MPH  | 8 hours  | 24 miles | 
+| Horse or pony               | 4 MPH  | 8 hours  | 32 miles | 
+| Warhorse                    | 5 MPH  | 8 hours  | 40 miles | 
+| Farmer’s cart <sup>†</sup>  | 2 MPH  | 8 hours  | 16 miles | 
+| Passenger wagon <sup>‡</sup>| 3 MPH  | 8 hours  | 24 miles | 
+| Merchant’s caravan          | 3 MPH  | 8 hours  | 24 miles | 
+| Raft or barge               | 0.5 MPH| 20 hours | 10 miles | 
+| Rowboat                     | 1.5 MPH| 10 hours | 15 miles | 
+| Sailing ship                | 2 MPH  | 24 hours | 48 miles | 
+| Warship (sailed and rowed)  | 2.5 MPH| 24 hours | 60 miles | 
+| Longship (sailed and rowed) | 3 MPH  | 24 hours | 72 miles | 
+| Galley                      | 4 MPH  | 24 hours | 96 miles | 
 
-Assumes 8 hours of traveling time for overland methods. Waterborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
-
-Farmer’s cart is a two-wheeled cart with mule designed for hauling vegetables.
-Passenger wagon is a covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
+† Farmer’s cart is a two-wheeled cart with mule designed for hauling vegetables.
+‡ Passenger wagon is a covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
 
 
-```markdown
-3 mph
-3 mph
-4 mph
-5 mph
-2 mph
-3 mph
-3 mph 1/2 mph 1.5 mph 2 mph 2.5 mph 3 mph
-4 mph
-Daily Distance*
-24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
-```
+Travel Pace and Effects 
 
-
-
-* http://blogofholding.com/?p=6741
-
-Travel Pace and Effects based on D&D 5e
-
-Terrain Type and Features| Pace | Minute   | Hour    | Day      | Effect (TBD)
-------------------------:|:----:|:--------:|:-------:|:--------:|:-----
-                                               Normal Roads, Trails, Grasslands |Fast  | 400 feet | 4.00 miles | 30.00 miles | −5 penalty to passive Wisdom (Perception) scores
-                                               Normal Roads, Trails, Grasslands |Normal| 300 feet | 3.00 miles | 24.00 miles | —
-                                               Normal Roads, Trails, Grasslands |Slow  | 200 feet | 2.00 miles | 18.00 miles | Able to use stealth
-                                            Difficult Roads, Trails, Grasslands |Fast  | 200 feet | 2.00 miles | 15.00 miles | −5 penalty to passive Wisdom (Perception) scores
-                                            Difficult Roads, Trails, Grasslands |Normal| 150 feet | 1.50 miles | 12.00 miles | —
-                                            Difficult Roads, Trails, Grasslands |Slow  | 100 feet | 1.00 miles |  9.00 miles | Able to use stealth
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  | 200 feet | 2.00 miles | 15.00 miles | −5 penalty to passive Wisdom (Perception) scores
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal| 150 feet | 1.50 miles | 12.00 miles | —
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  | 100 feet | 1.00 miles |  9.00 miles | Able to use stealth
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  | 100 feet | 1.00 miles |  7.50 miles | −5 penalty to passive Wisdom (Perception) scores
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  75 feet | 0.75 miles |  6.00 miles | —
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  |  50 feet | 0.50 miles |  4.50 miles | Able to use stealth
-                                                               Normal Mountains |Fast  | 100 feet | 1.00 miles |  7.50 miles | −5 penalty to passive Wisdom (Perception) scores
-                                                               Normal Mountains |Normal|  75 feet | 0.75 miles |  6.00 miles | —
-                                                               Normal Mountains |Slow  |  50 feet | 0.50 miles |  4.50 miles | Able to use stealth
-                                                            Difficult Mountains |Fast  |  50 feet | 0.50 miles |  3.75 miles | −5 penalty to passive Wisdom (Perception) scores
-                                                            Difficult Mountains |Normal|  37 feet | 0.37 miles |  3.00 miles | —
-                                                            Difficult Mountains |Slow  |  25 feet | 0.25 miles |  2.75 miles | Able to use stealth
-{: .well .table .dccvsdnd .table-striped}
-
-
-Terrain Type and Features| Pace | Minute a hex   | Hour    | Day      | Effect (TBD)
-------------------------:|:----:|:--------:|:-------:|:--------:|:-----
-                                               Normal Roads, Trails, Grasslands |Fast  |  15.0 | 4.00 hexs | 30.00 hexs | −5 penalty to passive Wisdom (Perception) scores
-                                               Normal Roads, Trails, Grasslands |Normal|  22.5 | 3.00 hexs | 24.00 hexs | —
-                                               Normal Roads, Trails, Grasslands |Slow  |  30.0 | 2.00 hexs | 18.00 hexs | Able to use stealth
-                                            Difficult Roads, Trails, Grasslands |Fast  |  30.0 | 2.00 hexs | 15.00 hexs | −5 penalty to passive Wisdom (Perception) scores
-                                            Difficult Roads, Trails, Grasslands |Normal|  45.0 | 1.50 hexs | 12.00 hexs | —
-                                            Difficult Roads, Trails, Grasslands |Slow  |  60.0 | 1.00 hexs |  9.00 hexs | Able to use stealth
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  |  30.0 | 2.00 hexs | 15.00 hexs | −5 penalty to passive Wisdom (Perception) scores
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  45.0 | 1.50 hexs | 12.00 hexs | —
-   Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  |  60.0 | 1.00 hexs |  9.00 hexs | Able to use stealth
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Fast  |  60.0 | 1.00 hexs |  7.50 hexs | −5 penalty to passive Wisdom (Perception) scores
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Normal|  90.0 | 0.75 hexs |  6.00 hexs | —
-Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp |Slow  | 120.0 | 0.50 hexs |  4.50 hexs | Able to use stealth
-                                                               Normal Mountains |Fast  |  60.0 | 1.00 hexs |  7.50 hexs | −5 penalty to passive Wisdom (Perception) scores
-                                                               Normal Mountains |Normal|  90.0 | 0.75 hexs |  6.00 hexs | —
-                                                               Normal Mountains |Slow  | 120.0 | 0.50 hexs |  4.50 hexs | Able to use stealth
-                                                            Difficult Mountains |Fast  | 120.0 | 0.50 hexs |  3.75 hexs | −5 penalty to passive Wisdom (Perception) scores
-                                                            Difficult Mountains |Normal| 180.0 | 0.37 hexs |  3.00 hexs | —
-                                                            Difficult Mountains |Slow  | 240.0 | 0.25 hexs |  2.75 hexs | Able to use stealth
-{: .well .table .dccvsdnd .table-striped}
-
-
+| Terrain | Pace   | Feet per minute | Miles an Hour | Hourly Travel Time | Miles a day | Minute a hex | Hexs an Hour | Hexes a Day | Pace Effect (TBD)                                | 
+|--------:|:------:|:---------------:|:-------------:|:------------------:|:-----------:|:------------:|:------------:|:-----------:|:-------------------------------------------------| 
+| Easy    | Fast   | 400             | 4             | 7.5                | 30          | 15           | 4            | 30          | −5 penalty to passive Wisdom (Perception) scores | 
+| Easy    | Normal | 300             | 3             | 8                  | 24          | 20           | 3            | 24          | —                                                | 
+| Easy    | Slow   | 200             | 2             | 9                  | 18          | 30           | 2            | 18          | Able to use stealth                              | 
+| Normal  | Fast   | 200             | 2             | 7.5                | 15          | 30           | 2            | 15          | −5 penalty to passive Wisdom (Perception) scores | 
+| Normal  | Normal | 150             | 1.5           | 8                  | 12          | 40           | 1.5          | 12          | —                                                | 
+| Normal  | Slow   | 100             | 1             | 9                  | 9           | 60           | 1            | 9           | Able to use stealth                              | 
+| Hard    | Fast   | 100             | 1             | 7.5                | 7.5         | 60           | 1            | 7.5         | −5 penalty to passive Wisdom (Perception) scores | 
+| Hard    | Normal | 75              | 0.75          | 8                  | 6           | 80           | 0.75         | 6           | —                                                | 
+| Hard    | Slow   | 50              | 0.5           | 9                  | 4.5         | 120          | 0.5          | 4.5         | Able to use stealth                              | 
+| Extreme | Fast   | 50              | 0.5           | 7.5                | 3.75        | 120          | 0.5          | 3.75        | −5 penalty to passive Wisdom (Perception) scores | 
+| Extreme | Normal | 37.5            | 0.375         | 8                  | 3           | 160          | 0.375        | 3           | —                                                | 
+| Extreme | Slow   | 25              | 0.25          | 9                  | 2.25        | 240          | 0.25         | 2.25        | Able to use stealth                              | 
 
 
 ## Kingdom Scale (6 Mile Per Hex)
