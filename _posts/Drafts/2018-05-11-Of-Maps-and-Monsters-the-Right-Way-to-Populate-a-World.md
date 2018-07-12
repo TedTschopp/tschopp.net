@@ -543,10 +543,19 @@ The remains of a wall may contain many small windows or a single large aperture.
 | Warship (sailed and rowed)  | 2.5 MPH| 24 hours | 60 miles | 
 | Longship (sailed and rowed) | 3 MPH  | 24 hours | 72 miles | 
 | Galley                      | 4 MPH  | 24 hours | 96 miles | 
+{: .well .table .table-striped}
 
 † Farmer’s cart is a two-wheeled cart with mule designed for hauling vegetables.
 ‡ Passenger wagon is a covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
 
+
+| Label   | Type of Terrian                                                                                                   | 
+|---------|-------------------------------------------------------------------------------------------------------------------| 
+| Easy    | Normal Roads, Trails, Grasslands                                                                                  | 
+| Normal  | Difficult Roads, Trails, Grasslands, Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp | 
+| Hard    | Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp, Normal Mountains                 | 
+| Extreme | Difficult Mountains                                                                                               | 
+{: .well .table .table-striped}
 
 Travel Pace and Effects 
 
@@ -564,7 +573,7 @@ Travel Pace and Effects
 | Extreme | Fast   | 50              | 0.5           | 7.5                | 3.75        | 120          | 0.5          | 3.75        | −5 penalty to passive Wisdom (Perception) scores | 
 | Extreme | Normal | 37.5            | 0.375         | 8                  | 3           | 160          | 0.375        | 3           | —                                                | 
 | Extreme | Slow   | 25              | 0.25          | 9                  | 2.25        | 240          | 0.25         | 2.25        | Able to use stealth                              | 
-
+{: .well .table .table-striped}
 
 ## Kingdom Scale (6 Mile Per Hex)
 
