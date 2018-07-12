@@ -526,37 +526,59 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 ## Providence Scale (1 Mile Per Hex)
 
-```markdown
+
 
     Types of Transportation | Pace | Minute   | Hour    | Day      | Effect (TBD)
 ---------------------------:|:----:|:--------:|:-------:|:--------:|:-----
-             Transportation | Fast |
-             Transportation |Normal|
-                    Walking |Fast  |
-                    Walking |Normal|
-             Mule or donkey |Fast  |
-             Mule or donkey |Normal|
-              Horse or pony |Fast  |
-              Horse or pony |Normal|
-                   Warhorse |Fast  |
-                   Warhorse |Normal|
-            Farmer’s cart** |Fast  |
-            Farmer’s cart** |Normal|
-         Passenger wagon*** |Fast  |
-         Passenger wagon*** |Normal|
-         Merchant’s caravan |Fast  |
-         Merchant’s caravan |Normal|
-              Raft or barge |Fast  |
-              Raft or barge |Normal|
-                    Rowboat |Fast  |
-               Sailing ship |Normal|
-               Sailing ship |Fast  |
- Warship (sailed and rowed) |Normal|
- Warship (sailed and rowed) |Fast  |
-Longship (sailed and rowed) |Normal|
-Longship (sailed and rowed) |Fast  |
-                     Galley |Normal|
-                     Galley |Fast  |
+             Transportation | Fast |          |         |          |
+             Transportation |Normal|          |         |          |
+             Transportation | Slow |          |         |          |
+                    Walking |Fast  |          |         |          |
+                    Walking |Normal|          |         |          |
+                    Walking | Slow |          |         |          |
+             Mule or donkey |Fast  |          |         |          |
+             Mule or donkey |Normal|          |         |          |
+             Mule or donkey | Slow |          |         |          |
+              Horse or pony |Fast  |          |         |          |
+              Horse or pony |Normal|          |         |          |
+              Horse or pony | Slow |          |         |          |
+                   Warhorse | Fast |          |         |          |
+                   Warhorse |Normal|          |         |          |
+                   Warhorse | Slow |          |         |          |
+            Farmer’s cart** |Fast  |          |         |          |
+            Farmer’s cart** |Normal|          |         |          |
+            Farmer’s cart** | Slow |          |         |          |
+         Passenger wagon*** |Fast  |          |         |          |
+         Passenger wagon*** |Normal|          |         |          |
+         Passenger wagon*** | Slow |          |         |          |
+         Merchant’s caravan |Fast  |          |         |          |
+         Merchant’s caravan |Normal|          |         |          |
+         Merchant’s caravan | Slow |          |         |          |
+              Raft or barge |Fast  |          |         |          |
+              Raft or barge |Normal|          |         |          |
+              Raft or barge | Slow |          |         |          |
+                    Rowboat |Fast  |          |         |          |
+                    Rowboat |Normal|          |         |          |
+                    Rowboat | Slow |          |         |          |
+               Sailing ship | Fast |          |         |          |
+               Sailing ship |Normal|          |         |          |
+               Sailing ship | Slow |          |         |          |
+ Warship (sailed and rowed) | Fast |          |         |          |
+ Warship (sailed and rowed) |Normal|          |         |          |
+ Warship (sailed and rowed) | Slow |          |         |          |
+Longship (sailed and rowed) | Fast |          |         |          |
+Longship (sailed and rowed) |Normal|          |         |          |
+Longship (sailed and rowed) | Slow |          |         |          |
+                     Galley | Fast |          |         |          |
+                     Galley |Normal|          |         |          |
+                     Galley | Slow |          |         |          |
+
+* Assumes 8 hours of traveling time for overland methods. Wa- terborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
+** Two-wheeled cart with mule designed for hauling vegetables.
+*** Covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
+
+
+```markdown
 3 mph
 3 mph
 4 mph
@@ -567,11 +589,6 @@ Longship (sailed and rowed) |Fast  |
 4 mph
 Daily Distance*
 24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
-
-* Assumes 8 hours of traveling time for overland methods. Wa- terborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
-** Two-wheeled cart with mule designed for hauling vegetables.
-*** Covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
-
 ```
 
 
