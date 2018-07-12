@@ -528,8 +528,8 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 
 
-    Types of Transportation | Pace | Minute   | Hour    | Day      | Effect (TBD)
----------------------------:|:----:|:--------:|:-------:|:--------:|:-----
+    Types of Transportation | Pace | Minute   | Hour    | Day      | Effect TBD
+---------------------------:|:----:|:--------:|:-------:|:--------:|:-----------
              Transportation | Fast |          |         |          |
              Transportation |Normal|          |         |          |
              Transportation | Slow |          |         |          |
