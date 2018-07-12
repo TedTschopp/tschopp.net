@@ -100,7 +100,7 @@ TODO: Convert to DCC Rules.
 | Warm golden sun, slanting rays of golden light, the sun breaks through the clouds     |          |          |             |       |       |            | x       | 
 | Webs                                                                                  |          |          | x           | x     |       |            |         | 
 | Windowed walls                                                                        |          |          |             | x     |       |            |         | 
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 
 
@@ -112,7 +112,7 @@ Long overgrown, this ancient fortification still stands as an obstacle or a usef
 -------:|:-------
 A shallow sloping dyke provides creatures on the higher ground with +1 die on attack rolls. | A shallow sloping dyke provides creatures on the higher ground with Advantage on attack rolls. 
 A steep sloping dyke additionally inflicts -1 die on attack rolls to creatures on the lower ground.|A steep sloping dyke additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Birdsong
 
@@ -121,7 +121,7 @@ The singing of thrushes or blackbirds can lighten the most burdened heart.
 |   DCC | D&D 5e|
 -------:|:-------
 Creatures considered good are heartened in the presence of birdsong. They gain +1d3 Luck. | Creatures considered good are heartened in the presence of birdsong. They gain Inspiration.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Black toadstools
 
@@ -131,7 +131,7 @@ Growing in clumps on the ground, these toadstools release poisonous spores if ki
 -------:|:-------
 Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned. | Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned.
 Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes. |Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Bog
 
@@ -141,7 +141,7 @@ Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river
 -------:|:-------
 Boggy areas count as difficult terrain (halve movement). | Boggy areas count as difficult terrain (halve movement). 
 Creatures lose enough strength and enough staminia to reduce their modifiers by one point for every three rounds they fight in a bog. | Creatures gain one level of exhaustion for every three rounds they fight in a bog.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Bracken
 
@@ -150,7 +150,7 @@ Bracken grows in prodigious quantities in woodland climes, forming thick banks o
 |   DCC | D&D 5e|
 -------:|:-------
 Bracken areas count as difficult terrain (Movement halfed). | Bracken areas count as difficult terrain (Movement Halfed).
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Cliffs
 
@@ -160,7 +160,7 @@ A vertical or nearly vertical rocky incline, a cliff is 10 feet high or more.
 -------:|:-------
 In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack. |In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack.
 Creatures at the top may use a shove action to push another creature off the cliff.|Creatures at the top may use a shove action to push another creature off the cliff.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Covered pit
 
@@ -170,7 +170,7 @@ A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving 
 -------:|:-------
 Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out. | Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out.
 Falling: Falling causes 1d6 damage per 10’ fallen. For every damage die that comes up a 6, the victim breaks a bone. For each broken bone, the character permanently loses 1 point of Strength or Agility (player’s choice). The affected limb, rib, or vertebrae never heals quite right and affects the char- acter in some fashion from then on. | Falling: A fall from a great height is one of the most common hazards facing an adventurer. At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Crags, rocky outcrops (defensible rocks),huge boulders
 
@@ -181,7 +181,7 @@ Whether brought here by giants in ancient days, or simply the tip of a subterran
 Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. The uncertain footing means no more than this can be gained. This is in addition to the +1 bonus of being above above the defender | Using an entire movement action to climb up onto these pieces of scenery gives defenders advantage on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
 Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted. | Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
 Creatures on top of this scenery gain +2 modifier to shove an opponent that is below and next to them.  Shove: Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  |  Creatures on top of this scenery gain +2 modifier to a shove action on opponents below.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Dust 
 
@@ -190,7 +190,7 @@ Long ages of mouldering stone work, gnawed by frost and wind, can be reduced to 
 |   DCC | D&D 5e|
 -------:|:-------
 Creatures who cross the area of the dust who fail to make a DC 10 Dexterity check suffer the Blinded condition until the end of their next turn.|Creatures who cross the area of the dust who fail to make a DC 10 Dexterity check suffer the Blinded condition until the end of their next turn.
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Fallen statue, old walls, statue, giant fallen statue head
 
@@ -201,7 +201,7 @@ A large statue, or sturdy old walls, or fallen pieces of monumental masonry can 
 These ruins can provide cover to someone who is next to the ruin and can trace line of sight through the ruin.  They may not be targeted for an attack and is completely concealed by the ruin at ground level. | These ruins can provide total cover at ground level.
 Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. This is in addition to the +1 bonus of being above above the defender | Using an entire movement action to climb up onto these pieces of scenery gives defenders advantage on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
 Creatures on top of the statue gain +2 modifier to shove an opponent that is below and next to them.  Shove: Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  This does not stack with the advantage above. |  Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.  This does not stack with the advantage above. 
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 #### Fallen tree, pile of timber
 
@@ -600,7 +600,7 @@ Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp 
                                                             Difficult Mountains |Fast  |  50 feet | 0.50 miles |  3.75 miles | −5 penalty to passive Wisdom (Perception) scores
                                                             Difficult Mountains |Normal|  37 feet | 0.37 miles |  3.00 miles | —
                                                             Difficult Mountains |Slow  |  25 feet | 0.25 miles |  2.75 miles | Able to use stealth
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 
 Terrain Type and Features| Pace | Minute a hex   | Hour    | Day      | Effect (TBD)
@@ -623,7 +623,7 @@ Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp 
                                                             Difficult Mountains |Fast  | 120.0 | 0.50 hexs |  3.75 hexs | −5 penalty to passive Wisdom (Perception) scores
                                                             Difficult Mountains |Normal| 180.0 | 0.37 hexs |  3.00 hexs | —
                                                             Difficult Mountains |Slow  | 240.0 | 0.25 hexs |  2.75 hexs | Able to use stealth
-{: .well .table .table-striped}
+{: .well .table .dccvsdnd .table-striped}
 
 
 

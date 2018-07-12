@@ -25,22 +25,9 @@
     {% include feeds.jekyll %}
 
     <!-- Bootstrap Core CSS -->
-    {% include css-bootstrap.html %}
+    {% include all-css-includes.html %}
 
-    <!-- Custom CSS -->
-    <link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/webmention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    {% include css-font-awesome.html %}
-    
-    {% if this_is_a_draft == true %}
-        <link rel="preload" href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" as="font" type="font/woff2" crossorigin>
-        <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
-    {% endif %}
-
+    <!-- Scripts that need to be at the end of the header -->
     {% include scripts.html %}
 
 </head>
