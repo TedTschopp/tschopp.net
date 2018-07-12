@@ -49,8 +49,8 @@ Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river
 
 |   DCC | D&D 5e|
 -------:|:-------
-* Boggy areas count as difficult terrain (halve movement). | * Boggy areas count as difficult terrain (halve movement). 
-* Creatures lose enough strength and enough staminia to reduce their modifiers by one point for every three rounds they fight in a bog. | * Creatures gain one level of exhaustion for every three rounds they fight in a bog.
+Boggy areas count as difficult terrain (halve movement). | Boggy areas count as difficult terrain (halve movement). 
+Creatures lose enough strength and enough staminia to reduce their modifiers by one point for every three rounds they fight in a bog. | Creatures gain one level of exhaustion for every three rounds they fight in a bog.
 {: .well .table .table-striped}
 
 #### Cliffs
