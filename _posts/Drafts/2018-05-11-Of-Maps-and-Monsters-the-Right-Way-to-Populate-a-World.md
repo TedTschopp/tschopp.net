@@ -169,7 +169,6 @@ A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving 
 |   DCC | D&D 5e|
 -------:|:-------
 Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out. | Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out.
-{: .well .table .table-striped}
 Falling: Falling causes 1d6 damage per 10’ fallen. For every damage die that comes up a 6, the victim breaks a bone. For each broken bone, the character permanently loses 1 point of Strength or Agility (player’s choice). The affected limb, rib, or vertebrae never heals quite right and affects the char- acter in some fashion from then on. | Falling: A fall from a great height is one of the most common hazards facing an adventurer. At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.
 {: .well .table .table-striped}
 
