@@ -545,12 +545,12 @@ The remains of a wall may contain many small windows or a single large aperture.
                    Warhorse | Fast |          |         |          |
                    Warhorse |Normal|          |         |          |
                    Warhorse | Slow |          |         |          |
-            Farmer’s cart** |Fast  |          |         |          |
-            Farmer’s cart** |Normal|          |         |          |
-            Farmer’s cart** | Slow |          |         |          |
-         Passenger wagon*** |Fast  |          |         |          |
-         Passenger wagon*** |Normal|          |         |          |
-         Passenger wagon*** | Slow |          |         |          |
+              Farmer’s cart |Fast  |          |         |          |
+              Farmer’s cart |Normal|          |         |          |
+              Farmer’s cart | Slow |          |         |          |
+            Passenger wagon |Fast  |          |         |          |
+            Passenger wagon |Normal|          |         |          |
+            Passenger wagon | Slow |          |         |          |
          Merchant’s caravan |Fast  |          |         |          |
          Merchant’s caravan |Normal|          |         |          |
          Merchant’s caravan | Slow |          |         |          |
@@ -573,9 +573,10 @@ Longship (sailed and rowed) | Slow |          |         |          |
                      Galley |Normal|          |         |          |
                      Galley | Slow |          |         |          |
 
-* Assumes 8 hours of traveling time for overland methods. Wa- terborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
-** Two-wheeled cart with mule designed for hauling vegetables.
-*** Covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
+Assumes 8 hours of traveling time for overland methods. Waterborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
+
+Farmer’s cart is a two-wheeled cart with mule designed for hauling vegetables.
+Passenger wagon is a covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
 
 
 ```markdown
