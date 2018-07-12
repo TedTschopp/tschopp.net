@@ -546,11 +546,12 @@ The remains of a wall may contain many small windows or a single large aperture.
 {: .well .table .table-striped}
 
 † Farmer’s cart is a two-wheeled cart with mule designed for hauling vegetables.
+
 ‡ Passenger wagon is a covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
 
 
 | Label   | Type of Terrian                                                                                                   | 
-|---------|-------------------------------------------------------------------------------------------------------------------| 
+|--------:|:------------------------------------------------------------------------------------------------------------------| 
 | Easy    | Normal Roads, Trails, Grasslands                                                                                  | 
 | Normal  | Difficult Roads, Trails, Grasslands, Normal Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp | 
 | Hard    | Difficult Arctic, Coast, Desert, Forest, Hills, Mountains, Lakes, Rivers, Swamp, Normal Mountains                 | 
