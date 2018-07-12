@@ -70,240 +70,70 @@ Whether brought here by giants in ancient days, or simply the tip of a subterran
 
 * Creatures can hide among or behind them.
 
-#### Lone trees, boulders
-
-A lone tree makes a significant metaphor as well as a place to take cover from Orc arrows. Medium sized boulders covered with moss or spattered with lichen can also provide cover.
-
-* Creatures can hide among or behind them.
-
-* They offer three-quarters cover (+5 bonus to AC and Dexterity saving throws).
-
-#### Nettle bank or briar patch
-
-A significant bank of nettles or a briar patch can pose a serious obstacle to movement. While the stinging rash or tearing thorns are merely an inconvenience in the face of injury in combat, nettles and briars slow movement.
-
-* Nettles and briars can be crossed, but count as difficult terrain.
-
-#### Mud
-
-Thick mud underfoot can cause problems to combatants. 
-
-* Creatures fighting in thick mud suffer -1 to attack rolls.
-
-#### Scattered rocks, moorland heather, small streams
-
-Uncertain and uneven footing, dense plants that obscure the ground, and small rivulets crossing the scene of a battle can all present challenges.
-
-* These count as difficult terrain (half move through the area).
-
-#### Sloping terrain 
-
-A simple incline to the battlefield provides a tactical consideration as well as making the world feel a bit less like a flat battle map. Whether it’s part of a rolling grassy hill, a tussocked ridge, or a stony promontory, a slope might affect the whole battlefield or just a part of it. Different slopes might occur in different directions.
-
-* A shallow slope provides creatures on the higher ground with Advantage on attack rolls.
-
-* A steep slope additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
-
-#### Ravines
-
-Ravines might be deep cracks in rocky ground or channels in peaty soil carved out by now-sunken streams.
-
-* Movement is prevented across them unless a successful Dexterity check (DC 13 or more) is made. 
-
-* Creatures can hide within a ravine. 
-
-#### River shallows, stream, flood water 
-
-Broadly speaking, water flowing up to knee deep. These present difficult footing, and impedes movement. 
-
-* These count as difficult terrain (half move through the watery terrain).
-
-#### Rock edges
-
-One or a series of rocky ledges, one to three feet high.
-
-* Moving up them halves movement; moving down imparts no penalty.
-
-* Attacking from a higher position gives Advantage on attack rolls.
-
-#### Thicket 
-
-Close-growing stands of trees, a thicket is typically dominated by birch or hawthorn, or younger trees like larch or elm. 
-
-* Ranged attacks through a thicket are made at Disadvantage, even at close range. Long range
-attacks cannot be made through a thicket. 
-
-* This counts as difficult terrain (half move through the thicket).
-
-### Woodland
-
-#### Bog 
-
-Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river or torrential rain – presents a difficult battleground.
-
-* This counts as difficult terrain (half move through the bog).
-
-* Creatures gain one level of Exhaustion for every three rounds they fight in a bog.
-
-#### Bracken
-
-Bracken grows in prodigious quantities in woodland climes, forming thick banks of foliage that are difficult, but not impossible, to cross. 
-
-* Bracken areas count as difficult terrain.
-
-#### Thick trunked trees 
-
-Thick trunked trees provide excellent cover and their twisted root masses can provide hiding places for the stealthy. 
-
-* These can provide total cover – a creature behind a thick trunked tree cannot be targeted.
-
-* Creatures can hide behind or within the branches or roots of a thick trunked tree.
-
-#### Fallen tree, pile of timber
-
-A large fallen tree can provide cover from Orkish darts, as well as an elevated position from which to attack.
-
-* A fallen tree provides total cover from ground level.
-
-* Use of a full movement action allows a creature to climb onto a fallen tree, allowing Advantage on attack rolls as long as they stay on the tree. Jumping down is considered normal movement.
-
-* Creatures on a tree trunk gain a +2 modifier to a shove action on opponents below.
-
-#### Mossy masonry, root-covered wall 
-
-Damp from long years under the canopy of leaves or needles, this ancient stonework is crumbling and water logged, or burdened with the slow creep of mighty roots. 
-
-* Crouching behind an old wall provides half cover (+2 to AC and Dexterity saving throws).
-
-* Crumbling masonry is unsuitable for climbing on.
-
-#### Mud
-
-Thick mud underfoot can cause problems to combatants.
-
-* Creatures fighting in thick mud suffer -1 to attack rolls.
-
-#### Nettle bank or briar patch
-
-A significant bank of nettles or a briar patch can pose a serious obstacle to movement. While the stinging rash or tearing thorns are merely an inconvenience in the face of injury in combat, nettles and briars slow movement.
-
-* Nettles and briars can be crossed, but count as difficult terrain.
-
-#### Path, deer track
-
-A path cutting through other obstacles or terrain features offers free movement, but channels creatures in certain directions.
-
-* The path allows normal movement through other obstacles.
-
-#### Impenetrable hedge of tree limbs
-
-It can be completely impractical to move through particularly thick woodland growth. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
-
-* This area cannot be passed through during combat.
-
-#### Passable hedge of tree limbs
-
-Dried and brittle, or composed of thin limbs easily broken, this kind of foliage can be pushed through with a struggle. It offers protection from ranged attacks, and can be somewhere to disappear.
-
-* The hedge counts as difficult terrain (halves movement).
-
-* The hedge provides half cover (+2 to AC and Dexterity saving throws).
-
-* The tangle of branches can be used to hide.
-
-#### Low boughs
-
-The great limbs of ancient trees curve close to the ground.
-
-* Ranged attacks through low boughs are made at Disadvantage, even at close range. Long range attacks cannot be made through low boughs.
-
-* Areas with low boughs can be crossed, but count as difficult terrain.
-
-#### Sloping terrain
-
-A simple incline to the battlefield provides a tactical consideration as well as making the world feel a bit less like a flat battle map. Whether it’s part of a rolling grassy hill, a tussocked ridge, or a stony promontory, a slope might affect the whole battlefield or just a part of it. Different slopes might occur in different directions.
-
-* A shallow slope provides creatures on the higher ground with Advantage on attack rolls.
-
-* A steep slope additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
-
-#### Thicket
-
-A close-growing stand of trees, a thicket is typically dominated by birch or hawthorn, or younger trees like larch or elm.
-
-* Ranged attacks through a thicket are made at Disadvantage, even at close range. Long range attacks cannot be made through a thicket. 
-
-* This counts as difficult terrain (half move through the thicket).
-
-### The Haunted Forest
-
-#### Black toadstools
-
-Growing in clumps on the ground, these toadstools release poisonous spores if kicked.
-
-* Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned.
-
-* Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes.
-
-#### Flooded pit
-
-A deep pit full of brackish water is covered in a blanket of fallen leaves, rendering it invisible.
-
-* Any creature falling into the pit must make a DC 10 Constitution saving throw or gain one level of Exhaustion.
-
-#### Impenetrable hedge of tree limbs
-
-It can be completely impractical to move through areas where Mirkwood grows particularly thick. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
-
-* This area cannot be passed through during combat.
-
-#### Sucking bog
-
-A deep slimy expanse of rotted black leaf mould lies over deep, shifting, greasy soil.
-
-* Any creature crossing the bog must make a DC 12 Dexterity or Strength check. If they fail,  they are considered Grappled every round until they can make the same check successfully, at which point they may exit the bog on any side.
-
-* A shove action can be used to push a creature adjacent to the sucking bog into it. 
-
-#### Poison nettles, black briars
-
-A swathe of evil-looking nettles or brambles.
-
-* Any creature attempting to cross must make a DC 10 Constitution saving throw or suffer 5 (1d10) slashing damage. Optionally, these may also inflict the Poisoned condition. 
-
-#### Poisonous fumes
-
-Air so stagnant, so filled with the miasma of toadstools and rotting leaf mould, that it is dangerous to breathe in. 
-
-* Creatures moving through the fume are considered Poisoned while in it, and for 1d6 rounds after they leave the fume.
-
-#### Rotten Trees
-
-For long ages the great black trees in Mirkwood can stand dead, rotting away from the inside. If disturbed they fall, bringing their sodden weight of branches down on any not quick enough to leap aside. 
-
-* If combat comes within 10 feet of a rotten tree, there is a 1 in 6 chance each round that it will fall, showering everyone within a 10-foot radius of the trunk with heavy branches or the trunk itself. Creatures within this radius suffer 5 (1d10) bludgeoning damage.
-
-#### Roots 
-
-Great tangles of roots cover the forest floor in parts of Mirkwood.
-
-* To cross the roots, creatures must make a DC 10 Dexterity check. If they fail, they are considered Prone.
-
-#### Sloping terrain
-
-A simple incline to the battlefield provides a tactical consideration as well as making the world feel a bit less like a flat battle map. Whether it’s part of a great ridge through the forest, a hummock covered in black pine needles, or an ivy choked promontory, a slope might affect the whole battlefield or just a part of it. Different slopes might occur in different directions.
-
-* A shallow slope provides creatures on the higher ground with Advantage on attack rolls.
-
-* A steep slope additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
-
-#### Webs
-
-Great limp curtains of ancient Spider webs hang in the air in the silent depths of Mirkwood.
-
-* Any creature crossing the webs must make a DC 12 Dexterity or Strength check. If they fail, they are considered Grappled every round until they can make the same check successfully, at which point they may exit the web on any side.
-
-### Ruin
+| Type of Terrain                                                                       | The Wild | Woodland | Deep Forest | Ruins | Caves | Atmosphere | Weather | 
+|--------------------------------------------------------------------------------------:|:--------:|:--------:|:-----------:|:-----:|:-----:|:----------:|:-------:| 
+| Ancient dyke                                                                          |          |          |             | x     |       |            |         | 
+| Birdsong                                                                              |          |          |             |       |       | x          |         | 
+| Black toadstools                                                                      |          |          | x           |       |       |            |         | 
+| Bog                                                                                   | x        | x        |             |       |       |            |         | 
+| Bracken                                                                               |          | x        |             | x     |       |            |         | 
+| Cliffs                                                                                | x        |          |             |       | x     |            |         | 
+| Covered pit                                                                           |          |          |             | x     |       |            |         | 
+| Crags, rocky outcrops (defensible rocks),huge boulders                                | x        |          |             |       | x     |            |         | 
+| Dust                                                                                  |          |          |             | x     |       |            |         | 
+| Fallen statue, old walls, statue, giant fallen statue head                            |          |          |             | x     |       |            |         | 
+| Fallen tree, pile of timber                                                           |          | x        |             |       |       |            |         | 
+| Flooded pit                                                                           |          |          | x           |       |       |            |         | 
+| Foundations                                                                           |          |          |             | x     |       |            |         | 
+| Freezing cold, torrential downpour, blizzard                                          |          |          |             |       |       |            | x       | 
+| Freezing pool                                                                         |          |          |             |       | x     |            |         | 
+| Gale, strong wind                                                                     |          |          |             |       |       |            | x       | 
+| Impenetrable hedge of tree limbs                                                      |          | x        | x           |       |       |            |         | 
+| Incessant buzzing of insects                                                          |          |          |             |       |       | x          |         | 
+| Lone trees, boulders                                                                  | x        |          |             |       |       |            |         | 
+| Low boughs                                                                            |          | x        |             |       |       |            |         | 
+| Low ceilings                                                                          |          |          |             |       | x     |            |         | 
+| Mossy masonry, root-covered wall                                                      |          | x        |             |       |       |            |         | 
+| Mud                                                                                   | x        | x        |             |       |       |            |         | 
+| Narrow walls                                                                          |          |          |             |       | x     |            |         | 
+| Nettle bank or briar patch                                                            | x        | x        |             | x     |       |            |         | 
+| Old floors                                                                            |          |          |             | x     |       |            |         | 
+| Partial and collapsed floors, stairs, broken stairs                                   |          |          |             | x     |       |            |         | 
+| Passable hedge of tree limbs                                                          |          | x        |             |       |       |            |         | 
+| Path, deer track                                                                      |          | x        |             |       |       |            |         | 
+| Pillar                                                                                |          |          |             | x     |       |            |         | 
+| Pit                                                                                   |          |          |             | x     |       |            |         | 
+| Poison nettles, black briars                                                          |          |          | x           |       |       |            |         | 
+| Poisonous fumes                                                                       |          |          | x           |       |       |            |         | 
+| Puddles, slimy floor, slippery floor                                                  |          |          |             |       | x     |            |         | 
+| Queer sounds, dead silence, an unsettling atmosphere, an eerie humming sound, disturbing echoes|          |          |             |       |       | x          |         | 
+| Ravines                                                                               | x        |          |             |       |       |            |         | 
+| River shallows, stream, flood water                                                   | x        |          |             |       |       |            |         | 
+| Roar of water                                                                         |          |          |             |       |       | x          |         | 
+| Rock edges                                                                            | x        |          |             |       | x     |            |         | 
+| Rock pillar                                                                           |          |          |             |       | x     |            |         | 
+| Rocky floor, tiny stalagmites, pool, rubbish-strewn floor, shale floor                |          |          |             |       | x     |            |         | 
+| Roots                                                                                 |          |          | x           |       |       |            |         | 
+| Rotten Trees                                                                          |          |          | x           |       |       |            |         | 
+| Rubble                                                                                |          |          |             | x     |       |            |         | 
+| Scattered rocks, moorland heather, small streams                                      | x        |          |             |       |       |            |         | 
+| Slope                                                                                 |          |          |             |       | x     |            |         | 
+| Sloping terrain                                                                       | x        | x        | x           |       |       |            |         | 
+| Sucking bog                                                                           |          |          | x           |       |       |            |         | 
+| Terrible stench, the scent of death                                                   |          |          |             |       |       | x          |         | 
+| Thick fog, smoke, eerie mist                                                          |          |          |             |       |       |            | x       | 
+| Thick trunked trees                                                                   |          | x        |             |       |       |            |         | 
+| Thicket                                                                               | x        | x        |             |       |       |            |         | 
+| Unstable stalactites                                                                  |          |          |             |       | x     |            |         | 
+| Unstable walls                                                                        |          |          |             | x     |       |            |         | 
+| Warm golden sun, slanting rays of golden light, the sun breaks through the clouds     |          |          |             |       |       |            | x       | 
+| Webs                                                                                  |          |          | x           | x     |       |            |         | 
+| Windowed walls                                                                        |          |          |             | x     |       |            |         | 
+{: .well .table .table-striped}
+>>>>>>> b01bec99884ff1e2d90c824c763d2f91187523a0
+
+
+TODO: Convert to DCC Rules.
 
 #### Ancient dyke
 
@@ -313,11 +143,41 @@ Long overgrown, this ancient fortification still stands as an obstacle or a usef
 
 * A steep sloping dyke additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
 
+#### Birdsong
+
+The singing of thrushes or blackbirds can lighten the most burdened heart.
+
+* Creatures considered good are heartened in the presence of birdsong. They gain Inspiration.
+
+#### Black toadstools
+
+Growing in clumps on the ground, these toadstools release poisonous spores if kicked.
+
+* Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned.
+
+* Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes.
+
+#### Bog
+
+Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river or torrential rain – presents a challenging battleground.
+
+* Boggy areas count as difficult terrain (halve movement).
+
+* Creatures lose three points of strengh and staminia for every three rounds they fight in a bog.
+
 #### Bracken
 
-Bracken grows in prodigious quantities in the shade of ruins, forming thick banks of foliage that are difficult, but not impossible, to cross.
+Bracken grows in prodigious quantities in woodland climes, forming thick banks of foliage that are difficult, but not impossible, to cross. 
 
-* Bracken can be crossed, but at half movement.
+* Bracken areas count as difficult terrain.
+
+#### Cliffs
+
+A vertical or nearly vertical rocky incline, a cliff is 10 feet high or more.
+
+* In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack.
+
+* Creatures at the top may use a shove action to push another creature off the cliff.
 
 #### Covered pit
 
@@ -330,6 +190,16 @@ A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving 
 * The pit provides total cover to creatures inside it.
 
 * Once it has been uncovered, a shove action can be used to push adjacent creatures into the pit.
+
+#### Crags, rocky outcrops (defensible rocks),huge boulders
+
+Whether brought here by giants in ancient days, or simply the tip of a subterranean mountain, boulders and craggy outcrops can provide a vital combat Advantage.
+
+* Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
+
+* Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
+
+* Creatures can hide among or behind them.
 
 #### Dust 
 
@@ -347,17 +217,108 @@ A large statue, or sturdy old walls, or fallen pieces of monumental masonry can 
 
 * Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.
 
+#### Fallen tree, pile of timber
+
+A large fallen tree can provide cover from Orkish darts, as well as an elevated position from which to attack.
+
+* A fallen tree provides total cover from ground level.
+
+* Use of a full movement action allows a creature to climb onto a fallen tree, allowing Advantage on attack rolls as long as they stay on the tree. Jumping down is considered normal movement.
+
+* Creatures on a tree trunk gain a +2 modifier to a shove action on opponents below.
+
 #### Foundations
 
 Barely clearing the ground cover, these stone blocks can make movement difficult. They usually form linear features, with some spread of tumbled masonry.
 
 * Moving through foundations counts as difficult terrain (half move through the foundations). 
 
+#### Flooded pit
+
+A deep pit full of brackish water is covered in a blanket of fallen leaves, rendering it invisible.
+
+* Any creature falling into the pit must make a DC 10 Constitution saving throw or gain one level of Exhaustion.
+
+#### Freezing cold, torrential downpour, blizzard
+
+* These invasive weather conditions mean that creatures without shelter from them suffer Disadvantage to their attack rolls and ability checks.
+
+#### Impenetrable hedge of tree limbs
+
+It can be completely impractical to move through areas where Mirkwood grows particularly thick. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
+
+* This area cannot be passed through during combat.
+
+#### Freezing pool
+
+Never warmed by the sun, a deep rock pool of frigid water is a dangerous place to fall.
+
+* Any creature crossing the pool must make a DC 10 Constitution save. If they fail, they gain a level of Exhaustion.
+
+* A shove action can be used to push a creature adjacent to the pool into it.
+
+#### Gale, strong wind
+
+* Ranged attacks are made at Disadvantage.
+
+
+#### Impenetrable hedge of tree limbs
+
+It can be completely impractical to move through particularly thick woodland growth. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
+
+* This area cannot be passed through during combat.
+
+#### Incessant buzzing of insects
+
+* Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
+
+#### Lone trees, boulders
+
+A lone tree makes a significant metaphor as well as a place to take cover from Orc arrows. Medium sized boulders covered with moss or spattered with lichen can also provide cover.
+
+* Creatures can hide among or behind them.
+
+* They offer three-quarters cover (+5 bonus to AC and Dexterity saving throws).
+
+#### Low boughs
+
+The great limbs of ancient trees curve close to the ground.
+
+* Ranged attacks through low boughs are made at Disadvantage, even at close range. Long range attacks cannot be made through low boughs.
+
+* Areas with low boughs can be crossed, but count as difficult terrain.
+
+#### Low ceilings
+
+The cavern was not formed with Big Folk in mind. 
+
+* All creatures of medium size or larger must crouch, suffering Disadvantage on all ability checks and attack rolls.
+
+#### Mossy masonry, root-covered wall 
+
+Damp from long years under the canopy of leaves or needles, this ancient stonework is crumbling and water logged, or burdened with the slow creep of mighty roots. 
+
+* Crouching behind an old wall provides half cover (+2 to AC and Dexterity saving throws).
+
+* Crumbling masonry is unsuitable for climbing on.
+
+#### Mud
+
+Thick mud underfoot can cause problems to combatants. 
+
+* Creatures fighting in thick mud suffer -1 to attack rolls.
+
+#### Narrow walls 
+
+The walls of the cavern squeeze tightly together. 
+
+* Two-handed weapons impose Disadvantage. 
+
 #### Nettle bank or briar patch
 
-A significant bank of nettles or a briar patch can pose a serious obstacle to movement. While the stinging rash or tearing thorns are merely an inconvenience in the face of injury in combat, nettles and briars slow movement. 
+A significant bank of nettles or a briar patch can pose a serious obstacle to movement. While the stinging rash or tearing thorns are merely an inconvenience in the face of injury in combat, nettles and briars slow movement.
 
-* Nettles and briars can be crossed, but at half movement.
+* Nettles and briars can be crossed, but count as difficult terrain.
 
 #### Old floors
 
@@ -372,6 +333,30 @@ One or more masonry ledges, each one to three feet high.
 * Moving up them halves movement; moving down has no penalty.
 
 * Attacking from a higher position gives Advantage on attack rolls.
+
+#### Rubble
+
+Creating uncertain and uneven footing, rubble flung across the battlefield can make movement difficult.
+
+* Rubble counts as difficult terrain (half move through the rubble).
+
+* Creatures can hide among large enough rubble. 
+
+#### Passable hedge of tree limbs
+
+Dried and brittle, or composed of thin limbs easily broken, this kind of foliage can be pushed through with a struggle. It offers protection from ranged attacks, and can be somewhere to disappear.
+
+* The hedge counts as difficult terrain (halves movement).
+
+* The hedge provides half cover (+2 to AC and Dexterity saving throws).
+
+* The tangle of branches can be used to hide.
+
+#### Path, deer track
+
+A path cutting through other obstacles or terrain features offers free movement, but channels creatures in certain directions.
+
+* The path allows normal movement through other obstacles.
 
 #### Pillar
 
@@ -393,77 +378,17 @@ A simple hole in the ground marks where some ancient cellar has collapsed.
 
 * Falling into the pit inflicts 2d10 damage and requires a successful DC 10 Dexterity check to climb out.
 
-#### Rubble
+#### Poison nettles, black briars
 
-Creating uncertain and uneven footing, rubble flung across the battlefield can make movement difficult.
+A swathe of evil-looking nettles or brambles.
 
-* Rubble counts as difficult terrain (half move through the rubble).
+* Any creature attempting to cross must make a DC 10 Constitution saving throw or suffer 5 (1d10) slashing damage. Optionally, these may also inflict the Poisoned condition. 
 
-* Creatures can hide among large enough rubble. 
+#### Poisonous fumes
 
-#### Unstable walls
+Air so stagnant, so filled with the miasma of toadstools and rotting leaf mould, that it is dangerous to breathe in. 
 
-Long years and the passing seasons have taken their toll on this once fine stonework. It is ready to topple at any moment. 
-
-* Unstable walls provide half cover (+2 to AC and Dexterity saving throws). 
-
-* These unstable structures are unsuitable for climbing.  
-
-* A shove action allows a creature to push the wall onto other creatures on the other side. They must make a DC 13 Dexterity saving throw or suffer 11 (2d10) bludgeoning damage from falling masonry.
-
-#### Webs 
-
-Giant Spiders haunt ancient ruins, making the most of the opportunities to weave their webs. 
-
-* Any creature crossing the webs must make a DC 12 Dexterity or Strength check. If they fail, the character becomes Restrained. On their turn they may use their action to make a DC 12 Dexterity or Strength check to break free. They may then exit the web on any side.
-
-#### Windowed walls 
-
-The remains of a wall may contain many small windows or a single large aperture. 
-
-* Windowed walls provide half cover (+2 to AC and Dexterity saving throws). 
-
-* These unstable structures are unsuitable for climbing.
-
-### Caves
-
-#### Cliffs
-
-A subterranean vertical or nearly vertical rocky incline, a cliff is 10 feet high or more. 
-
-* In combat, an entire movement action is required to climb 10 foot of cliff. Climbers have a -2 to AC when suffering a ranged attack. 
-
-* Creatures at the top may use a shove action to push another creature off the cliff.
-
-#### Crags, rocky outcrops (defensible rocks), huge boulders
-
-Whether brought here by giants in ancient days, or thrust up by the earth’s shudders, boulders and craggy outcrops can provide a vital combat Advantage.
-
-* Using an entire movement action to climb onto these pieces of scenery gives defenders Advantage on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
-
-* Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
-
-* Creatures can hide among or behind them.
-
-#### Freezing pool
-
-Never warmed by the sun, a deep rock pool of frigid water is a dangerous place to fall.
-
-* Any creature crossing the pool must make a DC 10 Constitution save. If they fail, they gain a level of Exhaustion.
-
-* A shove action can be used to push a creature adjacent to the pool into it.
-
-#### Low ceilings
-
-The cavern was not formed with Big Folk in mind. 
-
-* All creatures of medium size or larger must crouch, suffering Disadvantage on all ability checks and attack rolls.
-
-#### Narrow walls 
-
-The walls of the cavern squeeze tightly together. 
-
-* Two-handed weapons impose Disadvantage. 
+* Creatures moving through the fume are considered Poisoned while in it, and for 1d6 rounds after they leave the fume.
 
 #### Puddles, slimy floor, slippery floor
 
@@ -473,9 +398,29 @@ Whether the rock floor is polished to a shine by centuries of water flow, or sti
 
 * When creatures move onto the slippery floor, they must make a DC 9 Dexterity check. If they fail, they fall Prone. 
 
+#### Queer sounds, dead silence, an unsettling atmosphere, an eerie humming sound, disturbing echoes
+
+* Creatures considered good who fail a DC 10 Wisdom save have Disadvantage on ability checks and attack rolls. They may attempt another save at the end of their next turn.
+
+#### Ravines
+
+Ravines might be deep cracks in rocky ground or channels in peaty soil carved out by now-sunken streams.
+
+* Movement is prevented across them unless a successful Dexterity check (DC 13 or more) is made. 
+
+* Creatures can hide within a ravine. 
+
+#### River shallows, stream, flood water 
+
+Broadly speaking, water flowing up to knee deep. These present difficult footing, and impedes movement. 
+
+* These count as difficult terrain (half move through the watery terrain).
+
 #### Rock edges 
 
-One or a series of rocky ledges, one to three feet high. • Moving up them halves movement; moving down them has no penalty.
+One or a series of rocky ledges, one to three feet high. 
+
+* Moving up them halves movement; moving down them has no penalty.
 
 * Attacking from a higher position gives Advantage on attack rolls. 
 
@@ -493,13 +438,68 @@ A fused stalactite and stalagmite forms a large rocky pillar standing alone in a
 
 * Rock pillars offer three-quarters cover (+5 bonus to AC and Dexterity saving throws).
 
-#### Slope 
+#### Roots 
 
-A simple incline to the battlefield provides a tactical consideration as well as making the world feel a bit less like a flat battle map. Whether it’s part of a huge cavern with its own landscape, a tight pothole steeply angled into the ground, or upwardly winding passages, a slope might affect the whole battlefield, or just a part of it. Different slopes might occur in different directions.
+Great tangles of roots cover the forest floor in parts of Mirkwood.
+
+* To cross the roots, creatures must make a DC 10 Dexterity check. If they fail, they are considered Prone.
+
+#### Roar of water
+
+* Any creature in the affected area is considered to have the Deafened condition. 
+
+#### Rotten Trees
+
+For long ages the great black trees in Mirkwood can stand dead, rotting away from the inside. If disturbed they fall, bringing their sodden weight of branches down on any not quick enough to leap aside. 
+
+* If combat comes within 10 feet of a rotten tree, there is a 1 in 6 chance each round that it will fall, showering everyone within a 10-foot radius of the trunk with heavy branches or the trunk itself. Creatures within this radius suffer 5 (1d10) bludgeoning damage.
+
+#### Scattered rocks, moorland heather, small streams
+
+Uncertain and uneven footing, dense plants that obscure the ground, and small rivulets crossing the scene of a battle can all present challenges.
+
+* These count as difficult terrain (half move through the area).
+
+#### Sloping terrain 
+
+A simple incline to the battlefield provides a tactical consideration as well as making the world feel a bit less like a flat battle map. Whether it’s part of a rolling grassy hill, a tussocked ridge, a stony promontory, a huge cavern with its own landscape, a tight pothole steeply angled into the ground, or upwardly winding passages, a slope might affect the whole battlefield or just a part of it. Different slopes might occur in different directions.
 
 * A shallow slope provides creatures on the higher ground with Advantage on attack rolls.
 
 * A steep slope additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
+
+#### Sucking bog
+
+A deep slimy expanse of rotted black leaf mould lies over deep, shifting, greasy soil.
+
+* Any creature crossing the bog must make a DC 12 Dexterity or Strength check. If they fail,  they are considered Grappled every round until they can make the same check successfully, at which point they may exit the bog on any side.
+
+* A shove action can be used to push a creature adjacent to the sucking bog into it. 
+
+#### Terrible stench, the scent of death 
+
+* Creatures considered good who are affected have Disadvantage on ability checks and attack rolls.
+
+#### Thick trunked trees 
+
+Thick trunked trees provide excellent cover and their twisted root masses can provide hiding places for the stealthy. 
+
+* These can provide total cover – a creature behind a thick trunked tree cannot be targeted.
+
+* Creatures can hide behind or within the branches or roots of a thick trunked tree.
+
+#### Thick fog, smoke, eerie mist
+
+* Creatures trying to navigate their way through these atmospheric conditions are considered to have the Blinded condition.
+
+#### Thicket 
+
+Close-growing stands of trees, a thicket is typically dominated by birch or hawthorn, or younger trees like larch or elm. 
+
+* Ranged attacks through a thicket are made at Disadvantage, even at close range. Long range
+attacks cannot be made through a thicket. 
+
+* This counts as difficult terrain (half move through the thicket).
 
 #### Unstable stalactites 
 
@@ -507,53 +507,40 @@ Grown slowly in the dark over thousands of years, these stalactites are fracture
 
 * If combat comes within 10 feet of the unstable stalactites, there is a 1 in 6 chance each round that they will fall, showering everyone within a 10-foot radius with pieces of rock. Creatures within this radius suffer 5 (1d10) bludgeoning damage.
 
-### Atmosphere
+#### Unstable walls
 
-Queer sounds, dead silence, an unsettling atmosphere, an eerie humming sound, disturbing echoes
+Long years and the passing seasons have taken their toll on this once fine stonework. It is ready to topple at any moment. 
 
-* Creatures considered good who fail a DC 10 Wisdom save have Disadvantage on ability checks and attack rolls. They may attempt another save at the end of their next turn.
+* Unstable walls provide half cover (+2 to AC and Dexterity saving throws). 
 
-#### Roar of water
+* These unstable structures are unsuitable for climbing.  
 
-* Any creature in the affected area is considered to have the Deafened condition. 
+* A shove action allows a creature to push the wall onto other creatures on the other side. They must make a DC 13 Dexterity saving throw or suffer 11 (2d10) bludgeoning damage from falling masonry.
 
-#### Terrible stench, the scent of death 
-
-* Creatures considered good who are affected have Disadvantage on ability checks and attack rolls.
-
-#### The incessant buzzing of insects
-
-* Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
-
-#### Birdsong
-
-The singing of thrushes or blackbirds can lighten the most burdened heart.
-
-* Creatures considered good are heartened in the presence of birdsong. They gain Inspiration.
-
-### Weather
-
-#### Freezing cold, torrential downpour, blizzard
-
-* These invasive weather conditions mean that creatures without shelter from them suffer Disadvantage to their attack rolls and ability checks.
-
-#### Gale, strong wind
-
-* Ranged attacks are made at Disadvantage.
-
-#### Thick fog, smoke, eerie mist
-
-* Creatures trying to navigate their way through these atmospheric conditions are considered to have the Blinded condition.
-
-#### The warm golden sun, slanting rays of golden light, the sun breaks through the clouds 
+#### Warm golden sun, slanting rays of golden light, the sun breaks through the clouds 
 
 Creatures considered good are heartened by the appearance of the sun. 
 
 * They gain Advantage on ability checks and attack rolls the next round, and Inspiration.
 
+#### Webs
+
+Great limp curtains of ancient Spider webs hang in the air in the silent depths of Mirkwood.
+
+* Any creature crossing the webs must make a DC 12 Dexterity or Strength check. If they fail, they are considered Grappled every round until they can make the same check successfully, at which point they may exit the web on any side.
+
+#### Windowed walls 
+
+The remains of a wall may contain many small windows or a single large aperture. 
+
+* Windowed walls provide half cover (+2 to AC and Dexterity saving throws). 
+
+* These unstable structures are unsuitable for climbing.
+
 
 ## Providence Scale (1 Mile Per Hex)
 
+```markdown
 
     Types of Transportation | Pace | Minute   | Hour    | Day      | Effect (TBD)
 ---------------------------:|:----:|:--------:|:-------:|:--------:|:-----
@@ -594,7 +581,7 @@ Longship (sailed and rowed) |Fast  |
 4 mph
 Daily Distance*
 24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
-
+```
 
 
 
