@@ -565,7 +565,7 @@ The remains of a wall may contain many small windows or a single large aperture.
 | Easy    | Normal Roads, Trails, Grasslands                                                                                  | 
 | Normal  | Difficult: Roads, Trails, Grasslands <br> Normal: Arctic, Coast, Desert, Forest, Hills, Lakes, Rivers, Swamp      | 
 | Hard    | Difficult: Arctic, Coast, Desert, Forest, Hills, Lakes, Rivers, Swamp <br> Normal Mountains                       | 
-| Extreme | <br>Difficult Mountains                                                                                               | 
+| Extreme | Difficult Mountains                                                                                               | 
 {: .well .table .table-striped}
 
 
