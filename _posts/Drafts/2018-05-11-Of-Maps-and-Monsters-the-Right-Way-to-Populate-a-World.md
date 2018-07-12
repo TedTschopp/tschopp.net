@@ -41,36 +41,6 @@ This work is the beginning of a collection of notes on Monsters and Maps.  In th
 
 TODO: Convert to DCC Rules.
 
-### The Wild
-
-#### Bog
-
-Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river or torrential rain – presents a challenging battleground.
-
-|   DCC | D&D 5e|
--------:|:-------
-Boggy areas count as difficult terrain (halve movement). | Boggy areas count as difficult terrain (halve movement). 
-Creatures lose enough strength and enough staminia to reduce their modifiers by one point for every three rounds they fight in a bog. | Creatures gain one level of exhaustion for every three rounds they fight in a bog.
-{: .well .table .table-striped}
-
-#### Cliffs
-
-A vertical or nearly vertical rocky incline, a cliff is 10 feet high or more.
-
-* In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack.
-
-* Creatures at the top may use a shove action to push another creature off the cliff.
-
-#### Crags, rocky outcrops (defensible rocks),huge boulders
-
-Whether brought here by giants in ancient days, or simply the tip of a subterranean mountain, boulders and craggy outcrops can provide a vital combat Advantage.
-
-* Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
-
-* Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
-
-* Creatures can hide among or behind them.
-
 | Type of Terrain                                                                       | The Wild | Woodland | Deep Forest | Ruins | Caves | Atmosphere | Weather | 
 |--------------------------------------------------------------------------------------:|:--------:|:--------:|:-----------:|:-----:|:-----:|:----------:|:-------:| 
 | Ancient dyke                                                                          |          |          |             | x     |       |            |         | 
@@ -134,89 +104,105 @@ Whether brought here by giants in ancient days, or simply the tip of a subterran
 
 
 
-TODO: Convert to DCC Rules.
-
 #### Ancient dyke
 
 Long overgrown, this ancient fortification still stands as an obstacle or a useful defensive feature.
 
-* A shallow sloping dyke provides creatures on the higher ground with Advantage on attack rolls. 
-
-* A steep sloping dyke additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
+|   DCC | D&D 5e|
+-------:|:-------
+A shallow sloping dyke provides creatures on the higher ground with +1 die on attack rolls. | A shallow sloping dyke provides creatures on the higher ground with Advantage on attack rolls. 
+A steep sloping dyke additionally inflicts -1 die on attack rolls to creatures on the lower ground.|A steep sloping dyke additionally inflicts Disadvantage on attack rolls to creatures on the lower ground.
+{: .well .table .table-striped}
 
 #### Birdsong
 
 The singing of thrushes or blackbirds can lighten the most burdened heart.
 
-* Creatures considered good are heartened in the presence of birdsong. They gain Inspiration.
+|   DCC | D&D 5e|
+-------:|:-------
+Creatures considered good are heartened in the presence of birdsong. They gain +1d3 Luck. | Creatures considered good are heartened in the presence of birdsong. They gain Inspiration.
+{: .well .table .table-striped}
 
 #### Black toadstools
 
 Growing in clumps on the ground, these toadstools release poisonous spores if kicked.
 
-* Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned.
-
-* Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes.
+|   DCC | D&D 5e|
+-------:|:-------
+Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned. | Any creature crossing an area of these toadstools must make a DC 10 Dexterity check. If they fail they are considered Poisoned.
+Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes. |Alternatively, another species of toadstool inflicts the Blinded condition for ten minutes.
+{: .well .table .table-striped}
 
 #### Bog
 
 Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river or torrential rain – presents a challenging battleground.
 
-* Boggy areas count as difficult terrain (halve movement).
-
-* Creatures lose three points of strengh and staminia for every three rounds they fight in a bog.
+|   DCC | D&D 5e|
+-------:|:-------
+Boggy areas count as difficult terrain (halve movement). | Boggy areas count as difficult terrain (halve movement). 
+Creatures lose enough strength and enough staminia to reduce their modifiers by one point for every three rounds they fight in a bog. | Creatures gain one level of exhaustion for every three rounds they fight in a bog.
+{: .well .table .table-striped}
 
 #### Bracken
 
 Bracken grows in prodigious quantities in woodland climes, forming thick banks of foliage that are difficult, but not impossible, to cross. 
 
-* Bracken areas count as difficult terrain.
+|   DCC | D&D 5e|
+-------:|:-------
+Bracken areas count as difficult terrain (Movement halfed). | Bracken areas count as difficult terrain (Movement Halfed).
+{: .well .table .table-striped}
 
 #### Cliffs
 
 A vertical or nearly vertical rocky incline, a cliff is 10 feet high or more.
 
-* In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack.
-
-* Creatures at the top may use a shove action to push another creature off the cliff.
+|   DCC | D&D 5e|
+-------:|:-------
+In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack. |In combat, a cliff takes an entire movement action to climb per 10 feet of height. Climbers have a -2 to AC when suffering a ranged attack.
+Creatures at the top may use a shove action to push another creature off the cliff.|Creatures at the top may use a shove action to push another creature off the cliff.
+{: .well .table .table-striped}
 
 #### Covered pit
 
-A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving a pit in the ground. The pit is invisible through a growth of foliage.
+A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving a pit in the ground. The pit is invisible through a growth of foliage.  Creatures can hide in the covered pit. The pit provides total cover to creatures inside it. Once it has been uncovered, a shove action can be used to push adjacent creatures into the pit.
 
-* Falling into the covered pit inflicts 2d10 damage and requires a successful DC 10 Dexterity check to climb out.
-
-* Creatures can hide in the covered pit.
-
-* The pit provides total cover to creatures inside it.
-
-* Once it has been uncovered, a shove action can be used to push adjacent creatures into the pit.
+|   DCC | D&D 5e|
+-------:|:-------
+Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out. | Falling into the covered pit inflicts falling damage for 20 feet, even if the pit isn't that deep and requires a successful DC 10 Dexterity check to climb out.
+{: .well .table .table-striped}
+Falling: Falling causes 1d6 damage per 10’ fallen. For every damage die that comes up a 6, the victim breaks a bone. For each broken bone, the character permanently loses 1 point of Strength or Agility (player’s choice). The affected limb, rib, or vertebrae never heals quite right and affects the char- acter in some fashion from then on. | Falling: A fall from a great height is one of the most common hazards facing an adventurer. At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.
+{: .well .table .table-striped}
 
 #### Crags, rocky outcrops (defensible rocks),huge boulders
 
-Whether brought here by giants in ancient days, or simply the tip of a subterranean mountain, boulders and craggy outcrops can provide a vital combat Advantage.
+Whether brought here by giants in ancient days, or simply the tip of a subterranean mountain, boulders and craggy outcrops can provide a vital advantage in combat by allowing creatures to hide among or behind them.
 
-* Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
-
-* Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
-
-* Creatures can hide among or behind them.
+|   DCC | D&D 5e|
+-------:|:-------
+Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. The uncertain footing means no more than this can be gained. This is in addition to the +1 bonus of being above above the defender | Using an entire movement action to climb up onto these pieces of scenery gives defenders advantage on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
+Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted. | Crags and rocky outcrops can also be used for total cover from ground level – creatures behind a huge boulder, crag or rocky outcrop cannot be targeted.
+Creatures on top of this scenery gain +2 modifier to shove an opponent that is below and next to them.  Shove: Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  |  Creatures on top of this scenery gain +2 modifier to a shove action on opponents below.
+{: .well .table .table-striped}
 
 #### Dust 
 
 Long ages of mouldering stone work, gnawed by frost and wind, can be reduced to a powder. If disturbed, a cloud of dust fills the air.
 
-* Creatures who cross the area of the dust who fail to make a DC 10 Dexterity check suffer the Blinded condition until the end of their next turn.
+|   DCC | D&D 5e|
+-------:|:-------
+Creatures who cross the area of the dust who fail to make a DC 10 Dexterity check suffer the Blinded condition until the end of their next turn.|Creatures who cross the area of the dust who fail to make a DC 10 Dexterity check suffer the Blinded condition until the end of their next turn.
+{: .well .table .table-striped}
 
 #### Fallen statue, old walls, statue, giant fallen statue head
 
 A large statue, or sturdy old walls, or fallen pieces of monumental masonry can provide cover from ranged attacks, as well as an elevated position from which to attack.
 
-* These ruins can provide total cover at ground level.
-
-* Use of a full movement action allows a creature to climb onto a fallen statue, allowing Advantage on attack rolls as long as they stay on the statue. Jumping down is considered normal movement.
-
-* Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.
+|   DCC | D&D 5e|
+-------:|:-------
+These ruins can provide cover to someone who is next to the ruin and can trace line of sight through the ruin.  They may not be targeted for an attack and is completely concealed by the ruin at ground level. | These ruins can provide total cover at ground level.
+Using an entire movement action to climb up onto these pieces of scenery gives defenders +1 die on attack rolls against creatures below them. This is in addition to the +1 bonus of being above above the defender | Using an entire movement action to climb up onto these pieces of scenery gives defenders advantage on attack rolls against creatures below them. The uncertain footing means no more than this can be gained.
+Creatures on top of the statue gain +2 modifier to shove an opponent that is below and next to them.  Shove: Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  This does not stack with the advantage above. |  Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.  This does not stack with the advantage above. 
+{: .well .table .table-striped}
 
 #### Fallen tree, pile of timber
 
@@ -582,6 +568,11 @@ Longship (sailed and rowed) |Fast  |
 4 mph
 Daily Distance*
 24 miles 24 miles 32 miles 40 miles 16 miles 24 miles 24 miles 5 miles 15 miles 48 miles 60 miles 72 miles 96 miles
+
+* Assumes 8 hours of traveling time for overland methods. Wa- terborne travel can continue longer for man-powered methods (e.g., barges and rowboats) and go overnight for sailing vessels, which is built into the daily distance.
+** Two-wheeled cart with mule designed for hauling vegetables.
+*** Covered wagon designed for carrying paying passengers. Available only between major destinations (e.g., large cities or trading ports).
+
 ```
 
 
