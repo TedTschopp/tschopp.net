@@ -528,6 +528,48 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 
 
+### Easy Terrain
+
+#### Trails
+
+#### Grasslands
+
+#### Roads
+
+### Normal Terrain
+
+#### Artic 
+
+#### Desert
+
+#### Forest
+
+#### Hills
+
+#### Mountains
+
+#### Swamps
+
+#### Lakes
+
+#### Rivers
+
+#### Coastlines
+
+### Hard
+
+#### Mountains
+
+| Label   | Type of Terrian                                                                                                   | 
+|--------:|:------------------------------------------------------------------------------------------------------------------| 
+| Easy    | Normal Roads, Trails, Grasslands                                                                                  | 
+| Normal  | Difficult: Roads, Trails, Grasslands <br> Normal: Arctic, Coast, Desert, Forest, Hills, Lakes, Rivers, Swamp      | 
+| Hard    | Difficult: Arctic, Coast, Desert, Forest, Hills, Lakes, Rivers, Swamp <br> Normal Mountains                       | 
+| Extreme | <br>Difficult Mountains                                                                                               | 
+{: .well .table .table-striped}
+
+
+
 | Transportation              |    MPH |     Time |    Daily | 
 |----------------------------:|:------:|:--------:|:--------:| 
 | Walking                     | 3 MPH  | 8 hours  | 24 miles | 
