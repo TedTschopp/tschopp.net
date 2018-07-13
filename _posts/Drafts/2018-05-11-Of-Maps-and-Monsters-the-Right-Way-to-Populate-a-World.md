@@ -23,6 +23,12 @@ categories:
 draft-status: notes
 mathjax: true
 ---
+<style>
+.dccvsdnd thead tr th {
+  width: 50%;
+}
+</style>
+
 
 # Contents
 {:.no_toc}
@@ -462,6 +468,16 @@ A deep slimy expanse of rotted black leaf mould lies over deep, shifting, greasy
 
 * A shove action can be used to push a creature adjacent to the sucking bog into it. 
 
+
+#### Tallgrass
+Tallgrass Prarie grass is covered in grasses that are between 5 - 10 feet tallk.  
+
+* Ranged attacks through a Tallgrass are made at Disadvantage, even at close range. Long range
+attacks cannot be made through a thicket. 
+
+* TODO:  Add something about Line of Sight being reduced.
+
+
 #### Terrible stench, the scent of death 
 
 * Creatures considered good who are affected have Disadvantage on ability checks and attack rolls.
@@ -532,30 +548,50 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 #### Grasslands
 
+There are 5 basic grassland types.  Here is a basic description of each type.
+
+* Tallgrass (true) prairie - A hex with this grass will naturally grow up to 10 feet tall.  If a given height is needed, roll 1d6+4 for the local height.  This sort of grassland is considered difficult. This grassland will generally be home to grazing animals and the creatures that prey upon them.  They will spend most of their time hiding in the grass.
+* Shortgrass prairie - A hex with this grass will naturally grow up to 18 inches.  If a given height is needed roll a 3d6 to find the number of inches.  This sort of grassland is considered a normal grassland.  These grasslands are generally the first areas settled by civilization.  Additionally these graasslands will be grazed by creatures in large herds that can protect themselves from prey with their numbers.
+* Mixed-grass prairie - A hex with this grass will be a combination of Short and Tall Grass praries.  For heights see Tall and Short Grass.  This sort of grassland is considered difficult.
+* Annual grassland - A Hex with this grass will grow simularly to the Shortgrass Prarie, but it will die in the winter and need to be reseeded again in the spring.  By the end of summer this grass will have become brown and have died off.
+* High mountain grassland - A hex with this grass will grow at high elevations generally above 7000 feet.  These grasslands are generally in valleys and on the sloaps of the mountains facing away from the sun (south facing in the northern hemisphere, north facing in the southern hemisphere).  They are 2d6 inches in height.  
+
+Names for Grasslands managed by intelligent species: Farmland, Cultivation, Grazing Lands, Pastures, 
+
+Names for untouched Grasslands: Plain(256), Prairie(128), Savanna(64), Shrubs(32), Steppe(16), Field(8), Range(4), Veldt(2), Swarth (1)
+
 #### Artic 
+Snow Fields, Ice Plains, Glaciers
 
 #### Desert
+Cactus, Bad Lands, Steppe, Sand Dunes, 
 
-#### Forest
+* Desert (arid) grassland - From a gaming perspective these are deserts.  Shrubs will not grow here, but tufts of hearty grasses will grow.  This grass is sparce and simular in nature to the Annual and Shortgrass prairies.  
 
-#### Hills
+* Shrub steppe - From a gaming perspective these are deserts.  Shrubs will grow here.
 
 #### Mountains
+Broken Lands, Rock Faces, Snowcaps, 
 
 ### Terrain features
+A given hex may contain certai features that are in addition to the 
 
 #### Trails
 
 #### Roads
 
+#### Forest
+Evergreen, Jungle, Deciduous, 
+
 #### Swamps
+Marsh, Moor, Wetlands, 
 
 #### Lakes
 
 #### Rivers
 
 #### Coastlines
-
+Beach, Reefs, Shoals, 
 
 | Label   | Type of Terrian                                                                                                   | 
 |--------:|:------------------------------------------------------------------------------------------------------------------| 
