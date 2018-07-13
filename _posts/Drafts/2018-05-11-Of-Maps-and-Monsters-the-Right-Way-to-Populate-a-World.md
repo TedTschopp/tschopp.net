@@ -528,15 +528,9 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 
 
-### Easy Terrain
-
-#### Trails
+### Terrain
 
 #### Grasslands
-
-#### Roads
-
-### Normal Terrain
 
 #### Artic 
 
@@ -548,6 +542,12 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 #### Mountains
 
+### Terrain features
+
+#### Trails
+
+#### Roads
+
 #### Swamps
 
 #### Lakes
@@ -556,9 +556,6 @@ The remains of a wall may contain many small windows or a single large aperture.
 
 #### Coastlines
 
-### Hard
-
-#### Mountains
 
 | Label   | Type of Terrian                                                                                                   | 
 |--------:|:------------------------------------------------------------------------------------------------------------------| 
