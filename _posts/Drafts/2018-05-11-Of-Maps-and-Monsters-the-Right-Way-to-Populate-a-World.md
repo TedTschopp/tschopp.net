@@ -313,7 +313,11 @@ The great limbs of ancient trees curve close to the ground.
 
 The cavern was not formed with Big Folk in mind. 
 
-* All creatures of medium size or larger must crouch, suffering Disadvantage on all ability checks and attack rolls.
+|   DCC | D&D 5e|
+-------:|:-------
+* All without the racial ability of Small Size (Halflings) suffering -1 die on all ability checks and attack rolls. | All creatures of medium size or larger must crouch, suffering Disadvantage on all ability checks and attack rolls.
+{: .well .table .dccvsdnd .table-striped}
+
 
 #### Mossy masonry, root-covered wall 
 
@@ -333,7 +337,10 @@ Thick mud underfoot can cause problems to combatants.
 
 The walls of the cavern squeeze tightly together. 
 
-* Two-handed weapons impose Disadvantage. 
+|   DCC | D&D 5e|
+-------:|:-------
+Anyone using a Two-Handed Weapon has a -1 die on all rolls | Two-handed weapons impose Disadvantage.
+{: .well .table .dccvsdnd .table-striped} 
 
 #### Nettle bank or briar patch
 
@@ -611,13 +618,13 @@ A given hex may contain certai features that are in addition to the
 #### Trails
 A trail is usually a path, track, lane, road, footpath, walking trail, cattle trail, or game trail that is commonly usesd to facilitate easier travel through the wilderness.  
 
-
 #### Roads
 A road is an imporved and manytimes paved or cobbled trail.  These improvements make travel extremely easy regardless of the wilderness the road is going through.  
 
-
 #### Forest
 A forest is a large area dominated by trees. There are more precise definitions of forest that take into account factors such as tree density, tree height, land use, and ecological function.
+
+TODO: Cover Ground Cover in each type of forest.
 
 *Broeal forests* occupy the subarctic zone and are generally evergreen and coniferous.
 * *Temperate needleleaf forests* mostly occupy the higher latitude regions, as well as high altitude zones and some warm temperate areas, especially on nutrient-poor or otherwise unfavourable soils. These forests are composed entirely of various pines.
@@ -633,10 +640,14 @@ A forest is a large area dominated by trees. There are more precise definitions 
 * *Temperate Mixed forests* include a substantial component of flowering boradleaf trees in addition to various pines.  These forests typically border the transitiion between needleleaf and broadleaf forests. 
 
 
-
-
 #### Swamps
-Marsh, Moor, Wetlands, 
+A swamp is a wetland that is forested.  Many swamps occur along large rivers where they are critically dependent upon natural water level fluctuations.   Other swamps occur on the shores of large lakes.  Some swamps have dry-land protrusions called hammocks that are covered by aquatic vegetation or vegetation that tolerates periodic flooding. The water of a swamp may be fresh water, brackish water or seawater. 
+
+*The True Swamp* is a swamp that is populated with forest trees.  This is a combination of a river, coastland, or lake with a Broeal, Tropical (Moist or Dry) Forests, or a Temperate Forest.
+
+*The Transitional Swamp* is a swamp that is populated with shrub swamps. This is a combination of a river, coastland, or lake with a Savanna / Shrublands Forest.
+
+Names for Swamps: bog, muskeg, Marsh, Moor, Wetlands
 
 #### Lakes
 
