@@ -290,8 +290,7 @@ This area cannot be passed through during combat.|This area cannot be passed thr
 
 |   DCC | D&D 5e|
 -------:|:-------
-Creatures affected have have a -1 die on ability checks and attack rolls until the insects are dealt with.
- | Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
+Creatures affected have have a -1 die on ability checks and attack rolls until the insects are dealt with. | Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
 {: .well .table .dccvsdnd .table-striped}
 
 #### Lone trees, boulders
@@ -618,7 +617,6 @@ A road is an imporved and manytimes paved or cobbled trail.  These improvements 
 
 
 #### Forest
-
 A forest is a large area dominated by trees. There are more precise definitions of forest that take into account factors such as tree density, tree height, land use, and ecological function.
 
 *Broeal forests* occupy the subarctic zone and are generally evergreen and coniferous.
