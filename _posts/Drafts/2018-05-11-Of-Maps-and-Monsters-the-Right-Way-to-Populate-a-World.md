@@ -593,12 +593,15 @@ Names for untouched Grasslands: Plain(256), Prairie(128), Savanna(64), Shrubs(32
 #### Artic 
 Snow Fields, Ice Plains, Glaciers
 
+
+Glacial, Artic/Antartic, Polar, Icy Wastes, Ice-coverd, Ice Plains, Drifts
+
 #### Desert
 Cactus, Bad Lands, Steppe, Sand Dunes, 
 
-* Desert (arid) grassland - From a gaming perspective these are deserts.  Shrubs will not grow here, but tufts of hearty grasses will grow.  This grass is sparce and simular in nature to the Annual and Shortgrass prairies.  
+* Desert (arid) grassland - Shrubs will not grow here, but tufts of hearty grasses will grow.  This grass is sparce and simular in nature to the annual and shortgrass found in prairies.  
 
-* Shrub steppe - From a gaming perspective these are deserts.  Shrubs will grow here.
+* Shrub steppe - Shrubs and grasses will grow here. The grass is sparce and simular in nature to the annual and shortgrass found in prairies. See the description of the shrubs in the seciton on forests.
 
 #### Mountains
 Broken Lands, Rock Faces, Snowcaps, 
@@ -607,11 +610,32 @@ Broken Lands, Rock Faces, Snowcaps,
 A given hex may contain certai features that are in addition to the 
 
 #### Trails
+A trail is usually a path, track, lane, road, footpath, walking trail, cattle trail, or game trail that is commonly usesd to facilitate easier travel through the wilderness.  
+
 
 #### Roads
+A road is an imporved and manytimes paved or cobbled trail.  These improvements make travel extremely easy regardless of the wilderness the road is going through.  
+
 
 #### Forest
-Evergreen, Jungle, Deciduous, 
+
+A forest is a large area dominated by trees. There are more precise definitions of forest that take into account factors such as tree density, tree height, land use, and ecological function.
+
+*Broeal forests* occupy the subarctic zone and are generally evergreen and coniferous.
+* *Temperate needleleaf forests* mostly occupy the higher latitude regions, as well as high altitude zones and some warm temperate areas, especially on nutrient-poor or otherwise unfavourable soils. These forests are composed entirely of various pines.
+
+*Tropical forests and subtropical forests* include tropical and subtropical moist forests, tropical and subtropical dry forests, and tropical and subtropical coniferous forests.
+* *Tropical moist forest* have many varities.  The lowland evergreen broad leaf tropical rainforests.  The  peat swamp forests.  There are also high altitude forests in moutains along the equator.  The best description for these is either swamp or jungle.  Typically these range from the rainforest zone 10 degrees north or south of the equator, to the heighest and lowest points the sun will move north and south during the seasons. 
+* *Tropical dry forests* are characteristic of areas in the tropics affected by seasonal drought. The seasonality of rainfall is usually reflected in the deciduousness of the forest canopy, with most trees being leafless for several months of the year. However, under some conditions the proportion of evergreen species increases.  Some forests called thorn forest are characterized by dense low stature thorny or spiny species trees and plants.  These are found where drought is prolonged, and especially where grazing animals are plentiful.  Eventually as the quality of the soil gets worse through overgrazing or fires, a savanna develops. 
+* *Sparse trees, savanna and shrublands* are forests with lower canopy cover of trees. They occur principally in areas of transition from forested to non-forested landscapes. The two major zones in which these ecosystems occur are in the boreal region and in Trpical dry forests.  A savanna is a mixed woodland grassland ecosystem characterized by the trees being sufficiently widely spaced so that the canopy does not close. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of grasses. Savannas maintain an open canopy despite a high tree density.  shrubs have persistent woody stems above the ground, and they are distinguished from trees by their multiple stems and shorter height.  They can grow to 3d6 feet in height.  Plants of many species may grow either into shrubs or trees, depending on their growing conditions.
+
+*Temperate forests* support both broadleaf deciduous forests and evergreen coniferous forests. Warm temperate zones support broadleaf evergreen forests, including laurel forests.
+* *Temperate needleleaf forests* mostly occupy the higher latitude regions, as well as high altitude zones and some warm temperate areas, especially on nutrient-poor or otherwise unfavourable soils. These forests are composed entirely of various pines.
+* *Temperate broadleaf foests* include a substantial component of flowering boradleaf trees. They are generally characteristic of the warmer temperate latitudes, but can sometimes be found in cool temperate ones. They include such forest types as the mixed broadleaf deciduous forests.
+* *Temperate Mixed forests* include a substantial component of flowering boradleaf trees in addition to various pines.  These forests typically border the transitiion between needleleaf and broadleaf forests. 
+
+
+
 
 #### Swamps
 Marsh, Moor, Wetlands, 
