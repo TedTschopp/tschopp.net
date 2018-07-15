@@ -112,7 +112,7 @@ TODO: Convert to DCC Rules.
 
 #### Ancient dyke
 
-_“Stumps and dead boughs were rotting in the shallows, the remains it seemed of old thickets, or of a hedge that had once lined the road across the drowned valley. But close under the cliff there stood, still strong and living, two tall trees, larger than any trees of holly that Frodo had ever seen or imagined. Their great roots spread from the wall to the water. Under the looming cliffs they had looked like mere bushes, when seen far off from the top of the Stair; but now they towered overhead, stiff, dark, and silent, throwing deep night-shadows about their feet, standing like sentinel pillars at the end of the road.”_
+>_“Stumps and dead boughs were rotting in the shallows, the remains it seemed of old thickets, or of a hedge that had once lined the road across the drowned valley. But close under the cliff there stood, still strong and living, two tall trees, larger than any trees of holly that Frodo had ever seen or imagined. Their great roots spread from the wall to the water. Under the looming cliffs they had looked like mere bushes, when seen far off from the top of the Stair; but now they towered overhead, stiff, dark, and silent, throwing deep night-shadows about their feet, standing like sentinel pillars at the end of the road.”_
 
 Long overgrown, this ancient fortification still stands as an obstacle or a useful defensive feature.
 
@@ -123,7 +123,7 @@ A steep sloping dyke additionally inflicts -1 die on attack rolls to creatures o
 {: .well .table .dccvsdnd .table-striped}
 
 #### Birdsong
-_“The spouse of Oromë is Vána, the Ever-young; she is the younger sister of Yavanna. All flowers spring as she passes and open if she glances upon them; and all birds sing at her coming.”_
+>_“The spouse of Oromë is Vána, the Ever-young; she is the younger sister of Yavanna. All flowers spring as she passes and open if she glances upon them; and all birds sing at her coming.”_
 
 The singing of thrushes, blackbirds,  can lighten the most burdened heart.
 
@@ -143,7 +143,7 @@ Alternatively, another species of toadstool inflicts the Blinded condition for t
 {: .well .table .dccvsdnd .table-striped}
 
 #### Bog
-_“In a chill hour they came to the end of the water-course. The banks became moss-grown mounds. Over the last shelf of rotting stone the stream gurgled and fell down into a brown bog and was lost. Dry reeds hissed and rattled though they could feel no wind.  On either side and in front wide fens and mires now lay, stretching away southward and eastward into the dim half-light. Mists curled and smoked from dark and noisome pools. The reek of them hung stifling in the still air. Far away, now almost due south, the mountain-walls of Mordor loomed, like a black bar of rugged clouds floating above a dangerous fog-bound sea.”_
+>_“In a chill hour they came to the end of the water-course. The banks became moss-grown mounds. Over the last shelf of rotting stone the stream gurgled and fell down into a brown bog and was lost. Dry reeds hissed and rattled though they could feel no wind.  On either side and in front wide fens and mires now lay, stretching away southward and eastward into the dim half-light. Mists curled and smoked from dark and noisome pools. The reek of them hung stifling in the still air. Far away, now almost due south, the mountain-walls of Mordor loomed, like a black bar of rugged clouds floating above a dangerous fog-bound sea.”_
 
 Deeper than simple mud, a bog – whether formed of marshy peat, a flooded river or torrential rain – presents a challenging battleground.
 
@@ -154,7 +154,7 @@ Creatures lose enough strength and enough staminia to reduce their modifiers by 
 {: .well .table .dccvsdnd .table-striped}
 
 #### Bracken
-_“Besides, at the end of a long night-march, and after bathing and drinking, he felt even more hungry than usual. A supper, or a breakfast, by the fire in the old kitchen at Bagshot Row was what he really wanted. An idea struck him and he turned to Gollum. Gollum had just begun to sneak off on his own, and he was crawling away on all fours through the fern.”_
+>_“Besides, at the end of a long night-march, and after bathing and drinking, he felt even more hungry than usual. A supper, or a breakfast, by the fire in the old kitchen at Bagshot Row was what he really wanted. An idea struck him and he turned to Gollum. Gollum had just begun to sneak off on his own, and he was crawling away on all fours through the fern.”_
 
 Bracken are large ferns that grow in prodigious quantities in woodland climes, forming thick banks of foliage that are difficult, but not impossible, to cross. 
 
@@ -164,7 +164,7 @@ Bracken areas count as difficult terrain (Movement halfed). | Bracken areas coun
 {: .well .table .dccvsdnd .table-striped}
 
 #### Cliffs
-_“Now Turambar came to Nen Girith at sundown, and there he learned that Glaurung lay on the brink of the high shores of Teiglin, and was like to move when night fell. Then he called those tidings good; for the dragon lay at Cabed-en-Aras, where the river ran in a deep and narrow gorge that a hunted deer might overleap, and Turambar thought that he would seek no further, but would attempt to pass over the gorge. Therefore he purposed to creep down at dusk, and descend into the ravine under night, and cross over the wild water; and then to climb up the further cliff, and so come to the dragon beneath his guard.”_
+>_“Now Turambar came to Nen Girith at sundown, and there he learned that Glaurung lay on the brink of the high shores of Teiglin, and was like to move when night fell. Then he called those tidings good; for the dragon lay at Cabed-en-Aras, where the river ran in a deep and narrow gorge that a hunted deer might overleap, and Turambar thought that he would seek no further, but would attempt to pass over the gorge. Therefore he purposed to creep down at dusk, and descend into the ravine under night, and cross over the wild water; and then to climb up the further cliff, and so come to the dragon beneath his guard.”_
 
 A vertical or nearly vertical rocky incline, a cliff is 10 feet high or more.
 
@@ -175,7 +175,7 @@ Creatures at the top may use a shove action to push another creature off the cli
 {: .well .table .dccvsdnd .table-striped}
 
 #### Covered pit
-_“In the pits of Sauron Beren and Felagund lay, and all their companions were now dead; but Sauron purposed to keep Felagund to the last, for he perceived that he was a Noldo of great might and wisdom, and he deemed that in him lay the secret of their errand. But when the wolf came for Beren, Felagund put forth all his power, and burst his bonds; and he wrestled with the werewolf, and slew it with his hands and teeth; yet he himself was wounded to the death.”_
+>_“In the pits of Sauron Beren and Felagund lay, and all their companions were now dead; but Sauron purposed to keep Felagund to the last, for he perceived that he was a Noldo of great might and wisdom, and he deemed that in him lay the secret of their errand. But when the wolf came for Beren, Felagund put forth all his power, and burst his bonds; and he wrestled with the werewolf, and slew it with his hands and teeth; yet he himself was wounded to the death.”_
 
 A stone-lined cistern or subterranean room whose ceiling has collapsed, leaving a pit in the ground. The pit is invisible through a growth of foliage.  Creatures can hide in the covered pit. The pit provides total cover to creatures inside it. Once it has been uncovered, a shove action can be used to push adjacent creatures into the pit.
 
@@ -187,7 +187,7 @@ Falling: Falling causes 1d6 damage per 10’ fallen. For every damage die that c
 
 #### Crags, rocky outcrops (defensible rocks),huge boulders
 
-_“For Manwë to whom all birds are dear, and to whom they bring news upon Taniquetil from Middle-earth, had sent forth the race of Eagles, commanding them to dwell in the crags of the North, and to keep watch upon Morgoth; for Manwë still had pity for the exiled Elves. And the Eagles brought news of much that passed in those days to the sad ears of Manwë. Now, even as Fingon bent his bow, there flew down from the high airs Thorondor, King of Eagles, mightiest of all birds that have ever been, whose outstretched wings spanned thirty fathoms; and staying Fingon's hand he took him up, and bore him to the face of the rock where Maedhros hung. But Fingon could not release the hell-wrought bond upon his wrist, nor sever it, nor draw it from the stone. Again therefore in his pain Maedhros begged that he would slay him; but Fingon cut off his hand above the wrist, and Thorondor bore them back to Mithrim.”_
+>_“For Manwë to whom all birds are dear, and to whom they bring news upon Taniquetil from Middle-earth, had sent forth the race of Eagles, commanding them to dwell in the crags of the North, and to keep watch upon Morgoth; for Manwë still had pity for the exiled Elves. And the Eagles brought news of much that passed in those days to the sad ears of Manwë. Now, even as Fingon bent his bow, there flew down from the high airs Thorondor, King of Eagles, mightiest of all birds that have ever been, whose outstretched wings spanned thirty fathoms; and staying Fingon's hand he took him up, and bore him to the face of the rock where Maedhros hung. But Fingon could not release the hell-wrought bond upon his wrist, nor sever it, nor draw it from the stone. Again therefore in his pain Maedhros begged that he would slay him; but Fingon cut off his hand above the wrist, and Thorondor bore them back to Mithrim.”_
 
 Whether brought here by giants in ancient days, or simply the tip of a subterranean mountain, boulders and craggy outcrops can provide a vital advantage in combat by allowing creatures to hide among or behind them.
 
@@ -199,7 +199,7 @@ Creatures on top of this scenery gain +2 modifier to shove an opponent that is b
 {: .well .table .dccvsdnd .table-striped}
 
 #### Dust 
-_“Then suddenly Morgoth sent forth great rivers of flame that ran down swifter than Balrogs from Thangorodrim, and poured over all the plain; and the Mountains of Iron belched forth fires of many poisonous hues, and the fume of them stank upon the air, and was deadly. Thus Ard-galen perished, and fire devoured its grasses; and it became a burned and desolate waste, full of a choking dust, barren and lifeless. Thereafter its name was changed, and it was called Anfauglith, the Gasping Dust.”_
+>_“Then suddenly Morgoth sent forth great rivers of flame that ran down swifter than Balrogs from Thangorodrim, and poured over all the plain; and the Mountains of Iron belched forth fires of many poisonous hues, and the fume of them stank upon the air, and was deadly. Thus Ard-galen perished, and fire devoured its grasses; and it became a burned and desolate waste, full of a choking dust, barren and lifeless. Thereafter its name was changed, and it was called Anfauglith, the Gasping Dust.”_
 
 Long ages of mouldering stone work, gnawed by frost and wind, can be reduced to a powder. If disturbed, a cloud of dust fills the air.
 
@@ -209,7 +209,7 @@ Creatures who cross the area of the dust who fail to make a DC 10 Dexterity chec
 {: .well .table .dccvsdnd .table-striped}
 
 #### Fallen statue, old walls, statue, giant fallen statue head
-_“The brief glow fell upon a huge sitting figure, still and solemn as the great stone kings of Argonath. The years had gnawed it, and violent hands had maimed it. Its head was gone, and in its place was set in mockery a round rough-hewn stone, rudely painted by savage hands in the likeness of a grinning face with one large red eye in the midst of its forehead. Upon its knees and mighty chair, and all about the pedestal, were idle scrawls mixed with the foul symbols that the maggot-folk of Mordor used.”_
+>_“The brief glow fell upon a huge sitting figure, still and solemn as the great stone kings of Argonath. The years had gnawed it, and violent hands had maimed it. Its head was gone, and in its place was set in mockery a round rough-hewn stone, rudely painted by savage hands in the likeness of a grinning face with one large red eye in the midst of its forehead. Upon its knees and mighty chair, and all about the pedestal, were idle scrawls mixed with the foul symbols that the maggot-folk of Mordor used.”_
 
 
 A large statue, sturdy old walls, or fallen pieces of monumental masonry can provide cover from ranged attacks, as well as an elevated position from which to attack.
@@ -229,7 +229,7 @@ Woodman will clear forests of fallen lumber to let it dry our before they transp
 -------:|:-------
 This tree or pile of wood can provide cover to someone who is next to it and if they can trace line of sight through the it.  They may not be targeted for an attack and is completely concealed by the the pile of wood at ground level. | A fallen tree provides total cover at ground level.
 Useing a full movement action allows a creature to climb onto a fallen tree, allowing +1 die on attack rolls while they are in the tree. Jumping down is a part of normal movement. | Use of a full movement action allows a creature to climb onto a fallen tree, allowing Advantage on attack rolls as long as they stay on the tree. Jumping down is considered normal movement.
-Creatures on a tree trunk gain +2 modifier to shove an opponent that is below and next to them.  <strong>Shove:</strong> Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  This does not stack with the advantage above. |  Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.  This does not stack with the advantage above. 
+Creatures on a tree trunk gain +2 modifier to shove an opponent that is below and next to them.  <br><strong>Shove:</strong> Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die and the +2 modifier.  If the attacker loses the opposed roll, the shove fails.  This does not stack with the advantage above. |  Creatures on a fallen statue gain +2 modifier to a shove action on opponents below.  This does not stack with the advantage above. 
 {: .well .table .dccvsdnd .table-striped}
 
 #### Foundations
@@ -251,41 +251,48 @@ Any creature falling into the pit must make a DC 10 Stamina saving throw or gain
 {: .well .table .dccvsdnd .table-striped}
 
 #### Freezing cold, torrential downpour, blizzard
-“While they were halted, the wind died down, and the snow slackened until it almost ceased. They tramped on again. But they had not gone more than a furlong when the storm returned with fresh fury. The wind whistled and the snow became a blinding blizzard. Soon even Boromir found it hard to keep going. The hobbits, bent nearly double, toiled along behind the taller folk, but it was plain that they could not go much further, if the snow continued. Frodo’s feet felt like lead. Pippin was dragging behind. Even Gimli, as stout as any dwarf could be, was grumbling as he trudged.”
+>-“While they were halted, the wind died down, and the snow slackened until it almost ceased. They tramped on again. But they had not gone more than a furlong when the storm returned with fresh fury. The wind whistled and the snow became a blinding blizzard. Soon even Boromir found it hard to keep going. The hobbits, bent nearly double, toiled along behind the taller folk, but it was plain that they could not go much further, if the snow continued. Frodo’s feet felt like lead. Pippin was dragging behind. Even Gimli, as stout as any dwarf could be, was grumbling as he trudged.”-
 
 |   DCC | D&D 5e|
 -------:|:-------
 Creatures without shelter from these weather conditions suffer -1 die for eac condition present to all their attack rolls and skill checks. | These invasive weather conditions mean that creatures without shelter from them suffer Disadvantage to their attack rolls and ability checks.
 All fires, torches, and lanterns that are not magical in nature will be extinguished this turn if it is not sheltered from these conditions | All fires, torches, and lanterns that are not magical in nature will be extinguished this turn if it is not sheltered from these conditions
-
-#### Impenetrable hedge of tree limbs
-
-It can be completely impractical to move through areas where Mirkwood grows particularly thick. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
-
-* This area cannot be passed through during combat.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Freezing pool
 
 Never warmed by the sun, a deep rock pool of frigid water is a dangerous place to fall.
 
-* Any creature crossing the pool must make a DC 10 Constitution save. If they fail, they gain a level of Exhaustion.
-
-* A shove action can be used to push a creature adjacent to the pool into it.
+|   DCC | D&D 5e|
+-------:|:-------
+Any creature crossing the pool must make a DC 10 Stamina Save.  If they fail the creatures loses enough strength and enough staminia to reduce their modifiers by one point for every round the are in the pool. | Any creature crossing the pool must make a DC 10 Constitution save. If they fail, they gain a level of Exhaustion.
+A creature may take an action to shove a creature adjacent to the pool into it|<br><strong>Shove:</strong> Each party makes opposed attack rolls, adding the higher of their Agility or Strength modifier. An attacker twice the opponent’s size adds +4 to the opposed roll; an attacker triple the opponent’s size adds +8 to the opposed roll; an attacker quadruple the opponent’s size adds +16 to the opposed roll; and so on. If the attacker wins the opposed roll, he has shoved his opponent back several feet.  A warrior may use a mighty deed to attempt a pushback with their deed die.  If the attacker loses the opposed roll, the shove fails. | A shove action can be used to push a creature adjacent to the pool into it.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Gale, strong wind
 
-* Ranged attacks are made at Disadvantage.
+|   DCC | D&D 5e|
+-------:|:-------
+Ranged attacks are are at -1 die to hit.| Ranged attacks are made at Disadvantage.
+{: .well .table .dccvsdnd .table-striped}
 
 
 #### Impenetrable hedge of tree limbs
 
 It can be completely impractical to move through particularly thick woodland growth. Sharp twigs stab at the face, ivy binds boughs together, undergrowth piles up in a thick tangle between roots, and low hanging branches bar the way.
 
-* This area cannot be passed through during combat.
+|   DCC | D&D 5e|
+-------:|:-------
+This area cannot be passed through during combat.|This area cannot be passed through during combat.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Incessant buzzing of insects
 
-* Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
+|   DCC | D&D 5e|
+-------:|:-------
+Creatures affected have have a -1 die on ability checks and attack rolls until the insects are dealt with.
+ | Creatures affected have Disadvantage on ability checks and attack rolls until the insects are dealt with.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Lone trees, boulders
 
