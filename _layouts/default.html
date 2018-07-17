@@ -105,9 +105,9 @@
             </div>
         </div>
     </div>
-    <!-- /.container-section-b -->
+    <!-- /.container-section-a -->
 
-    <!-- /.content-section-a -->
+    <!-- /.content-section-b -->
     <a name="draft"></a>
     <div class="content-section-b">
 
@@ -139,8 +139,38 @@
         <!-- /.container -->
 
     </div>
-    <!-- /.content-section-a -->
+    <!-- /.content-section-b -->
 
+   <!-- .content-section-a -->
+    <a name="social"></a>
+
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Ted Tschopp's Blog</h2>
+                    <p class="lead">My social postings from around the interent.  This is a work in progress as I pull in all of my social postings.</p>
+                    <ul>
+                        {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'micropubpost'" %}
+                        {% for post in posts-drafts limit:5 %}
+                          <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            {% if forloop.first %}
+                                <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                            {% endif %} 
+                          </li>
+                        {% endfor %}
+                    </ul> 
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive img-thumbnail" src="/media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- /.container-section-a -->
 
 
         {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
