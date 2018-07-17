@@ -154,6 +154,9 @@
                     <ul>
                         {% assign posts-social = site.posts | where_exp: "post", "post.categories contains 'micropubpost'" %}
                         {% for post in posts-social limit:5 %}
+
+                            {{post | jsonify}}
+
                           <li>
                             <a href="{{ post.url }}">{{ post.title }}</a>
                             {% if forloop.first %}
