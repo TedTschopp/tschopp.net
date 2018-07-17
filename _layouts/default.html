@@ -152,8 +152,8 @@
                     <h2 class="section-heading">Ted Tschopp's Blog</h2>
                     <p class="lead">My social postings from around the interent.  This is a work in progress as I pull in all of my social postings.</p>
                     <ul>
-                        {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'micropubpost'" %}
-                        {% for post in posts-drafts limit:5 %}
+                        {% assign posts-social = site.posts | where_exp: "post", "post.categories contains 'micropubpost'" %}
+                        {% for post in posts-social limit:5 %}
                           <li>
                             <a href="{{ post.url }}">{{ post.title }}</a>
                             {% if forloop.first %}
@@ -198,7 +198,7 @@
                                     <h2 class="section-heading">{{ post.title}}</h2>
                                 {% endif %}
                                 <p class="lead">{{ post.description}}</p>
-                                <ul>
+                                <ul>    
                                     {% for bullet in post.bullets %}
                                         <li>{{ bullet }} </li>
                                     {% endfor %}
