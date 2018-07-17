@@ -161,7 +161,6 @@
                                 {% if count > 5 %}
                                     {% break %}
                                 {% endif %}
-                                {{ post | jsonify }}
                               <li>
                                 <a href="{{ post.url }}">{{ post.title }}</a>
                                 {% if count == 1 %}
