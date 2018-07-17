@@ -162,44 +162,15 @@
                                     {% break %}
                                 {% endif %}
                               <li>
-                                {% if post.title == null or post.title == empty  %}
+                                {% if post.title == null or post.title == empty %}
                                     {% assign post-title = "No Title Provided"}
-                                    {% if page.mf-checkin[0].type != null or 
-                                          page.mf-checkin[0].type != empty %}
-                                        {% comment %} <!--
-                                        mf-checkin:
-                                          - type:
-                                              - h-card
-                                            properties:
-                                              name:
-                                                - Game Empire Pasadena
-                                              url:
-                                                - 'https://foursquare.com/v/4a94a8e0f964a520472220e3'
-                                              latitude:
-                                                - 34.14634159231104
-                                              longitude:
-                                                - -118.1133562999198
-                                              street-address:
-                                                - 1795 E Colorado Blvd
-                                              locality:
-                                                - Pasadena
-                                              region:
-                                                - CA
-                                              country-name:
-                                                - United States
-                                              postal-code:
-                                                - '91106'
-                                            value: 'https://foursquare.com/v/4a94a8e0f964a520472220e3' -->
-                                        {% endcomment %}
+                                    {% if page.mf-checkin[0].type != null or page.mf-checkin[0].type != empty %}
                                         {% assign post-title = "Checked into" | append: ': ' | append: post.mf-checkin[0].properties.name %}
                                     {% endif %}
                                 {% else %}
                                     {% assign post-title = post.title %}
                                 {% endif %}
                                 <a href="{{ post.url }}">{{ post-title }}</a>
-                                {% if count == 1 %}
-                                    <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
-                                {% endif %}
                               </li>
                             {% else %}
                                 <!-- Do Nothing -->
