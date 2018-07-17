@@ -152,15 +152,25 @@
                     <h2 class="section-heading">Ted Tschopp's Social Media Posts</h2>
                     <p class="lead">My social postings from around the interent.  This is a work in progress as I pull in all of my social postings.</p>
                     <ul>
-                        {% assign posts-social = site.posts | where_exp: "post", "post.category contains 'micropubpost'" %}
-                        {% for post in posts-social limit:5 %}
-                          {{post | jsonify}}
-                          <li>
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                            {% if forloop.first %}
-                                <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
-                            {% endif %} 
-                          </li>
+                        {% assign count = 0 %}
+                        {% for post in site.posts %}
+                            {% if post.categories contains "Draft" or post.categories contains "home" %}
+                                <!-- Do Nothing -->
+                            {% elsif post.layout contains "micropubpost" %}
+                                {% assign count = count | plus: 1 %}
+                                {% if count > 5 %}
+                                    {% break %}
+                                {% endif %}
+                                {{ post | jsonify }}
+                              <li>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                {% if count == 1 %}
+                                    <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                                {% endif %}
+                              </li>
+                            {% else %}
+                                <!-- Do Nothing -->
+                            {% endif %}
                         {% endfor %}
                     </ul> 
                 </div>
