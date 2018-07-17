@@ -323,15 +323,20 @@ The cavern was not formed with Big Folk in mind.
 
 Damp from long years under the canopy of leaves or needles, this ancient stonework is crumbling and water logged, or burdened with the slow creep of mighty roots. 
 
-* Crouching behind an old wall provides half cover (+2 to AC and Dexterity saving throws).
-
-* Crumbling masonry is unsuitable for climbing on.
+|   DCC | D&D 5e|
+-------:|:-------
+Crouching behind an old wall provides cover (Defender is -2 to hit on attack roles for both Melee and Missle fire)|Crouching behind an old wall provides half cover (+2 to AC and Dexterity saving throws).
+Crumbling masonry is unsuitable for climbing on. |Crumbling masonry is unsuitable for climbing on.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Mud
 
 Thick mud underfoot can cause problems to combatants. 
 
-* Creatures fighting in thick mud suffer -1 to attack rolls.
+|   DCC | D&D 5e|
+-------:|:-------
+Creatures fighting in thick mud suffer -1 to attack rolls. |Creatures fighting in thick mud suffer -1 to attack rolls.
+{: .well .table .dccvsdnd .table-striped}
 
 #### Narrow walls 
 
@@ -344,15 +349,24 @@ Anyone using a Two-Handed Weapon has a -1 die on all rolls | Two-handed weapons 
 
 #### Nettle bank or briar patch
 
+>-“The leaves were all thicker and greener about the edges of the glade, enclosing it with an almost solid wall. No tree grew there, only rough grass and many tall plants: stalky and faded hemlocks and wood-parsley, fire-weed seeding into fluffy ashes, and rampant nettles and thistles.”-
+
 A significant bank of nettles or a briar patch can pose a serious obstacle to movement. While the stinging rash or tearing thorns are merely an inconvenience in the face of injury in combat, nettles and briars slow movement.
 
-* Nettles and briars can be crossed, but count as difficult terrain.
+|   DCC | D&D 5e|
+-------:|:-------
+Nettles and briars can be crossed, but count as difficult terrain.| Nettles and briars can be crossed, but count as difficult terrain.
+{: .well .table .dccvsdnd .table-striped} 
 
 #### Old floors
+>-“He felt that he was lying in a soft slimy bog, and springing up he set his foot on the corner of a cold hard flagstone. Then he remembered where he was and lay down again.”-
 
 Flagstone laid in ages long past create uncertain and uneven footing – poor ground on which to make a stand. 
 
-* Old floors count as difficult terrain (half move across the old floors).
+|   DCC | D&D 5e|
+-------:|:-------
+Old floors count as difficult terrain (half move across the old floors).|Old floors count as difficult terrain (half move across the old floors).
+{: .well .table .dccvsdnd .table-striped} 
 
 #### Partial and collapsed floors, stairs, broken stairs 
 
