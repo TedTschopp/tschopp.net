@@ -154,9 +154,7 @@
                     <ul>
                         {% assign count = 0 %}
                         {% for post in site.posts %}
-                            {% if post.categories contains "Draft" or post.categories contains "home" %}
-                                <!-- Do Nothing -->
-                            {% elsif post.layout contains "micropubpost" %}
+                            {% if post.layout contains "micropubpost" %}
                                 {% assign count = count | plus: 1 %}
                                 {% if count > 25 %}
                                     {% break %}
@@ -164,7 +162,7 @@
                                 {% assign post-url= post.url %}
                                 {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
-                                {% elsif post.mf-bookmark-of[0] != null or post.mf-bookmark-of[0] != empty or post.mf-bookmark-of[0] != "" %}
+                                {% elsif post.mf-bookmark-of != null or post.mf-bookmark-of != empty or post.mf-bookmark-of != "" %}
                                     {% assign post-title = "🔗 - " | append: post.title %}
                                     {% assign post-url = post.mf-bookmark-of %}
                                     {% assign post-commentary = post.content %}
