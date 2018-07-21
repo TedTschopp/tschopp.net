@@ -162,7 +162,8 @@
                                 {% assign post-url= post.url %}
                                 {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
-                                {% elsif post.mf-bookmark-of != null or post.mf-bookmark-of != empty or post.mf-bookmark-of != "" %}
+                                {% endif %}
+                                {% if post.category == "links" %}
                                     {% assign post-title = "🔗 - " | append: post.title %}
                                     {% assign post-url = post.mf-bookmark-of %}
                                     {% assign post-commentary = post.content %}
