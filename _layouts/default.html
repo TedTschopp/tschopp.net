@@ -166,13 +166,10 @@
                                 {% if post.category == "links" %}
                                     {% assign post-title = "🔗 - " | append: post.title %}
                                     {% assign post-url = post.mf-bookmark-of %}
-                                    {% assign post-commentary = post.content %}
                                 {% endif %}
                                 <li>
                                 <a href="{{ post-url }}">{{ post-title }}</a>
-                                {% if post-commentary != null or post-commentary != empty %}
-                                    <p>{{ post-commentary }}</p>
-                                {% endif %}
+                                    <p>{{ post.content }}</p>
                               </li>
                             {% endif %}
                         {% endfor %}
