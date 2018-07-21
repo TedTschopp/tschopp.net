@@ -166,7 +166,7 @@
                                 {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
-                                {% if post.mf-bookmark-of != null or post.mf-bookmark-of != empty %}
+                                {% if post.mf-bookmark-of != null or post.mf-bookmark-of != empty post.mf-bookmark-of != "" %}
                                     {% assign post-title = "🔗 - " | append: post.title %}
                                     {% assign post-url = post.mf-bookmark-of %}
                                     {% assign post-commentary = post.content %}
