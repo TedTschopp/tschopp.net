@@ -158,7 +158,7 @@
                                 <!-- Do Nothing -->
                             {% elsif post.layout contains "micropubpost" %}
                                 {% assign count = count | plus: 1 %}
-                                {% if count > 5 %}
+                                {% if count > 25 %}
                                     {% break %}
                                 {% endif %}
                               <li>
