@@ -164,8 +164,7 @@
                                 {% assign post-url= post.url %}
                                 {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
-                                {% endif %}
-                                {% if post.mf-bookmark-of[0] != null or post.mf-bookmark-of[0] != empty or post.mf-bookmark-of[0] != "" %}
+                                {% elsif post.mf-bookmark-of[0] != null or post.mf-bookmark-of[0] != empty or post.mf-bookmark-of[0] != "" %}
                                     {% assign post-title = "🔗 - " | append: post.title %}
                                     {% assign post-url = post.mf-bookmark-of %}
                                     {% assign post-commentary = post.content %}
