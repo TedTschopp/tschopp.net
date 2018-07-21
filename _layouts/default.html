@@ -161,16 +161,23 @@
                                 {% if count > 25 %}
                                     {% break %}
                                 {% endif %}
+                                {% assign post-url= post.url %}
                               <li>
-                                {% if post.title == null or post.title == empty %}
-                                    {% assign post-title = "No Title Provided" %}
-                                    {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
-                                        {% assign post-title = "🗺️" | append: post.mf-checkin[0].properties.name[0] %}
-                                    {% endif %}
-                                {% else %}
-                                    {% assign post-title = post.title %}
+                                {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
+                                    {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
-                                <a href="{{ post.url }}">{{ post-title }}</a>
+                                {% if post.mf-bookmark-of != null or post.mf-bookmark-of != empty %}
+                                    {% assign post-title = "🔗 - " | append: post.title %}
+                                    {% assign post-url = post.mf-bookmark-of %}
+                                    {% assign post-commentary = post.content %}
+                                {% endif %}
+
+
+
+                                <a href="{{ post-url }}">{{ post-title }}</a>
+                                {% if post-commentary != null or post-commentary != empty %}
+                                    <p>{{ post-commentary }}</p>
+                                {% endif %}
                               </li>
                             {% endif %}
                         {% endfor %}
