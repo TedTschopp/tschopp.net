@@ -165,7 +165,7 @@
                                 {% if post.title == null or post.title == empty %}
                                     {% assign post-title = "No Title Provided" %}
                                     {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
-                                        {% assign post-title = "Checked into: " | append: post.mf-checkin[0].properties.name %}
+                                        {% assign post-title = "Checked into: " | append: post.mf-checkin[0].properties.name[0] %}
                                     {% endif %}
                                 {% else %}
                                     {% assign post-title = post.title %}

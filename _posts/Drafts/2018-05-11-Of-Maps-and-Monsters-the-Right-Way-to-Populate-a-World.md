@@ -636,7 +636,18 @@ A trail is usually a path, track, lane, road, footpath, walking trail, cattle tr
 A road is an imporved and manytimes paved or cobbled trail.  These improvements make travel extremely easy regardless of the wilderness the road is going through.  
 
 #### Forest
-A forest is a large area dominated by trees. There are more precise definitions of forest that take into account factors such as tree density, tree height, land use, and ecological function.
+
+A forest is a large area dominated by trees. There are more precise definitions of forest that take into account factors such as tree density, tree height, land use, and ecological function.  There is no standard forest.  A tree dominated region could be any one of the following:
+
+* Broeal forests
+
+* Tropical / subtropical moist forest
+* Tropical / subtropical dry forests
+* Sparse trees, savanna and shrublands
+
+* Temperate needleleaf forests
+* Temperate broadleaf foests*
+* Temperate Mixed forests
 
 TODO: Cover Ground Cover in each type of forest.
 
@@ -652,6 +663,22 @@ TODO: Cover Ground Cover in each type of forest.
 * *Temperate needleleaf forests* mostly occupy the higher latitude regions, as well as high altitude zones and some warm temperate areas, especially on nutrient-poor or otherwise unfavourable soils. These forests are composed entirely of various pines.
 * *Temperate broadleaf foests* include a substantial component of flowering boradleaf trees. They are generally characteristic of the warmer temperate latitudes, but can sometimes be found in cool temperate ones. They include such forest types as the mixed broadleaf deciduous forests.
 * *Temperate Mixed forests* include a substantial component of flowering boradleaf trees in addition to various pines.  These forests typically border the transitiion between needleleaf and broadleaf forests. 
+
+##### Geographical Traits
+
+##### Terrian
+
+##### Weather
+
+##### Plantlife
+
+##### Wildlife
+
+##### Survival
+
+###### Navigation
+
+###### Hazards
 
 
 #### Swamps
