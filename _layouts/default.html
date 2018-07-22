@@ -210,9 +210,11 @@
 
                                                     console.log(key + ' - ' + val['og_object']['title']);
                                                     var post_title = val['og_object']['title'];
+                                                    $("#social-share-{{this-post.slug}}").html(post_title);
  
                                                     console.log(key + ' - ' + val['og_object']['description']);
                                                     var post_content = val['og_object']['description'];
+                                                    $("#fb-like-div").html(shareCount);
                                                 });
                                             }});
                                         });
@@ -242,8 +244,8 @@ this-post.mf-repost-of[0]
 
 
                                 <li>
-                                <a href="{{ post-url }}">{{ post-title }}</a>
-                                    <p>{{ post-content }}</p>
+                                <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
+                                    <p id="#social-share-{{this-post.slug}}">{{ post-content }}</p>
                                 </li>
                             {% endif %}
                         {% endfor %}
