@@ -177,7 +177,7 @@ this-post.mf-rating
     {{this-post.mf-rating}}
                                 </pre>
 
-                                {% if this-post.mf-item.type = "h-product" %}
+                                {% if this-post.mf-item.type == "h-product" %}
                                     {% if  this-post.mf-rating == "5" %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
                                     {% elsif this-post.mf-rating == "4" %}
