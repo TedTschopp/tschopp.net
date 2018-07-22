@@ -186,13 +186,30 @@
 
 
 
-
-
                                 {% if this-post.mf-checkin[0].type[0] == "h-card" %}
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
                                 {% if this-post.category == "links" %}
+
+
+<pre>
+this-post.mf-bookmark-of: 
+'{{ this-post.mf-bookmark-of }}'
+
+this-post.mf-like-of[0]
+'{{ this-post.mf-like-of[0] }}'
+
+this-post.mf-in-reply-to[0]
+'{{ this-post.mf-in-reply-to[0] }}'
+
+this-post.mf-repost-of[0]
+'{{ this-post.mf-repost-of[0] }}'
+</pre>
+
+
+
+
                                     {% assign post-title = "🔗 - " | append: this-post.title %}
                                     
                                     {% if this-post.ms-bookmark-of[0] != null or this-post.ms-bookmark-of[0] != empty %}
@@ -204,7 +221,7 @@
                                     {% elsif this-post.mf-repost-of[0] != null or this-post.mf-repost-of[0] != empty %}
                                         {% assign post-url = this-post.mf-repost-of[0] %}
                                     {% endif %}
-                                    
+
 
                                 {% endif %}
 
