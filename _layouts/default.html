@@ -164,13 +164,18 @@
                                     {% break %}
                                 {% endif %}
 
-                                {% assign this-post-url= this-post.url %}
+                                {% assign post-url= this-post.url %}
                                 
                                 <pre>
-mf-item:                                 {{this-post.mf-item}}
-mf-checkin[0].type:                      {{this-post.mf-checkin[0].type}}
-this-post.mf-item[0].properties.name[0]: {{this-post.mf-item[0].properties.name[0]}}
-this-post.mf-rating                      {{this-post.mf-rating}}
+{{ count }}
+mf-item:                                 
+    {{this-post.mf-item}}
+mf-checkin[0].type:                      
+    {{this-post.mf-checkin[0].type}}
+this-post.mf-item[0].properties.name[0]: 
+    {{this-post.mf-item[0].properties.name[0]}}
+this-post.mf-rating                      
+    {{this-post.mf-rating}}
                                 </pre>
 
                                 {% if this-post.mf-item != null or this-post.mf-item != empty %}
@@ -195,13 +200,18 @@ this-post.mf-rating                      {{this-post.mf-rating}}
                                 {% if this-post.mf-checkin[0].type != null or this-post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
+
                                 {% if this-post.category == "links" %}
                                     {% assign post-title = "🔗 - " | append: this-post.title %}
                                     {% assign post-url = this-post.mf-bookmark-of %}
                                 {% endif %}
+
+                                {% if post-content == null or post-content == empty %}
+                                    {% assign post-content = this-post.content %}
+                                {% endif %}
                                 <li>
                                 <a href="{{ post-url }}">{{ post-title }}</a>
-                                    <p>{{ this-post.content }}</p>
+                                    <p>{{ post-content }}</p>
                               </li>
                             {% endif %}
                         {% endfor %}
