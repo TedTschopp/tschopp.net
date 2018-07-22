@@ -194,13 +194,9 @@
                                 {% if this-post.ms-bookmark-of[0] contains "http" %}
                                     {% assign post-title = "🔗 - " | append: this-post.title %}
                                     {% assign post-url = this-post.mf-bookmark-of %}
-<pre>
-this-post.mf-bookmark-of: 
-'{{ this-post.mf-bookmark-of }}'
-</pre>
-
                                 {% elsif this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
+                                    {% assign post-title = "🔗 - " | post-url %}
 <pre>
 this-post.mf-like-of[0]
 '{{ this-post.mf-like-of[0] }}'
