@@ -168,9 +168,9 @@
                                 
                                 <pre>
 {{ count }}
-mf-item:                                 
-    {{this-post.mf-item}}
-mf-checkin[0].type:                      
+this-post.mf-item[0].type:                                 
+    {{this-post.mf-item[0].type}}
+this-post.mf-checkin[0].type:                      
     {{this-post.mf-checkin[0].type}}
 this-post.mf-item[0].properties.name[0]: 
     {{this-post.mf-item[0].properties.name[0]}}
@@ -197,7 +197,7 @@ this-post.mf-rating
                                 {% endif %}
 
 
-                                {% if this-post.mf-checkin[0].type[0] == "hcard" %}
+                                {% if this-post.mf-checkin[0].type == "h-card" %}
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
