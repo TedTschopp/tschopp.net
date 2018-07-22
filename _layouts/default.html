@@ -178,6 +178,7 @@ this-post.mf-rating
                                 </pre>
 
                                 {% if this-post.mf-item[0].type == "h-product" %}
+                                    mf-item
                                     {% if  this-post.mf-rating == "5" %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
                                     {% elsif this-post.mf-rating == "4" %}
@@ -197,6 +198,7 @@ this-post.mf-rating
 
 
                                 {% if this-post.mf-checkin[0].type == "h-card" %}
+                                    mf-checkin
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
