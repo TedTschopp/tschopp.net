@@ -160,7 +160,7 @@
                                 {% assign post-content = "" %}
 
                                 {% assign count = count | plus: 1 %}
-                                {% if count > 25 %}
+                                {% if count > 5 %}
                                     {% break %}
                                 {% endif %}
 
@@ -191,7 +191,7 @@
                                 {% endif %}
 
                                     
-                                {% if this-post.ms-bookmark-of[0] != null or this-post.ms-bookmark-of[0] != empty %}
+                                {% if this-post.ms-bookmark-of[0] contains "http" %}
                                     {% assign post-title = "🔗 - " | append: this-post.title %}
                                     {% assign post-url = this-post.mf-bookmark-of %}
 <pre>
@@ -199,22 +199,21 @@ this-post.mf-bookmark-of:
 '{{ this-post.mf-bookmark-of }}'
 </pre>
 
-                                {% elsif this-post.mf-like-of[0] != null or this-post.mf-like-of[0] != empty %}
-
+                                {% elsif this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
 <pre>
 this-post.mf-like-of[0]
 '{{ this-post.mf-like-of[0] }}'
 </pre>
 
-                                {% elsif this-post.mf-in-reply-to[0] != null or this-post.mf-in-reply-to[0] != empty %}
+                                {% elsif this-post.mf-in-reply-to[0] contains "http" %}
                                     {% assign post-url = this-post.mf-in-reply-to[0] %}
 <pre>
 this-post.mf-in-reply-to[0]
 '{{ this-post.mf-in-reply-to[0] }}'
 </pre>
 
-                                {% elsif this-post.mf-repost-of[0] != null or this-post.mf-repost-of[0] != empty %}
+                                {% elsif this-post.mf-repost-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-repost-of[0] %}
 <pre>
 this-post.mf-repost-of[0]
