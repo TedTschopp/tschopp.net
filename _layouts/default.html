@@ -165,6 +165,10 @@
                                 {% endif %}
 
                                 {% assign this-post-url= this-post.url %}
+                                
+                                <pre>
+                                {{this.post.mf-item}}
+                                </pre>
 
                                 {% if this-post.mf-item != null or this-post.mf-item != empty %}
                                     {% if  page.mf-rating == 5 %}
