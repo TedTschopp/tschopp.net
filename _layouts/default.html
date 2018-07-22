@@ -153,8 +153,8 @@
                     <p class="lead">My social postings from around the interent.  This is a work in progress as I pull in all of my social postings.</p>
                     <ul>
                         {% assign count = 0 %}
-                        {% for post in site.posts %}
-                            {% if post.layout contains "micropubpost" %}
+                        {% for this-post in site.posts %}
+                            {% if this-post.layout contains "micropubpost" %}
                                 {% assign post-title = "" %}
                                 {% assign post-url = "" %}
                                 {% assign post-content = "" %}
@@ -164,25 +164,37 @@
                                     {% break %}
                                 {% endif %}
 
-                                <pre>
-                                
-                                {{ post | jsonify }}
-                                
-                                </pre>
+                                {% assign this-post-url= this-post.url %}
 
-
-                                {% assign post-url= post.url %}
-
-                                {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
-                                    {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
+                                {% if this-post.mf-item != null or this-post.mf-item != empty %}
+                                    {% if  page.mf-rating == 5 %}
+                                        {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
+                                    {% elsif page.mf-rating == 4 %}
+                                        {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
+                                    {% elsif page.mf-rating == 3 %}
+                                        {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
+                                    {% elsif page.mf-rating == 2 %}
+                                        {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
+                                    {% elsif page.mf-rating == 1 %}
+                                        {% assign post-title = "⭐️🌑🌑🌑🌑" %}
+                                    {% else %}
+                                        {% assign post-title = "🌑🌑🌑🌑🌑" %}
+                                    {% endif %}
+                                    {% assign post-title = post-title | append: this-post.mf-item[0].properties.name[0] %}
+                                    {% assign post-content = this-post.mf-summary %}
                                 {% endif %}
-                                {% if post.category == "links" %}
-                                    {% assign post-title = "🔗 - " | append: post.title %}
-                                    {% assign post-url = post.mf-bookmark-of %}
+
+
+                                {% if this-post.mf-checkin[0].type != null or this-post.mf-checkin[0].type != empty %}
+                                    {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
+                                {% endif %}
+                                {% if this-post.category == "links" %}
+                                    {% assign post-title = "🔗 - " | append: this-post.title %}
+                                    {% assign post-url = this-post.mf-bookmark-of %}
                                 {% endif %}
                                 <li>
                                 <a href="{{ post-url }}">{{ post-title }}</a>
-                                    <p>{{ post.content }}</p>
+                                    <p>{{ this-post.content }}</p>
                               </li>
                             {% endif %}
                         {% endfor %}
