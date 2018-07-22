@@ -157,11 +157,17 @@
                             {% if post.layout contains "micropubpost" %}
                                 {% assign post-title = "" %}
                                 {% assign post-url = "" %}
+                                {% assign post-content = "" %}
 
                                 {% assign count = count | plus: 1 %}
                                 {% if count > 25 %}
                                     {% break %}
                                 {% endif %}
+
+                                ```json
+                                {{ post | jsonify }}
+                                ```
+
 
                                 {% assign post-url= post.url %}
 
