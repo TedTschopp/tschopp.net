@@ -205,9 +205,13 @@
                                              $.ajax({url: apiUrl, success: function(result){
                                          
                                                 $.each( result, function( key, val ) {
-                                         
+                                                    console.log(key + ' - ' + val['share']['share_count']);
+                                                    var shareCount = val['share']['share_count'];
+
                                                     console.log(key + ' - ' + val['og_objec']['title']);
                                                     var post_title = val['og_objec']['title'];
+ 
+                                                    console.log(key + ' - ' + val['og_objec']['description']);
                                                     var post_content = val['og_objec']['description'];
                                                 });
                                             }});
@@ -455,9 +459,6 @@ this-post.mf-repost-of[0]
 
     <!-- Footer -->
     {% include footer.html %}
-
-    <!-- jQuery -->
-    {% include js-jquery.html %}
 
     <!-- Bootstrap Core JavaScript -->
     {% include js-bootstrap.html %}
