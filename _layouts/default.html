@@ -214,7 +214,7 @@
  
                                                     console.log(key + ' - ' + val['og_object']['description']);
                                                     var post_content = val['og_object']['description'];
-                                                    $("#social-share-{{this-post.slug}}").html(post_content);
+                                                    $("#social-share-content-{{this-post.slug}}").html(post_content);
                                                 });
                                             }});
                                         });
@@ -245,7 +245,7 @@ this-post.mf-repost-of[0]
 
                                 <li>
                                 <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
-                                    <p id="social-share-{{this-post.slug}}">{{ post-content }}</p>
+                                    <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
                                 </li>
                             {% endif %}
                         {% endfor %}
