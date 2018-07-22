@@ -198,7 +198,7 @@
                                     {% assign post-url = this-post.mf-like-of[0] %}
                                     {% assign post-title = "🔗 - " | post-url %}
                                     <script type="text/javascript">
-                                        $(function(){
+                                        $(document).ready(function() {
                                              var url = '{{post-url}}';
                                              var apiUrl = 'https://graph.facebook.com/?ids='+url;
                                          
