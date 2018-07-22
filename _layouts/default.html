@@ -185,18 +185,30 @@
                                 {% endif %}
 
 
+
+
+
                                 {% if this-post.mf-checkin[0].type[0] == "h-card" %}
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
                                 {% if this-post.category == "links" %}
                                     {% assign post-title = "🔗 - " | append: this-post.title %}
-                                    {% assign post-url = this-post.mf-bookmark-of %}
+                                    
+                                    {% if this-post.ms-bookmark-of[0] != null or this-post.ms-bookmark-of[0] != empty %}
+                                        {% assign post-url = this-post.mf-bookmark-of %}
+                                    {% elsif this-post.mf-like-of[0] != null or this-post.mf-like-of[0] != empty %}
+                                        {% assign post-url = this-post.mf-like-of[0] %}
+                                    {% endif %}
+
+
                                 {% endif %}
 
                                 {% if post-content == null or post-content == empty %}
                                     {% assign post-content = this-post.content %}
                                 {% endif %}
+
+
                                 <li>
                                 <a href="{{ post-url }}">{{ post-title }}</a>
                                     <p>{{ post-content }}</p>
