@@ -197,7 +197,7 @@ this-post.mf-rating
                                 {% endif %}
 
 
-                                {% if this-post.mf-checkin[0].type[0] != null or this-post.mf-checkin[0].type[0] != empty or this-post.mf-checkin[0].type[0] != "" %}
+                                {% if this-post.mf-checkin[0].type[0] == "hcard" %}
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
