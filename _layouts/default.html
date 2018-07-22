@@ -155,11 +155,16 @@
                         {% assign count = 0 %}
                         {% for post in site.posts %}
                             {% if post.layout contains "micropubpost" %}
+                                {% assign post-title = "" %}
+                                {% assign post-url = "" %}
+
                                 {% assign count = count | plus: 1 %}
                                 {% if count > 25 %}
                                     {% break %}
                                 {% endif %}
+
                                 {% assign post-url= post.url %}
+
                                 {% if post.mf-checkin[0].type != null or post.mf-checkin[0].type != empty %}
                                     {% assign post-title = "🌐 - " | append: post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
