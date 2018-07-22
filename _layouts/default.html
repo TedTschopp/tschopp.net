@@ -167,19 +167,21 @@
                                 {% assign this-post-url= this-post.url %}
                                 
                                 <pre>
-                                {{this.post.mf-item}}
+                                    mf-item:                                 {{this-post.mf-item}}
+                                    mf-checkin[0].type:                      {{this-post.mf-checkin[0].type}}
+                                    this-post.mf-item[0].properties.name[0]: {{this-post.mf-item[0].properties.name[0]}}
                                 </pre>
 
                                 {% if this-post.mf-item != null or this-post.mf-item != empty %}
-                                    {% if  page.mf-rating == 5 %}
+                                    {% if  this-post.mf-rating == 5 %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
-                                    {% elsif page.mf-rating == 4 %}
+                                    {% elsif this-post.mf-rating == 4 %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
-                                    {% elsif page.mf-rating == 3 %}
+                                    {% elsif this-post.mf-rating == 3 %}
                                         {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
-                                    {% elsif page.mf-rating == 2 %}
+                                    {% elsif this-post.mf-rating == 2 %}
                                         {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
-                                    {% elsif page.mf-rating == 1 %}
+                                    {% elsif this-post.mf-rating == 1 %}
                                         {% assign post-title = "⭐️🌑🌑🌑🌑" %}
                                     {% else %}
                                         {% assign post-title = "🌑🌑🌑🌑🌑" %}
