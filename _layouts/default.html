@@ -199,8 +199,12 @@
                                         {% assign post-url = this-post.mf-bookmark-of %}
                                     {% elsif this-post.mf-like-of[0] != null or this-post.mf-like-of[0] != empty %}
                                         {% assign post-url = this-post.mf-like-of[0] %}
+                                    {% elsif this-post.mf-in-reply-to[0] != null or this-post.mf-in-reply-to[0] != empty %}
+                                        {% assign post-url = this-post.mf-in-reply-to[0] %}
+                                    {% elsif this-post.mf-repost-of[0] != null or this-post.mf-repost-of[0] != empty %}
+                                        {% assign post-url = this-post.mf-repost-of[0] %}
                                     {% endif %}
-
+                                    
 
                                 {% endif %}
 
