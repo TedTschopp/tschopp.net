@@ -197,10 +197,23 @@
                                 {% elsif this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
                                     {% assign post-title = "🔗 - " | post-url %}
-<pre>
-this-post.mf-like-of[0]
-'{{ this-post.mf-like-of[0] }}'
-</pre>
+                                    <script type="text/javascript">
+                                        $(function(){
+                                             var url = 'http://www.texashillcountry.com';
+                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                         
+                                             $.ajax({url: apiUrl, success: function(result){
+                                         
+                                                $.each( result, function( key, val ) {
+                                         
+                                                    console.log(key + ' - ' + val['og_objec']['title']);
+                                                    var post-title = val['og_objec']['title'];
+                                                    var post-content = val['og_objec']['description'];
+                                                });
+                                            }});
+                                        });
+                                    </script>
+
 
                                 {% elsif this-post.mf-in-reply-to[0] contains "http" %}
                                     {% assign post-url = this-post.mf-in-reply-to[0] %}
