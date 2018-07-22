@@ -209,7 +209,7 @@
                                                     var shareCount = val['share']['share_count'];
 
                                                     console.log(key + ' - ' + val['og_object']['title']);
-                                                    var post_title = "🔗 - " & val['og_object']['title'];
+                                                    var post_title = "🔗 - " + val['og_object']['title'];
                                                     $("#social-share-{{this-post.slug}}").html(post_title);
  
                                                     console.log(key + ' - ' + val['og_object']['description']);
