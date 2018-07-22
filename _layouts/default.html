@@ -167,7 +167,6 @@
                                 {% assign post-url= this-post.url %}
                                 
                                 <pre>
-{{ count }}
 this-post.mf-item.type:                                 
     {{this-post.mf-item.type}}
 this-post.mf-checkin[0].type:                      
@@ -179,15 +178,15 @@ this-post.mf-rating
                                 </pre>
 
                                 {% if this-post.mf-item.type = "h-product" %}
-                                    {% if  this-post.mf-rating == 5 %}
+                                    {% if  this-post.mf-rating == "5" %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
-                                    {% elsif this-post.mf-rating == 4 %}
+                                    {% elsif this-post.mf-rating == "4" %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
-                                    {% elsif this-post.mf-rating == 3 %}
+                                    {% elsif this-post.mf-rating == "3" %}
                                         {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
-                                    {% elsif this-post.mf-rating == 2 %}
+                                    {% elsif this-post.mf-rating == "2" %}
                                         {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
-                                    {% elsif this-post.mf-rating == 1 %}
+                                    {% elsif this-post.mf-rating == "1" %}
                                         {% assign post-title = "⭐️🌑🌑🌑🌑" %}
                                     {% else %}
                                         {% assign post-title = "🌑🌑🌑🌑🌑" %}
