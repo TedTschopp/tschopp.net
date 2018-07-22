@@ -167,27 +167,20 @@
                                 {% assign post-url= this-post.url %}
                                 
                                 <pre>
-this-post.mf-item[0].type[0]:                                 
-    '{{this-post.mf-item[0].type[0]}}'
-this-post.mf-checkin[0].type[0]:                      
-    '{{this-post.mf-checkin[0].type[0]}}'
-this-post.mf-item[0].properties.name[0]: 
-    '{{this-post.mf-item[0].properties.name[0]}}'
 this-post.mf-rating[0]                      
     '{{this-post.mf-rating[0]}}'
                                 </pre>
 
                                 {% if this-post.mf-item[0].type[0] == "h-product" %}
-                                    mf-item
-                                    {% if this-post.mf-rating[0] == "5" %}
+                                    {% if this-post.mf-rating[0] == 5 %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
-                                    {% elsif this-post.mf-rating[0] == "4" %}
+                                    {% elsif this-post.mf-rating[0] == 4 %}
                                         {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
-                                    {% elsif this-post.mf-rating[0] == "3" %}
+                                    {% elsif this-post.mf-rating[0] == 3 %}
                                         {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
-                                    {% elsif tthis-post.mf-rating[0]== "2" %}
+                                    {% elsif tthis-post.mf-rating[0]== 2 %}
                                         {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
-                                    {% elsif this-post.mf-rating[0] == "1" %}
+                                    {% elsif this-post.mf-rating[0] == 1 %}
                                         {% assign post-title = "⭐️🌑🌑🌑🌑" %}
                                     {% else %}
                                         {% assign post-title = "🌑🌑🌑🌑🌑" %}
@@ -198,7 +191,6 @@ this-post.mf-rating[0]
 
 
                                 {% if this-post.mf-checkin[0].type[0] == "h-card" %}
-                                    mf-checkin
                                     {% assign post-title = "🌐 - " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
