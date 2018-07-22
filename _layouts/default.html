@@ -164,9 +164,11 @@
                                     {% break %}
                                 {% endif %}
 
-                                ```json
+                                <pre>
+                                
                                 {{ post | jsonify }}
-                                ```
+                                
+                                </pre>
 
 
                                 {% assign post-url= post.url %}
