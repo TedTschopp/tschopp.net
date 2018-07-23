@@ -195,26 +195,7 @@
                                     {% assign post-title   = "🔗 - " | append: this-post.title %}
                                     {% assign post-url     = this-post.mf-bookmark-of[0] %}
                                     {% assign post-content = this-post.content %}
-<pre>
-post-title
-{{ post-title }}
-
-this-post.title
-{{this-post.title}}
-
-post-url
-{{ post-url }}
-
-this-post.mf-bookmark-of[0]
-{{this-post.mf-bookmark-of[0]}}
-
-post-content
-{{ post-content }}
-
-this-post.content
-{{this-post.content}}
-</pre>
-{% endif %}
+                                {% endif %}
 
                                 {% if this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
