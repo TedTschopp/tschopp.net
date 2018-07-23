@@ -191,7 +191,7 @@
                                 {% endif %}
 
                                     
-                                {% if this-post.ms-bookmark-of[0] contains "http" %}
+                                {% if this-post.category contains "links" %}
                                     {% assign post-title   = "🔗 - " | append: this-post.title %}
                                     {% assign post-url     = this-post.mf-bookmark-of[0] %}
                                     {% assign post-content = this-post.content %}
@@ -214,8 +214,9 @@ post-content
 this-post.content
 {{this-post.content}}
 </pre>
+{% endif %}
 
-                                {% elsif this-post.mf-like-of[0] contains "http" %}
+                                {% if this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
                                     {% assign post-title = "🔗 - " | post-url %}
                                     <script type="text/javascript">
