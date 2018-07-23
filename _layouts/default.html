@@ -192,8 +192,9 @@
 
                                     
                                 {% if this-post.ms-bookmark-of[0] contains "http" %}
-                                    {% assign post-title = "🔗 - " | append: this-post.title %}
-                                    {% assign post-url = this-post.mf-bookmark-of %}
+                                    {% assign post-title   = "🔗 - " | append: this-post.title %}
+                                    {% assign post-url     = this-post.mf-bookmark-of[0] %}
+                                    {% assign post-content = this-post.content %}
                                 {% elsif this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
                                     {% assign post-title = "🔗 - " | post-url %}
