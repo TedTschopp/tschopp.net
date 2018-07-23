@@ -160,7 +160,7 @@
                                 {% assign post-content = "" %}
 
                                 {% assign count = count | plus: 1 %}
-                                {% if count > 5 %}
+                                {% if count > 35 %}
                                     {% break %}
                                 {% endif %}
 
@@ -201,40 +201,44 @@
                                         $(document).ready(function() {
                                              var url = '{{post-url}}';
                                              var apiUrl = 'https://graph.facebook.com/?ids='+url;
-                                         
                                              $.ajax({url: apiUrl, success: function(result){
-                                         
                                                 $.each( result, function( key, val ) {
-                                                    console.log(key + ' - ' + val['share']['share_count']);
-                                                    var shareCount = val['share']['share_count'];
-
-                                                    console.log(key + ' - ' + val['og_object']['title']);
-                                                    var post_title = "🔗 - " + val['og_object']['title'];
-                                                    $("#social-share-{{this-post.slug}}").html(post_title);
- 
-                                                    console.log(key + ' - ' + val['og_object']['description']);
-                                                    var post_content = val['og_object']['description'];
-                                                    $("#social-share-content-{{this-post.slug}}").html(post_content);
+                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
                                                 });
                                             }});
                                         });
                                     </script>
-
-
                                 {% elsif this-post.mf-in-reply-to[0] contains "http" %}
                                     {% assign post-url = this-post.mf-in-reply-to[0] %}
-<pre>
-this-post.mf-in-reply-to[0]
-'{{ this-post.mf-in-reply-to[0] }}'
-</pre>
-
+                                    {% assign post-title = "🔗 - " | post-url %}
+                                    <script type="text/javascript">
+                                        $(document).ready(function() {
+                                             var url = '{{post-url}}';
+                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                             $.ajax({url: apiUrl, success: function(result){
+                                                $.each( result, function( key, val ) {
+                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
+                                                });
+                                            }});
+                                        });
+                                    </script>
                                 {% elsif this-post.mf-repost-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-repost-of[0] %}
-<pre>
-this-post.mf-repost-of[0]
-'{{ this-post.mf-repost-of[0] }}'
-</pre>
-
+                                    {% assign post-title = "🔗 - " | post-url %}
+                                    <script type="text/javascript">
+                                        $(document).ready(function() {
+                                             var url = '{{post-url}}';
+                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                             $.ajax({url: apiUrl, success: function(result){
+                                                $.each( result, function( key, val ) {
+                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
+                                                });
+                                            }});
+                                        });
+                                    </script>
                                 {% endif %}
 
 
