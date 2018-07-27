@@ -246,24 +246,24 @@
 
                                 {% if this-post.mf-itinerary[0].type[0] contains "h-leg" %}
                                     {% for leg in this-post.mf-itinerary[0].type %}
-                                        {% if leg.properties[0].transit-type[0] contains "air" %}
+                                        {% if leg.properties[0].transit-type contains "air" %}
                                             {% assign post-title = post-title | append: "✈️ " %}
-                                        {% elsif leg.properties[0].transit-type[0] contains "train" %}
+                                        {% elsif leg.properties[0].transit-type contains "train" %}
                                             {% assign post-title = post-title | append: "🚂" %}
-                                        {% elsif leg.properties[0].transit-type[0] contains "bus" %}
+                                        {% elsif leg.properties[0].transit-type contains "bus" %}
                                             {% assign post-title = post-title | append: "🚌" %}
-                                        {% elsif leg.properties[0].transit-type[0] contains "boat" %}
+                                        {% elsif leg.properties[0].transit-type contains "boat" %}
                                             {% assign post-title = post-title | append: "🛥️" %}
                                         {% else %}
                                             {% assign post-title = post-title | append: "🗺️" %}
                                         {% endif %}
-                                        {% assign post-title = post-title | append:  leg.properties[0].origin[0] %}
+                                        {% assign post-title = post-title | append:  leg.properties[0].origin %}
                                         {% assign post-title = post-title | append:  " to " %}
-                                        {% assign post-title = post-title | append:  leg.properties[0].destination[0] %}
+                                        {% assign post-title = post-title | append:  leg.properties[0].destination %}
                                         {% assign post-title = post-title | append:  " via " %}
-                                        {% assign post-title = post-title | append:  leg.properties[0].operator[0] %}
+                                        {% assign post-title = post-title | append:  leg.properties[0].operator %}
                                         {% assign post-title = post-title | append:  " #" %}
-                                        {% assign post-title = post-title | append:  leg.properties[0].number[0] %}
+                                        {% assign post-title = post-title | append:  leg.properties[0].number %}
                                         {% if forloop.last == false %}
                                             {% assign post-title = post-title | append:  " | " %}
                                         {% else %}
