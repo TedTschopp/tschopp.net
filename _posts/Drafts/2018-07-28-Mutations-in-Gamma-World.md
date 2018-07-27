@@ -108,6 +108,20 @@ During the final years before the cataclysm genetic modification to a species si
 
 Let's do an example: I am going to create a Woolly Mammoth Mutant Animal.  The first step is to get their Stats from the D&D 5e SRD.
 
+The University is a Service Ideology with a University as its headquarters.  It builds satellite facilities as follows:
+
+**Level 5:** The University itself is a tech level 4 facility today that was once a Tech Level 6 facility that has an huge underground AI Think Tank.
+
+**Level 4:** The Library.  The University has a library at The University itself, but it also has several satellite libraries that it operates in various capital cities around the continent.  These facilities are tech level 3 facilities with printing presses and imported radio transmitters it uses to communicate with the University itself.  
+
+**Level 3:** The College.  The University operates schools across the continent.  These school are tech level 3 facilities that operate in various many cities.  The focus of these facilities is to train people in the Trivium and to funnel exceptional students to the University so they can further their goals of restoring the lost knowledge of the Ancients. 
+
+**Level 2:** The Laboratory.  The University operates various field laboratories around the continent.  These labs can be everything from Tech Level 3 all the way up to the Tech Level of the surrounding "culture".  Many times the University will deploy a lab in the Ancient ruins in order to retrieve some esoteric piece of missing data, or to retrieve an artifact.  These facilities are temporary.  Permanent Laboratories are deployed at The Colleges and at the Libraries.
+
+**Level 1:** The Chapter House.  The University operates small safe houses around the continent in various tech level 1 and 2 cities and towns.  These chapter houses are staffed with a single family unit without children and operate as safe places and an underground railroad for people escaping anti-technology / anti-learning ideologies. These buildings match the tech level of their surroundings and have a hidden communications relay station that allows The University to maintain an extensive communications network that ties directly into the Think Tank.
+
+
+<div markdown="1">
 **Mammoth**
 
 Size: Huge
@@ -137,9 +151,12 @@ Actions:
 *Gore.* Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.
 
 *Stomp.* Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.
+</div>
+{: .example .well}
 
 Now I am going to say I want this guy to be Human in size so I need to move him down two sizes.  The first size will drop his strength by 5 and his dexterity will be unchanged and his Constitution will drop 3.  His Hit Dice will also drop to D10s.  This is for the first round of genetic modification. So to Summarize:
 
+<div markdown="1">
 **Mammoth**
 
 Size: Large
@@ -161,9 +178,12 @@ Int: 3
 Wis: 11
 
 Cha: 6
+</div>
+{: .example .well}
 
 Our Mammoth is now the size of a Troll or Giant, but you need to get smaller.  This means your size will drop to Normal.  Your Strength will drop by 4, your Dexterity will increase by 2, and your Constitution will drop by 2. And finally your hit dice will drop to D8s.  Our Armor Class will be modified down 2 more.  This is our final stats:
 
+<div markdown="1">
 **Mammoth**
 
 Size: Medium
@@ -185,6 +205,8 @@ Int: 3 (-4 Modifier)
 Wis: 11 (+0 modifier)
 
 Cha: 6 (-2 Modifier)
+</div>
+{: .example .well}
 
 Now our character is level 1, so his hit points are 11 (1D8 + 3) 
 
@@ -210,27 +232,35 @@ For animals that were modified in size, their base attacks also changed.  Below 
 
 For our above example of our Wooly Mammoth let's look at the actions: 
 
+<div markdown="1">
 *Trampling Charge.*If the mammoth moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the mammoth can make one stomp attack against it as a bonus action. Armor Class would drop by 3
 
 *Gore.* Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) piercing damage.
 
 *Stomp.* Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: 29 (4d10 + 7) bludgeoning damage.
+</div>
+{: .example .well}
 
 When we go from Huge to Large the attacks would change as follows:
 
+<div markdown="1">
 *Gore.* Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: (2d10 + 4) piercing damage.
 
 *Stomp.* Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: (2d8 + 4) bludgeoning damage.
+</div>
+{: .example .well}
 
 When we go from Large to Medium the attacks would change as follows:
 
+<div markdown="1">
 *Gore.* Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: (2d8 + 2) piercing damage.
 
 *Stomp.* Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit: (2d6 + 2) bludgeoning damage.
-
+</div>
+{: .example .well}
 This means that our Wooly Mammoth has the following mutation:
 
-  Decreased Size (2)
+* Decreased Size (2)
 
 #### Ability Score Mutations
 
