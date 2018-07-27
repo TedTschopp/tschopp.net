@@ -246,6 +246,16 @@
 
                                 {% if this-post.mf-itinerary[0].type[0] contains "h-leg" %}
                                     {% for leg in this-post.mf-itinerary[0].type %}
+
+<PRE>
+Leg.properties[0].transit-type[0]
+{{Leg.properties[0].transit-type[0]}}
+Leg.properties[0].transit-type
+{{Leg.properties[0].transit-type}}
+Leg.properties.transit-type
+{{Leg.properties.transit-type}}
+</PRE>
+
                                         {% if leg.properties[0].transit-type contains "air" %}
                                             {% assign post-title = post-title | append: "✈️ " %}
                                         {% elsif leg.properties[0].transit-type contains "train" %}
