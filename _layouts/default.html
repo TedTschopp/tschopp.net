@@ -258,15 +258,15 @@
                                         {% else %}
                                             {% assign post-title = post-title | append: "🗺️" %}
                                         {% endif %}
-                                        {% assign post-title = post-title | append:  leg.properties.origin %}
+                                        {% assign post-title = post-title | append:  leg.properties.origin[0] %}
                                         {% assign post-title = post-title | append:  " to " %}
-                                        {% assign post-title = post-title | append:  leg.properties.destination %}
+                                        {% assign post-title = post-title | append:  leg.properties.destination[0] %}
                                         {% assign post-title = post-title | append:  " via " %}
-                                        {% assign post-title = post-title | append:  leg.properties.operator %}
+                                        {% assign post-title = post-title | append:  leg.properties.operator[0] %}
                                         {% assign post-title = post-title | append:  " #" %}
-                                        {% assign post-title = post-title | append:  leg.properties.number %}
+                                        {% assign post-title = post-title | append:  leg.properties.number[0] %}
                                         {% if forloop.last == false %}
-                                            {% assign post-title = post-title | append:  " | " %}
+                                            {% assign post-title = post-title | append:  " <br> " %}
                                         {% else %}
 
                                         {% endif %}
