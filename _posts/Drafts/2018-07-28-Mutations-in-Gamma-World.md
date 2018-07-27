@@ -267,6 +267,7 @@ This means that our Wooly Mammoth has the following mutation:
 The method to build your character's ability scores is based on the D&D 5e ability score of the standard array but takes into account that not everyone has a human baseline.  So your standard array is (+5, +4, +3, +2, +0, -2).  But you also need to account for mutations, and potential future mutations.  So each ability score enhancement gives you a free "Enhanced {Ability Score} mutation".  And for the one ability score at -2 you get a free “Decreased {Ability Score} Mutation”.  These mutations will be used later during character creation and adventuring  
 Example: Our Wooly Mammoth from above now has the following stats:
 
+<div markdown="1">
 **Mammoth**
 
 Size: Medium
@@ -298,9 +299,12 @@ Cha: 6 (-2 Modifier)
   Mutations:
 
 Decreased Size (2)
+</div>
+{: .example .well}
 
 I want to modify him as follows:
 
+<div markdown="1">
 Strength = 15 + 0 = 15 (+2)
 
 Dexterity = 11 + 3 = 14 (+2)
@@ -324,9 +328,12 @@ This gives him the following mutations:
   Enhanced Wisdom (+2)
 
   Enhanced Charisma (+4)
+</div>
+{: .example .well}
 
 So finally My Wooly Mammoth has the following stats:
 
+<div markdown="1">
 **Mammoth**
 
 Size: Medium
@@ -368,6 +375,8 @@ Decreased Size (2)
   Enhanced Wisdom (+2)
 
   Enhanced Charisma (+4)
+</div>
+{: .example .well}
 
 #### Mutant Animals
 
