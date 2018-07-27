@@ -245,6 +245,16 @@
                                 {% endif %}
 
                                 {% if this-post.mf-itinerary[0].type[0] contains "h-leg" %}
+
+
+<PRE>
+this-post.mf-itinerary[0]
+{{this-post.mf-itinerary[0]}}
+this-post.mf-itinerary[0].type
+{{Leg.properties[0].transit-type}}
+</PRE>
+
+
                                     {% for leg in this-post.mf-itinerary[0].type %}
 
 <PRE>
