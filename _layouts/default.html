@@ -244,6 +244,19 @@
                                     </script>
                                 {% endif %}
 
+                                <pre>
+
+this-post.mf-itinerary[0].type[0]
+{{this-post.mf-itinerary[0].type[0]}}
+this-post.mf-itinerary[0].type
+{{this-post.mf-itinerary[0].type}}
+this-post.mf-itinerary.type
+{{this-post.mf-itinerary.type}}
+
+
+                                </pre>
+
+
                                 {% if this-post.mf-itinerary[0].type[0] contains " h-leg" %}
                                     {% for leg in this-post.mf-itinerary[0].type %}
                                         {% if leg.properties[0].transit-type[0] contains "air" %}
