@@ -1,3 +1,16 @@
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+
 siteurl: https://www.tedt.org
 #baseurl: https://www.tedt.org/
 
