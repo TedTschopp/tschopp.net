@@ -1,7 +1,7 @@
         {% assign count = 0 %}
             {% assign count = count | plus: 1 %}
             {% assign mod = count | modulo: 2 %}
-                <a name="{{ page.title | slugify}}"></a>
+                <a name="{{ post.title | slugify}}"></a>
                 {% if mod != 1 %}<!-- odd -->
                 <div class="content-section-a">
                 {% else %}
@@ -15,23 +15,22 @@
                             <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                             {% endif %}
                                 <div class="clearfix"></div>
-                                {% if page.title-url and page.title-url != "" and page.title-url != nil %}
-                                    <h2 class="section-heading"><a href="{{page.title-url}}" target="_blank" rel="noopener noreferrer">{{ page.title}}</a></h2>
+                                {% if post.title-url and post.title-url != "" and post.title-url != nil %}
+                                    <h2 class="section-heading"><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
                                 {% else %}
-                                    <h2 class="section-heading">{{ page.title}}</h2>
+                                    <h2 class="section-heading">{{ post.title}}</h2>
                                 {% endif %}
-                                <p class="lead">{{ page.description}}</p>
+                                <p class="lead">{{ post.description}}</p>
                             </div>
                             {% if mod != 1 %}<!-- odd -->
                             <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                             {% else %}
                             <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                             {% endif %}
-                                <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{page.image}}" alt="{{page.image-credits-title}} by {{page.image-credits-artist}}">
+                                <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{post.image}}" alt="{{post.image-credits-title}} by {{post.image-credits-artist}}">
                             </div>
                         </div>
                     </div>
                     <!-- /.container -->
                 </div>
                 <!-- /.content-section-a -->
-        {% endfor %}
