@@ -24,7 +24,6 @@ image-credits-URL: https://larsson.artstation.com/projects/qOJQn
 categories:
   - Role Playing Games
   - Gamma World
-  - Mutations
   - Draft
 draft-status: notes
 ---
