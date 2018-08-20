@@ -32,52 +32,90 @@
         font-style: normal;
     }
 
-    .tech-v {
-      background-image: url(https://www.tedt.org/RPG/MCC-GW/media/GW_Origin_Card_BG_Back_DefaultGreen.png;);
-    }
+
+    @font-face {
+        font-family: 'lp1_regular';
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.eot');
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.woff') format('woff'),
+             url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.ttf') format('truetype');
+        font-weight: 400;
+        font-style: normal;
+    }    
 
     .tech-v h1 {
-      font-family: 'IrwinAllen';
-      color: inherit;
+        font-family: 'IrwinAllen';
+        color: inherit;
     }
 
     .tech-v h2 {
-      font-family: 'lowwe';
-      color: inherit;
+        font-family: 'lowwe';
+        color: inherit;
     }
 
     .tech-v p {
-      color: inherit;
+        color: inherit;
     }
 
     .tech-v p b {
-      font-family: 'CHECKBK0';
-      color: inherit;
-      font-size: 1.5em;
+        font-family: 'CHECKBK0';
+        color: inherit;
+        font-size: 1.5em;
     }
 
     .tech-v p.description {
-      color: inherit;
+        color: inherit;
     }
+
     .tech-v p.background {
-      color: inherit;
+        color: inherit;
     }
+
     .tech-v p.rules {
-      color: inherit;
-      font-style: italic; 
+        color: inherit;
+        font-style: italic;
     }
+
+     td#papermargin_left, td#papermargin_right {
+      background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-margin.png);
+      background-repeat: repeat-y;
+      width: 33px;
+      min-width: 33px;
+    }
+
+td#paper_printarea {
+    width: 100%; 
+    font-size: 13px;
+    text-align: left;
+    font-family: lp1_regular, "Trebuchet MS", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: white;
+    padding: 57px 18px 1px 18px;
+    background-image: url(images/paper.png);
+    background-repeat: repeat;
+    text-shadow: 0 0 1px rgba(115,115,121,0.6), 0 0 2px rgba(115,115,121,0.3);
+}
 
     </style>
 </head>
 
 <body>
-    <div class="tech-v">
-        <h1>Weather Predictor</h1>
-        <h2>Technology Level V</h2>
-        <p class="description"><b>Description:</b> The Brotherhood of Thought recovered the artifact and has will lend it to the party with the expectation of having it returned.  If normal rain is expected in the next 24 hours, the indicator turns gray; if sunny skies, the indicator turns blue. If abnormal weather is coming within the next 24 hours, the indicator turns red. The brighter the red, the more intense (and possibly more dangerous) the weather.  The device is 15 centimeters long, shaped like a disk with an indicator window and an activation but­ton. On the back is a miniplug where the min­iature speaker would normally connect to provide the user with complete details about the approaching weather patterns. The speaker is now gone, but the indicator window still works. There seems to be no batteries and the device has never needed any.</p>
-        <p class="background"> <b>Background:</b> This alien artifact was discovered over a decade ago and still works accurately today. This a device was used by aliens visiting the planet years after the holocaust that created the current world. It is still in alignment with the orbiting alien weather satellite that feeds the device information about perceived approaching weather patterns.</p>
-        <p class="Rules"> <b>Rules:</b> The party will get 18 hours notice of all weather effects.  The Judge rolls the weather for the next day at noon on the previous day and notifies the players what changes they see in their Weather Predictor.  This device is never wrong or inacruate unless mutant powers drastically change the local weather.</p>
-    </div>
+    <Table>
+        <tr>
+            <td id=papermargin_left>
+            </td>
+            <td id="paper_printarea" class="tech-v">
+                    <h1>Weather Predictor</h1>
+                    <h2>Technology Level V</h2>
+                    <p class="description"><b>Description:</b> The Brotherhood of Thought recovered the artifact and has will lend it to the party with the expectation of having it returned. If normal rain is expected in the next 24 hours, the indicator turns gray; if sunny skies, the indicator turns blue. If abnormal weather is coming within the next 24 hours, the indicator turns red. The brighter the red, the more intense (and possibly more dangerous) the weather. The device is 15 centimeters long, shaped like a disk with an indicator window and an activation but­ton. On the back is a miniplug where the min­iature speaker would normally connect to provide the user with complete details about the approaching weather patterns. The speaker is now gone, but the indicator window still works. There seems to be no batteries and the device has never needed any.</p>
+                    <p class="background"> <b>Background:</b> This alien artifact was discovered over a decade ago and still works accurately today. This a device was used by aliens visiting the planet years after the holocaust that created the current world. It is still in alignment with the orbiting alien weather satellite that feeds the device information about perceived approaching weather patterns.</p>
+                    <p class="Rules"> <b>Rules:</b> The party will get 18 hours notice of all weather effects. The Judge rolls the weather for the next day at noon on the previous day and notifies the players what changes they see in their Weather Predictor. This device is never wrong or inacruate unless mutant powers drastically change the local weather.</p>
+            </td>
+            <td id="papermargin_right">
+            </td>
+        </tr>
+    </Table>
 </body>
 
 </html>
