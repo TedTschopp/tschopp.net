@@ -187,19 +187,19 @@
 
 
                                 {% if this-post.mf-checkin[0].type[0] == "h-card" %}
-                                    {% assign post-title = "🌎 - " | append: this-post.mf-checkin[0].properties.name[0] %}
+                                    {% assign post-title = "🌎 " | append: this-post.mf-checkin[0].properties.name[0] %}
                                 {% endif %}
 
                                     
                                 {% if this-post.category contains "links" %}
-                                    {% assign post-title   = "🔗 - " | append: this-post.title %}
+                                    {% assign post-title   = "🔗 " | append: this-post.title %}
                                     {% assign post-url     = this-post.mf-bookmark-of[0] %}
                                     {% assign post-content = this-post.content %}
                                 {% endif %}
 
                                 {% if this-post.mf-like-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-like-of[0] %}
-                                    {% assign post-title = "🔗 - " | post-url %}
+                                    {% assign post-title = "🔗 " | post-url %}
                                     <script type="text/javascript">
                                         $(document).ready(function() {
                                              var url = '{{post-url}}';
@@ -214,7 +214,7 @@
                                     </script>
                                 {% elsif this-post.mf-in-reply-to[0] contains "http" %}
                                     {% assign post-url = this-post.mf-in-reply-to[0] %}
-                                    {% assign post-title = "🔗 - " | post-url %}
+                                    {% assign post-title = "🔗 " | post-url %}
                                     <script type="text/javascript">
                                         $(document).ready(function() {
                                              var url = '{{post-url}}';
@@ -229,7 +229,7 @@
                                     </script>
                                 {% elsif this-post.mf-repost-of[0] contains "http" %}
                                     {% assign post-url = this-post.mf-repost-of[0] %}
-                                    {% assign post-title = "🔗 - " | post-url %}
+                                    {% assign post-title = "🔗 " | post-url %}
                                     <script type="text/javascript">
                                         $(document).ready(function() {
                                              var url = '{{post-url}}';
