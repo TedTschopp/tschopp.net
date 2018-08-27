@@ -15,13 +15,14 @@
 {% endif %}
 
 <!-- Category work -->
-{% assign categories = page-categories-collection %}
+{% assign categories = page.categories %}
 {% for category in categories %}
     {% capture thiscategory %}{{ category | strip }}{% endcapture %}
     {% if thiscategory == "draft" or thiscategory == "Draft" %}
         {% assign this_is_a_draft = true %}
     {% endif %}
 {% endfor %}
+
 {% assign page-categories-collection = "" | split: ',' %}
 {% assign categories = page.categories %}
 {% for category in categories %}
