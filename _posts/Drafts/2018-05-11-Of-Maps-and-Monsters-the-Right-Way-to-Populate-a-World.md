@@ -876,6 +876,13 @@ Today in most role playing games monsters are reduced to a handful of stats that
 
 #### Types of exceptional Members
 
+##### The Leader
+A leader of a given group will tend to have the following:
+
+Increased HitDice by 1d3 dice.  If a creature has hitdice of d6 then give them increase the dice up the dice chain
+
+*[dice chain]: For D&D (d4《》d6《》d8《》d10《》d12《》d20) for Preferred / DCC / MCC (d3《》d4《》d5《》d6《》d7《》d8《》d10《》d12《》d14《》d16《》d20《》d24《》d30) 
+ 
 * Leader, Alpha, Commander
 * Giant, Monstrous
 * Dire, Prehistoric
