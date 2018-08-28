@@ -8,3 +8,71 @@ This site is based on the following works:
 * [Pexels](https://pexels.com) - [Spider's Web with Raindrops](https://www.pexels.com/photo/cobweb-spider-s-web-raindrops-8484/) is a CC0 image 
 * [Jim Wampler](https://www.facebook.com/mudpuppycomics) - [Gamma World Dice](https://www.facebook.com/photo.php?fbid=10208217335349671&set=a.1007311561655.974.1790912702&type=3&theater) has given me permission to use the image. 
 * [Geoffrey Fairchild](https://www.flickr.com/photos/gcfairch/) - [Board Game Night](https://www.flickr.com/photos/gcfairch/4421257399/in/photolist-7Kb6Us-7wwKqo-7JG6MR) is a CC0 image  
+
+
+
+$$
+\\
+\\
+\therefore
+\\
+\\
+d = \sqrt{6\times(2 \times 20,900,000+6)}
+\\
+\\
+\therefore
+\\
+\\
+d = \sqrt{6 \times 41,800,006}
+\\
+\\
+\therefore
+\\
+\\
+d = \sqrt{250,800,036}
+\\
+\\
+\therefore
+\\
+\\
+d = 15,836.6674525 \text{ feet}
+\\
+\therefore
+\\
+\\
+d = 15,836.6674525 \text{ feet} \times \frac{1\text{ mile}}{5280\text{ feet}}
+\\
+\\
+\therefore
+\\
+\\
+d = 2.99936883569 \text{ miles} 
+\\
+\\
+\therefore
+\\
+\\
+\text{round}(d)= \lceil d-\frac{1}{2} \rceil
+\\
+\\
+\therefore
+\\
+\\
+\text{round}(2.99936883569)= \lceil 2.99936883569-\frac{1}{2} \rceil
+\\
+\\
+\therefore
+\\
+\\
+d = 2.99936883569  \approx 3 \text{ miles} 
+\\
+\therefore
+\\
+\\
+d = 3 miles = 3 hexs 
+\\
+\\
+
+
+
+$$
