@@ -1,6 +1,6 @@
 ---
 title: Firearms in MCC & DCC
-date: 2018-09-047T17:37:12-07:00
+date: 2018-09-04T17:37:12-07:00
 update: 2018-09-04T16:44:34-07:00
 author:
   name: Ted Tschopp
