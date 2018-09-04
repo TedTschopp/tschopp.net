@@ -879,15 +879,27 @@ Today in most role playing games monsters are reduced to a handful of stats that
 ##### The Leader
 A leader of a given group will tend to have the following:
 
-Increased HitDice by 1d3 dice.  If a creature has hitdice of d6 then give them increase the dice up the dice chain
+* Increase Hitdice by 1d3 dice up the dice chain if not already done so by other size or magical effects
+* Prioritize the following for these creatures with a 1, 2, and 3
+   * Physical Prowess - Add Priority to AC and Reflex Save
+   * Personality / Looks - Add Priority to Personality Save
+   * Health - Add Priority to Fortitude Save
+* 
 
-*[dice chain]: For D&D (d4《》d6《》d8《》d10《》d12《》d20) for Preferred / DCC / MCC (d3《》d4《》d5《》d6《》d7《》d8《》d10《》d12《》d14《》d16《》d20《》d24《》d30) 
  
+*[dice chain]: (d3《》d4《》d5《》d6《》d7《》d8《》d10《》d12《》d14《》d16《》d20《》d24《》d30) 
+
+
+##### The Giant 
+A Giant of a given group will tend to have the following:
+
+* Increase HitDice by 1d3+3 up the dice chain
+* Increase Fortitude Save by 2d3
+
 * Leader, Alpha, Commander
 * Giant, Monstrous
 * Dire, Prehistoric
 * Magical, blessed
-
 
 #### Types of Subnormal Members of the Encounter
 * Child, Grunt, Beta, 
