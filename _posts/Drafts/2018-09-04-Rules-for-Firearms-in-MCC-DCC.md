@@ -48,7 +48,7 @@ The following rules are what I have collected from around the internet for the u
 ## Firearm Terms 
 
 **Firearm Proficiency:** First-time users decrease the die they use to roll their atacks by -1 die to attacks with a firearm and they increase the fumble die by +1. These penalties exists until either the character gains a level or appropriate training is acquired since first using the weapon.  
-**Rate of Fire:** Additional shots may be taken, up to the RoF, but each subsequent shot is -1 die bump lower. For example, a 3rd-level Warrior with a d20 Action Die and an Assault Rifle may attempt a 2nd shot with a d16 and a third shot with a d14. PCs with multiple Action Dice may attempt one (and only one) additional attack per extra action dice.A firearm with multiple RoFs may only fire once during the surprise round, but the chance of a critical hit should increase as per the Surprise Attack rule above. Automatic weapons are indicated by an (A).  
+**Rate of Fire:** Additional shots may be taken, up to the RoF, but each subsequent shot decreases the die they use to roll their atacks by -1 die. A firearm with multiple RoFs may only fire once during the surprise round, but the chance of a critical hit should increase as per the Surprise Attack rule above. Automatic weapons are indicated by an (A).  
 **Reload:** Reloading a firearm manually can take up to a minute. If quick loaders or magazines are available, reloading takes one round. Black powder weapons can take up to 3 rounds to reload.  
 **Weapon Speed:** Weapon Speed is only a factor for individual initiative rolls during duels (see above) and does not apply to normal combat initiative.
 
