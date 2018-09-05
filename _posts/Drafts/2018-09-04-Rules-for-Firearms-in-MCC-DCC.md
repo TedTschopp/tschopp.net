@@ -76,9 +76,6 @@ Weapons with a RoF that indicates an (A), instead of separate attacks, automatic
 
 
 
-|Target is||Tiny|Small|Medium|Large|Huge|Gargantuan|
-|-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-
 ##Critical Table
 |Roll | Effect | Rules |
 |-:|:-:|:-|
