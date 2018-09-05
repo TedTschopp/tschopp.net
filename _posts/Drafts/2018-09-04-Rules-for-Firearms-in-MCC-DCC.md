@@ -68,15 +68,15 @@ Duels are deadly.  The two participants are standing still, facing each other.  
 
 Initiative is determined normally, but the Weapon's speed is added to the die result. The duelist with the highest initiative attacks first using normal attack rules.  If the attacker hits than the attacker rolls the weapons damage dice equal to his level (or hit dice) number of times.  If the target survives, he can attempt to shoot back. applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive a normal combat round starts.  
 
-##Taking Cover, When Available, is a Move and Gives a Bonus to AC
+## Taking Cover, When Available, is a Move and Gives a Bonus to AC
 
 Taking cover is key to surviving a gun fight. If a target is actively hiding behind hard cover, no attacks can be made. If the target is firing back from behind some hard cover, the cover provides a+4 to AC. Firing from a firing port, murder hole or arrow slit can provide up to+8 points of AC.
 
-##Automatic Weapons do 3 Dice of Damage
+## Automatic Weapons do 3 Dice of Damage
 
 Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
 
-##Critical Table
+## Critical Table
 
 |Roll | Effect | Rules |
 |-:|:-:|:-|
