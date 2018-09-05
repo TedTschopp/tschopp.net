@@ -75,33 +75,37 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
 
 
+
+|Target is||Tiny|Small|Medium|Large|Huge|Gargantuan|
+|-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+
 ##Critical Table
-Roll | Effect | Rules
-_| _ |_
-1| Kickback sends the weapon flying. | You inflict half damage (rounded down) and are disarmed.
-2 | The bullet goes cleanly through the target’s shoulder. | Do an additional +1d4 damage.
-3 | The shot grazes the opponent’s head. | Inflict +1d3 damage and the opponent loses next action.
-4 | The target takes a bullet in the abdomen. | Add +1d6 damage and the opponent loses an action on his next round.
-5 | The target is shot in the rib cage. Bone fragments splinter off internally, dangerously close to vital organs. | Inflict +3d4 damage.
-6 | The target takes a bullet in the shoulder and drops his weapon. | Add +1d4 to the damage and the target is disarmed.
-7 | The target takes a bullet in the chest and is staggered. | The target takes +1d6 damage and has movement reduced by half and loses one action per round until the end of combat.
-8 | The target takes a bullet in the leg. | Add +1d6 damage and the target takes a -5’ penalty to movement until healed.
-9 | The target dodges a headshot only to have his ear blown off. | Add +1 d6 damage and the target takes 1d3 damage to Personality.
-10 | The target is shot in chest. | Add +2d6 to damage.
-11 | Gut shot. Unless the target receives medical treatment, he will die. | Death in in 1d6 hours. 
-12 | The target takes a bullet in the leg, blasting apart his femur. | Add +2d6 damage and the target takes a -1 0’ penalty to movement until healed.
-Bullet punctures the target’s lung. Add +2d1 0 damage.
-13 | The target is shot in the face. His jaw is dislocated. | Add +1d10 damage and the target takes 1d4 Personality damage.
-14 | Bullet blasts the target’s primary attack hand. | The target has a -4 penalty to all future attacks, unless magical or high tech surgery is used to rebuild the hand. 
-15 | Force of bullet knocks the target to the ground. | Add +2d6 damage and the target falls prone.
-16 | A bullet gets lodged in the spinal column. | Add +1d6 damage. The target loses next action, suffers a -2 penalty to AC and a -10’ penalty to movement until healed.
-17 | The target takes a bullet in the head. | Add +1d6 damage and the target takes 1d4 points of permanent Intelligence and Personality damage.
-18 | Bullet blasts through the target’s chest, shooting bloody chunks from the exit wound in his back. | Add +2d6 damage and the target must make a DC 1 3 + PC level Fort save or die.
-19 | The target takes a bullet to the groin. | Add +2d6 damage and the target must make a Fort save (1 0 + PC level) or lose consciousness and fall to the ground.
-20 | The target’s spinal column is blown apart. | Add +3d6 damage and the target must make a Fort save (DC 1 5 + PC level) or become paralyzed.
-21 | Blood gushes out of the target as the bullet severs a major artery. | The target takes +2d6 damage and must make a Fort save (DC 13 + PC level) or die in 1d4 rounds. 22 | The target takes a bullet to the throat. | Add +2d6 damage and the target must make a DC 10 Fortitude save or die.
-23 | The target takes bullet in the eye. A| dd +3d6 damage and the target must make a DC 10 Fortitude save or die. The target is blind in one eye.
-24+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.
+|Roll | Effect | Rules |
+|-:|:-:|:-|
+|1| Kickback sends the weapon flying. | You inflict half damage (rounded down) and are disarmed.|
+|2 | The bullet goes cleanly through the target’s shoulder. | Do an additional +1d4 damage.|
+|3 | The shot grazes the opponent’s head. | Inflict +1d3 damage and the opponent loses next action.|
+|4 | The target takes a bullet in the abdomen. | Add +1d6 damage and the opponent loses an action on his next round.|
+|5 | The target is shot in the rib cage. Bone fragments splinter off internally, dangerously close to vital organs. | Inflict +3d4 damage.|
+|6 | The target takes a bullet in the shoulder and drops his weapon. | Add +1d4 to the damage and the target is disarmed.|
+|7 | The target takes a bullet in the chest and is staggered. | The target takes +1d6 damage and has movement reduced by half and loses one action per round until the end of combat.|
+|8 | The target takes a bullet in the leg. | Add +1d6 damage and the target takes a -5’ penalty to movement until healed.|
+|9 | The target dodges a headshot only to have his ear blown off. | Add +1 d6 damage and the target takes 1d3 damage to Personality.|
+|10 | The target is shot in chest. | Add +2d6 to damage.|
+|11 | Gut shot. Unless the target receives medical treatment, he will die. | Death in in 1d6 hours. |
+|12 | The target takes a bullet in the leg, blasting apart his femur. | Add +2d6 damage and the target takes a -1 0’ penalty to movement until healed.
+Bullet punctures the target’s lung. Add +2d10 damage.|
+|13 | The target is shot in the face. His jaw is dislocated. | Add +1d10 damage and the target takes 1d4 Personality damage.|
+|14 | Bullet blasts the target’s primary attack hand. | The target has a -4 penalty to all future attacks, unless magical or high tech surgery is used to rebuild the hand. |
+|15 | Force of bullet knocks the target to the ground. | Add +2d6 damage and the target falls prone.|
+|16 | A bullet gets lodged in the spinal column. | Add +1d6 damage. The target loses next action, suffers a -2 penalty to AC and a -10’ penalty to movement until healed.|
+|17 | The target takes a bullet in the head. | Add +1d6 damage and the target takes 1d4 points of permanent Intelligence and Personality damage.|
+|18 | Bullet blasts through the target’s chest, shooting bloody chunks from the exit wound in his back. | Add +2d6 damage and the target must make a DC 1 3 + PC level Fort save or die.|
+|19 | The target takes a bullet to the groin. | Add +2d6 damage and the target must make a Fort save (1 0 + PC level) or lose consciousness and fall to the ground.|
+|20 | The target’s spinal column is blown apart. | Add +3d6 damage and the target must make a Fort save (DC 1 5 + PC level) or become paralyzed.|
+|21 | Blood gushes out of the target as the bullet severs a major artery. | The target takes +2d6 damage and must make a Fort save (DC 13 + PC level) or die in 1d4 rounds. 22 | The target takes a bullet to the throat. | Add +2d6 damage and the target must make a DC 10 Fortitude save or die.|
+|23 | The target takes bullet in the eye. A| dd +3d6 damage and the target must make a DC 10 Fortitude save or die. The target is blind in one eye.|
+|24+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
 
 
 ##Fumble
