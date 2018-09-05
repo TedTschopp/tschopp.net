@@ -77,7 +77,7 @@ Weapons with a RoF that indicates an (A), instead of separate attacks, automatic
 
 ##Critical Table
 Roll | Effect | Rules
--| - | -
+_| _ |_
 1| Kickback sends the weapon flying. | You inflict half damage (rounded down) and are disarmed.
 2 | The bullet goes cleanly through the target’s shoulder. | Do an additional +1d4 damage.
 3 | The shot grazes the opponent’s head. | Inflict +1d3 damage and the opponent loses next action.
@@ -105,9 +105,11 @@ Bullet punctures the target’s lung. Add +2d1 0 damage.
 
 
 ##Fumble
-Your shot misses everything by a good ten yards.
-Black-powder Firearms: You are in such a hurry that you leave your ramrod in the firearm. There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
-For all other Firearms: Magic Bullet: The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground -- everyone in the scene must make a DC 5 + your level Reflex save or take 1 d4 damage, including you.
+Roll | Effect | Rules
+-| - |-
+1 | Your shot misses everything by a good ten yards. | 
+2 Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
+2 All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
 The weapon alarms you almost as much as your target. Make a DC 1 0 Reflex save or drop the firearm.
 The kickback from the firearm causes you to lose hold of the weapon. You take a -2 to your next attack as you struggle to regain your grip.
 A bad round explodes in the chamber! The firearm isn’t much use at the moment. You can try to get it working again with about 1 0 minutes of effort spent towards repairs.
