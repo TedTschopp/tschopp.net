@@ -142,9 +142,8 @@ Initiative is determined normally, with each weapon having their speed added to 
 
 ## Firearms Table
 
-| Type | Name | Tech Level | Complexity | Range | Damage | Power Cells | Ammo | Rate of Fire | Speed | Weight | Cost | 
+| Type | Name | Tech Level | Complexity | Range | Damage | Power Cells | Ammo | Rate of Fire | Speed | Weight | Cost |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-
 | Pistol | Black Power Pistol | 1 | 2 | 50 | 1d8 | N/A | 1 | 1/3 | -3 | 4 lbs | 100 c |
 | Rifle | Black Power Rifle | 1 | 2 | 80 | 1d10 | N/A | 1 | 1/3 |-3 | 15lbs | 250 c|
 | Pistol | Compact | 2 | 2 | 40 | 1d6 | N/A | 2 | 1 | 0 | 2lbs | 200 c |
