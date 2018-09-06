@@ -160,7 +160,7 @@ Initiative is determined normally, with each weapon having their speed added to 
 | Rifle | Shotgun          | 3 | 2 | 50 | 1d10 | N/A  | 2  | 1  | -1 | 12lbs | 300 c |
 | Rifle | Combat Shotgun   | 3 | 3 | 50 | 1d10 | N/A  | 10 | 1  | -1 | 12lbs | 400 c |
 | Rifle | Machine Gun      | 3 | 4 | 120 | 1d12 | N/A | 100| 5A | N/A |30lbs | 800 c |
-
+{: .well .table .table-striped}
 
 
 
