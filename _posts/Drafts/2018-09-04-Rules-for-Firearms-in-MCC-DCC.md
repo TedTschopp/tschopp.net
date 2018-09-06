@@ -62,13 +62,13 @@ Each firearm has its own damage die.  For a standard attack, a hit does 1 die of
 
 ### Firearms Are Fast
 
-Using a firearm gives a +1 Die bump for initiative. This represents how quickly a gun can be fired.
+Using a firearm gives a +1 Die for initiative. This represents how quickly a gun can be fired.
 
 ### Aiming
 
 As an action, the shooter may take time to aim. This will increase the attack roll by 1 Die on the dice chain and hits will increase the damage by an additional die (1d8 becomes 2d8).  A character may aim round after round, but the bonuses do not accumulate.   
 
-### Surprise attacks
+### Surprise Attacks
 
 Firearm attacks during a surprise round, or the target is otherwise unaware of the attack, will increase the chance of a critical hit by +2.   This bonus is in addition to bonuses from Aiming.  Automatic weapons do not get this bonus.
 
@@ -91,7 +91,7 @@ Initiative is determined normally, with each weapon having their speed added to 
 ### Critical Table
 
 |Roll | Effect | Rules |
-|-:|:-:|:-|
+|-:|-|:-|
 |1| Kickback sends the weapon flying. | You inflict half damage (rounded down) and are disarmed.|
 |2 | The bullet goes cleanly through the target’s shoulder. | Do an additional +1d4 damage.|
 |3 | The shot grazes the opponent’s head. | Inflict +1d3 damage and the opponent loses next action.|
@@ -122,7 +122,7 @@ Initiative is determined normally, with each weapon having their speed added to 
 ###Fumble
 
 | Roll | Effect | Rules |
-| -:| :-: |:-
+| -:| - |:-
 | 1 | Your shot misses everything by a good ten yards. | 
 | 2 Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
 | 2 All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
