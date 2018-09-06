@@ -57,21 +57,20 @@ The following rules are what I have collected from around the internet for the u
 ## Firearm Rules
 
 ### Hits Do 1 Die of Damage
+
 Each firearm has its own damage die.  For a standard attack, a hit does 1 die of damage. Damage is treated just like any other missile or melee attack, and can be healed as normal.
 
 ### Firearms Are Fast
+
 Using a firearm gives a +1 Die bump for initiative. This represents how quickly a gun can be fired.
 
 ### Aiming
+
 As an action, the shooter may take time to aim. This will increase the attack roll by 1 Die on the dice chain and hits will increase the damage by an additional die (1d8 becomes 2d8).  A character may aim round after round, but the bonuses do not accumulate.   
 
 ### Surprise attacks
+
 Firearm attacks during a surprise round, or the target is otherwise unaware of the attack, will increase the chance of a critical hit by +2.   This bonus is in addition to bonuses from Aiming.  Automatic weapons do not get this bonus.
-
-### Duels
-Duels are deadly.  The two participants are standing still, facing each other.  The attack happens so quickly that dodging and maneuvering are not possible.  This means that duels are exceptionally damaging critical hits.
-
-Initiative is determined normally, but the Weapon's speed is added to the die result. The duelist with the highest initiative attacks first using normal attack rules.  If the attacker hits than the attacker rolls the weapons damage dice equal to his level (or hit dice) number of times.  If the target survives, he can attempt to shoot back. applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive a normal combat round starts.  
 
 ### Taking Cover
 
@@ -80,6 +79,14 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 ### Automatic Weapons
 
 Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
+
+### Duels
+
+Duels are deadly.  The two participants are standing still, facing each other.  The attack happens so quickly that dodging and maneuvering are not possible.  This means that duels are exceptionally damaging critical hits.  
+
+Initiative is determined normally, with each weapon having their speed added to the result of the initiative.  This represents the duelists drawing their weapons.  The duelist with the highest initiative attacks first using normal to hit / attack rules.  If the attacker hits than the attacker rolls the weapons damage die a number of times equal to his level or number of hit dice.  If the target survives, he can attempt to shoot back, applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive the dual, a normal combat round starts.  
+
+
 
 ### Critical Table
 
