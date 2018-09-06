@@ -91,20 +91,21 @@ Weapons with a RoF that indicates an (A), instead of separate attacks, automatic
 |9 | The target dodges a headshot only to have his ear blown off. | Add +1 d6 damage and the target takes 1d3 damage to Personality.|
 |10 | The target is shot in chest. | Add +2d6 to damage.|
 |11 | Gut shot. Unless the target receives medical treatment, he will die. | Death in in 1d6 hours. |
-|12 | The target takes a bullet in the leg, blasting apart his femur. | Add +2d6 damage and the target takes a -1 0’ penalty to movement until healed.
-Bullet punctures the target’s lung. Add +2d10 damage.|
-|13 | The target is shot in the face. His jaw is dislocated. | Add +1d10 damage and the target takes 1d4 Personality damage.|
-|14 | Bullet blasts the target’s primary attack hand. | The target has a -4 penalty to all future attacks, unless magical or high tech surgery is used to rebuild the hand. |
-|15 | Force of bullet knocks the target to the ground. | Add +2d6 damage and the target falls prone.|
-|16 | A bullet gets lodged in the spinal column. | Add +1d6 damage. The target loses next action, suffers a -2 penalty to AC and a -10’ penalty to movement until healed.|
-|17 | The target takes a bullet in the head. | Add +1d6 damage and the target takes 1d4 points of permanent Intelligence and Personality damage.|
-|18 | Bullet blasts through the target’s chest, shooting bloody chunks from the exit wound in his back. | Add +2d6 damage and the target must make a DC 1 3 + PC level Fort save or die.|
-|19 | The target takes a bullet to the groin. | Add +2d6 damage and the target must make a Fort save (1 0 + PC level) or lose consciousness and fall to the ground.|
-|20 | The target’s spinal column is blown apart. | Add +3d6 damage and the target must make a Fort save (DC 1 5 + PC level) or become paralyzed.|
-|21 | Blood gushes out of the target as the bullet severs a major artery. | The target takes +2d6 damage and must make a Fort save (DC 13 + PC level) or die in 1d4 rounds. 22 | The target takes a bullet to the throat. | Add +2d6 damage and the target must make a DC 10 Fortitude save or die.|
-|23 | The target takes bullet in the eye. A| dd +3d6 damage and the target must make a DC 10 Fortitude save or die. The target is blind in one eye.|
-|24+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
-
+|12 | The target takes a bullet in the leg, blasting apart his femur. | Add +2d6 damage and the target takes a -10’ penalty to movement until healed. 
+|13 | Bullet punctures the target’s lung. | Add +2d10 damage.|
+|14 | The target is shot in the face. His jaw is dislocated. | Add +1d10 damage and the target takes 1d4 Personality damage.|
+|15 | Bullet blasts the target’s primary attack hand. | The target has a -4 penalty to all future attacks, unless magical or high tech surgery is used to rebuild the hand. |
+|16 | Force of bullet knocks the target to the ground. | Add +2d6 damage and the target falls prone.|
+|17 | A bullet gets lodged in the spinal column. | Add +1d6 damage. The target loses next action, suffers a -2 penalty to AC and a -10’ penalty to movement until healed.|
+|18 | The target takes a bullet in the head. | Add +1d6 damage and the target takes 1d4 points of permanent Intelligence and Personality damage.|
+|19 | Bullet blasts through the target’s chest, shooting bloody chunks from the exit wound in his back. | Add +2d6 damage and the target must make a DC 1 3 + PC level Fort save or die.|
+|20 | The target takes a bullet to the groin. | Add +2d6 damage and the target must make a Fort save (1 0 + PC level) or lose consciousness and fall to the ground.|
+|21 | The target’s spinal column is blown apart. | Add +3d6 damage and the target must make a Fort save (DC 1 5 + PC level) or become paralyzed.|
+|22 | Blood gushes out of the target as the bullet severs a major artery. | The target takes +2d6 damage and must make a Fort save (DC 13 + PC level) or die in 1d4 rounds. 
+|23 | The target takes a bullet to the throat. | Add +2d6 damage and the target must make a DC 10 Fortitude save or die.|
+|24 | The target takes bullet in the eye. A| dd +3d6 damage and the target must make a DC 10 Fortitude save or die. The target is blind in one eye.|
+|25+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
+{: .well .table .table-striped}
 
 ##Fumble
 Roll | Effect | Rules
