@@ -87,7 +87,6 @@ Duels are deadly.  The two participants are standing still, facing each other.  
 Initiative is determined normally, with each weapon having their speed added to the result of the initiative.  This represents the duelists drawing their weapons.  The duelist with the highest initiative attacks first using normal to hit / attack rules.  If the attacker hits than the attacker rolls the weapons damage die a number of times equal to his level or number of hit dice.  If the target survives, he can attempt to shoot back, applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive the dual, a normal combat round starts.  
 
 
-
 ### Critical Table
 
 |Roll | Effect | Rules |
@@ -119,13 +118,13 @@ Initiative is determined normally, with each weapon having their speed added to 
 |25+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
 {: .well .table .table-striped}
 
-###Fumble
+### Fumble
 
 | Roll | Effect | Rules |
 | -:| - |:-
-| 1 | Your shot misses everything by a good ten yards. | 
-| 2 Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
-| 2 All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
+| 1 | Your shot misses everything by a good ten yards. | There are no rules for you, you lucky bastard! |
+| 2 <br> Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
+| 2 <br> All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
 | 3 | The weapon alarms you almost as much as your target.| Make a DC10 Reflex save or drop the firearm.|
 | 4 |The kickback from the firearm causes you to lose hold of the weapon. | You take a -2 to your next attack as you struggle to regain your grip.|
 | 5 | A bad round explodes in the chamber! The firearm isn’t much use at the moment. | You can try to get it working again with about 10 minutes of effort spent towards repairs. |
@@ -141,7 +140,27 @@ Initiative is determined normally, with each weapon having their speed added to 
 {: .well .table .table-striped}
 
 
+## Firearms Table
 
+| Type | Name | Tech Level | Complexity | Range | Damage | Power Cells | Ammo | Rate of Fire | Speed | Weight | Cost | 
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+
+| Pistol | Black Power Pistol | 1 | 2 | 50 | 1d8 | N/A | 1 | 1/3 | -3 | 4 lbs | 100 c |
+| Rifle | Black Power Rifle | 1 | 2 | 80 | 1d10 | N/A | 1 | 1/3 |-3 | 15lbs | 250 c|
+| Pistol | Compact | 2 | 2 | 40 | 1d6 | N/A | 2 | 1 | 0 | 2lbs | 200 c |
+| Pistol | Revolver| 2 | 2 | 60 | 1d8 | N/A | 6 | 1 | -2| 4lbs | 150 c |
+| Rifle | Bolt Action | 2 | 2 | 120 | 1d10 | N/A | 5 | 1 | -2 | 15lbs | 350 c |
+| Rifle | Shotgun | 2 | 2 | 50 | 1d10 | N/A | 2 | 1 | -1 | 12lbs | 300 c |
+| Siege | Gatling Gun | 2 | 4 | 120 | 1d12 | N/A | box / belt fed | 5 A | N/A | 300lbs | 1000 c|
+| Pistol | Compact         | 3 | 2 | 40 | 1d6 | N/A   | 2  | 1  | 0  | 2lbs  | 200 c |
+| Pistol | Revolver        | 3 | 2 | 60 | 1d8 | N/A   | 6  | 1  | -1 | 4lbs  | 150 c |
+| Pistol | Semi-Auto       | 3 | 2 | 60 | 1d8 | N/A   | 10 | 1  | 0  | 4lbs  | 250 c |
+| Pistol | Submachine gun  | 3 | 3 | 60 | 1d8 | N/A   | 30 | 1  | -1 | 4lbs  | 400 c |
+| Rifle | Assault          | 3 | 3 | 100 | 1d10 | N/A | 30 | 1  | -1 | 15lbs | 500 c |
+| Rifle | Bolt/Lever Action| 3 | 2 | 120 | 1d10 | N/A | 5  | 1  | -2 | 15lbs | 350 c |
+| Rifle | Shotgun          | 3 | 2 | 50 | 1d10 | N/A  | 2  | 1  | -1 | 12lbs | 300 c |
+| Rifle | Combat Shotgun   | 3 | 3 | 50 | 1d10 | N/A  | 10 | 1  | -1 | 12lbs | 400 c |
+| Rifle | Machine Gun      | 3 | 4 | 120 | 1d12 | N/A | 100| 5A | N/A |30lbs | 800 c |
 
 
 
