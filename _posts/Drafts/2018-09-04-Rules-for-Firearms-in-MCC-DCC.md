@@ -153,12 +153,12 @@ Initiative is determined normally, with each weapon having their speed added to 
 | Siege | Gatling Gun | 2 | 4 | 120 | 1d12 | N/A | box / belt fed | 5 A | N/A | 300lbs | 1000 c|
 | Pistol | Compact         | 3 | 2 | 40 | 1d6 | N/A   | 2  | 1  | 0  | 2lbs  | 200 c |
 | Pistol | Revolver        | 3 | 2 | 60 | 1d8 | N/A   | 6  | 1  | -1 | 4lbs  | 150 c |
-| Pistol | Semi-Auto       | 3 | 2 | 60 | 1d8 | N/A   | 10 | 1  | 0  | 4lbs  | 250 c |
-| Pistol | Submachine gun  | 3 | 3 | 60 | 1d8 | N/A   | 30 | 1  | -1 | 4lbs  | 400 c |
-| Rifle | Assault          | 3 | 3 | 100 | 1d10 | N/A | 30 | 1  | -1 | 15lbs | 500 c |
+| Pistol | Semi-Auto       | 3 | 2 | 60 | 1d8 | N/A   | 10 | 2  | 0  | 4lbs  | 250 c |
+| Pistol | Submachine gun  | 3 | 3 | 60 | 1d8 | N/A   | 30 | 3A | -1 | 4lbs  | 400 c |
+| Rifle | Assault          | 3 | 3 | 100 | 1d10 | N/A | 30 | 3A | -1 | 15lbs | 500 c |
 | Rifle | Bolt/Lever Action| 3 | 2 | 120 | 1d10 | N/A | 5  | 1  | -2 | 15lbs | 350 c |
 | Rifle | Shotgun          | 3 | 2 | 50 | 1d10 | N/A  | 2  | 1  | -1 | 12lbs | 300 c |
-| Rifle | Combat Shotgun   | 3 | 3 | 50 | 1d10 | N/A  | 10 | 1  | -1 | 12lbs | 400 c |
+| Rifle | Combat Shotgun   | 3 | 3 | 50 | 1d10 | N/A  | 10 | 2  | -1 | 12lbs | 400 c |
 | Rifle | Machine Gun      | 3 | 4 | 120 | 1d12 | N/A | 100| 5A | N/A |30lbs | 800 c |
 {: .well .table .table-striped}
 
