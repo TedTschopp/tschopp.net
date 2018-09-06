@@ -150,7 +150,7 @@ Initiative is determined normally, with each weapon having their speed added to 
 | Pistol | Revolver| 2 | 2 | 60 | 1d8 | N/A | 6 | 1 | -2| 4lbs | 150 c |
 | Rifle | Bolt Action | 2 | 2 | 120 | 1d10 | N/A | 5 | 1 | -2 | 15lbs | 350 c |
 | Rifle | Shotgun | 2 | 2 | 50 | 1d10 | N/A | 2 | 1 | -1 | 12lbs | 300 c |
-| Siege | Gatling Gun | 2 | 4 | 120 | 1d12 | N/A | box / belt fed | 5 A | N/A | 300lbs | 1000 c|
+| Siege | Gatling Gun | 2 | 4 | 120 | 1d12 | N/A | box / belt | 5 A | N/A | 300lbs | 1000 c|
 | Pistol | Compact         | 3 | 2 | 40 | 1d6 | N/A   | 2  | 1  | 0  | 2lbs  | 200 c |
 | Pistol | Revolver        | 3 | 2 | 60 | 1d8 | N/A   | 6  | 1  | -1 | 4lbs  | 150 c |
 | Pistol | Semi-Auto       | 3 | 2 | 60 | 1d8 | N/A   | 10 | 2  | 0  | 4lbs  | 250 c |
