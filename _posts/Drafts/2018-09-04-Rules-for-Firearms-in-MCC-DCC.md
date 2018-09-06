@@ -108,24 +108,25 @@ Weapons with a RoF that indicates an (A), instead of separate attacks, automatic
 {: .well .table .table-striped}
 
 ##Fumble
-Roll | Effect | Rules
--| - |-
-1 | Your shot misses everything by a good ten yards. | 
-2 Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
-2 All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
-The weapon alarms you almost as much as your target. Make a DC 1 0 Reflex save or drop the firearm.
-The kickback from the firearm causes you to lose hold of the weapon. You take a -2 to your next attack as you struggle to regain your grip.
-A bad round explodes in the chamber! The firearm isn’t much use at the moment. You can try to get it working again with about 1 0 minutes of effort spent towards repairs.
-This round is a dud. You lose your turn reloading the firearm or rotating the cylinder to remove the dud.
-The kickback from the firearm sends the weapon flying. You drop it and are disarmed.
-The weapon fires a bit too close to your ear canal, making your ears ring loudly. The next enemy that attacks you gets a +2 on his Attack Roll.
-The firearm discharges smoke that burns your eyes. You take a -4 to your next attack roll.
-The bullet ricochets and hits an ally. Roll damage for one randomly chosen ally.
-You leave your finger on the trigger and discharge the firearm into the air before the attack. Take 1 d3 points of damage as a bird, squirrel, bat, or rock from the ceiling falls on your head. Roll a DC 1 3 Agility check or fall prone as well.
-The weapon explodes in your hand. You take 1 d4 points of damage from powder burns and the weapon is rendered useless. It would take a gunsmith a week or so to fix it. Additionally, you are at -2 to Attack Rolls with the hand that was holding the weapon until you have healed.
-You have difficulty maintaining hold of the weapon and it falls the ground. The fall causes the firearm to discharge and you take the brunt of the attack. Roll damage.
-The firearm fails to discharge and you do what you should never ever do. You look down the barrel to see what happened. The firearm discharges after you shake the weapon with the weapon pointed straight at your face. Roll under your current Luck score with a d20 or take 30 points of damage
 
+| Roll | Effect | Rules |
+| -:| :-: |:-
+| 1 | Your shot misses everything by a good ten yards. | 
+| 2 Black-powder Firearms: | You are in such a hurry that you leave your ramrod in the firearm. | There is a 50% chance that the ramrod skewers your target, doing +2d6 additional damage, or does 2d6 damage to a randomly determined adjacent combatant (even an ally). The firearm cannot be reloaded until you get another ramrod.
+| 2 All other Firearms: | The bullet ricochets wildly off multiple surfaces in the environment -- trees, cavern walls, dungeon walls, the ground. | Everyone in the scene must make a DC 5 + your level Reflex save or take 1d4 damage, including you.
+| 3 | The weapon alarms you almost as much as your target.| Make a DC10 Reflex save or drop the firearm.|
+| 4 |The kickback from the firearm causes you to lose hold of the weapon. | You take a -2 to your next attack as you struggle to regain your grip.|
+| 5 | A bad round explodes in the chamber! The firearm isn’t much use at the moment. | You can try to get it working again with about 10 minutes of effort spent towards repairs. |
+| 6 |This round is a dud. | You lose your turn reloading the firearm or rotating the cylinder to remove the dud.|
+|7|The kickback from the firearm sends the weapon flying. You drop it and are disarmed. | You must spend an action picking the firearm up again and another to rearm it. |
+| 8 | The weapon fires a bit too close to your ear canal, making your ears ring loudly. | The next enemy that attacks you gets a +2 on his Attack Roll. |
+| 9 | The firearm discharges smoke that burns your eyes. | You take a -4 to your next attack roll. |
+| 10 | The bullet ricochets and hits an ally. | Roll damage for one randomly chosen ally. |
+| 11 | You leave your finger on the trigger and discharge the firearm into the air before the attack. | Take 1d3 points of damage as a bird, squirrel, bat, or rock from the ceiling falls on your head. Roll a DC 13 Agility check or fall prone as well. |
+| 12 | The weapon explodes in your hand. | You take 1d4 points of damage from powder burns and the weapon is rendered useless. It would take a gunsmith a week or so to fix it. Additionally, you are at -2 to Attack Rolls with the hand that was holding the weapon until you have healed. |
+| 13 | You have difficulty maintaining hold of the weapon and it falls the ground. The fall causes the firearm to discharge and you take the brunt of the attack. | Roll damage. |
+| 14+ |The firearm fails to discharge and you do what you should never ever do. You look down the barrel to see what happened. The firearm discharges after you shake the weapon with the weapon pointed straight at your face. | Roll under your current Luck score with a DC20 or take 30 points of damage. | 
+{: .well .table .table-striped}
 
 
 
