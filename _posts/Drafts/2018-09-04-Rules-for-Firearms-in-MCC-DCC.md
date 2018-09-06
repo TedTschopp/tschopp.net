@@ -47,36 +47,41 @@ The following rules are what I have collected from around the internet for the u
 ## Firearm Terms 
 
 **Firearm Proficiency:** First-time users decrease the die they use to roll their atacks by -1 die to attacks with a firearm and they increase the fumble die by +1. These penalties exists until either the character gains a level or appropriate training is acquired since first using the weapon.  
+
 **Rate of Fire:** This is the number of shots an attacker may take for his action, up to the Rate of Fire.  However, each subsequent shot after the first shot decreases the die they use to roll their atacks by -1 die. A firearm with multiple RoFs may fire once and only during the surprise round.  The chance of a critical hit increases increase as described in the Surprise Attack Rules. Automatic weapons are indicated by an (A).  A rate of fire that is expressed as a fraction like x/y means that the attacker may make x number of attacks before reloading for y uninterrupted rounds.
+
 **Reload:** Reloading a firearm manually can take up to a minute. If quick loaders or magazines are available, reloading takes one round. Black powder weapons can take up to 3 rounds to reload.  
+
 **Weapon Speed:** Weapon Speed is only a factor for individual initiative rolls during duels.
 
-## Hits Do 1 Die of Damage
+## Firearm Rules
+
+### Hits Do 1 Die of Damage
 Each firearm has its own damage die.  For a standard attack, a hit does 1 die of damage. Damage is treated just like any other missile or melee attack, and can be healed as normal.
 
-## Firearms Are Fast
+### Firearms Are Fast
 Using a firearm gives a +1 Die bump for initiative. This represents how quickly a gun can be fired.
 
-## Aiming
+### Aiming
 As an action, the shooter may take time to aim. This will increase the attack roll by 1 Die on the dice chain and hits will increase the damage by an additional die (1d8 becomes 2d8).  A character may aim round after round, but the bonuses do not accumulate.   
 
-## Surprise attacks
+### Surprise attacks
 Firearm attacks during a surprise round, or the target is otherwise unaware of the attack, will increase the chance of a critical hit by +2.   This bonus is in addition to bonuses from Aiming.  Automatic weapons do not get this bonus.
 
-## Duels
+### Duels
 Duels are deadly.  The two participants are standing still, facing each other.  The attack happens so quickly that dodging and maneuvering are not possible.  This means that duels are exceptionally damaging critical hits.
 
 Initiative is determined normally, but the Weapon's speed is added to the die result. The duelist with the highest initiative attacks first using normal attack rules.  If the attacker hits than the attacker rolls the weapons damage dice equal to his level (or hit dice) number of times.  If the target survives, he can attempt to shoot back. applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive a normal combat round starts.  
 
-## Taking Cover, When Available, is a Move and Gives a Bonus to AC
+### Taking Cover
 
 Taking cover is key to surviving a gun fight. If a target is actively hiding behind hard cover, no attacks can be made. If the target is firing back from behind some hard cover, the cover provides a+4 to AC. Firing from a firing port, murder hole or arrow slit can provide up to+8 points of AC.
 
-## Automatic Weapons do 3 Dice of Damage
+### Automatic Weapons
 
 Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
 
-## Critical Table
+### Critical Table
 
 |Roll | Effect | Rules |
 |-:|:-:|:-|
@@ -107,7 +112,7 @@ Weapons with a RoF that indicates an (A), instead of separate attacks, automatic
 |25+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
 {: .well .table .table-striped}
 
-##Fumble
+###Fumble
 
 | Roll | Effect | Rules |
 | -:| :-: |:-
