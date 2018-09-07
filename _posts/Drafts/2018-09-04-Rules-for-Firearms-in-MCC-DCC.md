@@ -41,50 +41,65 @@ draft-status: notes
 
 # Notes
 
-The following rules are what I have collected from around the internet for the use of firearms in MCC & DCC.  I will be playtesting these by converting a Gamma World module to MCC. 
+The following rules are what I have collected from around the Internet for the use of firearms in MCC & DCC.  I will be playtesting these by converting a Gamma World module to MCC. 
 
 
 ## Firearm Terms 
 
-**Firearm Proficiency:** First-time users decrease the die they use to roll their atacks by -1 die to attacks with a firearm and they increase the fumble die by +1. These penalties exists until either the character gains a level or appropriate training is acquired since first using the weapon.  
 
-**Rate of Fire:** This is the number of shots an attacker may take for his action, up to the Rate of Fire.  However, each subsequent shot after the first shot decreases the die they use to roll their atacks by -1 die. A firearm with multiple RoFs may fire once and only during the surprise round.  The chance of a critical hit increases increase as described in the Surprise Attack Rules. Automatic weapons are indicated by an (A).  A rate of fire that is expressed as a fraction like x/y means that the attacker may make x number of attacks before reloading for y uninterrupted rounds.
+**Rate of Fire:** This is the number of shots an attacker may take for his action, up to the Rate of Fire.  However, each subsequent shot after the first shot decreases the die they use to roll their attacks by -1d. A firearm with multiple RoFs may fire once and only during the surprise round.  The chance of a critical hit increases increase as described in the Surprise Attack Rules. Automatic weapons are indicated by an 'A'.  A rate of fire that is expressed as a fraction like x/y means that the attacker may make x number of attacks before reloading for y uninterrupted rounds.  
 
-**Reload:** Reloading a firearm manually can take up to a minute. If quick loaders or magazines are available, reloading takes one round. Black powder weapons can take up to 3 rounds to reload.  
 
-**Weapon Speed:** Weapon Speed is only a factor for individual initiative rolls during duels.
+
 
 ## Firearm Rules
+
+
+### Firearm Proficiency
+
+First-time users decrease the die they use to roll their atacks by -1d to attacks with a firearm and they increase the fumble die by +1d. These penalties exists until either the character gains a level or appropriate training is acquired since first using the weapon.  Training will take a month where the character must spend 2 hours a day shooting his weapon.  This means a character must expend 2 hours x 60 minutes a hour x 7 days a week x 4 weeks a month = 3,360 rounds of ammunition.
+
+### Reloading 
+
+Black powder weapons can take up to 3 rounds to reload.  Reloading a firearm that takes cartridges manually can takes one action per round of ammunition.   If quick loaders or magazines are available, reloading takes one action per magazine.  Each magazine, quick loader, or box can be manually loaded with ammunition at the rate of one action per round of ammunition.  Machines can be built to load magazines faster in non-combat situations.
+
+Ammunition that misses its target may not be retrieved to be reused.  Spent cartridges and bullets may be retrieved and reused by building their components.  However the fuel / explosive material in the cartridge is not reused. 
 
 ### Hits Do 1 Die of Damage
 
 Each firearm has its own damage die.  For a standard attack, a hit does 1 die of damage. Damage is treated just like any other missile or melee attack, and can be healed as normal.
 
-### Firearms Are Fast
-
-Using a firearm gives a +1 Die for initiative. This represents how quickly a gun can be fired.
-
-### Aiming
-
-As an action, the shooter may take time to aim. This will increase the attack roll by 1 Die on the dice chain and hits will increase the damage by an additional die (1d8 becomes 2d8).  A character may aim round after round, but the bonuses do not accumulate.   
-
-### Surprise Attacks
-
-Firearm attacks during a surprise round, or the target is otherwise unaware of the attack, will increase the chance of a critical hit by +2.   This bonus is in addition to bonuses from Aiming.  Automatic weapons do not get this bonus.
-
-### Taking Cover
-
-Taking cover is key to surviving a gun fight. If a target is actively hiding behind hard cover, no attacks can be made. If the target is firing back from behind some hard cover, the cover provides a+4 to AC. Firing from a firing port, murder hole or arrow slit can provide up to+8 points of AC.
-
 ### Automatic Weapons
 
 Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
 
-### Duels
+### Optional Fire arm rules
+
+#### Dueling Proficiency 
+
+Someone who is proficient in firearms may practice at becoming proficient at dueling.  A person may not benefit from these dueling rules until they become proficient in dueling.  In order to become proficient a character must use a firearm for two levels.  This may be reduced to one level with appropriate training is acquired since first using the weapon.  In order to train to be a dualist a character must spend at least 2 hours a day practicing for a full month.  This means a character must expend 2 hours x 60 minutes a hour x 7 days a week x 4 weeks a month = 3,360 rounds of ammunition.
 
 Duels are deadly.  The two participants are standing still, facing each other.  The attack happens so quickly that dodging and maneuvering are not possible.  This means that duels are exceptionally damaging critical hits.  
 
 Initiative is determined normally, with each weapon having their speed added to the result of the initiative.  This represents the duelists drawing their weapons.  The duelist with the highest initiative attacks first using normal to hit / attack rules.  If the attacker hits than the attacker rolls the weapons damage die a number of times equal to his level or number of hit dice.  If the target survives, he can attempt to shoot back, applying the same damage rules.  If the target does not survive, it is assumed he has fired back and the shot has missed.  If both duelists survive the dual, a normal combat round starts.  
+
+**Weapon Speed:** Weapon Speed is an attribute of every firearm and it is only a factor for individual initiative rolls during duels.
+
+#### Firearms Are Fast
+
+Using a firearm gives a +1 Die for initiative. This represents how quickly a gun can be fired.
+
+#### Aiming
+
+As an action, the shooter may take time to aim. This will increase the attack roll by +1d and hits will increase the damage by +1d.  A character may aim round after round, but this bonuses does not accumulate from round to round.   
+
+#### Surprise Attacks
+
+Firearm attacks during a surprise round, or the target is otherwise unaware of the attack, will increase the chance of a critical hit by +2.   This bonus is in addition to bonuses from aiming and the initiative bonus inherent to using firearms.  Automatic weapons do not get this bonus.
+
+#### Taking Cover
+
+Taking cover is key to surviving a gun fight. If a target is actively hiding behind hard cover, no attacks can be made. If the target is firing back from behind some hard cover, the cover provides a+4 to AC. Firing from a firing port, murder hole or arrow slit can provide up to+8 points of AC.
 
 
 ### Critical Table
