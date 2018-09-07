@@ -28,7 +28,7 @@ categories:
   - Gamma World
   - MCC
   - Draft
-draft-status: notes
+draft-status: Alpha
 ---
 
 
