@@ -133,7 +133,7 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 |25+ | The target takes a bullet in the chest and coughs up blood. | Add +3d6 damage and the target must make a DC 15 Fortitude save or die.|
 {: .well .table .table-striped}
 
-### Fumble
+### Fumble Table
 
 | Roll | Effect | Rules |
 | -:| - |:-
@@ -157,24 +157,65 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 
 ## Firearms Table
 
-| Type | Name | Tech Level | Complexity | Range | Damage | Power Cells | Ammo | Rate of Fire | Speed | Weight | Cost |
+| Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Pistol | Black Power Pistol | 1 | 2 | 50 | 1d8 | N/A | 1 | 1/3 | -3 | 4 lbs | 100 c |
-| Rifle | Black Power Rifle | 1 | 2 | 80 | 1d10 | N/A | 1 | 1/3 |-3 | 15lbs | 250 c|
-| Pistol | Compact | 2 | 2 | 40 | 1d6 | N/A | 2 | 1 | 0 | 2lbs | 200 c |
-| Pistol | Revolver| 2 | 2 | 60 | 1d8 | N/A | 6 | 1 | -2| 4lbs | 150 c |
-| Rifle | Bolt Action | 2 | 2 | 120 | 1d10 | N/A | 5 | 1 | -2 | 15lbs | 350 c |
-| Rifle | Shotgun | 2 | 2 | 50 | 1d10 | N/A | 2 | 1 | -1 | 12lbs | 300 c |
-| Siege | Gatling Gun | 2 | 4 | 120 | 1d12 | N/A | box / belt | 5 A | N/A | 300lbs | 1000 c|
-| Pistol | Compact         | 3 | 2 | 40 | 1d6 | N/A   | 2  | 1  | 0  | 2lbs  | 200 c |
-| Pistol | Revolver        | 3 | 2 | 60 | 1d8 | N/A   | 6  | 1  | -1 | 4lbs  | 150 c |
-| Pistol | Semi-Auto       | 3 | 2 | 60 | 1d8 | N/A   | 10 | 2  | 0  | 4lbs  | 250 c |
-| Pistol | Submachine gun  | 3 | 3 | 60 | 1d8 | N/A   | 30 | 3A | -1 | 4lbs  | 400 c |
-| Rifle | Assault          | 3 | 3 | 100 | 1d10 | N/A | 30 | 3A | -1 | 15lbs | 500 c |
-| Rifle | Bolt/Lever Action| 3 | 2 | 120 | 1d10 | N/A | 5  | 1  | -2 | 15lbs | 350 c |
-| Rifle | Shotgun          | 3 | 2 | 50 | 1d10 | N/A  | 2  | 1  | -1 | 12lbs | 300 c |
-| Rifle | Combat Shotgun   | 3 | 3 | 50 | 1d10 | N/A  | 10 | 2  | -1 | 12lbs | 400 c |
-| Rifle | Machine Gun      | 3 | 4 | 120 | 1d12 | N/A | 100| 5A | N/A |30lbs | 800 c |
+| Two H  | Battle Axe        | 1 | 1 |N/A         | 1d10  |N/A|N/A|N/A|N/A|       | 7 c   |
+| Single | Stone Axe         | 1 | 1 |N/A         | 1d7   |N/A|N/A|N/A|N/A|       | 7 c   |
+| Single | Blackjack, normal | 1 | 1 |N/A         | 1d3s  |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Blackjack, thief  | 1 | 1 |N/A         | 2d6s  |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Blowgun, normal   | 1 | 2 | 20/40/60   | 1d3   |N/A| 1 | 1 |-3 |       | 6 c   |
+| Single | Blowgun, thief    | 1 | 2 | 20/40/60   | 1d5   |N/A| 1 | 1 |-3 |       | 6 c   |
+| Single | Club              | 1 | 1 |N/A         | 1d4   |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Club, Wooden      | 1 | 1 |N/A         | 1d5   |N/A|N/A|N/A|N/A|       | 2 c   |
+| Single | Club, Bone        | 1 | 1 |N/A         | 1d6   |N/A|N/A|N/A|N/A|       | 3 c   |
+| Two H  | Crossbow          | 1 | 2 | 80/160/240 | 1d6   |N/A| 1 | 1 |N/A|       | 30 c  |
+| Single | Dagger, normal    | 1 | 1 |N/A         | 1d4   |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Dagger, theif     | 1 | 1 |N/A         | 1d10  |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Dagger            | 1 | 1 | 10/20/30   | 1d4   |N/A| 1 | 1 |1  |       | 3 c   |
+| Single | Flint Dagger      | 1 | 1 | 10/20/30   | 1d4   |N/A| 1 | 1 |1  |       | 3 c   |
+| Single | Dart              | 1 | 1 | 20/40/60   | 1d4   |N/A| 1 | 1 |0  |       | 0.5 c |
+| Single | Flail             | 1 | 1 |N/A         | 1d6   |N/A|N/A|N/A|N/A|       | 6 c   |
+| Single | Garrote, normal   | 1 | 1 |N/A         | 1     |N/A|N/A|N/A|N/A|       | 2 c   |
+| Single | Garrote, theif    | 1 | 1 |N/A         | 3d4   |N/A|N/A|N/A|N/A|       | 2 c   |
+| Single | Hand Axe          | 1 | 1 | 10/20/30   | 1d6   |N/A|N/A|N/A|-1 |       | 4 c   |
+| Single | Javelin           | 1 | 1 | 30/60/90   | 1d6   |N/A|N/A|N/A|N/A|       | 1 c   |
+| Two H  | Lance             | 1 | 3 | N/A        | 1d12  |N/A|N/A|N/A|N/A|       | 25 c  |
+| Two H  | Longbow           | 1 | 2 | 70/140/210 | 1d6   |N/A| 1 | 1 |-3 |       | 40 c  |
+| Two H  | Bow               | 1 | 2 | 50/100/200 | 1d6   |N/A| 1 | 1 |-2 |       | 30 c  |
+| Single | Mace              | 1 | 1 | N/A        | 1d6   |N/A|N/A|N/A|N/A|       | 5 c   |
+| Two H  | Polearm           | 1 | 1 | N/A        | 1d10  |N/A|N/A|N/A|N/A|       | 7 c   |
+| Two H  | Shortbow          | 1 | 2 | 50/100/150 | 1d6   |N/A| 1 | 1 |-2 |       | 25 c  |
+| Single | Sling, Leather    | 1 | 2 | 40/80/160  | 1d4   |N/A| 1 | 1 |N/A|       | 2 c   |
+| Single | Spear, Metal tip  | 1 | 1 | N/A        | 1d8   |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Spear, Stone tip  | 1 | 1 | N/A        | 1d6   |N/A|N/A|N/A|N/A|       | 3 c   |
+| Single | Staff             | 1 | 1 | N/A        | 1d4   |N/A|N/A|N/A|N/A|       | 0.5 c |
+| Two H  | Two-Handed Sword  | 1 | 1 | N/A        | 1d10  |N/A|N/A|N/A|N/A|       | 15 c  |
+| Single | Warhammer         | 1 | 1 | N/A        | 1d8   |N/A|N/A|N/A|N/A|       | 5 c   |
+| Pistol | Black Power Pistol| 1 | 2 | 50         | 1d8   |N/A| 1 |1/3|-3 | 4 lbs | 100 c |
+| Rifle  | Black Power Rifle | 1 | 2 | 80         | 1d10  |N/A| 1 |1/3|-3 | 15lbs | 250 c |
+| Pistol | Compact           | 2 | 2 | 40         | 1d6   |N/A| 2 | 1 | 0 | 2lbs  | 200 c |
+| Pistol | Revolver          | 2 | 2 | 60         | 1d8   |N/A| 6 | 1 |-2 | 4lbs  | 150 c |
+| Rifle  | Bolt Action       | 2 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
+| Rifle  | Shotgun           | 2 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
+| Siege  | Gatling Gun       | 2 | 4 | 120        | 1d12  |N/A| box/belt| 5 A |N/A| 300lbs | 1000 c|
+| Pistol | Compact           | 3 | 2 | 40         | 1d6   |N/A| 2 | 1 |0  | 2lbs  | 200 c |
+| Pistol | Revolver          | 3 | 2 | 60         | 1d8   |N/A| 6 | 1 |-1 | 4lbs  | 150 c |
+| Pistol | Semi-Auto         | 3 | 2 | 60         | 1d8   |N/A| 10| 2 |0  | 4lbs  | 250 c |
+| Pistol | Submachine gun    | 3 | 3 | 60         | 1d8   |N/A| 30| 3A|-1 | 4lbs  | 400 c |
+| Rifle  | Assault           | 3 | 3 | 100        | 1d10  |N/A| 30| 3A|-1 | 15lbs | 500 c |
+| Rifle  | Bolt/Lever Action | 3 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
+| Rifle  | Shotgun           | 3 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
+| Rifle  | Combat Shotgun    | 3 | 3 | 50         | 1d10  |N/A| 10| 2 |-1 | 12lbs | 400 c |
+| Rifle  | Machine Gun       | 3 | 4 | 120        | 1d12  |N/A|100| 5A|N/A| 30lbs | 800 c |
+| Pistol | Dazer             | 4 | 4 | 50         | Stun (DC 14/16/20 Fortitude save to resist); duration 1d6 rounds |C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
+| Pistol | Faser             | 4 | 6 | 80         | Stun (DC 18 Fortitude save to resist); Heat 3d6; Disengrate (DC 15 Fortitude to Save and take 3d6 damage)|C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
+| Pistol | Gauzer            | 4 | 3 | 70         | 1d6 |C=50,F=100,Q=U|1 or 10 | A10 |N/A|N/A| - |
+| Pistol | Laser             | 4 | 4 | LoS        | 3d6 |C=10,F=20,Q=U| 1 | 1 |N/A|N/A| - |
+| Pistol | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6 |C=10,F=20,Q=U| 1, 2, 3 | 1 |N/A|N/A| - |
+| Rifle  | Faser             | 4 | 6 | 80         | Stun (DC 20 Fortitude save to resist); Heat 5d6; Disengrate (DC 18 Fortitude to Save and take 5d6 damage)|C=10,F=20,Q=U|2,4, or 6 Power |N/A|N/A|N/A| - |
+| Rifle  | Gauzer            | 4 | 3 | 70         | 1d8 |C=50,F=100,Q=U|1 or 10 | A20 |N/A|N/A| - |
+| Rifle  | Laser             | 4 | 4 | LoS        | Heat 6d6 |C=5,F=10,Q=U| 1 | 1 |N/A|N/A| - |
+| Rifle  | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6  |C=5,F=10,Q=U| 2, 4, 6 | 1 |N/A|N/A| - |
 {: .well .table .table-striped}
 
 
