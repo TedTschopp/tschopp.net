@@ -48,7 +48,7 @@ The following rules are what I have collected from around the Internet for the u
 ## Firearm Terms 
 
 
-**Rate of Fire:** This is the number of shots an attacker may take for his action, up to the Rate of Fire.  However, each subsequent shot after the first shot decreases the die they use to roll their attacks by -1d. A firearm with multiple RoFs may fire once and only during the surprise round.  The chance of a critical hit increases increase as described in the Surprise Attack Rules. Automatic weapons are indicated by an 'A'.  A rate of fire that is expressed as a fraction like x/y means that the attacker may make x number of attacks before reloading for y uninterrupted rounds.  
+**Rate of Fire:** This is the number of shots an attacker may take for his action, up to the Rate of Fire.  However, each subsequent shot after the first shot decreases the die they use to roll their attacks by -1d. A firearm with multiple RoFs may fire once and only during the surprise round.  Automatic weapons are indicated by a number that indicates the number of rounds used followed by an 'A'.  A rate of fire that is expressed as a fraction like x/y means that the attacker may make x number of attacks before reloading for y uninterrupted rounds.  
 
 
 
