@@ -18,8 +18,7 @@ seo_description: |
 
 layout: post
 guid: 4c02a988-5ea1-4ea1-8567-616e64d683c1
-permalink: /2018/09/04/Firearms-in-MCC-DCC/
-image: 	/media/2018-09-04/MCC-Guns.jpg
+image:  /media/2018-09-04/MCC-Guns.jpg
 image-credits: Weapon & Prop Concepts by Matthew Harris https://megalomatthew.artstation.com/
 image-credits-title: Weapon & Prop Concepts
 image-credits-artist: Matthew Harris
@@ -72,7 +71,7 @@ Each firearm has its own damage die.  For a standard attack, a hit does 1 die of
 
 ### Automatic Weapons
 
-Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit (natural 20) does 6 dice of damage, DC 10 Ref save for half.
+Weapons with a RoF that indicates an (A), instead of separate attacks, automatic weapons can affect multiple targets in a 10-foot square area. An automatic fire attack uses 10 rounds of ammunition. The attacker makes a single attack roll that’s compared to the AC of each target in the area. A hit causes 3 dice worth of damage, DC 10 Ref save for half. A critical hit on the to hit roll by the attacker (natural 20) does 6 dice of damage, DC 10 Ref save by the defender will save for for half of the damage rolled.
 
 ### Optional Fire arm rules
 
@@ -156,7 +155,51 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 {: .well .table .table-striped}
 
 
-## Firearms Table
+## Range Table
+
+| Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| Single | Blowgun, normal   | 1 | 2 | 20/40/60   | 1d3   |N/A| 1 | 1 |-3 |       | 6 c   |
+| Single | Blowgun, thief    | 1 | 2 | 20/40/60   | 1d5   |N/A| 1 | 1 |-3 |       | 6 c   |
+| Two H  | Crossbow          | 1 | 2 | 80/160/240 | 1d6   |N/A| 1 | 1 |N/A|       | 30 c  |
+| Single | Dagger            | 1 | 1 | 10/20/30   | 1d4   |N/A| 1 | 1 |1  |       | 3 c   |
+| Single | Flint Dagger      | 1 | 1 | 10/20/30   | 1d4   |N/A| 1 | 1 |1  |       | 3 c   |
+| Single | Dart              | 1 | 1 | 20/40/60   | 1d4   |N/A| 1 | 1 |0  |       | 0.5 c |
+| Single | Hand Axe          | 1 | 1 | 10/20/30   | 1d6   |N/A|N/A|N/A|-1 |       | 4 c   |
+| Single | Javelin           | 1 | 1 | 30/60/90   | 1d6   |N/A|N/A|N/A|N/A|       | 1 c   |
+| Two H  | Longbow           | 1 | 2 | 70/140/210 | 1d6   |N/A| 1 | 1 |-3 |       | 40 c  |
+| Two H  | Bow               | 1 | 2 | 50/100/200 | 1d6   |N/A| 1 | 1 |-2 |       | 30 c  |
+| Two H  | Shortbow          | 1 | 2 | 50/100/150 | 1d6   |N/A| 1 | 1 |-2 |       | 25 c  |
+| Single | Sling, Leather    | 1 | 2 | 40/80/160  | 1d4   |N/A| 1 | 1 |N/A|       | 2 c   |
+| Pistol | Black Power Pistol| 1 | 2 | 50         | 1d8   |N/A| 1 |1/3|-3 | 4 lbs | 100 c |
+| Rifle  | Black Power Rifle | 1 | 2 | 80         | 1d10  |N/A| 1 |1/3|-3 | 15lbs | 250 c |
+| Pistol | Compact           | 2 | 2 | 40         | 1d6   |N/A| 2 | 1 | 0 | 2lbs  | 200 c |
+| Pistol | Revolver          | 2 | 2 | 60         | 1d8   |N/A| 6 | 1 |-2 | 4lbs  | 150 c |
+| Rifle  | Bolt Action       | 2 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
+| Rifle  | Shotgun           | 2 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
+| Siege  | Gatling Gun       | 2 | 4 | 120        | 1d12  |N/A| box/belt| 5 A |N/A| 300lbs | 1000 c|
+| Pistol | Compact           | 3 | 2 | 40         | 1d6   |N/A| 2 | 1 |0  | 2lbs  | 200 c |
+| Pistol | Revolver          | 3 | 2 | 60         | 1d8   |N/A| 6 | 1 |-1 | 4lbs  | 150 c |
+| Pistol | Semi-Auto         | 3 | 2 | 60         | 1d8   |N/A| 10| 2 |0  | 4lbs  | 250 c |
+| Pistol | Submachine gun    | 3 | 3 | 60         | 1d8   |N/A| 30| 3A|-1 | 4lbs  | 400 c |
+| Rifle  | Assault           | 3 | 3 | 100        | 1d10  |N/A| 30| 3A|-1 | 15lbs | 500 c |
+| Rifle  | Bolt/Lever Action | 3 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
+| Rifle  | Shotgun           | 3 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
+| Rifle  | Combat Shotgun    | 3 | 3 | 50         | 1d10  |N/A| 10| 2 |-1 | 12lbs | 400 c |
+| Rifle  | Machine Gun       | 3 | 4 | 120        | 1d12  |N/A|100| 5A|N/A| 30lbs | 800 c |
+| Pistol | Dazer             | 4 | 4 | 50         | Stun (DC 14/16/20 Fortitude save to resist); duration 1d6 rounds |C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
+| Pistol | Faser             | 4 | 6 | 80         | Stun (DC 18 Fortitude save to resist); Heat 3d6; Disengrate (DC 15 Fortitude to Save and take 3d6 damage)|C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
+| Pistol | Gauzer            | 4 | 3 | 70         | 1d6 |C=50,F=100,Q=U|1 or 10 | A10 |N/A|N/A| - |
+| Pistol | Laser             | 4 | 4 | LoS        | 3d6 |C=10,F=20,Q=U| 1 | 1 |N/A|N/A| - |
+| Pistol | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6 |C=10,F=20,Q=U| 1, 2, 3 | 1 |N/A|N/A| - |
+| Rifle  | Faser             | 4 | 6 | 80         | Stun (DC 20 Fortitude save to resist); Heat 5d6; Disengrate (DC 18 Fortitude to Save and take 5d6 damage)|C=10,F=20,Q=U|2,4, or 6 Power |N/A|N/A|N/A| - |
+| Rifle  | Gauzer            | 4 | 3 | 70         | 1d8 |C=50,F=100,Q=U|1 or 10 | A20 |N/A|N/A| - |
+| Rifle  | Laser             | 4 | 4 | LoS        | Heat 6d6 |C=5,F=10,Q=U| 1 | 1 |N/A|N/A| - |
+| Rifle  | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6  |C=5,F=10,Q=U| 2, 4, 6 | 1 |N/A|N/A| - |
+{: .well .table .table-striped}
+
+
+## Melee Table
 
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
@@ -192,32 +235,3 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 | Single | Staff             | 1 | 1 | N/A        | 1d4   |N/A|N/A|N/A|N/A|       | 0.5 c |
 | Two H  | Two-Handed Sword  | 1 | 1 | N/A        | 1d10  |N/A|N/A|N/A|N/A|       | 15 c  |
 | Single | Warhammer         | 1 | 1 | N/A        | 1d8   |N/A|N/A|N/A|N/A|       | 5 c   |
-| Pistol | Black Power Pistol| 1 | 2 | 50         | 1d8   |N/A| 1 |1/3|-3 | 4 lbs | 100 c |
-| Rifle  | Black Power Rifle | 1 | 2 | 80         | 1d10  |N/A| 1 |1/3|-3 | 15lbs | 250 c |
-| Pistol | Compact           | 2 | 2 | 40         | 1d6   |N/A| 2 | 1 | 0 | 2lbs  | 200 c |
-| Pistol | Revolver          | 2 | 2 | 60         | 1d8   |N/A| 6 | 1 |-2 | 4lbs  | 150 c |
-| Rifle  | Bolt Action       | 2 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
-| Rifle  | Shotgun           | 2 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
-| Siege  | Gatling Gun       | 2 | 4 | 120        | 1d12  |N/A| box/belt| 5 A |N/A| 300lbs | 1000 c|
-| Pistol | Compact           | 3 | 2 | 40         | 1d6   |N/A| 2 | 1 |0  | 2lbs  | 200 c |
-| Pistol | Revolver          | 3 | 2 | 60         | 1d8   |N/A| 6 | 1 |-1 | 4lbs  | 150 c |
-| Pistol | Semi-Auto         | 3 | 2 | 60         | 1d8   |N/A| 10| 2 |0  | 4lbs  | 250 c |
-| Pistol | Submachine gun    | 3 | 3 | 60         | 1d8   |N/A| 30| 3A|-1 | 4lbs  | 400 c |
-| Rifle  | Assault           | 3 | 3 | 100        | 1d10  |N/A| 30| 3A|-1 | 15lbs | 500 c |
-| Rifle  | Bolt/Lever Action | 3 | 2 | 120        | 1d10  |N/A| 5 | 1 |-2 | 15lbs | 350 c |
-| Rifle  | Shotgun           | 3 | 2 | 50         | 1d10  |N/A| 2 | 1 |-1 | 12lbs | 300 c |
-| Rifle  | Combat Shotgun    | 3 | 3 | 50         | 1d10  |N/A| 10| 2 |-1 | 12lbs | 400 c |
-| Rifle  | Machine Gun       | 3 | 4 | 120        | 1d12  |N/A|100| 5A|N/A| 30lbs | 800 c |
-| Pistol | Dazer             | 4 | 4 | 50         | Stun (DC 14/16/20 Fortitude save to resist); duration 1d6 rounds |C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
-| Pistol | Faser             | 4 | 6 | 80         | Stun (DC 18 Fortitude save to resist); Heat 3d6; Disengrate (DC 15 Fortitude to Save and take 3d6 damage)|C=10,F=20,Q=U|1,2, or 3 Power |N/A|N/A|N/A| - |
-| Pistol | Gauzer            | 4 | 3 | 70         | 1d6 |C=50,F=100,Q=U|1 or 10 | A10 |N/A|N/A| - |
-| Pistol | Laser             | 4 | 4 | LoS        | 3d6 |C=10,F=20,Q=U| 1 | 1 |N/A|N/A| - |
-| Pistol | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6 |C=10,F=20,Q=U| 1, 2, 3 | 1 |N/A|N/A| - |
-| Rifle  | Faser             | 4 | 6 | 80         | Stun (DC 20 Fortitude save to resist); Heat 5d6; Disengrate (DC 18 Fortitude to Save and take 5d6 damage)|C=10,F=20,Q=U|2,4, or 6 Power |N/A|N/A|N/A| - |
-| Rifle  | Gauzer            | 4 | 3 | 70         | 1d8 |C=50,F=100,Q=U|1 or 10 | A20 |N/A|N/A| - |
-| Rifle  | Laser             | 4 | 4 | LoS        | Heat 6d6 |C=5,F=10,Q=U| 1 | 1 |N/A|N/A| - |
-| Rifle  | Mazer             | 4 | 5 | 70         | Heat 1d6 / 2d6 / 3d6  |C=5,F=10,Q=U| 2, 4, 6 | 1 |N/A|N/A| - |
-{: .well .table .table-striped}
-
-
-
