@@ -34,7 +34,6 @@
 
     body {
         background-color: black;
-        font-size:16px
     }
 
     .tech-v h1 {
@@ -82,12 +81,11 @@
 
     td#paper_printarea {
         width: 100%;
-        font-size: 13px;
+        font-size: 2em;
         text-align: left;
         font-family: lp1_regular, "Trebuchet MS", sans-serif;
         font-style: normal;
         font-weight: 400;
-        line-height: 16px;
         background-color: white;
         padding: 57px 18px 1px 18px;
         background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper.png);
