@@ -1,10 +1,9 @@
 <ul>
     {% assign count = 0 %} 
-    {{ GammaWorld[1].Name}}
     {% for Creatures in GammaWorld %} 
     	{% assign count = count | plus: 1 %}
 	    <LI>
-	        {{ Creatures }}
+	        {{ Creatures | inspect}}
 	    </LI>
     {% endfor %}
 </ul>
