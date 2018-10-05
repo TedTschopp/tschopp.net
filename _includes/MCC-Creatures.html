@@ -1,7 +1,7 @@
 <ul>
-{% for Creatures in site.data.GammaWorld %}
-	<li>
-	{{Creatures.Name}} - {{Creatures}}
-	</li>
-{% endfor %}
+	{% for Creatures in GammaWorld %}
+		<li>
+			{{Creatures.Name}} - {{Creatures}}
+		</li>
+	{% endfor %}
 </ul>
