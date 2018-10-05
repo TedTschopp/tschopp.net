@@ -1,7 +1,9 @@
 <ul>
+    {% assign count = 0 %} 
     {% for Creatures in GammaWorld %} 
+    	{% assign count = count | plus: 1 %}
 	    <LI>
-	        {{ Creatures }}
+	        {{ Creatures[12] }}
 	    </LI>
     {% endfor %}
 </ul>
