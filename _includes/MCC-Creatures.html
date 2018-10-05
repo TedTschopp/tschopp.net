@@ -9,7 +9,7 @@
         	{{ Creatures | jsonify }}
         {% endcapture %}
         <li>{{creature}</li>
-        <li>{{creature[0].Name}}</li>
-        <li>{{creature[0].Source}}</li>
+        <li>{{creature.Name}}</li>
+        <li>{{creature.Source}}</li>
     {% endfor %}
 </ul>
