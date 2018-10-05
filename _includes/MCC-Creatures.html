@@ -3,7 +3,7 @@
  	{% for Creatures in GammaWorld %}
 		 {% assign count = count | plus: 1 %}
 		<li>
-			{{Creatures[count] | jsonify}}
+			#{{count}}: {{Creatures[count] | jsonify}}
 		</li>
 	{% endfor %}
 </ul>
