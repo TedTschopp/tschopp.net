@@ -5,8 +5,11 @@
     {% assign count = 0 %} 
     {% for Creatures in GammaWorld %} 
     	{% assign count = count | plus: 1 %}
-	    <LI>
-	        {{ Creatures. }}
-	    </LI>
+		{% capture creature %}
+        {{ Creatures | jsonify }}
+        {% endcapture %}
+        <li>{{Creature}}</li>
+        <li>{{Creature.Name}}</li>
+        <li>{{Creature.Source}}</li>
     {% endfor %}
 </ul>
