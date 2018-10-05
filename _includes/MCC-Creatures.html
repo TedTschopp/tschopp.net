@@ -1,15 +1,7 @@
 <ul>
-    {% assign count = 0 %} 
     {% for Creatures in GammaWorld %} 
-    	{% assign count = count | plus: 1 %}
 	    <LI>
-	        <UL>
-	            {% For Stats in Creatures %}
-	            <LI>
-	                {{ Stats | jsonify }}
-	            </LI>
-	            {% endfor %}
-	        </UL>
+	        {{ Creatures }}
 	    </LI>
     {% endfor %}
 </ul>
