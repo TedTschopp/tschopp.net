@@ -1,8 +1,7 @@
 
-{{GammaWorld["Android"].Source}}
 
 <ul>
-    {% for Creatures in GammaWorld %} 
+    {% for Creatures in GammaWorld.Creatures %} 
 		{% capture creature %}
         	{{ Creatures | jsonify }}
         {% endcapture %}
