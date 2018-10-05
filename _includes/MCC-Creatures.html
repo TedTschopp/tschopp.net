@@ -2,14 +2,10 @@
 {{GammaWorld["Android"].Source}}
 
 <ul>
-    {% assign count = 0 %} 
     {% for Creatures in GammaWorld %} 
-    	{% assign count = count | plus: 1 %}
 		{% capture creature %}
         	{{ Creatures | jsonify }}
         {% endcapture %}
         <li>{{creature}</li>
-        <li>{{creature.Name}}</li>
-        <li>{{creature.Source}}</li>
     {% endfor %}
 </ul>
