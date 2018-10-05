@@ -5,6 +5,9 @@
 		{% capture creature %}
         	{{ Creatures | jsonify }}
         {% endcapture %}
+        {{creature.name}}
+        {{creature.Source}}
+
         <li>{{creature}}</li>
     {% endfor %}
 </ul>
