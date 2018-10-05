@@ -91,7 +91,7 @@
         "Will": 2,
         "Normal Text": "Android 'Body Guard' (1d3 (2)): Init +6; atk weapon melee +6 (1d10+3); AC 19; HD 6D12 hp 39 each; MV 30'; 1d20; SV Fort +3, Ref +3, Will +2",
         "Description Output": "Man-made beings with red hued skin and blank stares.",
-        "Players": "Android; 'Body Guard';Man-made beings with red hued skin and blank stares.|",
+        "Players": "Android; 'Body Guard';Man-made beings with red hued skin and blank stares.",
         "Final JSON Output": ""
     },
     "Ark": {
@@ -186,7 +186,7 @@
         "Will": 0,
         "Normal Text": "Ark 'Hound Folk' (1d4 (2)): Init +0; atk weapon melee +2 (1d8+1) and bite melee +2 (1d3+1); AC 15; HD 4D7 hp 16 each; MV 45'; 1d20; SV Fort +0, Ref -2, Will +0",
         "Description Output": "Intelligent man-dogs over two meters tall, standing on their hind legs. The only wear leather or leather studded armor and carry shields. They have thick fur.",
-        "Players": "Ark; 'Hound Folk';Intelligent man-dogs over two meters tall, standing on their hind legs. The only wear leather or leather studded armor and carry shields. They have thick fur.|",
+        "Players": "Ark; 'Hound Folk';Intelligent man-dogs over two meters tall, standing on their hind legs. The only wear leather or leather studded armor and carry shields. They have thick fur.",
         "Final JSON Output": ""
     },
     "Arns": {
@@ -281,7 +281,7 @@
         "Will": -2,
         "Normal Text": "Arns 'Dragon Bugs' (1d6 (3)): Init +3; atk bite melee  (1d5-1); AC 11; HD 3D7 hp 12 each; MV 8' or Fly 30'; 1d20; SV Fort +0, Ref +1, Will -2",
         "Description Output": "One to Two meter long Dragonflies.  They are often domesticated as flying steeds by small humanoids and mutated animals.  They must be trained from a very young age.",
-        "Players": "Arns; 'Dragon Bugs';One to Two meter long Dragonflies.  They are often domesticated as flying steeds by small humanoids and mutated animals.  They must be trained from a very young age.|",
+        "Players": "Arns; 'Dragon Bugs';One to Two meter long Dragonflies.  They are often domesticated as flying steeds by small humanoids and mutated animals.  They must be trained from a very young age.",
         "Final JSON Output": ""
     },
     "Badder": {
@@ -376,7 +376,7 @@
         "Will": 2,
         "Normal Text": "Badder 'Digger Folk' (3d6 (10)): Init +5; atk weapon melee +1 (1d6) and bite melee +1 (1d3); AC 15; HD 3D7 hp 12 each; MV 30' or Burrow 10'; 1d20; SV Fort +0, Ref +3, Will +2",
         "Description Output": "1.5 Meter-tall humanoid badgers. Badders wear chainmail and ring mail armor.  They walk errect.",
-        "Players": "Badder; 'Digger Folk';1.5 Meter-tall humanoid badgers. Badders wear chainmail and ring mail armor.  They walk errect.|",
+        "Players": "Badder; 'Digger Folk';1.5 Meter-tall humanoid badgers. Badders wear chainmail and ring mail armor.  They walk errect.",
         "Final JSON Output": ""
     },
     "Barl Neps": {
@@ -471,7 +471,7 @@
         "Will": -3,
         "Normal Text": "Barl Neps 'Deathfish' (1d4 (2)): Init +3; atk bite melee +2 (1d4); AC 16; HD 7D7 hp 28 each; MV or Swim 60'; 1d20; SV Fort -2, Ref -1, Will -3",
         "Description Output": "A Black predatory fish that grows to a legnth of 1.5 meters.  ",
-        "Players": "Barl Neps; 'Deathfish';A Black predatory fish that grows to a legnth of 1.5 meters.  |",
+        "Players": "Barl Neps; 'Deathfish';A Black predatory fish that grows to a legnth of 1.5 meters.  ",
         "Final JSON Output": ""
     },
     "Ber Leps": {
@@ -566,7 +566,7 @@
         "Will": -2,
         "Normal Text": "Ber Leps 'Sweetpads' (1d8 (4)): Init +1; atk bite melee +3 (1d5+1); AC 14; HD 8D5 hp 24 each; MV 0'; 1d20; SV Fort +1, Ref -3, Will -2",
         "Description Output": "A two-meter diameter, free floating lillypad. The plant secrets a swee0smelling acid that attracts prey",
-        "Players": "Ber Leps; 'Sweetpads';A two-meter diameter, free floating lillypad. The plant secrets a swee0smelling acid that attracts prey|",
+        "Players": "Ber Leps; 'Sweetpads';A two-meter diameter, free floating lillypad. The plant secrets a swee0smelling acid that attracts prey",
         "Final JSON Output": ""
     },
     "Blaashes": {
@@ -661,7 +661,7 @@
         "Will": -3,
         "Normal Text": "Blaashes 'Gamma Moths' (1d10 (5)): Init +2; atk bite melee +1 (1d3-1); AC 12; HD 5D7 hp 20 each; MV 10' or Fly 30'; 1d20; SV Fort +0, Ref -1, Will -3",
         "Description Output": "A mutated gypsy moth over 1 meter long and with a two meter wingspan.  ",
-        "Players": "Blaashes; 'Gamma Moths';A mutated gypsy moth over 1 meter long and with a two meter wingspan.  |",
+        "Players": "Blaashes; 'Gamma Moths';A mutated gypsy moth over 1 meter long and with a two meter wingspan.  ",
         "Final JSON Output": ""
     },
     "Blights": {
@@ -756,7 +756,7 @@
         "Will": 0,
         "Normal Text": "Blights 'Cloud Worms' (1d4 (2)): Init +3; atk bite melee +3 (1d5+1) and coil melee +3 (1d10+1); AC 11; HD 6D7 hp 24 each; MV 10' or Fly 30'; 1d20; SV Fort +1, Ref +0, Will +0",
         "Description Output": "Three meter long carnicious winged worms with a 9 memter wingspan.  ",
-        "Players": "Blights; 'Cloud Worms';Three meter long carnicious winged worms with a 9 memter wingspan.  |",
+        "Players": "Blights; 'Cloud Worms';Three meter long carnicious winged worms with a 9 memter wingspan.  ",
         "Final JSON Output": ""
     },
     "Blood birds": {
@@ -851,7 +851,7 @@
         "Will": 1,
         "Normal Text": "Blood birds 'Red Deaths' (2d6 (7)): Init +0; atk bite melee +1 (1d3); AC 16; HD 2D7 hp 8 each; MV 8' or Fly 45'; 1d20; SV Fort +0, Ref -1, Will +1",
         "Description Output": "A Mutated Scarlet Tanager with red feathers standing a meter tall.  ",
-        "Players": "Blood birds; 'Red Deaths';A Mutated Scarlet Tanager with red feathers standing a meter tall.  |",
+        "Players": "Blood birds; 'Red Deaths';A Mutated Scarlet Tanager with red feathers standing a meter tall.  ",
         "Final JSON Output": ""
     },
     "Brutorz": {
@@ -946,7 +946,7 @@
         "Will": 0,
         "Normal Text": "Brutorz 'Big Walkers' (2d6 (7)): Init +4; atk bite melee +8 (1d5+6) and 2 x kicks melee +8 (1d4+6); AC 13; HD 8D7 hp 32 each; MV 40'; 1d20; SV Fort +1, Ref +0, Will +0",
         "Description Output": "A two meter tall horse that can carry 900lbs for long distances without tiring.  ",
-        "Players": "Brutorz; 'Big Walkers';A two meter tall horse that can carry 900lbs for long distances without tiring.  |",
+        "Players": "Brutorz; 'Big Walkers';A two meter tall horse that can carry 900lbs for long distances without tiring.  ",
         "Final JSON Output": ""
     },
     "Cal Thens": {
@@ -1041,7 +1041,7 @@
         "Will": 3,
         "Normal Text": "Cal Thens 'Flying Rippers' (1d3 (2)): Init +2; atk bite melee +2 (1d14+1); AC 11; HD 4D7 hp 16 each; MV 10' or Fly 20'; 1d20; SV Fort +0, Ref +0, Will +3",
         "Description Output": "A giant mutated beetle that reaches the length of 2.5 meters.  ",
-        "Players": "Cal Thens; 'Flying Rippers';A giant mutated beetle that reaches the length of 2.5 meters.  |",
+        "Players": "Cal Thens; 'Flying Rippers';A giant mutated beetle that reaches the length of 2.5 meters.  ",
         "Final JSON Output": ""
     },
     "Carrins": {
@@ -1136,7 +1136,7 @@
         "Will": 1,
         "Normal Text": "Carrins 'Dark Emperors' (2d3 (4)): Init +4; atk quills melee +8 (1d3+6); AC 13; HD 8D7 hp 32 each; MV 10' or Fly 30'; 1d20; SV Fort +1, Ref +0, Will +1",
         "Description Output": "Three meter tall mutated vultures weighing over 50kg.  Each is followed by at least 1d6 blood bird followers.",
-        "Players": "Carrins; 'Dark Emperors';Three meter tall mutated vultures weighing over 50kg.  Each is followed by at least 1d6 blood bird followers.|",
+        "Players": "Carrins; 'Dark Emperors';Three meter tall mutated vultures weighing over 50kg.  Each is followed by at least 1d6 blood bird followers.",
         "Final JSON Output": ""
     },
     "Centisteeds": {
@@ -1231,7 +1231,7 @@
         "Will": 1,
         "Normal Text": "Centisteeds 'Fast Trotters' (1d4 (2)): Init +1; atk hoofs melee +8 (1d6+6); AC 11; HD 6D7 hp 24 each; MV 60'; 1d20; SV Fort +0, Ref -2, Will +1",
         "Description Output": "Mutated horses with insectoid appearances.  They have 12 - 18 legs.",
-        "Players": "Centisteeds; 'Fast Trotters';Mutated horses with insectoid appearances.  They have 12 - 18 legs.|",
+        "Players": "Centisteeds; 'Fast Trotters';Mutated horses with insectoid appearances.  They have 12 - 18 legs.",
         "Final JSON Output": ""
     },
     "Cren Tosh": {
@@ -1326,7 +1326,7 @@
         "Will": -1,
         "Normal Text": "Cren Tosh 'Lizard Fish' (1d3 (2)): Init +1; atk bite melee +3 (1d4+1); AC 17; HD 5D7 hp 20 each; MV 30' or Swim 60'; 1d20; SV Fort -1, Ref -2, Will -1",
         "Description Output": "This creature prefers to live in the water as a 2 meter long fish, but it can transform itself into any lizard of simular mass for up to 24 hours at a time.  ",
-        "Players": "Cren Tosh; 'Lizard Fish';This creature prefers to live in the water as a 2 meter long fish, but it can transform itself into any lizard of simular mass for up to 24 hours at a time.  |",
+        "Players": "Cren Tosh; 'Lizard Fish';This creature prefers to live in the water as a 2 meter long fish, but it can transform itself into any lizard of simular mass for up to 24 hours at a time.  ",
         "Final JSON Output": ""
     },
     "Crep, Pink": {
@@ -1421,7 +1421,7 @@
         "Will": 1,
         "Normal Text": "Crep, Pink 'Water Crep' (1d4 (2)): Init +4; atk 6-8 x vines melee +1 (1d3-2); AC 17; HD 9D5 hp 27 each; MV 5' or Swim 5'; 1d20+1d14; SV Fort +1, Ref -1, Will +1",
         "Description Output": "Water Crep live in the water totally submerged.",
-        "Players": "Crep, Pink; 'Water Crep';Water Crep live in the water totally submerged.|",
+        "Players": "Crep, Pink; 'Water Crep';Water Crep live in the water totally submerged.",
         "Final JSON Output": ""
     },
     "Dabbers": {
@@ -1516,7 +1516,7 @@
         "Will": 1,
         "Normal Text": "Dabbers 'Brown Beggers, Trash Pandas' (2d10 (11)): Init +1; atk weapon melee +1 (1d8) and bite melee +1 (1d3); AC 15; HD 2D7 hp 8 each; MV 20'; 1d20; SV Fort -1, Ref +0, Will +1",
         "Description Output": "One Meter tall mutated racoons that walk upright and have manipulative paws.  ",
-        "Players": "Dabbers; 'Brown Beggers, Trash Pandas';One Meter tall mutated racoons that walk upright and have manipulative paws.  |",
+        "Players": "Dabbers; 'Brown Beggers, Trash Pandas';One Meter tall mutated racoons that walk upright and have manipulative paws.  ",
         "Final JSON Output": ""
     },
     "Ert Teldens": {
@@ -1611,7 +1611,7 @@
         "Will": -3,
         "Normal Text": "Ert Teldens 'Firefish' (1d6 (3)): Init +0; atk flames melee +1 (1d8) and explodes melee +1 (1d10); AC 14; HD 4D7 hp 16 each; MV or Swim 30'; 1d20; SV Fort -1, Ref -2, Will -3",
         "Description Output": "One Meter Long fish that lives in backwaters and marshes.  ",
-        "Players": "Ert Teldens; 'Firefish';One Meter Long fish that lives in backwaters and marshes.  |",
+        "Players": "Ert Teldens; 'Firefish';One Meter Long fish that lives in backwaters and marshes.  ",
         "Final JSON Output": ""
     },
     "Erts": {
@@ -1706,7 +1706,7 @@
         "Will": -3,
         "Normal Text": "Erts 'Stonefish' (1d4 (2)): Init +0; atk bite melee  (1d4-1); AC 11; HD 2D7 hp 8 each; MV or Swim 60'; 1d20; SV Fort -1, Ref -1, Will -3",
         "Description Output": "One Meter long fish",
-        "Players": "Erts; 'Stonefish';One Meter long fish|",
+        "Players": "Erts; 'Stonefish';One Meter long fish",
         "Final JSON Output": ""
     },
     "Fens": {
@@ -1801,7 +1801,7 @@
         "Will": -1,
         "Normal Text": "Fens 'Man-Fish' (1d10 (5)): Init +3; atk weapon melee +3 (1d6+1) and tailslap melee +3 (1d10+1); AC 13; HD 8D5 hp 24 each; MV 10' or Fly 30'; 1d20; SV Fort +0, Ref -1, Will -1",
         "Description Output": "Intellegent humanoids that have adapted to living on both land and in the water.  They have fish like tails, stubby legs, and both lungs and gills.  ",
-        "Players": "Fens; 'Man-Fish';Intellegent humanoids that have adapted to living on both land and in the water.  They have fish like tails, stubby legs, and both lungs and gills.  |",
+        "Players": "Fens; 'Man-Fish';Intellegent humanoids that have adapted to living on both land and in the water.  They have fish like tails, stubby legs, and both lungs and gills.  ",
         "Final JSON Output": ""
     },
     "Gators": {
@@ -1896,7 +1896,7 @@
         "Will": 1,
         "Normal Text": "Gators 'Green Hissers' (1d6 (3)): Init +1; atk bite melee +2 (1d6+1) and tailslap melee +2 (1d4+1); AC 16; HD 3D7 hp 12 each; MV 10' or Swim 30'; 1d20; SV Fort +1, Ref -1, Will +1",
         "Description Output": "One to Two Meter long mutated Alligators with a pair of one meter long tentacles attached to their foreheads.",
-        "Players": "Gators; 'Green Hissers';One to Two Meter long mutated Alligators with a pair of one meter long tentacles attached to their foreheads.|",
+        "Players": "Gators; 'Green Hissers';One to Two Meter long mutated Alligators with a pair of one meter long tentacles attached to their foreheads.",
         "Final JSON Output": ""
     },
     "Grens": {
@@ -1991,7 +1991,7 @@
         "Will": 2,
         "Normal Text": "Grens 'Green Man' (1d8 (4)): Init +9; atk weapon melee +6 (1d10+2); AC 16; HD 15D5 hp 45 each; MV 30'; 1d20+1d20; SV Fort +1, Ref +1, Will +2",
         "Description Output": "Grens look like Green skinned pure strain humans.  ",
-        "Players": "Grens; 'Green Man';Grens look like Green skinned pure strain humans.  |",
+        "Players": "Grens; 'Green Man';Grens look like Green skinned pure strain humans.  ",
         "Final JSON Output": ""
     },
     "Hawkoids": {
@@ -2086,7 +2086,7 @@
         "Will": 1,
         "Normal Text": "Hawkoids 'Sparrow Hawks' (2d6 (7)): Init +3; atk weapon melee +1 (1d5) and bite melee +1 (1d3); AC 13; HD 4D7 hp 16 each; MV 20' or Fly 60'; 1d20; SV Fort +0, Ref +1, Will +1",
         "Description Output": "Mutated sparrow hawks that grow to a height of 1.5 meters with a 1 meter wingspan.   Their legs do not end in talons, but end in hands.",
-        "Players": "Hawkoids; 'Sparrow Hawks';Mutated sparrow hawks that grow to a height of 1.5 meters with a 1 meter wingspan.   Their legs do not end in talons, but end in hands.|",
+        "Players": "Hawkoids; 'Sparrow Hawks';Mutated sparrow hawks that grow to a height of 1.5 meters with a 1 meter wingspan.   Their legs do not end in talons, but end in hands.",
         "Final JSON Output": ""
     },
     "Herkels": {
@@ -2181,7 +2181,7 @@
         "Will": -2,
         "Normal Text": "Herkels 'Dead Fish' (5d6 (17)): Init -2; atk bite melee -2 (1d6-3); AC 11; HD 2D7 hp 8 each; MV or Swim 30'; 1d20; SV Fort -3, Ref -3, Will -2",
         "Description Output": "A savage fish that hunt in schools and devour anything edible in the water with them.  They are only 1/2 a meter in length, their bite is quite dangerous since over a third of their length is taken up by teeth and mouth.  ",
-        "Players": "Herkels; 'Dead Fish';A savage fish that hunt in schools and devour anything edible in the water with them.  They are only 1/2 a meter in length, their bite is quite dangerous since over a third of their length is taken up by teeth and mouth.  |",
+        "Players": "Herkels; 'Dead Fish';A savage fish that hunt in schools and devour anything edible in the water with them.  They are only 1/2 a meter in length, their bite is quite dangerous since over a third of their length is taken up by teeth and mouth.  ",
         "Final JSON Output": ""
     },
     "Herps": {
@@ -2276,7 +2276,7 @@
         "Will": 1,
         "Normal Text": "Herps 'Tiger Beetles' (2d6 (7)): Init +3; atk acid squirt +2 (1d20, 100') and bite melee +8 (1d5+6); AC 17; HD 6D7 hp 24 each; MV 20'; 1d20; SV Fort +1, Ref +0, Will +1",
         "Description Output": "Three and a half long mutated beetles whose wings have mutated to become a carpace.",
-        "Players": "Herps; 'Tiger Beetles';Three and a half long mutated beetles whose wings have mutated to become a carpace.|",
+        "Players": "Herps; 'Tiger Beetles';Three and a half long mutated beetles whose wings have mutated to become a carpace.",
         "Final JSON Output": ""
     },
     "Hissers": {
@@ -2371,7 +2371,7 @@
         "Will": 0,
         "Normal Text": "Hissers 'Man Snakes' (1d10 (5)): Init +7; atk weapon melee +7 (1d12+4) and bite melee +7 (1d3+4); AC 17; HD 11D5 hp 33 each; MV 20'; 1d20+1d16; SV Fort +1, Ref +1, Will +0",
         "Description Output": "Three meter long, scale covered humanoids with a human toros and arms and the lower body and head of a snake.  ",
-        "Players": "Hissers; 'Man Snakes';Three meter long, scale covered humanoids with a human toros and arms and the lower body and head of a snake.  |",
+        "Players": "Hissers; 'Man Snakes';Three meter long, scale covered humanoids with a human toros and arms and the lower body and head of a snake.  ",
         "Final JSON Output": ""
     },
     "Hoops": {
@@ -2466,7 +2466,7 @@
         "Will": 1,
         "Normal Text": "Hoops 'Floppsies' (1d20 (10)): Init +4; atk weapons melee +2 (1d8); AC 11; HD 8D7 hp 32 each; MV 30'; 1d20; SV Fort +0, Ref +0, Will +1",
         "Description Output": "Mutated Rabbitoid creatures averaging 2.6 meters in height who walk erect.  ",
-        "Players": "Hoops; 'Floppsies';Mutated Rabbitoid creatures averaging 2.6 meters in height who walk erect.  |",
+        "Players": "Hoops; 'Floppsies';Mutated Rabbitoid creatures averaging 2.6 meters in height who walk erect.  ",
         "Final JSON Output": ""
     },
     "Hoppers": {
@@ -2561,7 +2561,7 @@
         "Will": -1,
         "Normal Text": "Hoppers 'Jackalopes' (1d20 (10)): Init +1; atk horns melee +7 (1d4+6); AC 11; HD 3D7 hp 12 each; MV 40'; 1d20; SV Fort +1, Ref -1, Will -1",
         "Description Output": "Hoppers are herd animals that are mutated from Jackrabbits.  Each Hopper stands 3 meters tall a tthe shoulder, large enough to carry 1 man-sized creature.",
-        "Players": "Hoppers; 'Jackalopes';Hoppers are herd animals that are mutated from Jackrabbits.  Each Hopper stands 3 meters tall a tthe shoulder, large enough to carry 1 man-sized creature.|",
+        "Players": "Hoppers; 'Jackalopes';Hoppers are herd animals that are mutated from Jackrabbits.  Each Hopper stands 3 meters tall a tthe shoulder, large enough to carry 1 man-sized creature.",
         "Final JSON Output": ""
     },
     "Horl Choos": {
@@ -2656,7 +2656,7 @@
         "Will": 0,
         "Normal Text": "Horl Choos 'Porcupine Plants' (1d6 (3)): Init +2; atk spines  (1d4-2, 100') and acid melee +2 (1d3); AC 15; HD 8D5 hp 24 each; MV 10'; 1d20; SV Fort +0, Ref -2, Will +0",
         "Description Output": "An Odd 3 meter tall black plant that looks like a lumpt porupine from a distance.  ",
-        "Players": "Horl Choos; 'Porcupine Plants';An Odd 3 meter tall black plant that looks like a lumpt porupine from a distance.  |",
+        "Players": "Horl Choos; 'Porcupine Plants';An Odd 3 meter tall black plant that looks like a lumpt porupine from a distance.  ",
         "Final JSON Output": ""
     },
     "Jagets": {
@@ -2751,7 +2751,7 @@
         "Will": 1,
         "Normal Text": "Jagets 'Savannah Cats' (1d8 (4)): Init +2; atk 2 x claws melee  (1d3-1) and bite melee  (1d3-1); AC 15; HD 4D7 hp 16 each; MV 90'; 1d20; SV Fort -1, Ref +0, Will +1",
         "Description Output": "Mutated Jaguars prowl the vast grassland.  Their front paws have been modifed to give them thumbs.  ",
-        "Players": "Jagets; 'Savannah Cats';Mutated Jaguars prowl the vast grassland.  Their front paws have been modifed to give them thumbs.  |",
+        "Players": "Jagets; 'Savannah Cats';Mutated Jaguars prowl the vast grassland.  Their front paws have been modifed to give them thumbs.  ",
         "Final JSON Output": ""
     },
     "Kai Lins": {
@@ -2846,7 +2846,7 @@
         "Will": -1,
         "Normal Text": "Kai Lins 'Lizard Bushes' (1d6 (3)): Init +4; atk 2 x thorny feet melee +3 (1d3); AC 14; HD 9D5 hp 27 each; MV 20'; 1d20+1d14; SV Fort +1, Ref -1, Will -1",
         "Description Output": "This three meter tall plant looks like a large reptile from a distance, especially when it runs along the ground on its two \"feet.\"  It is covered in green, scaly bark.",
-        "Players": "Kai Lins; 'Lizard Bushes';This three meter tall plant looks like a large reptile from a distance, especially when it runs along the ground on its two \"feet.\"  It is covered in green, scaly bark.|",
+        "Players": "Kai Lins; 'Lizard Bushes';This three meter tall plant looks like a large reptile from a distance, especially when it runs along the ground on its two \"feet.\"  It is covered in green, scaly bark.",
         "Final JSON Output": ""
     },
     "Kamodos": {
@@ -2941,7 +2941,7 @@
         "Will": 1,
         "Normal Text": "Kamodos 'Thunder Lizard' (1 (1)): Init +6; atk bite melee +10 (1d14+6) and tailslap melee +10 (1d12+6); AC 19; HD 13D7 hp 52; MV 90'; 1d20+1d20; SV Fort +1, Ref -1, Will +1",
         "Description Output": "This 18 meter tall mutated forest iguana is one of the most fearsome omnivores in Gamma World.  It will shake the ground as it passes.",
-        "Players": "Kamodos; 'Thunder Lizard';This 18 meter tall mutated forest iguana is one of the most fearsome omnivores in Gamma World.  It will shake the ground as it passes.|",
+        "Players": "Kamodos; 'Thunder Lizard';This 18 meter tall mutated forest iguana is one of the most fearsome omnivores in Gamma World.  It will shake the ground as it passes.",
         "Final JSON Output": ""
     },
     "Keeshin": {
@@ -3036,7 +3036,7 @@
         "Will": 2,
         "Normal Text": "Keeshin 'Water Weirds' (1d3 (2)): Init +2; atk bite melee +1 (1d3); AC 17; HD 4D7 hp 16 each; MV 20' or Fly 30'; 1d20; SV Fort +0, Ref +0, Will +2",
         "Description Output": "A one meter long, white mutated amphibian that lives in small bodies of water.",
-        "Players": "Keeshin; 'Water Weirds';A one meter long, white mutated amphibian that lives in small bodies of water.|",
+        "Players": "Keeshin; 'Water Weirds';A one meter long, white mutated amphibian that lives in small bodies of water.",
         "Final JSON Output": ""
     },
     "Kep Plants": {
@@ -3131,7 +3131,7 @@
         "Will": -3,
         "Normal Text": "Kep Plants 'Sand Devils' (1d4 (2)): Init +8; atk 6 x roots melee +11 (1d8+6) and acid melee +11 (1d3+6); AC 18; HD 15D5 hp 45 each; MV 0'; 1d20+1d20; SV Fort +1, Ref +0, Will -3",
         "Description Output": "This carniverous plant lives its life undergound growing a network of pressure-sensative roots from below the surface.  It will not allow other plants to grow within 30 meters of it",
-        "Players": "Kep Plants; 'Sand Devils';This carniverous plant lives its life undergound growing a network of pressure-sensative roots from below the surface.  It will not allow other plants to grow within 30 meters of it|",
+        "Players": "Kep Plants; 'Sand Devils';This carniverous plant lives its life undergound growing a network of pressure-sensative roots from below the surface.  It will not allow other plants to grow within 30 meters of it",
         "Final JSON Output": ""
     },
     "Lil": {
@@ -3226,7 +3226,7 @@
         "Will": 1,
         "Normal Text": "Lil 'Wee Ones' (1d20 (10)): Init +4; atk weapons melee +1 (1d3-1); AC 14; HD 5D5 hp 15 each; MV 5' or Fly 30'; 1d20; SV Fort -1, Ref +1, Will +1",
         "Description Output": "These small winged humanoids are only 20 cm tall.  They are nocturnal and their bodies give off enough life to illuminate 1 meter around them.  ",
-        "Players": "Lil; 'Wee Ones';These small winged humanoids are only 20 cm tall.  They are nocturnal and their bodies give off enough life to illuminate 1 meter around them.  |",
+        "Players": "Lil; 'Wee Ones';These small winged humanoids are only 20 cm tall.  They are nocturnal and their bodies give off enough life to illuminate 1 meter around them.  ",
         "Final JSON Output": ""
     },
     "Mantis": {
@@ -3321,7 +3321,7 @@
         "Will": -1,
         "Normal Text": "Mantis 'Green Renders' (1d6 (3)): Init +4; atk bite melee +8 (1d8+6) and 2 x claws melee +8 (1d5+6); AC 17; HD 7D7 hp 28 each; MV 20'; 1d20; SV Fort +1, Ref +0, Will -1",
         "Description Output": "Giant Preying Mantises that stand 3 meters tall at the shoulder.",
-        "Players": "Mantis; 'Green Renders';Giant Preying Mantises that stand 3 meters tall at the shoulder.|",
+        "Players": "Mantis; 'Green Renders';Giant Preying Mantises that stand 3 meters tall at the shoulder.",
         "Final JSON Output": ""
     },
     "Menarls": {
@@ -3416,7 +3416,7 @@
         "Will": 0,
         "Normal Text": "Menarls 'Slime Devils' (1d4 (2)): Init +4; atk weapon melee +8 (1d8+6) and squeeze melee +8 (1d8+6); AC 14; HD 8D7 hp 32 each; MV 10' or Swim 40'; 1d20; SV Fort +0, Ref +0, Will +0",
         "Description Output": "10 Meter long intelligent water snakes with 1d10+4 one meter long arms ending in hands with opposable thumbs.",
-        "Players": "Menarls; 'Slime Devils';10 Meter long intelligent water snakes with 1d10+4 one meter long arms ending in hands with opposable thumbs.|",
+        "Players": "Menarls; 'Slime Devils';10 Meter long intelligent water snakes with 1d10+4 one meter long arms ending in hands with opposable thumbs.",
         "Final JSON Output": ""
     },
     "Narl Eps": {
@@ -3511,7 +3511,7 @@
         "Will": -3,
         "Normal Text": "Narl Eps 'Ghost Trees' (1d8 (4)): Init +7; atk 8 x roots melee +13 (1d10+6); AC 17; HD 23D5 hp 69 each; MV 0'; 1d20+1d20; SV Fort +0, Ref -3, Will -3",
         "Description Output": "This white tree looks like a banyan and grows to the height of 60m.  It lives only in marshes, lakes, and ponds.  ",
-        "Players": "Narl Eps; 'Ghost Trees';This white tree looks like a banyan and grows to the height of 60m.  It lives only in marshes, lakes, and ponds.  |",
+        "Players": "Narl Eps; 'Ghost Trees';This white tree looks like a banyan and grows to the height of 60m.  It lives only in marshes, lakes, and ponds.  ",
         "Final JSON Output": ""
     },
     "Obbs": {
@@ -3606,7 +3606,7 @@
         "Will": 0,
         "Normal Text": "Obbs 'Flying Eyes' (1d4 (2)): Init +3; atk 2 x claws melee +2 (1d5); AC 10; HD 6D5 hp 18 each; MV 5' or Fly 45'; 1d20; SV Fort +0, Ref +0, Will +0",
         "Description Output": "Obbs are a mutated fungus that is almost immobile on the ground, but are deadly in the air.  Each has asingle black eye and 1d6 clas like appendages.",
-        "Players": "Obbs; 'Flying Eyes';Obbs are a mutated fungus that is almost immobile on the ground, but are deadly in the air.  Each has asingle black eye and 1d6 clas like appendages.|",
+        "Players": "Obbs; 'Flying Eyes';Obbs are a mutated fungus that is almost immobile on the ground, but are deadly in the air.  Each has asingle black eye and 1d6 clas like appendages.",
         "Final JSON Output": ""
     },
     "Orens": {
@@ -3701,7 +3701,7 @@
         "Will": 1,
         "Normal Text": "Orens 'Orignal Humans' (2d6 (7)): Init +6; atk 2 x weapons melee +3 (1d12); AC 13; HD 11D5 hp 33 each; MV 60'; 1d20+1d16; SV Fort +0, Ref +0, Will +1",
         "Description Output": "These 9 feet tall humanoids have two heads and four arms.  ",
-        "Players": "Orens; 'Orignal Humans';These 9 feet tall humanoids have two heads and four arms.  |",
+        "Players": "Orens; 'Orignal Humans';These 9 feet tall humanoids have two heads and four arms.  ",
         "Final JSON Output": ""
     },
     "Parns": {
@@ -3796,7 +3796,7 @@
         "Will": -3,
         "Normal Text": "Parns 'Sword Beetles' (1d8 (4)): Init +4; atk 2 x antennae melee +8 (1d8+6) and 2 x spikes melee +8 (1d5+6); AC 14; HD 7D7 hp 28 each; MV 20' or Fly 60'; 1d20; SV Fort +1, Ref +0, Will -3",
         "Description Output": "This three meter long mutated bettle has four sword-like appendadgest attached to each of its two anntennae.  ",
-        "Players": "Parns; 'Sword Beetles';This three meter long mutated bettle has four sword-like appendadgest attached to each of its two anntennae.  |",
+        "Players": "Parns; 'Sword Beetles';This three meter long mutated bettle has four sword-like appendadgest attached to each of its two anntennae.  ",
         "Final JSON Output": ""
     },
     "Perths": {
@@ -3891,7 +3891,7 @@
         "Will": -3,
         "Normal Text": "Perths 'Gamma Bushes' (1d10 (5)): Init +0; atk petal blast melee -1 (1d3-3); AC 16; HD 6D5 hp 18 each; MV 0'; 1d20; SV Fort -1, Ref -3, Will -3",
         "Description Output": "This is a two meter tall palm-like plant that is unremarkable most of the year, but in late spring and early summer it sprouts a one mter tall flower. ",
-        "Players": "Perths; 'Gamma Bushes';This is a two meter tall palm-like plant that is unremarkable most of the year, but in late spring and early summer it sprouts a one mter tall flower. |",
+        "Players": "Perths; 'Gamma Bushes';This is a two meter tall palm-like plant that is unremarkable most of the year, but in late spring and early summer it sprouts a one mter tall flower. ",
         "Final JSON Output": ""
     },
     "Pinetos": {
@@ -3986,7 +3986,7 @@
         "Will": -3,
         "Normal Text": "Pinetos 'Horse Cacti' (1d8 (3)): Init +3; atk trailslap melee +8 (1d4+6); AC 14; HD 5D5 hp 15 each; MV 60'; 1d20; SV Fort +1, Ref +0, Will -3",
         "Description Output": "A Mutated thornbush that is neither a horse nor a cactus.  The Pinetos has a horizontal trunk and thick legstalks giving it a equine appearance.  This is increaed by way the pineto dips its roots to take in water by lowering its \"head\" to drink.  The compairson to a cacuts comes from the sharp thorns entirely covering the plant.  These thorns make it impossible to ride without a saddle.  A sharp prod must be jammed between trunk and the root ball.  They are extremely valueable as mounts, and it is very difficult to catch them and then even harder to tame them.  However those that are are considered excellent mounts.",
-        "Players": "Pinetos; 'Horse Cacti';A Mutated thornbush that is neither a horse nor a cactus.  The Pinetos has a horizontal trunk and thick legstalks giving it a equine appearance.  This is increaed by way the pineto dips its roots to take in water by lowering its \"head\" to drink.  The compairson to a cacuts comes from the sharp thorns entirely covering the plant.  These thorns make it impossible to ride without a saddle.  A sharp prod must be jammed between trunk and the root ball.  They are extremely valueable as mounts, and it is very difficult to catch them and then even harder to tame them.  However those that are are considered excellent mounts.|",
+        "Players": "Pinetos; 'Horse Cacti';A Mutated thornbush that is neither a horse nor a cactus.  The Pinetos has a horizontal trunk and thick legstalks giving it a equine appearance.  This is increaed by way the pineto dips its roots to take in water by lowering its \"head\" to drink.  The compairson to a cacuts comes from the sharp thorns entirely covering the plant.  These thorns make it impossible to ride without a saddle.  A sharp prod must be jammed between trunk and the root ball.  They are extremely valueable as mounts, and it is very difficult to catch them and then even harder to tame them.  However those that are are considered excellent mounts.",
         "Final JSON Output": ""
     },
     "Podogs": {
@@ -4081,7 +4081,7 @@
         "Will": -1,
         "Normal Text": "Podogs 'Wargs' (1d10 (5)): Init +2; atk bite melee +7 (1d5+6); AC 15; HD 4D7 hp 16 each; MV 30'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "The Podogs are huge mutated mastiffs that can be wridden by man-sized creatures.  Podog packs consist foa mated pair and half the pups from the previous litter.  Podogs will have a litter of 1d6 pups per year for 1d10 years.",
-        "Players": "Podogs; 'Wargs';The Podogs are huge mutated mastiffs that can be wridden by man-sized creatures.  Podog packs consist foa mated pair and half the pups from the previous litter.  Podogs will have a litter of 1d6 pups per year for 1d10 years.|",
+        "Players": "Podogs; 'Wargs';The Podogs are huge mutated mastiffs that can be wridden by man-sized creatures.  Podog packs consist foa mated pair and half the pups from the previous litter.  Podogs will have a litter of 1d6 pups per year for 1d10 years.",
         "Final JSON Output": ""
     },
     "Rakoxen": {
@@ -4176,7 +4176,7 @@
         "Will": -3,
         "Normal Text": "Rakoxen 'Big Horns' (5d6 (17)): Init +10; atk gore melee +10 (1d14+6); AC 13; HD 16D7 hp 64 each; MV 20'; 1d20+1d20; SV Fort +1, Ref +2, Will -3",
         "Description Output": "These oxen are slow but powerful mutations that sport a cluster of eight forward pointing horns.  ",
-        "Players": "Rakoxen; 'Big Horns';These oxen are slow but powerful mutations that sport a cluster of eight forward pointing horns.  |",
+        "Players": "Rakoxen; 'Big Horns';These oxen are slow but powerful mutations that sport a cluster of eight forward pointing horns.  ",
         "Final JSON Output": ""
     },
     "Red Crep": {
@@ -4271,7 +4271,7 @@
         "Will": 1,
         "Normal Text": "Red Crep 'Land Crep' (1d4 (2)): Init +4; atk 6-8 x vines melee +1 (1d3-2); AC 17; HD 9D5 hp 27 each; MV 5' or Swim 5'; 1d20+1d14; SV Fort +1, Ref -1, Will +1",
         "Description Output": "Land Crep grow under a mat of other plants.",
-        "Players": "Red Crep; 'Land Crep';Land Crep grow under a mat of other plants.|",
+        "Players": "Red Crep; 'Land Crep';Land Crep grow under a mat of other plants.",
         "Final JSON Output": ""
     },
     "Seps, Sand": {
@@ -4366,7 +4366,7 @@
         "Will": 0,
         "Normal Text": "Seps, Sand 'Land Sharks' (1d6 (3)): Init +6; atk bite melee +9 (1d12+6); AC 15; HD 9D7 hp 36 each; MV or Burrow 20'; 1d20+1d14; SV Fort +1, Ref +1, Will +0",
         "Description Output": "Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Sand Seps are adapted to living in the sand and are only found in deserts.  The Sep has an organ in their brains that pushes and packs earth out of its way allowing it to swim forward below the surface of the earth.",
-        "Players": "Seps, Sand; 'Land Sharks';Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Sand Seps are adapted to living in the sand and are only found in deserts.  The Sep has an organ in their brains that pushes and packs earth out of its way allowing it to swim forward below the surface of the earth.|",
+        "Players": "Seps, Sand; 'Land Sharks';Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Sand Seps are adapted to living in the sand and are only found in deserts.  The Sep has an organ in their brains that pushes and packs earth out of its way allowing it to swim forward below the surface of the earth.",
         "Final JSON Output": ""
     },
     "Seps, Snow": {
@@ -4461,7 +4461,7 @@
         "Will": 0,
         "Normal Text": "Seps, Snow 'Land Sharks' (1d6 (3)): Init +6; atk bite melee +9 (1d12+6); AC 15; HD 9D7 hp 36 each; MV or Burrow 40'; 1d20+1d14; SV Fort +1, Ref +1, Will +0",
         "Description Output": "Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Snow Seps are adapted to living in the Snow and Ice and are only found in artic conditions.  The Sep has an organ in their brains that pushes and packs snow and icepack out of its way allowing it to swim forward below the surface.",
-        "Players": "Seps, Snow; 'Land Sharks';Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Snow Seps are adapted to living in the Snow and Ice and are only found in artic conditions.  The Sep has an organ in their brains that pushes and packs snow and icepack out of its way allowing it to swim forward below the surface.|",
+        "Players": "Seps, Snow; 'Land Sharks';Seps are mutated sharks that have fully adapted to life on land and are no longer suited for living in the water. The Snow Seps are adapted to living in the Snow and Ice and are only found in artic conditions.  The Sep has an organ in their brains that pushes and packs snow and icepack out of its way allowing it to swim forward below the surface.",
         "Final JSON Output": ""
     },
     "Serfs": {
@@ -4556,7 +4556,7 @@
         "Will": 1,
         "Normal Text": "Serfs 'Thought Masters' (1d10 (5)): Init +4; atk weapon melee +5 (1d8+3) and 2 x claws melee +5 (1d3+3); AC 14; HD 8D5 hp 24 each; MV 30'; 1d20; SV Fort +0, Ref +0, Will +1",
         "Description Output": "Serfs are semi-nomadic mutated humanoid that live in quasi-military clans, wearing ancient police and military univorms as clan symbols.  ",
-        "Players": "Serfs; 'Thought Masters';Serfs are semi-nomadic mutated humanoid that live in quasi-military clans, wearing ancient police and military univorms as clan symbols.  |",
+        "Players": "Serfs; 'Thought Masters';Serfs are semi-nomadic mutated humanoid that live in quasi-military clans, wearing ancient police and military univorms as clan symbols.  ",
         "Final JSON Output": ""
     },
     "Seroon Lous": {
@@ -4651,7 +4651,7 @@
         "Will": -3,
         "Normal Text": "Seroon Lous 'Haunted Fruit Tree' (3d6 (10)): Init +8; atk 1d10+10 x weapons melee +6 (1d8+1); AC 12; HD 14D5 hp 42 each; MV 0'; 1d20+1d20; SV Fort +0, Ref +1, Will -3",
         "Description Output": "The Seroon Lous is a mutated Cypress tree.   It is usally ground among groups of Narl Eps, which it resembles.  It has two to three meter stalk roots that extend above the water with the Seroon Loon's sinelg eye.",
-        "Players": "Seroon Lous; 'Haunted Fruit Tree';The Seroon Lous is a mutated Cypress tree.   It is usally ground among groups of Narl Eps, which it resembles.  It has two to three meter stalk roots that extend above the water with the Seroon Loon's sinelg eye.|",
+        "Players": "Seroon Lous; 'Haunted Fruit Tree';The Seroon Lous is a mutated Cypress tree.   It is usally ground among groups of Narl Eps, which it resembles.  It has two to three meter stalk roots that extend above the water with the Seroon Loon's sinelg eye.",
         "Final JSON Output": ""
     },
     "Sleeths": {
@@ -4746,7 +4746,7 @@
         "Will": 1,
         "Normal Text": "Sleeths 'Seer Lizards' (1d10 (5)): Init +5; atk weapon melee +9 (1d10+6); AC 15; HD 10D7 hp 40 each; MV 30'; 1d20+1d14; SV Fort +1, Ref +0, Will +1",
         "Description Output": "Sleeths are highly intelligen mutated lizards who walk erect.  They have hands with opposable tumbs.  They tend to live in small, peaceful, scholarly communities.  ",
-        "Players": "Sleeths; 'Seer Lizards';Sleeths are highly intelligen mutated lizards who walk erect.  They have hands with opposable tumbs.  They tend to live in small, peaceful, scholarly communities.  |",
+        "Players": "Sleeths; 'Seer Lizards';Sleeths are highly intelligen mutated lizards who walk erect.  They have hands with opposable tumbs.  They tend to live in small, peaceful, scholarly communities.  ",
         "Final JSON Output": ""
     },
     "Soul Besh": {
@@ -4841,7 +4841,7 @@
         "Will": -3,
         "Normal Text": "Soul Besh 'Skeeters' (1d20 (10)): Init +3; atk bite melee +1 (1d5-1); AC 12; HD 5D7 hp 20 each; MV 20' or Fly 60'; 1d20; SV Fort -1, Ref +0, Will -3",
         "Description Output": "These mutated Mosquitos grow up to 1.5 meters long.  They inhabit graslands, marshes, and forests where they can easily hide.",
-        "Players": "Soul Besh; 'Skeeters';These mutated Mosquitos grow up to 1.5 meters long.  They inhabit graslands, marshes, and forests where they can easily hide.|",
+        "Players": "Soul Besh; 'Skeeters';These mutated Mosquitos grow up to 1.5 meters long.  They inhabit graslands, marshes, and forests where they can easily hide.",
         "Final JSON Output": ""
     },
     "Squeekers": {
@@ -4936,7 +4936,7 @@
         "Will": -1,
         "Normal Text": "Squeekers 'King Rats' (1d100 (50)): Init +2; atk bite melee  (1d5-1) and 2 x claws melee  (1d3-1); AC 14; HD 3D7 hp 12 each; MV 30'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "Mutated Rats that are 5 times the size of normal rats, at over 1 meter in length.",
-        "Players": "Squeekers; 'King Rats';Mutated Rats that are 5 times the size of normal rats, at over 1 meter in length.|",
+        "Players": "Squeekers; 'King Rats';Mutated Rats that are 5 times the size of normal rats, at over 1 meter in length.",
         "Final JSON Output": ""
     },
     "Terls": {
@@ -5031,7 +5031,7 @@
         "Will": 1,
         "Normal Text": "Terls 'Tree Fish' (1d4 (2)): Init +4; atk bite melee +6 (1d4+4); AC 15; HD 6D7 hp 24 each; MV or Fly 60'; 1d20; SV Fort +0, Ref +1, Will +1",
         "Description Output": "The Trel is a three-meter long mutated baracuda that is covered in bright parrot like feathers.  They live in tree's like birds as well.  The Trel returns to the water to spawn in the spring and it is fully capable of breathing both water and air.",
-        "Players": "Terls; 'Tree Fish';The Trel is a three-meter long mutated baracuda that is covered in bright parrot like feathers.  They live in tree's like birds as well.  The Trel returns to the water to spawn in the spring and it is fully capable of breathing both water and air.|",
+        "Players": "Terls; 'Tree Fish';The Trel is a three-meter long mutated baracuda that is covered in bright parrot like feathers.  They live in tree's like birds as well.  The Trel returns to the water to spawn in the spring and it is fully capable of breathing both water and air.",
         "Final JSON Output": ""
     },
     "Wardents": {
@@ -5126,7 +5126,7 @@
         "Will": 1,
         "Normal Text": "Wardents 'Devo Beasts' (1d6+1 (4)): Init +4; atk weapon melee +1 (1d6-1); AC 14; HD 7D5 hp 21 each; MV 30'; 1d20; SV Fort +0, Ref +0, Will +1",
         "Description Output": "One Meter tall humanoids covered in silky blond fur.  They are soltary by nature and live in inaccessible forests and mountains.  Wardents have a compulsive hunger for food, knowledge, and odd experiencs and will regily join an adventure which promises any two of these.",
-        "Players": "Wardents; 'Devo Beasts';One Meter tall humanoids covered in silky blond fur.  They are soltary by nature and live in inaccessible forests and mountains.  Wardents have a compulsive hunger for food, knowledge, and odd experiencs and will regily join an adventure which promises any two of these.|",
+        "Players": "Wardents; 'Devo Beasts';One Meter tall humanoids covered in silky blond fur.  They are soltary by nature and live in inaccessible forests and mountains.  Wardents have a compulsive hunger for food, knowledge, and odd experiencs and will regily join an adventure which promises any two of these.",
         "Final JSON Output": ""
     },
     "Win Seen / Winisleans, Green": {
@@ -5221,7 +5221,7 @@
         "Will": 0,
         "Normal Text": "Win Seen / Winisleans, Green 'Green Tanglers' (3d4 (7)): Init +4; atk 1d3+2 x vines melee +4 (1d5+1); AC 11; HD 10D5 hp 30 each; MV 0'; 1d20+1d14; SV Fort +1, Ref -1, Will +0",
         "Description Output": "These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The green Win Seen dwells on land.",
-        "Players": "Win Seen / Winisleans, Green; 'Green Tanglers';These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The green Win Seen dwells on land.|",
+        "Players": "Win Seen / Winisleans, Green; 'Green Tanglers';These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The green Win Seen dwells on land.",
         "Final JSON Output": ""
     },
     "Win Seen / Winisleans, Yellow": {
@@ -5316,7 +5316,7 @@
         "Will": 0,
         "Normal Text": "Win Seen / Winisleans, Yellow 'Yellow Tanglers' (3d4 (7)): Init +4; atk 1d3+2 x vines melee +4 (1d5+1); AC 11; HD 10D5 hp 30 each; MV 0'; 1d20+1d14; SV Fort +1, Ref -1, Will +0",
         "Description Output": "These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The Yellow Win Seen dwells in shallow water, ponds, marshes, and rivers. ",
-        "Players": "Win Seen / Winisleans, Yellow; 'Yellow Tanglers';These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The Yellow Win Seen dwells in shallow water, ponds, marshes, and rivers. |",
+        "Players": "Win Seen / Winisleans, Yellow; 'Yellow Tanglers';These mutated and carniverous plant usually covers a 30' diameter area and grows in groups which are so entangled that is difficult to tell where one plant beigns and another leaves off.  The Yellow Win Seen dwells in shallow water, ponds, marshes, and rivers. ",
         "Final JSON Output": ""
     },
     "Yexils": {
@@ -5411,7 +5411,7 @@
         "Will": -1,
         "Normal Text": "Yexils 'Orange Scarfers' (1d4 (2)): Init +6; atk bite melee +9 (1d14+6); AC 14; HD 11D7 hp 44 each; MV 30' or Fly 60'; 1d20+1d16; SV Fort +1, Ref +0, Will -1",
         "Description Output": "The Yexil stands 3 meters tall, has a nine meter wingspan, and has two hariy hind legs.  It has muan hands attached to its shapely wings and alion head with large mandibles.  It is entirely covered with long, soft, orage down.  ",
-        "Players": "Yexils; 'Orange Scarfers';The Yexil stands 3 meters tall, has a nine meter wingspan, and has two hariy hind legs.  It has muan hands attached to its shapely wings and alion head with large mandibles.  It is entirely covered with long, soft, orage down.  |",
+        "Players": "Yexils; 'Orange Scarfers';The Yexil stands 3 meters tall, has a nine meter wingspan, and has two hariy hind legs.  It has muan hands attached to its shapely wings and alion head with large mandibles.  It is entirely covered with long, soft, orage down.  ",
         "Final JSON Output": ""
     },
     "Zarns": {
@@ -5506,7 +5506,7 @@
         "Will": -3,
         "Normal Text": "Zarns 'Borer Beetles' (1d6 (3)): Init +3; atk spit +2 (1d3, 20') and bite melee -1 (1d3-3); AC 13; HD 5D7 hp 20 each; MV or Fly 40'; 1d20; SV Fort -2, Ref +0, Will -3",
         "Description Output": "Zarns are orange beetles that attain a length of 30 centimeters.  ",
-        "Players": "Zarns; 'Borer Beetles';Zarns are orange beetles that attain a length of 30 centimeters.  |",
+        "Players": "Zarns; 'Borer Beetles';Zarns are orange beetles that attain a length of 30 centimeters.  ",
         "Final JSON Output": ""
     },
     "Zeethh": {
@@ -5601,7 +5601,7 @@
         "Will": 0,
         "Normal Text": "Zeethh 'Gamma Grass' (5d20 (52)): Init -3; atk seed melee -3 (1d3-3); AC 10; HD 1D5 hp 3 each; MV 0'; 1d20; SV Fort -3, Ref -3, Will +0",
         "Description Output": "This purple grass is easily identifible in summer by its long tassels topped with spiked seeds.",
-        "Players": "Zeethh; 'Gamma Grass';This purple grass is easily identifible in summer by its long tassels topped with spiked seeds.|",
+        "Players": "Zeethh; 'Gamma Grass';This purple grass is easily identifible in summer by its long tassels topped with spiked seeds.",
         "Final JSON Output": ""
     },
     "Attercops": {
@@ -5696,7 +5696,7 @@
         "Will": 1,
         "Normal Text": "Attercops 'Blackuns' (1d4 (2)): Init +2; atk bite melee +2 (1d4+1); AC 16; HD 3D7 hp 12 each; MV 50'; 1d20; SV Fort +0, Ref +0, Will +1",
         "Description Output": "Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey",
-        "Players": "Attercops; 'Blackuns';Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey|",
+        "Players": "Attercops; 'Blackuns';Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey",
         "Final JSON Output": ""
     },
     "Attercops Abulare": {
@@ -5791,7 +5791,7 @@
         "Will": 1,
         "Normal Text": "Attercops Abulare 'Blackuns' (1d4 (2)): Init +2; atk bite melee +2 (1d4+1); AC 16; HD 3D7 hp 12 each; MV 50'; 1d20; SV Fort +0, Ref +0, Will +1",
         "Description Output": "Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey",
-        "Players": "Attercops Abulare; 'Blackuns';Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey|",
+        "Players": "Attercops Abulare; 'Blackuns';Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey",
         "Final JSON Output": ""
     },
     "Fleshins": {
@@ -5886,7 +5886,7 @@
         "Will": -3,
         "Normal Text": "Fleshins 'Flying Fish' (2d8 (9)): Init -1; atk bite melee -2 (1d16-3); AC 12; HD 4D7 hp 16 each; MV or Fly 27'; 1d20; SV Fort -3, Ref -3, Will -3",
         "Description Output": "These 6 foot long fish live only in large bodies of water, however, they are able to leap into the air and dlide using their broad pectoral fins as wings.  They can spend an unliminted amount of time gliding, actually flapping their fins to gain speed and height.  However after 5 rounds they need to return to the water or they suffocate in the air.  Fleshins may shapechange into an gator at will and can maintain this form for as along as 24 hours.  While in this form, the Fleshins have the physical appearance and naturla AC of an gator.  The tentacles they gain in the transformation use debilitative poison, though, not gator paralytic poison.  The fleshin is physically related to the flying dish, but its mind is far closer to that of the shark.  They tend to swim in small schools, hunting and marauding both above and below the water.  Unwary birds and dish of any sie are common prey.  The scent of glood can bring fleshins from kilometers away.  ",
-        "Players": "Fleshins; 'Flying Fish';These 6 foot long fish live only in large bodies of water, however, they are able to leap into the air and dlide using their broad pectoral fins as wings.  They can spend an unliminted amount of time gliding, actually flapping their fins to gain speed and height.  However after 5 rounds they need to return to the water or they suffocate in the air.  Fleshins may shapechange into an gator at will and can maintain this form for as along as 24 hours.  While in this form, the Fleshins have the physical appearance and naturla AC of an gator.  The tentacles they gain in the transformation use debilitative poison, though, not gator paralytic poison.  The fleshin is physically related to the flying dish, but its mind is far closer to that of the shark.  They tend to swim in small schools, hunting and marauding both above and below the water.  Unwary birds and dish of any sie are common prey.  The scent of glood can bring fleshins from kilometers away.  |",
+        "Players": "Fleshins; 'Flying Fish';These 6 foot long fish live only in large bodies of water, however, they are able to leap into the air and dlide using their broad pectoral fins as wings.  They can spend an unliminted amount of time gliding, actually flapping their fins to gain speed and height.  However after 5 rounds they need to return to the water or they suffocate in the air.  Fleshins may shapechange into an gator at will and can maintain this form for as along as 24 hours.  While in this form, the Fleshins have the physical appearance and naturla AC of an gator.  The tentacles they gain in the transformation use debilitative poison, though, not gator paralytic poison.  The fleshin is physically related to the flying dish, but its mind is far closer to that of the shark.  They tend to swim in small schools, hunting and marauding both above and below the water.  Unwary birds and dish of any sie are common prey.  The scent of glood can bring fleshins from kilometers away.  ",
         "Final JSON Output": ""
     },
     "Katkins": {
@@ -5981,7 +5981,7 @@
         "Will": 2,
         "Normal Text": "Katkins 'Cat Folk' (1d6 (3)): Init +3; atk 2 x claws melee +1 (1d6-1) and bite melee +1 (1d6-1); AC 14; HD 5D7 hp 20 each; MV 50'; 1d20; SV Fort -1, Ref +0, Will +2",
         "Description Output": "Katkins are simular in appearance to common house cats.  They are somewhat larger standing a meter tall while walking bipedally.  They have manipulative forepaws, allowing them to use weapons and tools, although they still possess sharp retractable claws capable of considerable harm.  Their fur can be either long or short with a range of coloration - White, Orange Striped, Calico, Black, Grey or Brown.  Katkins live in small fmilt groups among the tree-tops.  The adults typically hunt as a team and kittens when old enough assist by driving the prey closer to the pair.  Katkins are reclusive and keep treetop summer homes, small camauflauged huts of branches and bark high in the threes.  In the winter they move to warmer quarters, usually a dwelling made from a hollowed out tree, although some have been known to build cabins.  contact wiht the outside world is normally limited to a select few trraders.  Katkins are the mortal foes of squeekers.  They will attack these vermin whenever encountered, although not by foolhardy means.",
-        "Players": "Katkins; 'Cat Folk';Katkins are simular in appearance to common house cats.  They are somewhat larger standing a meter tall while walking bipedally.  They have manipulative forepaws, allowing them to use weapons and tools, although they still possess sharp retractable claws capable of considerable harm.  Their fur can be either long or short with a range of coloration - White, Orange Striped, Calico, Black, Grey or Brown.  Katkins live in small fmilt groups among the tree-tops.  The adults typically hunt as a team and kittens when old enough assist by driving the prey closer to the pair.  Katkins are reclusive and keep treetop summer homes, small camauflauged huts of branches and bark high in the threes.  In the winter they move to warmer quarters, usually a dwelling made from a hollowed out tree, although some have been known to build cabins.  contact wiht the outside world is normally limited to a select few trraders.  Katkins are the mortal foes of squeekers.  They will attack these vermin whenever encountered, although not by foolhardy means.|",
+        "Players": "Katkins; 'Cat Folk';Katkins are simular in appearance to common house cats.  They are somewhat larger standing a meter tall while walking bipedally.  They have manipulative forepaws, allowing them to use weapons and tools, although they still possess sharp retractable claws capable of considerable harm.  Their fur can be either long or short with a range of coloration - White, Orange Striped, Calico, Black, Grey or Brown.  Katkins live in small fmilt groups among the tree-tops.  The adults typically hunt as a team and kittens when old enough assist by driving the prey closer to the pair.  Katkins are reclusive and keep treetop summer homes, small camauflauged huts of branches and bark high in the threes.  In the winter they move to warmer quarters, usually a dwelling made from a hollowed out tree, although some have been known to build cabins.  contact wiht the outside world is normally limited to a select few trraders.  Katkins are the mortal foes of squeekers.  They will attack these vermin whenever encountered, although not by foolhardy means.",
         "Final JSON Output": ""
     },
     "Sarbises": {
@@ -6076,7 +6076,7 @@
         "Will": 0,
         "Normal Text": "; atk 2x x claws melee  (1d4); AC 12; HD 5D7 hp 20; MV 14' or Burrow 5'; 1d20; SV Fort -1, Ref +2, Will +0",
         "Description Output": "The sarbis looks strikingly like a 2-meter-tall bipedal aardvark. Its body is covered with coarse yellow to gray fur, and its face is dominated by a long snout. The hands, while manipulative, end in powerful claws good for digging and fighting.  Sarbises can be found in almost any terrain except the coldest. Their settlements or camps invariably signal the presence of minerals, for the sarbis are passionate miners. The camps are a mixture of above and underground constructions. Sarbises are paranoid that others (especially other sarbis) might try to \"claim-jump\" their diggings, so most camps are well defended with stockades and guard towers. Attack is made doubly difficult since the ground outside the camp is broken by jagged heaps of tailings.  Sarbises rely on trade for food, clothing, and other interesting goods. In exchange, they sell refined minerals— ingots of pig iron, copper, lead, tin, nickel; bags of sulphur, salt, and coal; whatever is useful from the earth. Because few others have the talent to dig and smelt these needed metals, sarbises are often left unmolested, even in the most hostile territories. Each camp is ruled by a strong man, a single leader who achieved his position through bullying and threat. All trading in the camp is controlled by the strong man or his minions. Sarbises will often buy artifacts useful to mining, sometimes offering other artifacts or to make useful implements in exchange. ",
-        "Players": "Sarbises; 'Varks';The sarbis looks strikingly like a 2-meter-tall bipedal aardvark. Its body is covered with coarse yellow to gray fur, and its face is dominated by a long snout. The hands, while manipulative, end in powerful claws good for digging and fighting.  Sarbises can be found in almost any terrain except the coldest. Their settlements or camps invariably signal the presence of minerals, for the sarbis are passionate miners. The camps are a mixture of above and underground constructions. Sarbises are paranoid that others (especially other sarbis) might try to \"claim-jump\" their diggings, so most camps are well defended with stockades and guard towers. Attack is made doubly difficult since the ground outside the camp is broken by jagged heaps of tailings.  Sarbises rely on trade for food, clothing, and other interesting goods. In exchange, they sell refined minerals— ingots of pig iron, copper, lead, tin, nickel; bags of sulphur, salt, and coal; whatever is useful from the earth. Because few others have the talent to dig and smelt these needed metals, sarbises are often left unmolested, even in the most hostile territories. Each camp is ruled by a strong man, a single leader who achieved his position through bullying and threat. All trading in the camp is controlled by the strong man or his minions. Sarbises will often buy artifacts useful to mining, sometimes offering other artifacts or to make useful implements in exchange. |",
+        "Players": "Sarbises; 'Varks';The sarbis looks strikingly like a 2-meter-tall bipedal aardvark. Its body is covered with coarse yellow to gray fur, and its face is dominated by a long snout. The hands, while manipulative, end in powerful claws good for digging and fighting.  Sarbises can be found in almost any terrain except the coldest. Their settlements or camps invariably signal the presence of minerals, for the sarbis are passionate miners. The camps are a mixture of above and underground constructions. Sarbises are paranoid that others (especially other sarbis) might try to \"claim-jump\" their diggings, so most camps are well defended with stockades and guard towers. Attack is made doubly difficult since the ground outside the camp is broken by jagged heaps of tailings.  Sarbises rely on trade for food, clothing, and other interesting goods. In exchange, they sell refined minerals— ingots of pig iron, copper, lead, tin, nickel; bags of sulphur, salt, and coal; whatever is useful from the earth. Because few others have the talent to dig and smelt these needed metals, sarbises are often left unmolested, even in the most hostile territories. Each camp is ruled by a strong man, a single leader who achieved his position through bullying and threat. All trading in the camp is controlled by the strong man or his minions. Sarbises will often buy artifacts useful to mining, sometimes offering other artifacts or to make useful implements in exchange. ",
         "Final JSON Output": ""
     },
     "Ba'crolbai": {
@@ -6171,7 +6171,7 @@
         "Will": -1,
         "Normal Text": "Ba'crolbai 'Endlessly Running Beast' (5d10 (27)): Init +2; atk antlers melee +7 (1d3+6) and antlers while charging melee +7 (1d8+6); AC 10; HD 3D7 hp 12 each; MV 120'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "This quadruped looks like a cross between a horse and a lizard.  It has a equestrain shape with scaley black hide.  On its head are three antlers that are interweisted and curve forward that can reach up to 5' in length. A Ba'crolbai can run fill tilt for more than 12 hours without overly exerting itself.  They only need to sleep 3 hours a day.  It will eat as it runs by consuming microorganisms and bugs.  Because of this extreme metabolism, it only has a lifespan of 2 years.  It is the fastest land animal that can be tamed and used as a mount.",
-        "Players": "Ba'crolbai; 'Endlessly Running Beast';This quadruped looks like a cross between a horse and a lizard.  It has a equestrain shape with scaley black hide.  On its head are three antlers that are interweisted and curve forward that can reach up to 5' in length. A Ba'crolbai can run fill tilt for more than 12 hours without overly exerting itself.  They only need to sleep 3 hours a day.  It will eat as it runs by consuming microorganisms and bugs.  Because of this extreme metabolism, it only has a lifespan of 2 years.  It is the fastest land animal that can be tamed and used as a mount.|",
+        "Players": "Ba'crolbai; 'Endlessly Running Beast';This quadruped looks like a cross between a horse and a lizard.  It has a equestrain shape with scaley black hide.  On its head are three antlers that are interweisted and curve forward that can reach up to 5' in length. A Ba'crolbai can run fill tilt for more than 12 hours without overly exerting itself.  They only need to sleep 3 hours a day.  It will eat as it runs by consuming microorganisms and bugs.  Because of this extreme metabolism, it only has a lifespan of 2 years.  It is the fastest land animal that can be tamed and used as a mount.",
         "Final JSON Output": ""
     },
     "Ba'mutan": {
@@ -6266,7 +6266,7 @@
         "Will": 2,
         "Normal Text": "Ba'mutan 'Rock that Gasses' (2d3 (2)): Init +5; atk bite melee +9 (1d12+6); AC 16; HD 11D7 hp 44 each; MV 20'; 1d20+1d16; SV Fort +2, Ref -1, Will +2",
         "Description Output": "Ba'mutan are gentle herbivores that have evolved into extremly large, well-defended creatures.  They resemble a copper colored armadillo with a dragon's head.  They can grow up to 30 feet in length, and they are over 12 feet tall.  They areprimaryly noctural and thus almost completly blind in the daylight.  However their hearing is excellent and can get around with just that sense.  \nBa'mutan have large shells that can concile the formation of a \"land pearl\".  A little less than half of the Ba'mutan out there have these pearls.  There is no way to determine if a given Ba'mutan has a pearl outside of killing it and spending four days extracting it from its sell.  \nBecause of this, over time the Ba'mutan who were solitary creatures have become extinct and the only surviving creatures are herd animals.  This means taht groups of these creatures will be found together and attacking one to extract its pearl will cause the whole herd to panic and attack.",
-        "Players": "Ba'mutan; 'Rock that Gasses';Ba'mutan are gentle herbivores that have evolved into extremly large, well-defended creatures.  They resemble a copper colored armadillo with a dragon's head.  They can grow up to 30 feet in length, and they are over 12 feet tall.  They areprimaryly noctural and thus almost completly blind in the daylight.  However their hearing is excellent and can get around with just that sense.  \nBa'mutan have large shells that can concile the formation of a \"land pearl\".  A little less than half of the Ba'mutan out there have these pearls.  There is no way to determine if a given Ba'mutan has a pearl outside of killing it and spending four days extracting it from its sell.  \nBecause of this, over time the Ba'mutan who were solitary creatures have become extinct and the only surviving creatures are herd animals.  This means taht groups of these creatures will be found together and attacking one to extract its pearl will cause the whole herd to panic and attack.|",
+        "Players": "Ba'mutan; 'Rock that Gasses';Ba'mutan are gentle herbivores that have evolved into extremly large, well-defended creatures.  They resemble a copper colored armadillo with a dragon's head.  They can grow up to 30 feet in length, and they are over 12 feet tall.  They areprimaryly noctural and thus almost completly blind in the daylight.  However their hearing is excellent and can get around with just that sense.  \nBa'mutan have large shells that can concile the formation of a \"land pearl\".  A little less than half of the Ba'mutan out there have these pearls.  There is no way to determine if a given Ba'mutan has a pearl outside of killing it and spending four days extracting it from its sell.  \nBecause of this, over time the Ba'mutan who were solitary creatures have become extinct and the only surviving creatures are herd animals.  This means taht groups of these creatures will be found together and attacking one to extract its pearl will cause the whole herd to panic and attack.",
         "Final JSON Output": ""
     },
     "Ba'sled": {
@@ -6361,7 +6361,7 @@
         "Will": -1,
         "Normal Text": "Ba'sled 'Rock that Burrows' (1d4+1 (3)): Init +3; atk 2 x claws melee +8 (1d3+6); AC 15; HD 7D7 hp 28 each; MV 30' or Burrow 30'; 1d20; SV Fort +1, Ref -1, Will -1",
         "Description Output": "Ba'sled appear as gray, hunched-over bipedal humanoids with long, apeish arms ending in large claws.  If they stand still they can pass for rocks using the same rules Plantients can to hide.  They have a goat-shaped head with two wide set eyes.  They are extremely billigerent towards intelligent life forms.",
-        "Players": "Ba'sled; 'Rock that Burrows';Ba'sled appear as gray, hunched-over bipedal humanoids with long, apeish arms ending in large claws.  If they stand still they can pass for rocks using the same rules Plantients can to hide.  They have a goat-shaped head with two wide set eyes.  They are extremely billigerent towards intelligent life forms.|",
+        "Players": "Ba'sled; 'Rock that Burrows';Ba'sled appear as gray, hunched-over bipedal humanoids with long, apeish arms ending in large claws.  If they stand still they can pass for rocks using the same rules Plantients can to hide.  They have a goat-shaped head with two wide set eyes.  They are extremely billigerent towards intelligent life forms.",
         "Final JSON Output": ""
     },
     "Blassut": {
@@ -6456,7 +6456,7 @@
         "Will": -3,
         "Normal Text": "Blassut 'Giant Moth' (1d10 (5)): Init +1; atk wing smash melee -1 (1d3-2); AC 12; HD 4D7 hp 16 each; MV 14' or Fly 30'; 1d20; SV Fort -1, Ref -1, Will -3",
         "Description Output": "This creature looks somewhat like the Blasshes and is a distant cousin of the Gamma Moth.  It can have a variety of patterns and colors, all designed to blend in with the surrounding area with their Chameleon powers.  Fire and heat will draw a Blassut at night.  They never go out during the day, using their infravision at night.  Their Wing Smash attack will affect everyone within 6 meters around the fire as the Blassurt tries to put it out.  The greatest threat that Blassurt's present is that they will attrack a Tsorsut who eat Blassuts.  Every two turns that a Blassut is in the area there is a 35% chance a Tsorsut will attack.",
-        "Players": "Blassut; 'Giant Moth';This creature looks somewhat like the Blasshes and is a distant cousin of the Gamma Moth.  It can have a variety of patterns and colors, all designed to blend in with the surrounding area with their Chameleon powers.  Fire and heat will draw a Blassut at night.  They never go out during the day, using their infravision at night.  Their Wing Smash attack will affect everyone within 6 meters around the fire as the Blassurt tries to put it out.  The greatest threat that Blassurt's present is that they will attrack a Tsorsut who eat Blassuts.  Every two turns that a Blassut is in the area there is a 35% chance a Tsorsut will attack.|",
+        "Players": "Blassut; 'Giant Moth';This creature looks somewhat like the Blasshes and is a distant cousin of the Gamma Moth.  It can have a variety of patterns and colors, all designed to blend in with the surrounding area with their Chameleon powers.  Fire and heat will draw a Blassut at night.  They never go out during the day, using their infravision at night.  Their Wing Smash attack will affect everyone within 6 meters around the fire as the Blassurt tries to put it out.  The greatest threat that Blassurt's present is that they will attrack a Tsorsut who eat Blassuts.  Every two turns that a Blassut is in the area there is a 35% chance a Tsorsut will attack.",
         "Final JSON Output": ""
     },
     "Bofs": {
@@ -6551,7 +6551,7 @@
         "Will": -1,
         "Normal Text": "Bofs 'Bigguns' (12d4 (30)): Init +5; atk large horns melee +7 (1d8+4) and trample melee +7 (1d4+4); AC 13; HD 9D7 hp 36 each; MV 60'; 1d20+1d14; SV Fort +3, Ref +0, Will -1",
         "Description Output": "Bofs are 2.5 meter tall buffalo who walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.",
-        "Players": "Bofs; 'Bigguns';Bofs are 2.5 meter tall buffalo who walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.|",
+        "Players": "Bofs; 'Bigguns';Bofs are 2.5 meter tall buffalo who walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.",
         "Final JSON Output": ""
     },
     "Boomerth": {
@@ -6646,7 +6646,7 @@
         "Will": -3,
         "Normal Text": "Boomerth 'Bang Bush' (1d4 (2)): Init +3; atk 4 x exploding cherry +2 (1d3, 100'); AC 12; HD 5D5 hp 15 each; MV 5'; 1d20; SV Fort -1, Ref +0, Will -3",
         "Description Output": "The boomerth looks like any one of many fruit bearing plants in Gamma World, with the exception that is can pick and throw its own explosive cheeries.  The boomerth can even manage some limited mobility by shuffling its roots.  It mainly uses its attack and movement to defend itself.  ",
-        "Players": "Boomerth; 'Bang Bush';The boomerth looks like any one of many fruit bearing plants in Gamma World, with the exception that is can pick and throw its own explosive cheeries.  The boomerth can even manage some limited mobility by shuffling its roots.  It mainly uses its attack and movement to defend itself.  |",
+        "Players": "Boomerth; 'Bang Bush';The boomerth looks like any one of many fruit bearing plants in Gamma World, with the exception that is can pick and throw its own explosive cheeries.  The boomerth can even manage some limited mobility by shuffling its roots.  It mainly uses its attack and movement to defend itself.  ",
         "Final JSON Output": ""
     },
     "Bu'Daan": {
@@ -6741,7 +6741,7 @@
         "Will": 0,
         "Normal Text": "Bu'Daan 'That Which Flies the Moon' (1d2 (1)): Init +11; atk bite melee +11 (1d30+6) and 2 x claws melee +11 (1d14+6); AC 19; HD 43D7 hp 172; MV 60' or Fly 120'; 1d20+1d20; SV Fort +0, Ref +1, Will +0",
         "Description Output": "The Bu'Daan resembles a huge weasle with great bat wings and is extremely rare.  It usally lives in high areas and its fur brings and enormus price.  ",
-        "Players": "Bu'Daan; 'That Which Flies the Moon';The Bu'Daan resembles a huge weasle with great bat wings and is extremely rare.  It usally lives in high areas and its fur brings and enormus price.  |",
+        "Players": "Bu'Daan; 'That Which Flies the Moon';The Bu'Daan resembles a huge weasle with great bat wings and is extremely rare.  It usally lives in high areas and its fur brings and enormus price.  ",
         "Final JSON Output": ""
     },
     "Chotslith, Large": {
@@ -6836,7 +6836,7 @@
         "Will": 0,
         "Normal Text": "Chotslith, Large 'Bristle Snake' (1d3 (2)): Init +4; atk bite melee +8 (1d3+6) and 1d4+1 x coils melee +8 (1d3+6); AC 14; HD 8D7 hp 32 each; MV 10'; 1d20; SV Fort +1, Ref +0, Will +0",
         "Description Output": "The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.",
-        "Players": "Chotslith, Large; 'Bristle Snake';The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.|",
+        "Players": "Chotslith, Large; 'Bristle Snake';The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.",
         "Final JSON Output": ""
     },
     "Chotslith, Medium": {
@@ -6931,7 +6931,7 @@
         "Will": 0,
         "Normal Text": "Chotslith, Medium 'Bristle Snake' (1d6 (3)): Init +2; atk bite melee +7 (1d3+6) and 2d3+1 x coils melee +7 (1d3+6); AC 11; HD 4D7 hp 16 each; MV 5'; 1d20; SV Fort +0, Ref +0, Will +0",
         "Description Output": "The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.",
-        "Players": "Chotslith, Medium; 'Bristle Snake';The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.|",
+        "Players": "Chotslith, Medium; 'Bristle Snake';The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.",
         "Final JSON Output": ""
     },
     "Daycut": {
@@ -7026,7 +7026,7 @@
         "Will": -1,
         "Normal Text": "Daycut 'Bird Friend' (1d8 (4)): Init +4; atk beak melee +3 (1d10+2) and claw melee +3 (1d6+2); AC 10; HD 3D7 hp 12 each; MV 80'; 1d20; SV Fort +0, Ref +2, Will -1",
         "Description Output": "(Mount) Daycuts are four-meter tall bipedal birds who have no flight wings, but are covered with large feathers.  Once properly trained, a daycut will tolerate a saddle, but prefers a rider who rides bareback.  Daycuts can be found in most geographical locations and come in a wide variety of plumage and colors to match their native surroundings.",
-        "Players": "Daycut; 'Bird Friend';(Mount) Daycuts are four-meter tall bipedal birds who have no flight wings, but are covered with large feathers.  Once properly trained, a daycut will tolerate a saddle, but prefers a rider who rides bareback.  Daycuts can be found in most geographical locations and come in a wide variety of plumage and colors to match their native surroundings.|",
+        "Players": "Daycut; 'Bird Friend';(Mount) Daycuts are four-meter tall bipedal birds who have no flight wings, but are covered with large feathers.  Once properly trained, a daycut will tolerate a saddle, but prefers a rider who rides bareback.  Daycuts can be found in most geographical locations and come in a wide variety of plumage and colors to match their native surroundings.",
         "Final JSON Output": ""
     },
     "Ed Eps": {
@@ -7121,7 +7121,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "The paradisde tree is very rare and quite small.  It looks like a heavily nut-laden oak tree.  The tree never grows anywhere closer to another one, can not be harmed by fire, heat, or chemical defoliants.  It can ether be extremely hardy or very frail. It produces a varity of nuts from other trees.",
-        "Players": "Ed Eps; 'Paradise Tree';The paradisde tree is very rare and quite small.  It looks like a heavily nut-laden oak tree.  The tree never grows anywhere closer to another one, can not be harmed by fire, heat, or chemical defoliants.  It can ether be extremely hardy or very frail. It produces a varity of nuts from other trees.|",
+        "Players": "Ed Eps; 'Paradise Tree';The paradisde tree is very rare and quite small.  It looks like a heavily nut-laden oak tree.  The tree never grows anywhere closer to another one, can not be harmed by fire, heat, or chemical defoliants.  It can ether be extremely hardy or very frail. It produces a varity of nuts from other trees.",
         "Final JSON Output": ""
     },
     "Ekola ": {
@@ -7216,7 +7216,7 @@
         "Will": -1,
         "Normal Text": "#VALUE!",
         "Description Output": "The Ekola are 6 inch long mammals that closely resemble kangaroo rats.  They have four limbs and a prehensile tail, but most of their movement is primarly done by hopping on their hind legs.  When hopping the tail is wound around the body trunk to protech it.  Naturalists believe that an ekotla's tail is as sensitive as a human fingertip and can easily sort and pick up even minute items.  Their body is covered with soft, long fur that is either all white, black or black and white stripes.  ",
-        "Players": "Ekola ; 'Furball';The Ekola are 6 inch long mammals that closely resemble kangaroo rats.  They have four limbs and a prehensile tail, but most of their movement is primarly done by hopping on their hind legs.  When hopping the tail is wound around the body trunk to protech it.  Naturalists believe that an ekotla's tail is as sensitive as a human fingertip and can easily sort and pick up even minute items.  Their body is covered with soft, long fur that is either all white, black or black and white stripes.  |",
+        "Players": "Ekola ; 'Furball';The Ekola are 6 inch long mammals that closely resemble kangaroo rats.  They have four limbs and a prehensile tail, but most of their movement is primarly done by hopping on their hind legs.  When hopping the tail is wound around the body trunk to protech it.  Naturalists believe that an ekotla's tail is as sensitive as a human fingertip and can easily sort and pick up even minute items.  Their body is covered with soft, long fur that is either all white, black or black and white stripes.  ",
         "Final JSON Output": ""
     },
     "Frid Esk": {
@@ -7311,7 +7311,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "Phoenix hedages are long low hedges that perfectly match other, normal hedges in the same geographic locale.  They are called phonexis hedges because they can be hacked burned, radiated, checmically defoliated, etc, and they will still grow back within a week.",
-        "Players": "Frid Esk; 'Phoenix Hedge';Phoenix hedages are long low hedges that perfectly match other, normal hedges in the same geographic locale.  They are called phonexis hedges because they can be hacked burned, radiated, checmically defoliated, etc, and they will still grow back within a week.|",
+        "Players": "Frid Esk; 'Phoenix Hedge';Phoenix hedages are long low hedges that perfectly match other, normal hedges in the same geographic locale.  They are called phonexis hedges because they can be hacked burned, radiated, checmically defoliated, etc, and they will still grow back within a week.",
         "Final JSON Output": ""
     },
     "Holcut": {
@@ -7406,7 +7406,7 @@
         "Will": -1,
         "Normal Text": "Holcut 'Ugly Friend' (1d12 (6)): Init +3; atk bite melee +2 (1d6); AC 10; HD 5D7 hp 20 each; MV 20'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "The Holcut stand 4 feet tall at the shoulders and are mutant dogs with skin that looks like a rhino's.  They have two rows of teeth in their mouths that they use to tear meat.  They also have strange looking muzzles that house their elaborate olfactory system.  They are immune to any sort of gas attack.",
-        "Players": "Holcut; 'Ugly Friend';The Holcut stand 4 feet tall at the shoulders and are mutant dogs with skin that looks like a rhino's.  They have two rows of teeth in their mouths that they use to tear meat.  They also have strange looking muzzles that house their elaborate olfactory system.  They are immune to any sort of gas attack.|",
+        "Players": "Holcut; 'Ugly Friend';The Holcut stand 4 feet tall at the shoulders and are mutant dogs with skin that looks like a rhino's.  They have two rows of teeth in their mouths that they use to tear meat.  They also have strange looking muzzles that house their elaborate olfactory system.  They are immune to any sort of gas attack.",
         "Final JSON Output": ""
     },
     "Krea": {
@@ -7501,7 +7501,7 @@
         "Will": 0,
         "Normal Text": "Krea 'Hateful' (1d2 (1)): Init +4; atk bite melee +3 (1d3); AC 14; HD 9D7 hp 36; MV 10'; 1d20+1d14; SV Fort +0, Ref -1, Will +0",
         "Description Output": "The Krea looks like a nightmare.  It is a snail that stands just over 5' in neight.  The head of a Krea is a lime green frog like head.  Four 15 foot tentalces splay out from beneith the head.  It has a great gaping mouth that is lined with bony ridges as sharp as meat cleavers.  ",
-        "Players": "Krea; 'Hateful';The Krea looks like a nightmare.  It is a snail that stands just over 5' in neight.  The head of a Krea is a lime green frog like head.  Four 15 foot tentalces splay out from beneith the head.  It has a great gaping mouth that is lined with bony ridges as sharp as meat cleavers.  |",
+        "Players": "Krea; 'Hateful';The Krea looks like a nightmare.  It is a snail that stands just over 5' in neight.  The head of a Krea is a lime green frog like head.  Four 15 foot tentalces splay out from beneith the head.  It has a great gaping mouth that is lined with bony ridges as sharp as meat cleavers.  ",
         "Final JSON Output": ""
     },
     "Mut Choo": {
@@ -7596,7 +7596,7 @@
         "Will": -1,
         "Normal Text": "Mut Choo 'Gas Plant' (1d4 (2)): Init +3; atk 4 x throwing thorns +1 (1d6-1, 25') and 3 x barbed vines melee +1 (1d4-1); AC 11; HD 7D5 hp 21 each; MV or Fly 10'; 1d20; SV Fort +0, Ref -1, Will -1",
         "Description Output": "Mut choo are 3 to 4m diameter plants that produce their own gas, inflate, and float through the air. They float about 7m above the ground but have many mutations that allow them to satisfy their carnivorous appetites. Each mut choo is covered with throwing thorns, has manipulative vines hanging from it that are tipped with barbed leaves, and have hundreds of tiny tendrils hanging from the bottom that act as boring tendrils when the plant floats down on an unconscious victim.      The mut choo will deflate itself after eating excessively, and look like a large patch of vine-like vegetation on the ground. When it wishes to hunt, it increases its metabolic rate and inflates itself, then floats away. ",
-        "Players": "Mut Choo; 'Gas Plant';Mut choo are 3 to 4m diameter plants that produce their own gas, inflate, and float through the air. They float about 7m above the ground but have many mutations that allow them to satisfy their carnivorous appetites. Each mut choo is covered with throwing thorns, has manipulative vines hanging from it that are tipped with barbed leaves, and have hundreds of tiny tendrils hanging from the bottom that act as boring tendrils when the plant floats down on an unconscious victim.      The mut choo will deflate itself after eating excessively, and look like a large patch of vine-like vegetation on the ground. When it wishes to hunt, it increases its metabolic rate and inflates itself, then floats away. |",
+        "Players": "Mut Choo; 'Gas Plant';Mut choo are 3 to 4m diameter plants that produce their own gas, inflate, and float through the air. They float about 7m above the ground but have many mutations that allow them to satisfy their carnivorous appetites. Each mut choo is covered with throwing thorns, has manipulative vines hanging from it that are tipped with barbed leaves, and have hundreds of tiny tendrils hanging from the bottom that act as boring tendrils when the plant floats down on an unconscious victim.      The mut choo will deflate itself after eating excessively, and look like a large patch of vine-like vegetation on the ground. When it wishes to hunt, it increases its metabolic rate and inflates itself, then floats away. ",
         "Final JSON Output": ""
     },
     "N'thlai": {
@@ -7691,7 +7691,7 @@
         "Will": 2,
         "Normal Text": "N'thlai 'Strange Ones' (1d10 (5)): Init +8; atk 3 x tentacle slap melee +4 (1d3); AC 16; HD 15D5 hp 45 each; MV 60'; 1d20+1d20; SV Fort +0, Ref +0, Will +2",
         "Description Output": "The N'thlai are three meters tall, have two long barbed, triple-jointed legs, and have four two-meter tentacles extending from a barrel chest.  At the end of the tentacles are eight-digit hands that they use with complete dexterity.  Their head is heart-spahed, vleaved down the middle.  On the right and left sides of their head are 60-cm long comb feelers, simular to those found on moths.  In addition, around their heads are clusters of multiple optical organs.  At the bottom of their face is a huge circular origice that serves as a moth.  Inside are thousands of writing, worlike tounges and flat, griding ridges used for chewing.  They suck up munched protine through ta hollow tongue.",
-        "Players": "N'thlai; 'Strange Ones';The N'thlai are three meters tall, have two long barbed, triple-jointed legs, and have four two-meter tentacles extending from a barrel chest.  At the end of the tentacles are eight-digit hands that they use with complete dexterity.  Their head is heart-spahed, vleaved down the middle.  On the right and left sides of their head are 60-cm long comb feelers, simular to those found on moths.  In addition, around their heads are clusters of multiple optical organs.  At the bottom of their face is a huge circular origice that serves as a moth.  Inside are thousands of writing, worlike tounges and flat, griding ridges used for chewing.  They suck up munched protine through ta hollow tongue.|",
+        "Players": "N'thlai; 'Strange Ones';The N'thlai are three meters tall, have two long barbed, triple-jointed legs, and have four two-meter tentacles extending from a barrel chest.  At the end of the tentacles are eight-digit hands that they use with complete dexterity.  Their head is heart-spahed, vleaved down the middle.  On the right and left sides of their head are 60-cm long comb feelers, simular to those found on moths.  In addition, around their heads are clusters of multiple optical organs.  At the bottom of their face is a huge circular origice that serves as a moth.  Inside are thousands of writing, worlike tounges and flat, griding ridges used for chewing.  They suck up munched protine through ta hollow tongue.",
         "Final JSON Output": ""
     },
     "Nep Ep": {
@@ -7786,7 +7786,7 @@
         "Will": -3,
         "Normal Text": "Nep Ep 'Death Trees' (1d2 (1)): Init +8; atk electrical x discharge +5 (1d7, 10'); AC 16; HD 16D5 hp 48; MV 0'; 1d20+1d20; SV Fort +0, Ref +0, Will -3",
         "Description Output": "The narl ep resembles any of a myriad of conifers; pine trees, spruce, evergreens, etc. It cannot move and cannot attack at any distance, but has various mutations that allow it to kill prey close by, which then decomposes and provides nutrients for the tree. The usual form of attack for anything close to the nep ep is to grab or trip it with the roots, hoping it will, in its struggle to break free, either brush against the contact poison sap or come within range of the tree’s electrical discharge. The roots extend out in a 7m radius from the trunk, so the aromatic power can easily lure prey within range of the roots. ",
-        "Players": "Nep Ep; 'Death Trees';The narl ep resembles any of a myriad of conifers; pine trees, spruce, evergreens, etc. It cannot move and cannot attack at any distance, but has various mutations that allow it to kill prey close by, which then decomposes and provides nutrients for the tree. The usual form of attack for anything close to the nep ep is to grab or trip it with the roots, hoping it will, in its struggle to break free, either brush against the contact poison sap or come within range of the tree’s electrical discharge. The roots extend out in a 7m radius from the trunk, so the aromatic power can easily lure prey within range of the roots. |",
+        "Players": "Nep Ep; 'Death Trees';The narl ep resembles any of a myriad of conifers; pine trees, spruce, evergreens, etc. It cannot move and cannot attack at any distance, but has various mutations that allow it to kill prey close by, which then decomposes and provides nutrients for the tree. The usual form of attack for anything close to the nep ep is to grab or trip it with the roots, hoping it will, in its struggle to break free, either brush against the contact poison sap or come within range of the tree’s electrical discharge. The roots extend out in a 7m radius from the trunk, so the aromatic power can easily lure prey within range of the roots. ",
         "Final JSON Output": ""
     },
     "Ny'an": {
@@ -7881,7 +7881,7 @@
         "Will": 0,
         "Normal Text": "Ny'an 'Deadly Tail' (3d4 (7)): Init +4; atk bite melee +2 (1d3) and spiked tail melee +2 (1d4); AC 11; HD 5D7 hp 20 each; MV 5' or Fly 30'; 1d20; SV Fort +0, Ref +1, Will +0",
         "Description Output": "Ny'an are leathery, mammalian creatures with two wings, no legs, and a long tail with a stinger.  At a quick glance they can be mistaken for obbs.  Ny'an prefer caverns, ruins, and other dimly lit areas where they can lurk about.  ",
-        "Players": "Ny'an; 'Deadly Tail';Ny'an are leathery, mammalian creatures with two wings, no legs, and a long tail with a stinger.  At a quick glance they can be mistaken for obbs.  Ny'an prefer caverns, ruins, and other dimly lit areas where they can lurk about.  |",
+        "Players": "Ny'an; 'Deadly Tail';Ny'an are leathery, mammalian creatures with two wings, no legs, and a long tail with a stinger.  At a quick glance they can be mistaken for obbs.  Ny'an prefer caverns, ruins, and other dimly lit areas where they can lurk about.  ",
         "Final JSON Output": ""
     },
     "Omnitar": {
@@ -7976,7 +7976,7 @@
         "Will": 0,
         "Normal Text": "#VALUE!",
         "Description Output": "The omnitar are atmovores, that is, they exist withour consuming any plants or animals, just microbes found in the air. They resemble 1.5m tall crystalline cones that have millions of 10cm bristles underneath that provide locomotion. So smooth is the bristling action that it looks like the omnitar is floating on air and just brushing the ground. ",
-        "Players": "Omnitar; 'Mirrored Ones';The omnitar are atmovores, that is, they exist withour consuming any plants or animals, just microbes found in the air. They resemble 1.5m tall crystalline cones that have millions of 10cm bristles underneath that provide locomotion. So smooth is the bristling action that it looks like the omnitar is floating on air and just brushing the ground. |",
+        "Players": "Omnitar; 'Mirrored Ones';The omnitar are atmovores, that is, they exist withour consuming any plants or animals, just microbes found in the air. They resemble 1.5m tall crystalline cones that have millions of 10cm bristles underneath that provide locomotion. So smooth is the bristling action that it looks like the omnitar is floating on air and just brushing the ground. ",
         "Final JSON Output": ""
     },
     "Prot Eps": {
@@ -8071,7 +8071,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "Prot eps are the most ancient of trees, surviving the original holocaust by constantly adapting until they could not be killed. Prot eps cannot take damage from any kind of attack, natural or artificial. No disease, insect, or plant life can affect them. Their roots are like steel cables travelling miles below the ground. They cannot be knocked over, torn up, or driven into the ground. They have bark like a birch, leaves like a maple, but are pure white in color, and grow to the shape and size of an old oak.  Chemical defoliants, radiation, or anti-matter will wither all the vegetation around them but cannot even change their color. They only die of old age, and that is after thousands of years.  Some civilizations revere them as gods, others build their villages around their trunks or in their branches. There is no safer place for a party of adventurers to camp overnight than in the branches of a prot ep, as attacks cannot usually penetrate the foliage surrounding them and very few dangerous creatures seem to be able to live or hunt in them (usually snakes can survive). ",
-        "Players": "Prot Eps; 'Defense Tree';Prot eps are the most ancient of trees, surviving the original holocaust by constantly adapting until they could not be killed. Prot eps cannot take damage from any kind of attack, natural or artificial. No disease, insect, or plant life can affect them. Their roots are like steel cables travelling miles below the ground. They cannot be knocked over, torn up, or driven into the ground. They have bark like a birch, leaves like a maple, but are pure white in color, and grow to the shape and size of an old oak.  Chemical defoliants, radiation, or anti-matter will wither all the vegetation around them but cannot even change their color. They only die of old age, and that is after thousands of years.  Some civilizations revere them as gods, others build their villages around their trunks or in their branches. There is no safer place for a party of adventurers to camp overnight than in the branches of a prot ep, as attacks cannot usually penetrate the foliage surrounding them and very few dangerous creatures seem to be able to live or hunt in them (usually snakes can survive). |",
+        "Players": "Prot Eps; 'Defense Tree';Prot eps are the most ancient of trees, surviving the original holocaust by constantly adapting until they could not be killed. Prot eps cannot take damage from any kind of attack, natural or artificial. No disease, insect, or plant life can affect them. Their roots are like steel cables travelling miles below the ground. They cannot be knocked over, torn up, or driven into the ground. They have bark like a birch, leaves like a maple, but are pure white in color, and grow to the shape and size of an old oak.  Chemical defoliants, radiation, or anti-matter will wither all the vegetation around them but cannot even change their color. They only die of old age, and that is after thousands of years.  Some civilizations revere them as gods, others build their villages around their trunks or in their branches. There is no safer place for a party of adventurers to camp overnight than in the branches of a prot ep, as attacks cannot usually penetrate the foliage surrounding them and very few dangerous creatures seem to be able to live or hunt in them (usually snakes can survive). ",
         "Final JSON Output": ""
     },
     "Quanakus": {
@@ -8166,7 +8166,7 @@
         "Will": -1,
         "Normal Text": "Quanakus 'Moving Barricade' (1d4 (2)): Init +5; atk manibles melee +9 (1d10+6); AC 14; HD 11D7 hp 44 each; MV 30'; 1d20+1d16; SV Fort +1, Ref -1, Will -1",
         "Description Output": "This brilliantly striped insect is 5m long, 2m wide, and 1.75 meters thick. It’s bright yellow, two-meter long antennae are the only sensory organs it has. ",
-        "Players": "Quanakus; 'Moving Barricade';This brilliantly striped insect is 5m long, 2m wide, and 1.75 meters thick. It’s bright yellow, two-meter long antennae are the only sensory organs it has. |",
+        "Players": "Quanakus; 'Moving Barricade';This brilliantly striped insect is 5m long, 2m wide, and 1.75 meters thick. It’s bright yellow, two-meter long antennae are the only sensory organs it has. ",
         "Final JSON Output": ""
     },
     "Rakees": {
@@ -8261,7 +8261,7 @@
         "Will": -1,
         "Normal Text": "Rakees 'Nuts' (1d6 (3)): Init +1; atk bite melee  (1d3-1); AC 10; HD 1D7 hp 4 each; MV 15' or Fly 30'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "They appear as 1 meter tall flying squirlls who now walk on two legs, have manipulative paws, and can speak.  They can spread the membranes that streach from their hands to their feet, leap off a high area, and glide.  ",
-        "Players": "Rakees; 'Nuts';They appear as 1 meter tall flying squirlls who now walk on two legs, have manipulative paws, and can speak.  They can spread the membranes that streach from their hands to their feet, leap off a high area, and glide.  |",
+        "Players": "Rakees; 'Nuts';They appear as 1 meter tall flying squirlls who now walk on two legs, have manipulative paws, and can speak.  They can spread the membranes that streach from their hands to their feet, leap off a high area, and glide.  ",
         "Final JSON Output": ""
     },
     "S're'daan": {
@@ -8356,7 +8356,7 @@
         "Will": -1,
         "Normal Text": "S're'daan 'That Which is Dependable' (1d10 (5)): Init +4; atk bite melee +5 (1d12+3) and horn melee +5 (1d8+3); AC 13; HD 7D7 hp 28 each; MV 20'; 1d20; SV Fort +0, Ref +0, Will -1",
         "Description Output": "The S're'dan is a mutated ant eater.  It has a barrel-chest with a bright red-mane covering much of its entire body.  It is within this mane that the rider travels.  It has a thick, 3 foot tail and a bony head with a horn on it.  The S're'dan has large sad looking brown eyes.  The S're'dan is an insectivore and uses its long, purple tongue to eat as it travels and therefore doesn't need to rest often as long as their are bugs for it to eat.",
-        "Players": "S're'daan; 'That Which is Dependable';The S're'dan is a mutated ant eater.  It has a barrel-chest with a bright red-mane covering much of its entire body.  It is within this mane that the rider travels.  It has a thick, 3 foot tail and a bony head with a horn on it.  The S're'dan has large sad looking brown eyes.  The S're'dan is an insectivore and uses its long, purple tongue to eat as it travels and therefore doesn't need to rest often as long as their are bugs for it to eat.|",
+        "Players": "S're'daan; 'That Which is Dependable';The S're'dan is a mutated ant eater.  It has a barrel-chest with a bright red-mane covering much of its entire body.  It is within this mane that the rider travels.  It has a thick, 3 foot tail and a bony head with a horn on it.  The S're'dan has large sad looking brown eyes.  The S're'dan is an insectivore and uses its long, purple tongue to eat as it travels and therefore doesn't need to rest often as long as their are bugs for it to eat.",
         "Final JSON Output": ""
     },
     "Sheezu": {
@@ -8451,7 +8451,7 @@
         "Will": 0,
         "Normal Text": "Sheezu 'Climber' (1d6 (3)): Init +2; atk bite melee +1 (1d3) and 4 x claws melee +1 (1d3); AC 11; HD 1D7 hp 4 each; MV 30'; 1d20; SV Fort +0, Ref +1, Will +0",
         "Description Output": "Sheezu are small eightlegged mammals with long, silky hair and adorable, almost human faces. Wild and domestic sheezu come in various hues. Their multiple legs and razor-sharp claws allow them amazing climbing abilities (as per Land Speed), even on almost sheer surfaces. Furthermore, they are some of fastest diggers.",
-        "Players": "Sheezu; 'Climber';Sheezu are small eightlegged mammals with long, silky hair and adorable, almost human faces. Wild and domestic sheezu come in various hues. Their multiple legs and razor-sharp claws allow them amazing climbing abilities (as per Land Speed), even on almost sheer surfaces. Furthermore, they are some of fastest diggers.|",
+        "Players": "Sheezu; 'Climber';Sheezu are small eightlegged mammals with long, silky hair and adorable, almost human faces. Wild and domestic sheezu come in various hues. Their multiple legs and razor-sharp claws allow them amazing climbing abilities (as per Land Speed), even on almost sheer surfaces. Furthermore, they are some of fastest diggers.",
         "Final JSON Output": ""
     },
     "Shez'ur": {
@@ -8546,7 +8546,7 @@
         "Will": -2,
         "Normal Text": "Shez'ur 'Spiked Flyer' (10d10 (55)): Init -2; atk flock melee -1 (1d3-2); AC 11; HD 1D7 hp 4 each; MV 5' or Fly 15'; 1d20; SV Fort +0, Ref -2, Will -2",
         "Description Output": "Maroon Birds, 16cm in length, covered in black spikes.  They make strange, almost electronic sounds.  They live in holdes in the round or in among rocks and cliffs. They always travel in flocks and act as a single unit",
-        "Players": "Shez'ur; 'Spiked Flyer';Maroon Birds, 16cm in length, covered in black spikes.  They make strange, almost electronic sounds.  They live in holdes in the round or in among rocks and cliffs. They always travel in flocks and act as a single unit|",
+        "Players": "Shez'ur; 'Spiked Flyer';Maroon Birds, 16cm in length, covered in black spikes.  They make strange, almost electronic sounds.  They live in holdes in the round or in among rocks and cliffs. They always travel in flocks and act as a single unit",
         "Final JSON Output": ""
     },
     "Sho'day": {
@@ -8641,7 +8641,7 @@
         "Will": 1,
         "Normal Text": "Sho'day 'Bird of the Moonlight' (2d10 (11)): Init +3; atk beak melee +2 (1d8) and 2 x talons melee +2 (1d5); AC 11; HD 5D7 hp 20 each; MV 5' or Fly 30'; 1d20; SV Fort +1, Ref +0, Will +1",
         "Description Output": "(Pet) Sho'day are nocturnal birds that avoid confontation and are extremely curious.   They will circle low over encampments and sometime \"buzz\" them to get a better look at those sitting around the campground.  They love hot food of any kind.  If the campground has any, and the campers are friendly, they will attempt to land.  The Sho'day nest in trees and tall rocks and soar to incredible heights when hunting, they usually hunt small mammals or fish.  They have incredible sight, are completly black, and have a wingspan of over 6 feet. ",
-        "Players": "Sho'day; 'Bird of the Moonlight';(Pet) Sho'day are nocturnal birds that avoid confontation and are extremely curious.   They will circle low over encampments and sometime \"buzz\" them to get a better look at those sitting around the campground.  They love hot food of any kind.  If the campground has any, and the campers are friendly, they will attempt to land.  The Sho'day nest in trees and tall rocks and soar to incredible heights when hunting, they usually hunt small mammals or fish.  They have incredible sight, are completly black, and have a wingspan of over 6 feet. |",
+        "Players": "Sho'day; 'Bird of the Moonlight';(Pet) Sho'day are nocturnal birds that avoid confontation and are extremely curious.   They will circle low over encampments and sometime \"buzz\" them to get a better look at those sitting around the campground.  They love hot food of any kind.  If the campground has any, and the campers are friendly, they will attempt to land.  The Sho'day nest in trees and tall rocks and soar to incredible heights when hunting, they usually hunt small mammals or fish.  They have incredible sight, are completly black, and have a wingspan of over 6 feet. ",
         "Final JSON Output": ""
     },
     "Smokerth": {
@@ -8736,7 +8736,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "Smokerths are harmless little bushes that are easily ignited. If a character were to strike the bush, fall into it, etc. it bursts into flame. ",
-        "Players": "Smokerth; 'Flaming Bush';Smokerths are harmless little bushes that are easily ignited. If a character were to strike the bush, fall into it, etc. it bursts into flame. |",
+        "Players": "Smokerth; 'Flaming Bush';Smokerths are harmless little bushes that are easily ignited. If a character were to strike the bush, fall into it, etc. it bursts into flame. ",
         "Final JSON Output": ""
     },
     "Smovbai": {
@@ -8831,7 +8831,7 @@
         "Will": -1,
         "Normal Text": "Smovbai 'Iron Beast' (1d4 (2)): Init +3; atk head butt melee +2 (1d5) and charge and trample melee +2 (1d20); AC 15; HD 7D7 hp 28 each; MV 20' or Swim 20'; 1d20; SV Fort +1, Ref -1, Will -1",
         "Description Output": "(Mount) The smovbai is a short, six legged reptile with a brown plated body and mottled grey head.  It resembles a small triceratops without horns.  It has a plate / crest around its headthat can flare out when the smovbai wishes it, and allow the rider to sit on the neck.  Once in position the rider is considered to be better protected from all attacks that don't come from the front.  The Smovbai are found around swamps, marshy areas, along rivers and lakes and other areas where there is a lot of standing water.",
-        "Players": "Smovbai; 'Iron Beast';(Mount) The smovbai is a short, six legged reptile with a brown plated body and mottled grey head.  It resembles a small triceratops without horns.  It has a plate / crest around its headthat can flare out when the smovbai wishes it, and allow the rider to sit on the neck.  Once in position the rider is considered to be better protected from all attacks that don't come from the front.  The Smovbai are found around swamps, marshy areas, along rivers and lakes and other areas where there is a lot of standing water.|",
+        "Players": "Smovbai; 'Iron Beast';(Mount) The smovbai is a short, six legged reptile with a brown plated body and mottled grey head.  It resembles a small triceratops without horns.  It has a plate / crest around its headthat can flare out when the smovbai wishes it, and allow the rider to sit on the neck.  Once in position the rider is considered to be better protected from all attacks that don't come from the front.  The Smovbai are found around swamps, marshy areas, along rivers and lakes and other areas where there is a lot of standing water.",
         "Final JSON Output": ""
     },
     "Sre'froth": {
@@ -8926,7 +8926,7 @@
         "Will": -1,
         "Normal Text": "#VALUE!",
         "Description Output": "Sre’froth are lifeofrms that resemble two to three meter transparent gelatinous planes. Their origins are unknown, but they are thought to be amphibians who learned how to glide. They are definitely not flyers. Sre’froth can blend in anywhere, crawl up any surface, and attach themselves on anything, even ceilings, by secreting a warm, sticky fluid as they move. ",
-        "Players": "Sre'froth; 'Invisible Glider';Sre’froth are lifeofrms that resemble two to three meter transparent gelatinous planes. Their origins are unknown, but they are thought to be amphibians who learned how to glide. They are definitely not flyers. Sre’froth can blend in anywhere, crawl up any surface, and attach themselves on anything, even ceilings, by secreting a warm, sticky fluid as they move. |",
+        "Players": "Sre'froth; 'Invisible Glider';Sre’froth are lifeofrms that resemble two to three meter transparent gelatinous planes. Their origins are unknown, but they are thought to be amphibians who learned how to glide. They are definitely not flyers. Sre’froth can blend in anywhere, crawl up any surface, and attach themselves on anything, even ceilings, by secreting a warm, sticky fluid as they move. ",
         "Final JSON Output": ""
     },
     "Sucslith": {
@@ -9021,7 +9021,7 @@
         "Will": -1,
         "Normal Text": "Sucslith 'Sucker Snake' (1d4+1 (3)): Init +2; atk bite melee +7 (1d3+6); AC 13; HD 3D7 hp 12 each; MV 31'; 1d20; SV Fort -1, Ref +0, Will -1",
         "Description Output": "The entire body of a sucslith, usually over 6 feet long, is covered with sucker –like discs and barbed tendrils. The snake’s ability to crawl anywhere is amazing (equal to its land speed on any surface but liquid, which reduces its speed by half). It prefers to climb up to a vantage point, usually about 3m above the surface and stay there indefinately until prey comes along. It is a chameleon and can match its surrounding coloration in 5 turns.",
-        "Players": "Sucslith; 'Sucker Snake';The entire body of a sucslith, usually over 6 feet long, is covered with sucker –like discs and barbed tendrils. The snake’s ability to crawl anywhere is amazing (equal to its land speed on any surface but liquid, which reduces its speed by half). It prefers to climb up to a vantage point, usually about 3m above the surface and stay there indefinately until prey comes along. It is a chameleon and can match its surrounding coloration in 5 turns.|",
+        "Players": "Sucslith; 'Sucker Snake';The entire body of a sucslith, usually over 6 feet long, is covered with sucker –like discs and barbed tendrils. The snake’s ability to crawl anywhere is amazing (equal to its land speed on any surface but liquid, which reduces its speed by half). It prefers to climb up to a vantage point, usually about 3m above the surface and stay there indefinately until prey comes along. It is a chameleon and can match its surrounding coloration in 5 turns.",
         "Final JSON Output": ""
     },
     "Tsorsut": {
@@ -9211,7 +9211,7 @@
         "Will": -2,
         "Normal Text": "Vene'aMub 'Villain that Hides and Kills' (1d4+1 (3)): Init +2; atk 2 x \"hands\" melee +8 (1d4+6) and tail melee +8 (1d3+6); AC 15; HD 7D7 hp 28 each; MV 20'; 1d20; SV Fort +0, Ref -2, Will -2",
         "Description Output": "The Vene'a'mub is simular to a six legged scorpion with large, four gitit hands instead of pincers.  A bludgeon tail instead of a stinger, and a lizard like head that weaves back and forth on a thick muscular neck.  They are usally colocred an oily blue when they are not camouglaged.  They have the intelligence and ability to cover themselves with their surroundings for their own safety or to trap prey.",
-        "Players": "Vene'aMub; 'Villain that Hides and Kills';The Vene'a'mub is simular to a six legged scorpion with large, four gitit hands instead of pincers.  A bludgeon tail instead of a stinger, and a lizard like head that weaves back and forth on a thick muscular neck.  They are usally colocred an oily blue when they are not camouglaged.  They have the intelligence and ability to cover themselves with their surroundings for their own safety or to trap prey.|",
+        "Players": "Vene'aMub; 'Villain that Hides and Kills';The Vene'a'mub is simular to a six legged scorpion with large, four gitit hands instead of pincers.  A bludgeon tail instead of a stinger, and a lizard like head that weaves back and forth on a thick muscular neck.  They are usally colocred an oily blue when they are not camouglaged.  They have the intelligence and ability to cover themselves with their surroundings for their own safety or to trap prey.",
         "Final JSON Output": ""
     },
     "Abomination": {
@@ -9306,7 +9306,7 @@
         "Will": 3,
         "Normal Text": "Abomination '' (1 (1)): Init +5; atk 9 x claws melee +9 (1d5+6); AC 17; HD 9D5 hp 27; MV 11'; 1d20+1d14; SV Fort +4, Ref +0, Will +3",
         "Description Output": "The abomination is part plant and part lizard.  Its origin is lost in the mists of time, but it is known that no other creature like it exists on the continent.  The scaled / bark body has no defined shape to it, 3 foot long claes tipped lims stick out at seemingly random places.  Its head is flat bony protrusion with a mass of short thick tentacle / branches surrounding it like a collar.  Its mouth is toothless, merely an entrance to the acid filled belly.",
-        "Players": "Abomination; '';The abomination is part plant and part lizard.  Its origin is lost in the mists of time, but it is known that no other creature like it exists on the continent.  The scaled / bark body has no defined shape to it, 3 foot long claes tipped lims stick out at seemingly random places.  Its head is flat bony protrusion with a mass of short thick tentacle / branches surrounding it like a collar.  Its mouth is toothless, merely an entrance to the acid filled belly.|",
+        "Players": "Abomination; '';The abomination is part plant and part lizard.  Its origin is lost in the mists of time, but it is known that no other creature like it exists on the continent.  The scaled / bark body has no defined shape to it, 3 foot long claes tipped lims stick out at seemingly random places.  Its head is flat bony protrusion with a mass of short thick tentacle / branches surrounding it like a collar.  Its mouth is toothless, merely an entrance to the acid filled belly.",
         "Final JSON Output": ""
     },
     "Abomination Claws": {
@@ -9401,7 +9401,7 @@
         "Will": 3,
         "Normal Text": "Abomination Claws '' (1 (1)): Init +2; atk 2 x claws melee +1 (1d5); AC 17; HD 4D5 hp 12; MV 3'; 1d20; SV Fort +0, Ref +0, Will +3",
         "Description Output": "Large claws attached to tendrils that act as legs.",
-        "Players": "Abomination Claws; '';Large claws attached to tendrils that act as legs.|",
+        "Players": "Abomination Claws; '';Large claws attached to tendrils that act as legs.",
         "Final JSON Output": ""
     },
     "Bounder": {
@@ -9496,7 +9496,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Bounder; '';|",
+        "Players": "Bounder; '';",
         "Final JSON Output": ""
     },
     "Batslith": {
@@ -9591,7 +9591,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Batslith; 'Spinning Snake';|",
+        "Players": "Batslith; 'Spinning Snake';",
         "Final JSON Output": ""
     },
     "Conola": {
@@ -9686,7 +9686,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Conola; 'Hungry Ball';|",
+        "Players": "Conola; 'Hungry Ball';",
         "Final JSON Output": ""
     },
     "Cynl'xon": {
@@ -9781,7 +9781,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Cynl'xon; 'Yellow Living Mold';|",
+        "Players": "Cynl'xon; 'Yellow Living Mold';",
         "Final JSON Output": ""
     },
     "Debgon": {
@@ -9876,7 +9876,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Debgon; 'Crested Dragon';|",
+        "Players": "Debgon; 'Crested Dragon';",
         "Final JSON Output": ""
     },
     "Equinoid - Race": {
@@ -9971,7 +9971,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Equinoid - Race; 'Man-Beast';|",
+        "Players": "Equinoid - Race; 'Man-Beast';",
         "Final JSON Output": ""
     },
     "Erdgon": {
@@ -10066,7 +10066,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Erdgon; 'Finned Dragon';|",
+        "Players": "Erdgon; 'Finned Dragon';",
         "Final JSON Output": ""
     },
     "Felgon": {
@@ -10161,7 +10161,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Felgon; 'Studded Dragon';|",
+        "Players": "Felgon; 'Studded Dragon';",
         "Final JSON Output": ""
     },
     "Fhotl'Xon": {
@@ -10256,7 +10256,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Fhotl'Xon; 'Orange Living Mold';|",
+        "Players": "Fhotl'Xon; 'Orange Living Mold';",
         "Final JSON Output": ""
     },
     "Gelgon": {
@@ -10351,7 +10351,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Gelgon; 'Plated Dragon';|",
+        "Players": "Gelgon; 'Plated Dragon';",
         "Final JSON Output": ""
     },
     "Guman": {
@@ -10446,7 +10446,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Guman; 'Flat Render';|",
+        "Players": "Guman; 'Flat Render';",
         "Final JSON Output": ""
     },
     "Indie": {
@@ -10541,7 +10541,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Indie; 'Black Block';|",
+        "Players": "Indie; 'Black Block';",
         "Final JSON Output": ""
     },
     "Inslith": {
@@ -10636,7 +10636,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Inslith; 'Black Snake';|",
+        "Players": "Inslith; 'Black Snake';",
         "Final JSON Output": ""
     },
     "Jemagon": {
@@ -10731,7 +10731,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Jemagon; 'Glass Dragon';|",
+        "Players": "Jemagon; 'Glass Dragon';",
         "Final JSON Output": ""
     },
     "Kraw": {
@@ -10826,7 +10826,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Kraw; 'Demon';|",
+        "Players": "Kraw; 'Demon';",
         "Final JSON Output": ""
     },
     "Mught": {
@@ -10921,7 +10921,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Mught; 'Gas Cloud';|",
+        "Players": "Mught; 'Gas Cloud';",
         "Final JSON Output": ""
     },
     "Nogl'Xon": {
@@ -11016,7 +11016,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Nogl'Xon; 'Grey Living Mold';|",
+        "Players": "Nogl'Xon; 'Grey Living Mold';",
         "Final JSON Output": ""
     },
     "Rakrods": {
@@ -11111,7 +11111,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rakrods; 'Horned Rats';|",
+        "Players": "Rakrods; 'Horned Rats';",
         "Final JSON Output": ""
     },
     "Rismish": {
@@ -11206,7 +11206,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rismish; 'Sticky Jelly';|",
+        "Players": "Rismish; 'Sticky Jelly';",
         "Final JSON Output": ""
     },
     "Rodcut": {
@@ -11301,7 +11301,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rodcut; 'Rat Friend';|",
+        "Players": "Rodcut; 'Rat Friend';",
         "Final JSON Output": ""
     },
     "Rodqas": {
@@ -11396,7 +11396,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rodqas; 'Zap Mice';|",
+        "Players": "Rodqas; 'Zap Mice';",
         "Final JSON Output": ""
     },
     "Rrerslith": {
@@ -11491,7 +11491,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rrerslith; 'Cold Snake';|",
+        "Players": "Rrerslith; 'Cold Snake';",
         "Final JSON Output": ""
     },
     "Sarbis - Race": {
@@ -11586,7 +11586,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Sarbis - Race; 'Earth Pigs';|",
+        "Players": "Sarbis - Race; 'Earth Pigs';",
         "Final JSON Output": ""
     },
     "Sergon": {
@@ -11681,7 +11681,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Sergon; 'Master Dragon';|",
+        "Players": "Sergon; 'Master Dragon';",
         "Final JSON Output": ""
     },
     "Shinarl": {
@@ -11776,7 +11776,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Shinarl; 'Watery Slime';|",
+        "Players": "Shinarl; 'Watery Slime';",
         "Final JSON Output": ""
     },
     "Skyzorr'n - Peon": {
@@ -11871,7 +11871,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Skyzorr'n - Peon; 'Giant Ants';|",
+        "Players": "Skyzorr'n - Peon; 'Giant Ants';",
         "Final JSON Output": ""
     },
     "Skyzorr'n - Queen": {
@@ -11966,7 +11966,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Skyzorr'n - Queen; 'Giant Ants';|",
+        "Players": "Skyzorr'n - Queen; 'Giant Ants';",
         "Final JSON Output": ""
     },
     "Skyzorr'n - Sacred Warriors": {
@@ -12061,7 +12061,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Skyzorr'n - Sacred Warriors; 'Giant Ants';|",
+        "Players": "Skyzorr'n - Sacred Warriors; 'Giant Ants';",
         "Final JSON Output": ""
     },
     "Skyzorr'n - Warriors": {
@@ -12156,7 +12156,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Skyzorr'n - Warriors; 'Giant Ants';|",
+        "Players": "Skyzorr'n - Warriors; 'Giant Ants';",
         "Final JSON Output": ""
     },
     "T'Brath": {
@@ -12251,7 +12251,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "T'Brath; 'She Who Consumes';|",
+        "Players": "T'Brath; 'She Who Consumes';",
         "Final JSON Output": ""
     },
     "Verbat": {
@@ -12346,7 +12346,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Verbat; 'Spinning Guardian';|",
+        "Players": "Verbat; 'Spinning Guardian';",
         "Final JSON Output": ""
     },
     "Wedl'Xon": {
@@ -12441,7 +12441,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Wedl'Xon; 'Red Living Mold';|",
+        "Players": "Wedl'Xon; 'Red Living Mold';",
         "Final JSON Output": ""
     },
     "Woo'N": {
@@ -12536,7 +12536,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Woo'N; 'Shining Being';|",
+        "Players": "Woo'N; 'Shining Being';",
         "Final JSON Output": ""
     },
     "Xanqas": {
@@ -12631,7 +12631,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Xanqas; 'Shocking Mildew';|",
+        "Players": "Xanqas; 'Shocking Mildew';",
         "Final JSON Output": ""
     },
     "Timon": {
@@ -12726,7 +12726,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Timon; '';|",
+        "Players": "Timon; '';",
         "Final JSON Output": ""
     },
     "Timon's Dabber Agents": {
@@ -12821,7 +12821,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Timon's Dabber Agents; '';|",
+        "Players": "Timon's Dabber Agents; '';",
         "Final JSON Output": ""
     },
     "Ermon": {
@@ -12916,7 +12916,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Ermon; '';|",
+        "Players": "Ermon; '';",
         "Final JSON Output": ""
     },
     "Ranse": {
@@ -13011,7 +13011,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Ranse; '';|",
+        "Players": "Ranse; '';",
         "Final JSON Output": ""
     },
     "Jonn Dukas": {
@@ -13106,7 +13106,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Jonn Dukas; '';|",
+        "Players": "Jonn Dukas; '';",
         "Final JSON Output": ""
     },
     "N'Yark": {
@@ -13201,7 +13201,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "N'Yark; '';|",
+        "Players": "N'Yark; '';",
         "Final JSON Output": ""
     },
     "Alynor d'Vrie": {
@@ -13296,7 +13296,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Alynor d'Vrie; '';|",
+        "Players": "Alynor d'Vrie; '';",
         "Final JSON Output": ""
     },
     "May'Jir": {
@@ -13391,7 +13391,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "May'Jir; '';|",
+        "Players": "May'Jir; '';",
         "Final JSON Output": ""
     },
     "Mentus": {
@@ -13486,7 +13486,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Mentus; '';|",
+        "Players": "Mentus; '';",
         "Final JSON Output": ""
     },
     "Shiir'ka": {
@@ -13581,7 +13581,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Shiir'ka; '';|",
+        "Players": "Shiir'ka; '';",
         "Final JSON Output": ""
     },
     "Hrierf": {
@@ -13676,7 +13676,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Hrierf; 'Thing of the Mind';|",
+        "Players": "Hrierf; 'Thing of the Mind';",
         "Final JSON Output": ""
     },
     "Kiikce": {
@@ -13771,7 +13771,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Kiikce; 'Feathered Love';|",
+        "Players": "Kiikce; 'Feathered Love';",
         "Final JSON Output": ""
     },
     "Nytacal": {
@@ -13866,7 +13866,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Nytacal; 'Deadly Emerald Flying Insect';|",
+        "Players": "Nytacal; 'Deadly Emerald Flying Insect';",
         "Final JSON Output": ""
     },
     "Unsut": {
@@ -13961,7 +13961,7 @@
         "Will": 0,
         "Normal Text": "Unsut 'Spider Friend' (1d8 (4)): Init +7; atk acid spit +5 (1d3+3, 100'); AC 15; HD 7D7 hp 28 each; MV 45'; 1d20; SV Fort +2, Ref +3, Will +0",
         "Description Output": "",
-        "Players": "Unsut; 'Spider Friend';|",
+        "Players": "Unsut; 'Spider Friend';",
         "Final JSON Output": ""
     },
     "Y'Zor": {
@@ -14056,7 +14056,7 @@
         "Will": -3,
         "Normal Text": "#N/A",
         "Description Output": "",
-        "Players": "Y'Zor; 'He who is a warrior';|",
+        "Players": "Y'Zor; 'He who is a warrior';",
         "Final JSON Output": ""
     },
     "Wed Tsurp": {
@@ -14151,7 +14151,7 @@
         "Will": -3,
         "Normal Text": "#N/A",
         "Description Output": "",
-        "Players": "Wed Tsurp; 'Red Bat-like Humanoid';|",
+        "Players": "Wed Tsurp; 'Red Bat-like Humanoid';",
         "Final JSON Output": ""
     },
     "Anfal": {
@@ -14246,7 +14246,7 @@
         "Will": -3,
         "Normal Text": "#N/A",
         "Description Output": "",
-        "Players": "Anfal; 'Man with Tails';|",
+        "Players": "Anfal; 'Man with Tails';",
         "Final JSON Output": ""
     },
     "Carrday": {
@@ -14341,7 +14341,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Carrday; 'Bird Rulers';|",
+        "Players": "Carrday; 'Bird Rulers';",
         "Final JSON Output": ""
     },
     "Nort": {
@@ -14436,7 +14436,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Nort; 'North';|",
+        "Players": "Nort; 'North';",
         "Final JSON Output": ""
     },
     "Scar": {
@@ -14531,7 +14531,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Scar; 'Oscar';|",
+        "Players": "Scar; 'Oscar';",
         "Final JSON Output": ""
     },
     "Freleng": {
@@ -14626,7 +14626,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Freleng; '';|",
+        "Players": "Freleng; '';",
         "Final JSON Output": ""
     },
     "Norien": {
@@ -14721,7 +14721,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Norien; '';|",
+        "Players": "Norien; '';",
         "Final JSON Output": ""
     },
     "Partha": {
@@ -14816,7 +14816,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Partha; '';|",
+        "Players": "Partha; '';",
         "Final JSON Output": ""
     },
     "Sutkins": {
@@ -14911,7 +14911,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Sutkins; 'Giant Bramble';|",
+        "Players": "Sutkins; 'Giant Bramble';",
         "Final JSON Output": ""
     },
     "Gri'xon": {
@@ -15006,7 +15006,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Gri'xon; 'Green Living Mold';|",
+        "Players": "Gri'xon; 'Green Living Mold';",
         "Final JSON Output": ""
     },
     "Ini'xon": {
@@ -15101,7 +15101,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Ini'xon; 'Black Living Mold';|",
+        "Players": "Ini'xon; 'Black Living Mold';",
         "Final JSON Output": ""
     },
     "Ashi'xon": {
@@ -15196,7 +15196,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Ashi'xon; 'Gamma Living Mold';|",
+        "Players": "Ashi'xon; 'Gamma Living Mold';",
         "Final JSON Output": ""
     },
     "Badgon": {
@@ -15291,7 +15291,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Badgon; 'Digging Dragon';|",
+        "Players": "Badgon; 'Digging Dragon';",
         "Final JSON Output": ""
     },
     "Frothgon": {
@@ -15386,7 +15386,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Frothgon; 'Gliding Dragon';|",
+        "Players": "Frothgon; 'Gliding Dragon';",
         "Final JSON Output": ""
     },
     "Ghitgon": {
@@ -15481,7 +15481,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Ghitgon; 'Air Dragon';|",
+        "Players": "Ghitgon; 'Air Dragon';",
         "Final JSON Output": ""
     },
     "V'ath": {
@@ -15576,7 +15576,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "V'ath; 'That which is hideous';|",
+        "Players": "V'ath; 'That which is hideous';",
         "Final JSON Output": ""
     },
     "Albilope": {
@@ -15671,7 +15671,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Albilope; 'Climbing, Crescent Deer';|",
+        "Players": "Albilope; 'Climbing, Crescent Deer';",
         "Final JSON Output": ""
     },
     "Pierinhorl": {
@@ -15766,7 +15766,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Pierinhorl; 'Black Bear';|",
+        "Players": "Pierinhorl; 'Black Bear';",
         "Final JSON Output": ""
     },
     "Suthorl": {
@@ -15861,7 +15861,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Suthorl; 'Giant Porcupine';|",
+        "Players": "Suthorl; 'Giant Porcupine';",
         "Final JSON Output": ""
     },
     "Juog": {
@@ -15956,7 +15956,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Juog; 'Grey Ape';|",
+        "Players": "Juog; 'Grey Ape';",
         "Final JSON Output": ""
     },
     "Helslith": {
@@ -16051,7 +16051,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Helslith; 'Demon Snake';|",
+        "Players": "Helslith; 'Demon Snake';",
         "Final JSON Output": ""
     },
     "Maali - alone": {
@@ -16146,7 +16146,7 @@
         "Will": 2,
         "Normal Text": "Maali - alone 'Tall Slasher' (1d2 (1)): Init +5; atk antler melee +5 (1d10+2) and claw melee +5 (1d3+2); AC 13; HD 10D7 hp 40; MV 45'; 1d20+1d14; SV Fort +1, Ref +0, Will +2",
         "Description Output": "",
-        "Players": "Maali - alone; 'Tall Slasher';|",
+        "Players": "Maali - alone; 'Tall Slasher';",
         "Final JSON Output": ""
     },
     "Maali-Village": {
@@ -16241,7 +16241,7 @@
         "Will": 2,
         "Normal Text": "Maali-Village 'Tall Slasher' (1d100 (50)): Init +5; atk antler melee +5 (1d10+2) and claw melee +5 (1d3+2); AC 13; HD 10D7 hp 40 each; MV 45'; 1d20+1d14; SV Fort +1, Ref +0, Will +2",
         "Description Output": "",
-        "Players": "Maali-Village; 'Tall Slasher';|",
+        "Players": "Maali-Village; 'Tall Slasher';",
         "Final JSON Output": ""
     },
     "Harod": {
@@ -16336,7 +16336,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Harod; 'Powdery Snow Rat';|",
+        "Players": "Harod; 'Powdery Snow Rat';",
         "Final JSON Output": ""
     },
     "Lajjin ": {
@@ -16431,7 +16431,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Lajjin ; 'Blue Wing';|",
+        "Players": "Lajjin ; 'Blue Wing';",
         "Final JSON Output": ""
     },
     "Irnslith": {
@@ -16526,7 +16526,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Irnslith; 'Ribbon Snake';|",
+        "Players": "Irnslith; 'Ribbon Snake';",
         "Final JSON Output": ""
     },
     "Hyri'xon": {
@@ -16621,7 +16621,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Hyri'xon; 'Living Ice Mold';|",
+        "Players": "Hyri'xon; 'Living Ice Mold';",
         "Final JSON Output": ""
     },
     "Hophar": {
@@ -16716,7 +16716,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Hophar; 'Snow Rabbit';|",
+        "Players": "Hophar; 'Snow Rabbit';",
         "Final JSON Output": ""
     },
     "Hargon": {
@@ -16811,7 +16811,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Hargon; 'Snow Dragon';|",
+        "Players": "Hargon; 'Snow Dragon';",
         "Final JSON Output": ""
     },
     "Crep,White": {
@@ -16906,7 +16906,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Crep,White; '';|",
+        "Players": "Crep,White; '';",
         "Final JSON Output": ""
     },
     "Czonk": {
@@ -17001,7 +17001,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Czonk; '';|",
+        "Players": "Czonk; '';",
         "Final JSON Output": ""
     },
     "HarlanQuade": {
@@ -17096,7 +17096,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "HarlanQuade; '';|",
+        "Players": "HarlanQuade; '';",
         "Final JSON Output": ""
     },
     "Etar": {
@@ -17191,7 +17191,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Etar; 'Plains People';|",
+        "Players": "Etar; 'Plains People';",
         "Final JSON Output": ""
     },
     "Brutus": {
@@ -17286,7 +17286,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Brutus; '';|",
+        "Players": "Brutus; '';",
         "Final JSON Output": ""
     },
     "Cool Jules": {
@@ -17381,7 +17381,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Cool Jules; '';|",
+        "Players": "Cool Jules; '';",
         "Final JSON Output": ""
     },
     "Coote": {
@@ -17476,7 +17476,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Coote; '';|",
+        "Players": "Coote; '';",
         "Final JSON Output": ""
     },
     "Drona": {
@@ -17571,7 +17571,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Drona; '';|",
+        "Players": "Drona; '';",
         "Final JSON Output": ""
     },
     "Hugoth": {
@@ -17666,7 +17666,7 @@
         "Will": 1,
         "Normal Text": "Hugoth 'Hungry Mountain' (1 (1)): Init +4; atk gore melee +8 (1d8+6) and trample melee +8 (1d5+6); AC 15; HD 8D7 hp 32; MV 25'; 1d20; SV Fort +6, Ref +0, Will +1",
         "Description Output": "",
-        "Players": "Hugoth; 'Hungry Mountain';|",
+        "Players": "Hugoth; 'Hungry Mountain';",
         "Final JSON Output": ""
     },
     "Jut": {
@@ -17761,7 +17761,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Jut; '';|",
+        "Players": "Jut; '';",
         "Final JSON Output": ""
     },
     "Krone": {
@@ -17856,7 +17856,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Krone; '';|",
+        "Players": "Krone; '';",
         "Final JSON Output": ""
     },
     "Markus Dema": {
@@ -17951,7 +17951,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Markus Dema; '';|",
+        "Players": "Markus Dema; '';",
         "Final JSON Output": ""
     },
     "Nik'toth": {
@@ -18046,7 +18046,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Nik'toth; '';|",
+        "Players": "Nik'toth; '';",
         "Final JSON Output": ""
     },
     "Nos'ferat": {
@@ -18141,7 +18141,7 @@
         "Will": 1,
         "Normal Text": "Nos'ferat 'Mutated moneky' (2d10 (11)): Init +4; atk bite melee +4 (1d3+2); AC 11; HD 6D7 hp 24 each; MV 20' or Fly 150'; 1d20; SV Fort +0, Ref +1, Will +1",
         "Description Output": "The Nos'Ferat are nocturnal, vampiric monkeys.  They are light sensitive, primarily nocturnal, and travel in numbers more often than not.  They give off an earthy oder at all times, which can be a tip-off for the wary adventurer",
-        "Players": "Nos'ferat; 'Mutated moneky';The Nos'Ferat are nocturnal, vampiric monkeys.  They are light sensitive, primarily nocturnal, and travel in numbers more often than not.  They give off an earthy oder at all times, which can be a tip-off for the wary adventurer|",
+        "Players": "Nos'ferat; 'Mutated moneky';The Nos'Ferat are nocturnal, vampiric monkeys.  They are light sensitive, primarily nocturnal, and travel in numbers more often than not.  They give off an earthy oder at all times, which can be a tip-off for the wary adventurer",
         "Final JSON Output": ""
     },
     "Rojak": {
@@ -18236,7 +18236,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Rojak; '';|",
+        "Players": "Rojak; '';",
         "Final JSON Output": ""
     },
     "Silus": {
@@ -18331,7 +18331,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Silus; '';|",
+        "Players": "Silus; '';",
         "Final JSON Output": ""
     },
     "Sly": {
@@ -18426,7 +18426,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Sly; '';|",
+        "Players": "Sly; '';",
         "Final JSON Output": ""
     },
     "Teakel": {
@@ -18521,7 +18521,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Teakel; 'Tear bush';|",
+        "Players": "Teakel; 'Tear bush';",
         "Final JSON Output": ""
     },
     "Tehwhisz": {
@@ -18616,7 +18616,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Tehwhisz; '';|",
+        "Players": "Tehwhisz; '';",
         "Final JSON Output": ""
     },
     "Waja": {
@@ -18711,7 +18711,7 @@
         "Will": -3,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Waja; '';|",
+        "Players": "Waja; '';",
         "Final JSON Output": ""
     },
     "Waldis": {
@@ -18806,7 +18806,7 @@
         "Will": 0,
         "Normal Text": "#VALUE!",
         "Description Output": "",
-        "Players": "Waldis; 'Sage of Melkath';|",
+        "Players": "Waldis; 'Sage of Melkath';",
         "Final JSON Output": ""
     },
     "Professor Foss": {
