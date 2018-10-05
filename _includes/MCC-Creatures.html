@@ -3,13 +3,22 @@
  	{% for Creatures in GammaWorld %}
 		 {% assign count = count | plus: 1 %}
 		<li>
-			{{Creatures | jsonify}}
+			{{Creatures | jsonify }}
 		</li>
 		<li>
-			{{Creatures.Name}}
+			{{Creatures }}
 		</li>
 		<li>
-			{{Creatures[0].Name}}
+			{{Creatures.Name }}
+		</li>
+		<li>
+			{{Creatures[0].Name }}
+		</li>
+		<li>
+			{{GammaWorld[count] | }}
+		</li>
+		<li>
+			{{GammaWorld[count].Name }}
 		</li>
 	{% endfor %}
 </ul>
