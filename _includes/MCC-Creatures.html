@@ -1,9 +1,10 @@
 <ul>
     {% assign count = 0 %} 
+    {{ GammaWorld.Android.Name}}
     {% for Creatures in GammaWorld %} 
     	{% assign count = count | plus: 1 %}
 	    <LI>
-	        {{ Creatures[12] }}
+	        {{ Creatures }}
 	    </LI>
     {% endfor %}
 </ul>
