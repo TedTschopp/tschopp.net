@@ -1,11 +1,12 @@
 
 
-<ul>
     {% for Creatures in GammaWorld.Creatures %} 
-        <li>{{Creatures.Name}}</li>
-        <li>{{Creatures.Source}}</li>
-        <li>{{Creatures["Common Name"]}}</li>
+        <h1>{{Creatures.Name}}</h1>
+        <h2>{{Creatures["Common Name"]}}</h2>
 
-        <li>{{Creatures}}</li>
+        
+		<p><strong>Description:</strong> {{Creatures["New Description"]}}</p>
+		<p><strong>Combat:</strong> {{Creatures["Combat"]}}</p>
+		<p><strong>Society:</strong> {{Creatures["Society"]}}</p>
+
     {% endfor %}
-</ul>
