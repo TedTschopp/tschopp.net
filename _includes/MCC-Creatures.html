@@ -1,6 +1,6 @@
 
-	{% assign third-creatures = GammaWorld.Creatures | where "Source","3rd Edition"}
-    {% for Creatures in third-creatures %} 
+	
+    {% for Creatures in GammaWorld.Creatures %} 
         <h1>{{Creatures.Name}}</h1>
         <h2>{{Creatures["Common Name"]}}</h2>
 		<p style="font: monospace;">{{Creatures["Normal Text"]}}</p>
