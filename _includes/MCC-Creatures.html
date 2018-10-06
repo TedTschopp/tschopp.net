@@ -3,10 +3,15 @@
     {% for Creatures in GammaWorld.Creatures %} 
         <h1>{{Creatures.Name}}</h1>
         <h2>{{Creatures["Common Name"]}}</h2>
+		<pre>{{Creatures["Normal Text"]}}</pre>
+		{% if Creatures["New Description"] != "" %}
+			<p><strong>Description:</strong> {{Creatures["New Description"]}}</p>
+			<p><strong>Combat:</strong> {{Creatures["Combat"]}}</p>
+			<p><strong>Society:</strong> {{Creatures["Society"]}}</p>
+		{% else %}
+			<p><strong>Description:</strong> {{Creatures["Description"]}}</p>
+			<p><strong>Behavior:</strong> {{Creatures["Behavior"]}}</p>
+		{% endif %}
 
-        
-		<p><strong>Description:</strong> {{Creatures["New Description"]}}</p>
-		<p><strong>Combat:</strong> {{Creatures["Combat"]}}</p>
-		<p><strong>Society:</strong> {{Creatures["Society"]}}</p>
 
     {% endfor %}
