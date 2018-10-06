@@ -2,12 +2,9 @@
 
 <ul>
     {% for Creatures in GammaWorld.Creatures %} 
-		{% capture creature %}
-        	{{ Creatures | jsonify }}
-        {% endcapture %}
-        <li>{{creature.name}}</li>
-        <li>{{creature.Source}}</li>
+        <li>{{Creatures.name}}</li>
+        <li>{{Creatures.Source}}</li>
 
-        <li>{{creature}}</li>
+        <li>{{Creatures}}</li>
     {% endfor %}
 </ul>
