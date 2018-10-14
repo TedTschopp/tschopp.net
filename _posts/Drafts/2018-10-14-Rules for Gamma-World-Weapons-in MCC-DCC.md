@@ -50,6 +50,7 @@ The following rules are based on my playtesting of running Gamma World in MCC.  
 ## Blasters 
 
 This unusual weapon’s ray weakens the nuclear force binding the the nuclei of atoms. All things touched by the beam disentegrate cleanly without dust or odor. This creates light, intense heat, and very little noise, and leaves an impressive 10cm hole in the target. Even the air is affected, making the beam visible as a white, near instantaneous streak. 
+
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 | Pistol | Mark V Blaster    | 4 | 6 | 80/160/240 | 5D8*  |H-Cell| 6 |N/A| N/A | 5kg | 9,000Ð | 1,500 |
