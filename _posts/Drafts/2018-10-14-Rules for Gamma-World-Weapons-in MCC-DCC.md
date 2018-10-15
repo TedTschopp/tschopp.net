@@ -49,8 +49,6 @@ The following rules are based on my playtesting of running Gamma World in MCC.  
 
 ## Blasters 
 
-This unusual weapon’s ray weakens the nuclear force binding the the nuclei of atoms. All things touched by the beam disentegrate cleanly without dust or odor. This creates light, intense heat, and very little noise, and leaves an impressive 10cm hole in the target. Even the air is affected, making the beam visible as a white, near instantaneous streak. 
-
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
 | Pistol | Mark V Blaster    | 5 | 6 | 80/160/240 | 5D8*  |C-Cell| 6 | 1 | N/A | 5kg | 9,000Ð | 1,500 |
@@ -59,9 +57,11 @@ This unusual weapon’s ray weakens the nuclear force binding the the nuclei of 
 {: .well .table .table-striped}
 
 ### Mark V Blaster Pistol
+This unusual weapon’s ray weakens the nuclear force binding the the nuclei of atoms. All things touched by the beam disentegrate cleanly without dust or odor. This creates light, intense heat, and very little noise, and leaves an impressive 10cm hole in the target. Even the air is affected, making the beam visible as a white, near instantaneous streak. 
 
 ### Mark VII Blaster Rifle
-This is a larger more effective version of the Mark V
+
+This is a larger more effective version of the Mark V that fits into the form factor of a rifle that weakens the nuclear force binding the the nuclei of atoms. All things touched by the beam disentegrate cleanly without dust or odor. This creates light, intense heat, and very little noise, and leaves an impressive 10cm hole in the target. Even the air is affected, making the beam visible as a white, near instantaneous streak. 
 
 ### Mark XII Blaster Pistol
 The Mark XII Blaster is an expermental weapon built right before the great disaster  It is the favored weapon of the Knights of Genetic Purity. The Purists use this ultra-powerful beamed weapon to annihilate any visibly mutated human on sight or keep their armies of slaves in line. 
@@ -151,7 +151,6 @@ There are two weapons with the name Neural Bite.  The first one is an actual whi
 Mark I: The neural bite looks much like an ordinary whip, but the last 20 centimeters (8") of this 3-meter-long lash bristle with small metal barbs. The barbs are unable to penetrate armor that provides an AC of 5 or less. If the barbs do penetrate, a nerve drug is injected into the opponent, dramatically altering his nervous system. This potent substance, intensity 18, acts like a paralytic poison, but results of paralyzed or worse means loss of free will (this drug cannot kill). The result is a mindless slave, who follows any orders he or she is given. The drug is injected into the neural bite with a syringe through a small rubber aperture, ringed in red, near the hilt. The weapon can hold up to eight doses at once.
 
 Mark II: This looks like a silver metal ring, 1 foot in diameter, and bears a variety of multicolored beads along its perimeter.  When activated, it occilates in the air and flies at its target using its base range.  Each turn it may attack a different target that is within melee range with a spark of energy that ignores the effects of armor and force fields.  The vitims must make a save (Will Power) or call under the domination of the Neural Bite's controller.  
-
 
 ## Popper Pellet
 
