@@ -1,7 +1,11 @@
     {% for Creatures in GammaWorld.Creatures %} 
         <h1>{{Creatures.Name}}</h1>
         <h2>{{Creatures["Common Name"]}}</h2>
-		<p>{{Creatures["Normal Text"]}}</p>
+		{% if Creatures["Mutations"] != "#VALUE!" %}
+			<p><strong>Stats:</strong> {{Creatures["Normal Text"]}}</p>
+		{% else %}
+			<p><strong>Stats:</strong> Converstion in Progress</p>
+		{% endif %}
 		{% if Creatures["Mutations"] != "" %}
 			<P><strong>Mutations:</strong> {{Creatures["Mutations"]}}</p>
 		{% endif %}
