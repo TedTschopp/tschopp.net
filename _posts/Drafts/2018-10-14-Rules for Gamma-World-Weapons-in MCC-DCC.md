@@ -53,7 +53,6 @@ This unusual weapon’s ray weakens the nuclear force binding the the nuclei of 
 
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Rifle  | Gauzer            | 4 | 3 | 70         | 1d8 |C=50,F=100,Q=U|1 or 10 | A20 |N/A|N/A| - |
 | Pistol | Mark V Blaster    | 5 | 6 | 80/160/240 | 5D8*  |C-Cell| 6 | 1 | N/A | 5kg | 9,000Ð | 1,500 |
 | Rifle | Mark VII Blaster  | 5 | 6 | 130/260/390 | 5D10*  |2xC-Cell| 6 | 1 | N/A | 6kg | Priceless | Rank |
 | Rifle | Mark XII Blaster  | 6 | 6 | 400 | 8D10*  |F pack | 6 | 1 | N/A | 6kg | Priceless | 2 xRank |
