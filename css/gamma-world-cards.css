@@ -36,15 +36,24 @@
         background-color: black;
     }
 
+    .MCC 
+    {
+        font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-shadow: 0 0 3px #FFE205, 0 0 7px #FFE205, 0 0 20px #EDD205;
+        color: #018249;
+    }
+
+    .GammaWorld {
+        font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+
     .tech-v h1 {
         font-family: 'IrwinAllen';
-        color: inherit;
         line-height: 1.2;
     }
 
     .tech-v h2 {
         font-family: 'lowwe';
-        color: inherit;
     }
 
     .tech-v p {
@@ -93,14 +102,4 @@
         text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 2px rgba(115, 115, 121, 0.3);
     }
 
-    .MCC 
-    {
-        font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
-        text-shadow: 0 0 3px #FFE205, 0 0 7px #FFE205, 0 0 20px #EDD205;
-        color: #018249;
-    }
-
-    .GammaWorld {
-        font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    }
 
