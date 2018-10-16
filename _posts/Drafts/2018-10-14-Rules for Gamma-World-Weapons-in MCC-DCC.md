@@ -194,3 +194,18 @@ This looks like a rainbow-colored ribbon 10' long.  When activated it animates a
 {: .well .table .table-striped}
 
 Stinger Crystal  This diamond shaped arrow is multicolored. when activated it springs into the air, hovering and spinning at the users shoulder.  It can be used either to strike a foe with a melee attack or block a physcial or energy attack.  When blocking, the Crystal has 50 hitpoints.
+
+
+## Trek Bomb - TBD
+
+A 25-centimeter square black plastic box weighing 25 kilograms. Disintegrates everything within 60 meters not protected by a Force Field. Does 30 points of damage to characters protected by Force Fields (that may be absorbed by the field if it is strong enough). After detonation, the ground surrounding the Trek Bomb’s former location is disintregrated as well, leaving a perfectly symmetrical 60m crater. 
+
+
+## Trek Gun - TBD
+
+| Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| Range | Trek Gun | 6 | 6 | 30 | 1d6 | 1xSolar | 1 | 1 | N/A | 1kg | Priceless | Rank |
+{: .well .table .table-striped}
+
+This gun releases a concentrated blast of antimatter the same as a Trek Bomb. Any target not protected by a force field is disintegrated. Any force field hit takes 30 points of damage. This weapon is usually seen on Death Machines. Occasionally, this weapon was also mounted on tanks or on a mobile base as a field piece. It is also sometimes seen in a stationary emplacement, connected to a Nuclear Power Plant and controlled by a Cybernetic Installation or Think Tank. In this configuration it has unlimited power for continuous firing.
