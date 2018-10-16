@@ -1,7 +1,7 @@
 ---
 title: Gamma World Weapons in MCC & DCC
-date: 2018-09-04T17:37:12-07:00
-update: 2018-09-04T16:44:34-07:00
+date: 2018-10-14T17:37:12-07:00
+update: 2018-10-14T16:44:34-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
@@ -21,11 +21,11 @@ seo_description: |
 layout: post
 guid: 6b244c94-6395-4b8a-afb8-4c37f8dbf309
 permalink: /2018/10/14/Gamma-World-Weapons-in-MCC-DCC/
-image:  /media/2018-09-04/MCC-Guns.jpg
-image-credits: Weapon & Prop Concepts by Matthew Harris https://megalomatthew.artstation.com/
-image-credits-title: Weapon & Prop Concepts
-image-credits-artist: Matthew Harris
-image-credits-URL: https://larsson.artstation.com/projects/qOJQn
+image:  /media/2018-10-14/seth-justus-huntersalienguns.jpg
+image-credits: 'Hunters' Alien Weapons and Devices by Seth Justus https://www.artstation.com/artwork/lqz25
+image-credits-title: 'Hunters' Alien Weapons and Devices
+image-credits-artist: Seth Justus
+image-credits-URL: https://www.artstation.com/artwork/lqz25
 categories:
   - Role Playing Games
   - Gamma World
