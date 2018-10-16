@@ -47,6 +47,8 @@ draft-status: Alpha
 The following rules are based on my playtesting of running Gamma World in MCC.  I want to make sure the feel and flavor of Gamma World's weapons is available to people who want it in MCC. 
 
 
+# Weapons
+
 ## Blasters 
 
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
@@ -196,16 +198,68 @@ This looks like a rainbow-colored ribbon 10' long.  When activated it animates a
 Stinger Crystal  This diamond shaped arrow is multicolored. when activated it springs into the air, hovering and spinning at the users shoulder.  It can be used either to strike a foe with a melee attack or block a physcial or energy attack.  When blocking, the Crystal has 50 hitpoints.
 
 
-## Trek Bomb - TBD
+## Trek Bomb
 
-A 25-centimeter square black plastic box weighing 25 kilograms. Disintegrates everything within 60 meters not protected by a Force Field. Does 30 points of damage to characters protected by Force Fields (that may be absorbed by the field if it is strong enough). After detonation, the ground surrounding the Trek Bomb’s former location is disintregrated as well, leaving a perfectly symmetrical 60m crater. 
+| Type   | Name              | TL| Comp| Range    | Blast Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| Range | Trek bomb | 6 | 10 | N/A | 200' | See Below | N/A | 1 | 1 | N/A | 25kg | Priceless | 1,800 |
+{: .well .table .table-striped}
 
 
-## Trek Gun - TBD
+A 25-centimeter square black plastic box weighing 25 kilograms. Disintegrates everything within 60 meters not protected by a Force Field. Does 30 points of damage to characters protected by Force Fields (that may be absorbed by the field if it is strong enough). After detonation, the ground surrounding the Trek Bomb’s former location is disintregrated as well, leaving a perfectly symmetrical 2--'' crater. 
+
+
+## Trek Gun
 
 | Type   | Name              | TL| Comp| Range    | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Range | Trek Gun | 6 | 6 | 30 | 1d6 | 1xSolar | 1 | 1 | N/A | 1kg | Priceless | Rank |
+| Range | Trek Gun | 6 | 8 | 650 | See Below | 1xNuclear | 5 | 1 | N/A | 225kg | Priceless | Rank |
 {: .well .table .table-striped}
 
 This gun releases a concentrated blast of antimatter the same as a Trek Bomb. Any target not protected by a force field is disintegrated. Any force field hit takes 30 points of damage. This weapon is usually seen on Death Machines. Occasionally, this weapon was also mounted on tanks or on a mobile base as a field piece. It is also sometimes seen in a stationary emplacement, connected to a Nuclear Power Plant and controlled by a Cybernetic Installation or Think Tank. In this configuration it has unlimited power for continuous firing.
+
+
+## Weapons that are Vehicles
+
+### Warbot
+
+This vaguely turtle-shaped unit is 9 meters long by 6 meters wide by 3 meters tall. It has 4 Micro-missile Launchers, 6 Torc Grenade Launchers (500 meter range and 5d20 Torc Grenades), 4 Black Ray Guns (200 meter range), 8 Mark VII Blaster Batteries of 3 guns each, 1 Matter Bomb Launcher 1200 meter range and 6d6 Matter Bombs) and 6 Laser Batteries of 5 guns each (1500-meter range and 15d6 damage per battery). All Warbots have a 200 Hit Point Energy Screen. They can use all weapons simultaneously.
+
+### Think Tank
+
+Usually building-sized units, Think Tanks have only one purpose - to plan for all possible contingencies and answer questions about the information they correlate. They were located only in very high-security areas such as space ports, secret military bases etc. Each is defended by its own permanent cybernetic installation regardless of the existence of another such installation which runs the base on which the think tank is located. Persons with Stage IV and V I.D.’s can communicate with (not control) a think tank, as can supervisory borgs and permanent cybernetic installations.
+
+Each Think Tank was individually designed and built, so no two are exactly alike. In general, they were powered by 2 or more nuclear power plants, including backup systems. In practice, most of them will still operate limited to one power plant. Think Tanks depend on the organic “brains” that power the bulk of their cognitive abilities. If the Think Tank is totally without power for any amount of time, these “brains” will die and the Think Tank will be rendered useless. In many cases, still-functioning Think Tanks have developed severe personality quirks and some are outright insane due to lack of regular maintenance or spare parts (i.e. new “brains”).
+
+### Death Machines
+
+This 15 meter long, 9 meter wide, 3 meter high killing machine is covered with knobby projections housing sensors and weapons. Its main weapons are 2 Blaster Cannons that do 25d6 damage at a 1500 meter range. For close defense it has 6 Black Ray Guns with a 300-rneter range. 4 Trek Guns that do the same damage as Trek Bombs and have a range of 180 meters, and 16 Mark VII Blaster Batteries of 4 guns each. These weapons can all fire at the same time. Other weapons include 8 Laser Batteries 15 guns each) that do 20d6 damage per Battery at a 1500 meter range and can fire simultaneously, 6 Mini-missile Launchers with 5d20 missiles fired individually and a Fusion Bomb Launcher with 5d10 Fusion Bombs. Both the missiles and the Fusion Bombs have a 3000 meter range. An Energy Damping Field fuses the circuits of Robots coming within 60 meters of the Death Machine and does 200 points of damage to all Energy Screens except its own within that range. The Death Machine's own Energy Screen can take 400 points of damage. Death Machines are very rare and will only be found near CI's that they are assigned to defend and from which they take orders. They almost always attack those who can't show Stage V I.D.
+
+
+### AATAAV
+
+The AATAAV is a gigantic, manlike war machine, standing 90 m tall and 36 m wide. The body is composed of energy-resistant collaplastic with a duralloy underbase. It must be piloted by a trained driver/gunner with a Stage V I.D.; the pilot controls all functions of the vehicle, including flight, hover, and walking capabilities, and all gunnery. Intensive training is necessary to operate the device at full efficiency, and such training is only available from certain military bases controlled by certain Cryptic Alliances.
+
+The AATAAV has standard, infrared, and ultraviolet sensors effective out to 10 km, and has radar good out to 200 km. It can walk over light terrain at 25 kph, or use its hover thrusters to move over all terrain at twice that speed, for 120 minutes every 24-hour period (being limited by power and cooling considerations). For long-range travel, the AATAAV can reconfigure itself into a more aerodynamic form and fly normally, using antigravity pods and jet engines. The reconfiguration process takes only one minute, but during that time the machine’s weapons cannot be operated. In full flight con- figuration, the vehicle can reach speeds of up to 830 kph. Stream- lining is provided by shaping the force field around the vehicle. Because of the force field, no weapons can be used while the vehicle is in flight.
+
+The AATAAV has a force-field energy screen capable of absorbing 300 points of damage. A high-intensity floodlight mounted on the vehicle’s head has a 1km range and projects a 30° cone-shaped beam. The floodlight will cause temporary blindness in most light-sensitive or nocturnal creatures within 300 m of the beam’s source.
+
+Two smoke-screen projectors, mounted just below the visual sensors, are together capable of creating a cylindrical cloud of smoke or gas 30 m wide and 250 m long within 10 seconds. The smoke negates all laser attacks, ruins line-of-sight optical and infrared sensing, and can be mixed with a poison gas (intensity 3-18, as desired) useful against ground troops.
+
+The AATAAV is heavily equipped and was intended for use as a shock force against massed troop concentrations. Two black-ray batteries, each holding six black-ray guns with a 600-m range, are mounted on the left and right hips of the vehicle. Each battery has a firing arc of 180° to its respective side. Each shin of the vehicle has a mortar, concealed internally but hanging out for firing. The left mortar is usually rigged for firing negation bombs, and the right one launches matter bombs (type beta). Each mortar has a 2-km range and may fire two bombs per action turn, with a supply of 40 bombs for the matter-bomb mortar and 80 for the negation-bomb mortar. The AATAAVs’ arms are each able to present a universal firing arc, quickly directing attacks in any direction. Each arm mounts three blaster cannon, doing 20d6 damage each at a 2km range. These guns are mounted around a massive central plasma-gun battery, with eight plasma guns per arm. The plasma weapons cannot be removed from the vehicle’s arms without destroying them. Because the plasma weapons use so much power, the AATAAV cannot do anything else while these weapons fire and must stand perfectly still. Finally, four standard Mark VII blasters rifles are mounted under the vehicle’s chin. These weapons have standard ranges and powers, and have a 90° firing arc to the AATAAV’s front.
+
+The AATAAV is powered by a fusion power plant with a ten-year life span.The machine is rigged to automatically self-destruct (regardless of the pilot’s wishes) from a remote location, usually
+
+A Military Installation. (This is an excellent way of keeping these devices out of the hands of the players.) However, the self-destruct mechanism and circuitry are considered secret knowledge, and no pilots are aware that these devices have been implanted in their vehicles. Because of the onboard guidance and fire-control systems, it is impossible for the pilot of a AATAAV to accidentally shoot his own vehicle in combat. An AATAAV will always remain upright unless it is depowered or purposefully made to sit down. Very few AATAAVs are in service, perhaps less than ten; only three to six of them would be in operation in North America. AATAAVs usually travel in small groups to provide fire support to one another.
+
+### Aquabot
+
+The Aquabot was designed to attack and destroy military installations along coasts or underwater. Twelve aquabots were originally produced, and one industrial complex (location undisclosed) was designed to mass-produce them. It is a 3-man unit with 2 operators in the forward control room and one aft in the support fighter.
+
+The Aquabot is equipped with an array of weapons systems. Four batteries of missile/torpedo tubes (6 in each shoulder, 2 in the chest) fire either underwater torpedoes (range 10km) or airborne missiles (range 200km). These are explosive, armor piercing Action Turns which cause 50d10 damage in a 300m radius. Each battery normally carries 50 missiles & 50 torpedoes. 2 Batteries of 7 rocket launchers are mounted in the units forearms. These rockets have a range of 100km (underwater) or 1,000km (air). Each causes 10d10 damage in a 150m radius. Each battery normally carries 150 rockets. Also mounted in each hand are 3 heavy beam cannons. Each cannon has a range of 2km (underwater) or 10km (air). These cannons cause 50d10 damage to structural targets or 10d10 to soft targets. Finally, the Aquabot carries 2 batteries of 4 light beam cannons. These have a range of 1km in any terrain. They cause 10d10 damage to structural targets or 5d10 versus soft targets.
+
+Mounted in two hardpoints on the units chest are defensive shield projectors which absorb 500 points of damage each, and can completely renew themselves every 20 minutes. These projectors are also linked to a defensive bubble system which allows the shields to envelope the unit underwater and allow it to move absolutely undetected by all known sensory equipment.
+
+In the event that the unit suffers extreme damage, the control head functions as a detacheable pod and may move away from the field of battle. The pod may only detach when all other systems have been destroyed. The pod may automatically detach if control personnel are incapacitated for any reason.
+
+Docked at the tail of the Aquabot is an independently maneuverable support fighter for land-based warfare. When detached the support fighter mounts 8 small beam-cannons and has 100 Hit Points. It is equipped with a 50-point shield generator which renews itself every 40 minutes.
