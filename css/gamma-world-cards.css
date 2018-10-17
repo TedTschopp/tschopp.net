@@ -32,8 +32,32 @@
         font-style: normal;
     }
 
+    @font-face {
+        font-family: 'GameEmpire';
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/Algerian-Basic-D-OT_3025.eot');
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/Algerian-Basic-D-OT_3025.woff2') format('woff2'),
+        url('https://www.tedt.org/RPG/MCC-GW/media/Algerian-Basic-D-OT_3025.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+
+
+
     body {
         background-color: black;
+    }
+
+    .LineType {
+        font-family: lp1_regular, "Trebuchet MS", sans-serif;
+    }
+
+    .GameEmpire {
+        font-family: "GameEmpire", serif;
+        color: #FFFFFF;
+        text-shadow: 0 0 3px #FF0000, 0 0 7px #FF0000, 0 0 20px #FF0000;
+
     }
 
     .MCC 
