@@ -49,10 +49,7 @@
             <td id="paper_printarea" class="tech-v">
                 <!-- Blog Post -->
                 <article class="h-entry">
-                    {% if page.image %}
-                    <figure>
-                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}{{ page.image }}" alt="{{page.image-credits}}">
-
+                    <!-- Title -->
                     <h1 class="p-name">{{ page.title }}</h1>
                     <!-- Author TODO: Fix this to be dynamic for more than one author. -->
                     {% if page.author.name %}
@@ -91,7 +88,18 @@
 
                     <hr>
 
+                    <!-- <p class="lead">{{ page.excerpt | strip_html}}  {{ page.content | strip_html | truncatewords:75 }}</p> -->
 
+                    <!-- Preview Image -->
+                    <!--
+                        TODO: Implement Smart Cropping on the images to make sure they are a minimum height, 
+                        and still stay responsive: https://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping
+
+                        -->
+
+                    {% if page.image %}
+                    <figure>
+                    <img class="img-responsive img-thumbnail" src="{{site.siteurl}}{{ page.image }}" alt="{{page.image-credits}}">
                       <figcaption>
                         {% if page.image-credits-URL or page.image-credits-title %}
                             <a target="_new" href="{{page.image-credits-URL}}">"{{page.image-credits-title}}" by {{page.image-credits-artist}}</a>
@@ -103,6 +111,8 @@
                       </figcaption>
                     </figure>
                     {% endif %}
+
+                    <hr>
 
                     <!-- In the event of a draft include a progress bar -->
                     {% assign draftstatus = page.draft-status %}
@@ -228,6 +238,35 @@
                     <hr>
                 </article>
 
+                <!--Next and Previous Articles -->
+                {% if page.previous.url %}
+                    {% assign previous_url = page.previous.url %}
+                    {% assign previous_title = page.previous.title %}
+                {% else %}
+                    {% assign previous_url = site.siteurl %}
+                    {% assign previous_title = "Home" %}
+                {% endif %}
+                {% if page.next.url %}
+                    {% assign next_url = page.next.url %}
+                    {% assign next_title = page.next.title %}
+                {% else %}
+                    {% assign next_url = site.siteurl %}
+                    {% assign next_title = "Home" %}
+                {% endif %}
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-left"><a href="{{previous_url}}">&laquo; {{previous_title}}</a></span>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <span class="float-md-right"><a href="{{next_url}}">{{next_title}} &raquo;</a></span>
+                    </div>
+                </div>
+ 
+                <hr>
+
+                {% include comments-webmentions.html %}
+
+                {% include comments.html %}
 
 
 
