@@ -17,7 +17,7 @@ seo_description: |
    The following is a conversion of rules for Gamma World's Traditional weapons in Mutant Crawl Classic.  
 
 
-layout: post
+layout: MCC-GW
 guid: 6b244c94-6395-4b8a-afb8-4c37f8dbf309
 permalink: /2018/10/14/Gamma-World-Weapons-in-MCC-DCC/
 image:  /media/2018-10-14/seth-justus-huntersalienguns.jpg
