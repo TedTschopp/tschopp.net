@@ -202,37 +202,38 @@ Taking cover is key to surviving a gun fight. If a target is actively hiding beh
 
 ## Melee Table
 
-| Type   | Name              | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Two H  | Battle Axe        | 1 | 1 |N/A         |0       | 1d10  |N/A|N/A|N/A|N/A|       | 7 Ð   |
-| Single | Stone Axe         | 1 | 1 |N/A         |0       | 1d7   |N/A|N/A|N/A|N/A|       | 7 Ð   |
-| Single | Blackjack, normal | 1 | 1 |N/A         |0       | 1d3s  |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Blackjack, thief  | 1 | 1 |N/A         |0       | 2d6s  |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Blowgun, normal   | 1 | 2 | 20/40/60   |0       | 1d3   |N/A| 1 | 1 |-3 |       | 6 Ð   |
-| Single | Blowgun, thief    | 1 | 2 | 20/40/60   |0       | 1d5   |N/A| 1 | 1 |-3 |       | 6 Ð   |
-| Single | Club              | 1 | 1 |N/A         |0       | 1d4   |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Club, Wooden      | 1 | 1 |N/A         |0       | 1d5   |N/A|N/A|N/A|N/A|       | 2 Ð   |
-| Single | Club, Bone        | 1 | 1 |N/A         |0       | 1d6   |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Two H  | Crossbow          | 1 | 2 | 80/160/240 |0       | 1d6   |N/A| 1 | 1 |N/A|       | 30 Ð  |
-| Single | Dagger, normal    | 1 | 1 |N/A         |0       | 1d4   |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Dagger, theif     | 1 | 1 |N/A         |0       | 1d10  |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Dagger            | 1 | 1 | 10/20/30   |0       | 1d4   |N/A| 1 | 1 |1  |       | 3 Ð   |
-| Single | Flint Dagger      | 1 | 1 | 10/20/30   |0       | 1d4   |N/A| 1 | 1 |1  |       | 3 Ð   |
-| Single | Dart              | 1 | 1 | 20/40/60   |0       | 1d4   |N/A| 1 | 1 |0  |       | 0.5 Ð |
-| Single | Flail             | 1 | 1 |N/A         |0       | 1d6   |N/A|N/A|N/A|N/A|       | 6 Ð   |
-| Single | Garrote, normal   | 1 | 1 |N/A         |0       | 1     |N/A|N/A|N/A|N/A|       | 2 Ð   |
-| Single | Garrote, theif    | 1 | 1 |N/A         |0       | 3d4   |N/A|N/A|N/A|N/A|       | 2 Ð   |
-| Single | Hand Axe          | 1 | 1 | 10/20/30   |0       | 1d6   |N/A|N/A|N/A|-1 |       | 4 Ð   |
-| Single | Javelin           | 1 | 1 | 30/60/90   |0       | 1d6   |N/A|N/A|N/A|N/A|       | 1 Ð   |
-| Two H  | Lance             | 1 | 3 | N/A        |0       | 1d12  |N/A|N/A|N/A|N/A|       | 25 Ð  |
-| Two H  | Longbow           | 1 | 2 | 70/140/210 |0       | 1d6   |N/A| 1 | 1 |-3 |       | 40 Ð  |
-| Two H  | Bow               | 1 | 2 | 50/100/200 |0       | 1d6   |N/A| 1 | 1 |-2 |       | 30 Ð  |
-| Single | Mace              | 1 | 1 | N/A        |0       | 1d6   |N/A|N/A|N/A|N/A|       | 5 Ð   |
-| Two H  | Polearm           | 1 | 1 | N/A        |0       | 1d10  |N/A|N/A|N/A|N/A|       | 7 Ð   |
-| Two H  | Shortbow          | 1 | 2 | 50/100/150 |0       | 1d6   |N/A| 1 | 1 |-2 |       | 25 Ð  |
-| Single | Sling, Leather    | 1 | 2 | 40/80/160  |0       | 1d4   |N/A| 1 | 1 |N/A|       | 2 Ð   |
-| Single | Spear, Metal tip  | 1 | 1 | N/A        |0       | 1d8   |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Spear, Stone tip  | 1 | 1 | N/A        |0       | 1d6   |N/A|N/A|N/A|N/A|       | 3 Ð   |
-| Single | Staff             | 1 | 1 | N/A        |0       | 1d4   |N/A|N/A|N/A|N/A|       | 0.5 Ð |
-| Two H  | Two-Handed Sword  | 1 | 1 | N/A        |0       | 1d10  |N/A|N/A|N/A|N/A|       | 15 Ð  |
-| Single | Warhammer         | 1 | 1 | N/A        |0       | 1d8   |N/A|N/A|N/A|N/A|       | 5 Ð   |
+| Type   | Name              | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| Two H  | Battle Axe        | 1 | 1 |N/A         |0       | 1d10  |N/A|N/A|N/A|N/A|       | 7 Ð   | 0 |
+| Single | Stone Axe         | 1 | 1 |N/A         |0       | 1d7   |N/A|N/A|N/A|N/A|       | 7 Ð   | 0 |
+| Single | Blackjack, normal | 1 | 1 |N/A         |0       | 1d3s  |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Blackjack, thief  | 1 | 1 |N/A         |0       | 2d6s  |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Blowgun, normal   | 1 | 2 | 20/40/60   |0       | 1d3   |N/A| 1 | 1 |-3 |       | 6 Ð   | 0 |
+| Single | Blowgun, thief    | 1 | 2 | 20/40/60   |0       | 1d5   |N/A| 1 | 1 |-3 |       | 6 Ð   | 0 |
+| Single | Club              | 1 | 1 |N/A         |0       | 1d4   |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Club, Wooden      | 1 | 1 |N/A         |0       | 1d5   |N/A|N/A|N/A|N/A|       | 2 Ð   | 0 |
+| Single | Club, Bone        | 1 | 1 |N/A         |0       | 1d6   |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Two H  | Crossbow          | 1 | 2 | 80/160/240 |0       | 1d6   |N/A| 1 | 1 |N/A|       | 30 Ð  | 0 |
+| Single | Dagger, normal    | 1 | 1 |N/A         |0       | 1d4   |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Dagger, theif     | 1 | 1 |N/A         |0       | 1d10  |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Dagger            | 1 | 1 | 10/20/30   |0       | 1d4   |N/A| 1 | 1 |1  |       | 3 Ð   | 0 |
+| Single | Flint Dagger      | 1 | 1 | 10/20/30   |0       | 1d4   |N/A| 1 | 1 |1  |       | 3 Ð   | 0 |
+| Single | Dart              | 1 | 1 | 20/40/60   |0       | 1d4   |N/A| 1 | 1 |0  |       | 0.5 Ð | 0 |
+| Single | Flail             | 1 | 1 |N/A         |0       | 1d6   |N/A|N/A|N/A|N/A|       | 6 Ð   | 0 |
+| Single | Garrote, normal   | 1 | 1 |N/A         |0       | 1     |N/A|N/A|N/A|N/A|       | 2 Ð   | 0 |
+| Single | Garrote, theif    | 1 | 1 |N/A         |0       | 3d4   |N/A|N/A|N/A|N/A|       | 2 Ð   | 0 |
+| Single | Hand Axe          | 1 | 1 | 10/20/30   |0       | 1d6   |N/A|N/A|N/A|-1 |       | 4 Ð   | 0 |
+| Single | Javelin           | 1 | 1 | 30/60/90   |0       | 1d6   |N/A|N/A|N/A|N/A|       | 1 Ð   | 0 |
+| Two H  | Lance             | 1 | 3 | N/A        |0       | 1d12  |N/A|N/A|N/A|N/A|       | 25 Ð  | 0 |
+| Two H  | Longbow           | 1 | 2 | 70/140/210 |0       | 1d6   |N/A| 1 | 1 |-3 |       | 40 Ð  | 0 |
+| Two H  | Bow               | 1 | 2 | 50/100/200 |0       | 1d6   |N/A| 1 | 1 |-2 |       | 30 Ð  | 0 |
+| Single | Mace              | 1 | 1 | N/A        |0       | 1d6   |N/A|N/A|N/A|N/A|       | 5 Ð   | 0 |
+| Two H  | Polearm           | 1 | 1 | N/A        |0       | 1d10  |N/A|N/A|N/A|N/A|       | 7 Ð   | 0 |
+| Two H  | Shortbow          | 1 | 2 | 50/100/150 |0       | 1d6   |N/A| 1 | 1 |-2 |       | 25 Ð  | 0 |
+| Single | Sling, Leather    | 1 | 2 | 40/80/160  |0       | 1d4   |N/A| 1 | 1 |N/A|       | 2 Ð   | 0 |
+| Single | Spear, Metal tip  | 1 | 1 | N/A        |0       | 1d8   |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Spear, Stone tip  | 1 | 1 | N/A        |0       | 1d6   |N/A|N/A|N/A|N/A|       | 3 Ð   | 0 |
+| Single | Staff             | 1 | 1 | N/A        |0       | 1d4   |N/A|N/A|N/A|N/A|       | 0.5 Ð | 0 |
+| Two H  | Two-Handed Sword  | 1 | 1 | N/A        |0       | 1d10  |N/A|N/A|N/A|N/A|       | 15 Ð  | 0 |
+| Single | Warhammer         | 1 | 1 | N/A        |0       | 1d8   |N/A|N/A|N/A|N/A|       | 5 Ð   | 0 |
+{: .well .table .table-striped}
