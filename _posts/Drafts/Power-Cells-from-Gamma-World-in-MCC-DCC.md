@@ -1,8 +1,8 @@
 
 ---
 title: Power Cells from Gamma World in MCC & DCC
-date: 2018-11-02T17:37:12-07:00
-update: 2018-11-02T16:44:34-07:00
+date: 2018-11-01T17:37:12-07:00
+update: 2018-11-22T16:44:34-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
