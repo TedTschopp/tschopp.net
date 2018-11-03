@@ -1,7 +1,7 @@
 
 ---
 title: Power Cells from Gamma World in MCC & DCC
-date: 2018-11-01T17:37:12-07:00
+date: 2018-11-01T10:37:12-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
@@ -32,6 +32,12 @@ categories:
   - Draft
 draft-status: Alpha
 ---
+
+# Contents
+{:.no_toc}
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 
 # Power Plants
