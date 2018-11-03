@@ -19,7 +19,7 @@ seo_description: |
 
 
 layout: MCC-GW
-guid: 6b244c94-6395-4b8a-afb8-4c37f8dbf309
+guid: 1c1b9804-b2ab-4aac-8796-e4891fa5e66b
 permalink: /2018/10/14/Power-Cells-from-Gamma-World-in-MCC-DCC/
 image:  /media/2018-11-02/FuelCellRenders2.jpg
 image-credits: District 9 Alien Fuel Cell by Josh Haberman https://www.artstation.com/artwork/lqz25
