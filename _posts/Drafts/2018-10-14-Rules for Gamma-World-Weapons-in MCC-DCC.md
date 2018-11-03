@@ -133,7 +133,7 @@ Once it has locked onto a target, it splits into three separate blades, each att
 
 | Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Melee | Lamprey | 7 | 5 | See Below | N/A | See Below | N/A | N/A | See Below | N/A | 1kg | 3000 Ð | 1500 |
+| Melee | Lamprey | 6 | 5 | See Below | N/A | See Below | N/A | N/A | See Below | N/A | 1kg | 3000 Ð | 1500 |
 {: .well .table .table-striped}
 
 This is a metal disk about the size of a normal human hand. One side is strongly magnetized and will adhere to any steel surface with a strength of 8. A switch on the same surface turns the disk on or off. The switch is not accessible when the disk is stuck on a surface. When turned on, the disk absorbs magnetic and electrical fields within 3 feet. It can drain a chemical power cell in one round, a hydrogen cell in 10 rounds, and an atomic power cell in 20 minutes. Quantum cells are drained of all stored energy but will build up a charge when removed from the Lamprey field.  Any powered equipment affected by the disk, including robots, operates at half power. Weapons do half damage, robots and vehicles move at half speed, robots get half as many attacks per round, etc.
@@ -141,10 +141,10 @@ This is a metal disk about the size of a normal human hand. One side is strongly
 
 ## Neural Bite
 
-| Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Melee | Neural Bite Mark I | 5 | 3 | Melee | | Stun | N/A | 8 | 1 | N/A | 1/2kg | 1,200 Ð | 600 |
-| Range | Neural Bite Mark II | 5 | 3 | 50 | | Stun | Nx1 | 4 | 1 | N/A | 1kg | Priceless | Rank |
+| Type   | Name               | TL  | Comp| Range | Radius | Dmg            | Power    | Ammo | Rate of Fire | Speed | Weight | Cost      | Value |
+| :----: | :------------:     | :-: | :-: | :-:   | :----: | :-:            | :------: | :-:  | :---------:  | :-:   | :-:    | :-:       | :-:   |  
+| Melee  | Neural Bite Mark I | 5   | 3   | Melee |        | Stun           | N/A      | 8    | 1            | N/A   | 1/2kg  | 1,200 Ð   | 600   |
+| Range  | Neural Bite Mark II| 7   | 3   | 50    |        | Stun           | Nx1      | 4    | 1            | N/A   | 1kg    | Priceless | Rank  |
 {: .well .table .table-striped}
 
 There are two weapons with the name Neural Bite.  The first one is an actual whip with poison.  The second one is a ranged version of this weapon that was inspired by the Neural Bite wip.
@@ -155,9 +155,9 @@ Mark II: This looks like a silver metal ring, 1 foot in diameter, and bears a va
 
 ## Popper Pellet
 
-| Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Range | Popper Pellet | 6 | 3 | Thrown | | See Below | N/A | 1 | 1 | N/A | 5g | 250 Ð | 25 |
+| Type   | Name            | TL  | Comp| Range       | Radius | Dmg            | Power    | Ammo | Rate of Fire | Speed | Weight | Cost      | Value |
+| :----: | :------------:  | :-: | :-: | :-:         | :----: | :-:            | :------: | :-:  | :---------:  | :-:   | :-:    | :-:       | :-:   |  
+| Range  | Popper Pellet   | 6   | 3   | Thrown      |        | See Below      | N/A      | 1    | 1            | N/A   | 5g     | 250 Ð     | 25    |
 {: .well .table .table-striped}
 
 The popper pellet is an ocher kernel about the size of a large marble. To activate the item, the user throws it into an activated force field. Once it makes contact with a force field of any kind (excluding Mutational Force Fields), the popper pellet instantly gains the necessary power it needs from the field. Once attached, the popper pellet cloaks itself from IR, UV, and visible light, making it invisible to most individuals and sensors. It travels to the highest point of the force field (above the head for most powered armors and above the turret for tanks or robots).
@@ -169,9 +169,9 @@ When a popper pellet is thrown at a force field, the individual sees the popper 
 
 ## Smart Dart
 
-| Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Range | Smart Dart | 6 | 6 | Thrown + 40 | | 3d6 Electrical | Chemical | 1 | 1 | N/A | 1kg | Priceless | Rank |
+| Type   | Name            | TL  | Comp| Range       | Radius | Dmg            | Power    | Ammo | Rate of Fire | Speed | Weight | Cost      | Value |
+| :----: | :------------:  | :-: | :-: | :-:         | :----: | :-:            | :------: | :-:  | :---------:  | :-:   | :-:    | :-:       | :-:  |  
+| Range  | Smart Dart      | 6   | 6   | Thrown + 40 |   30'  | 3d6 Electrical | Chemical | 1    | 1            | N/A   | 1kg    | Priceless | Rank |
 {: .well .table .table-striped}
 
 This looks like a double-sized flint arrowhead with iridescent edges.  When activated or flung at a target it homes in on the targets form and aura.  The victim must make a Reflex save each turn to avoid the dart, but the dart continues to attack the target until it strikes something.  When it hits it erupts in a flashing ball of electricity, harming all within 30 feet. 
@@ -180,8 +180,8 @@ Once the Smart Dart is discharged it falls to the ground needing to be recharged
 
 ## Slither Helix
 
-| Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
+| Type   | Name            | TL  | Comp| Range | Radius | Dmg | Power   | Ammo | Rate of Fire | Speed | Weight | Cost      | Value |
+| :----: | :------------:  | :-: | :-: | :-:   | :----: | :-: | :-:     | :-:  | :---------:  | :-:   | :-:    | :-:       | :-:  |  
 | Range | Slither Helix | 6 | 6 | Thrown + 30 | | 1d3 Progressive +1d | 1xSolar | 1 | 1 | N/A | 1kg | Priceless | Rank |
 {: .well .table .table-striped}
 
@@ -189,9 +189,9 @@ This looks like a rainbow-colored ribbon 10' long.  When activated it animates a
 
 ## Stinger Crystal
 
-| Type   | Name             | TL| Comp| Range    | Radius | Dmg | Power | Ammo | Rate of Fire | Speed | Weight | Cost | Value |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | 
-| Range | Stinger Crystal | 6 | 6 | 30 | | 1d6 | 1xSolar | 1 | 1 | N/A | 1kg | Priceless | Rank |
+| Type   | Name            | TL  | Comp| Range | Radius | Dmg | Power   | Ammo | Rate of Fire | Speed | Weight | Cost      | Value |
+| :----: | :------------:  | :-: | :-: | :-:   | :----: | :-: | :-:     | :-:  | :---------:  | :-:   | :-:    | :-:       | :-:  |  
+| Range  | Stinger Crystal | 7   | 6   | 30    |        | 1d6 | 1xSolar | 1    | 1            | N/A   | 1kg    | Priceless | Rank |
 {: .well .table .table-striped}
 
 Stinger Crystal  This diamond shaped arrow is multicolored. when activated it springs into the air, hovering and spinning at the users shoulder.  It can be used either to strike a foe with a melee attack or block a physical or energy attack.  When blocking, the Crystal has 50 hit points.
