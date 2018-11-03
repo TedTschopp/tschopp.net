@@ -2,7 +2,6 @@
 ---
 title: Power Cells from Gamma World in MCC & DCC
 date: 2018-11-01T17:37:12-07:00
-update: 2018-11-22T16:44:34-07:00
 author:
   name: Ted Tschopp
   url: https://www.tedt.org/
@@ -20,7 +19,7 @@ seo_description: |
 
 layout: MCC-GW
 guid: 1c1b9804-b2ab-4aac-8796-e4891fa5e66b
-permalink: /2018/10/14/Power-Cells-from-Gamma-World-in-MCC-DCC/
+permalink: /2018/11/02/Power-Cells-from-Gamma-World-in-MCC-DCC/
 image:  /media/2018-11-02/FuelCellRenders2.jpg
 image-credits: District 9 Alien Fuel Cell by Josh Haberman https://www.artstation.com/artwork/lqz25
 image-credits-title: District 9 Alien Fuel Cell
