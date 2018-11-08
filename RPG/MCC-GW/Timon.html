@@ -20,6 +20,8 @@
 
     </style>
 
+    <script src="https://www.tedt.org/js/jscii.js"></script>
+
 </head>
 
 <body>
@@ -29,6 +31,11 @@
             </td>
             <td id="paper_printarea" class="tech-v">
                 <p><a href="https://www.tedt.org/RPG/MCC-GW/">Back</a></p>
+                <figure>
+                    <img class="img-responsive img-thumbnail" src="https://www.tedt.org/RPG/MCC-GW/images/timon.png" id="jscii-element-image">
+                    <pre id="ascii-container-image"></pre>
+                    <figcaption>Timon, Leader of Oskar</figcaption>
+                </figure>
                 <h1>Timon</h1>
                 <h2>Visible Equipment</h2>
                 <ul>
@@ -40,10 +47,26 @@
                     <li>Swagger Stick</li>
                 </ul>
                <h2>Description</h2>
-                <p>Timon is the general and leader of the Village of Oskar.  He is a 120cm tall wolverine who walks on his hind legs. </p>
+                <p>Timon is the general and leader of the Village of Oskar.  He is a 120cm tall wolverine who walks on his hind legs.   His billage is a unique combination of members of the Archivists and Ranks fo the Fit.  Timon believes that Napoleon, the leader of the Ranks of the Fit, made a big mistake by not trying to inorporate other, more technically advanced groups into the community as servants, slaves, and labor.</p>
+                <p>Timon is always accompanied by two Bofs who act as his body guards at all times.</p>
             </td>
             <td id="papermargin_right">
             </td>
         </tr>
     </Table>
+    <script>
+        // put in the image
+        var imgJscii = new Jscii({
+            width: 100,
+            color: true,
+            el: document.getElementById('jscii-element-image'),
+            fn: function(str) {
+                document.getElementById('ascii-container-image').innerHTML = str;
+            }
+        });
+        document.getElementById('jscii-element-image').style.display = 'none';
+    </script>
+
+
+
 </body>
