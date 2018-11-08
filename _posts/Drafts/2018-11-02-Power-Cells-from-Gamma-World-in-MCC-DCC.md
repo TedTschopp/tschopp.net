@@ -99,7 +99,7 @@ Power: <1000 years
 
 F-Packs (fusion power packs) are a portable and wearable universal power source used to power larger artifacts of the ancients that require vehicle-class power sources. Con- taining a small fusion reactor, these powerful and reliable power packs are capable of fusing ambient atmospheric elements, producing enough energy to meet the energy re- quirements of a diverse selection of heavy-duty items from bubble cars to powered assault armor.  It is has a duralloy shell, and, if penetrated, releases intensity 18 radiation into its surroundings.
 
-## SOLAR CELL
+## S-CELL
 
 Tech Level: 4 
 
@@ -165,7 +165,7 @@ Avg. Cost: Priceless
 
 Power: Broadcast Power
 
-The Broadcast Power Charger is a device that works on Broadcast Power exclusively. When in functioning state, the unit is capable of recharging Hydrogen Power Cells, Chemical Power Cells, and Solar Power Cells (although these are more commonly recharged by a Solar Recharger). Atomic Power Cells and UPCs may not be recharged by this unit. Recharging takes 4 hours for each battery (all types).
+The Broadcast Power Charger is a device that works on Broadcast Power exclusively. When in functioning state, the unit is capable of recharging H-Cells, C-Cells, and S-Cells (although these are more commonly recharged by a Solar Recharger). F-Cells, A-Cells, and N-Cells may not be recharged by this unit. Recharging takes 4 hours for each battery (all types).
 
 
 ## Broadcast Power Station (BPS)
@@ -174,13 +174,13 @@ Tech Level: 5
 
 Complexity: 3
 
-Value: 2 RANKs
+Value: 2xRANKs
 
 Avg. Cost: Priceless
 
 Power: Internal Reactor
 
-Part of the network of power plants and satellites that once generated power for dispatch by cable or relay station still exists. Functioning BPS still gather power and broadcast it to those artifacts able to use it within its typical 20 kilometer range. In some cases, large installations or building complexes have their own mini-BPS that supplies power to units inside the complex. Artifacts will use this type of power in preference to all others if it is available. Artifacts in use when power was cut off will have switched to auxiliary power systems (until these were exhausted or shut down). Artifacts not in use when power was lost will have stayed shut down unless deliberately turned on by someone. Their auxiliary power will be untouched. Artifacts that use Broadcast Power will have a 20% greater chance of working in areas where BPS still operate. BPS look like 1' - 10'radar dishes or domes.  The larger the size of the longer the range.  It should be noted that Broadcast Power is a special form of Spiral Power Transfer (SPT) and is also harmless to humans and machinery.
+Part of the network of power plants and satellites that once generated power for dispatch by cable or relay station still exists. Functioning BPS still gather power and broadcast it to those artifacts able to use it within its typical 20 kilometer range. In some cases, large installations or building complexes have their own mini-BPS that supplies power to units inside the complex. Artifacts will use this type of power in preference to all others if it is available. Artifacts in use when power was cut off will have switched to auxiliary power systems (until these were exhausted or shut down). Artifacts not in use when power was lost will have stayed shut down unless deliberately turned on by someone. Their auxiliary power will be untouched. Artifacts that use Broadcast Power will have a 20% greater chance of working in areas where BPS still operate. BPS look like 1' - 10'radar dishes or domes.  The larger the size of the longer the range.  It should be noted that Broadcast Power is harmless to humans and machinery.
 
 
 ## MCII Generator
