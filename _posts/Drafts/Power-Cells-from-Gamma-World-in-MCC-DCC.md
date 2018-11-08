@@ -39,153 +39,14 @@ draft-status: Alpha
 {:toc}
 
 
-# Power Plants
+# POWER CELLS
 
-## Gamma World Power Cells, chargers, and 
-
-### Broadcast Power Charger
-
-GW Tech Level: V 
-
-Duration: Constant 
-
-Weight: 7kg
-
-Value: RANK
-
-Avg. Cost: Priceless
-
-Power: Broadcast Power
-
-The Broadcast Power Charger is a device that works on Broadcast Power exclusively. When in functioning state, the unit is capable of recharging Hydrogen Power Cells, Chemical Power Cells, and Solar Power Cells (although these are more commonly recharged by a Solar Recharger). Atomic Power Cells and UPCs may not be recharged by this unit. Recharging takes 12 hours for each battery (all types).
-
-
-### Broadcast Power Station (BPS)
-
-GW Tech Level: V 
-
-Duration: Constant 
-
-Weight: ??
-
-Value: 2 RANKs
-
-Avg. Cost: Priceless
-
-Power: Internal Reactor
-
-Part of the network of power plants and satellites that once generated power for dispatch by cable or relay station still exists. Functioning BPS still gather power and broadcast it to those artifacts able to use it within a 20 kilometer range. In some cases, large installations or building complexes have their own mini-BPS that supplies power to units inside the complex. Artifacts will use this type of power in preference to all others if it is available. Artifacts in use when power was cut off will have switched to auxiliary power systems (until these were exhausted or shut down). Artifacts not in use when power was lost will have stayed shut down unless deliberately turned on by someone. Their auxiliary power will be untouched. Artifacts that use Broadcast Power will have a 20% greater chance of working in areas where BPS still operate. BPS look like 3 meter radar dishes. It should be noted that Broadcast Power is a special form of Spiral Power Transfer (SPT) and is also harmless to humans and machinery. (BRB)
-
-
-### Generator, MCII
-
-Complexity: 3
-
-GW Tech Level: V 
-
-Duration: Constant Weight: 200kg
-
-Value: RANK
-
-Avg. Cost: Priceless
-
-Power: 2xAtomic Power Cells
-
-The MCII Generator was the ultimate in home power before the Black Years. It provided a virtually unlimited amount of power for the average household. The MCII is powered by paired Atomic Power cells which generate internal fusion. This fusion process creates a small amount of subatomic particle annihilation which in turn releases a great deal of energy. Where this generator made it’s high price worthwhile is that the heat energy is converted directly into electrical energy.
-
-The MCII Generator stores in a series of high-yield capacitors and batteries what energy is not immediately used. This allows the generator to only use the energy it needs to fill the capacitors and batteries, working much the same way as a car’s alternator.
-The MCII can power just about everything tied into its local power grid. The life of its Atomic Power Cells strongly correlates to the use of the generator. Generally, modest use allows them to last for around 20 years. (ToA/Ed)
-
-### Generator, Solar
-
-GW Tech Level: IV 
-
-Duration: Constant 
-
-Weight: 10kg
-
-Value: RANK 
-
-Avg. Cost: Priceless 
-
-Power: -
-
-The solar generator was the ultimate in cheap home power before the apocalypse. It provided a virtually unlimited amount of power for the average household. The generator uses a series Solar Power Cells to collect the sun’s energy and convert it directly into electrical energy. In older models (TLIII) the sun’s heat was used to turn water into steam to run electrical turbines.
-
-The Solar Generator stores in a series of high-yield capacitors and batteries what energy is not immediately used. This allows the generator to only use the energy it needs to fill the capacitors and batteries, working much the same way as a car’s alternator.
-
-The Solar Generator can power just about everything tied into its local power grid. The life of its solar cells is theorized to be about 1,000 years. Modest use allows them to keep up with power demands, but heavy use can drains the batteries and capacitors, resulting in a severe drop in power. When this happens, the soalr generator needs a full two hours sunlight to recharge itsef. (ToA)
-
-
-### Nuclear Power Plant, Mini
-
-Complexity: 4
-
-GW Tech Level: IV 
-
-Duration: - 
-
-Weight: 20kg
-
-Value: RANK 
-
-Avg. Cost: Priceless 
-
-Power: 5 years
-
-### Nuclear Power Plant, Standard
-
-Complexity: 4
-
-GW Tech Level: IV 
-
-Duration: - 
-
-Weight: 50kg
-
-Value: RANK 
-
-Avg. Cost: Priceless 
-
-Power: 50 years
-
-There are two types of nuclear power plants: mini and standard. These two power systems use fusion reactors with fission reaction generators to generate spiral power which must then be converted for use. This process is similar to the 20th century thermonuclear bomb where a fission reaction is used to generate enough power to cause a fusion reaction, however, it is much more stable and controllable. Water vapor or hydrogen collected from the plant's surroundings generate the power for the fusion reaction and is basically infinite. However, the fission reaction's fuel is the limiting factor in energy production and must be replaced at regular intervals.
-
-Since the actual power is from the fusion reaction, the amount of use (or disuse) of the plant does not affect the rate of consumption of fissionable materials. However, the plant may be completely shut down, thus extending the available life span of the plant. Once shut down, the plant requires 15 minutes to fully reactivate. Mini-power plants weigh 20 kg and are a little larger than an atomic power cell.
-
-Standard (nuclear) power plants weigh 50 kg and are as large as a man's chest. A mini-power plant may be refueled with a standard nuclear fuel cell. A standard nuclear plant can be refueled with 10 nuclear fuel cells (or equivalent).
-
-
-### Nuclear Power Reactor
-
-Complexity: 5
-
-GW Tech Level: IV 
-
-Duration: - Weight: 50kg
-
-Value: 2 RANKS 
-
-Avg. Cost: Priceless 
-
-Power: 500 years
-
-This reactor is basically a scaled-up version of a nuclear power plant. It is the size of a small room and is basically immobile. However, versions have been installed into large craft. A nuclear power reactor can provide power for 500 years. It may be recharged with 100 nuclear fuel cells (or equivalent).
-
-## Gamma World Power Cells
-
-
-
-
-
-## MCC POWER SOURCES
-
+## Harnessing Chemical Reactions 
+Checmical and Hydrogen Cells
 
 ### C-CELL
 
-Gamma World Tech Level: 4
-
-MCC Tech Level: 4
+Tech Level: 4
 
 Complexity: 2
 
@@ -198,12 +59,9 @@ Power: 1-6 years
 C-Cells (chemical power cells) are a universal power source used to power artifacts of the ancients. Considered disposable technology by the Ancient Ones and therefor mass produced, these advanced and compact dilithium battery packs were capable of producing enormous amounts of power, albeit for a limited amount of time.  They lose their charge after 1 to 6 years of disuse. When found, these power cells are usually (90%) drained of power. 
 
 
-
 ### H-CELL 
 
-Gamma World Tech Level: 4 
-
-MCC Tech Level: 4
+Tech Level: 4
 
 Complexity: 2
 
@@ -216,9 +74,9 @@ Power: 1-6 years
 These power cells last 10 times as long as C-Cells. They are the same size as a C-Cell and can be substituted for one without risk. Similar to Chemical Energy Cells, but are less common. They don't lose their charge from disuse.  When found, they usually (80%) have a full charge.
 
 
-### F-CELL, N-CELL, A-CELL
+## Harnessing Atomic Reactions
 
-Gamma World Tech Level: 4 
+### F-CELL, N-CELL, A-CELL
 
 Tech Level: 4
 
@@ -232,11 +90,9 @@ Power: <1000 years
 
 F-Cells (fusion power cells) are a universal power source used to power artifacts of the ancients. Containing a miniaturized fusion reactor, these powerful and reliable power cells are capable of fusing ambient atmospheric elements, producing untold amounts of energy for extended periods of time.  It is has a duralloy shell, and, if penetrated, releases intensity 18 radiation into its surroundings.
 
+### F-PACK, N-PACK, A-PACK
 
-
-### F-PACK
-
-Gamma World Tech Level: 4 
+Tech Level: 4
 
 Complexity Modifier: 4
 
@@ -248,10 +104,9 @@ Power: <1000 years
 
 F-Packs (fusion power packs) are a portable and wearable universal power source used to power larger artifacts of the ancients that require vehicle-class power sources. Con- taining a small fusion reactor, these powerful and reliable power packs are capable of fusing ambient atmospheric elements, producing enough energy to meet the energy re- quirements of a diverse selection of heavy-duty items from bubble cars to powered assault armor.  It is has a duralloy shell, and, if penetrated, releases intensity 18 radiation into its surroundings.
 
+## Harnessing the Sun
 
 ### SOLAR CELL
-
-GW Tech Level: IV 
 
 Tech Level: 4 
 
@@ -265,18 +120,11 @@ Power: 1-6 years
 
 S-Cells (solar power cells) are a power source used to power artifacts of the ancients with lower power requirements. Containing a small solar collector, these dependable power sources are capable of producing small amounts of power indefinitely so long as they are exposed to daylight for at least 4 hours out of every 24.  Otherwise, they are identical to C-Cells cells and can replace them without risk. They last as long as a normal chemical power cell. (BRB)
 
-
-
-
 ### SOLAR RECHARGER
-
-GW Tech Level: V 
 
 Tech Level: 4 
 
 Complexity Modifier: 4
-
-Duration: - 
 
 Weight: 1 kg
 
@@ -286,11 +134,7 @@ Avg. Cost: 2,500 Ð
 
 A solar recharger unit is a small satchel-sized device capable of recharging up to four C-Cells at a time per every 4 hours exposed to direct sunlight for C-Cells and 8 hours for H-Cells.  
 
-
-
-
-
-
+## Harnessing Quantum States
 
 ### Q-CELL
 
@@ -298,8 +142,11 @@ Tech Level: 5
 
 Complexity Modifier: 3
 
-Q-Cells (quantum power cells) are a universal power
-source used to power artifacts of the ancients. Containing a miniaturized quantum particle collider, these robust power sources are capable of producing prodigious amounts of energy for centuries on end, making them a nearly limitless source of power.
+Value: Rank
+
+Avg. Cost: Priceless 
+
+Q-Cells (quantum power cells) are a universal power source used to power artifacts of the ancients. Containing a miniaturized quantum particle collider, these robust power sources are capable of producing prodigious amounts of energy for centuries on end, making them a nearly limitless source of power.
 
 ### Q-PACK
 
@@ -307,4 +154,93 @@ Tech Level: 5
 
 Complexity Modifier: 3
 
+Value: Rank x 2
+
+Avg. Cost: Priceless 
+
 A Q-Pack (quantum power pack) is a universal power source used to power larger artifacts of the ancients that have massive energy requirements. Containing a small quantum particle collider, these robust power sources are capable of producing prodigious-enough amounts of en- ergy to power small orbital craft or powered assault armor.
+
+
+# Power Plants
+
+## Broadcast Power Charger
+
+Tech Level: 5
+
+Weight: 7kg
+
+Value: RANK
+
+Avg. Cost: Priceless
+
+Power: Broadcast Power
+
+The Broadcast Power Charger is a device that works on Broadcast Power exclusively. When in functioning state, the unit is capable of recharging Hydrogen Power Cells, Chemical Power Cells, and Solar Power Cells (although these are more commonly recharged by a Solar Recharger). Atomic Power Cells and UPCs may not be recharged by this unit. Recharging takes 4 hours for each battery (all types).
+
+
+## Broadcast Power Station (BPS)
+
+Tech Level: 5
+
+Complexity: 3
+
+Value: 2 RANKs
+
+Avg. Cost: Priceless
+
+Power: Internal Reactor
+
+Part of the network of power plants and satellites that once generated power for dispatch by cable or relay station still exists. Functioning BPS still gather power and broadcast it to those artifacts able to use it within its typical 20 kilometer range. In some cases, large installations or building complexes have their own mini-BPS that supplies power to units inside the complex. Artifacts will use this type of power in preference to all others if it is available. Artifacts in use when power was cut off will have switched to auxiliary power systems (until these were exhausted or shut down). Artifacts not in use when power was lost will have stayed shut down unless deliberately turned on by someone. Their auxiliary power will be untouched. Artifacts that use Broadcast Power will have a 20% greater chance of working in areas where BPS still operate. BPS look like 1' - 10'radar dishes or domes.  The larger the size of the longer the range.  It should be noted that Broadcast Power is a special form of Spiral Power Transfer (SPT) and is also harmless to humans and machinery.
+
+
+## Generator, MCII
+
+Tech Level: 5
+
+Complexity: 3
+
+Weight: 200kg
+
+Value: RANK
+
+Avg. Cost: Priceless
+
+Power: F-Pack
+
+The MCII Generator was the ultimate in home power before the Black Years. It provided a virtually unlimited amount of power for the average household. The MCII is powered by pan F-Pack which generate internal fusion. This fusion process creates a small amount of subatomic particle annihilation which in turn releases a great deal of energy. Where this generator made it’s high price worthwhile is that the heat energy is converted directly into electrical energy.
+
+The MCII Generator stores in a series of high-yield capacitors and batteries what energy is not immediately used. This allows the generator to only use the energy it needs to fill the capacitors and batteries, working much the same way as a car’s alternator.
+
+The MCII can power just about everything tied into its local power grid. The life of its F-Pack strongly correlates to the use of the generator. Generally, modest use allows the F-Pack to last for around 20 years.
+
+## Generator, Solar
+
+Tech Level: 4
+
+Complexity: 3
+
+Weight: 10kg
+
+Value: RANK 
+
+Avg. Cost: Priceless 
+
+The solar generator was the ultimate in cheap home power before the apocalypse. It provided a virtually unlimited amount of power for the average household. The generator uses a series S-Cells to collect the sun’s energy and convert it directly into electrical energy. In older models (Tech Level 3) the sun’s heat was used to turn water into steam to run electrical turbines.
+
+The Solar Generator stores in a series of high-yield capacitors and batteries what energy is not immediately used. This allows the generator to only use the energy it needs to fill the capacitors and batteries, working much the same way as a car’s alternator.
+
+The Solar Generator can power just about everything tied into its local power grid. The life of its S-Cells is theorized to be about 1,000 years. Modest use allows them to keep up with power demands, but heavy use can drains the batteries and capacitors, resulting in a severe drop in power. When this happens, the soalr generator needs a full two hours sunlight to recharge itsef.
+
+## Nuclear Power Reactor
+
+Tech Level: 4
+
+Complexity: 5
+
+Value: 2 RANKS 
+
+Avg. Cost: Priceless 
+
+Power: 500 years
+
+This reactor is basically a scaled-up version of a nuclear power plant. It is the size of a small room and is basically immobile. However, versions have been installed into large craft. A nuclear power reactor can provide power for 500 years. It may be recharged with 100 F-Cells (or equivalent).
