@@ -20,6 +20,8 @@
 
     </style>
 
+    <script src="https://www.tedt.org/js/jscii.js"></script>
+
 </head>
 
 <body>
@@ -29,6 +31,11 @@
             </td>
             <td id="paper_printarea" class="tech-v">
                 <p><a href="https://www.tedt.org/RPG/MCC-GW/">Back</a></p>
+                <figure>
+                    <img class="img-responsive img-thumbnail" src="https://www.tedt.org/RPG/MCC-GW/images/ermon.png" id="jscii-element-image">
+                    <pre id="ascii-container-image"></pre>
+                    <figcaption>Ermon, The Hermit</figcaption>
+                </figure>
                 <h1>Bokshee</h1>
                 <h2>Visible Equiptment</h2>
                 <ul>
@@ -47,4 +54,16 @@
             </td>
         </tr>
     </Table>
+    <script>
+    // put in the image
+    var imgJscii = new Jscii({
+        width: 50,
+        color: true,
+        el: document.getElementById('jscii-element-image'),
+        fn: function(str) {
+            document.getElementById('ascii-container-image').innerHTML = str;
+        }
+    });
+    document.getElementById('jscii-element-image').style.display = 'none';
+    </script>
 </body>
