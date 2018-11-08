@@ -104,6 +104,7 @@
         </tr>
     </Table>
     <script>
+$(window).load(function() {
     // put in the image
     var imgJscii = new Jscii({
         width: 50,
@@ -113,6 +114,9 @@
             document.getElementById('ascii-container-image').innerHTML = str;
         }
     });
-    document.getElementById('jscii-element-image').style.display = 'none';
+    document.getElementById('jscii-element-image').style.display = 'none';});
+
+
+
     </script>
 </body>
