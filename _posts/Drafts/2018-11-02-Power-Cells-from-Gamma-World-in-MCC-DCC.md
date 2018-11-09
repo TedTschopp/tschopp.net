@@ -149,7 +149,7 @@ Value: Rank x 2
 
 Avg. Cost: Priceless 
 
-A Q-Pack (quantum power pack) is a universal power source used to power larger artifacts of the ancients that have massive energy requirements. Containing a small quantum particle collider, these robust power sources are capable of producing prodigious-enough amounts of en- ergy to power small orbital craft or powered assault armor.
+A Q-Pack (quantum power pack) is a universal power source used to power larger artifacts of the ancients that have massive energy requirements. Containing a small quantum particle collider, these robust power sources are capable of producing prodigious-enough amounts of energy to power small orbital craft or powered assault armor.
 
 # Power Plants
 
