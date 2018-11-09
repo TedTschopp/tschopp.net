@@ -19,7 +19,7 @@ seo_description: |
 layout: MCC-GW
 guid: f661541e-286a-43aa-b7a2-00d30f33d010
 permalink: /2018/11/08/Increasing-in-Rank-MCC-with-Archaic-Alliances/
-image:  https://www.tedt.org/RPG/MCC-GW/images/Gamma_Alien_large.jpg
+image: /RPG/MCC-GW/images/Gamma_Alien_large.jpg
 categories:
   - Role Playing Games
   - Gamma World
