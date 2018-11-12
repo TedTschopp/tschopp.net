@@ -56,9 +56,9 @@ NOTE: All awards are cumulative and should be announced at the end of each adven
 
 Status Points are used to gain Rank. All beginning characters are Rank 0. This is the lowest Rank in the game. Once a PC successfully completes his rite of passage, he automatically rises to Rank 1. Any further Rank increase is based on the accumulation of Status Points. As soon as a Rank 1 character accumulates 3000 Status Points, he automatically rises to Rank 2. The 3000 Status Points in his Status Points Box are erased (leaving any excess points above 3000 in the box). In order to rise from Rank 2 to Rank 3, the character must accumulate twice the number of Status Points it took him to reach Rank 1 (6000). As soon as the character has 6000 Status Points recorded in his Status Point Box, he becomes a Rank 3 character and the 6000 points are erased. The cost to rise 1 Rank continues to double until Rank 6. Characters at Rank 6 and above rise 1 Rank for each increment of 50000 Status Points accumulated. Status Points expended to rise in Rank are permanently removed. There is no limit to how high a character can rise in Rank.
 
-* Rank 0 - Starting
-* Rank 1 - Rights of Passage
-* Rank 2 - 3000 Status Points
+* Rank 0 - Child - Starting
+* Rank 1 - Adult - Rights of Passage
+* Rank 2 - Novice - 3000 Status Points
 * Rank 3 - 6000 additional Status Points
 * Rank 4 - 12,000 additional Status Points
 * Rank 5 - 24,000 additional Status Points
