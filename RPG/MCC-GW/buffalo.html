@@ -53,4 +53,16 @@
             </td>
         </tr>
     </Table>
+    <script>
+        // put in the image
+        var imgJscii = new Jscii({
+            width: 50,
+            color: true,
+            el: document.getElementById('jscii-element-image'),
+            fn: function(str) {
+                document.getElementById('ascii-container-image').innerHTML = str;
+            }
+        });
+        document.getElementById('jscii-element-image').style.display = 'none';
+    </script>
 </body>
