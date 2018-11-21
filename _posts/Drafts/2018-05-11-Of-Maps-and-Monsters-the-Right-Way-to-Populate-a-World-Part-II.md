@@ -72,18 +72,60 @@ A leader of a given group will tend to have the following:
 A Giant of a given group will tend to have the following:
 
 * Increase HitDice by 1d3+3 up the dice chain
-* Increase Fortitude Save by 2d3
+* Increase Stamina modifier 2d3
 
-* Leader, Alpha, Commander
-* Giant, Monstrous
-* Dire, Prehistoric
+##### The Leader
+There can be two types of leaders, those who lead by might and those who lead by willpower and charisma.  
+
+###### The Leader - Alpha
+The Alpha leader is someone who belongs to a society or culture that values strength and physical prowess.  
+
+* Increase HitDice by 1d3 up the dice chain
+* Increase Fortitude Save by 1d3
+* Increase Strength modifier by 1d3
+
+###### The Leader - Commander
+The Commander leader is someone who belongs to a society or culture that values personality and charisma.  
+
+* Increase HitDice by 1d3 up the dice chain
+* Increase Fortitude Save by 1d3
+* Increase Personality modifier by 1d3
+
+##### Dire or Prehistoric
+These creatures are normal creatures that are generally larger and have built in weapons in the form of horns, teeth or spikes.  They may have built in armor in the form of heavy fur, hardened bony plates, or thicker skin.  They also have a heightened intelligence if their base species doesn't have such intelligence.  These creatures also will act as Alpha leaders in groups of the normal creatures of the base species.  However if the base species is sentient, these are generally more dull, in which case the Prehistoric creature the thug or dullard the group keeps around to beat up on others.
+
+###### Dire
+For these rules the dire creature is one that is more intelligent than his base species.  
+
+* Increase HitDice by 1d3 up the dice chain
+* Increase Fortitude Save by 1d3
+* Increase Strength modifier by 1d3
+* Increase AC by 2d3-2
+* Increase Damage from each non-weapon attack by 2d3-2 up the dice chain
+* Increase Personality modifier by 1d3
+
+###### Prehistoric
+For these rules the Prehistoric creature is one that is less intelligent than his base species.  
+
+* Increase HitDice by 1d3 up the dice chain
+* Increase Fortitude Save by 1d3
+* Increase Strength modifier by 1d3
+* Increase AC by 2d3-2
+* Increase Damage from each non-weapon attack by 2d3-2 up the dice chain
+* Decrease Personality modifier by 1d3
+
+
+
+
 * Magical, blessed
 
 #### Types of Subnormal Members of the Encounter
 * Child, Grunt, Beta, 
-* Dwarf, Miniature, Pygmy, Tiny, Teacup, Pixie
-* Dire, Prehistoric
-* Magical, Cursed
+* Dwarf, Miniature, Pygmy, Tiny, Teacup, Pixie - 
+* Dire, Prehistoric - Powerful, Dangerous, Deadly, Larger, Humans are dumber and everything else is smarter
+* Magical, Cursed (Demonic) - Calculating, dark, with fiery highlights.  
+* Magical, Cursed (Hideous) - Ugly, Chaotic, random, insanity inducing 
+* Magical, Cursed (Doomed) - Pitiable, an object lesson, extreme to the point of humiliation.  
 
 
 ## Close Calls
@@ -134,3 +176,85 @@ How difficult are these creatures to hunt and what sort of skills and equipment 
 
 ## How to cook / eat them
 Once they are hunted, how are they cooked.  Are they edible?  Are the poisonousness?  Are they a delicacy? 
+
+  Creature | Part | Common Use| Effect of Use                                             | Value | DC  | Notes  | Shelf Life in days
+----------:|:----:|:---------:|:---------------------------------------------------------:|:-----:|:---:|:------:|:-------------------
+Ape        | Paw  | Trophy    | The paw is dried and mounted                              | 2     | 5   | -none- | 10
+Ape        | Hide | Trophy    | The hide is skinned and cured, lined, and turned into a cape. | 8 | 18  | On an unsuccessful attempt, the item becomes leather | 10
+Ape        | Hide | Trophy    | The hide is skinned and cured, lined, and stuffed.        | 8     | 18  | -none- | 10
+Ape        | Hide | Practical | The hide can be skinned and cured and turned into Leather | 8     | 18? | -none- | 10
+Badger     | Hide | Trophy    | The hide can be skinned and cured and turned into Leather
+
+Badger
+
+Hide Trophy/Practical 1 15 10
+Claws Trophy 1 5 n/a
+
+
+
+
+Paw Trophy 2 5 10
+Hide Trophy/Practical 8 18 10
+
+## Trophies and other  
+
+### Trophies
+Trophies consist of several things.  The first is a stuffed, dried, or otherwise preserved piece of the creature.  Another aspect of a Trophies is to integrate the body parts into clothing.  
+
+
+
+* Alchemy
+* Medical
+* Practical
+
+
+### Head
+* Antenna
+* Horns /Antlers
+* Skull
+* Eyes
+* Teeth / Tusks
+* Tongue
+* Beak
+* Brain
+* Manibles
+
+
+### Reproduction
+* Egg
+
+
+### Body Parts
+* Hide
+* Claws
+* Feathers
+* Stinger
+* Paw / Hand / Feet / Toe
+* Hooves
+* Tail
+* Spikes, Plates, and other carpace 
+* Wings
+
+
+### Body Parts
+* Gizzard
+* Heart
+* Liver
+* Blood
+* Musk Gland
+* Poison Sack
+* Ink Sack
+* Spores
+* Blubber / Fat / Oil
+
+### Manmal Meat
+Roast, Soup, Stew, Ground, Steaks, Ribs, 
+
+
+### Bird Meat
+Breast, Leg, Thigh, Wing, Soup, Stew, 
+
+### Lizard
+Neck, Jaw, Torso & Body, Leg, Tail
+
+
