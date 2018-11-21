@@ -52,18 +52,17 @@ Today in most role playing games monsters are reduced to a handful of stats that
 
 #### Bonuses to stats vs. Bonuses to skill and combat rolls on a given stat
 
-#### Types of exceptional Members
+#### Types of Exceptional Members
+If someeone wants to pick more than one type of archetype for the character in question, and there are two bonuses to a given stat than the dice are rolled and the larger of the bonuses are taken.  Bonuses do not stack.  Example:  Someone wants to be a Giant Leader.  Giant gives someone 1d3+3 hit dice up the dice chain.  Leader gives 1d3 increase up the dice chain.  The Giant 1d3+3 rolls a 1+3 = 4 die increase, while leader grants a 1d3 that rolls a 3.  The resulting increase in hit dice is 4.  
 
 ##### The Leader
-A leader of a given group will tend to have the following:
+A leader of a given group will have the following:
 
-* Increase Hitdice by 1d3 dice up the dice chain if not already done so by other size or magical effects
+* Increase Hitdice by 1d3 dice up the dice chain
 * Prioritize the following for these creatures with a 1, 2, and 3
-   * Physical Prowess - Add Priority to AC and Reflex Save
-   * Personality / Looks - Add Priority to Personality Save
-   * Health - Add Priority to Fortitude Save
-* 
-
+   * Physical Prowess (The Alpha)- Add Priority to AC and Reflex or Strength Modifier
+   * Personality / Looks (The Commander) - Add Priority to Personality Modifier
+   * Health - Add Priority to Fortitude Modifier
  
 *[dice chain]: (d3《》d4《》d5《》d6《》d7《》d8《》d10《》d12《》d14《》d16《》d20《》d24《》d30) 
 
@@ -71,25 +70,8 @@ A leader of a given group will tend to have the following:
 ##### The Giant 
 A Giant of a given group will tend to have the following:
 
-* Increase HitDice by 1d3+3 up the dice chain
+* Increase HitDice by 1d3+3 up the dice chain 
 * Increase Stamina modifier 2d3
-
-##### The Leader
-There can be two types of leaders, those who lead by might and those who lead by willpower and charisma.  
-
-###### The Leader - Alpha
-The Alpha leader is someone who belongs to a society or culture that values strength and physical prowess.  
-
-* Increase HitDice by 1d3 up the dice chain
-* Increase Fortitude Save by 1d3
-* Increase Strength modifier by 1d3
-
-###### The Leader - Commander
-The Commander leader is someone who belongs to a society or culture that values personality and charisma.  
-
-* Increase HitDice by 1d3 up the dice chain
-* Increase Fortitude Save by 1d3
-* Increase Personality modifier by 1d3
 
 ##### Dire or Prehistoric
 These creatures are normal creatures that are generally larger and have built in weapons in the form of horns, teeth or spikes.  They may have built in armor in the form of heavy fur, hardened bony plates, or thicker skin.  They also have a heightened intelligence if their base species doesn't have such intelligence.  These creatures also will act as Alpha leaders in groups of the normal creatures of the base species.  However if the base species is sentient, these are generally more dull, in which case the Prehistoric creature the thug or dullard the group keeps around to beat up on others.
@@ -114,10 +96,18 @@ For these rules the Prehistoric creature is one that is less intelligent than hi
 * Increase Damage from each non-weapon attack by 2d3-2 up the dice chain
 * Decrease Personality modifier by 1d3
 
+##### Magical, Blessed
+Magical or blessed creatures are those that are blessed by the Gods, Magic, or appear so normal people.  Fey creatures are like this many times.
 
+* Increase in Personality modifier by 1d3
+* Prioritize the following for these creatures with a 1, 2, 3 and 4
+   * Physical Prowess (The Alpha)- Add Priority to AC and Reflex or Strength Modifier
+   * Health - Add Priority to Fortitude Modifier
+   * Increase Speed by 5' x priority
+   * Horns, Claws, hooves, or Teeth - Increase Damage from one non-weapon attack by priority up the dice chain
+* TODO: Add Spell
+* TODO: Add Aura
 
-
-* Magical, blessed
 
 #### Types of Subnormal Members of the Encounter
 * Child, Grunt, Beta, 
@@ -131,13 +121,19 @@ For these rules the Prehistoric creature is one that is less intelligent than hi
 ## Close Calls
 
 ### Tracks
-What sort of tracks do these monsters leave
+What sort of tracks do these monsters leave?
 
 ### Remains
 Abandoned lairs, camps, prey or victims
 
 ### Markings
 What sort of ways do these monsters mark their territory
+
+### Droppings
+What do droppings and scat look like from this creature?
+
+### Discards
+What sort of things do these creatures discard?  Feathers, Horns, Hair, Fur, Skin?  How often?  What seaons?
 
 ## Not so Close Calls
 
@@ -177,7 +173,20 @@ How difficult are these creatures to hunt and what sort of skills and equipment 
 ## How to cook / eat them
 Once they are hunted, how are they cooked.  Are they edible?  Are the poisonousness?  Are they a delicacy? 
 
-  Creature | Part | Common Use| Effect of Use                                             | Value | DC  | Notes  | Shelf Life in days
+### Mammal Meat
+Roast, Soup, Stew, Ground, Steaks, Ribs, 
+
+### Bird Meat
+Breast, Leg, Thigh, Wing, Soup, Stew, 
+
+### Lizard
+Neck, Jaw, Torso & Body, Leg, Tail
+
+## How to Harvest them
+Once the meat is taken from their bones, what can you do with whats left?
+
+
+ Creature | Part | Common Use| Effect of Use                                             | Value | DC  | Notes  | Shelf Life in days
 ----------:|:----:|:---------:|:---------------------------------------------------------:|:-----:|:---:|:------:|:-------------------
 Ape        | Paw  | Trophy    | The paw is dried and mounted                              | 2     | 5   | -none- | 10
 Ape        | Hide | Trophy    | The hide is skinned and cured, lined, and turned into a cape. | 8 | 18  | On an unsuccessful attempt, the item becomes leather | 10
@@ -246,15 +255,3 @@ Trophies consist of several things.  The first is a stuffed, dried, or otherwise
 * Ink Sack
 * Spores
 * Blubber / Fat / Oil
-
-### Manmal Meat
-Roast, Soup, Stew, Ground, Steaks, Ribs, 
-
-
-### Bird Meat
-Breast, Leg, Thigh, Wing, Soup, Stew, 
-
-### Lizard
-Neck, Jaw, Torso & Body, Leg, Tail
-
-
