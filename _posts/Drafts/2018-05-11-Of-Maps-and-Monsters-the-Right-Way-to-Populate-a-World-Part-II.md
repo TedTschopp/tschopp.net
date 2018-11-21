@@ -49,13 +49,9 @@ Today in most role playing games monsters are reduced to a handful of stats that
 
 
 ### Stats for Exceptional Members of the Encounter
+If someone wants to pick more than one type of archetype for the character in question, and there are two bonuses to a given stat than the dice are rolled and the larger of the bonuses are taken.  Bonuses do not stack.  Example:  Someone wants to be a Giant Leader.  Giant gives someone 1d3+3 hit dice up the dice chain.  Leader gives 1d3 increase up the dice chain.  The Giant 1d3+3 rolls a 1+3 = 4 die increase, while leader grants a 1d3 that rolls a 3.  The resulting increase in hit dice is 4.  
 
-#### Bonuses to stats vs. Bonuses to skill and combat rolls on a given stat
-
-#### Types of Exceptional Members
-If someeone wants to pick more than one type of archetype for the character in question, and there are two bonuses to a given stat than the dice are rolled and the larger of the bonuses are taken.  Bonuses do not stack.  Example:  Someone wants to be a Giant Leader.  Giant gives someone 1d3+3 hit dice up the dice chain.  Leader gives 1d3 increase up the dice chain.  The Giant 1d3+3 rolls a 1+3 = 4 die increase, while leader grants a 1d3 that rolls a 3.  The resulting increase in hit dice is 4.  
-
-##### The Leader
+#### The Leader
 A leader of a given group will have the following:
 
 * Increase Hitdice by 1d3 dice up the dice chain
@@ -67,41 +63,95 @@ A leader of a given group will have the following:
 *[dice chain]: (d3《》d4《》d5《》d6《》d7《》d8《》d10《》d12《》d14《》d16《》d20《》d24《》d30) 
 
 
-##### The Giant 
+#### The Giant 
 A Giant of a given group will tend to have the following:
 
 * Increase HitDice by 1d3+3 up the dice chain 
 * Increase Stamina modifier 2d3
 
-##### Dire or Prehistoric
+#### Dire or Prehistoric
 These creatures are normal creatures that are generally larger and have built in weapons in the form of horns, teeth or spikes.  They may have built in armor in the form of heavy fur, hardened bony plates, or thicker skin.  They also have a heightened intelligence if their base species doesn't have such intelligence.  These creatures also will act as Alpha leaders in groups of the normal creatures of the base species.  However if the base species is sentient, these are generally more dull, in which case the Prehistoric creature the thug or dullard the group keeps around to beat up on others.
 
-###### Dire
-For these rules the dire creature is one that is more intelligent than his base species.  
+##### Dire
+For these rules the dire creature is one that is more impressive than his base species.  
 
 * Increase HitDice by 1d3 up the dice chain
-* Increase Fortitude Save by 1d3
-* Increase Strength modifier by 1d3
-* Increase AC by 2d3-2
-* Increase Damage from each non-weapon attack by 2d3-2 up the dice chain
 * Increase Personality modifier by 1d3
+* Set Intelligence Modifier to 0
+* Prioritize the following for these creatures with a 1, 2, 3, and 4
+  * Increase Fortitude modifier by priority
+  * Increase Strength modifier by priority
+  * Increase AC by 2d{{priority}}-2
+  * Increase Damage from each non-weapon attack by 2d{{priority}}-2 up the dice chain
 
-###### Prehistoric
-For these rules the Prehistoric creature is one that is less intelligent than his base species.  
-
-* Increase HitDice by 1d3 up the dice chain
-* Increase Fortitude Save by 1d3
-* Increase Strength modifier by 1d3
-* Increase AC by 2d3-2
-* Increase Damage from each non-weapon attack by 2d3-2 up the dice chain
-* Decrease Personality modifier by 1d3
-
-##### Magical, Blessed
+#### Magical, Blessed
 Magical or blessed creatures are those that are blessed by the Gods, Magic, or appear so normal people.  Fey creatures are like this many times.
 
 * Increase in Personality modifier by 1d3
 * Prioritize the following for these creatures with a 1, 2, 3 and 4
-   * Physical Prowess (The Alpha)- Add Priority to AC and Reflex or Strength Modifier
+   * Physical Prowess - Add Priority to AC and Reflex or Strength Modifier
+   * Health - Add Priority to Fortitude Modifier
+   * Increase Speed by 5' x priority
+   * Horns, Claws, hooves, or Teeth - Increase Damage from one non-weapon attack by priority up the dice chain
+* TODO: Add Spell
+* TODO: Add Aura
+
+### Types of Subnormal Members of the Encounter
+
+#### The Runt / Toady
+A Runt or Toady of a given group will have the following:
+
+* Decrease Hitdice by 1d3 dice down the dice chain
+* Prioritize the following for these creatures with a 1, 2, and 3
+   * Physical Prowess (The Runt)- subtract Priority to AC and Reflex or Strength Modifier
+   * Personality / Looks (The Toady) - Subtract Priority to Personality Modifier
+   * Health - Subtract Priority to Fortitude Modifier
+ 
+#### The Pygmy
+A Pigmy of a given group will tend to have the following:
+
+* Decrease HitDice by 1d3+3 up the dice chain 
+* Decrease Stamina modifier 2d3
+* Decrease Strength modifier 2d3
+
+#### The Fool
+A fool of a given group will tend to have the following:
+* Decrease Personality modifier by 1d3
+* Decrease Intelligence Modifier by 1d3
+
+#### Magical, Demonic
+calculating, dark, with fiery highlights.
+
+* TODO: Fix this
+* Increase in Personality modifier by 1d3
+* Prioritize the following for these creatures with a 1, 2, 3 and 4
+   * Physical Prowess - Add Priority to AC and Reflex or Strength Modifier
+   * Health - Add Priority to Fortitude Modifier
+   * Increase Speed by 5' x priority
+   * Horns, Claws, hooves, or Teeth - Increase Damage from one non-weapon attack by priority up the dice chain
+* TODO: Add Spell
+* TODO: Add Aura
+
+#### Magical, Hideous
+Ugly, Chaotic, random, insanity inducing 
+
+* TODO: Fix this
+* Increase in Personality modifier by 1d3
+* Prioritize the following for these creatures with a 1, 2, 3 and 4
+   * Physical Prowess - Add Priority to AC and Reflex or Strength Modifier
+   * Health - Add Priority to Fortitude Modifier
+   * Increase Speed by 5' x priority
+   * Horns, Claws, hooves, or Teeth - Increase Damage from one non-weapon attack by priority up the dice chain
+* TODO: Add Spell
+* TODO: Add Aura
+
+#### Magical, Doomed
+Pitiable, an object lesson, extreme to the point of humiliation.  
+
+* TODO: Fix this
+* Increase in Personality modifier by 1d3
+* Prioritize the following for these creatures with a 1, 2, 3 and 4
+   * Physical Prowess - Add Priority to AC and Reflex or Strength Modifier
    * Health - Add Priority to Fortitude Modifier
    * Increase Speed by 5' x priority
    * Horns, Claws, hooves, or Teeth - Increase Damage from one non-weapon attack by priority up the dice chain
@@ -109,16 +159,10 @@ Magical or blessed creatures are those that are blessed by the Gods, Magic, or a
 * TODO: Add Aura
 
 
-#### Types of Subnormal Members of the Encounter
-* Child, Grunt, Beta, 
-* Dwarf, Miniature, Pygmy, Tiny, Teacup, Pixie - 
-* Dire, Prehistoric - Powerful, Dangerous, Deadly, Larger, Humans are dumber and everything else is smarter
-* Magical, Cursed (Demonic) - Calculating, dark, with fiery highlights.  
-* Magical, Cursed (Hideous) - Ugly, Chaotic, random, insanity inducing 
-* Magical, Cursed (Doomed) - Pitiable, an object lesson, extreme to the point of humiliation.  
-
 
 ## Close Calls
+Monster close calls are used to build tension and to give players a hint of foreshadowing.  They also give players that the world is a whole lot more detailed and immerse.  Here is an example of how these are used.  Lets say the players are off the planned map in an area 
+
 
 ### Tracks
 What sort of tracks do these monsters leave?
