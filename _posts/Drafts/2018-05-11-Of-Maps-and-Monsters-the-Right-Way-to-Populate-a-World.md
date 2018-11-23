@@ -1,5 +1,5 @@
 ---
-title: Of Maps and Monsters, the Right way to Populate a World PArt I
+title: Of Maps and Monsters, the Right way to Populate a World Part I
 date: 2018-05-11T21:04:42-07:00
 author:
   name: Ted Tschopp

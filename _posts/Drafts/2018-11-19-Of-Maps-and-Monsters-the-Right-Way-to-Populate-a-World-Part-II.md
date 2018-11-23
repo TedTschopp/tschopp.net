@@ -64,16 +64,13 @@ A leader of a given group will have the following:
 
 
 #### The Giant 
-A Giant of a given group will tend to have the following:
+A Giant of a given group can be modified as follows:
 
 * Increase HitDice by 1d3+3 up the dice chain 
 * Increase Stamina modifier 2d3
 
 #### Dire or Prehistoric
-These creatures are normal creatures that are generally larger and have built in weapons in the form of horns, teeth or spikes.  They may have built in armor in the form of heavy fur, hardened bony plates, or thicker skin.  They also have a heightened intelligence if their base species doesn't have such intelligence.  These creatures also will act as Alpha leaders in groups of the normal creatures of the base species.  However if the base species is sentient, these are generally more dull, in which case the Prehistoric creature the thug or dullard the group keeps around to beat up on others.
-
-##### Dire
-For these rules the dire creature is one that is more impressive than his base species.  
+These creatures are normal creatures that are generally larger and have built in weapons in the form of horns, teeth or spikes.  They may have built in armor in the form of heavy fur, hardened bony plates, or thicker skin.  They also have a heightened intelligence if their base species doesn't have such intelligence.  These creatures also will act as Alpha leaders in groups of the normal creatures of the base species. 
 
 * Increase HitDice by 1d3 up the dice chain
 * Increase Personality modifier by 1d3
@@ -158,6 +155,29 @@ Pitiable, an object lesson, extreme to the point of humiliation.
 * TODO: Add Spell
 * TODO: Add Aura
 
+#### but with Claws!
+
+TODO:  Move from D&D 5e to DCC
+
+|Size     |Tiny |Small |Medium|Large |Huge  |Gargantuan|
+|-------: |:---:|:----:|:----:|:----:|:----:|:--------:|
+|Reach    | 0ft | 5ft  | 5ft  | 10ft | 10ft | 15ft |
+|Bite     | 1d4 | 1d6  | 1d8  | 1d10 | 2d8  | 2d10 |
+|Claw     | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Gore     | 1d4 | 1d6  | 1d8  | 1d10 | 2d8  | 2d10 |
+|Hoof     | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Tentacle | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Wing     | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Pincers  | 1d4 | 1d6  | 1d8  | 1d10 | 2d8  | 2d10 |
+|Tail Slap| 1d4 | 1d6  | 1d8  | 1d10 | 2d8  | 2d10 |
+|Slam     | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Stomp    | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Sting    | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+|Talons   | 1d4 | 1d4  | 1d6  | 1d8  | 1d10 | 2d8  |
+{: .well .table .table-striped}
+
+
+
 
 
 ## Close Calls
@@ -165,19 +185,16 @@ Monster close calls are used to build tension and to give players a hint of fore
 
 
 ### Tracks
-What sort of tracks do these monsters leave?
+What sort of tracks do these monsters leave?  Do they have feet, hooves, do they have tails that drag on the ground?  How may legs do they walk on?
 
 ### Remains
-Abandoned lairs, camps, prey or victims
+What sort of remains do these creatures leave?  Trash?  Bodies of prey or do they leave the victims alive?  Do they tend to leave feathers, horns, hair, fur, skin?  Do they do this sort of thing only during certain times of the year?  Or while they are engaged in certain social behaviors?  What does an abandoned watering hole or sleeping area look like?  Do they pad all the grass down in a certain way before they go to sleep?
 
 ### Markings
-What sort of ways do these monsters mark their territory
+What sort of ways do these creatures mark their territory?  
 
 ### Droppings
 What do droppings and scat look like from this creature?
-
-### Discards
-What sort of things do these creatures discard?  Feathers, Horns, Hair, Fur, Skin?  How often?  What seaons?
 
 ## Not so Close Calls
 
