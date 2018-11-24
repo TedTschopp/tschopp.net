@@ -134,16 +134,22 @@ When the body dies, the spirit and the mind must be properly dealt with.  Each r
 #####  The Zombie
 The zombie is a human being whose body is still alive, but their spirit and mind have been removed from the body.  The reasons for doing this can be because there are spirits who wish to use the body as a host.  Another example would be that the body is never given a spirit at all, but instead is given a simplistic mind set upon a given outcome.  Eventually the body may die, but the zombie will continue to control the remaining flesh, bones, and sinew.  
 
-
 * Fast
 * Contagious
 * Traditional 
 * Movie
 
 ##### The Mummy
-The Mummy is human body who has died.  However through various techniques the spirit and the mind are still bound to this body.  This may be done by the person themselves who wishes to take this route to eternal life.  This can also be done by others who wish a person who has died to continue to live.  There are even cultures where this may be done to 
+The Mummy is human body who has died.  However through various techniques the spirit and the mind are still bound to this body.  This may be done by the person themselves who wishes to take this route to eternal life.  This can also be done by others who wish a person who has died to continue to live.  There are even cultures where this is attempted with victims of certain crimes.  In general this type of undead may also occur naturally if the spirit and the mind are not actually properly separated from the body in death.  The burial rituals of various cultures and religions are designed to insure that this occurs.
 
-Zombie, Mummy, Skeleton, Ghost, Spirit.
+##### The Skeleton
+The Skeleton is when someone attaches a mind to a skeleton of a creature.  This mind is given certain various simple commands to carry out.
+
+##### The Ghost
+When someone dies, their mind may linger roaming the world looking for their body or to accomplish some task that they as a human felt the need to accomplish.  In tragic cases this will be some seemingly impossible task.  This will trap the mind of the person in the physical realm.  A Ghost has very little personal memories of the person they were when they were merged with their body and their spirit.  They remain only as the archtype of who they were with the task or goal they needed to accomplish.  The more unique or memorable a person was in life, the more durable their ghost will be if the burial rituals are not performed.
+
+##### The Spirit
+When someone dies and their spirit lingers, the very nature of this person is still around.  Unlike a Ghost which is without a personality, the Spirit is all personality and will remember the details of their previous life.  In addition they will be able to continue to build new memories.  
 
 #### Magical, Vampire
 
