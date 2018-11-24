@@ -116,6 +116,39 @@ A fool of a given group will tend to have the following:
 * Decrease Personality modifier by 1d3
 * Decrease Intelligence Modifier by 1d3
 
+#### With the Head of a...
+* Man
+
+* Bull
+* etc...
+
+#### With the Body of a...
+* Man
+
+* Bull
+* etc...
+
+#### Magical, Undead
+When the body dies, the spirit and the mind must be properly dealt with.  Each religious tradition, deity, and demi-god has various plans on how this occurs and what to do.  Some cults and religions however will prescribe the creation of various forms of the undead under certain circumstances.  
+
+#####  The Zombie
+The zombie is a human being whose body is still alive, but their spirit and mind have been removed from the body.  The reasons for doing this can be because there are spirits who wish to use the body as a host.  Another example would be that the body is never given a spirit at all, but instead is given a simplistic mind set upon a given outcome.  Eventually the body may die, but the zombie will continue to control the remaining flesh, bones, and sinew.  
+
+
+* Fast
+* Contagious
+* Traditional 
+* Movie
+
+##### The Mummy
+The Mummy is human body who has died.  However through various techniques the spirit and the mind are still bound to this body.  This may be done by the person themselves who wishes to take this route to eternal life.  This can also be done by others who wish a person who has died to continue to live.  There are even cultures where this may be done to 
+
+Zombie, Mummy, Skeleton, Ghost, Spirit.
+
+#### Magical, Vampire
+
+#### Magical, Were
+
 #### Magical, Demonic
 calculating, dark, with fiery highlights.
 
