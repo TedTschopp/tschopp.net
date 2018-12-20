@@ -49,9 +49,22 @@
 	* The players made their way to the Bad River where they took a boat from a local guide down river.
 * The Journey to Oskar Village
 	* The players took the boat down river and got off the boat where the river that the village of Oskar is on merges with the Bad River.
-
+	* The players spoke with Timon and he had two Buff's as guards.  
+	* The players were given a mortor launched graphling hook to take the cliffs instead of the road into the Mindkeep.
+	* The players spent the night in the village talking to Oskar and interacting with the natives. They heard the following rumors
+		* The lands to the South of the flower Lands are dangerous and not too developed
+		* The Oskarians have been sending traders to open up lands to the north to provide them with cloth and other basics.  The Buff the players ran into and who died was one such person
+		* Timon wants to make an alliance with Haven and start a joint coloney at the Mind Keep.
+		* Timon spent his previous years before founding Oskar fighting in the Archane Alliance wars to the South.  He has sworn off War.
+		* A Young Ark Mother was talking to her pups: "Yes dear, we will be going back to our people soon.  Your father is about to sign a treaty with General Timon."
+		* An old humanoid was talking to his son:  "Son, you need to be careful up North, they can afford to be mean cause they have Timon right where they want him.  He needs them, where else can he get weapons like that?"
+		* A young humanoid was talking to his girlfriend: "Timon isn't so tough, no one would follow him if he didn't have the key to operate that machine that makes the food."  The next morning the two were not in the village
+	* The players left the following morning by foot using a route they disguised.
 * The Journey to Ermon
-	* 
+	* The players ran into the village of Ark's mentioend above and avoided it.
+	* The players ran into a Prot Eps, a tree of enormous size.  Prot eps are the most ancient of trees, surviving the original holocaust by constantly adapting until they could not be killed. Prot eps cannot take damage from any kind of attack, natural or artificial. No disease, insect, or plant life can affect them. Their roots are like steel cables travelling miles below the ground. They cannot be knocked over, torn up, or driven into the ground. They have bark like a birch, leaves like a maple, but are pure white in color, and grow to the shape and size of an old oak.  Some civilizations revere them as gods, others build their villages around their trunks or in their branches. There is no safer place for a party of adventurers to camp overnight than in the branches of a prot ep, as attacks cannot usually penetrate the foliage surrounding them and very few dangerous creatures seem to be able to live or hunt in them (usually snakes can survive). 
+	* The players run into 
+
 
 * The Journey to MindKeep
 
@@ -59,6 +72,7 @@
 	* The path to the Back Door
 	* The large insect blocking the back door
 	* The Hissers
+
 	* The Squeakers
 	* The Abandoned bedroom
 	* The Abandoned Monitoring Station
