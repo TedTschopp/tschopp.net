@@ -233,3 +233,21 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+@media (prefers-color-scheme: dark) {
+
+.topnav {
+    font-size: 14px; 
+    background-color: #333;
+}
+footer {
+    padding: 50px 0;
+    background-color: #333;
+}
+
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #333;
+}
+}
