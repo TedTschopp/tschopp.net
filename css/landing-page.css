@@ -250,4 +250,13 @@ footer {
     padding: 50px 0;
     background-color: #333;
 }
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #464545;
+    border-bottom: 1px solid #464545;
+}
+
+
+
 }
