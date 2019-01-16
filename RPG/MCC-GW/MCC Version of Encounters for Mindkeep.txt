@@ -1,0 +1,210 @@
+The Mindkeep Plateau
+	The Eastern Approach
+		The Footpath
+			No Creatures 
+		The Rim of the Eastern Approach
+			The rim is covereded cactus that causes 1d6 damage per turn to anyone traveling through them in less than AC4 armor.  Lying in wait for items coming up the path are two 
+				2 x Vene'aMub 'Villain that Hides and Kills' (1d4+1 (3)): Init +2; atk 2 x "hands" melee +8 (1d4+6) and tail melee +8 (1d3+6); AC 15; HD 7D7 hp 28 each; MV 20' ; 1d20; SV Fort +0, Ref -2, Will -2	The Vene'a'mub is similar to a six legged scorpion with large, four gitit hands instead of pincers.  A bludgeon tail instead of a stinger, and a lizard like head that weaves back and forth on a thick muscular neck.  They are usally colocred an oily blue when they are not camouglaged.  They have the intelligence and ability to cover themselves with their surroundings for their own safety or to trap prey.	The Vene'a'mub only attacks when hungry or if walked on, a common occurrence considering its camouflage abilities.  It is also able to alter its exoskeleton to be wide or thinner, thereby flattening itself.  Their favorite food is bone marrow, which it feeds on after splintering the bone of its prey with its bare hands.  Because of this, they prefer mammals, and love slightly mutated ones.  They will always attack the mutants first.  They are very curious and can be found in most climates.	(P) Collapsible Exoskeleton
+	Maintenece Building
+		4 x Ba'Sled 'Rock that Burrows' (1d4+1 (3)): Init +3; atk 2 x claws melee +8 (1d3+6); AC 15; HD 7D7 hp 28 each; MV 30' or Burrow 30' ; 1d20; SV Fort +1, Ref -1, Will -1	Based appear as gray, hunched-over bipedal humanoids with long, apeish arms ending in large claws.  If they stand still they can pass for rocks using the same rules Plantients can to hide.  They have a goat-shaped head with two wide set eyes.  They are extremely billigerent towards intelligent life forms.	The Ba'sled is extremely billigerent towards intelligent life forms.  They can seldom be bargined with with or telepathically communicated wiht because of their attitude.  They can dig through anything but metal at their normal movmeent rate, clawing right through stone walls as if they were so much clay.  They often make traps by digging underground tunnel mazes, then making pits from the tunnel up to just below ground level.  These pits will not support the full weight of more than one human-sized creature and can drop members of a party of adventurers into the waiting claws of the Ba'sleds.  In additino to their murderous claws they also have a sonic roar that can only be used once a day.  This attack does 1d5 damage to everything 15 feet in front of the roaring Based.  They are immune to their own sonic roars.	(P) Ultravision, Infravision, Sonic Roar
+	Hanger Building
+			The Hanger
+				1 x Sre'froth 'Invisible Glider' (1d4 (2)): Init -1; atk wing melee -1 (1d3-2); AC 12; HD 3D7 hp 12 each; MV 4' or Fly 26' ; 1d20; SV Fort +0, Ref -2, Will -1	Sre’froth are lifeofrms that resemble two to three meter transparent gelatinous planes. Their origins are unknown, but they are thought to be amphibians who learned how to glide. They are definitely not flyers. Sre’froth can blend in anywhere, crawl up any surface, and attach themselves on anything, even ceilings, by secreting a warm, sticky fluid as they move. 	Thousands of transparent cilia on their bodies can “feel” body heat within a 50 foot radius, high heat can be felt at even greater distances. Sre’froth feed on animals they detect and come into contact with by wrapping around them, somewhat like plastic food wrap, and secreting strong acid around the prey. This usually dissolves their victims in a very short time and the ooze that is left over is absorbed into the sre’froth as straight protein. Their damage is considered to be Intensity 2d6+4 poison/ corrosive. Damage from this special type of attack is per turn of envelopment. The outer protein (clothing, hide, armor, etc.) must be eaten away before the character takes damage, unless a large portion of their body is exposed. Use the following chart to determine the time required by the sre’froth to consume different types of materials. Remember, any equipment the sre’froth comes into contact with will also be affected.  Cloth, Vegetation, Wood, Common Plastics, and Most synthetics survive for 1 turn.  Light metals and Heavy Plastics survive for two turns.  Heavy Metals and Plastic / metal alloys will survive for three turns.  Ceramics, Glass, Curalloy and certain other materials are not affected.  Sre’froth can only be hurt by poison, sonics, super-strong acids (Intensity 17+), fire, or drowning. Once they have climbed to a height of at least 10 feet they can launch themselves into a silent glide. The distance of the glide cannot exceed the height of their climb.   On the ground sre’froth are 95% undetectable by sight, when gliding this drops to 75%. They cannot sense body heat through ba’mutan hides and those characters protected by such can pass by sre’froth undetected. Ruins, caves, deep woods, buildings, and canyons are their favorite environs but they can be found anywhere. 	
+			The Bramble Patch 
+				1 x Chotslith, Large 'Bristle Snake' (1d3 (2)): Init +4; atk bite melee +8 (1d3+6) and 1d4+1 x coils melee +8 (1d3+6); AC 14; HD 8D7 hp 32 each; MV 10' ; 1d20; SV Fort +1, Ref +0, Will +0	The Choslith is a mutated snake that is covered in 5 - 10 inch needle-like spikes. It is a constrictor and attacks by enveloping its prey and constricting around them.  Once it has wrapped itself once around the prey it will start to bite it as well.  The Choslith hunt by smell and are just a deadly at dark as in the light of day.  They are found in all climates except artic.	The Choslith will roll to hit with the coils and if it is sucessful it will have ensnared its victim.  The following turn the Choslith will attempt one additional coil per turn up to the maximum.  Each coil will do its damage individually.  To remove a coil the victim must roll a Strength Context.  The Chotslith has a +4 modifier to that roll.	(M) Mental Shield
+	The Heather Field
+		The Dead Death Machine
+				52 x Shez'ur 'Spiked Flyer' (10d10 (55)): Init -2; atk flock melee -1 (1d3-2); AC 11; HD 1D7 hp 4 each; MV 5' or Fly 15' ; 1d20; SV Fort +0, Ref -2, Will -2	Maroon Birds, 16cm in length, covered in black spikes.  They make strange, almost electronic sounds.  They live in holdes in the round or in among rocks and cliffs. They always travel in flocks and act as a single unit	The Shez'ur Attack together.  When attacking the birds everyone suffers a -2d to hit due to their size.   The birds themselves will attack one target at a time.  They will cause 1d10 for every 10 birds in the flock.  Their spikes effectively reduce all AC by 3.  An attacked character can not see through the swarm.  Movement is reduced to one quarter if more than 30 birds attack.  They are generally peaceful, unless their nests are threatened or loud noises frighten them.	(M) Racial Mind
+
+	The Stone Huts
+		Hut A
+		Hut B
+		Hut C
+			2 Adult Shezuu
+			# of Hunter PCs Shezuu babbies
+				Sheezu 'Climber' (1d6 (3)): Init +2; atk bite melee +1 (1d3) and 4 x claws melee +1 (1d3); AC 11; HD 1D7 hp 4 each; MV 30' ; 1d20; SV Fort +0, Ref +1, Will +0	Sheezu are small eightlegged mammals with long, silky hair and adorable, almost human faces. Wild and domestic sheezu come in various hues. Their multiple legs and razor-sharp claws allow them amazing climbing abilities (as per Land Speed), even on almost sheer surfaces. Furthermore, they are some of fastest diggers.	The Sheezu can completely bury themselves in 3 turns.     If a sheezu feels threatened and bites, it immediately salivates its acidic digestive juices into the wound, causing an additional 1d4 points of damage. This always happens on the first bite, but thereafter occurs on alternating turns. The sheezu can keep biting every turn, but can secrete acid only every other turn. They can use four of their eight claws during any turn unless a character or creature makes the mistake of picking them up or turning them on their back, whereupon they can use all eight claws and their bite. Sheezu make wonderful pets and will never use their claws or bite and acid unless they feel extremely threatened. A qualified animal trainer can teach a sheezu a maximum of three commands or “tricks”. 	(P) Absorption - Acid
+		Hut D
+		Hut E
+		Hut F
+			3 x Attercops 'Blackuns' (1d4 (2)): Init +2; atk bite melee +2 (1d4+1); AC 16; HD 3D7 hp 12 each; MV 50' ; 1d20; SV Fort +0, Ref +0, Will +1	Attercops, also know as Blackuns, are mutated garden spiders.  They have long bristles across their bodies, making them unpalatable prey to all but the largest creatures.  They have 12 eyes located all over their head, giving them 360 degree sight.  Two types of attercops exist, one dwells strickly in its huge web, while the second (Attercop Abulare) is an active hunter, preferring ot use its web only to shackle its prey	The attercop attacks with a bite, causing 1d4 damage.  As the teeth hit their mark, the creature uses its electrical generation to jolt the prey.  Once its victim stops moving the attercop trusses it in stick webbing, Creatures held in this manner must make a DC 10 Sterngth Check to escape.  Attercops keep their prey as long as four days before they settle down to feed.  Becasuse of the creatures extraordinarily high Mental strength, the attercop is completely immune to all mental attacks except illusions.  These metnal attacks always suceed.  The attercop is a solitary hunter, allowing no othes of its kind witin its web or territory except during fall breeding, Female attercops deposit a half-meter diameter egg sac containing over 1000 young.  Blights, bloodbirds and carrins hunt these young attercops, likking all but a few dozen before they are large enough to defend themselvers.  The attercop's dlae resistant web sometimesa streches over an area of 60 meters in diameter.  Creatures captured in thie web need to makle a DC 5 strength check to escpae.  Any loot found in an attercop's web si emerely undigestible waste to the spider.  The lil, commonly take refuge within or behind attercop webs, although some fall prey to the spider. "(P) Electrical generation (14), (M)Immune to mental Attacks except Illusion"
+		Hut G
+		Hut H
+		Hut I
+			2 x Jagets 'Savannah Cats' (1d8 (4)): Init +2; atk 2 x claws melee  (1d3-1) and bite melee  (1d3-1); AC 15; HD 4D7 hp 16 each; MV 90' ; 1d20; SV Fort -1, Ref +0, Will +1	Mutated Jaguars prowl the vast grassland.  Their front paws have been modified to give them thumbs.  	Jagets have extensive mental mutations, however they are not very smart.  You can find them following other more intelligent and powerful creatures as followers or hirelings.  They can manipulate simple objects, but do not use or build technology.	"(P) Attraction Odor, Poison Weakness (M) Fear Generation, Fear of Plants, Levitation, Precognition, Telekinesis, Telepathy"
+
+
+
+The MindKeep
+	(l0) Sublevel 3 - Reactors
+		TBD
+	(l1) Sublevel 2 - Storage
+		Room A 
+			No Creatures
+		Room B 
+			3 x Obbs  Obbs 'Flying Eyes' (1d4 (2)): Init +3; atk 2 x claws melee +2 (1d5); AC 10; HD 6D5 hp 18 each; MV 5' or Fly 45' ; 1d20; SV Fort +0, Ref +0, Will +0	Obbs are a mutated fungus that is almost immobile on the ground, but are deadly in the air.  Each has a single black eye and 1d6 clas like appendages.	Giant Preying Mantises that stand 3 meters tall at the shoulder.	(P) Immune to Heat & Radiation & Lasers.  Radiation Eyes
+		Room C 
+			No Creatures
+
+	(l2) Sub Level 1  - Computer Operations and Power Broadcast
+		Room A Green Glowing Fungus.  
+			1 x Non-Operable Supervisory Borg sitting on the toilet (This unit's 1 meter tall humanoid trunk rests on a 1 meter square base. It has 2 humanoid arms able to manipulate any tools or equipment designed for human use. Supervisory Borgs have radio circuits that allow them to control all other Robots as if they had a Stage IV I.D. They can communicate with Think Tanks and Cybernetic Installationss on whose behalf they will usually function. )
+		Room B No Creatures
+		Room C No Creatures
+
+	(l3) - Ground Level
+		Room A - Administration
+			1 x Omnitar - Omnitar 'Mirrored Ones' (1): Init +2; atk see description; AC 14; HD 7D5 hp 21; MV 50' ; 1d20; SV Fort +1, Ref -2, Will +0	The omnitar are atmovores, that is, they exist withour consuming any plants or animals, just microbes found in the air. They resemble 1.5m tall crystalline cones that have millions of 10cm bristles underneath that provide locomotion. So smooth is the bristling action that it looks like the omnitar is floating on air and just brushing the ground. Omnitar have no attack forms in and of themselves. They are immune to nearly every attack form but fusion rifles or trek bombs. Any weapon causing physical damage merely bounces off them. If hit by any other type of energy weapon, they add one point to their Hit Point score for every two points of “damage” striking them. If struck with lasers or sonics, they will automatically return that round, treat as -1 to hit. If more that 750 points of damage are pumped into them, they will shatter causing fragmentation damage (5d10) to everything within a 10m radius. Omnitars are usually found on plains, gentle rolling hills, and forests.
+		Room B - Ermon's office 
+			Nothing
+		Room C - Meeting Room
+			1 x Sre'froth 'Invisible Glider' (1d4 (2)): Init -1; atk wing melee -1 (1d3-2); AC 12; HD 3D7 hp 12 each; MV 4' or Fly 26' ; 1d20; SV Fort +0, Ref -2, Will -1	Sre’froth are lifeofrms that resemble two to three meter transparent gelatinous planes. Their origins are unknown, but they are thought to be amphibians who learned how to glide. They are definitely not flyers. Sre’froth can blend in anywhere, crawl up any surface, and attach themselves on anything, even ceilings, by secreting a warm, sticky fluid as they move. 	Thousands of transparent cilia on their bodies can “feel” body heat within a 50 foot radius, high heat can be felt at even greater distances. Sre’froth feed on animals they detect and come into contact with by wrapping around them, somewhat like plastic food wrap, and secreting strong acid around the prey. This usually dissolves their victims in a very short time and the ooze that is left over is absorbed into the sre’froth as straight protein. Their damage is considered to be Intensity 2d6+4 poison/ corrosive. Damage from this special type of attack is per turn of envelopment. The outer protein (clothing, hide, armor, etc.) must be eaten away before the character takes damage, unless a large portion of their body is exposed. Use the following chart to determine the time required by the sre’froth to consume different types of materials. Remember, any equipment the sre’froth comes into contact with will also be affected.  Cloth, Vegetation, Wood, Common Plastics, and Most synthetics survive for 1 turn.  Light metals and Heavy Plastics survive for two turns.  Heavy Metals and Plastic / metal alloys will survive for three turns.  Ceramics, Glass, Curalloy and certain other materials are not affected.  Sre’froth can only be hurt by poison, sonics, super-strong acids (Intensity 17+), fire, or drowning. Once they have climbed to a height of at least 10 feet they can launch themselves into a silent glide. The distance of the glide cannot exceed the height of their climb.   On the ground sre’froth are 95% undetectable by sight, when gliding this drops to 75%. They cannot sense body heat through ba’mutan hides and those characters protected by such can pass by sre’froth undetected. Ruins, caves, deep woods, buildings, and canyons are their favorite environs but they can be found anywhere. 
+		Room D - Black Mushrooms
+		Room E - The Hard Copy Room
+		Room F - Head of Security
+		Room G - Entrance 
+		Room H - Waiting Room
+			1 x Terl - Terls 'Tree Fish' (1d4 (2)): Init +4; atk bite melee +6 (1d4+4); AC 15; HD 6D7 hp 24 each; MV Fly 60' or Swim 60' ; 1d20; SV Fort +0, Ref +1, Will +1	The Trel is a three-meter long mutated baracuda that is covered in bright parrot like feathers.  They live in tree's like birds as well.  The Trel returns to the water to spawn in the spring and it is fully capable of breathing both water and air.	The Trell is a dangerous carnivore that prefers to use its mental powers to kill its prey, resorting to its bite only as a last resort.  If both bite and mental powers fail, it will retreat to find easier game.  The feathers protect it agasint all heat, laster, and light attacks.  The feathers will glow in the presence of radiation, providing the Trel a warning.  Trel feathers, if properly harvested and prepaired will still retain this ability.  Sleeths and other back to nature species will make cloaks out of Trel feathers that provide the wearer immunities.	"(P) Immune to Heat, Sonic, Laser, and Light.  Sonic Blast (M) Cryokinesis, Telekinetic Flight"
+	(l4) - Level 2
+		Room A - Vending Machines
+			2 x Arns 'Dragon Bugs' (1d6 (3)): Init +3; atk bite melee  (1d5-1); AC 11; HD 3D7 hp 12 each; MV 8' or Fly 30' ; 1d20; SV Fort +0, Ref +1, Will -2	One to Two meter long Dragonflies.  They are often domesticated as flying steeds by small humanoids and mutated animals.  They must be trained from a very young age.	They can carry loads weighing 35 lbs.   
+		Room B - The Staff Lounge 
+		Room E - 
+		Room G - Stripped Office
+			1 x Herps 'Tiger Beetles' (2d6 (7)): Init +3; atk acid squirt +2 (1d20, 100') and bite melee +8 (1d5+6); AC 17; HD 6D7 hp 24 each; MV 20' ; 1d20; SV Fort +1, Ref +0, Will +1	Three and a half long mutated beetles whose wings have mutated to become a Carapace.	Their Carapace protects them from sonic attacks and they can squirt a stream of acid (I15) up to 30 meters which will dissolve 1 cm duralloy a minute.  They are skilled hunters able to track prey in any weather.	(P) Carapace - Relfect Sonic
+	(l5) - Level 3 - Medical
+		Room A - 
+
+		Room B - Examination Room
+			Description:
+				The examiniation room has been trapped by Jeremiah.  Anyone metering the room activates a sonic switch rigged to a large crossbow mounted in the room.  The crossbow is poisoned 
+		
+		Room C - Doctors Office
+		
+		Room D - The Dispensary
+
+	(l6) - Level 4 - Holding
+		Room A - Cell A
+
+		Room B - Cell B
+
+		Room C - Cell C
+
+		Room D - Cell D
+
+		Room E - Cell E
+
+		Room F - Cell F
+
+		Room G - Cell G
+
+		Room H - Cell H
+	(l7) - Level 5 - 
+		Room A - 
+
+		Room B -
+
+		Room C - 
+
+		Room D - The White Room
+			Description:
+				This small operating room appears to be completely normal and amazingly clean.  Not until someone touches the white walls will the players realize that they are covered in pure white fungus.  If all the fungus is taken out of the room, chopped up, and boiled down and inhaled as a vapor, it restores hit pints to anyone inhaling it (Fortitude roll to succeedin 4d3 hitpoints to a max of 50 per week).  Anyone with a gatherer's background will know this on a successful intelligence check.  
+		Room E - The Pharmacy
+			Description:
+				The door to this room is open and lights are burned out.  There are two suclith perched above the door.   The room is full of hundreds in injectules.  All empty.
+
+				2 x Sucslith 'Sucker Snake' (1d4+1 (3)): Init +2; atk bite melee +7 (1d3+6); AC 13; HD 3D7 hp 12 each; MV 31' ; 1d20; SV Fort -1, Ref +0, Will -1	The entire body of a sucslith, usually over 6 feet long, is covered with sucker –like discs and barbed tendrils. The snake’s ability to crawl anywhere is amazing (equal to its land speed on any surface but liquid, which reduces its speed by half). It prefers to climb up to a vantage point, usually about 3m above the surface and stay there indefinitely until prey comes along. It is a chameleon and can match its surrounding coloration in 5 turns.	The sucslith is able to fast for weeks, and can recycle its body fluids, negating the necessity of moving to find moisture. When attacking, the sucslith normally uses its web first. This web can work in one of two ways. Either it can be used to “catch” a small target (range 6m) or it can clog up a 3m area. This second type of web is sufficiently thick enough to slow the movement of anyone in the affected area to half speed, except for the sucslith itself, which has no difficulty moving through its own or another suslith’s web. The web has a strength of 20.  Oftentimes this intelligent snake will lay down its thick web underneath rotting floorboards or during a leaf fall, knowing it will be camouflaged. It will then perch at a vantage point above the webbed area and wait for a good sized victim to come along. Once the creature is slowed down by the ground web, the sucslith will cover it with another web, thus preventing its prey from seeing or using its appendages for combat. Then, the sucslith drops down on the hapless victim and enters the web, biting until the creature is dead. Unfortunately, sucsliths can be found anywhere, though they tend to avoid deserts and deathlands. 
+		Room F - Medbot
+			Description: 
+				A completely operational med-bot is here.  It asks if it can help and does its utmost to heal characters, if the characters answer its questions.  Upon entering the room, the med-bot activates and asks "Service Code Please?".  Giving the name and number of any of the badges found in a variety of places around the facility allows the med-bot to help the character.  He also records the image of any party member with the name and number provided.  Thereafter the party member takes on the identity of that person in the Mindkeep facility.  The robot will continue to interact with the players in a pleasing manner, but will not answer any questions until they are properly tagged into the system.
+
+				1 x Medical Robot 'Medbot' (1d2 (1)): Init +3; atk 2 x tentcles melee +8 (1d7+6); AC 17; HD 3D12 hp 20; MV 30' or Treads 200' ; 1d20; SV Fort +2, Ref +1, Will -1	This upright-walking, 2 meter tall unit is humanoid in shape. It has two arms and two 1 meter tentacles, each of which is equipped for handling precision instruments. Special equipment includes all normal Medi-kit tools and materials (in 5 times the quantity found in a Medi-kit) plus more extensive medical labs than are in the Medi-kit. A Medical Robot can perform complex surgery, if necessary. It heals characters at the same rate as a Medi-kit (1d10+20 hit points of damage to Pure Strain Humans and 1d10+10 hit points of damage to Humanoids and Mutated Animals).
+
+		Room G - 
+
+		Room H - Chemical Storage
+			Description:
+				The door is open to this room.  This is the chemical storage area.  There are all kinds of glass and plastic containers filled with all kinds of chemicals.  The felt tip marker writing has worn off on all of these and what they are is anyone's guess.  There is a 100 liter drump of alcohol that was meant to be used for antiseptic purposes, but can be used as fuel for the car in the maintenance building if the players gan get it down to ground level.  If the players take the time to sift through all the containers, two things happen.  First, they suffer 1d6 damage from mild chemicals.  Second, they find a strange ring that will open the armory.
+
+	(l8) - Level 6
+		Room A - D Operating Tables
+		Elevator Shaft between l8 and l9
+			12 x Ny'an 'Deadly Tail' (3d4 (7)): Init +4; atk bite melee +2 (1d3) and spiked tail melee +2 (1d4); AC 11; HD 5D7 hp 20 each; MV 5' or Fly 30' ; 1d20; SV Fort +0, Ref +1, Will +0	Ny'an are leathery, mammalian creatures with two wings, no legs, and a long tail with a stinger.  At a quick glance they can be mistaken for obbs.  Ny'an prefer caverns, ruins, and other dimly lit areas where they can lurk about. (P) Poison Sting (85% chance of injection.  Intensity level = 2d6+2.  for each Spike Tail attack)
+	(l9) - Level 7
+		Room A - Rejuv Chamber & Life Chamber & Stasis Chamber
+		Room B - Rejuv Chamber & Life Chamber & Stasis Chamber
+		Room C - Rejuv Chamber & Life Chamber & Stasis Chamber
+		Room D - Head of research
+	(l10) Level 8 Living Quarters
+		Room A - Epher's Living Quarters
+		Room B - Ishi's Living Quarters - 
+		Room C - Eliel's Living Quarters - Chaplin 
+		Room D - Azriel's Living Quarters - Head of Security
+	(l11) Level 9 Living Quarters
+		Room A - Jeremiah's Living Quarters
+		Room B - Hodaviah's Living Quarters
+		Room C - Jahdiel's Living Quarters
+		Room D - Abigail's Living Quarters - Nurse
+
+	(l12) - Level 10 Jeremiah's Home
+		Description: 
+			All of the rooms on this level, including the bathroom, have had holes cut through the walls so they all interconnect.  If Jeremiah is still alive by the time the party reaches this level, he moves back and forth between rooms, popping out of doors to fire at the characters.  
+
+		Creatures:
+			1 x Jeremiah Coot (1): Init +7; atk hawkins .50 musket +5 (1d14+1); AC 16; HD 9D4 hp 23; MV 30'; 1d20+1d14; SV Fort +4, Ref +2, Will +0	Jeremiah is as nutty as a fruitcake.  He lives in Mindkeep's upper levels and sometimes goes outside through the roof hatch when the (P) Immortality granting healing 1 hitpoint per hour.  He wears a Kevlar Helmet +1 and Plastic Armor +3.  If he is given enough time and he believes there is a threat to his life he will retreat to the armory and put on the armor there: Power Assult Armor:  +12 AC; +8 Strength, Force Screen absorbs 75 hp of damage, Flight 150’, Life-Support (pg 177)
+
+			2 x Jeremiah's Holcut 'Demophilus' and 'Leonidas': Init +4; atk bite melee +3 (1d6+1); AC 10; HD 5D7 hp 20 each; MV 20' ; 1d20; SV Fort +1, Ref +1, Will +0	The Holcut stand 4 feet tall at the shoulders and are mutant dogs with skin that looks like a rhino's.  They have two rows of teeth in their mouths that they use to tear meat.  They also have strange looking muzzles that house their elaborate olfactory system.  They are immune to any sort of gas attack.	They love wallowing in the mud.  They make excellent pets.  If they are encountered in the wild, they are extremely dangerous and are fearsome predators.  (P) Heightened Vision, Heightened Olfactory sense
+
+		Loot:
+			1 x Self sizing belt with engraved buckle
+			1 x Nanite food heating system
+			231 boxes of 4 tubes x Nanoparticles with Cleaning App (this is what Jeremiah has been using to keep the bathrooms cleaned)
+			1 x non water using nano mop (This is what Jeremiah has been using to keep the bathrooms cleaned)
+			1 x Hydrogen Cell
+			19 boxes with 4 tubes of x Facial Lotion with Nanobot hair bots for shaving and cutting your hair.  Apply once a week
+			1 x Tech Level 6 3D printer / lathe powered by quantium battery
+			1 x Holo Broadcast Booth
+			1 x Stasis Chamber with a Pregnant Human female inside. 
+
+			3 x Sleeths Skeletons - Sleeths are highly intelligent mutated lizards who walk erect.  They have hands with opposable tumbs.  They tend to live in small, peaceful, scholarly communities.  
+			2 x Carrins Skeletons - Three meter tall mutated vultures weighing over 50kg.  
+			4 x Blood Bird Skeletons - A Mutated Scarlet Tanager with red feathers standing a meter tall.  
+
+			5 x Accelera Dose: A 10 centimeter long disposable jet-spray tube of a compound developed to accelerate healing. Characters who spray the compound under their skin immediately heal 1d10 Hit Points of damage. There is a 40% chance that this compound will work on Humanoids and a 20% chance it will work on Mutated Animals. If it fails to work, the user is considered to have been exposed to 3d6 Intensity Level poison as a result of using the substance.
+			1 x Antiradiation Serum	Ancient Pharmaceuticals & Drugs	This drug is contained in a 10-centimeter long disposable jet spray tube.  It prevents radiation damage.  If sprayed under the skin with 3 turns of exposure, the character suffers no damage or mutation from the radiation.  	
+			2 x A 10-centimeter long disposable jet spray tube of a substance that breaks down most chemicals not normally found in the human body. If taken within 30 seconds of exposure to a drug or Poison, the user experiences no effect from the drug or Poison. There is an 85% chance of this substance working on Humanoids and a 25% chance of it working on Mutated Animals. If it works on a Mutated Animal or Humanoid, special chemicals manufactured inside the user's body (as a result of some mutation letting him make poison attacks, for example) are also broken down and the user can't use his mutational ability for the next 4 hours.
+			4 x A 10 centimeter long disposable jet-spray tube containing a special stimulant that doubles the user's Speed increases his DX by 1 and increases his PS by 3 for a period of 1 hour. The user must rest for 8 hours immediately after the dose wears off or he takes a permanent loss of 3 from his CN. His Hit Point Score isn't affected by this Constitution loss. If it doesn't work, the patient undergoes immediate exposure to Intensity Level 3d6 poison.
+			2 x A 15 centimeter long disposable jet-spray tube, containing special pain reducing drugs. The user feels no pain for the next 4 hours and can sustain 1 additional Hit Point for each point of Constitution. When the drug wears off, the user loses the ability to sustain this extra damage. If, at that point, he has no Hit Points left, he is dead.
+			12 x A 50-centimeter cracker-like wafer that gives all needed nourishment and short-circuits hunger signals to the brain for 24 hours. Use of this substance as the sole source of nourishment for more than a month results in the atrophying of normal digestive organs making it impossible for the user to derive sustenance from anything except this substance. There is a 95% chance that it will work for a Humanoid and an 80% chance that it will work for a Mutated Animal. If it doesn't work, the user is exposed to 3d4 Intensity Level poison.
+			1 x Chameleon Rifle no ammo
+			37 x crates of sealed rations (each crate contines food for 1 person for 1 year)
+
+
+
+
+	(l11) - The Alpha Factor
+	(l12) -
+		Room A - The Armory
+		Room B - The Memory Core
+		Room C - The Brig holding room for transfer
+		Room D - The Armory
+	(roof) - The Roof
+		Locaiton  1 - The Autobeacon
+		Location  2 - The Broadcast Power
+		Location  3 - Enviromental Control Systems
+		Location  4 - The Communicaitons Array
+		Location  5 - The Hatch
+		Location  6 - Motion Detector
+		Location  7 - Landing Pad
+		Locaiton  8 - Grappling Hook
+		Locaiton  9 - The Entrance to the Elevator Repair Bay
+		Locaiton 10 - The Elevator Repair Bay
+		Locaiton 11 - The Bone Yard
+		Location 12 - The Weather Station
+		Locaiton 13 - The Elevator Shaft 
+		Locaiton 14 - The Next of the Yelix
+		Location 15 - The Underground Obersavation Post - Now Destroyed
+		Locaiton 16 - The Elevator Hatch
+
+
+
+	
