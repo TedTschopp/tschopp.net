@@ -77,25 +77,57 @@ The MindKeep
 		Room H - 
 	(l5) - Level 3 - Medical
 		Room A - 
+			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+				78 Tongue depressor
+				24 Antisepctic wipes
+				64 cotton swabs
+				1 Tuning Fork
+				1 bottle of hand sanitizer
+
 
 		Room B - Examination Room
 			Description:
-				The examiniation room has been trapped by Jeremiah.  Anyone metering the room activates a sonic switch rigged to a large crossbow mounted in the room.  The crossbow is poisoned 
+				This room , an examination room, has been trapped by Jeremiah. Anyone entering the room activates a sonic detector switch which is rigged to a large homemade crossbow mounted in the upper left of the room (Dm = 10), out of sight of the doorway. The bolt is tipped with Intensity Level 6 poison/critical.
+
 		
 		Room C - Doctors Office
+			Description: 
+				This is a doctor's office, but most everything has been taken out of here except for a huge oaken desk too heavy to move.  Opening the top center drawer detonates a fragmentation grenade set directly inside. Only party members standing next to the drawer are affected . The large bottom left drawer is actually metal lined; the top center drawer must be opened first in order to open this one. This deep drawer contains a safe with a combination lock on it. The lock and safe can withstand 250 points of damage before losing their structural integrity. If the characters pull out every one of the seven drawers and search them carefully, inside and out, they find the faint pencil tracings of the safe's combination. The safe contains three scraps of paper: one reading "22-31-45," one reading "NW, S, N, S, S, SE," and one reading "Open the Pod Bay Doors, Hal." These are all to be used on other devices above. Jeremiah keeps them here in case the roof is breached and enemies reach the devices before the codes can be found below (he will then have time to destroy the codes).
 		
 		Room D - The Dispensary
+			Description: 
+				This room, a dispensary, is a shambles. Jeremiah has arranged a trip wire under the mess. Anyone walking around in the room detonates a stun grenade. Normally Jeremiah would hear this and investigate, but he is too sick to check out traps tripped on this level.
 
 		Room E - 
-
+			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+				Tweezers
+				Tuning Fork
+				53 paper cups
+				Ophthalmoscope - (Looks at the Eye)
 		Room F - 
+			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+				Otoscope - (Looks at the Ear)
+				Thermometer
+				Sink
+				Stethoscope
 
 		Room G - 
+			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+				1 bottle of Hand sanitizer
+				27 Hygiene wipes packets
+				92 Paper cups
+				1 scale
 
 		Room H - 
+			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
 
+				2 x Hypodermic needle (empty and unsused)
+				X-ray table / Wall display
+				Eye chart
 
 	(l6) - Level 4 - Holding
+
+
 		Room A - Cell A
 			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body and claws of a lobster, with the head and rear legs of a frog.  The creature is the size of a normal lobster.  There are the remains of 5d6 creatures in this "cell"
 
@@ -114,10 +146,57 @@ The MindKeep
 			Shreelon 'Alien' (1d4 (2)): Init +4; atk tentacles melee +3 (1d5); AC 15; HD 5D12 hp 33 each; MV 30' ; 1d20; SV Fort +2, Ref +1, Will +4 The Shreelon were first mentioned in ‘Rite of Passage’. Many of their minions were encountered in that adventure, but the Shreelon themselves never made an appearance. They are from beyond our galaxy. They are humanoid in appearance except for a slightly bloated head having a number of tentacles where their mouth should be – looking a bit like some Lovecraftian horror. They have two large milky white eyes with no pupils giving the impression of soulless evil. Their skin is the darkest black, almost seeming to absorb light. It is clammy/slimy to the touch. They consider mankind cattle and slaves. They eat the brains (and occasionally flesh) of those they consider lower life forms. Though incredibly intelligent, they are a thoroughly vile and evil race. They seem to dislike bright light. Their technology is based on crystal (and occasionally organic) devices (Tech V). They use a hieroglyphic written language and no spoken language. They communicate entirely by telepathy. To a player character, Shreelon ‘speech’ sounds like a loud echoing whisper inside their head. The Shreelon work by ‘proxy’ whenever they can, finding it advantageous to work through others or use acquired resources to accomplish most tasks rather than direct investment. However, when they are encountered in the flesh, they are terrifying adversaries. Following this principle, there is some evidence to suggest that the Shreelon had a hand in the founding of the Friends of Entropy cryptic alliance.  This enables them to further divide and weaken Earth’s sentient races without direct risk to themselves. Even before their attack on Earth, it appears that the aliens were working behind the scenes, influencing events which would set the stage for the apocalypse (inciting nation against nation). Their Mental Control ability is slightly different than listed in the rulebook. They are able to dominate a subject without actually leaving their own body – if the victim dies, regardless of range, the controller is uninjured. If control is broken the victim will not remember being controlled."	They consider mankind cattle and slaves. They eat the brains (and occasionally flesh) of those they consider lower life forms. Though incredibly intelligent, they are a thoroughly vile and evil race. They seem to dislike bright light. Their technology is based on crystal (and occasionally organic) devices (Tech V). They use a hieroglyphic written language and no spoken language. They communicate entirely by telepathy. To a player character, Shreelon ‘speech’ sounds like a loud echoing whisper inside their head. The Shreelon work by ‘proxy’ whenever they can, finding it advantageous to work through others or use acquired resources to accomplish most tasks rather than direct investment. However, when they are encountered in the flesh, they are terrifying adversaries. Following this principle, there is some evidence to suggest that the Shreelon had a hand in the founding of the Friends of Entropy cryptic alliance.  This enables them to further divide and weaken Earth’s sentient races without direct risk to themselves. Even before their attack on Earth, it appears that the aliens were working behind the scenes, influencing events which would set the stage for the apocalypse (inciting nation against nation). Their Mental Control ability is slightly different than listed in the rulebook. They are able to dominate a subject without actually leaving their own body – if the victim dies, regardless of range, the controller is uninjured. If control is broken the victim will not remember being controlled.	(P) Dual brain, Ultravision (M) Mental blast, Confusion, Empathy, Force field generation, Illusion generation, Mass mind, Mental control, Mental multiplier, Mental paralysis, Mental shield, Repelling force, Repulsion field, Telekinesis, Telepathy, Temporal fugue.
 
 		Room F - Cell F
+			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is missing.  The screen shows that a Bofs pacing back and forth.  He is equipt with 2 x large battle axes (1d10 each), leather armor, and a cloth cloak.  
+
+			The Buffalo Explorer is encountered in the holding cell in the mindkeep.  He refuses to give his name or give any of his background.  He does not know of anything about the city of Oskar, but is looking for his obstinancy of fellow Buffos that have been conned into being indebted to some crazy wolverine.  He is young and was kick out of his obstinancy right before the wolverine showed up.  He is a 2.5 meter tall buffalo.  They walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.  Otis is extremely loyal if the party rescues him; this will override all thoughts on double crossing the person that saved them.
+
+			Bofs 'Otis - Buffalo Explorer' (1): Init +5; atk large horns melee +7 (1d8+4) and trample melee +7 (1d4+4); AC 16; HD 9D7 hp 36; MV 60' ; 1d20+1d14; SV Fort +3, Ref +0, Will +0 Otis is a 2.5 meters tall buffalo who walks on his two hind legs that end in hoofs.  His hands have 4 fingered hands with thumbs.  His heads and shoulders are extremely hairy. His hands are somewhat less hairy, while their torso and leg are smooth skinned.  (P) Large Horns (Dm=9), Heightened Strength, Manipulative hands
+
 
 		Room G - Cell G
+			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is heavly damaged and pages are scattered on the floor.  The screen seems to be empty.  If the players make enough noise on the level or spend enough time, a PSH Human Female will appear on the screen hidden.  
+
+			Grace Armstrong is a member of the Holy Medicinal Order and a traveling healer.  She heard that the Mindkeep was home to an ancient medical facility and she has come here to inventory the keep and to assess how the Order can best use the equiptment here.   She will join the party in exchange for some of the medical equiptment found.
 
 		Room H - Cell H
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is replilian in nature and has red speckled skin and the great armored crest aop its head.  This creature is a dead Debgon.  The skin can be harvested if a hunter takes 2d3 hours as the body has been dead for decades.
+
+			Debgon 'Crested Dragon' (1d2 (1)): Init +3; atk bite melee +3 (1d4+1) claw melee +3 (1d3+1), and firey breath +2 (1d8, 25'); AC 14; HD 6D7 hp 24; MV 25' ; 1d20; SV Fort +1, Ref +0, Will +0	This gon is the smallest of the species.  It is noted for its red speckled skin and the great armored crest atop its head.	 It may either bite and claw as an attack or breath flame up to 25 feet. It usually hords small, shiny objects.  All gons are intelligent and have some form of mental powers that allows them to manipulate objects like a human for the purpose of passing through doors, moving objects about, etc.  Despite their size they can squeeze into small areas and are usually found in underground tunnels, caves, or installiations.  All gons establish dens and hoard loot as a natual instinct, though they often hoard different types of treasure. Gons have excellent armor-like skin. This skin can only be removed from a dead gon through 4d6 hours of uninterupted work. A character with the occupation of Hunter will be able to fashion one of these skins into a single suit of armor for a normal sized character two suits for characters who are smaller. Each suit will take at least 2d3 weeks to create. The armor class of the suit will be 2 and the suit will be allow the wearer to take half damage from laser and heat attacks.	(P) Imune to fire, Sonic, stun, paralysis, lasers, heat, Anti-Life Leech, Firey Breath
+
+
+		Room A1 - Cell I
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body and claws of a lobster, with the head and rear legs of a frog.  The creature is the size of a normal lobster.  There are the remains of 5d6 creatures in this "cell"
+
+		Room B1 - Cell J
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a Centipede with rabbit legs, head, and tail.  Each segment of the centipede is the size of a normal rabbit. There are the remains of 2d8 creatures in this "cell," they are all dead.
+
+		Room C1 - Cell K
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a horse with the head and arms of the lion.  This creature appears to be a lion like centuar.  The creature is the size of a normal horse and lion.  There are the remains of 2d3 creatures in this "cell," they are all dead.
+
+		Room D1 - Cell L
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a mosquito and the head of a rat.  The creature is the size of a rat.  There are the remains of 1d100+20 creatures in this "cell," they are all dead, however if any of them have any mamilian blood spattered on them, there is a 5% chance that the creature comes alive again.  Stats for the creature are left to the Judge.
+
+		Room E1 - Cell M
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a monkey and the head of a octopus.  The creature is the size of a monkey.  There are the remains of 2d3 creatures in this "cell," they appear to all be dead.  However these creatures are all aliens who have gone into hibernation.  If the door is opened and the "remains" are left alone they will come out of hibernation and they will eat each other and the players will have Shreelon on their hands.  This Shreelon will taunt, hurt, and terrorize the players.  It will not kill the players.  It will not kill anyone, it will just escape into the lands of Gamma World.  
+
+			Shreelon 'Alien' (1d4 (2)): Init +4; atk tentacles melee +3 (1d5); AC 15; HD 5D12 hp 33 each; MV 30' ; 1d20; SV Fort +2, Ref +1, Will +4 The Shreelon were first mentioned in ‘Rite of Passage’. Many of their minions were encountered in that adventure, but the Shreelon themselves never made an appearance. They are from beyond our galaxy. They are humanoid in appearance except for a slightly bloated head having a number of tentacles where their mouth should be – looking a bit like some Lovecraftian horror. They have two large milky white eyes with no pupils giving the impression of soulless evil. Their skin is the darkest black, almost seeming to absorb light. It is clammy/slimy to the touch. They consider mankind cattle and slaves. They eat the brains (and occasionally flesh) of those they consider lower life forms. Though incredibly intelligent, they are a thoroughly vile and evil race. They seem to dislike bright light. Their technology is based on crystal (and occasionally organic) devices (Tech V). They use a hieroglyphic written language and no spoken language. They communicate entirely by telepathy. To a player character, Shreelon ‘speech’ sounds like a loud echoing whisper inside their head. The Shreelon work by ‘proxy’ whenever they can, finding it advantageous to work through others or use acquired resources to accomplish most tasks rather than direct investment. However, when they are encountered in the flesh, they are terrifying adversaries. Following this principle, there is some evidence to suggest that the Shreelon had a hand in the founding of the Friends of Entropy cryptic alliance.  This enables them to further divide and weaken Earth’s sentient races without direct risk to themselves. Even before their attack on Earth, it appears that the aliens were working behind the scenes, influencing events which would set the stage for the apocalypse (inciting nation against nation). Their Mental Control ability is slightly different than listed in the rulebook. They are able to dominate a subject without actually leaving their own body – if the victim dies, regardless of range, the controller is uninjured. If control is broken the victim will not remember being controlled."	They consider mankind cattle and slaves. They eat the brains (and occasionally flesh) of those they consider lower life forms. Though incredibly intelligent, they are a thoroughly vile and evil race. They seem to dislike bright light. Their technology is based on crystal (and occasionally organic) devices (Tech V). They use a hieroglyphic written language and no spoken language. They communicate entirely by telepathy. To a player character, Shreelon ‘speech’ sounds like a loud echoing whisper inside their head. The Shreelon work by ‘proxy’ whenever they can, finding it advantageous to work through others or use acquired resources to accomplish most tasks rather than direct investment. However, when they are encountered in the flesh, they are terrifying adversaries. Following this principle, there is some evidence to suggest that the Shreelon had a hand in the founding of the Friends of Entropy cryptic alliance.  This enables them to further divide and weaken Earth’s sentient races without direct risk to themselves. Even before their attack on Earth, it appears that the aliens were working behind the scenes, influencing events which would set the stage for the apocalypse (inciting nation against nation). Their Mental Control ability is slightly different than listed in the rulebook. They are able to dominate a subject without actually leaving their own body – if the victim dies, regardless of range, the controller is uninjured. If control is broken the victim will not remember being controlled.	(P) Dual brain, Ultravision (M) Mental blast, Confusion, Empathy, Force field generation, Illusion generation, Mass mind, Mental control, Mental multiplier, Mental paralysis, Mental shield, Repelling force, Repulsion field, Telekinesis, Telepathy, Temporal fugue.
+
+		Room F1 - Cell N
+			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is missing.  The screen shows that a Bofs pacing back and forth.  He is equipt with 2 x large battle axes (1d10 each), leather armor, and a cloth cloak.  
+
+			The Buffalo Explorer is encountered in the holding cell in the mindkeep.  He refuses to give his name or give any of his background.  He does not know of anything about the city of Oskar, but is looking for his obstinancy of fellow Buffos that have been conned into being indebted to some crazy wolverine.  He is young and was kick out of his obstinancy right before the wolverine showed up.  He is a 2.5 meter tall buffalo.  They walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.  Otis is extremely loyal if the party rescues him; this will override all thoughts on double crossing the person that saved them.
+
+			Bofs 'Otis - Buffalo Explorer' (1): Init +5; atk large horns melee +7 (1d8+4) and trample melee +7 (1d4+4); AC 16; HD 9D7 hp 36; MV 60' ; 1d20+1d14; SV Fort +3, Ref +0, Will +0 Otis is a 2.5 meters tall buffalo who walks on his two hind legs that end in hoofs.  His hands have 4 fingered hands with thumbs.  His heads and shoulders are extremely hairy. His hands are somewhat less hairy, while their torso and leg are smooth skinned.  (P) Large Horns (Dm=9), Heightened Strength, Manipulative hands
+
+
+		Room G1 - Cell O
+			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is heavly damaged and pages are scattered on the floor.  The screen seems to be empty.  If the players make enough noise on the level or spend enough time, a PSH Human Female will appear on the screen hidden.  
+
+			Grace Armstrong is a member of the Holy Medicinal Order and a traveling healer.  She heard that the Mindkeep was home to an ancient medical facility and she has come here to inventory the keep and to assess how the Order can best use the equiptment here.   She will join the party in exchange for some of the medical equiptment found.
+
+		Room H1 - Cell P
+
+
 	(l7) - Level 5 - 
 		Room A - 
 
@@ -147,22 +226,140 @@ The MindKeep
 
 	(l8) - Level 6
 		Room A - D Operating Tables
+		
 		Elevator Shaft between l8 and l9
 			12 x Ny'an 'Deadly Tail' (3d4 (7)): Init +4; atk bite melee +2 (1d3) and spiked tail melee +2 (1d4); AC 11; HD 5D7 hp 20 each; MV 5' or Fly 30' ; 1d20; SV Fort +0, Ref +1, Will +0	Ny'an are leathery, mammalian creatures with two wings, no legs, and a long tail with a stinger.  At a quick glance they can be mistaken for obbs.  Ny'an prefer caverns, ruins, and other dimly lit areas where they can lurk about. (P) Poison Sting (85% chance of injection.  Intensity level = 2d6+2.  for each Spike Tail attack)
 	(l9) - Level 7
 		Room A - Rejuv Chamber & Life Chamber & Stasis Chamber
+			Description: 
+				This room contains a life chamber, but due to its age it has only a 35 % chance of bringing a character back to life. However, the model is an early one and a character who has been dead up to 48 hours can be brought back.
+
+					Life Chamber Description:
+						The life chamber was an experimental device introduced shortly before the beginning of the Shadow Years. Since it was not officially approved by any government health organizations, it existed only in limited quantities in certain special medical and military installations. Most governments wanted documented proof that the equipment worked safely before introducing the device for public use. Unfortunately, this confirmation did not come before the Apocalypse.
+
+						Life Chambers look like plexiglass shower stalls lying on their side. When a dead character is placed inside a working Life Chamber within 24 hours of death, the individual has a 50% chance of being brought back to life, or as the Life Chamber says- “revitalized”.
+
+						The dead character has only one chance to recover. If the attempt fails, all hope is lost for the deceased. When delivered from death, the character has a 25% chance of permanently losing one point from each of their Ability Scores. Be sure to roll seperately for each statistic. The character retains all mutations and memories up to the time of death.
+
+						Life Chambers work on all characters with equal efficiency. The  character operating the life chamber must first completely understand the use of the item. Life Chambers are powered by 2 Atomic Power Cells (good for 5 uses) or Broadcast Power (unlimited uses) when available. 
+
+				There is also a rejuv chamber in here, but it is now defective and causes Dm =(2dl0 points) instead of curing damage.
+
+					Rejuv Chamber Description:	
+						The Rejuv Chamber is a special horizontal chamber that looks like a 20th century iron lung. They were in common use before the holocaust in urban hospitals to heal injuries, and used in MASH units in war to rehabilitate injured soldiers. Rejuv-chambers operate exclusively on Broadcast Power and must be fully understood before they can be operated in any way. The Rejuv-chamber, though designed to heal the injured, gets less proficient in its abilities, if the trauma is particularly harsh. The greater ther injury, the lower the chance that the Rejuv-chamber can heal the wounds. The table below  depicts the decrease in efficiency. If the die roll fails, the user regains only one-half of the lost hit points. If the character uses the Rejuv-chamber more than once in a four week period, they must make a CN check, failure means death from systemic shock.
+
+						Hit Point Loss 		Percentage to Work
+							01% - 50% 			100%
+							51% - 75% 			 75%
+							76% - 99% 			 50%
+
 		Room B - Rejuv Chamber & Life Chamber & Stasis Chamber
+			Description: 
+				This room contains a life chamber, it is broken.  
+
+				There is also a rejuv chamber in here. It is 100% effective. 
+					
 		Room C - Rejuv Chamber & Life Chamber & Stasis Chamber
+			Description: 
+				This room contains a life chamber that is 100% operational.  
+
+				There is also a rejuv chamber here that is worthless. 
+
+				There is also a stasis chamber in here that works properly and can be taken away from a plugged in power source for up to four weeks before its power supply runs down.  In the Stasis Chamber is a Ma'ali 
+
+					1 x Maali - alone 'Tall Slasher' (1d2 (1)): Init +5; atk antler melee +5 (1d10+2) and claw melee +5 (1d3+2); AC 13; HD 10D7 hp 40; MV 45' ; 1d20+1d14; SV Fort +1, Ref +0, Will +2	The maali are bipedal descendents of the ancient Nonh American moose. They stand upright on two huge, wide claws chat ace as snow shoes. Their anders are unusually wide and extremely sharp. The maali keep them this way because they use them as melee weapons. Their front hooves have evolved into leathery, four digit , manipulative hands.	Maali live in the forested areas of the Frozen Lands, but have been known to venture forth over the snowy wastes. They are rarely seen out of their natural habitats, except for mercantile ventures into the High Lands to the north for provisions. They are omnivorous, but prefer small mammals, bark, and leaves. Their teeth have developed into formidable crushing machines, and they can eat frozen plants as well as fresh ones. There are only a few Maali villages left in the Frozen Lands, but there are hundreds of smaller, nomadic tribes in the foothills of the High Lands. The Maali have an intense hatred for Harlan Quade's robots. Before Quade's reign of metallic terror began, the Maali were the lords and masters of these plains and wooded lands. They were well liked and respected by the ocher animals and peoples here. But over the centuries they have seen the various peoples killed and the land raped . The Maali have had co resort to severe weather control to strand Harlan's mad attempts at world conquering . They are all that prevents him from moving his Epsilon Cyborgs into the unsuspecting world. However, the Maali's size and fear of underground areas have prevented them from going in  and rooting Quade out of his stronghold. Maali are fascinated by non-robotic high technology and will always cry co acquire devices created by the Ancients. They are very skilled in the handling of such items. Most Maali have knowledge of up to Tech Level III, and some can even be found that know Tech Level IV items. They are wary of outsiders , especially human s, but are seeking aid in their fight against Quade. They have been promised aid by Scar, the mutant animal king of the mountains to the north. But Quade's forces have temporarily halted that aid by trying to assassinate the king (all of this latter plot is the core of the Revised GAMMA WORLD® game module, GWll) . The Maali usually are armed with at lease one Tech Level III weapon, a huge two-handed sword (12/24, otherwise created as a normal two-handed sword), and three javelins. They have escaped destruction by Quade's constructs because of their various mutations, their raw physical power, and their knowledge of the land.
+
+					Stasis Chamber Description:
+						The Stasis Chamber creates a stasis field that preserves a living body indefinately as long as Broadcast Power or solar radiation for its Solar Cells is available. Stasis Chambers can only be used if fully understood by the user. The person contained within exists in a state of sleep-like suspended animation and is unaware of all events. If the power fails, the character in the chamber will die within 4 hours. The only way to save the person is to reactivate the device.
+
+
+		
 		Room D - Head of research
+			Description: 
+				This was the office of the head of research. It is still a plush office, with rich leather chairs, thick carpeting, and a huge picture of a grey-haired gentleman on the wall. Under the picture is a table on which sit burning candles and incense, rather like a shrine. The plaque on the picture reads "Osmond Coot - Founder of Mindkeep." This is the ancient forefather of Jere mi ah and Ermon, the man who began Project Mindkeep. Jeremiah reveres him like a god. though Osmond was dead centuries before Jeremiah was born, and he keeps up th is office in the hope that Osmond will return some day.
+
+				The office desk is locked, but easily jimmied. Inside are all sorts of interesting items: a wristwatch on which only the stopwatch function still operates, a pocket calculator that operates on sunlight or incandescent light, a heart rate/blood pressure/body temperature monitor, and a picture of Mindkeep when it was first built (the GM can make this up as he goes).
+
+				If the desk is thoroughly searched a small button is found. When someone presses the button, the picture of Osmond clicks open and swings away. Behind it is a combination safe. The combination is the one found downstairs, "22-31-45." This is the only way to open this safe without destroying the contents. Inside is a Code V ID bracelet, Osmond's identity badge reading, "Coot, Osmond-000110," and a sealed envelope.  The envelope contains the location of the military base in the southern lands with a warning to Osmond to go there "should the invaders return."
+
 	(l10) Level 8 Living Quarters
 		Room A - Epher's Living Quarters
+			Bunsen burner, no fuel line
+			Radiation Suit (+30 vs radiation)
+			Force Field Generator (40 damage absorption) (chemical power cell with 9 rounds remaining)
+			Geiger counter (chemical power cell with 4 hours remaining)
+			Laser Rifle, Far Infrared Spectrum (chemical power cell with 8 shots remaining)
+			1 Tangler Smart Dart (Seeking)
+			Black Ray Rifle (no power cell)
+			1d6 flasks of oil
+			Matchsticks and tinder
+			Lute
+			Fire extinguisher
+			Tool set
+			Flashlight (no power cell)
+			Rad badge
+			Geiger counter (chemical power cell with 4 hours remaining)
+			I.D. card
+			Motion detector (chemical power cell with 2 hours remaining)
+			Antigrav pods (chemical power cell with 29 minutes remaining)
+			Heayy Plastic Helmet
+			Duralloy Shield
+
 		Room B - Ishi's Living Quarters - 
+			Fishing rod
+			An iron
+			Musket with 1 ball
+			Chameleon Rifle with 3 rounds 4 4.4 (2)
+			Chameleon Rifle with 4 rounds 4 4.4 (2)
+			Paralysis Rod (chemical power cell with 1 hit remaining)
+			Matchsticks and tinder
+			Rope, hemp, 60 feet (18.25 meters)
+			Spyglass
+			Flashlight (no power cell)
+			Binoculars
+			Heayy Plastic Helmet
+			Duralloy Shield
+
+
 		Room C - Eliel's Living Quarters - Chaplin 
+			Heayy Plastic Helmet
+			Duralloy Shield
+			Stun Ray Pistol (no power cell)
+			Mark V Blaster (chemical power cell with 6 shots remaining)
+			Mark VII Blaster (no power cell)
+			Laser Pistol, Ultraviolet (chemical power cell shots remaining)
+			3 Rope, hemp, 60 feet (18.25 meters)
+			Guitar
+			Matchsticks and tinder
+			Motion detector (chemical power cell with 1 hour remaining)
+			I.D. card
+			Envirolyzer (no power cell)
+			6 Lift pack (chemical power cell with 3 hours remaining)
+			Spark plug
+
+
 		Room D - Azriel's Living Quarters - Head of Security
+			Dog Whistle
+			Manual Can Opener
+			Sports Trophy
+			Radiation Suit (+10 vs. Radiation)
+			Lute
+			Horn
+			Parachute
+			Parachute
+			Geiger counter (no power cell)
+			Portent (no Power Cell)
+			Lift Pack (Chemical power cell with 2 hours remaining)
+			Heayy Plastic Helmet
+			Duralloy Shield
+
 	(l11) Level 9 Living Quarters
 		Room A - Jeremiah's Living Quarters
+
 		Room B - Hodaviah's Living Quarters
+
 		Room C - Jahdiel's Living Quarters
+
 		Room D - Abigail's Living Quarters - Nurse
 
 	(l12) - Level 10 Jeremiah's Home
