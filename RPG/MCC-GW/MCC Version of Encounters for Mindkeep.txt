@@ -165,16 +165,16 @@ The MindKeep
 
 
 		Room A1 - Cell I
-			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body and claws of a lobster, with the head and rear legs of a frog.  The creature is the size of a normal lobster.  There are the remains of 5d6 creatures in this "cell"
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside.  The Cell is Empty
 
 		Room B1 - Cell J
-			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a Centipede with rabbit legs, head, and tail.  Each segment of the centipede is the size of a normal rabbit. There are the remains of 2d8 creatures in this "cell," they are all dead.
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the head of a dolphin grafted onto the body of large eel / serpent.  The creature is only bones and the room is full a water.  Opening the door will flood the surrounding area with putrid water that will give off a gas that will cause others in the area to pass out.  In the days the MindKeep was Operational a force field held the water back and allowed scientists to stay dry and interact with the creature.
 
 		Room C1 - Cell K
-			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a horse with the head and arms of the lion.  This creature appears to be a lion like centuar.  The creature is the size of a normal horse and lion.  There are the remains of 2d3 creatures in this "cell," they are all dead.
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside.  The Cell is Empty
 
 		Room D1 - Cell L
-			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a mosquito and the head of a rat.  The creature is the size of a rat.  There are the remains of 1d100+20 creatures in this "cell," they are all dead, however if any of them have any mamilian blood spattered on them, there is a 5% chance that the creature comes alive again.  Stats for the creature are left to the Judge.
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside.  The Cell is Empty
 
 		Room E1 - Cell M
 			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside along with a paper binder containing information about a creature.  The creature that is in this cell is a creature that has the body of a monkey and the head of a octopus.  The creature is the size of a monkey.  There are the remains of 2d3 creatures in this "cell," they appear to all be dead.  However these creatures are all aliens who have gone into hibernation.  If the door is opened and the "remains" are left alone they will come out of hibernation and they will eat each other and the players will have Shreelon on their hands.  This Shreelon will taunt, hurt, and terrorize the players.  It will not kill the players.  It will not kill anyone, it will just escape into the lands of Gamma World.  
@@ -195,11 +195,12 @@ The MindKeep
 			Grace Armstrong is a member of the Holy Medicinal Order and a traveling healer.  She heard that the Mindkeep was home to an ancient medical facility and she has come here to inventory the keep and to assess how the Order can best use the equiptment here.   She will join the party in exchange for some of the medical equiptment found.
 
 		Room H1 - Cell P
+			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside.  The Cell is Empty
 
 
 	(l7) - Level 5 - 
 		Room A - 
-
+			This small operating room appears to be completely normal and full of debries and is very dirty. 
 		Room B -
 
 		Room C - 
@@ -216,13 +217,13 @@ The MindKeep
 			Description: 
 				A completely operational med-bot is here.  It asks if it can help and does its utmost to heal characters, if the characters answer its questions.  Upon entering the room, the med-bot activates and asks "Service Code Please?".  Giving the name and number of any of the badges found in a variety of places around the facility allows the med-bot to help the character.  He also records the image of any party member with the name and number provided.  Thereafter the party member takes on the identity of that person in the Mindkeep facility.  The robot will continue to interact with the players in a pleasing manner, but will not answer any questions until they are properly tagged into the system.
 
-				1 x Medical Robot 'Medbot' (1d2 (1)): Init +3; atk 2 x tentcles melee +8 (1d7+6); AC 17; HD 3D12 hp 20; MV 30' or Treads 200' ; 1d20; SV Fort +2, Ref +1, Will -1	This upright-walking, 2 meter tall unit is humanoid in shape. It has two arms and two 1 meter tentacles, each of which is equipped for handling precision instruments. Special equipment includes all normal Medi-kit tools and materials (in 5 times the quantity found in a Medi-kit) plus more extensive medical labs than are in the Medi-kit. A Medical Robot can perform complex surgery, if necessary. It heals characters at the same rate as a Medi-kit (1d10+20 hit points of damage to Pure Strain Humans and 1d10+10 hit points of damage to Humanoids and Mutated Animals).
+				1 x Medical Robot 'Medbot' (1d2 (1)): Init +3; atk 2 x tentacles melee +8 (1d7+6); AC 17; HD 3D12 hp 20; MV 30' or Treads 200' ; 1d20; SV Fort +2, Ref +1, Will -1	This upright-walking, 2 meter tall unit is humanoid in shape. It has two arms and two 1 meter tentacles, each of which is equipped for handling precision instruments. Special equipment includes all normal Medi-kit tools and materials (in 5 times the quantity found in a Medi-kit) plus more extensive medical labs than are in the Medi-kit. A Medical Robot can perform complex surgery, if necessary. It heals characters at the same rate as a Medi-kit (1d10+20 hit points of damage to Pure Strain Humans and 1d10+10 hit points of damage to Humanoids and Mutated Animals).
 
 		Room G - 
 
 		Room H - Chemical Storage
 			Description:
-				The door is open to this room.  This is the chemical storage area.  There are all kinds of glass and plastic containers filled with all kinds of chemicals.  The felt tip marker writing has worn off on all of these and what they are is anyone's guess.  There is a 100 liter drump of alcohol that was meant to be used for antiseptic purposes, but can be used as fuel for the car in the maintenance building if the players gan get it down to ground level.  If the players take the time to sift through all the containers, two things happen.  First, they suffer 1d6 damage from mild chemicals.  Second, they find a strange ring that will open the armory.
+				The door is open to this room.  This is the chemical storage area.  There are all kinds of glass and plastic containers filled with all kinds of chemicals.  The felt tip marker writing has worn off on all of these and what they are is anyone's guess.  There is a 100 liter drum of alcohol that was meant to be used for antiseptic purposes, but can be used as fuel for the car in the maintenance building if the players can get it down to ground level.  If the players take the time to sift through all the containers, two things happen.  First, they suffer 1d6 damage from mild chemicals.  Second, they find a strange ring that will open the armory.
 
 	(l8) - Level 6
 		Room A - D Operating Tables
@@ -358,9 +359,9 @@ The MindKeep
 
 		Room B - Hodaviah's Living Quarters
 
-		Room C - Jahdiel's Living Quarters
+		Room C & D - Abigail's Living Quarters - Nurse
+			Description: Nurse Abigail's quarters are in pristine condition.  There are bookshelves with medical books on the shelves.   There is a bed and a desk.  There are holo pictures a young couple that dissolves into a 3D image of a of a young boy in the womb.  There are also pictures of a middle-aged woman and man that look like the Woman in the photo of the young couple.
 
-		Room D - Abigail's Living Quarters - Nurse
 
 	(l12) - Level 10 Jeremiah's Home
 		Description: 
@@ -394,9 +395,6 @@ The MindKeep
 			12 x A 50-centimeter cracker-like wafer that gives all needed nourishment and short-circuits hunger signals to the brain for 24 hours. Use of this substance as the sole source of nourishment for more than a month results in the atrophying of normal digestive organs making it impossible for the user to derive sustenance from anything except this substance. There is a 95% chance that it will work for a Humanoid and an 80% chance that it will work for a Mutated Animal. If it doesn't work, the user is exposed to 3d4 Intensity Level poison.
 			1 x Chameleon Rifle no ammo
 			37 x crates of sealed rations (each crate contines food for 1 person for 1 year)
-
-
-
 
 	(l11) - The Alpha Factor
 	(l12) -
