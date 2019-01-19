@@ -405,8 +405,8 @@ The MindKeep
 	(roof) - The Roof
 		Location  1 - The Autobeacon
 		Location  2 - The Broadcast Power
-		Location  3 - Enviromental Control Systems
-		Location  4 - The Communicaitons Array
+		Location  3 - Environmental Control Systems
+		Location  4 - The Communications Array
 		Location  5 - The Hatch
 		Location  6 - Motion Detector
 		Location  7 - Landing Pad
