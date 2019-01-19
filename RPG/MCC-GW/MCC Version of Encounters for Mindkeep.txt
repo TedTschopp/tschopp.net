@@ -403,23 +403,26 @@ The MindKeep
 		Room C - The Brig holding room for transfer
 		Room D - The Armory
 	(roof) - The Roof
-		Locaiton  1 - The Autobeacon
+		Location  1 - The Autobeacon
 		Location  2 - The Broadcast Power
 		Location  3 - Enviromental Control Systems
 		Location  4 - The Communicaitons Array
 		Location  5 - The Hatch
 		Location  6 - Motion Detector
 		Location  7 - Landing Pad
-		Locaiton  8 - Grappling Hook
-		Locaiton  9 - The Entrance to the Elevator Repair Bay
-		Locaiton 10 - The Elevator Repair Bay
-		Locaiton 11 - The Bone Yard
+		Location  8 - Grappling Hook
+		Location  9 - The Entrance to the Elevator Repair Bay
+		Location 10 - The Elevator Repair Bay
+		Location 11 - The Bone Yard
 		Location 12 - The Weather Station
-		Locaiton 13 - The Elevator Shaft 
-		Locaiton 14 - The Next of the Yelix
-		Location 15 - The Underground Obersavation Post - Now Destroyed
-		Locaiton 16 - The Elevator Hatch
+		Location 13 - The Elevator Shaft 
+		Location 14 - The Next of the Yelix
+		Location 15 - The Underground Observation Post - Now Destroyed
+		Location 16 - The Elevator Hatch
 
 
 
 	
+You are with your family at home, and you are waking up from a relaxing long night.  The room is hot and sticky, and there are an unusual number of flies that buzz around annoyingly.  You get up and run your fingers though your hair and notice a bump at the back of your head.  A family member turns to you and asks, "What's wrong?"  You tell them.  They ask to see it. You part your hair, and in doing so you feel the "bump" open.  You hear a scream behind you; "YOUR HEAD IS FULL OF MAGGOTS?!" and turn around to see a pile of fies and maggots on the ground.  Your vision goes dark and you pass back into a restless sleep.
+
+You are astride your mount, an unusual lizard creature, charging down a trail over rolling hills. Ahead of you your leader motions to the left where a herd of large rock gray creatures slowly graze on the grass.  Excitement fills your heart as you realize you are about to harvest a Land Pearl.  You pass your leader and charge into battle.  The bumps on your head and back start to quiver in anticipation.  The cape you earned from that last raid on the village snaps smartly in the wind.  After today, you will be able for another promotion.  Your hunt lead has picked out the weak member of the heard and you charge ahead into a cloud of green gas.  The pain.  Something has hit you.  You are thrown from your mount.  More Pain.  Darkness and Pain.  A Flash of lights streaming past you, stars?  You are hurtling down towards a giant light.  A large sphere with rings pass you on the right.  Another Red Cloudy ball.  A Ring of glowing pebbles.  A small Red Dot.  More falling towards the large light.  A Grey shape that looks like the pockmarked head of something smacks you from the side.  More darkness.  More Pain.  You are now looking down on yourself.  The cape is pulled from your body and you climb aboard you put it into your backpack.  More pain.  More darkness.  But you now realize it is no longer cold.  It has been cold for so long.
