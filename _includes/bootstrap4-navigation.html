@@ -23,7 +23,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                            {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
                             {% for post in sorted_homepage %}
-                                <a class="dropdown-item" href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a><
+                                <a class="dropdown-item" href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a>
                             {% endfor %}
                         </div>
                     </li>
