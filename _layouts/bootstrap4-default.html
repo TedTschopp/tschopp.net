@@ -103,21 +103,18 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+            <h1 class="mb-5">Ted Tschopp</h1>
+            <img src="/img/thumb3.jpg" class="intro-image-avatar">
+            <h3><span class="p-job-title">Enterprise Technology Architect <br> &#x27E8; Digital &#x27E9;&#x27E8; Automation &#x27E9;</span></h3>
+            <hr class="intro-divider"> 
+            <span class="p-note">
+              {% for paragraphs in site.biography %}
+                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+                <p class="lead">{{paragraph}}</p>
+                {% endfor %}
+            </span>
           </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+      </div>
       </div>
     </header>
 
