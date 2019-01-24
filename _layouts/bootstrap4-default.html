@@ -87,7 +87,7 @@
     {% include top-of-body.html %}
 
 
-    {% include navigation.html %}
+    {% include bootstrap4-navigation.html %}
 
     <!-- Navigation -->
 <!--    <nav class="navbar navbar-light bg-light static-top">
@@ -118,27 +118,6 @@
       </div>
     </header>
 
-     <a name="about"></a>
-     <div class="intro-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="intro-message">
-                        <h1>Ted Tschopp</h1>
-                        <img src="/img/thumb3.jpg" class="intro-image-avatar">
-                        <h3><span class="p-job-title">Enterprise Technology Architect <br> &#x27E8; Digital &#x27E9;&#x27E8; Automation &#x27E9;</span></h3>
-                        <hr class="intro-divider"> 
-                        <span class="p-note">
-                          {% for paragraphs in site.biography %}
-                              {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
-                              <p class="lead">{{paragraph}}</p>
-                          {% endfor %}
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <!-- Icons Grid -->
