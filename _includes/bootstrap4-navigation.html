@@ -19,16 +19,13 @@
                     <li class="nav-item"><a href="{{site.siteurl}}/#about" class="nav-link">About Ted</a></li>
                     <li class="nav-item"><a href="{{site.siteurl}}/#blog" class="nav-link">Blog</a></li>
                     <li class="dropdown nav-item"> 
-                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">
-                                Projects
-                                <span class="caret"></span>
-                            </a>
-                        <ul class="dropdown-menu">
-                            {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                           {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
                             {% for post in sorted_homepage %}
-                                <li><a href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a></li>
+                                <a class="dropdown-item" href="{{site.siteurl}}/#{{ post.title | slugify}}">{{ post.title }}</a><
                             {% endfor %}
-                        </ul>
+                        </div>
                     </li>
                     <li class="nav-item"><a href="/#contact" class="nav-link">Contact</a></li>
                 </ul>
