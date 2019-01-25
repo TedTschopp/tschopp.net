@@ -125,31 +125,31 @@
             </span>
             <ul class="list-inline mb-0">
                   {% if site.keybaseio_username %}
-                  <li class="list-inline-item mr-3">
+                  <li class="list-inline-item mr-3" style="color:white">
                     <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fab fa-keybase fa-fw"></i> <span class="network-name"></span></a>
                   </li>
-                  <li class="list-inline-item mr-3">
+                  <li class="list-inline-item mr-3" style="color:white">
                     <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey"><i class="fas fa-key fa-fw"></i> <span class="network-name"></span></a>
                   </li>
                   {% else %}
                   {% endif %}
                   {% if site.email %}
-                  <li class="list-inline-item mr-3">
+                  <li class="list-inline-item mr-3" style="color:white">
                     <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email"><i class="fas fa-envelope fa-fw"></i> <span class="network-name"></span></a>
                   {% else %}
                   {% endif %}
                   {% if site.whatsapp_username %}
-                  <li class="list-inline-item mr-3">
+                  <li class="list-inline-item mr-3" style="color:white">
                     <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fab fa-whatsapp fa-fw"></i> <span class="network-name"></span></a>
                   {% else %}
                   {% endif %}
                   {% if site.phonenumber %}
-                  <li class="list-inline-item mr-3">
+                  <li class="list-inline-item mr-3" style="color:white">
                     <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel"><i class="fas fa-phone fa-fw"></i> <span class="network-name"></span></a>
                   </li>
                   {% else %}
                   {% endif %}
-                  <li class="list-inline-item ">
+                  <li class="list-inline-item " style="color:white">
                     <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fas fa-home fa-fw"></i> <span class="network-name"></span></a>
                   </li>
               </ul>
