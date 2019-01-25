@@ -505,94 +505,7 @@
                     </ul>
                 </div>
 
-                {% if site.github_username or
-                      site.linkedin_username or
-                      site.twitter_username or
-                      site.facebook_username or
-                      site.google_username or
-                      site.youtube_username or
-                      site.pinterest_username or
-                      site.reddit_username or
-                      site.instagram_username or
-                      site.indiewebcamp_username or
-                      site.quora_username %}
-
-                <div class="col-lg-12">
-                    <a  name="elsewhere"></a>
-                    <h3 class="fnp-name">Elsewhere Online</h2>
-                </div>
-                <div class="col-lg-12">
-                    <ul class="list-inline intro-social-buttons">
-                        {% if site.github_username %}
-                        <li>
-                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.linkedin_username %}
-                        <li>
-                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.twitter_username %}
-                        <li>
-                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.facebook_username %}
-                        <li>
-                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fab fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.google_username %}
-                        <li>
-                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fab fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.youtube_username %}
-                        <li>
-                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me" class="btn btn-default btn-lg u-x-youtube u-url"><i class="fab fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.pinterest_username %}
-                        <li>
-                            <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me" class="btn btn-default btn-lg u-x-pinterest u-url"><i class="fab fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.reddit_username %}
-                        <li>
-                            <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me" class="btn btn-default btn-lg u-x-reddit u-url"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.instagram_username %}
-                        <li>
-                            <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me" class="btn btn-default btn-lg u-x-instagram u-url"><i class="fab fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.quora_username %}
-                        <li>
-                            <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me" class="btn btn-default btn-lg u-x-quora u-url"><i class="fab fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.indiewebcamp_username %}
-                        <li>
-                            <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me" class="btn btn-default btn-lg u-x-external-link u-url"><i class="fas fa-external-link fa-fw"></i> <span class="network-name">IndieWeb</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-
-                    </ul>
-                </div>
-                {% endif %}
+ 
             </div>
         </div>
         <!-- /.container -->
@@ -631,23 +544,108 @@
             <p class="text-muted small mb-4 mb-lg-0">Copyright &copy; Ted Tschopp <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+
+
+
+
+
+
+
+                        <ul>
+
+
+
+
+
+           {% if site.github_username or
+                  site.linkedin_username or
+                  site.twitter_username or
+                  site.facebook_username or
+                  site.google_username or
+                  site.youtube_username or
+                  site.pinterest_username or
+                  site.reddit_username or
+                  site.instagram_username or
+                  site.indiewebcamp_username or
+                  site.quora_username %}
             <ul class="list-inline mb-0">
+
+
+              {% if site.github_username %}
               <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-facebook fa-2x fa-fw"></i>
-                </a>
+                  <a href="https://github.com/{{ site.github_username }}/" rel="me"><i class="fab fa-facebook fa-2x fa-fw"></i></a>
               </li>
+              {% else %}
+              {% endif %}
+              {% if site.linkedin_username %}
               <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                </a>
+                  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me"><i class="fab fa-linkedin fa-2x fa-fw"></i></a>
               </li>
+              {% else %}
+              {% endif %}
+              {% if site.twitter_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://twitter.com/{{ site.twitter_username }}" rel="me"><i class="fab fa-twitter fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.facebook_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me"><i class="fab fa-facebook-official fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.google_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me"><i class="fab fa-google-plus-official fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.youtube_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me"><i class="fab fa-youtube fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.pinterest_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me"><i class="fab fa-pinterest fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.reddit_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me"><i class="fab fa-reddit ffa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.instagram_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me"><i class="fab fa-instagram fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.quora_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me"><i class="fab fa-quora fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.indiewebcamp_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me"><i class="fas fa-external-link fa-2x fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-instagram fa-2x fa-fw"></i>
+                <a href="{{ site.siteurl }}" rel="me" >
+                  <i class="fab fa-home fa-2x fa-fw"></i>
                 </a>
               </li>
             </ul>
+            {% endif %}
+
+
           </div>
         </div>
       </div>
