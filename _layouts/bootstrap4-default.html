@@ -66,7 +66,6 @@
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
           crossorigin="anonymous">
 
-
     {% if this_is_a_draft == true %}
     <link href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" 
           as="font" 
@@ -469,32 +468,32 @@
                 <div class="col-lg-12">
                     <ul class="list-inline intro-social-buttons">
                         <li>
-                            <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
+                            <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fas fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
                         </li>
                         {% if site.keybaseio_username %}
                         <li>
-                            <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
+                            <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fas fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
                         </li>
                         <li>
-                            <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey"><i class="fa fa-key fa-fw"></i> <span class="network-name">PGP Key</span></a>
+                            <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey"><i class="fas fa-key fa-fw"></i> <span class="network-name">PGP Key</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.email %}
                         <li>
-                            <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                            <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email"><i class="fas fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.whatsapp_username %}
                         <li>
-                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-whatsapp fa-fw"></i> <span class="network-name">WhatsApp</span></a>
+                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fab fa-whatsapp fa-fw"></i> <span class="network-name">WhatsApp</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.phonenumber %}
                         <li>
-                            <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel"><i class="fa fa-phone fa-fw"></i> <span class="network-name">{{ site.phonenumber }}</span></a>
+                            <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel"><i class="fas fa-phone fa-fw"></i> <span class="network-name">{{ site.phonenumber }}</span></a>
                         </li>
                         {% else %}
                         {% endif %}
@@ -521,67 +520,67 @@
                     <ul class="list-inline intro-social-buttons">
                         {% if site.github_username %}
                         <li>
-                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.linkedin_username %}
                         <li>
-                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.twitter_username %}
                         <li>
-                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.facebook_username %}
                         <li>
-                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fab fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.google_username %}
                         <li>
-                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fa fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
+                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fab fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.youtube_username %}
                         <li>
-                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me" class="btn btn-default btn-lg u-x-youtube u-url"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
+                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me" class="btn btn-default btn-lg u-x-youtube u-url"><i class="fab fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.pinterest_username %}
                         <li>
-                            <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me" class="btn btn-default btn-lg u-x-pinterest u-url"><i class="fa fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
+                            <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me" class="btn btn-default btn-lg u-x-pinterest u-url"><i class="fab fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.reddit_username %}
                         <li>
-                            <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me" class="btn btn-default btn-lg u-x-reddit u-url"><i class="fa fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
+                            <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me" class="btn btn-default btn-lg u-x-reddit u-url"><i class="fab fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.instagram_username %}
                         <li>
-                            <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me" class="btn btn-default btn-lg u-x-instagram u-url"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me" class="btn btn-default btn-lg u-x-instagram u-url"><i class="fab fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.quora_username %}
                         <li>
-                            <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me" class="btn btn-default btn-lg u-x-quora u-url"><i class="fa fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
+                            <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me" class="btn btn-default btn-lg u-x-quora u-url"><i class="fab fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
                         </li>
                         {% else %}
                         {% endif %}
                         {% if site.indiewebcamp_username %}
                         <li>
-                            <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me" class="btn btn-default btn-lg u-x-external-link u-url"><i class="fa fa-external-link fa-fw"></i> <span class="network-name">IndieWeb</span></a>
+                            <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me" class="btn btn-default btn-lg u-x-external-link u-url"><i class="fab fa-external-link fa-fw"></i> <span class="network-name">IndieWeb</span></a>
                         </li>
                         {% else %}
                         {% endif %}
