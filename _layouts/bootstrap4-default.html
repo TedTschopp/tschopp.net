@@ -151,8 +151,8 @@
 
 
     <section class="showcase">
-      <a name="blog"></a>
-      <div class="container-fluid p-0">
+     <div class="container-fluid p-0">
+        <a name="blog"></a>
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/blog.jpg');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -181,6 +181,7 @@
             </ul> 
           </div>
         </div>
+        <a name="draft"></a>
         <div class="row no-gutters">
           <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/blog-draft.jpg');"></div>
           <div class="col-lg-6 my-auto showcase-text">
@@ -199,6 +200,7 @@
             </ul>
           </div>
         </div>
+        <a name="social"></a>
         <div class="row no-gutters">
           <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png');"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -346,6 +348,44 @@
           </div>
         </div>
       </div>
+
+
+
+
+        {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
+        {% assign count = 0 %}
+        {% for post in sorted_homepage %}
+            {% assign count = count | plus: 1 %}
+            {% assign mod = count | modulo: 2 %}
+            <a name="{{ post.title | slugify}}"></a>
+ 
+            <div class="row no-gutters">
+
+              {% if mod != 1 %}<!-- odd -->
+              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              {% else %}
+              <div class="col-lg-6 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+              <div class="col-lg-6 my-auto showcase-text">
+              {% endif %}
+
+
+
+                {% if post.title-url and post.title-url != "" and post.title-url != nil %}
+                    <h2><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
+                {% else %}
+                    <h2>{{ post.title}}</h2>
+                {% endif %}
+                <p class="lead mb-0">{{ post.description}}</p>
+                <ul>    
+                    {% for bullet in post.bullets %}
+                        <li>{{ bullet }} </li>
+                    {% endfor %}
+                </ul>
+
+              </div>
+            </div>
+        {% endfor %}
     </section>
 
 
