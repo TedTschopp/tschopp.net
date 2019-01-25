@@ -117,39 +117,6 @@
       </div>
     </header>
 
-
-
-<!--  --->
-
-    <!-- Image Showcases -->
-    <section class="showcase">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters">
-
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Fully Responsive Design</h2>
-            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-          <div class="col-lg-6 my-auto showcase-text">
-            <h2>Updated For Bootstrap 4</h2>
-            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-            <h2>Easy to Use &amp; Customize</h2>
-            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
     <section class="showcase">
      <div class="container-fluid p-0">
         <a name="blog"></a>
@@ -348,44 +315,40 @@
           </div>
         </div>
       </div>
+  {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
+  {% assign count = 0 %}
+  {% for post in sorted_homepage %}
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 2 %}
+      <a name="{{ post.title | slugify}}"></a>
+
+      <div class="row no-gutters">
+
+        {% if mod != 1 %}<!-- odd -->
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        {% else %}
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+        {% endif %}
 
 
 
+          {% if post.title-url and post.title-url != "" and post.title-url != nil %}
+              <h2><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
+          {% else %}
+              <h2>{{ post.title}}</h2>
+          {% endif %}
+          <p class="lead mb-0">{{ post.description}}</p>
+          <ul>    
+              {% for bullet in post.bullets %}
+                  <li>{{ bullet }} </li>
+              {% endfor %}
+          </ul>
 
-        {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
-        {% assign count = 0 %}
-        {% for post in sorted_homepage %}
-            {% assign count = count | plus: 1 %}
-            {% assign mod = count | modulo: 2 %}
-            <a name="{{ post.title | slugify}}"></a>
- 
-            <div class="row no-gutters">
-
-              {% if mod != 1 %}<!-- odd -->
-              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
-              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              {% else %}
-              <div class="col-lg-6 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
-              <div class="col-lg-6 my-auto showcase-text">
-              {% endif %}
-
-
-
-                {% if post.title-url and post.title-url != "" and post.title-url != nil %}
-                    <h2><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
-                {% else %}
-                    <h2>{{ post.title}}</h2>
-                {% endif %}
-                <p class="lead mb-0">{{ post.description}}</p>
-                <ul>    
-                    {% for bullet in post.bullets %}
-                        <li>{{ bullet }} </li>
-                    {% endfor %}
-                </ul>
-
-              </div>
-            </div>
-        {% endfor %}
+        </div>
+      </div>
+  {% endfor %}
     </section>
 
 
@@ -790,6 +753,156 @@
       </div>
     </section>
 
+
+
+          <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
+                <div class="col-lg-12">
+                    <h2 class="fnp-name">Contact <span class="fn n"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></span></h2>
+                </div>
+                <div class="col-lg-12 hidden">
+                    <img src="/img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
+                    <div class="p-adr hidden">
+                        <span class="p-locality">{{ site.locality }}</span>,
+                        <span class="p-region">{{ site.region }}</span>
+                        <span class="p-country-name">{{ site.country }}</span>
+                        <span class="p-note hidden aria-hidden">
+                            {% for paragraphs in site.biography %}
+                                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+                                <p>{{paragraph}}</p>
+                            {% endfor %}
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <ul class="list-inline intro-social-buttons">
+                        <li>
+                            <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
+                        </li>
+                        {% if site.keybaseio_username %}
+                        <li>
+                            <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
+                        </li>
+                        <li>
+                            <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey"><i class="fa fa-key fa-fw"></i> <span class="network-name">PGP Key</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.email %}
+                        <li>
+                            <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.whatsapp_username %}
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-whatsapp fa-fw"></i> <span class="network-name">WhatsApp</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.phonenumber %}
+                        <li>
+                            <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel"><i class="fa fa-phone fa-fw"></i> <span class="network-name">{{ site.phonenumber }}</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                    </ul>
+                </div>
+
+                {% if site.github_username or
+                      site.linkedin_username or
+                      site.twitter_username or
+                      site.facebook_username or
+                      site.google_username or
+                      site.youtube_username or
+                      site.pinterest_username or
+                      site.reddit_username or
+                      site.instagram_username or
+                      site.indiewebcamp_username or
+                      site.quora_username %}
+
+                <div class="col-lg-12">
+                    <a  name="elsewhere"></a>
+                    <h3 class="fnp-name">Elsewhere Online</h2>
+                </div>
+                <div class="col-lg-12">
+                    <ul class="list-inline intro-social-buttons">
+                        {% if site.github_username %}
+                        <li>
+                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.linkedin_username %}
+                        <li>
+                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.twitter_username %}
+                        <li>
+                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.facebook_username %}
+                        <li>
+                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.google_username %}
+                        <li>
+                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fa fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.youtube_username %}
+                        <li>
+                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me" class="btn btn-default btn-lg u-x-youtube u-url"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.pinterest_username %}
+                        <li>
+                            <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me" class="btn btn-default btn-lg u-x-pinterest u-url"><i class="fa fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.reddit_username %}
+                        <li>
+                            <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me" class="btn btn-default btn-lg u-x-reddit u-url"><i class="fa fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.instagram_username %}
+                        <li>
+                            <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me" class="btn btn-default btn-lg u-x-instagram u-url"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.quora_username %}
+                        <li>
+                            <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me" class="btn btn-default btn-lg u-x-quora u-url"><i class="fa fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+                        {% if site.indiewebcamp_username %}
+                        <li>
+                            <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me" class="btn btn-default btn-lg u-x-external-link u-url"><i class="fa fa-external-link fa-fw"></i> <span class="network-name">IndieWeb</span></a>
+                        </li>
+                        {% else %}
+                        {% endif %}
+
+                    </ul>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+
+
+
+
     <!-- Footer -->
     <footer class="footer bg-light">
       <div class="container">
@@ -797,22 +910,26 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="https://www.tedt.org/">Home</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="https://www.tedt.org/#about">About</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="https://www.tedt.org/#contact">Contact</a>
+              </li>
+<!--              <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
                 <a href="#">Terms of Use</a>
-              </li>
+              </li> -->
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="https://www.tedt.org/1993/01/01/privacy-policy/">Privacy Policy</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">Copyright &copy; Ted Tschopp <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
@@ -836,6 +953,19 @@
         </div>
       </div>
     </footer>
+
+
+
+
+
+
+
+
+
+  
+
+
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
