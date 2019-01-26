@@ -342,11 +342,14 @@
                         {% if post-content == null or post-content == empty %}
                             {% assign post-content = this-post.content %}
                         {% endif %}
+                        {% assign post-content = post-content | strip %}
 
 
                         <li>
                         <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
-                            <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
+                            {% if posst-content.size != 0 %}
+                              <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
+                            {% endif %}
                         </li>
                     {% endif %}
                 {% endfor %}
