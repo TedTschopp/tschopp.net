@@ -24,17 +24,13 @@
     {% include pwa-header-includes.html %}
 
     <!-- News Feed Meta Tags. -->
-    {% include feeds.jekyll %}
+    {% include feeds.html %}
 
     <!-- Bootstrap core CSS -->
     <!-- START OF CSS INCLUDE -->
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-              rel="stylesheet" 
-              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
-              crossorigin="anonymous">-->
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
-          rel="stylesheet" 
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
           crossorigin="anonymous">
 
@@ -46,18 +42,24 @@
 
     <!-- Custom CSS -->
     {% if full-page-url == home-page-url or full-page-url == "https://www.tedt.org/bootstrap4-index.html"%}
-    <link href="css/bootstrap4-landing-page.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="css/bootstrap4-landing-page.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/web-mention.css">
     {% else %}    
-    <link href="{{site.siteurl}}/css/blog-post.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/web-mention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/webmention.css" rel="stylesheet">
-    <link href="{{site.siteurl}}/css/solarized-dark.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/blog-post.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/web-mention.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/webmention.css" >
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/solarized-dark.css" >
     {% endif %}
 
     <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-          rel="stylesheet" 
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
           crossorigin="anonymous">
     
@@ -67,18 +69,19 @@
           crossorigin="anonymous">
 
     {% if this_is_a_draft == true %}
-    <link href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" 
+    <link rel="preload"
+          href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" 
           as="font" 
           type="font/woff2" 
-          crossorigin
-          rel="preload" >
-    <link href="{{site.siteurl}}/css/draft-blog-post.css" rel="stylesheet">
+          crossorigin>
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/draft-blog-post.css">
     {% endif %}
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-
-   
+    <link rel="stylesheet"
+          href="vendor/simple-line-icons/css/simple-line-icons.css" 
+          type="text/css">
     <!-- END OF CSS INCLUDE -->
 
     <!-- Scripts that need to be at the end of the header -->
@@ -347,7 +350,7 @@
 
                         <li>
                         <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
-                            {% if posst-content.size != 0 %}
+                            {% if post-content.size != 0 %}
                               <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
                             {% endif %}
                         </li>
@@ -458,7 +461,7 @@
           <div class="col-lg-4">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-              <h5>Sarah	W.</h5>
+              <h5>Sarah W.</h5>
               <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
             </div>
           </div>
