@@ -191,31 +191,6 @@ footer.footer {
   padding-bottom: 4rem;
 }
 
-@media (prefers-color-scheme: dark) {
 
-.topnav {
-    font-size: 14px; 
-    background-color: #333;
-}
-footer {
-    padding: 50px 0;
-    background-color: #333;
-}
-
-
-.content-section-a {
-    padding: 50px 0;
-    background-color: #333;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #464545;
-    border-bottom: 1px solid #464545;
-}
-
-
-
-}
 
 
