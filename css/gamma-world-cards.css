@@ -139,7 +139,11 @@
     .MCC 
     {
         font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
-        text-shadow: 0 0 3px #FFE205, 0 0 7px #FFE205, 0 0 20px #EDD205;
+        text-shadow:-2px -2px 0 #FFE205, 
+                     2px -2px 0 #FFE205, 
+                    -2px  0px 0 #FFE205,
+                     2px  2px 0 #FFE205;
+
         color: #018249;
     }
 
