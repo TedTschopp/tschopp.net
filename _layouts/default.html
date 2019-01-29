@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
+
     <meta charset="utf-8">
 
     <!-- Allows control over where resources are loaded from. Place as early in the document as possible, only applies to content below this tag. -->
@@ -8,7 +10,7 @@
 
     {% include calculate-variables.html %}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -22,487 +24,615 @@
     {% include pwa-header-includes.html %}
 
     <!-- News Feed Meta Tags. -->
-    {% include feeds.jekyll %}
+    {% include feeds.html %}
 
-    <!-- Bootstrap Core CSS -->
-    {% include all-css-includes.html %}
+    <!-- Bootstrap core CSS -->
+    <!-- START OF CSS INCLUDE -->
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
+
+    <!-- TODO: Add Dark Mode Back
+    <style>
+        @import url("https://www.tedt.org/css/bootstrap.darkly.css"); /* Using a url */
+    </style>  
+    -->
+
+    <!-- Custom CSS -->
+    {% if full-page-url == home-page-url or full-page-url == "https://www.tedt.org/bootstrap4-index.html"%}
+    <link rel="stylesheet"
+          href="css/bootstrap4-landing-page.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/web-mention.css">
+    {% else %}    
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/blog-post.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/web-mention.css">
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/webmention.css" >
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/solarized-dark.css" >
+    {% endif %}
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+          crossorigin="anonymous">
+    
+    <link rel="stylesheet" 
+          href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" 
+          crossorigin="anonymous">
+
+    {% if this_is_a_draft == true %}
+    <link rel="preload"
+          href="{{site.siteurl}}/css/handwriting-draft_free-version.woff2" 
+          as="font" 
+          type="font/woff2" 
+          crossorigin>
+    <link rel="stylesheet"
+          href="{{site.siteurl}}/css/draft-blog-post.css">
+    {% endif %}
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet"
+          href="vendor/simple-line-icons/css/simple-line-icons.css" 
+          type="text/css">
+    <!-- END OF CSS INCLUDE -->
 
     <!-- Scripts that need to be at the end of the header -->
     {% include scripts.html %}
 
-</head>
 
-<body>
+  </head>
+
+  <body>
+    <!-- Legacy Browser Redirect & Google Tag Manager -->
     {% include top-of-body.html %}
 
-    {% include navigation.html %}
+    <!-- Navigation -->
+    <!--
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="btn btn-primary" href="#">Sign In</a>
+      </div>
+    </nav> -->
+    {% include bootstrap4-navigation.html %}
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Ted Tschopp</h1>
-                        <img src="/img/thumb3.jpg" class="intro-image-avatar">
-                        <h3><span class="p-job-title">Enterprise Technology Architect <br> ⟨ Digital ⟩⟨ Automation ⟩</span></h3>
-                        <hr class="intro-divider">
-                        <span class="p-note">
-                            {% for paragraphs in site.biography %}
-                                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
-                                <p class="lead">{{paragraph}}</p>
-                            {% endfor %}
-                        </span>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.intro-header -->
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5 fnp-name"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></h1>
+            <img src="/img/thumb3.jpg" class="intro-image-avatar photo u-photo" alt="Photo of {{ site.givenname }} {{ site.familyname }}" >
+            <h3><span class="p-job-title">Enterprise Technology Architect <br> &#x27E8; Digital &#x27E9;&#x27E8; Automation &#x27E9;</span></h3>
+            <hr class="intro-divider"> 
+            <span class="p-adr d-none">
+                <span class="p-locality">{{ site.locality }}</span>,
+                <span class="p-region">{{ site.region }}</span>
+                <span class="p-country-name">{{ site.country }}</span>
+            </span>
+            <span class="p-note">
+              {% for paragraphs in site.biography %}
+                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+                <p class="lead">{{paragraph}}</p>
+                {% endfor %}
+            </span>
+            <ul class="list-inline mb-0">
+                  {% if site.keybaseio_username %}
+                  <li class="list-inline-item mr-3">
+                    <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg" style="color:white"><i class="fab fa-keybase fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  </li>
+                  <li class="list-inline-item mr-3">
+                    <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey" style="color:white"><i class="fas fa-key fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  </li>
+                  {% else %}
+                  {% endif %}
+                  {% if site.email %}
+                  <li class="list-inline-item mr-3">
+                    <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email" style="color:white"><i class="fas fa-envelope fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  {% else %}
+                  {% endif %}
+                  {% if site.whatsapp_username %}
+                  <li class="list-inline-item mr-3">
+                    <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white"><i class="fab fa-whatsapp fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  {% else %}
+                  {% endif %}
+                  {% if site.phonenumber %}
+                  <li class="list-inline-item mr-3">
+                    <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel" style="color:white"><i class="fas fa-phone fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  </li>
+                  {% else %}
+                  {% endif %}
+                  <li class="list-inline-item ">
+                    <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white"><i class="fas fa-home fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+    </header>
 
-    <!-- Page Content -->
-
-    <!-- .content-section-a -->
-    <a name="blog"></a>
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Ted Tschopp's Blog</h2>
-                    <p class="lead">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better. </p>
-                    <ul>
-                        {% assign count = 0 %}
-                        {% for post in site.posts %}
-                            {% if post.categories contains "Draft" or post.categories contains "home" %}
-                                <!-- Do Nothing -->
-                            {% elsif post.layout contains "micropubpost" %}
-                                <!-- Do Nothing -->
-                            {% else %}
-                                {% assign count = count | plus: 1 %}
-                                {% if count > 5 %}
-                                    {% break %}
-                                {% endif %}
-                              <li>
-                                <a href="{{ post.url }}">{{ post.title }}</a>
-                                {% if count == 1 %}
-                                    <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
-                                {% endif %}
-                              </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul> 
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="/img/blog.jpg" alt="">
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- /.container-section-a -->
-
-    <!-- /.content-section-b -->
-    <a name="draft"></a>
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Ted Tschopp's Drafts</h2>
-                    <p class="lead">A collection of writings I am working on at this time.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p>
-                    <ul>
-                    {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'Draft'" %}
-                    {% for post in posts-drafts limit:5 %}
+    <section class="showcase">
+     <div class="container-fluid p-0">
+        <a name="blog"></a>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/blog.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Ted Tschopp's Blog</h2>
+            <p class="lead mb-0">A collection of writings I have put online over the years.  Some of it is really bad, and some of it I am proud of.  All of it can be made better</p>
+            <ul>
+                {% assign count = 0 %}
+                {% for post in site.posts %}
+                    {% if post.categories contains "Draft" or post.categories contains "home" %}
+                        <!-- Do Nothing -->
+                    {% elsif post.layout contains "micropubpost" %}
+                        <!-- Do Nothing -->
+                    {% else %}
+                        {% assign count = count | plus: 1 %}
+                        {% if count > 5 %}
+                            {% break %}
+                        {% endif %}
                       <li>
                         <a href="{{ post.url }}">{{ post.title }}</a>
-                        {% if forloop.first %}
+                        {% if count == 1 %}
                             <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
-                        {% endif %} 
+                        {% endif %}
                       </li>
-                    {% endfor %}
-                    </ul>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="/img/blog-draft.jpg" alt="">
-                </div>
-            </div>
-
+                    {% endif %}
+                {% endfor %}
+            </ul> 
+          </div>
         </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-   <!-- .content-section-a -->
-    <a name="social"></a>
-
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Ted Tschopp's Social Media Posts</h2>
-                    <p class="lead">My social postings from around the interent.  This is a work in progress as I pull in all of my social postings.</p>
-                    <ul>
-                        {% assign count = 0 %}
-                        {% for this-post in site.posts %}
-                            {% if this-post.layout contains "micropubpost" %}
-                                {% assign post-title = "" %}
-                                {% assign post-url = "" %}
-                                {% assign post-content = "" %}
-
-                                {% assign count = count | plus: 1 %}
-                                {% if count > 5 %}
-                                    {% break %}
-                                {% endif %}
-
-                                {% assign post-url= this-post.url %}
-
-                                {% if this-post.mf-item[0].type[0] == "h-product" %}
-                                    {% if this-post.mf-rating[0] == 5 %}
-                                        {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
-                                    {% elsif this-post.mf-rating[0] == 4 %}
-                                        {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
-                                    {% elsif this-post.mf-rating[0] == 3 %}
-                                        {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
-                                    {% elsif tthis-post.mf-rating[0]== 2 %}
-                                        {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
-                                    {% elsif this-post.mf-rating[0] == 1 %}
-                                        {% assign post-title = "⭐️🌑🌑🌑🌑" %}
-                                    {% else %}
-                                        {% assign post-title = "🌑🌑🌑🌑🌑" %}
-                                    {% endif %}
-                                    {% assign post-title = post-title | append: this-post.mf-item[0].properties.name[0] %}
-                                    {% assign post-content = this-post.mf-summary %}
-                                {% endif %}
-
-
-
-                                {% if this-post.mf-checkin[0].type[0] == "h-card" %}
-                                    {% assign post-title = "🌎 " | append: this-post.mf-checkin[0].properties.name[0] %}
-                                {% endif %}
-
-                                    
-                                {% if this-post.category contains "links" %}
-                                    {% assign post-title   = "🔗 " | append: this-post.title %}
-                                    {% assign post-url     = this-post.mf-bookmark-of[0] %}
-                                    {% assign post-content = this-post.content %}
-                                {% endif %}
-
-                                {% if this-post.mf-like-of[0] contains "http" %}
-                                    {% assign post-url = this-post.mf-like-of[0] %}
-                                    {% assign post-title = "🔗 " | post-url %}
-                                    <script type="text/javascript">
-                                        $(document).ready(function() {
-                                             var url = '{{post-url}}';
-                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
-                                             $.ajax({url: apiUrl, success: function(result){
-                                                $.each( result, function( key, val ) {
-                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
-                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
-                                                });
-                                            }});
-                                        });
-                                    </script>
-                                {% elsif this-post.mf-in-reply-to[0] contains "http" %}
-                                    {% assign post-url = this-post.mf-in-reply-to[0] %}
-                                    {% assign post-title = "🔗 " | post-url %}
-                                    <script type="text/javascript">
-                                        $(document).ready(function() {
-                                             var url = '{{post-url}}';
-                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
-                                             $.ajax({url: apiUrl, success: function(result){
-                                                $.each( result, function( key, val ) {
-                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
-                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
-                                                });
-                                            }});
-                                        });
-                                    </script>
-                                {% elsif this-post.mf-repost-of[0] contains "http" %}
-                                    {% assign post-url = this-post.mf-repost-of[0] %}
-                                    {% assign post-title = "🔗 " | post-url %}
-                                    <script type="text/javascript">
-                                        $(document).ready(function() {
-                                             var url = '{{post-url}}';
-                                             var apiUrl = 'https://graph.facebook.com/?ids='+url;
-                                             $.ajax({url: apiUrl, success: function(result){
-                                                $.each( result, function( key, val ) {
-                                                    $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
-                                                    $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
-                                                });
-                                            }});
-                                        });
-                                    </script>
-                                {% endif %}
-
-                                {% if this-post.mf-itinerary[0].type[0] contains "h-leg" %}
-                                    {% for leg in this-post.mf-itinerary %}
-
-                                        {% if leg.properties.transit-type contains "air" %}
-                                            {% assign post-title = post-title | append: "✈️ " %}
-                                        {% elsif leg.properties.transit-type contains "train" %}
-                                            {% assign post-title = post-title | append: "🚂" %}
-                                        {% elsif leg.properties.transit-type contains "bus" %}
-                                            {% assign post-title = post-title | append: "🚌" %}
-                                        {% elsif leg.properties.transit-type contains "boat" %}
-                                            {% assign post-title = post-title | append: "🛥️" %}
-                                        {% else %}
-                                            {% assign post-title = post-title | append: "🗺️" %}
-                                        {% endif %}
-                                        {% assign post-title = post-title | append:  leg.properties.origin[0] %}
-                                        {% assign post-title = post-title | append:  " to " %}
-                                        {% assign post-title = post-title | append:  leg.properties.destination[0] %}
-                                        {% assign post-title = post-title | append:  " via " %}
-                                        {% assign post-title = post-title | append:  leg.properties.operator[0] %}
-                                        {% assign post-title = post-title | append:  " #" %}
-                                        {% assign post-title = post-title | append:  leg.properties.number[0] %}
-                                        {% if forloop.last == false %}
-                                            {% assign post-title = post-title | append:  " <br> " %}
-                                        {% else %}
-
-                                        {% endif %}
-
-                                    {% endfor %}
-                                {% endif %}
-
-
-                                {% if post-content == null or post-content == empty %}
-                                    {% assign post-content = this-post.content %}
-                                {% endif %}
-
-
-                                <li>
-                                <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
-                                    <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
-                                </li>
-                            {% endif %}
-                        {% endfor %}
-                    </ul> 
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive img-thumbnail" src="/media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png" alt="">
-                </div>
-
-            </div>
+        <a name="draft"></a>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/blog-draft.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Ted Tschopp's Drafts</h2>
+            <p class="lead mb-0">A collection of writings I am working on at this time.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p>
+            <ul>
+            {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'Draft'" %}
+            {% for post in posts-drafts limit:5 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                {% if forloop.first %}
+                    <p>{{ post.excerpt |truncatehtml | truncatewords: 20 }}</p>
+                {% endif %} 
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
         </div>
-    </div>
-    <!-- /.container-section-a -->
+        <a name="social"></a>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('media/2018-07-02-Social-Media-Post/social-network-analysis-visualization.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Ted Tschopp's Social Media Posts</h2>
+            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            <ul>
+                {% assign count = 0 %}
+                {% for this-post in site.posts %}
+                    {% if this-post.layout contains "micropubpost" %}
+                        {% assign post-title = "" %}
+                        {% assign post-url = "" %}
+                        {% assign post-content = "" %}
 
+                        {% assign count = count | plus: 1 %}
+                        {% if count > 5 %}
+                            {% break %}
+                        {% endif %}
 
-        {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
-        {% assign count = 0 %}
-        {% for post in sorted_homepage %}
-            {% assign count = count | plus: 1 %}
-            {% assign mod = count | modulo: 2 %}
-                <a name="{{ post.title | slugify}}"></a>
-                {% if mod != 1 %}<!-- odd -->
-                <div class="content-section-a">
-                {% else %}
-                <div class="content-section-b">
-                {% endif %}
-                    <div class="container">
-                        <div class="row">
-                            {% if mod != 1 %}<!-- odd -->
-                            <div class="col-lg-5 col-sm-6">
+                        {% assign post-url= this-post.url %}
+
+                        {% if this-post.mf-item[0].type[0] == "h-product" %}
+                            {% if this-post.mf-rating[0] == 5 %}
+                                {% assign post-title = "⭐️⭐️⭐️⭐️⭐️" %}
+                            {% elsif this-post.mf-rating[0] == 4 %}
+                                {% assign post-title = "⭐️⭐️⭐️⭐️🌑" %}
+                            {% elsif this-post.mf-rating[0] == 3 %}
+                                {% assign post-title = "⭐️⭐️⭐️🌑🌑" %}
+                            {% elsif tthis-post.mf-rating[0]== 2 %}
+                                {% assign post-title = "⭐️⭐️🌑🌑🌑" %}
+                            {% elsif this-post.mf-rating[0] == 1 %}
+                                {% assign post-title = "⭐️🌑🌑🌑🌑" %}
                             {% else %}
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                                {% assign post-title = "🌑🌑🌑🌑🌑" %}
                             {% endif %}
-                                <div class="clearfix"></div>
-                                {% if post.title-url and post.title-url != "" and post.title-url != nil %}
-                                    <h2 class="section-heading"><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
+                            {% assign post-title = post-title | append: this-post.mf-item[0].properties.name[0] %}
+                            {% assign post-content = this-post.mf-summary %}
+                        {% endif %}
+
+
+
+                        {% if this-post.mf-checkin[0].type[0] == "h-card" %}
+                            {% assign post-title = "🌎 " | append: this-post.mf-checkin[0].properties.name[0] %}
+                        {% endif %}
+
+                            
+                        {% if this-post.category contains "links" %}
+                            {% assign post-title   = "🔗 " | append: this-post.title %}
+                            {% assign post-url     = this-post.mf-bookmark-of[0] %}
+                            {% assign post-content = this-post.content %}
+                        {% endif %}
+
+                        {% if this-post.mf-like-of[0] contains "http" %}
+                            {% assign post-url = this-post.mf-like-of[0] %}
+                            {% assign post-title = "🔗 " | post-url %}
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                     var url = '{{post-url}}';
+                                     var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                     $.ajax({url: apiUrl, success: function(result){
+                                        $.each( result, function( key, val ) {
+                                            $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                            $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
+                                        });
+                                    }});
+                                });
+                            </script>
+                        {% elsif this-post.mf-in-reply-to[0] contains "http" %}
+                            {% assign post-url = this-post.mf-in-reply-to[0] %}
+                            {% assign post-title = "🔗 " | post-url %}
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                     var url = '{{post-url}}';
+                                     var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                     $.ajax({url: apiUrl, success: function(result){
+                                        $.each( result, function( key, val ) {
+                                            $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                            $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
+                                        });
+                                    }});
+                                });
+                            </script>
+                        {% elsif this-post.mf-repost-of[0] contains "http" %}
+                            {% assign post-url = this-post.mf-repost-of[0] %}
+                            {% assign post-title = "🔗 " | post-url %}
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                     var url = '{{post-url}}';
+                                     var apiUrl = 'https://graph.facebook.com/?ids='+url;
+                                     $.ajax({url: apiUrl, success: function(result){
+                                        $.each( result, function( key, val ) {
+                                            $("#social-share-{{this-post.slug}}").html("🔗 - " + val['og_object']['title']);
+                                            $("#social-share-content-{{this-post.slug}}").html(val['og_object']['description']);
+                                        });
+                                    }});
+                                });
+                            </script>
+                        {% endif %}
+
+                        {% if this-post.mf-itinerary[0].type[0] contains "h-leg" %}
+                            {% for leg in this-post.mf-itinerary %}
+
+                                {% if leg.properties.transit-type contains "air" %}
+                                    {% assign post-title = post-title | append: "✈️ " %}
+                                {% elsif leg.properties.transit-type contains "train" %}
+                                    {% assign post-title = post-title | append: "🚂" %}
+                                {% elsif leg.properties.transit-type contains "bus" %}
+                                    {% assign post-title = post-title | append: "🚌" %}
+                                {% elsif leg.properties.transit-type contains "boat" %}
+                                    {% assign post-title = post-title | append: "🛥️" %}
                                 {% else %}
-                                    <h2 class="section-heading">{{ post.title}}</h2>
+                                    {% assign post-title = post-title | append: "🗺️" %}
                                 {% endif %}
-                                <p class="lead">{{ post.description}}</p>
-                                <ul>    
-                                    {% for bullet in post.bullets %}
-                                        <li>{{ bullet }} </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                            {% if mod != 1 %}<!-- odd -->
-                            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            {% else %}
-                            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                            {% endif %}
-                                <img class="img-responsive img-thumbnail" src="{{site.siteurl}}/{{post.image}}" alt="{{post.image-credits-title}} by {{post.image-credits-artist}}">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.container -->
-                </div>
-                <!-- /.content-section-a -->
-        {% endfor %}
+                                {% assign post-title = post-title | append:  leg.properties.origin[0] %}
+                                {% assign post-title = post-title | append:  " to " %}
+                                {% assign post-title = post-title | append:  leg.properties.destination[0] %}
+                                {% assign post-title = post-title | append:  " via " %}
+                                {% assign post-title = post-title | append:  leg.properties.operator[0] %}
+                                {% assign post-title = post-title | append:  " #" %}
+                                {% assign post-title = post-title | append:  leg.properties.number[0] %}
+                                {% if forloop.last == false %}
+                                    {% assign post-title = post-title | append:  " <br> " %}
+                                {% else %}
 
-    <a  name="contact"></a>
-    <div class="banner">
+                                {% endif %}
 
-        <div class="container">
-
-            <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
-                <div class="col-lg-12">
-                    <h2 class="fnp-name">Contact <span class="fn n"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></span></h2>
-                </div>
-                <div class="col-lg-12 hidden">
-                    <img src="/img/thumb1.jpg" alt="Photo of {{ site.givenname }} {{ site.familyname }}" class="photo u-photo"/>
-                    <div class="p-adr hidden">
-                        <span class="p-locality">{{ site.locality }}</span>,
-                        <span class="p-region">{{ site.region }}</span>
-                        <span class="p-country-name">{{ site.country }}</span>
-                        <span class="p-note hidden aria-hidden">
-                            {% for paragraphs in site.biography %}
-                                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
-                                <p>{{paragraph}}</p>
                             {% endfor %}
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <ul class="list-inline intro-social-buttons">
-                        <li>
-                            <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-home fa-fw"></i> <span class="network-name">Home Page</span></a>
-                        </li>
-                        {% if site.keybaseio_username %}
-                        <li>
-                            <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg"><i class="fa fa-key fa-fw"></i> <span class="network-name">Keybase.io</span></a>
-                        </li>
-                        <li>
-                            <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey"><i class="fa fa-key fa-fw"></i> <span class="network-name">PGP Key</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.email %}
-                        <li>
-                            <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.whatsapp_username %}
-                        <li>
-                            <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url"><i class="fa fa-whatsapp fa-fw"></i> <span class="network-name">WhatsApp</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.phonenumber %}
-                        <li>
-                            <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel"><i class="fa fa-phone fa-fw"></i> <span class="network-name">{{ site.phonenumber }}</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                    </ul>
-                </div>
-
-                {% if site.github_username or
-                      site.linkedin_username or
-                      site.twitter_username or
-                      site.facebook_username or
-                      site.google_username or
-                      site.youtube_username or
-                      site.pinterest_username or
-                      site.reddit_username or
-                      site.instagram_username or
-                      site.indiewebcamp_username or
-                      site.quora_username %}
-
-                <div class="col-lg-12">
-                    <a  name="elsewhere"></a>
-                    <h3 class="fnp-name">Elsewhere Online</h2>
-                </div>
-                <div class="col-lg-12">
-                    <ul class="list-inline intro-social-buttons">
-                        {% if site.github_username %}
-                        <li>
-                            <a href="https://github.com/{{ site.github_username }}/" rel="me" class="btn btn-default btn-lg u-x-github u-url"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.linkedin_username %}
-                        <li>
-                            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me" class="btn btn-default btn-lg u-x-linkedin u-url"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.twitter_username %}
-                        <li>
-                            <a href="https://twitter.com/{{ site.twitter_username }}" rel="me" class="btn btn-default btn-lg u-x-twitter u-url"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.facebook_username %}
-                        <li>
-                            <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me" class="btn btn-default btn-lg u-x-facebook u-url"><i class="fa fa-facebook-official fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.google_username %}
-                        <li>
-                            <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me" class="btn btn-default btn-lg u-x-google u-url"><i class="fa fa-google-plus-official fa-fw"></i> <span class="network-name">Google+</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.youtube_username %}
-                        <li>
-                            <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me" class="btn btn-default btn-lg u-x-youtube u-url"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.pinterest_username %}
-                        <li>
-                            <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me" class="btn btn-default btn-lg u-x-pinterest u-url"><i class="fa fa-pinterest fa-fw"></i> <span class="network-name">Pinterest</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.reddit_username %}
-                        <li>
-                            <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me" class="btn btn-default btn-lg u-x-reddit u-url"><i class="fa fa-reddit fa-fw"></i> <span class="network-name">Reddit</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.instagram_username %}
-                        <li>
-                            <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me" class="btn btn-default btn-lg u-x-instagram u-url"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.quora_username %}
-                        <li>
-                            <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me" class="btn btn-default btn-lg u-x-quora u-url"><i class="fa fa-quora fa-fw"></i> <span class="network-name">Quora</span></a>
-                        </li>
-                        {% else %}
-                        {% endif %}
-                        {% if site.indiewebcamp_username %}
-                        <li>
-                            <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me" class="btn btn-default btn-lg u-x-external-link u-url"><i class="fa fa-external-link fa-fw"></i> <span class="network-name">IndieWeb</span></a>
-                        </li>
-                        {% else %}
                         {% endif %}
 
-                    </ul>
-                </div>
-                {% endif %}
-            </div>
+
+                        {% if post-content == null or post-content == empty %}
+                            {% assign post-content = this-post.content %}
+                        {% endif %}
+                        {% assign post-content = post-content | strip %}
+
+
+                        <li>
+                        <a href="{{ post-url }}" id="social-share-{{this-post.slug}}">{{ post-title }}</a>
+                            {% if post-content.size != 0 %}
+                              <p id="social-share-content-{{this-post.slug}}">{{ post-content }}</p>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
+
+
+
+          </div>
         </div>
-        <!-- /.container -->
+      </div>
+  {% assign sorted_homepage = (site.categories.['home'] | sort: 'order' %}
+  {% assign count = 0 %}
+  {% for post in sorted_homepage %}
+      {% assign count = count | plus: 1 %}
+      {% assign mod = count | modulo: 2 %}
+      <a name="{{ post.title | slugify}}"></a>
 
-    </div>
-    <!-- /.banner -->
+      <div class="row no-gutters">
+
+        {% if mod != 1 %}<!-- odd -->
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+        {% else %}
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('{{site.siteurl}}/{{post.image}}');" role="listitem" aria-labelledby="{{post.image-credits-title}} by {{post.image-credits-artist}}"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+        {% endif %}
+
+
+
+          {% if post.title-url and post.title-url != "" and post.title-url != nil %}
+              <h2><a href="{{post.title-url}}" target="_blank" rel="noopener noreferrer">{{ post.title}}</a></h2>
+          {% else %}
+              <h2>{{ post.title}}</h2>
+          {% endif %}
+          <p class="lead mb-0">{{ post.description}}</p>
+          <ul>    
+              {% for bullet in post.bullets %}
+                  <li>{{ bullet }} </li>
+              {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+  {% endfor %}
+    </section>
+
+
+
+    <!-- Icons Grid -->
+    <!--
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>Fully Responsive</h3>
+              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>Bootstrap 4 Ready</h3>
+              <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+              <h3>Easy to Use</h3>
+              <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Testimonials -->
+    <!--
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">What people are saying...</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+              <h5>Margaret E.</h5>
+              <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+              <h5>Fred S.</h5>
+              <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+              <h5>Sarah W.</h5>
+              <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- Call to Action -->
+    <!--
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
 
     <!-- Footer -->
-    {% include footer.html %}
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="https://www.tedt.org/">Home</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="https://www.tedt.org/#about">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="https://www.tedt.org/#contact">Contact</a>
+              </li>
+              <!--
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li> -->
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="https://www.tedt.org/1993/01/01/privacy-policy/">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">Copyright &copy; Ted Tschopp <script>document.write(new Date().getFullYear())</script>. All Rights Reserved</p>
+          </div>
+          <div class="col-lg-8 h-100 text-center text-lg-right my-auto">
+           {% if site.github_username or
+                  site.linkedin_username or
+                  site.twitter_username or
+                  site.facebook_username or
+                  site.google_username or
+                  site.youtube_username or
+                  site.pinterest_username or
+                  site.reddit_username or
+                  site.instagram_username or
+                  site.indiewebcamp_username or
+                  site.quora_username %}
+            <ul class="list-inline mb-0">
+              {% if site.github_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://github.com/{{ site.github_username }}/" rel="me"><i class="fab fa-github fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.linkedin_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" rel="me"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.twitter_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://twitter.com/{{ site.twitter_username }}" rel="me"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.facebook_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.facebook.com/{{ site.facebook_username }}" rel="me"><i class="fab fa-facebook fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.google_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://plus.google.com/u/0/+{{ site.google_username }}" rel="me"><i class="fab fa-google-plus-official fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.youtube_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.youtube.com/user/{{ site.youtube_username }}/" rel="me"><i class="fab fa-youtube fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.pinterest_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.pinterest.com/{{ site.pinterest_username }}/" rel="me"><i class="fab fa-pinterest fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.reddit_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.reddit.com/user/{{ site.reddit_username }}/" rel="me"><i class="fab fa-reddit fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.instagram_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.instagram.com/{{ site.instagram_username }}/" rel="me"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.quora_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://www.quora.com/profile/{{ site.quora_username }}/" rel="me"><i class="fab fa-quora fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              {% if site.indiewebcamp_username %}
+              <li class="list-inline-item mr-3">
+                  <a href="https://indieweb.org/User:{{ site.indiewebcamp_username }}/" rel="me"><i class="fas fa-external-link-alt fa-lg fa-fw"></i></a>
+              </li>
+              {% else %}
+              {% endif %}
+              <li class="list-inline-item">
+                <a href="{{ site.siteurl }}" rel="me" >
+                  <i class="fas fa-home fa-lg fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </footer>
 
-    <!-- Bootstrap Core JavaScript -->
-    {% include js-bootstrap.html %}
 
-    <!-- Google Analytics JavaScript -->
-    {% include js-google-analytics.html %}
-</body>
+
+
+
+
+
+
+
+  
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
 </html>
