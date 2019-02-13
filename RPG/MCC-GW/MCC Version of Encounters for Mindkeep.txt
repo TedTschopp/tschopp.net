@@ -388,20 +388,116 @@ The MindKeep
 			4 x Blood Bird Skeletons - A Mutated Scarlet Tanager with red feathers standing a meter tall.  
 
 			5 x Accelera Dose: A 10 centimeter long disposable jet-spray tube of a compound developed to accelerate healing. Characters who spray the compound under their skin immediately heal 1d10 Hit Points of damage. There is a 40% chance that this compound will work on Humanoids and a 20% chance it will work on Mutated Animals. If it fails to work, the user is considered to have been exposed to 3d6 Intensity Level poison as a result of using the substance.
-			1 x Antiradiation Serum	Ancient Pharmaceuticals & Drugs	This drug is contained in a 10-centimeter long disposable jet spray tube.  It prevents radiation damage.  If sprayed under the skin with 3 turns of exposure, the character suffers no damage or mutation from the radiation.  	
+			1 x Anti-radiation Serum	Ancient Pharmaceuticals & Drugs	This drug is contained in a 10-centimeter long disposable jet spray tube.  It prevents radiation damage.  If sprayed under the skin with 3 turns of exposure, the character suffers no damage or mutation from the radiation.  	
 			2 x A 10-centimeter long disposable jet spray tube of a substance that breaks down most chemicals not normally found in the human body. If taken within 30 seconds of exposure to a drug or Poison, the user experiences no effect from the drug or Poison. There is an 85% chance of this substance working on Humanoids and a 25% chance of it working on Mutated Animals. If it works on a Mutated Animal or Humanoid, special chemicals manufactured inside the user's body (as a result of some mutation letting him make poison attacks, for example) are also broken down and the user can't use his mutational ability for the next 4 hours.
 			4 x A 10 centimeter long disposable jet-spray tube containing a special stimulant that doubles the user's Speed increases his DX by 1 and increases his PS by 3 for a period of 1 hour. The user must rest for 8 hours immediately after the dose wears off or he takes a permanent loss of 3 from his CN. His Hit Point Score isn't affected by this Constitution loss. If it doesn't work, the patient undergoes immediate exposure to Intensity Level 3d6 poison.
 			2 x A 15 centimeter long disposable jet-spray tube, containing special pain reducing drugs. The user feels no pain for the next 4 hours and can sustain 1 additional Hit Point for each point of Constitution. When the drug wears off, the user loses the ability to sustain this extra damage. If, at that point, he has no Hit Points left, he is dead.
 			12 x A 50-centimeter cracker-like wafer that gives all needed nourishment and short-circuits hunger signals to the brain for 24 hours. Use of this substance as the sole source of nourishment for more than a month results in the atrophying of normal digestive organs making it impossible for the user to derive sustenance from anything except this substance. There is a 95% chance that it will work for a Humanoid and an 80% chance that it will work for a Mutated Animal. If it doesn't work, the user is exposed to 3d4 Intensity Level poison.
 			1 x Chameleon Rifle no ammo
-			37 x crates of sealed rations (each crate contines food for 1 person for 1 year)
+			37 x crates of sealed rations (each crate contains food for 1 person for 1 year)
 
 	(l11) - The Alpha Factor
+			This entire space is one huge room. Most of it is taken up by an awesomely complex machine. There are several lights on the whirring mechanism. There is a doorway into the apparatus, but it can only be opened by the machine. There is a large window opening into the contrivance. Inside is a sterile white room with an unusual reclining chair. On the outside of the machine the characters recognize a microphone and speaker.
+
+			This machine is the Alpha Factor Generator. It is covered with controls, but there is no possible way anyone could have an inkling of how to set them. It is an intelligent machine and cannot be audibly ordered to do anything for which it is not programmed. If a party member asks the machine what it is, it replies	"I am AF-1, the Alpha Factor Generator. Do you wish access?" If the character wishes more information, the machine just ignores him. If the character requests access, AF-1 replies "Security Access Code, please." The access door only opens if the character repeats the phrase "Open the Pod Bay Doors, Hal" (found on one of the slips of paper in Level 5, Room C's safe). AF-1 then says "Please prepare the subject." If asked how, AF-1 responds "Remove all articles of clothing and items from his person and seat him in the recliner." AF-1 answers no more questions at this time.
+
+			Once a character sits down, the door closes, whether someone else is in the room or not (the Generator only affects the character in the chair). AF-1 then says "Scanning subject."
+
+			• If the subject has already received a AF-1 bombardment, AF-1 says, "Alpha Factor Detected.  There are no safe bombardment protocols for this specimen known.  Continued exposure will result in death with bombardments past the primary bombardment.  Request operator identity for security clearance to override safety protocols." 
+
+			• If the subject has a defect, AF-1 says, "Defect detected.  Do you wish to wipe?"  It then bombards the character with radiation and removes one defect.  The subject will then hear the 
+
+			• If the subject is an intelligent plant , AF-1 says, "Botanical specimen detected."
+
+			• If the subject is a mutated animal, AF-1 says, "Zoological specimen detected." 
+
+			• If the subject is a humanoid , AF-1 says "Mutant Humanoid specimen detected."
+
+			• If the subject is an un-mutated human, animal, or plant AF-1 says, "Subject's genetic sequence is baselined.  Request operator identity for security clearance to proceed." Only Osmond Coot's security badge is of sufficiently high authority to allow a human to be mutated. If his name and number are given, AF-1 says, "Clearance accepted." 
+
+			• AF-1 then says: "Do you wish an experimental bombardment, a single mutation, to rebaseline the subject, or apply AF-1's Cities of Men Protocol?" 
+
+				• If Experimental, than roll 1d10. 
+					    1 =  One random defect is generated
+					2 - 7 =  One single new mutation is added
+					8 - 9 =  Two mutations are added
+					   10 = three new mutations are added
+
+				• If Single Mutation, than roll 1dlO. 
+						 Odd = Mental Mutation (yes even for plants)
+						Even = Physical Mutation
+
+				• If Rebaseline, than a humanoid will become a PSH.  A Manimal or a Plantient will become the base species and is now an NPC.
+
+				• If AF-1's Cities of Men Protocol, than the following mutation package is added to the character.  The character can no longer receive any more mutations. 
+
+					Gravitational Senses: Gravitational senses allow someone to detect gravitational lines of force.  This sense is not very handy on the face of a large planet like earth, but was a common mutation available to orbital pilots as it allowed them the ability to detect the gravitational  lines of force in zero gravity, and thus they never will never be lost and will always know where they are.  Additionally it made complex environments like the asteroid belts easier to navigate. 
+						• +3 to Intelligence and Agility / Reflex checks when in zero or near zero G.
+
+					Radiation Hardening: The skin of the mutant is covered in a layer of skin that is impregnated with a substance that grants them a higher degree of immunity to solar radiation
+						• +3 to Stamina / Fortitude checks against radiation based damage. 
+
+					Vacuum Hardening: The eyes, ears, mouth, and nose of the mutant have all been modified to contain a secondary opening that will grant the mutant the ability to survive in the vacuum of space for several minutes.
+						• -3 to Personality based checks with NPCs that knew the mutant before bombardment.
+					
+					Modified Body Parts:  The legs and hands have been shortened while the fingers have been elongated.  The foot has been modified making giving the creature the ability to use their toes as fingers. A prehensile tail has been added if none is present.  If a tail is already present, it is modified to be prehensile. Hair has been modified to include blood vessels and sweat glands, allowing for a greater ability to control body temperature. 
+
+						• The clothing and armor the mutant possesses must be replaced with custom made clothing. 
+						• The mutant possesses a long prehensile tail that acts has an extra arm; mutant gains an additional d14 action die for simple non-combat only; +1 Agility.
+						• +3 to Stamina / Fortitude checks against heat or cold
+
+
+					 Ultravision: The mutant’s vision range extends into both the upper and lower EM frequencies.  Roll per normal MCC rules.
+
+
+
+			AF-1 then says: "Bombardment begins on my mark.  3... 2... 1... MARK!"
+
+			No specimen can undergo bombardment more than once; it will die from the effects. 
+
+			AF-1 thinks all of its systems are fine, but it actually can only perform 10 more bombardments after the party is done with it. Then it burns out its self-contained nuclear generator, short circuits itself, and goes dead, never to be revived.
+
+
 	(l12) -
 		Room A - The Armory
+			There is a small plate beside the door in this room, with a depression in the middle. A character must press one of the two strange rings included on Mindkeep Isle into the depression. It then scans the ring for an intricate inner crystal pattern. Only then the door slides open. The door requires 1000 points of damage to open otherwise, and is invulnerable to fire, heat, and lasers. This room is the weapons locker and is chock full of stuff. The actual contents are left for the GM to decide, based on not only the level of technology in his campaign, but also how much the party members used or lost in this adventure.
 		Room B - The Memory Core
+			Jeremiah left a security robot in this room with orders to attack the first person who opens the door. The robot pursues the offenders out onto the balcony and into other rooms. The room is another office, but was emptied quite a while ago of everything but its main computer unit. This is the final resting place ofMindkeep's memory core, the golden fleece of the player characters' quest. There is no possible way to move the entire unit, but it can be accessed by jury-rigging one of the computer terminals to it. 
+
+
+
 		Room C - The Brig holding room for transfer
+			This room is where the security robot places any characters it captures, after it scrips them of weapons. The room was once an executive dining room/kitchen, but is now full of old skeletons. Nothing of value is in here.
+
+
 		Room D - The Armory
+			There is a peculiar lock set into the door of this room. It is a circle of eight buttons (each at a compass point, though the GM should not mention it that way; he should draw it out for the party members). To unlock the door, a character must touch the buttons in the order listed on the slip of paper found in the desk safe on Level 5, Room C, "NW, S, N, S, S, SE.". The door will not open any other way and can sustain 1000 points of damage before it is broken through. Inside this room is a prototype of the original powered attack armor, lent to Mindkeep by its designers for disabling dangerous mutants. It is in perfect condition and has four atomic energy cells stacked next to it.  Guarding the room are two special high security robots. 
+
+			They are currently programmed to defend the armor room from entrance by any creature but Jeremiah, and to respond to Jeremiah's voice commands to defend the top level against attack from the roof.
+
+			Mindkeep Security Robot 'Security Bot Mk II' (1d3 (2)): Init +4; atk 2 x tentacle melee +9 (1d7+6) and 2 x arms melee +9 (1d8+6); AC 18; HD 5D12 hp 33 each; MV 30' or GravPods 200' ; 1d20; SV Fort +3, Ref +1, Will -1	
+
+			This is an upright-walking 2-meter-tall unit that is humanoid in shape.  It has two arms and two 2 meter long tentacles, each equipped for handling instruments and can light 200 kilograms each.  In addition to the tentacles each robot is equipped with a pair of tractor / pressor beams that can lift 200 kilograms at a range of 30 Meters.  Weapons include:
+
+			2 x paralysis rods with a 10' extension DC 18 to avoid
+			1 x energy mace, 1d6+2d10 damage
+			1 x Vibro-blade, 2d12 damage +4 to attack.  
+			1 x Mark V Blaster.  2d8 80/160/240
+			1 x Grenade launcher with 60-meter range and 
+				2 x tear gas grenades DC 12 to save vs. Creatures for 1d10 rounds  50'
+				2 x stun grenades DC 18 to save vs. Creatures or 1d10 rounds 20'
+				6 x chemex 3d6 for 30 foot radius 20'
+				6 x poison gas DC 15 to save or take 1d6 damage each turn in gas for radius of 50'
+				6 x EMP Stun Technology DC 20 vs Fortitude to save for 1d10 rounds 50'
+			
+			These units are programmed to subdue on the first turn only; if they are unable to do that then they are programmed to destroy any lifeform that can not be subdued.  They are programmed to deny access to certain restricted areas.  They have command circuits that allow them to summon medical robots and engineering robots as necessary.	None
+
+
+			The rest of the room is equipped with tools designed for armor repair and · maintainance, and has a suit-up area for the operator.
+
+
+
+
 	(roof) - The Roof
 		Location  1 - The Autobeacon
 		Location  2 - The Broadcast Power
