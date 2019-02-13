@@ -77,9 +77,9 @@ The MindKeep
 		Room H - 
 	(l5) - Level 3 - Medical
 		Room A - 
-			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+			Description:  This is a normal examination room that has has a examination table and cabinets.  The following is found in the room.
 				78 Tongue depressor
-				24 Antisepctic wipes
+				24 Antiseptic wipes
 				64 cotton swabs
 				1 Tuning Fork
 				1 bottle of hand sanitizer
@@ -99,27 +99,27 @@ The MindKeep
 				This room, a dispensary, is a shambles. Jeremiah has arranged a trip wire under the mess. Anyone walking around in the room detonates a stun grenade. Normally Jeremiah would hear this and investigate, but he is too sick to check out traps tripped on this level.
 
 		Room E - 
-			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+			Description:  This is a normal examination room that has has a examination table and cabinets.  The following is found in the room.
 				Tweezers
 				Tuning Fork
 				53 paper cups
 				Ophthalmoscope - (Looks at the Eye)
 		Room F - 
-			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+			Description:  This is a normal examination room that has has a examination table and cabinets.  The following is found in the room.
 				Otoscope - (Looks at the Ear)
 				Thermometer
 				Sink
 				Stethoscope
 
 		Room G - 
-			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+			Description:  This is a normal examination room that has has a examination table and cabinets.  The following is found in the room.
 				1 bottle of Hand sanitizer
 				27 Hygiene wipes packets
 				92 Paper cups
 				1 scale
 
 		Room H - 
-			Description:  This is a normal examiniation room that has has a examination table and cabnets.  The following is found in the room.
+			Description:  This is a normal examination room that has has a examination table and cabinets.  The following is found in the room.
 
 				2 x Hypodermic needle (empty and unsused)
 				X-ray table / Wall display
@@ -184,15 +184,15 @@ The MindKeep
 		Room F1 - Cell N
 			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is missing.  The screen shows that a Bofs pacing back and forth.  He is equipt with 2 x large battle axes (1d10 each), leather armor, and a cloth cloak.  
 
-			The Buffalo Explorer is encountered in the holding cell in the mindkeep.  He refuses to give his name or give any of his background.  He does not know of anything about the city of Oskar, but is looking for his obstinancy of fellow Buffos that have been conned into being indebted to some crazy wolverine.  He is young and was kick out of his obstinancy right before the wolverine showed up.  He is a 2.5 meter tall buffalo.  They walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.  Otis is extremely loyal if the party rescues him; this will override all thoughts on double crossing the person that saved them.
+			The Buffalo Explorer is encountered in the holding cell in the MindKeep.  He refuses to give his name or give any of his background.  He does not know of anything about the city of Oskar, but is looking for his obstinacy of fellow Buffos that have been conned into being indebted to some crazy wolverine.  He is young and was kick out of his obstinacy right before the wolverine showed up.  He is a 2.5 meter tall buffalo.  They walk on their two hind legs that end in hoofs.  Their hands have 4 fingered hands with thumbs.  Their heads and shoulders are extremely hairy. Their hands are somewhat less hairy, while their torso and leg are smooth skinned.  Otis is extremely loyal if the party rescues him; this will override all thoughts on double crossing the person that saved them.
 
 			Bofs 'Otis - Buffalo Explorer' (1): Init +5; atk large horns melee +7 (1d8+4) and trample melee +7 (1d4+4); AC 16; HD 9D7 hp 36; MV 60' ; 1d20+1d14; SV Fort +3, Ref +0, Will +0 Otis is a 2.5 meters tall buffalo who walks on his two hind legs that end in hoofs.  His hands have 4 fingered hands with thumbs.  His heads and shoulders are extremely hairy. His hands are somewhat less hairy, while their torso and leg are smooth skinned.  (P) Large Horns (Dm=9), Heightened Strength, Manipulative hands
 
 
 		Room G1 - Cell O
-			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is heavly damaged and pages are scattered on the floor.  The screen seems to be empty.  If the players make enough noise on the level or spend enough time, a PSH Human Female will appear on the screen hidden.  
+			Description: Holding cell.  This cell has a screen that is still operating on the outside.  The accomplanying paper binder is heavily damaged and pages are scattered on the floor.  The screen seems to be empty.  If the players make enough noise on the level or spend enough time, a PSH Human Female will appear on the screen hidden.  
 
-			Grace Armstrong is a member of the Holy Medicinal Order and a traveling healer.  She heard that the Mindkeep was home to an ancient medical facility and she has come here to inventory the keep and to assess how the Order can best use the equiptment here.   She will join the party in exchange for some of the medical equiptment found.
+			Grace Armstrong is a member of the Holy Medicinal Order and a traveling healer.  She heard that the Mindkeep was home to an ancient medical facility and she has come here to inventory the keep and to assess how the Order can best use the equipment here.   She will join the party in exchange for some of the medical equiptment found.
 
 		Room H1 - Cell P
 			Description: Holding cell.  If the door is tampered with, a small explosive charge will do 3d4 damage to everyone in 5 meters who fails a DC 18 reflex check.  This cell has a screen that is still operating on the outside.  The Cell is Empty
@@ -207,7 +207,7 @@ The MindKeep
 
 		Room D - The White Room
 			Description:
-				This small operating room appears to be completely normal and amazingly clean.  Not until someone touches the white walls will the players realize that they are covered in pure white fungus.  If all the fungus is taken out of the room, chopped up, and boiled down and inhaled as a vapor, it restores hit pints to anyone inhaling it (Fortitude roll to succeedin 4d3 hitpoints to a max of 50 per week).  Anyone with a gatherer's background will know this on a successful intelligence check.  
+				This small operating room appears to be completely normal and amazingly clean.  Not until someone touches the white walls will the players realize that they are covered in pure white fungus.  If all the fungus is taken out of the room, chopped up, and boiled down and inhaled as a vapor, it restores hit pints to anyone inhaling it (Fortitude roll to succeed 4d3 hitpoints to a max of 50 per week).  Anyone with a gatherer's background will know this on a successful intelligence check.  
 		Room E - The Pharmacy
 			Description:
 				The door to this room is open and lights are burned out.  There are two suclith perched above the door.   The room is full of hundreds in injectules.  All empty.
@@ -240,7 +240,7 @@ The MindKeep
 
 						Life Chambers look like plexiglass shower stalls lying on their side. When a dead character is placed inside a working Life Chamber within 24 hours of death, the individual has a 50% chance of being brought back to life, or as the Life Chamber says- “revitalized”.
 
-						The dead character has only one chance to recover. If the attempt fails, all hope is lost for the deceased. When delivered from death, the character has a 25% chance of permanently losing one point from each of their Ability Scores. Be sure to roll seperately for each statistic. The character retains all mutations and memories up to the time of death.
+						The dead character has only one chance to recover. If the attempt fails, all hope is lost for the deceased. When delivered from death, the character has a 25% chance of permanently losing one point from each of their Ability Scores. Be sure to roll separately for each statistic. The character retains all mutations and memories up to the time of death.
 
 						Life Chambers work on all characters with equal efficiency. The  character operating the life chamber must first completely understand the use of the item. Life Chambers are powered by 2 Atomic Power Cells (good for 5 uses) or Broadcast Power (unlimited uses) when available. 
 
@@ -268,16 +268,16 @@ The MindKeep
 
 				There is also a stasis chamber in here that works properly and can be taken away from a plugged in power source for up to four weeks before its power supply runs down.  In the Stasis Chamber is a Ma'ali 
 
-					1 x Maali - alone 'Tall Slasher' (1d2 (1)): Init +5; atk antler melee +5 (1d10+2) and claw melee +5 (1d3+2); AC 13; HD 10D7 hp 40; MV 45' ; 1d20+1d14; SV Fort +1, Ref +0, Will +2	The maali are bipedal descendents of the ancient Nonh American moose. They stand upright on two huge, wide claws chat ace as snow shoes. Their anders are unusually wide and extremely sharp. The maali keep them this way because they use them as melee weapons. Their front hooves have evolved into leathery, four digit , manipulative hands.	Maali live in the forested areas of the Frozen Lands, but have been known to venture forth over the snowy wastes. They are rarely seen out of their natural habitats, except for mercantile ventures into the High Lands to the north for provisions. They are omnivorous, but prefer small mammals, bark, and leaves. Their teeth have developed into formidable crushing machines, and they can eat frozen plants as well as fresh ones. There are only a few Maali villages left in the Frozen Lands, but there are hundreds of smaller, nomadic tribes in the foothills of the High Lands. The Maali have an intense hatred for Harlan Quade's robots. Before Quade's reign of metallic terror began, the Maali were the lords and masters of these plains and wooded lands. They were well liked and respected by the ocher animals and peoples here. But over the centuries they have seen the various peoples killed and the land raped . The Maali have had co resort to severe weather control to strand Harlan's mad attempts at world conquering . They are all that prevents him from moving his Epsilon Cyborgs into the unsuspecting world. However, the Maali's size and fear of underground areas have prevented them from going in  and rooting Quade out of his stronghold. Maali are fascinated by non-robotic high technology and will always cry co acquire devices created by the Ancients. They are very skilled in the handling of such items. Most Maali have knowledge of up to Tech Level III, and some can even be found that know Tech Level IV items. They are wary of outsiders , especially human s, but are seeking aid in their fight against Quade. They have been promised aid by Scar, the mutant animal king of the mountains to the north. But Quade's forces have temporarily halted that aid by trying to assassinate the king (all of this latter plot is the core of the Revised GAMMA WORLD® game module, GWll) . The Maali usually are armed with at lease one Tech Level III weapon, a huge two-handed sword (12/24, otherwise created as a normal two-handed sword), and three javelins. They have escaped destruction by Quade's constructs because of their various mutations, their raw physical power, and their knowledge of the land.
+					1 x Maali - alone 'Tall Slasher' (1d2 (1)): Init +5; atk antler melee +5 (1d10+2) and claw melee +5 (1d3+2); AC 13; HD 10D7 hp 40; MV 45' ; 1d20+1d14; SV Fort +1, Ref +0, Will +2	The maali are bipedal descendents of the ancient Nonh American moose. They stand upright on two huge, wide claws chat ace as snow shoes. Their anders are unusually wide and extremely sharp. The maali keep them this way because they use them as melee weapons. Their front hooves have evolved into leathery, four digit , manipulative hands. Maali live in the forested areas of the Frozen Lands, but have been known to venture forth over the snowy wastes. They are rarely seen out of their natural habitats, except for mercantile ventures into the High Lands to the north for provisions. They are omnivorous, but prefer small mammals, bark, and leaves. Their teeth have developed into formidable crushing machines, and they can eat frozen plants as well as fresh ones. There are only a few Maali villages left in the Frozen Lands, but there are hundreds of smaller, nomadic tribes in the foothills of the High Lands. The Maali have an intense hatred for Harlan Quade's robots. Before Quade's reign of metallic terror began, the Maali were the lords and masters of these plains and wooded lands. They were well liked and respected by the ocher animals and peoples here. But over the centuries they have seen the various peoples killed and the land raped . The Maali have had co resort to severe weather control to strand Harlan's mad attempts at world conquering . They are all that prevents him from moving his Epsilon Cyborgs into the unsuspecting world. However, the Maali's size and fear of underground areas have prevented them from going in  and rooting Quade out of his stronghold. Maali are fascinated by non-robotic high technology and will always cry co acquire devices created by the Ancients. They are very skilled in the handling of such items. Most Maali have knowledge of up to Tech Level III, and some can even be found that know Tech Level IV items. They are wary of outsiders , especially human s, but are seeking aid in their fight against Quade. They have been promised aid by Scar, the mutant animal king of the mountains to the north. But Quade's forces have temporarily halted that aid by trying to assassinate the king (all of this latter plot is the core of the Revised GAMMA WORLD® game module, GWll) . The Maali usually are armed with at lease one Tech Level III weapon, a huge two-handed sword (12/24, otherwise created as a normal two-handed sword), and three javelins. They have escaped destruction by Quade's constructs because of their various mutations, their raw physical power, and their knowledge of the land.
 
 					Stasis Chamber Description:
-						The Stasis Chamber creates a stasis field that preserves a living body indefinately as long as Broadcast Power or solar radiation for its Solar Cells is available. Stasis Chambers can only be used if fully understood by the user. The person contained within exists in a state of sleep-like suspended animation and is unaware of all events. If the power fails, the character in the chamber will die within 4 hours. The only way to save the person is to reactivate the device.
+						The Stasis Chamber creates a stasis field that preserves a living body indefinitely as long as Broadcast Power or solar radiation for its Solar Cells is available. Stasis Chambers can only be used if fully understood by the user. The person contained within exists in a state of sleep-like suspended animation and is unaware of all events. If the power fails, the character in the chamber will die within 4 hours. The only way to save the person is to reactivate the device.
 
 
 		
 		Room D - Head of research
 			Description: 
-				This was the office of the head of research. It is still a plush office, with rich leather chairs, thick carpeting, and a huge picture of a grey-haired gentleman on the wall. Under the picture is a table on which sit burning candles and incense, rather like a shrine. The plaque on the picture reads "Osmond Coot - Founder of Mindkeep." This is the ancient forefather of Jere mi ah and Ermon, the man who began Project Mindkeep. Jeremiah reveres him like a god. though Osmond was dead centuries before Jeremiah was born, and he keeps up th is office in the hope that Osmond will return some day.
+				This was the office of the head of research. It is still a plush office, with rich leather chairs, thick carpeting, and a huge picture of a grey-haired gentleman on the wall. Under the picture is a table on which sit burning candles and incense, rather like a shrine. The plaque on the picture reads "Osmond Coot - Founder of Mindkeep." This is the ancient forefather of Jeremiah and Ermon, the man who began Project Mindkeep. Jeremiah reveres him like a god. though Osmond was dead centuries before Jeremiah was born, and he keeps up th is office in the hope that Osmond will return some day.
 
 				The office desk is locked, but easily jimmied. Inside are all sorts of interesting items: a wristwatch on which only the stopwatch function still operates, a pocket calculator that operates on sunlight or incandescent light, a heart rate/blood pressure/body temperature monitor, and a picture of Mindkeep when it was first built (the GM can make this up as he goes).
 
@@ -394,7 +394,7 @@ The MindKeep
 			2 x A 15 centimeter long disposable jet-spray tube, containing special pain reducing drugs. The user feels no pain for the next 4 hours and can sustain 1 additional Hit Point for each point of Constitution. When the drug wears off, the user loses the ability to sustain this extra damage. If, at that point, he has no Hit Points left, he is dead.
 			12 x A 50-centimeter cracker-like wafer that gives all needed nourishment and short-circuits hunger signals to the brain for 24 hours. Use of this substance as the sole source of nourishment for more than a month results in the atrophying of normal digestive organs making it impossible for the user to derive sustenance from anything except this substance. There is a 95% chance that it will work for a Humanoid and an 80% chance that it will work for a Mutated Animal. If it doesn't work, the user is exposed to 3d4 Intensity Level poison.
 			1 x Chameleon Rifle no ammo
-			37 x crates of sealed rations (each crate contines food for 1 person for 1 year)
+			37 x crates of sealed rations (each crate contains food for 1 person for 1 year)
 
 	(l11) - The Alpha Factor
 	(l12) -
