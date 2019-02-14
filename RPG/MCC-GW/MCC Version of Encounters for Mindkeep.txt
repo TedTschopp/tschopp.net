@@ -284,7 +284,7 @@ The MindKeep
 				If the desk is thoroughly searched a small button is found. When someone presses the button, the picture of Osmond clicks open and swings away. Behind it is a combination safe. The combination is the one found downstairs, "22-31-45." This is the only way to open this safe without destroying the contents. Inside is a Code V ID bracelet, Osmond's identity badge reading, "Coot, Osmond-000110," and a sealed envelope.  The envelope contains the location of the military base in the southern lands with a warning to Osmond to go there "should the invaders return."
 
 	(l10) Level 8 Living Quarters
-		Room A - Epher's Living Quarters
+		Room A - Harlan Quade's Living Quarters
 			Bunsen burner, no fuel line
 			Radiation Suit (+30 vs radiation)
 			Force Field Generator (40 damage absorption) (chemical power cell with 9 rounds remaining)
@@ -306,7 +306,7 @@ The MindKeep
 			Heayy Plastic Helmet
 			Duralloy Shield
 
-		Room B - Ishi's Living Quarters - 
+		Room B - Oscar North's Living Quarters - 
 			Fishing rod
 			An iron
 			Musket with 1 ball
@@ -322,7 +322,7 @@ The MindKeep
 			Duralloy Shield
 
 
-		Room C - Eliel's Living Quarters - Chaplin 
+		Room C - Robert Markus's Living Quarters - Chaplin 
 			Heayy Plastic Helmet
 			Duralloy Shield
 			Stun Ray Pistol (no power cell)
@@ -339,7 +339,7 @@ The MindKeep
 			Spark plug
 
 
-		Room D - Azriel's Living Quarters - Head of Security
+		Room D - Donald MacTank's Living Quarters - Head of Security
 			Dog Whistle
 			Manual Can Opener
 			Sports Trophy
@@ -355,11 +355,11 @@ The MindKeep
 			Duralloy Shield
 
 	(l11) Level 9 Living Quarters
-		Room A - Jeremiah's Living Quarters
+		Room A - Jeremiah Coot's Living Quarters
 
-		Room B - Hodaviah's Living Quarters
+		Room B - Dr. Richard Hutner's Living Quarters
 
-		Room C & D - Abigail's Living Quarters - Nurse
+		Room C & D - Abigail Olson's Living Quarters - Nurse
 			Description: Nurse Abigail's quarters are in pristine condition.  There are bookshelves with medical books on the shelves.   There is a bed and a desk.  There are holo pictures a young couple that dissolves into a 3D image of a of a young boy in the womb.  There are also pictures of a middle-aged woman and man that look like the Woman in the photo of the young couple.
 
 
@@ -464,7 +464,19 @@ The MindKeep
 		Room B - The Memory Core
 			Jeremiah left a security robot in this room with orders to attack the first person who opens the door. The robot pursues the offenders out onto the balcony and into other rooms. The room is another office, but was emptied quite a while ago of everything but its main computer unit. This is the final resting place ofMindkeep's memory core, the golden fleece of the player characters' quest. There is no possible way to move the entire unit, but it can be accessed by jury-rigging one of the computer terminals to it. 
 
-
+			HULL or BODY: Ceramic/plasteel alloy.
+				* City of Mecula 
+				* City of Dollar
+			ENVIRONMENTAL EQUIPMENT: Food, water, basic needs, including special garments, apparatus, and life support systems.
+				* Mind Keep
+			ENGINE: Something called the XL-1 engine with TCN fuel.
+				* 
+			NAVIGATIONAL AND PILOTING
+			EXPERTS: Listed as humans currently in cryogenic stasis.
+			DRY DOCK AND LAUNCH AREA: The name and location of the area is so highly classified that no one can access it anymore, even with all the passwords, codenames, and ID numbers given in this adventure.
+				* Gamma Base
+			SPECIALIZED ROBOTS: Custom
+				* Epsilon Cyborgs
 
 		Room C - The Brig holding room for transfer
 			This room is where the security robot places any characters it captures, after it scrips them of weapons. The room was once an executive dining room/kitchen, but is now full of old skeletons. Nothing of value is in here.
@@ -486,7 +498,7 @@ The MindKeep
 			1 x Grenade launcher with 60-meter range and 
 				2 x tear gas grenades DC 12 to save vs. Creatures for 1d10 rounds  50'
 				2 x stun grenades DC 18 to save vs. Creatures or 1d10 rounds 20'
-				6 x chemex 3d6 for 30 foot radius 20'
+				6 x Chemex 3d6 for 30 foot radius 20'
 				6 x poison gas DC 15 to save or take 1d6 damage each turn in gas for radius of 50'
 				6 x EMP Stun Technology DC 20 vs Fortitude to save for 1d10 rounds 50'
 			
