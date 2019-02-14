@@ -235,7 +235,8 @@
 
     .GammaWorld {
         font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #000000;
-        text-shadow: 0 0 0px #000000;
+        color: #DC143C; 
+        // color: Crimson
+        font-weight: bold;
     }
     pre#ascii-container-image { font: bold 8px/5px monospace; color: #000; clear: left; }
