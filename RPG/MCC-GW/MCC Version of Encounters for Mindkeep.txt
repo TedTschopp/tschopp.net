@@ -465,18 +465,34 @@ The MindKeep
 			Jeremiah left a security robot in this room with orders to attack the first person who opens the door. The robot pursues the offenders out onto the balcony and into other rooms. The room is another office, but was emptied quite a while ago of everything but its main computer unit. This is the final resting place ofMindkeep's memory core, the golden fleece of the player characters' quest. There is no possible way to move the entire unit, but it can be accessed by jury-rigging one of the computer terminals to it. 
 
 			HULL or BODY: Ceramic/plasteel alloy.
-				* City of Mecula 
-				* City of Dollar
+				* City of Temecula Home of the Land of Disney has a space museum
+				* Edwards Space Port has a visitor center with a hull
+
 			ENVIRONMENTAL EQUIPMENT: Food, water, basic needs, including special garments, apparatus, and life support systems.
-				* Mind Keep
+				- Food
+					* Mindkeep
+					* Ermon's Mushrooms
+				- Sterilaized Water
+				- Garments
+					* Hinsdale Air Force Base (Gamma Base)
+					* Rocketdyne Manufacture
 			ENGINE: Something called the XL-1 engine with TCN fuel.
-				* 
-			NAVIGATIONAL AND PILOTING
-			EXPERTS: Listed as humans currently in cryogenic stasis.
+				- XL-1 (Extra-light Type 1 Engine)
+				- TCN - Tetra Octaazacubane Fuel
+					* Edwards Space Port
+					* TCN Fuel can be found in the Delta Fragment
+			NAVIGATIONAL AND PILOTING EXPERTS: Listed as humans currently in cryogenic stasis.
+				* Edwards Space Port
+				* Harlan Quade was stationed at Edwards Space Port
+				* Harlan Quade left with RocketDyne Plans to manufacture Piloting Cyborgs
 			DRY DOCK AND LAUNCH AREA: The name and location of the area is so highly classified that no one can access it anymore, even with all the passwords, codenames, and ID numbers given in this adventure.
-				* Gamma Base
+				* Hinsdale Air Force Base (Gamma Base)
 			SPECIALIZED ROBOTS: Custom
-				* Epsilon Cyborgs
+				* Epsilon Cyborgs manufactured by RocketDyne
+			DOCKING COORDINATES
+				* Oscar North
+				* Computer System at Mindkeep
+
 
 		Room C - The Brig holding room for transfer
 			This room is where the security robot places any characters it captures, after it scrips them of weapons. The room was once an executive dining room/kitchen, but is now full of old skeletons. Nothing of value is in here.
@@ -487,7 +503,7 @@ The MindKeep
 
 			They are currently programmed to defend the armor room from entrance by any creature but Jeremiah, and to respond to Jeremiah's voice commands to defend the top level against attack from the roof.
 
-			Mindkeep Security Robot 'Security Bot Mk II' (1d3 (2)): Init +4; atk 2 x tentacle melee +9 (1d7+6) and 2 x arms melee +9 (1d8+6); AC 18; HD 5D12 hp 33 each; MV 30' or GravPods 200' ; 1d20; SV Fort +3, Ref +1, Will -1	
+			2 x Mindkeep Security Robot 'Security Bot Mk II' (1d3 (2)): Init +4; atk 2 x tentacle melee +9 (1d7+6) and 2 x arms melee +9 (1d8+6); AC 18; HD 5D12 hp 33 each; MV 30' or GravPods 200' ; 1d20; SV Fort +3, Ref +1, Will -1	
 
 			This is an upright-walking 2-meter-tall unit that is humanoid in shape.  It has two arms and two 2 meter long tentacles, each equipped for handling instruments and can light 200 kilograms each.  In addition to the tentacles each robot is equipped with a pair of tractor / pressor beams that can lift 200 kilograms at a range of 30 Meters.  Weapons include:
 
@@ -507,30 +523,69 @@ The MindKeep
 
 			The rest of the room is equipped with tools designed for armor repair and · maintainance, and has a suit-up area for the operator.
 
-
-
-
 	(roof) - The Roof
+		The roof of Mindkeep is made of the same materials as the rest of the building. Once the player characters ascend to this level the GM can show them the roof map. In the midd le of the roof are two more smaller cylinders that house the elevator works. Note that all of the features are numbered; these are described below.
+
+		In the nest is a yexil with minimum statistics. It drops down and attacks whoever lands on the roof, climbs up the side to the roof, or exits onto the roof from the hatchway. It is a vicious creature and does not negotiate at all. Unbeknownst to the party this is a very young yexil awaiting its mother's return. Five turns after anyone steps onto the roof, the mother comes back. She is the mate of the yexil who died in the moat and whose skeleton now lies on the island's shore. She is enraged all the time and is the scourge of the plateau. She can attack as she swoops. Anyone trying to hit her with anything has a -4 CS penalty due to her speed and manueverability.
+
+		Baby Yexil: Init +6; atk bite melee +9 (1d14+6); AC 14; HD 11D7 hp 11 each; MV 25' or Fly 45' ; 1d20; SV Fort +0, Ref +0, Will -1 (P) Immune to Cold, Laser Eyes(Heat 3d6 Range = LoS)
+
+		Mommy Yexil: Init +6; atk bite melee +9 (1d14+6); AC 14; HD 11D7 hp 44 each; MV 30' or Fly 60' ; 1d20+1d16; SV Fort +1, Ref +0, Will -1	(P) Immune to Cold, Laser Eyes (Heat d6d Range = LOS)
+
+		The yexil, or orange scarfer, is an intelligent non-humanoid mutant animal. It is descended from the lion, but only vaguely resembles it's ancestor. Their front limbs have evolved into functional wings with hands growing from them. They have large mandibles growing from their mouths. Yexils can emit laser blasts from their eyes and are immune to cold. 
+
+		This exotic animal looks like a cross between a bat and a lion. It has a 9-meter wingspan, with a human hand at the point of each blade. Its head looks like a male lion, with the addition of two pinching mandibles. It stands on two lion-like paws. The yexil is covered with a thick pelt of orange fur, with an extremely bushy mane of golden brown. Females have a marsupial pouch in which they carry their young until the infants reach the age at which they are able to learn to fly. 
+
+		Yexils can project a laser beam from their eyes and can also pinch with their mandibles, but rarely get close enough for this melee attack. Yexil fur has a special genetic insulating fiber content that repels intense cold, making them immune to such attacks. In general, unless their young are threatened or they have been cornered or captured, yexils will not stay and fight, preferring to flee to safety. Yexils are extremely miserable when kept in captivity, even as a whole family, and soon die from this. 
+
+		Yexils are friendly creatures, but slightly slow-witted. They travel in small prides, sometimes as an extended family, and they mate for life. They are very receptive to intelligent interaction with other species. The most striking oddity about yexils are their love of various types of hide and cloth, particularly synthetic fibers, as food. They are known to trade virtually anything, including artifacts (for which they have little use), in exchange for material for tasty sustenance. The more gaudy and outrageous a piece of fabric or garment looks, the more appealing it is to a yexil. If killed, their pelts will not maintain their unusual ability to resist cold, so yexils are generally left in peace.
+
 		Location  1 - The Autobeacon
+			This three-meter-tall unit was an autobeacon which was used to guide aircars into Mindkeep. It is completely non-operational now, but there are lots of salvagable parts inside.
+
 		Location  2 - The Broadcast Power
+			This six meter globe was the broadcast power station's antenna. It is covered with slightly curved, silvered, 10-centimeter squares. It is this faceted, mirrored ball which often catches the sun's rays and reflects them, drawing attention to Mindkeep. A character with a Physical Strength of 10 or better and an instrument at least as strong as steel can pry these squares off. It takes five minutes to remove one square.
+
 		Location  3 - Environmental Control Systems
+			This two-meter-tall concrete structure houses the heating and air-conditioning vent. Anyone trying to crawl down it first encounters a 6d6 electrical field designed to discourage intruders. This field is about three meters down the shaft. Ater that is a series of baffles through which even a lil would have problems squeezing.
+
+
 		Location  4 - The Communications Array
+			This small forest of antennae are from one to two meters in height. They are extremely light weight, yet durable. They are the Think Tank's receivers and are now totally worthless.
+
 		Location  5 - The Hatch
+			This is the hatchway to Level 12. It cannot be opened without a Code V ID bracelet and requires 1000 points of damage to break. It also has an internal alpha matter bomb set to explode if the hatch is breached in any other manner except with a bracelet, but the bomb is directed so its blast is outwards. Anyone on the steps inside the installation at the time of the blast only takes ld6 points of damage.
+
 		Location  6 - Motion Detector
+			This device is similar to the cone detectors on the island below. It served to detect any movement above the installation up to a kilometer away. It is now wonhless.
+
 		Location  7 - Landing Pad
+			The painted markings can barely be seen now, but this was the landing pad for executive aircars arriving at Mindkeep .
+
 		Location  8 - Grappling Hook
+			Any character searching this edge finds an old grapple rusted onto the roof. A rotten piece of rope is still tied to it . It was left here decades ago by a would-be explorer who fell to his death.
+
 		Location  9 - The Entrance to the Elevator Repair Bay
+			This two-meter doorway opens into structure # 10. It requires a Code III ID bracelet to enter. The door can sustain 400 points of damage before caving in.
+
 		Location 10 - The Elevator Repair Bay
+			This three-meter-high, 18-meter-diameter structure is the repair bay for the elevator cars. All of them are now in this bay. They all ascended here when the nuclear generator failed and the back-up system came on . That was long ago and the back-up system is now drained. Each car has an up and down button that must be held in for the car to move. In car number 3 is the remains of a survivor of Mindkeep. A badge reading, "Pushkin, Flip-975368" is pinned to its rotted uniform. There is also a laser pistol, but it is worthless as he destroyed it trying to batter his way out after trying to cut free with the laser.
+
 		Location 11 - The Bone Yard
+			This number represents the ring of bones surrounding the upper structure. This is where the yexil female throws the remains of her meals. Every once in a while she flaps her wings and blows the debris away, down to the ground or moat . There are all kinds of bones here, but none of them have any kind of synthetic material on them. If the PCs search the entire mass of debris (which takes four hours), they find two Kevlar helmets that are a little gnawed but otherwise fine, three chemical energy cells, and an operational flashlight with a sealed battery that never needs recharging.
+
 		Location 12 - The Weather Station
+			This large metal cylinder houses the weather detecting package used by the installation in its heyday. There is no way to remove it other than cutting it out, and that requires a laser torch. The package is still usable by anyone with a Tech Level IV knowledge of machines. It can detect weather patterns up to 12 hours away.
+
 		Location 13 - The Elevator Shaft 
+			This is the upper structure of the elevacor works, holding all the pulleys and such for the cables. It is a four-me ter-high, nine-meterdiameter cylinder with no apparent opening (a hatch is on top of the structure). Once inside the cylinder, party members find a long dead Mindkeep member and a hole that was cut from the elevator shafts into the elevator works ( the hole is not visible from the elevator cars). This character was also stuck here when the power failed and tried co get the cars moving again. By the condition of his skeleton, it appears as though his laser torch slipped and cut into his leg. He lay here and bled to death. Most of his tools and his badge slipped from the ledge on which he lies, into the 12-level shaft. Only the laser torch remains, but it needs a new hydrogen cell.
+
 		Location 14 - The Next of the Yelix
+			This is the yexil's nest. Taking it apart requires at least three hours. It is a foul task, as the yexil is not a clean beast. If searching the entire nest, the party finds a flask of herbicide and a tube of gray neutralizing pigment that once belonged to victims who became yexil lunch.
+
 		Location 15 - The Underground Observation Post - Now Destroyed
+			This is a camera and microphone setup that was wired to the underground observation post.  It has now been broken by the Yexil
+
 		Location 16 - The Elevator Hatch
+			This is the access hatch into the top elevator works structure. The hatch requires a Code III ID bracelet to enter. It can withstand 500 points of damage before caving in. A crawldown ladder leads to a small circular ramp inside (see #13).
 
-
-
-	
-You are with your family at home, and you are waking up from a relaxing long night.  The room is hot and sticky, and there are an unusual number of flies that buzz around annoyingly.  You get up and run your fingers though your hair and notice a bump at the back of your head.  A family member turns to you and asks, "What's wrong?"  You tell them.  They ask to see it. You part your hair, and in doing so you feel the "bump" open.  You hear a scream behind you; "YOUR HEAD IS FULL OF MAGGOTS?!" and turn around to see a pile of fies and maggots on the ground.  Your vision goes dark and you pass back into a restless sleep.
-
-You are astride your mount, an unusual lizard creature, charging down a trail over rolling hills. Ahead of you your leader motions to the left where a herd of large rock gray creatures slowly graze on the grass.  Excitement fills your heart as you realize you are about to harvest a Land Pearl.  You pass your leader and charge into battle.  The bumps on your head and back start to quiver in anticipation.  The cape you earned from that last raid on the village snaps smartly in the wind.  After today, you will be able for another promotion.  Your hunt lead has picked out the weak member of the heard and you charge ahead into a cloud of green gas.  The pain.  Something has hit you.  You are thrown from your mount.  More Pain.  Darkness and Pain.  A Flash of lights streaming past you, stars?  You are hurtling down towards a giant light.  A large sphere with rings pass you on the right.  Another Red Cloudy ball.  A Ring of glowing pebbles.  A small Red Dot.  More falling towards the large light.  A Grey shape that looks like the pockmarked head of something smacks you from the side.  More darkness.  More Pain.  You are now looking down on yourself.  The cape is pulled from your body and you climb aboard you put it into your backpack.  More pain.  More darkness.  But you now realize it is no longer cold.  It has been cold for so long.
