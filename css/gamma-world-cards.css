@@ -97,8 +97,76 @@
         padding: 57px 18px 1px 18px;
         background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper.png);
         background-repeat: repeat;
-        text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 2px rgba(115, 115, 121, 0.3);
+        text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 4px rgba(115, 115, 121, 0.3);
     }
+
+
+#gw--gradient {
+    position: fixed;
+    width: 100vw;
+    background: #061c17;
+    background: radial-gradient(#163c33,#061c17);
+    z-index: 0
+}
+
+#gw--scanLines {
+    position: fixed;
+    z-index: 2;
+    width: 100vw;
+    pointer-events: none
+}
+
+#gw--scanLines:after,#gw--scanLines:before {
+    display: block;
+    pointer-events: none;
+    content: "";
+    position: absolute
+}
+
+#gw--scanLines:after {
+    z-index: 2147483648;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: -webkit-repeating-linear-gradient(top,transparent 0,transparent 4px,rgba(6,28,23,.2) 4px,rgba(6,28,23,.2) 6px);
+    -webkit-background-size: 100% 6px;
+    background-image: -moz-repeating-linear-gradient(top,transparent 0,transparent 4px,rgba(6,28,23,.2) 4px,rgba(6,28,23,.2) 6px);
+    -moz-background-size: 100% 6px;
+    background-image: repeating-linear-gradient(top,transparent 0,transparent 4px,rgba(6,28,23,.2) 4px,rgba(6,28,23,.2) 6px);
+    background-size: 100% 6px
+}
+
+#gw--gradient,#gw--scanLines {
+    height: 100vh
+}
+
+@media (max-device-aspect-ratio: 3 / 4) {
+    #gw--gradient,#gw--scanLines {
+        height:calc(100vw * 1.45297)
+    }
+}
+
+@media (max-device-aspect-ratio: 2 / 3) {
+    #gw--gradient,#gw--scanLines {
+        height:calc(100vw * 1.635)
+    }
+}
+
+@media (max-device-aspect-ratio: 10 / 16) {
+    #gw--gradient,#gw--scanLines {
+        height:calc(100vw * 2.244)
+    }
+}
+
+@media (max-device-aspect-ratio: 9 / 16) {
+    #gw--gradient,#gw--scanLines {
+        height:calc(100vw * 2.23802)
+    }
+}
+
+
+
 
 @media (prefers-color-scheme: dark) { 
 
@@ -121,7 +189,7 @@
         padding: 57px 18px 1px 18px;
         background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-dark.png);
         background-repeat: repeat;
-        text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 2px rgba(115, 115, 121, 0.3);
+        text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 4px rgba(115, 115, 121, 0.3);
     }
 
 }
@@ -133,19 +201,42 @@
     .GameEmpire {
         font-family: "GameEmpire", serif;
         color: #FFFFFF;
-        text-shadow: 0 0 3px #FF0000, 0 0 7px #FF0000, 0 0 20px #FF0000;
-
+        text-shadow: -6px -6px 6px #FF0000, 
+                      6px  6px 6px #FF0000,
+                      6px -6px 6px #FF0000, 
+                     -6px  6px 6px #FF0000, 
+                      0px  6px 6px #FF0000, 
+                      0px -6px 6px #FF0000, 
+                      6px  0px 6px #FF0000, 
+                     -6px  0px 6px #FF0000;
     }
     .MCC 
     {
         font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
-        text-shadow: 0 0 3px #FFE205, 0 0 7px #FFE205, 0 0 20px #EDD205;
-        color: #018249;
+        text-shadow: -4px -4px 0px #ffe205, 
+                      4px  4px 0px #ffe205, 
+                      4px -4px 0px #ffe205, 
+                     -4px  4px 0px #ffe205, 
+                      0px  4px 0px #ffe205, 
+                      0px -4px 0px #ffe205, 
+                      4px  0px 0px #ffe205, 
+                     -4px  0px 0px #ffe205, 
+                        
+                     -6px -6px 0px #018249, 
+                      6px  6px 0px #018249,
+                      6px -6px 0px #018249, 
+                     -6px  6px 0px #018249, 
+                      0px  6px 0px #018249, 
+                      0px -6px 0px #018249, 
+                      6px  0px 0px #018249, 
+                     -6px  0px 0px #018249;
+            color: #018249;
     }
 
     .GammaWorld {
         font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: #000000;
-        text-shadow: 0 0 0px #000000;
+        color: #DC143C; 
+        // color: Crimson
+        font-weight: bold;
     }
     pre#ascii-container-image { font: bold 8px/5px monospace; color: #000; clear: left; }

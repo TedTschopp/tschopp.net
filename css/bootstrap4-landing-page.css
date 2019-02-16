@@ -1,0 +1,212 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.1 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Open+Sans+Condensed:700');
+
+@font-face {
+    font-family: 'IrwinAllen';
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/IrwinAllen.woff2') format('woff2'),
+    url('https://www.tedt.org/RPG/MCC-GW/media/IrwinAllen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CHECKBK0';
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/CHECKBK0.woff2') format('woff2'),
+    url('https://www.tedt.org/RPG/MCC-GW/media/CHECKBK0.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lowwe';
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/lowwe.woff2') format('woff2'),
+    url('https://www.tedt.org/RPG/MCC-GW/media/lowwe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'lp1_regular';
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.eot');
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.woff') format('woff'),
+    url('https://www.tedt.org/RPG/MCC-GW/media/lp1-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+   .MCC 
+    {
+        font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-shadow: -2px -2px 0px #ffe205, 
+                      2px  2px 0px #ffe205, 
+                      2px -2px 0px #ffe205, 
+                     -2px  2px 0px #ffe205, 
+                      0px  2px 0px #ffe205, 
+                      0px -2px 0px #ffe205, 
+                      2px  0px 0px #ffe205, 
+                     -2px  0px 0px #ffe205, 
+                        
+                     -3px -3px 0px #018249, 
+                      3px  3px 0px #018249,
+                      3px -3px 0px #018249, 
+                     -3px  3px 0px #018249, 
+                      0px  3px 0px #018249, 
+                      0px -3px 0px #018249, 
+                      3px  0px 0px #018249, 
+                     -3px  0px 0px #018249;
+            color: #018249;
+    }
+.GammaWorld {
+    font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #DC143C; 
+    // color: Crimson
+    font-weight: bold;
+}
+
+
+
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+
+header.masthead .intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+header.masthead .intro-image-avatar {
+    border-radius: 50% 50% 50% 50%;
+/*    width: 100px;
+    height: 100px; */
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+
+
