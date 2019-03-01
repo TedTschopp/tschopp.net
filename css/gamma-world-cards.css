@@ -33,6 +33,15 @@
     }
 
     @font-face {
+        font-family: 'Duvall';
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.eot');
+        src: url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.woff2') format('woff2'),
+        url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
         font-family: 'GameEmpire';
         src: url('https://www.tedt.org/RPG/MCC-GW/media/Algerian-Basic-D-OT_3025.eot');
         src: url('https://www.tedt.org/RPG/MCC-GW/media/Algerian-Basic-D-OT_3025.woff2') format('woff2'),
