@@ -39,6 +39,31 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Duvall';
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.eot');
+    src: url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.woff2') format('woff2'),
+    url('https://www.tedt.org/RPG/MCC-GW/media/DuvallSmallCaps.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+   .DCC 
+    {
+        font-family: "Duvall", "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-shadow: -2px -2px 0px #eae221, 
+                      2px  2px 0px #eae221, 
+                      2px -2px 0px #eae221, 
+                     -2px  2px 0px #eae221, 
+                      0px  2px 0px #eae221, 
+                      0px -2px 0px #eae221, 
+                      2px  0px 0px #eae221, 
+                     -2px  0px 0px #eae221
+                        
+            color: #ff001b;
+    }
 
    .MCC 
     {
