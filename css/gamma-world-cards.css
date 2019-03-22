@@ -109,7 +109,7 @@
         text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 4px rgba(115, 115, 121, 0.3);
     }
 
-
+/*
 #gw--gradient {
     position: fixed;
     width: 100vw;
@@ -149,7 +149,7 @@
 #gw--gradient,#gw--scanLines {
     height: 100vh
 }
-
+*/
 @media (max-device-aspect-ratio: 3 / 4) {
     #gw--gradient,#gw--scanLines {
         height:calc(100vw * 1.45297)
