@@ -177,36 +177,6 @@
 */
 
 
-@media (prefers-color-scheme: dark) { 
-
-    html {
-        color: white;
-      }
-
-    td#papermargin_left,
-    td#papermargin_right {
-        background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-margin-dark.png);
-        background-repeat: repeat-y;
-        width: 33px;
-        min-width: 33px;
-    }
-
-    td#paper_printarea {
-        width: 100%;
-        font-size: 1em;
-        text-align: left;
-        font-family: lp1_regular, "Trebuchet MS", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        background-color: black;
-        padding: 57px 18px 1px 18px;
-        background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-dark.png);
-        background-repeat: repeat;
-        text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 4px rgba(115, 115, 121, 0.3);
-        color: white;
-    }
-
-}
 
     .LineType {
         font-family: lp1_regular, "Trebuchet MS", sans-serif;
