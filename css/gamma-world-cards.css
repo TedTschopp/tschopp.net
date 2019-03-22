@@ -194,11 +194,12 @@
         font-family: lp1_regular, "Trebuchet MS", sans-serif;
         font-style: normal;
         font-weight: 400;
-        background-color: white;
+        background-color: black;
         padding: 57px 18px 1px 18px;
         background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-dark.png);
         background-repeat: repeat;
         text-shadow: 0 0 1px rgba(115, 115, 121, 0.6), 0 0 4px rgba(115, 115, 121, 0.3);
+        color: white;
     }
 
 }
@@ -210,14 +211,14 @@
     .GameEmpire {
         font-family: "GameEmpire", serif;
         color: #FFFFFF;
-        text-shadow: -6px -6px 6px #FF0000, 
-                      6px  6px 6px #FF0000,
-                      6px -6px 6px #FF0000, 
-                     -6px  6px 6px #FF0000, 
-                      0px  6px 6px #FF0000, 
-                      0px -6px 6px #FF0000, 
-                      6px  0px 6px #FF0000, 
-                     -6px  0px 6px #FF0000;
+        text-shadow: -3px -3px 3px #FF0000, 
+                      3px  3px 3px #FF0000,
+                      3px -3px 3px #FF0000, 
+                     -3px  3px 3px #FF0000, 
+                      0px  3px 3px #FF0000, 
+                      0px -3px 3px #FF0000, 
+                      3px  0px 3px #FF0000, 
+                     -3px  0px 3px #FF0000;
     }
     .MCC 
     {
