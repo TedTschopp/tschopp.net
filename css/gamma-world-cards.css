@@ -179,6 +179,10 @@
 
 @media (prefers-color-scheme: dark) { 
 
+    html {
+        color: white;
+      }
+
     td#papermargin_left,
     td#papermargin_right {
         background-image: url(https://www.tedt.org/RPG/MCC-GW/media/paper-margin-dark.png);
