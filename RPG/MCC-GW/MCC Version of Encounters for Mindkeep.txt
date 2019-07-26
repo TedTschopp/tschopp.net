@@ -56,15 +56,50 @@ The Mindkeep Plateau
 
 
 The MindKeep
+	
 	(l0) Sublevel 3 - Reactors
 		TBD
 	(l1) Sublevel 2 - Storage
+
+			The cliff caverns can be found by means of the footpath on the southeast ridge of the plateau rim. The Mindkeep underground complex is reached through Room C of Level l. The two mazes are connected through a thin channel (two meters wide) at Mindkeep Underground #14. The caverns have existed since before Mindkeep was built, though no one knew about them then. They are natural formations. A little lake in one of the chambers suggests that a surging spring may have cut out the caverns and been a waterfall at one time, though from what source is hard to tell. The Mindkeep underground maze was carved out of solid rock after the holocaust. The survivors felt that they needed a secure place to live inside the complex, so they used the last vestiges of energy in their laser borers and rock cutters to fashion this complex. They laid in Code II ID bracelet lock doors throughout the complex, except for the door that led to the complex, which was Code V ID lock. 
+
+			When the last generation of Mindkeep staff was dying, many of them came here to spend their last hours. They destroyed their badges and secured their gear up in the main complex first, to deter looting. Thus the stench of decay still permeates the place. Decades later the thin wall separating the natural cavern from the complex crumbled under the effects of an earthquake and the two became one. Wandering creatures now inhabit some of the rooms while others have not been opened since their occupants lay down to die. 
+
+			Rooms or caverns that are not marked are considered to be either empty or inconsequential. The GM may add things, of course, if he desires. No lights work in the complex, but the doors were wired to a different generator and still operate. Note: Do not show players the map of the complex or caverns; describe it to them.
+
+
 		Room A 
 			No Creatures
 		Room B 
 			3 x Obbs  Obbs 'Flying Eyes' (1d4 (2)): Init +3; atk 2 x claws melee +2 (1d5); AC 10; HD 6D5 hp 18 each; MV 5' or Fly 45' ; 1d20; SV Fort +0, Ref +0, Will +0	Obbs are a mutated fungus that is almost immobile on the ground, but are deadly in the air.  Each has a single black eye and 1d6 clas like appendages.	Giant Preying Mantises that stand 3 meters tall at the shoulder.	(P) Immune to Heat & Radiation & Lasers.  Radiation Eyes
 		Room C 
 			No Creatures
+
+		Caverans
+			Cavern A: A village of hissers live in these caverns and forage the plateau for food. They moved up here almost a year ago after having been hunter down and decimated by Timon's people. After any unpleasantries, if the party has a chance to question them as to what they are doing up here, the hissers describe in detail Timon's battle maneuvers and military campaign that ousted the hissers from their riverside retreat (downriver of Haven). 
+
+			Cavern B: The common dwelling area for the lowest ranked of them. Seven male hissers can be found in here at any time, usually playing some strange type of grunting game.
+
+			Cavern C: Holds another three hissers who are skinning some unknown creatures for supper. This cavern also is used for cooking and there is almost always a fire going in here ( thes moke is carried away through a natural chimney system).
+
+			Cavern D is the living quarters for another four hissers. There is also a cache of 500 domar here, and a huge pile of broken artifacts. The artifacts, while being useless themselves, contain almost any kind of small part imaginable .
+
+			Cavern E is the home of the queen and her four attendant male guards. While all the other hisser males are armed randomly by the GM, these guards all are armed with maces, slug throwers ( type C), and laser rifles. The throwers have full clips, but the rifles only have three shots left each. The queen is armed with an energy mace. Her treasure of five of each type of energy cell is stashed below her huge, carved stone throne that dominates this room.
+
+			Cavern F holds two hissers who are pickling some horrible-looking vegetables and meat in large plastic containers. They cannot hear the commotion in the other caverns unless explosives are used.
+
+			G. This 20-meter-high cavern holds a small, freshwater lake. It provides all the water needs for the hisser community. There is a keeshin living in this lake which has another hidden passage into another dry cave not shown. This keeshin does not have Devolution, but does have Radar/Sonar . The keeshin puts up with the hissers because it knows they guard the caverns. They are not aware of its presence. The keeshin attacks any other creature it thinks it can take who comes to the water's edge, including a human or humano id character. It lies in wait at the bottom of the deep lake; then when it sees ripples in the water, it comes up to investigate. As mentioned, its lair is a private cave reached only by diving to the bottom of the lake. In it are all kinds of shiny baubles. The GM should randomly generate any loot in the cave, based on how hard the party worked to defeat the keeshin.
+
+			H. A parn has slipped past the hissers and has been staying in this cavern for the past few days. Now it is getting hungry.
+
+			I. This small cavern contains glowing fungus and two blaasut, who flew into these caves to escape a pursuing tsorsut . If the party does not bother them, they will not bother the party.
+
+		Complex
+
+
+
+
+
 
 	(l2) Sub Level 1  - Computer Operations and Power Broadcast
 		Room A Green Glowing Fungus.  
