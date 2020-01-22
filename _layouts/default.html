@@ -137,10 +137,10 @@
         </div>
         <a name="draft"></a>
         <div class="row no-gutters">
-          <div class="col-lg-6 text-white showcase-img" ><img src="/img/blog-draft.jpg" class="img-responsive img-thumbnail" alt=""></div>
+          <div class="col-lg-6 text-white showcase-img" ><img src="/img/table.jpg" class="img-responsive img-thumbnail" alt="OSR Role Playing Game Dice by Jim Wampler https://www.facebook.com/mudpuppycomics"></div>
           <div class="col-lg-6 my-auto showcase-text">
-            <h2>Ted Tschopp's Drafts</h2>
-            <p class="lead mb-0">A collection of writings I am working on at this time.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p>
+            <h2>Ted Tschopp's Role Playing Game Drafts</h2>
+            <p class="lead mb-0">A collection of writings on Role Playing Games I am working on at this time.  Some of it is really bad, and some of it I am proud of.  All of it can be made better.</p>
             <ul>
             {% assign posts-drafts = site.posts | where_exp: "post", "post.categories contains 'Draft'" %}
             {% for post in posts-drafts limit:5 %}
@@ -437,7 +437,7 @@
       </div>
     </section>
     -->
-    <header class="masthead text-white text-center">
+    <header class="masthead text-white text-center" id="about">
       <div class="overlay"></div>
       <div class="container">
         <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
