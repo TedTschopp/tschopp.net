@@ -106,57 +106,7 @@
     <!-- Masthead -->
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
-      <div class="container">
-        <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5 fnp-name"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></h1>
-            <img src="/img/thumb3.jpg" class="intro-image-avatar photo u-photo" alt="Photo of {{ site.givenname }} {{ site.familyname }}" >
-            <h3><span class="p-job-title">Enterprise Technology Architect <br> &#x27E8; Web &#x27E9;&#x27E8; Mobile &#x27E9;&#x27E8; Consumer Technology &#x27E9;&#x27E8; Automation &#x27E9;</span></h3>
-            <hr class="intro-divider"> 
-            <span class="p-adr d-none">
-                <span class="p-locality">{{ site.locality }}</span>,
-                <span class="p-region">{{ site.region }}</span>
-                <span class="p-country-name">{{ site.country }}</span>
-            </span>
-            <span class="p-note">
-              {% for paragraphs in site.biography %}
-                {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
-                <p class="lead">{{paragraph}}</p>
-                {% endfor %}
-            </span>
-            <ul class="list-inline mb-0">
-                  {% if site.keybaseio_username %}
-                  <li class="list-inline-item mr-3">
-                    <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fab fa-keybase fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  </li>
-                  <li class="list-inline-item mr-3">
-                    <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-key fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  </li>
-                  {% else %}
-                  {% endif %}
-                  {% if site.email %}
-                  <li class="list-inline-item mr-3">
-                    <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-envelope fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  {% else %}
-                  {% endif %}
-                  {% if site.whatsapp_username %}
-                  <li class="list-inline-item mr-3">
-                    <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fab fa-whatsapp fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  {% else %}
-                  {% endif %}
-                  {% if site.phonenumber %}
-                  <li class="list-inline-item mr-3">
-                    <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-phone fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  </li>
-                  {% else %}
-                  {% endif %}
-                  <li class="list-inline-item ">
-                    <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-home fa-2x fa-fw"></i> <span class="network-name"></span></a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-      </div>
+      
     </header>
 
     <section class="showcase">
@@ -492,6 +442,63 @@
       </div>
     </section>
     -->
+
+
+
+    <div class="container">
+      <div class="row vcard" id="hcard-{{ site.givenname }}-{{ site.familyname }}">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5 fnp-name"><span class="p-given-name">{{ site.givenname }}</span> <span class="p-family-name">{{ site.familyname }}</span></h1>
+          <img src="/img/thumb3.jpg" class="intro-image-avatar photo u-photo" alt="Photo of {{ site.givenname }} {{ site.familyname }}" >
+          <h3><span class="p-job-title">Enterprise Technology Architect <br> &#x27E8; Web &#x27E9;&#x27E8; Mobile &#x27E9;&#x27E8; Consumer Technology &#x27E9;&#x27E8; Automation &#x27E9;</span></h3>
+          <hr class="intro-divider"> 
+          <span class="p-adr d-none">
+              <span class="p-locality">{{ site.locality }}</span>,
+              <span class="p-region">{{ site.region }}</span>
+              <span class="p-country-name">{{ site.country }}</span>
+          </span>
+          <span class="p-note">
+            {% for paragraphs in site.biography %}
+              {% capture paragraph %}{{ paragraphs | strip }}{% endcapture %}
+              <p class="lead">{{paragraph}}</p>
+              {% endfor %}
+          </span>
+          <ul class="list-inline mb-0">
+                {% if site.keybaseio_username %}
+                <li class="list-inline-item mr-3">
+                  <a href="https://keybase.io/{{ site.keybaseio_username }}" rel="me" class="btn btn-default btn-lg" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fab fa-keybase fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a href="{{ site.siteurl }}/pgp-public-key.txt" rel="me pgpkey" class="btn btn-default btn-lg pgpkey" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-key fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                </li>
+                {% else %}
+                {% endif %}
+                {% if site.email %}
+                <li class="list-inline-item mr-3">
+                  <a href="mailto:{{ site.email }} " rel="me" class="btn btn-default btn-lg u-email" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-envelope fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                {% else %}
+                {% endif %}
+                {% if site.whatsapp_username %}
+                <li class="list-inline-item mr-3">
+                  <a href="https://api.whatsapp.com/send?phone={{ site.whatsapp_username }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fab fa-whatsapp fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                {% else %}
+                {% endif %}
+                {% if site.phonenumber %}
+                <li class="list-inline-item mr-3">
+                  <a href="tel:{{ site.phonenumber }}" rel="me" class="btn btn-default btn-lg p-tel" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-phone fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                </li>
+                {% else %}
+                {% endif %}
+                <li class="list-inline-item ">
+                  <a href="{{ site.siteurl }}" rel="me" class="btn btn-default btn-lg u-url" style="color:white" onmouseout="this.style.color='white'" onmouseover="this.style.color='#C0C0C080'"><i class="fas fa-home fa-2x fa-fw"></i> <span class="network-name"></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+
 
     <!-- Footer -->
     <footer class="footer bg-light">
