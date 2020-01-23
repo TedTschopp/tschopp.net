@@ -21,11 +21,11 @@ bullets:
   - To Do- Look into Mustache engine
 
 guid: 9f531baa-bd7f-4dd8-bbe8-46bb65b97a46
-image: /img/table.jpg
-image-credits: OSR Role Playing Game Dice by Jim Wampler https://www.facebook.com/mudpuppycomics
-image-credits-title: Countdown to the Lord of the Rings
-image-credits-artist: Jim Wampler
-image-credits-URL: https://www.facebook.com/mudpuppycomics
+image: /img/Text-Generation.jpg
+image-credits: Text Generation Code by Ted Tschopp
+image-credits-title: Text Generation Code
+image-credits-artist: Ted Tschopp
+image-credits-URL: https://www.tedt.org
 categories: home
 order: 7
 ---
