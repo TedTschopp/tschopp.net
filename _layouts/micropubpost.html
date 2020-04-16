@@ -51,7 +51,7 @@
                   <h1 class="p-name lead"><a href="{{page.mf-syndication}}"> Checked into {{page.mf-checkin[0].properties.name}}<a/></h1>
 
                   {% if page.author.name == null or page.author.name == empty %}
-                      <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}} {{page.author}} Site</a></p>
+                      <p class="lead">by <a rel="author" class="p-author h-card" href="{{ site.author.url }}"><img src="{{site.author.avatar}}" class="u-photo">{{site.author.name}} '{{site.authors[0].url}}' Site</a></p>
                   {% else %}
                       <p class="lead">by <a rel="author" class="p-author h-card" href="{{ page.author.url }}"><img src="{{page.author.avatar}}" class="u-photo">{{page.author.name}} Page</a></p>
                   {% endif %}
