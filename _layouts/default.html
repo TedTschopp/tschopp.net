@@ -173,7 +173,7 @@
                             {% break %}
                         {% endif %}
 
-                        {% assign post-url= this-post.url %}
+                        {% assign post-url = this-post.url %}
 
                         {% if this-post.mf-item[0].type[0] == "h-product" %}
                             {% if this-post.mf-rating[0] == 5 %}
@@ -192,14 +192,11 @@
                             {% assign post-title = post-title | append: this-post.mf-item[0].properties.name[0] %}
                             {% assign post-content = this-post.mf-summary %}
                         {% endif %}
-
-
-
+                        
                         {% if this-post.mf-checkin[0].type[0] == "h-card" %}
                             {% assign post-title = "🌎 " | append: this-post.mf-checkin[0].properties.name[0] %}
                         {% endif %}
-
-                            
+                         
                         {% if this-post.category contains "links" %}
                             {% assign post-title   = "🔗 " | append: this-post.title %}
                             {% assign post-url     = this-post.mf-bookmark-of[0] %}
