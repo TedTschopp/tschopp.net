@@ -27,7 +27,7 @@ bullets:
   - Represented SCE’s digital and ecommerce interests on the Utility Information Technology Benchmark (UNITE) group.
 
 guid: 93ba20f1f-0a7b-4220-8310-675cf52ab9b4
-image: /img/sce_com.png
+image: /img/sce_com.jpg
 image-credits: SCE.com by Ted Tschopp https://www.tedt.org/img/automation.jpg  
 image-credits-title: SCE.com
 image-credits-artist: Ted Tschopp
