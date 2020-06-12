@@ -17,7 +17,7 @@ seo_description: |
 
 
 guid: b077b681-ef10-4e23-9411-1f33b9a1bc87
-image: /stars.jpg
+image: /img/stars.jpg
 categories: home
 order: 9
 ---
