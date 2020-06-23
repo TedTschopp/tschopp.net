@@ -90,8 +90,8 @@
 .GammaWorld {
     font-family: "lowwe", "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #DC143C; 
-    // color: Crimson
     font-weight: bold;
+    /* color: Crimson */
 }
 
     a:hover .MCC
