@@ -94,7 +94,7 @@
     font-weight: bold;
 }
 
-    .MCC :hover
+    a:hover .MCC
     {
       font-weight: bold ;
 
