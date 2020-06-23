@@ -96,9 +96,26 @@
 
     a:hover .MCC
     {
-      font-weight: bold ;
-
-    }
+      font-family: "IrwinAllen", "Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-shadow: -3px -3px 0px #ffe205, 
+                    3px  3px 0px #ffe205, 
+                    3px -3px 0px #ffe205, 
+                   -3px  3px 0px #ffe205, 
+                    0px  3px 0px #ffe205, 
+                    0px -3px 0px #ffe205, 
+                    3px  0px 0px #ffe205, 
+                   -3px  0px 0px #ffe205, 
+                      
+                   -2px -2px 0px #018249, 
+                    2px  2px 0px #018249,
+                    2px -2px 0px #018249, 
+                   -2px  2px 0px #018249, 
+                    0px  2px 0px #018249, 
+                    0px -2px 0px #018249, 
+                    2px  0px 0px #018249, 
+                   -2px  0px 0px #018249;
+          color: #ffe205;
+  }
 
 
 
