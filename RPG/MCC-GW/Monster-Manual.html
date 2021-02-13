@@ -1,9 +1,18 @@
 ---
 layout: null
 ---
-<span>Tracks:</span>
+<span>Monsters:</span>
 <ul>
   {% for Monster in site.data.GammaWorldFixed.Creatures %}
     <li>Name: {{ Monster.Name }}</li>
   {% endfor %}    
 </ul>
+
+
+<pre>
+	site: {{ site | jsonify | escape }}
+	page: {{ page | jsonify | escape }}
+	layout: {{ layout | jsonify | escape }}
+	content: {{ content | jsonify | escape }}
+	paginator: {{ paginator | jsonify | escape }}
+ </pre>
