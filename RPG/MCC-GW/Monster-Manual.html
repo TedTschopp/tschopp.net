@@ -1,17 +1,76 @@
 ---
 layout: null
 ---
-<span>Monsters:</span>
-<ul>
-  {% for Monster in site.data.GammaWorldFixed.Creatures %}
-    <H2>{{ Monster.Monster_Name }}</li>
-    <p>{{ Monster.Normal_Text }} </p>
-    <p><b>Description:</b> {{ Monster.Description_Output }}</p>
-    <p><b>Detailed Description: </b> {{ Monster.New_Description }}</p>
-    <p><b>Society: </b> {{ Monster.Society }}</p>
-    <p><b>Combat: </b> {{ Monster.Combat }}</p>
-  {% endfor %}    
-</ul>
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Timon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://www.tedt.org/css/gamma-world-cards.css" rel="stylesheet">
+
+    <style type="text/css">
+        
+        a[hreflang]:after { 
+            content: " [" attr(linkstatus) "]"; 
+            color: #999;
+            vertical-align: super;
+            font-size: 70%;
+            } 
+
+    </style>
+
+    <script src="https://www.tedt.org/js/jscii.js"></script>
+
+</head>
+
+<body>
+    <Table>
+        <tr>
+            <td id=papermargin_left>
+            </td>
+            <td id="paper_printarea" class="tech-v">
+                <p><a href="https://www.tedt.org/RPG/MCC-GW/">Back</a></p>
+                <figure>
+                    <img class="img-responsive img-thumbnail" src="https://www.tedt.org/RPG/MCC-GW/images/GammaWorldHeaderEdited.png" id="jscii-element-image">
+                    <pre id="ascii-container-image"></pre>
+                    <figcaption>The Creatures of Gamma World</figcaption>
+                </figure>
+
+			 <H1>The Creatures of Gamma World:</h1>
+			 <ul>
+			   {% for Monster in site.data.GammaWorldFixed.Creatures %}
+				<H2>{{ Monster.Monster_Name }}</h2>
+				<p>{{ Monster.Normal_Text }} </p>
+				<p><b>Description:</b> {{ Monster.Description_Output }}</p>
+				<p><b>Detailed Description: </b> {{ Monster.New_Description }}</p>
+				<p><b>Society: </b> {{ Monster.Society }}</p>
+				<p><b>Combat: </b> {{ Monster.Combat }}</p>
+			   {% endfor %}    
+			 </ul>
+			 
+
+
+			</td>
+            <td id="papermargin_right">
+            </td>
+        </tr>
+    </Table>
+    <script>
+        // put in the image
+        var imgJscii = new Jscii({
+            width: 50,
+            color: true,
+            el: document.getElementById('jscii-element-image'),
+            fn: function(str) {
+                document.getElementById('ascii-container-image').innerHTML = str;
+            }
+        });
+        document.getElementById('jscii-element-image').style.display = 'none';
+    </script>
 
 
 <pre>
@@ -21,3 +80,13 @@ layout: null
 	content: {{ content | jsonify | escape }}
 	paginator: {{ paginator | jsonify | escape }}
  </pre>
+
+
+
+</body>
+
+
+
+
+
+
