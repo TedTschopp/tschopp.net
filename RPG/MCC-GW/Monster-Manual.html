@@ -40,10 +40,10 @@ layout: null
                     <figcaption>The Creatures of Gamma World</figcaption>
                 </figure>
 
-			 <H1>The Creatures of Gamma World:</h1>
+			 <h1>The Creatures of Gamma World:</h1>
 			 <ul>
 			   {% for Monster in site.data.GammaWorldFixed.Creatures %}
-				<H2>{{ Monster.Monster_Name }}</h2>
+				<h2>{{ Monster.Monster_Name }}</h2>
 				<p>{{ Monster.Normal_Text }} </p>
 				<p><b>Description:</b> {{ Monster.Description_Output }}</p>
 				<p><b>Detailed Description: </b> {{ Monster.New_Description }}</p>
