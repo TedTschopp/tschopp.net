@@ -4,7 +4,12 @@ layout: null
 <span>Monsters:</span>
 <ul>
   {% for Monster in site.data.GammaWorldFixed.Creatures %}
-    <li>Name: {{ Monster.Name }}</li>
+    <H2>{{ Monster.Monster_Name }}</li>
+    <p>{{ Monster.Normal_Text }} </p>
+    <p><b>Description:</b> {{ Monster.Description_Output }}</p>
+    <p><b>Detailed Description: </b> {{ Monster.New_Description }}</p>
+    <p><b>Society: </b> {{ Monster.Society }}</p>
+    <p><b>Combat: </b> {{ Monster.Combat }}</p>
   {% endfor %}    
 </ul>
 
