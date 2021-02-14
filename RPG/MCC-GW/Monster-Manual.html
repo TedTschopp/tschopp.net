@@ -47,6 +47,17 @@ layout: null
 					{% else %}
 						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
+					% if Monster.Author != "" %}
+						<P>Reported By: {{ Monster.Author }}
+					{% else %}
+						<P>Reported By: unknown contributor
+					{% endif %}
+					{% if Monster.Source != "" %}
+						in {{ Monster.Source }}
+					{% else %}
+						in data source corrupted.  
+					{% endif %}</p>
+					{% endif %}
 					{% if Monster.Normal_Text != "" %}
 						<p>{{ Monster.Normal_Text }} </p>
 					{% else %}
@@ -78,7 +89,23 @@ layout: null
 					{% else %}
 						<p><strong>Preferred Artifacts:</strong> Unknown </p>
 					{% endif %}
-					
+					{% if Monster.Role_In_Gamma_World != "" %}
+						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }} </p>
+					{% else %}
+						<p><strong>Role:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Base_Stock != "" %}
+						<p><strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
+					{% else %}
+						<p><strong>Base Stock:</strong> Unknown </p>
+					{% endif %}
+<!-- Combine Base Stock, Role, and Frequency together such as:  Common Mutated Racoor
+
+
+-->
+
+
+
 					<hr>
 					{% if Monster.New_Description != "" %}
 						{% if Monster.Description_Output != "" %}
