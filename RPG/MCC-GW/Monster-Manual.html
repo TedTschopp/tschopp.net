@@ -51,19 +51,19 @@ layout: null
 						<strong>Reported By:</strong> {{ Monster.Author }}
 					{% else %}
 						<strong>Reported By:</strong> unknown contributor
-					{% endif %}</html></br>
+					{% endif %}
 
 					{% if Monster.Source != "" %}
 						in {{ Monster.Source }}
 					{% else %}
-						in <i>data source corrupted</i>.  
+						in <i>data source corrupted</i>.
 					{% endif %}
 
 					{% if Monster.Role_In_Gamma_World != "" %}
 						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }}
 					{% else %}
 						<p><strong>Role:</strong> Unknown
-					{% endif %}
+					{% endif %}</br>
 					{% if Monster.Base_Stock != "" %}
 						<strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
 					{% else %}
@@ -82,10 +82,10 @@ layout: null
 					{% endif %}
 					
 
-					{% if Monster.Number_Appearing_Dice != "" %}
-						<p><strong>Number Appearing: </strong>{{ Monster.Number_Appearing_Dice }}
+					<p>{% if Monster.Number_Appearing_Dice != "" %}
+						<strong>Number Appearing: </strong>{{ Monster.Number_Appearing_Dice }}
 					{% else %}
-						<p><strong>Number Appearing: </strong>More observations needed
+						<strong>Number Appearing: </strong>More observations needed
 					{% endif %}</br>
 					{% if Monster.Morale != "" %}
 						<strong>Morale: </strong>{{ Monster.Morale }}
@@ -176,46 +176,46 @@ layout: null
 							</td>
 						</tr>
 					</table>
-					{% if Monster.Frequency != "" %}
-						<p><strong>Frequency:</strong> {{ Monster.Frequency }} </p>
+					<p>{% if Monster.Frequency != "" %}
+						<strong>Frequency:</strong> {{ Monster.Frequency }}
 					{% else %}
-						<p><strong>Frequency:</strong> Unknown </p>
-					{% endif %}
+						<<strong>Frequency:</strong> Unknown
+					{% endif %}</br>
 					{% if Monster.Organization != "" %}
-						<p><strong>Organization:</strong> {{ Monster.Organization }} </p>
+						<strong>Organization:</strong> {{ Monster.Organization }}
 					{% else %}
-						<p><strong>Organization:</strong> Unknown </p>
-					{% endif %}
+						<strong>Organization:</strong> Unknown
+					{% endif %}</br>
 					{% if Monster.Activity_Cycle != "" %}
-						<p><strong>Preferred Activity Cycle:</strong> {{ Monster.Activity_Cycle }} </p>
+						<strong>Preferred Activity Cycle:</strong> {{ Monster.Activity_Cycle }}
 					{% else %}
-						<p><strong>Preferred Activity Cycle:</strong> Unknown </p>
-					{% endif %}
+						<strong>Preferred Activity Cycle:</strong> Unknown
+					{% endif %}</br>
 					{% if Monster.Diet != "" %}
-						<p><strong>Preferred Diet:</strong> {{ Monster.Diet }} </p>
+						<strong>Preferred Diet:</strong> {{ Monster.Diet }}
 					{% else %}
-						<p><strong>Preferred Diet:</strong> Unknown </p>
-					{% endif %}
+						<strong>Preferred Diet:</strong> Unknown
+					{% endif %}</br>
 					{% if Monster.Habitat != "" %}
-						<p><strong>Preferred Habitat:</strong> {{ Monster.Habitat }} </p>
+						<strong>Preferred Habitat:</strong> {{ Monster.Habitat }}
 					{% else %}
-						<p><strong>Preferred Habitat:</strong> Unknown </p>
-					{% endif %}
+						<strong>Preferred Habitat:</strong> Unknown
+					{% endif %}</br>
 					{% if Monster.Tech_Level != 0 %}
-						<p><strong>Tech Level:</strong> {{ Monster.Tech_Level }} 
+						<strong>Tech Level:</strong> {{ Monster.Tech_Level }} 
 						{% if Monster.Tech_Max != 0 %}
 							- {{ Monster.Tech_Max }}
 						{% else %}
 							unknown 
-						{% endif %}</p>
+						{% endif %}
 					{% else %}
-						<p><strong>Tech Level:</strong> Unknown </p>
-					{% endif %}
+						<strong>Tech Level:</strong> Unknown </p>
+					{% endif %}</br>
 					{% if Monster.Artifacts != "" %}
-						<p><strong>Preferred Artifacts:</strong> {{ Monster.Artifacts }} </p>
+						<strong>Preferred Artifacts:</strong> {{ Monster.Artifacts }}
 					{% else %}
-						<p><strong>Preferred Artifacts:</strong> Unknown </p>
-					{% endif %}
+						<strong>Preferred Artifacts:</strong> Unknown
+					{% endif %} </p>
 
 					{% if Monster.New_Description != "" %}
 						{% if Monster.Description_Output != "" %}
