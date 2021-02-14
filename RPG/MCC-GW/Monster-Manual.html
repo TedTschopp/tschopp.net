@@ -53,6 +53,8 @@ layout: null
 				{% else %}
 					<p>Conversion Not Complete</p>
 				{% endif %}
+				<p><strong>Mutations: </strong>{{ Monster.Mutations }}</p>
+				<hr>
 				{% if Monster.Size != "" %}
 					<p><strong>Size:</strong> {{ Monster.Size }} </p>
 				{% else %}
@@ -83,9 +85,9 @@ layout: null
 				{% else %}
 					<p><strong>Preferred Habitat:</strong> Unknown </p>
 				{% endif %}
-				{% if Monster.Tech_Level != "" %}
+				{% if Monster.Tech_Level != 0 %}
 					<p><strong>Tech Level:</strong> {{ Monster.Tech_Level }} 
-					{% if Monster.Tech_Max != "" %}
+					{% if Monster.Tech_Max != 0 %}
 						- {{ Monster.Tech_Max }}
 					{% else %}
 						unknown 
@@ -99,17 +101,41 @@ layout: null
 					<p><strong>Preferred Artifacts:</strong> Unknown </p>
 				{% endif %}
 
-
-				<p><strong>Mutations: </strong>{{ Monster.Mutations }}</p>
 				{% if Monster.New_Description != "" %}
-					<p><strong>Description:</strong> {{ Monster.New_Description }}</p>
+					{% if Monster.Description_Output != "" %}
+						<p><strong>Description (Observation 1):</strong> {{ Monster.New_Description }}</p>
+						<p><strong>Description (Initial Observation):</strong> {{ Monster.Description_Output }}</p>
+					{% else %}
+						<p><strong>Description:</strong> {{ Monster.New_Description }}</p>
+					{% endif %}
+				{% else %}
+					{% if Monster.Description_Output != "" %}
+						<p><strong>Description:</strong> {{ Monster.Description_Output }}</p>
+					{% else %}
+						<p><strong>Description:</strong> Unknown </p>
+					{% endif %}
+				{% endif %}
+
+
+				{% if Monster.Combat != "" %}
 					<p><strong>Combat:</strong> {{ Monster.Combat }}</p>
+				{% else %}
+					<p><strong>Combat:</strong> Unobserved in Combat</p>
+				{% endif %}
+
+				{% if Monster.Society != "" %}
 					<p><strong>Society:</strong> {{ Monster.Society }}</p>
 				{% else %}
-					<p><strong>Description:</strong> {{ Monster.Description_Output }}</p>
-					<p><strong>Behavior:</strong> {{ Monster.Behaviort }}</p>
+					<p><strong>Society:</strong> Anthropological Studies incomplete</p>
 				{% endif %}
-			   {% endfor %}    
+
+				{% if Monster.Behavior != "" %}
+					<p><strong>Behavior:</strong> {{ Monster.Behavior }}</p>
+				{% else %}
+					<p><strong>Behavior:</strong> Behavior modeling incomplete</p>
+				{% endif %}
+
+				{% endfor %}    
 			 </ul>
 			 
 
