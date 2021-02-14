@@ -47,16 +47,19 @@ layout: null
 					{% else %}
 						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
-					% if Monster.Author != "" %}
-						<P>Reported By: {{ Monster.Author }}
+
+					{% if Monster.Author != "" %}
+						<p>Reported By: {{ Monster.Author }}
 					{% else %}
-						<P>Reported By: unknown contributor
+						<p>Reported By: unknown contributor
 					{% endif %}
+
 					{% if Monster.Source != "" %}
 						in {{ Monster.Source }}
 					{% else %}
 						in <i>data source corrupted</i>.  
 					{% endif %}</p>
+
 					{% if Monster.Normal_Text != "" %}
 						<p>{{ Monster.Normal_Text }} </p>
 					{% else %}
