@@ -49,23 +49,101 @@ layout: null
 					{% endif %}
 
 					{% if Monster.Author != "" %}
-						<p>Reported By: {{ Monster.Author }}
+						<strong>Reported By:</strong> {{ Monster.Author }}
 					{% else %}
-						<p>Reported By: unknown contributor
+						<strong>Reported By:</strong> unknown contributor
 					{% endif %}
 
 					{% if Monster.Source != "" %}
 						in {{ Monster.Source }}
 					{% else %}
 						in <i>data source corrupted</i>.  
-					{% endif %}</p>
+					{% endif %}
 
 					{% if Monster.Normal_Text != "" %}
-						<p>{{ Monster.Normal_Text }} </p>
+						<p>Mutant Crawl Classics Stat Block: {{ Monster.Normal_Text }}
 					{% else %}
-						<p>Conversion Not Complete</p>
+						<p>Conversion Not Complete
+					{% endif %}</br>
+					{% if Monster.Mutations != "" %}
+						<strong>Mutations: </strong>{{ Monster.Mutations }}</p>
+					{% else %}
+						<strong>Mutations: </strong>Unknown</p>
 					{% endif %}
-					<p><strong>Mutations: </strong>{{ Monster.Mutations }}</p>
+					
+
+					{% if Monster.Number_Appearing_Dice != "" %}
+						<p><strong>Number Appearing: </strong>{{ Monster.Number_Appearing_Dice }}
+					{% else %}
+						<p><strong>Number Appearing: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.Morale != "" %}
+						<strong>Morale: </strong>{{ Monster.Morale }}
+					{% else %}
+						<strong>Morale: </strong>More observations needed
+					{% endif %}</br>
+
+					{% if Monster.New_HD_xdx_plus_minus != "" %}
+						<strong>Hit Dice: </strong>{{ Monster.New_HD_xdx_plus_minus }}
+					{% else %}
+						<strong>Hit Dice: </strong>More observations needed
+					{% endif %}</br>
+
+					{% if Monster.Armor != "" %}
+						<strong>Armor: </strong>{{ Monster.Armor }} ({{ Monster.AC_xx }})
+					{% else %}
+						<strong>Armor: </strong>More observations needed
+					{% endif %}</p>
+
+					{% if Monster.MV_xx != "" %}
+						<p><strong>Movement: </strong>{{ Monster.MV_xx }}</p>
+					{% else %}
+						<p><strong>Movement: </strong>More observations needed</p>
+					{% endif %}
+
+
+					<p>{% if Monster.MS != "" %}
+						<strong>Mental Strength: </strong>{{ Monster.MS }}
+					{% else %}
+						<strong>Mental Strength: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.IN != "" %}
+						<strong>Intelligence: </strong>{{ Monster.IN }}
+					{% else %}
+						<strong>Intelligence: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.DX != "" %}
+						<strong>Dexterity: </strong>{{ Monster.DX }}
+					{% else %}
+						<strong>Dexterity: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.CH != "" %}
+						<strong>Charisma: </strong>{{ Monster.CH }}
+					{% else %}
+						<strong>Charisma: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.CN != "" %}
+						<strong>Constitution: </strong>{{ Monster.CN }}
+					{% else %}
+						<strong>Constitution: </strong>More observations needed
+					{% endif %}</br>
+					{% if Monster.PS != "" %}
+						<strong>Physical Strength: </strong>{{ Monster.PS }}
+					{% else %}
+						<strong>Physical Strength: </strong>More observations needed
+					{% endif %}</p>
+
+					<p>{% if Monster.New_Attack_1 != "" %}
+						<strong>Attack: </strong>{{ Monster.New_Attack_1 }}
+						{% if Monster.New_Attack_2 != "" %}
+							{{ Monster.New_Attack_1 }}
+						{% endif %}</p>
+						{% else %}
+						<strong>PAttack: </strong>More observations needed
+					{% endif %}</p>
+
+
+
 					{% if Monster.Size != "" %}
 						<p><strong>Size:</strong> {{ Monster.Size }} </p>
 					{% else %}
@@ -134,7 +212,7 @@ layout: null
 					{% if Monster.Society != "" %}
 						<p><strong>Society:</strong> {{ Monster.Society }}</p>
 					{% else %}
-						<p><strong>Society:</strong> Anthropological Studies incomplete</p>
+						<p><strong>Society:</strong> Anthropological studies incomplete</p>
 					{% endif %}
 
 					{% if Monster.Behavior != "" %}
