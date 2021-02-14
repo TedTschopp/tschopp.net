@@ -47,31 +47,27 @@ layout: null
 					{% else %}
 						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
-
-					{% if Monster.Role_In_Gamma_World != "" %}
-						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }} </p>
-					{% else %}
-						<p><strong>Role:</strong> Unknown </p>
-					{% endif %}
-					{% if Monster.Base_Stock != "" %}
-						<p><strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
-					{% else %}
-						<p><strong>Base Stock:</strong> Unknown </p>
-					{% endif %}
-
-
-
-
 					{% if Monster.Author != "" %}
 						<strong>Reported By:</strong> {{ Monster.Author }}
 					{% else %}
 						<strong>Reported By:</strong> unknown contributor
-					{% endif %}
+					{% endif %}</html></br>
 
 					{% if Monster.Source != "" %}
 						in {{ Monster.Source }}
 					{% else %}
 						in <i>data source corrupted</i>.  
+					{% endif %}
+
+					{% if Monster.Role_In_Gamma_World != "" %}
+						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }}
+					{% else %}
+						<p><strong>Role:</strong> Unknown
+					{% endif %}
+					{% if Monster.Base_Stock != "" %}
+						<strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
+					{% else %}
+						<strong>Base Stock:</strong> Unknown </p>
 					{% endif %}
 
 					{% if Monster.Normal_Text != "" %}
@@ -144,7 +140,7 @@ layout: null
 									<strong>PS: </strong>{{ Monster.PS }}
 								{% else %}
 									<strong>PS: </strong>More observations needed
-								{% endif %}</p>
+								{% endif %}
 							</td>
 						</tr>
 						<tr>
@@ -153,7 +149,7 @@ layout: null
 									<strong>IN: </strong>{{ Monster.IN }}
 								{% else %}
 									<strong>IN: </strong>More observations needed
-								{% endif %}</br>
+								{% endif %}
 							</td>
 							<td>
 							{% if Monster.DX != "" %}
@@ -169,14 +165,14 @@ layout: null
 									<strong>CH: </strong>{{ Monster.CH }}
 								{% else %}
 									<strong>CH: </strong>More observations needed
-								{% endif %}</br>
+								{% endif %}
 							</td>
 							<td>
 								{% if Monster.CN != "" %}
 									<strong>CN: </strong>{{ Monster.CN }}
 								{% else %}
 									<strong>CN: </strong>More observations needed
-								{% endif %}</br>
+								{% endif %}
 							</td>
 						</tr>
 					</table>
