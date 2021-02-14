@@ -43,8 +43,63 @@ layout: null
 			 <h1>The Creatures of Gamma World:</h1>
 			 <ul>
 			   {% for Monster in site.data.GammaWorldFixed.Creatures %}
-				<h2>{{ Monster.Monster_Name }}</h2>
-				<p>{{ Monster.Normal_Text }} </p>
+				{% if Monster.Monster_Name != "" %}
+					<h2>{{ Monster.Monster_Name }}</h2>
+				{% else %}
+					<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
+				{% endif %}
+				{% if Monster.Normal_Text != "" %}
+					<p>{{ Monster.Normal_Text }} </p>
+				{% else %}
+					<p>Conversion Not Complete</p>
+				{% endif %}
+				{% if Monster.Size != "" %}
+					<p><strong>Size:</strong> {{ Monster.Size }} </p>
+				{% else %}
+					<p><strong>Size:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Frequency != "" %}
+					<p><strong>Frequency:</strong> {{ Monster.Frequency }} </p>
+				{% else %}
+					<p><strong>Frequency:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Organization != "" %}
+					<p><strong>Preferred Community Type:</strong> {{ Monster.Organization }} </p>
+				{% else %}
+					<p><strong>Preferred Community Type:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Activity_Cycle != "" %}
+					<p><strong>Preferred Activity Cycle:</strong> {{ Monster.Activity_Cycle }} </p>
+				{% else %}
+					<p><strong>Preferred Activity Cycle:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Diet != "" %}
+					<p><strong>Preferred Diet:</strong> {{ Monster.Diet }} </p>
+				{% else %}
+					<p><strong>Preferred Diet:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Habitat != "" %}
+					<p><strong>Preferred Habitat:</strong> {{ Monster.Habitat }} </p>
+				{% else %}
+					<p><strong>Preferred Habitat:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Tech_Level != "" %}
+					<p><strong>Tech Level:</strong> {{ Monster.Tech_Level }} 
+					{% if Monster.Tech_Max != "" %}
+						- {{ Monster.Tech_Max }}
+					{% else %}
+						unknown 
+					{% endif %}</p>
+				{% else %}
+					<p><strong>Tech Level:</strong> Unknown </p>
+				{% endif %}
+				{% if Monster.Artifacts != "" %}
+					<p><strong>Preferred Artifacts:</strong> {{ Monster.Artifacts }} </p>
+				{% else %}
+					<p><strong>Preferred Artifacts:</strong> Unknown </p>
+				{% endif %}
+
+
 				<p><strong>Mutations: </strong>{{ Monster.Mutations }}</p>
 				{% if Monster.New_Description != "" %}
 					<p><strong>Description:</strong> {{ Monster.New_Description }}</p>
