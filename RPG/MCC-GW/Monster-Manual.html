@@ -48,6 +48,20 @@ layout: null
 						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
 
+					{% if Monster.Role_In_Gamma_World != "" %}
+						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }} </p>
+					{% else %}
+						<p><strong>Role:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Base_Stock != "" %}
+						<p><strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
+					{% else %}
+						<p><strong>Base Stock:</strong> Unknown </p>
+					{% endif %}
+
+
+
+
 					{% if Monster.Author != "" %}
 						<strong>Reported By:</strong> {{ Monster.Author }}
 					{% else %}
@@ -61,7 +75,7 @@ layout: null
 					{% endif %}
 
 					{% if Monster.Normal_Text != "" %}
-						<p>Mutant Crawl Classics Stat Block: {{ Monster.Normal_Text }}
+						<p><strong>MCC Stat Block:</strong> {{ Monster.Normal_Text }}
 					{% else %}
 						<p>Conversion Not Complete
 					{% endif %}</br>
@@ -93,6 +107,11 @@ layout: null
 						<strong>Armor: </strong>{{ Monster.Armor }} ({{ Monster.AC_xx }})
 					{% else %}
 						<strong>Armor: </strong>More observations needed
+					{% endif %}
+					{% if Monster.Size != "" %}
+						<strong>Size:</strong> {{ Monster.Size }}
+					{% else %}
+						<strong>Size:</strong> Unknown
 					{% endif %}</p>
 
 					{% if Monster.MV_xx != "" %}
@@ -101,58 +120,90 @@ layout: null
 						<p><strong>Movement: </strong>More observations needed</p>
 					{% endif %}
 
-
-					<p>{% if Monster.MS != "" %}
-						<strong>Mental Strength: </strong>{{ Monster.MS }}
-					{% else %}
-						<strong>Mental Strength: </strong>More observations needed
-					{% endif %}</br>
-					{% if Monster.IN != "" %}
-						<strong>Intelligence: </strong>{{ Monster.IN }}
-					{% else %}
-						<strong>Intelligence: </strong>More observations needed
-					{% endif %}</br>
-					{% if Monster.DX != "" %}
-						<strong>Dexterity: </strong>{{ Monster.DX }}
-					{% else %}
-						<strong>Dexterity: </strong>More observations needed
-					{% endif %}</br>
-					{% if Monster.CH != "" %}
-						<strong>Charisma: </strong>{{ Monster.CH }}
-					{% else %}
-						<strong>Charisma: </strong>More observations needed
-					{% endif %}</br>
-					{% if Monster.CN != "" %}
-						<strong>Constitution: </strong>{{ Monster.CN }}
-					{% else %}
-						<strong>Constitution: </strong>More observations needed
-					{% endif %}</br>
-					{% if Monster.PS != "" %}
-						<strong>Physical Strength: </strong>{{ Monster.PS }}
-					{% else %}
-						<strong>Physical Strength: </strong>More observations needed
-					{% endif %}</p>
-
 					<p>{% if Monster.New_Attack_1 != "" %}
 						<strong>Attack: </strong>{{ Monster.New_Attack_1 }}
 						{% if Monster.New_Attack_2 != "" %}
 							{{ Monster.New_Attack_1 }}
 						{% endif %}</p>
 						{% else %}
-						<strong>PAttack: </strong>More observations needed
+						<strong>Attack: </strong>More observations needed
 					{% endif %}</p>
 
+					<table>
+						<tr>
+							<td>
+								{% if Monster.MS != "" %}
+									<strong>MS: </strong>{{ Monster.MS }}
+								{% else %}
+									<strong>MS: </strong>More observations needed
+								{% endif %}
 
-
-					{% if Monster.Size != "" %}
-						<p><strong>Size:</strong> {{ Monster.Size }} </p>
-					{% else %}
-						<p><strong>Size:</strong> Unknown </p>
-					{% endif %}
+							</td>
+							<td>
+								{% if Monster.PS != "" %}
+									<strong>PS: </strong>{{ Monster.PS }}
+								{% else %}
+									<strong>PS: </strong>More observations needed
+								{% endif %}</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								{% if Monster.IN != "" %}
+									<strong>IN: </strong>{{ Monster.IN }}
+								{% else %}
+									<strong>IN: </strong>More observations needed
+								{% endif %}</br>
+							</td>
+							<td>
+							{% if Monster.DX != "" %}
+								<strong>DX: </strong>{{ Monster.DX }}
+							{% else %}
+								<strong>DX: </strong>More observations needed
+							{% endif %}
+							</td>
+						</tr>
+						<tr>
+							<td>
+								{% if Monster.CH != "" %}
+									<strong>CH: </strong>{{ Monster.CH }}
+								{% else %}
+									<strong>CH: </strong>More observations needed
+								{% endif %}</br>
+							</td>
+							<td>
+								{% if Monster.CN != "" %}
+									<strong>CN: </strong>{{ Monster.CN }}
+								{% else %}
+									<strong>CN: </strong>More observations needed
+								{% endif %}</br>
+							</td>
+						</tr>
+					</table>
 					{% if Monster.Frequency != "" %}
 						<p><strong>Frequency:</strong> {{ Monster.Frequency }} </p>
 					{% else %}
 						<p><strong>Frequency:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Organization != "" %}
+						<p><strong>Organization:</strong> {{ Monster.Organization }} </p>
+					{% else %}
+						<p><strong>Organization:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Activity_Cycle != "" %}
+						<p><strong>Preferred Activity Cycle:</strong> {{ Monster.Activity_Cycle }} </p>
+					{% else %}
+						<p><strong>Preferred Activity Cycle:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Diet != "" %}
+						<p><strong>Preferred Diet:</strong> {{ Monster.Diet }} </p>
+					{% else %}
+						<p><strong>Preferred Diet:</strong> Unknown </p>
+					{% endif %}
+					{% if Monster.Habitat != "" %}
+						<p><strong>Preferred Habitat:</strong> {{ Monster.Habitat }} </p>
+					{% else %}
+						<p><strong>Preferred Habitat:</strong> Unknown </p>
 					{% endif %}
 					{% if Monster.Tech_Level != 0 %}
 						<p><strong>Tech Level:</strong> {{ Monster.Tech_Level }} 
@@ -169,24 +220,7 @@ layout: null
 					{% else %}
 						<p><strong>Preferred Artifacts:</strong> Unknown </p>
 					{% endif %}
-					{% if Monster.Role_In_Gamma_World != "" %}
-						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }} </p>
-					{% else %}
-						<p><strong>Role:</strong> Unknown </p>
-					{% endif %}
-					{% if Monster.Base_Stock != "" %}
-						<p><strong>Base Stock:</strong> {{ Monster.Base_Stock }} </p>
-					{% else %}
-						<p><strong>Base Stock:</strong> Unknown </p>
-					{% endif %}
-<!-- Combine Base Stock, Role, and Frequency together such as:  Common Mutated Racoor
 
-
--->
-
-
-
-					<hr>
 					{% if Monster.New_Description != "" %}
 						{% if Monster.Description_Output != "" %}
 						<p><strong>Description (Initial Observation):</strong> {{ Monster.Description_Output }}</p>
@@ -219,28 +253,6 @@ layout: null
 						<p><strong>Behavior:</strong> {{ Monster.Behavior }}</p>
 					{% else %}
 						<p><strong>Behavior:</strong> Behavior modeling incomplete</p>
-					{% endif %}
-
-
-					{% if Monster.Organization != "" %}
-						<p><strong>Preferred Community Type:</strong> {{ Monster.Organization }} </p>
-					{% else %}
-						<p><strong>Preferred Community Type:</strong> Unknown </p>
-					{% endif %}
-					{% if Monster.Activity_Cycle != "" %}
-						<p><strong>Preferred Activity Cycle:</strong> {{ Monster.Activity_Cycle }} </p>
-					{% else %}
-						<p><strong>Preferred Activity Cycle:</strong> Unknown </p>
-					{% endif %}
-					{% if Monster.Diet != "" %}
-						<p><strong>Preferred Diet:</strong> {{ Monster.Diet }} </p>
-					{% else %}
-						<p><strong>Preferred Diet:</strong> Unknown </p>
-					{% endif %}
-					{% if Monster.Habitat != "" %}
-						<p><strong>Preferred Habitat:</strong> {{ Monster.Habitat }} </p>
-					{% else %}
-						<p><strong>Preferred Habitat:</strong> Unknown </p>
 					{% endif %}
 					<hr>
 				{% endfor %}
