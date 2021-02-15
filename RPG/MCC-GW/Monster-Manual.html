@@ -51,7 +51,7 @@ layout: null
 						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
 
-					<img style="float: right;" src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="25%" >
+					<img style="float: right;" src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="25%" onError="this.onerror=null;this.src='https://www.tedt.org/RPG/MCC-GW/images/noimage.png';">
 
 					{% if Monster.Author != "" %}
 						<strong>Reported By:</strong> {{ Monster.Author }}
@@ -267,7 +267,7 @@ layout: null
     <script>
         // put in the image
         var imgJscii = new Jscii({
-            width: 200,
+            width: 150,
             color: true,
             el: document.getElementById('jscii-element-image'),
             fn: function(str) {
@@ -276,12 +276,6 @@ layout: null
         });
         document.getElementById('jscii-element-image').style.display = 'none';
     </script>
-
-
-
-
-
-
 </body>
 
 
