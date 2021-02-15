@@ -41,7 +41,10 @@ layout: null
                 </figure>
 
 			 <h1>The Creatures of Gamma World:</h1>
-				{% for Monster in site.data.GammaWorldFixed.Creatures %}
+
+			 	{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
+
+				 {% for Monster in sorted_GammaWorldFixed %}
 					{% if Monster.Monster_Name != "" %}
 						<h2>{{ Monster.Monster_Name }}</h2>
 					{% else %}
