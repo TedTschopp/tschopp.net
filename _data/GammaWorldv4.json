@@ -104,7 +104,7 @@
       "Attack_3_Bonus_to_Hit": "",
       "Attack_3_Bonus_to_Damage": "",
       "New_Attack_3": "",
-      "Atk_weapon_+-x_melee_(xdx)_and/or_weapon_+-x_missile_fire_(xdx,_range)": "atk weapon melee +3 (1d4+1)",
+      "Atk_weapon_+-x_melee_(xdx)_and/or_weapon_+-x_missile_fire_(xdx_range)": "atk weapon melee +3 (1d4+1)",
       "AC_xx": "AC 11",
       "Effective_Class_Level": 5,
       "New_Level": 9,
