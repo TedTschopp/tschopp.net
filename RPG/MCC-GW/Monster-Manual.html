@@ -45,7 +45,8 @@ layout: null
 			{% comment %}
 			{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
 			{% endcomment %}
-			{% assign sorted_GammaWorldFixed = site.data.CreaturesV4.Creatures | sort: 'GW_Name' %}
+
+			{% assign sorted_GammaWorldFixed = site.data.GammaWorldv4.Creatures | sort: 'GW_Name' %}
 
 				 {% for Monster in sorted_GammaWorldFixed %}
 					{% if Monster.Monster_Name != "" %}
