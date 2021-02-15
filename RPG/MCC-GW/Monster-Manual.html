@@ -52,13 +52,13 @@ layout: null
 					{% else %}
 						<strong>Reported By:</strong> unknown contributor
 					{% endif %}
-
-			 		<img src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="200" >
 					{% if Monster.Source != "" %}
 						in {{ Monster.Source }}
 					{% else %}
 						in <i>data source corrupted</i>.
 					{% endif %}
+
+					<img src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="200" >
 
 					{% if Monster.Role_In_Gamma_World != "" %}
 						<p><strong>Role:</strong> {{ Monster.Role_In_Gamma_World }}
