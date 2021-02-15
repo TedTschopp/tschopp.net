@@ -42,19 +42,19 @@ layout: null
 
 			<h1>The Creatures of Gamma World:</h1>
 
-				{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
-				{% comment %}
-				{% assign sorted_GammaWorldFixed = site.data.CreaturesV4.Creatures | sort: 'GW_Name' %}
-				{% endcomment %}
+			{% comment %}
+			{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
+			{% endcomment %}
+			{% assign sorted_GammaWorldFixed = site.data.CreaturesV4.Creatures | sort: 'GW_Name' %}
 
 				 {% for Monster in sorted_GammaWorldFixed %}
 					{% if Monster.Monster_Name != "" %}
 						<h2>{{ Monster.Monster_Name }}</h2>
 					{% else %}
-						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
+						<h2>{{ Monster.GW_Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
 
-					<img style="float: right;" src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="25%" onError="this.onerror=null;this.src='https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/noimage.png';">
+					<img style="float: right;" src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.GW_Name }}.png" width="25%" onError="this.onerror=null;this.src='https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/noimage.png';">
 
 					{% if Monster.Author != "" %}
 						<strong>Reported By:</strong> {{ Monster.Author }}
