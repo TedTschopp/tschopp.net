@@ -1,5 +1,6 @@
 ---
 layout: null
+pag
 ---
 
 <!doctype html>
@@ -41,10 +42,15 @@ layout: null
                 </figure>
 
 			<h1>The Creatures of Gamma World:</h1>
-
+			{% comment %}
 			{% assign sorted_GammaWorldFixed = site.data.GammaWorldv4.Creatures | sort: 'Name' %}
+			{% endcomment %}
 
-				 {% for Monster in sorted_GammaWorldFixed %}
+			{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
+
+
+
+				{% for Monster in sorted_GammaWorldFixed %}
 					{% if Monster.Monster_Name != "" %}
 						<h2>{{ Monster.Monster_Name }}</h2>
 					{% else %}
