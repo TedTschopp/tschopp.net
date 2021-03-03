@@ -46,10 +46,10 @@ layout: null
 				{% comment %}
 				{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
 				{% endcomment %}
-
 				<ol>
 				{% index = 0 %}
 				{% for Monster in sorted_GammaWorldFixed %}
+					{% index = index +1 %}
 					<li><a href="#"details{{index}}">
 						{% if Monster.Monster_Name != "" %}
 							{{ Monster.Monster_Name }}
@@ -64,12 +64,8 @@ layout: null
 							{% else %}
 								in <i>data source corrupted</i>.
 							{% endif %}
-
-
-
 						{% else %}
 							{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
-
 							{% if Monster.Author != "" %}
 								<strong>Reported By:</strong> {{ Monster.Author }}
 							{% else %}
@@ -83,7 +79,6 @@ layout: null
 						{% endif %}
 					</a></li>
 				{% endfor %}
-
 				</ol>
 				{% index = 0 %}
 				{% for Monster in sorted_GammaWorldFixed %}
@@ -228,7 +223,7 @@ layout: null
 					<p>{% if Monster.Frequency != "" %}
 						<strong>Frequency:</strong> {{ Monster.Frequency }}
 					{% else %}
-						<<strong>Frequency:</strong> Unknown
+						<strong>Frequency:</strong> Unknown
 					{% endif %}</br>
 					{% if Monster.Organization != "" %}
 						<strong>Organization:</strong> {{ Monster.Organization }}
