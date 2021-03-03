@@ -41,19 +41,60 @@ layout: null
                 </figure>
 
 			<h1>The Creatures of Gamma World:</h1>
-			{% assign sorted_GammaWorldFixed = site.data.GammaWorldv5.CreaturesV5 | sort: 'Name' %}
+				{% assign sorted_GammaWorldFixed = site.data.GammaWorldv5.CreaturesV5 | sort: 'Name' %}
 
-			{% comment %}
-			{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
-			{% endcomment %}
+				{% comment %}
+				{% assign sorted_GammaWorldFixed = site.data.GammaWorldFixed.Creatures | sort: 'Name' %}
+				{% endcomment %}
 
-
-
+				<ol>
+				{% index = 0 %}
 				{% for Monster in sorted_GammaWorldFixed %}
+					<li><a href="#"details{{index}}">
+						{% if Monster.Monster_Name != "" %}
+							{{ Monster.Monster_Name }}
+
+							{% if Monster.Author != "" %}
+								<strong>Reported By:</strong> {{ Monster.Author }}
+							{% else %}
+								<strong>Reported By:</strong> unknown contributor
+							{% endif %}
+							{% if Monster.Source != "" %}
+								in {{ Monster.Source }}
+							{% else %}
+								in <i>data source corrupted</i>.
+							{% endif %}
+
+
+
+						{% else %}
+							{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
+
+							{% if Monster.Author != "" %}
+								<strong>Reported By:</strong> {{ Monster.Author }}
+							{% else %}
+								<strong>Reported By:</strong> unknown contributor
+							{% endif %}
+							{% if Monster.Source != "" %}
+								in {{ Monster.Source }}
+							{% else %}
+								in <i>data source corrupted</i>.
+							{% endif %}
+	
+
+
+
+
+						{% endif %}
+					</a></li>
+				</ol>
+				{% index = 0 %}
+				{% for Monster in sorted_GammaWorldFixed %}
+					{% index = index +1 %}
 					{% if Monster.Monster_Name != "" %}
-						<h2>{{ Monster.Monster_Name }}</h2>
+						<h2 id="details{{index}}">{{ Monster.Monster_Name }}</h2>
 					{% else %}
-						<h2>{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
+						<h2 id="details{{index}}">{{ Monster.Name }} {{ Monster.Common_Name }}</h2>
 					{% endif %}
 
 					<img style="float: right;" src="https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/{{ Monster.Name }}.png" width="25%" onError="this.onerror=null;this.src='https://www.tedt.org/RPG/MCC-GW/images/Monster-Manual/noimage.png';">
